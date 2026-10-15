@@ -1,5 +1,138 @@
 {
   "about": "Jobs found by Claude's weekly browser sweep",
-  "sweptAt": null,
-  "items": []
+  "sweptAt": "2026-10-15T22:24:49.904Z",
+  "items": [
+    {
+      "title": "Assistant Dockmaster - Deep Point Marina",
+      "company": "Bald Head Island Limited",
+      "location": "Southport, NC",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.craigslist.org/view/d/wilmington-assistant-dockmaster-deep/qbanLNbAddBFw6mF89Sa3h",
+      "postedAt": "2026-10-09T12:00:00Z",
+      "snippet": "Full-time dock crew at the Bald Head Island ferry marina (85 slips, may cover the 170-slip BHI marina). Asks for public-facing + marina experience, which matches his 8 seasons. Needs an NC driver licence.",
+      "trackHint": "marine-local",
+      "source": "sweep"
+    },
+    {
+      "title": "Rigger — Tracker Boat Center",
+      "company": "Bass Pro Shops",
+      "location": "Myrtle Beach, SC",
+      "remote": false,
+      "pay": "",
+      "url": "https://careers.basspro.com/us/en/job/R267762/Rigger",
+      "postedAt": null,
+      "snippet": "Full-time, rigging motors and accessories on new boats at the Myrtle Beach Tracker boat center. Hands-on boat work at home with no licence needed. Pay not posted (ZipRecruiter estimates $21.50–28/hr).",
+      "trackHint": "marine-local",
+      "source": "sweep"
+    },
+    {
+      "title": "Marine Construction Crew Member",
+      "company": "R. L. Morrison & Sons, Inc.",
+      "location": "McClellanville, SC",
+      "remote": false,
+      "pay": "$18 - $35 an hour",
+      "url": "https://www.indeed.com/viewjob?jk=16ffdfd6421ec6e0",
+      "postedAt": null,
+      "snippet": "Marine construction crew (docks, piers, bulkheads from barges) between Georgetown and Charleston, $18–35/hr. Work on the water with real pay; his boat handling helps.",
+      "trackHint": "marine-chs",
+      "source": "sweep"
+    },
+    {
+      "title": "Deckhand",
+      "company": "Biscayne Lady Yacht Charters",
+      "location": "Miami, FL",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.indeed.com/viewjob?jk=27140efeb3036919",
+      "postedAt": null,
+      "snippet": "Deckhand on a Miami private/event charter yacht (day boat, not live-aboard). Passenger-vessel sea time counts toward a USCG captain licence. Pay not listed. Posted in the last 7 days.",
+      "trackHint": "marine-national",
+      "source": "sweep"
+    },
+    {
+      "title": "Sales Development Representative",
+      "company": "Fieldwire",
+      "location": "Remote",
+      "remote": true,
+      "pay": "$45,000 - $51,000 a year",
+      "url": "https://www.indeed.com/viewjob?jk=7548137a806ca658",
+      "postedAt": null,
+      "snippet": "Remote entry-level SDR selling construction-site software (Hilti company). A field/trades product suits his hands-on background. Posted in the last 7 days.",
+      "trackHint": "tech-sales",
+      "source": "sweep"
+    },
+    {
+      "title": "Sales Development Representative, High Growth B2B SaaS (Remote)",
+      "company": "TeamDynamix",
+      "location": "Remote",
+      "remote": true,
+      "pay": "$55,000 - $60,000 a year",
+      "url": "https://www.indeed.com/viewjob?jk=47606fe5a4b36c66",
+      "postedAt": null,
+      "snippet": "Remote SDR, $55–60k base, B2B SaaS. Entry-level; his Best Buy/Meta demo work is the pitch. Posted in the last 7 days.",
+      "trackHint": "tech-sales",
+      "source": "sweep"
+    },
+    {
+      "title": "Sales Development Representative -- Remote Position",
+      "company": "LegiStorm",
+      "location": "Remote",
+      "remote": true,
+      "pay": "$55,000 - $70,000 a year",
+      "url": "https://www.indeed.com/viewjob?jk=45a309e382ca946f",
+      "postedAt": null,
+      "snippet": "Remote SDR, $55–70k, selling a government-affairs data product. Entry level, one of the best base salaries this week. Posted in the last 7 days.",
+      "trackHint": "tech-sales",
+      "source": "sweep"
+    },
+    {
+      "title": "Data Annotation Specialist - Computer Vision",
+      "company": "Bobyard",
+      "location": "Remote",
+      "remote": true,
+      "pay": "$20 - $35 an hour",
+      "url": "https://www.indeed.com/viewjob?jk=9c3e998527fde73a",
+      "postedAt": null,
+      "snippet": "Remote $20–35/hr labelling construction/landscape plans for an AI model. No degree needed; good practice for AI-trainer work. Posted in the last 7 days.",
+      "trackHint": "ai-web",
+      "source": "sweep"
+    },
+    {
+      "title": "Video Data Annotation Specialist",
+      "company": "AuraOne Human Data",
+      "location": "Remote",
+      "remote": true,
+      "pay": "",
+      "url": "https://www.indeed.com/viewjob?jk=da5f88d3186e9776",
+      "postedAt": null,
+      "snippet": "Remote video annotation for AI training data, entry-level gig work. Pay not listed. Posted in the last 7 days.",
+      "trackHint": "ai-web",
+      "source": "sweep"
+    },
+    {
+      "title": "Seasonal Brand Ambassador",
+      "company": "Ralph Lauren",
+      "location": "North Myrtle Beach, SC",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.indeed.com/viewjob?jk=9399013d3e57b36c",
+      "postedAt": null,
+      "snippet": "Holiday-season brand ambassador at the NMB outlets. Direct match for his brand-ambassador résumé; quick to land. Posted in the last 7 days.",
+      "trackHint": "quick-cash",
+      "source": "sweep"
+    },
+    {
+      "title": "Detailer",
+      "company": "CarMax",
+      "location": "Myrtle Beach, SC",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.indeed.com/viewjob?jk=85885431bed32735",
+      "postedAt": null,
+      "snippet": "Vehicle detailer in Myrtle Beach with a $1,000 sign-on bonus. Steady hours; detailing skills carry over to boats. Posted in the last 7 days.",
+      "trackHint": "quick-cash",
+      "source": "sweep"
+    }
+  ]
 }
