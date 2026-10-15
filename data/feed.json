@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T21:38:56.466Z",
+  "generatedAt": "2026-10-15T21:40:27.290Z",
   "sources": [
     {
       "name": "adzuna",
@@ -64,7 +64,7 @@
     {
       "name": "pagewatch",
       "ok": true,
-      "count": 0,
+      "count": 3,
       "error": null
     },
     {
@@ -98,8 +98,25 @@
       "flags": [
         "entry-level",
         "high-pay"
-      ],
-      "otherLocations": []
+      ]
+    },
+    {
+      "title": "Retail Sales Associate (Seasonal)-HWY 17-$13/hr",
+      "company": "New Balance",
+      "location": "Myrtle Beach, Horry County",
+      "remote": false,
+      "pay": "$24,752–$30,888/year",
+      "url": "https://www.adzuna.com/details/5920366000?utm_medium=api&utm_source=ea9765bf",
+      "postedAt": "2026-10-09T05:25:40.000Z",
+      "snippet": "Who We Are: Since 1906, New Balance has empowered people through sport and craftsmanship to create positive change in communities around the world. We innovate fearlessly, guided by our core values and driven by the belief that conventions…",
+      "source": "adzuna",
+      "id": "d1add3a7ef63f1899747aab9668cecb6846fe0c6",
+      "track": "tech-sales",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 80,
+      "flags": [
+        "entry-level"
+      ]
     },
     {
       "title": "Junior Full reputed company Developer",
@@ -117,8 +134,7 @@
       "score": 80,
       "flags": [
         "entry-level"
-      ],
-      "otherLocations": []
+      ]
     },
     {
       "title": "(US) Sales Development Representative (6 month contract)",
@@ -132,11 +148,11 @@
       "source": "jobicy",
       "id": "a10801324b75069c652aa7e7198efaa4de11d04d",
       "track": "tech-sales",
+      "firstSeenAt": "2026-10-15T20:32:31.715Z",
       "score": 80,
       "flags": [
         "entry-level"
       ],
-      "firstSeenAt": "2026-10-15T20:32:31.715Z",
       "otherLocations": []
     },
     {
@@ -159,6 +175,22 @@
       "otherLocations": []
     },
     {
+      "title": "Retail Sales Associate",
+      "company": "Journeys",
+      "location": "Carolina Forest, Horry County",
+      "remote": false,
+      "pay": "$30,000–$34,000/year",
+      "url": "https://www.adzuna.com/land/ad/5925211545?se=RM0PCuHI8RGYwPFSmBM_bA&utm_medium=api&utm_source=ea9765bf&v=9EF26C1C4727EA08FCCDCE56C01E364152A027A7",
+      "postedAt": "2026-10-12T21:42:32.000Z",
+      "snippet": "Journeys is hiring a Part-Time Sales Associate to join our youthful, fashion-forward team. In this on-site role, you’ll create an energetic, welcoming experience for teen and young adult shoppers, helping them find footwear and accessories…",
+      "source": "adzuna",
+      "id": "3d11fad3f9004334bee5705a892af1d29577b7a8",
+      "track": "tech-sales",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 75,
+      "flags": []
+    },
+    {
       "title": "Freelance Graphic Designer (Reviewer) - AI Training",
       "company": "HumanSignal",
       "location": "Remote",
@@ -172,8 +204,7 @@
       "track": "ai-web",
       "firstSeenAt": "2026-10-15T21:29:28.105Z",
       "score": 75,
-      "flags": [],
-      "otherLocations": []
+      "flags": []
     },
     {
       "title": "Experienced AB Tugboat Deckhand at Curtin Maritime Long Beach, CA",
@@ -214,8 +245,7 @@
         "far-away",
         "live-aboard",
         "high-pay"
-      ],
-      "otherLocations": []
+      ]
     },
     {
       "title": "AI Trainer",
@@ -229,12 +259,136 @@
       "source": "remoteok",
       "id": "659c28bb3cba8c2e56f6c10a6b72f41c93d79542",
       "track": "ai-web",
+      "firstSeenAt": "2026-10-15T20:32:31.715Z",
       "score": 75,
       "flags": [
         "high-pay"
+      ]
+    },
+    {
+      "title": "Boat Captain",
+      "company": "Guest Services",
+      "location": "Dania Beach, Broward County",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/details/5928359906?utm_medium=api&utm_source=ea9765bf",
+      "postedAt": "2026-10-14T22:22:56.000Z",
+      "snippet": "Compensation Amount: 26.00 USD Hourly Job Summary: Our Tour Boat Captains pilot twin outboard 45' Corinthian Catamarans in Everglades Backcountry and Near Costal Florida Bay waters. Our Captains operate in strict compliance with USCG regul…",
+      "source": "adzuna",
+      "id": "1a3ec222108706baaf28652a395d13a8bf059f6b",
+      "track": "marine-national",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 70,
+      "flags": [
+        "far-away",
+        "pay-unknown"
+      ]
+    },
+    {
+      "title": "Event Coordinator - Myrtle Beach",
+      "company": "Marriott Vacations Worldwide",
+      "location": "Carolina Forest, Horry County",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/land/ad/5928128648?se=XELxCeHI8RGgYcdhZypWfA&utm_medium=api&utm_source=ea9765bf&v=8218E2388123D5B0D171BEB51D169F54883CFFE0",
+      "postedAt": "2026-10-14T20:33:09.000Z",
+      "snippet": "Are you looking for a place where meaningful moments are made together? We make vacation dreams come true for travelers around the world in a supportive, friendly, and beautiful work environment. As a Coordinator Event MS, you will assist …",
+      "source": "adzuna",
+      "id": "83842bba27e13f8e3a6dd42198b3b7cd7843ee0f",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 70,
+      "flags": []
+    },
+    {
+      "title": "Retail Sales - Part Time",
+      "company": "Lowe's",
+      "location": "Whiteville, Columbus County (+1 more)",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/land/ad/5927396490?se=RM0PCuHI8RGYwPFSmBM_bA&utm_medium=api&utm_source=ea9765bf&v=3605B99952E25A519F00389DA78908F466A979B1",
+      "postedAt": "2026-10-14T07:26:51.000Z",
+      "snippet": "Your Impact at Lowe's As a Customer Service Associate, you combine top-notch customer service skills with genuine care for people to help customers feel comfortable while shopping at Lowe's. This is an excellent role for those who want to …",
+      "source": "adzuna",
+      "id": "f9dc3b61cf796a30c72041b6c73fab1acd7cc571",
+      "track": "tech-sales",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 70,
+      "flags": [],
+      "otherLocations": [
+        "Carolina Forest, Horry County"
+      ]
+    },
+    {
+      "title": "Event Staff Team Member - John T. Rhodes Myrtle Beach Sports Center",
+      "company": "The Sports Facilities Companies",
+      "location": "Carolina Forest, Horry County",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/details/5926453331?utm_medium=api&utm_source=ea9765bf",
+      "postedAt": "2026-10-13T21:11:58.000Z",
+      "snippet": "EVENTS TEAM MEMBER - John T. Rhodes Myrtle Beach Sports Center MBSC SFM, LLC LOCATION: Myrtle Beach, South Carolina DEPARTMENT: OPERATIONS REPORTS TO: DIRECTOR OF EVENTS STATUS: PART-TIME ABOUT THE COMPANY: John T. Rhodes Myrtle Beach is a…",
+      "source": "adzuna",
+      "id": "c858e255602449299f18e2c9fd3202bcc5c1e219",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 70,
+      "flags": []
+    },
+    {
+      "title": "Valet Parking Attendant MUSC ( Afternoon Shift )",
+      "company": "Reimagined Parking",
+      "location": "Saint Andrews, Charleston County",
+      "remote": false,
+      "pay": "$22,880–$41,600/year",
+      "url": "https://www.adzuna.com/land/ad/5923338516?se=EnD-CeHI8RGnv4JedLxTEg&utm_medium=api&utm_source=ea9765bf&v=4ECB4D1E165499CDC5287E00450ECF9BBB14AB2C",
+      "postedAt": "2026-10-11T09:14:03.000Z",
+      "snippet": "Position: Valet Parking Attendant Location: MUSC Rutledge Tower Adress: 135 Rutledge Ave Shift: Mon-Fri 9:30am-5:30pm Pay rate: $11 - $20/hr plus tips At Reimagined Parking, we believe great people drive great results. That’s why we priori…",
+      "source": "adzuna",
+      "id": "b8958a078c4d6389359920c5aafaa3910aa0293a",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 70,
+      "flags": []
+    },
+    {
+      "title": "Seasonal Retail Sales Associate",
+      "company": "DICK's Sporting Goods/Golf Galaxy",
+      "location": "Carolina Forest, Horry County",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/details/5914214573?utm_medium=api&utm_source=ea9765bf",
+      "postedAt": "2026-10-06T14:21:02.000Z",
+      "snippet": "At DICK’S Sporting Goods , we believe in how positively sports can change lives. On our team, everyone plays a critical role in creating confidence and excitement by personally equipping all athletes to achieve their dreams. We are committ…",
+      "source": "adzuna",
+      "id": "e198e0d493517d255e13838f79eb38b39f97b545",
+      "track": "tech-sales",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 70,
+      "flags": [
+        "entry-level"
+      ]
+    },
+    {
+      "title": "Seasonal Retail Sales Associate",
+      "company": "DICK'S Sporting Goods",
+      "location": "North Myrtle Beach, Horry County (+1 more)",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/details/5914214568?utm_medium=api&utm_source=ea9765bf",
+      "postedAt": "2026-10-06T14:21:01.000Z",
+      "snippet": "At DICK’S Sporting Goods , we believe in how positively sports can change lives. On our team, everyone plays a critical role in creating confidence and excitement by personally equipping all athletes to achieve their dreams. We are committ…",
+      "source": "adzuna",
+      "id": "a98ae133d93c4fc2487bebd7e3206c096f784445",
+      "track": "tech-sales",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 70,
+      "flags": [
+        "entry-level"
       ],
-      "firstSeenAt": "2026-10-15T20:32:31.715Z",
-      "otherLocations": []
+      "otherLocations": [
+        "Myrtle Beach, Horry County"
+      ]
     },
     {
       "title": "Deckhand – Inland Barge Fleet Hour Shifts",
@@ -288,9 +442,9 @@
       "source": "jobicy",
       "id": "66cc2f6bc9b9dcf3cd1268d3f5e3e5463f80e31d",
       "track": "tech-sales",
+      "firstSeenAt": "2026-10-15T20:32:31.715Z",
       "score": 70,
       "flags": [],
-      "firstSeenAt": "2026-10-15T20:32:31.715Z",
       "otherLocations": []
     },
     {
@@ -305,10 +459,9 @@
       "source": "wwr",
       "id": "f253318169a5701e323b31b38f1c8d1e6317f645",
       "track": "tech-sales",
-      "score": 70,
-      "flags": [],
       "firstSeenAt": "2026-10-15T20:32:31.715Z",
-      "otherLocations": []
+      "score": 70,
+      "flags": []
     },
     {
       "title": "Sales Development Representative",
@@ -322,10 +475,9 @@
       "source": "wwr",
       "id": "879015af3d848e9ecd31aa44d7f8a4cb156bfe58",
       "track": "tech-sales",
-      "score": 70,
-      "flags": [],
       "firstSeenAt": "2026-10-15T20:32:31.715Z",
-      "otherLocations": []
+      "score": 70,
+      "flags": []
     },
     {
       "title": "Account Executive - Technology",
@@ -339,10 +491,112 @@
       "source": "wwr",
       "id": "80917b49c999848d13efb8e4f47ad07152ed2246",
       "track": "tech-sales",
-      "score": 70,
-      "flags": [],
       "firstSeenAt": "2026-10-15T20:32:31.715Z",
-      "otherLocations": []
+      "score": 70,
+      "flags": []
+    },
+    {
+      "title": "Sales Associate - Spirit",
+      "company": "Spencer Gifts - Spirit Halloween",
+      "location": "Carolina Forest, Horry County",
+      "remote": false,
+      "pay": "$24,544–$24,960/year",
+      "url": "https://www.adzuna.com/land/ad/5928102847?se=RM0PCuHI8RGYwPFSmBM_bA&utm_medium=api&utm_source=ea9765bf&v=6121F1585D20D101A0BA3122451A1FF3FEB234E2",
+      "postedAt": "2026-10-14T20:27:19.000Z",
+      "snippet": "Hourly rate ranges from $11.80 - $12.00 per hour and is dependent upon qualifications and experience. Benefits include: Set-Up and Tear Down Premium Pay Programs, End of Season Premium Pay Program. All Bonus and Pay Programs subject to qua…",
+      "source": "adzuna",
+      "id": "4cc3a608578dd5f86f443d970c28f9a6b9c3e6cc",
+      "track": "tech-sales",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 65,
+      "flags": [
+        "entry-level"
+      ]
+    },
+    {
+      "title": "AE - Brand Ambassador (Sales Associate)",
+      "company": "American Eagle Outfitters",
+      "location": "Carolina Forest, Horry County (+3 more)",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/details/5924194338?utm_medium=api&utm_source=ea9765bf",
+      "postedAt": "2026-10-12T07:43:31.000Z",
+      "snippet": "Description YOUR ROLE As a part-time Brand Ambassador, you bring our brand to life every day! Your goal is to provide everyone who comes in the store with an amazing shopping experience, making their day better than before they came in. Yo…",
+      "source": "adzuna",
+      "id": "b17b3b7e5f35a1006e3d20712b8910a7238e57f3",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 65,
+      "flags": [],
+      "otherLocations": [
+        "Charleston Air Force Base, Charleston County",
+        "Myrtle Beach, Horry County",
+        "Mount Pleasant, Charleston County"
+      ]
+    },
+    {
+      "title": "Retail Sales Associate - Full Time",
+      "company": "AutoZone, Inc.",
+      "location": "Georgetown, Georgetown County",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/land/ad/5923144423?se=RM0PCuHI8RGYwPFSmBM_bA&utm_medium=api&utm_source=ea9765bf&v=A73EFE47048C727466FE0227E98FB078D1ABF718",
+      "postedAt": "2026-10-11T07:05:50.000Z",
+      "snippet": "Job Description AutoZone's store teams are the frontline of WOW! customer service, ensuring that customers find the right parts and solutions for their automotive needs. Store employees maintain well-stocked inventory, assist customers wit…",
+      "source": "adzuna",
+      "id": "04e3ec96b0e3f7b7c871c1da48d5f4ced7a08d1d",
+      "track": "tech-sales",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 65,
+      "flags": []
+    },
+    {
+      "title": "Retail Sales Associate - Full Time",
+      "company": "AutoZone",
+      "location": "Georgetown, Georgetown County",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/details/5921366873?utm_medium=api&utm_source=ea9765bf",
+      "postedAt": "2026-10-09T20:56:24.000Z",
+      "snippet": "Job Description AutoZone's store teams are the frontline of WOW! customer service, ensuring that customers find the right parts and solutions for their automotive needs. Store employees maintain well-stocked inventory, assist customers wit…",
+      "source": "adzuna",
+      "id": "81de24978663d2d199370168153bf1bece25c19d",
+      "track": "tech-sales",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 65,
+      "flags": []
+    },
+    {
+      "title": "Aerie - Brand Ambassador (Sales Associate)",
+      "company": "American Eagle Outfitters",
+      "location": "Charleston Air Force Base, Charleston County",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/details/5920254571?utm_medium=api&utm_source=ea9765bf",
+      "postedAt": "2026-10-09T03:29:07.000Z",
+      "snippet": "Description YOUR ROLE As a part-time Brand Ambassador, you bring our brand to life every day! Your goal is to provide everyone who comes in the store with an amazing shopping experience, making their day better than before they came in. Yo…",
+      "source": "adzuna",
+      "id": "fa73692a2a627e86763167f329d39adeedfa2f04",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 65,
+      "flags": []
+    },
+    {
+      "title": "Retail Sales Associate",
+      "company": "Harbor Freight",
+      "location": "Georgetown, Georgetown County",
+      "remote": false,
+      "pay": "$32,240/year",
+      "url": "https://www.adzuna.com/details/5911595407?utm_medium=api&utm_source=ea9765bf",
+      "postedAt": "2026-10-04T10:06:33.000Z",
+      "snippet": "A Retail Sales Associate (part-time) is a valued member of a high performing team who is empowered & equipped to do their job. You will know why your work matters and take pride in what you do! The anticipated rate for this position is $15…",
+      "source": "adzuna",
+      "id": "915cdfb75587cc3b78665b6148bc223f979915f3",
+      "track": "tech-sales",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 65,
+      "flags": []
     },
     {
       "title": "Front End Web Developers",
@@ -358,8 +612,7 @@
       "track": "ai-web",
       "firstSeenAt": "2026-10-15T21:36:30.388Z",
       "score": 65,
-      "flags": [],
-      "otherLocations": []
+      "flags": []
     },
     {
       "title": "Marine Surveyor (Open to both U.S. Citizens and Federal Employees)",
@@ -376,10 +629,10 @@
       "firstSeenAt": "2026-10-15T21:36:30.388Z",
       "score": 65,
       "flags": [
+        "drug-test",
         "far-away",
         "high-pay"
-      ],
-      "otherLocations": []
+      ]
     },
     {
       "title": "MARINE SURVEYOR",
@@ -398,8 +651,7 @@
       "flags": [
         "far-away",
         "high-pay"
-      ],
-      "otherLocations": []
+      ]
     },
     {
       "title": "Offshore Deckhand",
@@ -451,12 +703,13 @@
       "source": "usajobs",
       "id": "463841113ce05f3ddf70705d230f017d82a98da2",
       "track": "marine-national",
+      "firstSeenAt": "2026-10-15T20:42:31.689Z",
       "score": 65,
       "flags": [
+        "needs-twic",
         "live-aboard",
         "high-pay"
       ],
-      "firstSeenAt": "2026-10-15T20:42:31.689Z",
       "otherLocations": []
     },
     {
@@ -471,13 +724,15 @@
       "source": "usajobs",
       "id": "7229c1d6da8d647d8a9c18bb0c9efd3f0e1eeef0",
       "track": "marine-national",
+      "firstSeenAt": "2026-10-15T20:42:31.689Z",
       "score": 65,
       "flags": [
+        "needs-twic",
+        "needs-mmc",
         "far-away",
         "live-aboard",
         "high-pay"
       ],
-      "firstSeenAt": "2026-10-15T20:42:31.689Z",
       "otherLocations": []
     },
     {
@@ -492,14 +747,14 @@
       "source": "usajobs",
       "id": "71bc434ff616d9dd067e15bb60fad7b711ffb0f8",
       "track": "marine-national",
+      "firstSeenAt": "2026-10-15T20:42:31.689Z",
       "score": 65,
       "flags": [
+        "needs-mmc",
         "far-away",
         "live-aboard",
         "high-pay"
-      ],
-      "firstSeenAt": "2026-10-15T20:42:31.689Z",
-      "otherLocations": []
+      ]
     },
     {
       "title": "Full-Stack E-commerce Developer with Sage X3 Experience",
@@ -513,10 +768,9 @@
       "source": "wwr",
       "id": "6f98dce31db7f1bf44d7e888349113a707bb7c56",
       "track": "ai-web",
-      "score": 65,
-      "flags": [],
       "firstSeenAt": "2026-10-15T20:32:31.715Z",
-      "otherLocations": []
+      "score": 65,
+      "flags": []
     },
     {
       "title": "Sales Development Representative",
@@ -530,10 +784,9 @@
       "source": "jobicy",
       "id": "2748cca7225b4132f1f60d37118f07a2df77c857",
       "track": "tech-sales",
-      "score": 65,
-      "flags": [],
       "firstSeenAt": "2026-10-15T20:32:31.715Z",
-      "otherLocations": []
+      "score": 65,
+      "flags": []
     },
     {
       "title": "Full Stack Developer",
@@ -547,10 +800,9 @@
       "source": "wwr",
       "id": "453afed600eea27f3503908889ed3b32fa2406ac",
       "track": "ai-web",
-      "score": 65,
-      "flags": [],
       "firstSeenAt": "2026-10-15T20:32:31.715Z",
-      "otherLocations": []
+      "score": 65,
+      "flags": []
     },
     {
       "title": "SDR (Sales Development Representative)",
@@ -564,10 +816,9 @@
       "source": "jobicy",
       "id": "8901edf9bcd2ba8bba61c41b391b68ac8d2f753b",
       "track": "tech-sales",
-      "score": 65,
-      "flags": [],
       "firstSeenAt": "2026-10-15T20:32:31.715Z",
-      "otherLocations": []
+      "score": 65,
+      "flags": []
     },
     {
       "title": "Sales Development Representative, Outbound",
@@ -581,10 +832,9 @@
       "source": "jobicy",
       "id": "804375465db91049bb60f51d7bee2a9ce6e0f381",
       "track": "tech-sales",
-      "score": 65,
-      "flags": [],
       "firstSeenAt": "2026-10-15T20:32:31.715Z",
-      "otherLocations": []
+      "score": 65,
+      "flags": []
     },
     {
       "title": "Account Executive, Enterprise",
@@ -598,9 +848,9 @@
       "source": "wwr",
       "id": "674a169e4f87870476d830bae8c865449851fc19",
       "track": "tech-sales",
+      "firstSeenAt": "2026-10-15T20:32:31.715Z",
       "score": 65,
       "flags": [],
-      "firstSeenAt": "2026-10-15T20:32:31.715Z",
       "otherLocations": []
     },
     {
@@ -615,10 +865,9 @@
       "source": "wwr",
       "id": "ba8c1107bedad3014fee34aa762bb24cf6c46b70",
       "track": "tech-sales",
-      "score": 65,
-      "flags": [],
       "firstSeenAt": "2026-10-15T20:32:31.715Z",
-      "otherLocations": []
+      "score": 65,
+      "flags": []
     },
     {
       "title": "AI Trainer Image QA Evaluator",
@@ -632,10 +881,209 @@
       "source": "remoteok",
       "id": "5cd2489801e2d369b03d42cb952c69dc3d349d0d",
       "track": "ai-web",
-      "score": 65,
-      "flags": [],
       "firstSeenAt": "2026-10-15T20:32:31.715Z",
+      "score": 65,
+      "flags": []
+    },
+    {
+      "title": "Part-time Nabisco Merchandiser",
+      "company": "Mondelez International",
+      "location": "Chadbourn, Columbus County (+5 more)",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/land/ad/5927401925?se=XELxCeHI8RGgYcdhZypWfA&utm_medium=api&utm_source=ea9765bf&v=292863BB114BE1B6E7D7765576803CAF7DF156F2",
+      "postedAt": "2026-10-14T07:29:16.000Z",
+      "snippet": "Chadbourn, North Carolina, United States Whiteville, North Carolina, United States Tabor City, North Carolina, United States Part time R-179576 Job Description Join our Mission to Lead the Future of Snacking at Mondelēz International Part …",
+      "source": "adzuna",
+      "id": "503aa63a2242a916b78cc0136a0df519fefdcb6a",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 60,
+      "flags": [
+        "entry-level"
+      ],
+      "otherLocations": [
+        "Whiteville, Columbus County",
+        "Tabor City, Columbus County",
+        "Carolina Forest, Horry County",
+        "Pawleys Island, Georgetown County",
+        "Murrells Inlet, Horry County"
+      ]
+    },
+    {
+      "title": "Seasonal Sales Associate (HWY 501)",
+      "company": "Under Armour, Inc.",
+      "location": "Carolina Forest, Horry County",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/land/ad/5927380861?se=RM0PCuHI8RGYwPFSmBM_bA&utm_medium=api&utm_source=ea9765bf&v=9DCBDAB53B6E7202056D52B40B25F796D3736C98",
+      "postedAt": "2026-10-14T07:22:32.000Z",
+      "snippet": "Seasonal Sales Associate (HWY 501) Seasonal Sales Associate (HWY 501) Values & Innovation At Under Armour, we are committed to empowering those who strive for more, and the company's values - Act Sustainably, Celebrate the Wins, Fight on T…",
+      "source": "adzuna",
+      "id": "27e9cfe3ebd371c3d5c768d8164d03936a9b5073",
+      "track": "tech-sales",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 60,
+      "flags": [
+        "entry-level"
+      ]
+    },
+    {
+      "title": "Seasonal Sales Associate",
+      "company": "Under Armour, Inc.",
+      "location": "Carolina Forest, Horry County",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/land/ad/5925663138?se=RM0PCuHI8RGYwPFSmBM_bA&utm_medium=api&utm_source=ea9765bf&v=4D1B8A92FAB6818A208252452370629DCCB2D3B6",
+      "postedAt": "2026-10-13T07:22:40.000Z",
+      "snippet": "Seasonal Sales Associate Seasonal Sales Associate Values & Innovation At Under Armour, we are committed to empowering those who strive for more, and the company's values - Act Sustainably, Celebrate the Wins, Fight on Together, Love Athlet…",
+      "source": "adzuna",
+      "id": "e004996fb9c888ff1f00f440f9fe24c0bbda6398",
+      "track": "tech-sales",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 60,
+      "flags": [
+        "entry-level"
+      ]
+    },
+    {
+      "title": "Retail Sales Associate - Part Time",
+      "company": "AutoZone, Inc.",
+      "location": "Georgetown, Georgetown County",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/land/ad/5918816749?se=RM0PCuHI8RGYwPFSmBM_bA&utm_medium=api&utm_source=ea9765bf&v=6FC29E68A2B1B3C596BC354A2001198E3A5D5C34",
+      "postedAt": "2026-10-08T07:05:41.000Z",
+      "snippet": "Job Description AutoZone's store teams are the frontline of WOW! Customer Service, ensuring that customers find the right parts and solutions for their automotive needs. Store employees maintain well-stocked inventory, assist customers wit…",
+      "source": "adzuna",
+      "id": "61f9597dc8854a68dca473b8e345e93aae66db42",
+      "track": "tech-sales",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 60,
+      "flags": []
+    },
+    {
+      "title": "Retail Sales Associate – Part Time",
+      "company": "Autozone",
+      "location": "Georgetown, Georgetown County",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/details/5918571490?utm_medium=api&utm_source=ea9765bf",
+      "postedAt": "2026-10-08T02:34:15.000Z",
+      "snippet": "Description AutoZone’s store teams are the frontline of WOW! Customer Service, ensuring that customers find the right parts and solutions for their automotive needs. Store employees maintain well-stocked inventory, assist customers with pr…",
+      "source": "adzuna",
+      "id": "decd559fa31f3be0f40d4ddb3cfeb23b35db5bc6",
+      "track": "tech-sales",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 60,
+      "flags": [],
       "otherLocations": []
+    },
+    {
+      "title": "Bellperson & Valet",
+      "company": "Hilton Grand Vacations",
+      "location": "Carolina Forest, Horry County",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/details/5918487421?utm_medium=api&utm_source=ea9765bf",
+      "postedAt": "2026-10-08T01:20:48.000Z",
+      "snippet": "Description Join our amazing Team at the Anderson Ocean Club, a luxurious 172-unit property on the shores of the Atlantic Ocean in beautiful Myrtle Beach! You’ll be working alongside approximately 100 fellow Team Members who are dedicated …",
+      "source": "adzuna",
+      "id": "0564e1c0350209dda68a7476db6e0f944d82f701",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 60,
+      "flags": []
+    },
+    {
+      "title": "Captain - Marine | $5k SIGN ON BONUS | RELO AVAILABLE",
+      "company": "Republic Services",
+      "location": "North Charleston, Charleston County (+1 more)",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/details/5913775498?utm_medium=api&utm_source=ea9765bf",
+      "postedAt": "2026-10-06T08:09:25.000Z",
+      "snippet": "Inspects vessels and peripheral equipment prior to voyage to ensure efficient, safe operation and conformance to regulations and company policies. Utilizes navigational equipment, weather forecasts and tide/current predictions to ensure th…",
+      "source": "adzuna",
+      "id": "0c1f8f2830f9bc4b4963c55d683b505a14443d53",
+      "track": "marine-chs",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 60,
+      "flags": [],
+      "otherLocations": [
+        "Charleston Air Force Base, Charleston County"
+      ]
+    },
+    {
+      "title": "Steward, Olive & Sea - Hilton Fort Lauderdale Marina",
+      "company": "Hilton",
+      "location": "Sunrise, Broward County",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/details/5912426398?utm_medium=api&utm_source=ea9765bf",
+      "postedAt": "2026-10-05T07:13:00.000Z",
+      "snippet": "Job Identification: 225920 Job Category: Stewarding Job Schedule: Full time Salary $20.00/USD/Hourly Equal Opportunity Employer EOE, including disability/vets Exceptional Hospitality Starts with You Picture yourself brightening someone's d…",
+      "source": "adzuna",
+      "id": "dd862ccb5ef1d7a85917b376331cf929d8969447",
+      "track": "marine-national",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 60,
+      "flags": [
+        "far-away",
+        "live-aboard"
+      ]
+    },
+    {
+      "title": "Event Coordinator",
+      "company": "Dave & Buster's",
+      "location": "Myrtle Beach, Horry County",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/details/5911552580?utm_medium=api&utm_source=ea9765bf",
+      "postedAt": "2026-10-04T09:30:31.000Z",
+      "snippet": "Job Description: POSITION SUMMARY: The Event Coordinator supports the sales department in executing the important behind-the-scenes administrative functions that keep the Store functioning efficiently. Without this critical role, our effor…",
+      "source": "adzuna",
+      "id": "acf4c1529d4b35ced113f5bc4b755875b67f5f53",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 60,
+      "flags": []
+    },
+    {
+      "title": "Retail Sales Associate",
+      "company": "Best Buy",
+      "location": "Myrtle Beach, Horry County",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/details/5906995541?utm_medium=api&utm_source=ea9765bf",
+      "postedAt": "2026-10-01T23:06:21.000Z",
+      "snippet": "As a Retail Sales Associate, you'll be the face of Best Buy for customers who visits our stores. We'll train you with the skills and knowledge you need to confidently recommend the right tech products and services to meet each person's uni…",
+      "source": "adzuna",
+      "id": "84453609aff753915db79a20b9d74e2470ce44ce",
+      "track": "tech-sales",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 60,
+      "flags": []
+    },
+    {
+      "title": "Retail Sales",
+      "company": "Cracker Barrel Old Country Store",
+      "location": "Murrells Inlet, Horry County (+2 more)",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/details/5905236902?utm_medium=api&utm_source=ea9765bf",
+      "postedAt": "2026-10-01T05:01:21.000Z",
+      "snippet": "They say you are the company you keep - and at Cracker Barrel, we take that seriously. Whether you’re greeting guests, rolling out biscuits, or keeping things humming behind the scenes, you make the moments that matter, both big and small.…",
+      "source": "adzuna",
+      "id": "1db6e95c1b3db498b9d99464e01ebd5931b8ae77",
+      "track": "tech-sales",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 60,
+      "flags": [],
+      "otherLocations": [
+        "North Myrtle Beach, Horry County",
+        "Myrtle Beach, Horry County"
+      ]
     },
     {
       "title": "Entry-Level Customer Service Representative – Remote‑First Role with arenaflex, Kansas City, MO – Launch Your Career in Service Excellence",
@@ -730,10 +1178,10 @@
       "firstSeenAt": "2026-10-15T21:29:28.105Z",
       "score": 60,
       "flags": [
+        "drug-test",
         "far-away",
         "live-aboard"
-      ],
-      "otherLocations": []
+      ]
     },
     {
       "title": "Lead Dockhand",
@@ -764,10 +1212,9 @@
       "source": "wwr",
       "id": "2475e571bb5b76612f0bf49f9ff0482528a78de7",
       "track": "tech-sales",
-      "score": 60,
-      "flags": [],
       "firstSeenAt": "2026-10-15T20:32:31.715Z",
-      "otherLocations": []
+      "score": 60,
+      "flags": []
     },
     {
       "title": "Digital Marketing & Google Ads / AI Search Specialist",
@@ -781,10 +1228,9 @@
       "source": "wwr",
       "id": "51b3510184ea3a1ac5bc1b72e2e8ca1685cc7181",
       "track": "ai-web",
-      "score": 60,
-      "flags": [],
       "firstSeenAt": "2026-10-15T20:32:31.715Z",
-      "otherLocations": []
+      "score": 60,
+      "flags": []
     },
     {
       "title": "Account Executive - France",
@@ -798,10 +1244,9 @@
       "source": "wwr",
       "id": "0562c140e6658404b514e427af22c595407e026e",
       "track": "tech-sales",
-      "score": 60,
-      "flags": [],
       "firstSeenAt": "2026-10-15T20:32:31.715Z",
-      "otherLocations": []
+      "score": 60,
+      "flags": []
     },
     {
       "title": "Account Executive, Small Business - Nordics (English Speaking)",
@@ -815,10 +1260,9 @@
       "source": "wwr",
       "id": "86442d5d9bb755228afaa6bd8df86d7cdd71b94e",
       "track": "tech-sales",
-      "score": 60,
-      "flags": [],
       "firstSeenAt": "2026-10-15T20:32:31.715Z",
-      "otherLocations": []
+      "score": 60,
+      "flags": []
     },
     {
       "title": "Account Executive, Enterprise (Denmark)",
@@ -832,10 +1276,9 @@
       "source": "wwr",
       "id": "7b8db388fd5b5fb1320f9ec3016afa2f2d2b0f26",
       "track": "tech-sales",
-      "score": 60,
-      "flags": [],
       "firstSeenAt": "2026-10-15T20:32:31.715Z",
-      "otherLocations": []
+      "score": 60,
+      "flags": []
     },
     {
       "title": "Account Executive, Enterprise (Chicago)",
@@ -849,10 +1292,9 @@
       "source": "wwr",
       "id": "2b5bec1860a97f1abf5af2cb21377f6c94be68e5",
       "track": "tech-sales",
-      "score": 60,
-      "flags": [],
       "firstSeenAt": "2026-10-15T20:32:31.715Z",
-      "otherLocations": []
+      "score": 60,
+      "flags": []
     },
     {
       "title": "Account Executive",
@@ -866,10 +1308,9 @@
       "source": "wwr",
       "id": "340d67ed7c73ab35519ff85a2d1fc31ceb3fdf3a",
       "track": "tech-sales",
-      "score": 60,
-      "flags": [],
       "firstSeenAt": "2026-10-15T20:32:31.715Z",
-      "otherLocations": []
+      "score": 60,
+      "flags": []
     },
     {
       "title": "Account Executive, Enterprise (Acquisition) UK",
@@ -883,10 +1324,9 @@
       "source": "wwr",
       "id": "38cd47465467be7a74bf9d82f1e8a16b162ab039",
       "track": "tech-sales",
-      "score": 60,
-      "flags": [],
       "firstSeenAt": "2026-10-15T20:32:31.715Z",
-      "otherLocations": []
+      "score": 60,
+      "flags": []
     },
     {
       "title": "Account Executive, Commercial - NorCal",
@@ -900,10 +1340,9 @@
       "source": "wwr",
       "id": "22c33336fa9c9b02598c35af3c609e40acda0ba8",
       "track": "tech-sales",
-      "score": 60,
-      "flags": [],
       "firstSeenAt": "2026-10-15T20:32:31.715Z",
-      "otherLocations": []
+      "score": 60,
+      "flags": []
     },
     {
       "title": "Account Executive, Commercial (Upstate New York)",
@@ -917,10 +1356,9 @@
       "source": "wwr",
       "id": "ec3006a9b3444f9cd119f9a4555b367b7b0ac392",
       "track": "tech-sales",
-      "score": 60,
-      "flags": [],
       "firstSeenAt": "2026-10-15T20:32:31.715Z",
-      "otherLocations": []
+      "score": 60,
+      "flags": []
     },
     {
       "title": "Web Designer, eCRM",
@@ -934,10 +1372,9 @@
       "source": "wwr",
       "id": "e0030514d60e34d3afc4c261bba092eefbcb5d9d",
       "track": "ai-web",
-      "score": 60,
-      "flags": [],
       "firstSeenAt": "2026-10-15T20:32:31.715Z",
-      "otherLocations": []
+      "score": 60,
+      "flags": []
     },
     {
       "title": "Web Developer (Fresh graduate welcome, WFH policy, on-job-training)",
@@ -951,10 +1388,9 @@
       "source": "wwr",
       "id": "cf872c6bc6d2b99fb723822caa69e1b545d028a8",
       "track": "ai-web",
-      "score": 60,
-      "flags": [],
       "firstSeenAt": "2026-10-15T20:32:31.715Z",
-      "otherLocations": []
+      "score": 60,
+      "flags": []
     },
     {
       "title": "Sales Development Representative (Intake Pod)",
@@ -968,10 +1404,9 @@
       "source": "wwr",
       "id": "64c5c1127684fdac2c190aa7375e3ee1b4187a84",
       "track": "tech-sales",
-      "score": 60,
-      "flags": [],
       "firstSeenAt": "2026-10-15T20:32:31.715Z",
-      "otherLocations": []
+      "score": 60,
+      "flags": []
     },
     {
       "title": "Account Executive, Commercial (Nagoya)",
@@ -985,10 +1420,9 @@
       "source": "wwr",
       "id": "54b3b1469e306ee212551e43616e36f2ab32cfe2",
       "track": "tech-sales",
-      "score": 60,
-      "flags": [],
       "firstSeenAt": "2026-10-15T20:32:31.715Z",
-      "otherLocations": []
+      "score": 60,
+      "flags": []
     },
     {
       "title": "Account Executive, Commercial - Kansas City",
@@ -1002,10 +1436,9 @@
       "source": "wwr",
       "id": "c945b41b38c97b8223b0b5d1797515b1ae93b76c",
       "track": "tech-sales",
-      "score": 60,
-      "flags": [],
       "firstSeenAt": "2026-10-15T20:32:31.715Z",
-      "otherLocations": []
+      "score": 60,
+      "flags": []
     },
     {
       "title": "Software Developer AI Coding",
@@ -1019,10 +1452,9 @@
       "source": "wwr",
       "id": "d710ef1f93065ba4555daaef945fa4131628959e",
       "track": "ai-web",
-      "score": 60,
-      "flags": [],
       "firstSeenAt": "2026-10-15T20:32:31.715Z",
-      "otherLocations": []
+      "score": 60,
+      "flags": []
     },
     {
       "title": "Enterprise Account Executive",
@@ -1036,10 +1468,9 @@
       "source": "wwr",
       "id": "4d4716f75c2c4ae42724d173f24001b24792f516",
       "track": "tech-sales",
-      "score": 60,
-      "flags": [],
       "firstSeenAt": "2026-10-15T20:32:31.715Z",
-      "otherLocations": []
+      "score": 60,
+      "flags": []
     },
     {
       "title": "Performance Creative Strategist and AI Producer",
@@ -1053,10 +1484,9 @@
       "source": "wwr",
       "id": "5cb8d5adf421c3232b382de2c38f0fc0fb4b1020",
       "track": "ai-web",
-      "score": 60,
-      "flags": [],
       "firstSeenAt": "2026-10-15T20:32:31.715Z",
-      "otherLocations": []
+      "score": 60,
+      "flags": []
     },
     {
       "title": "Inside Sales - Account Executive",
@@ -1070,10 +1500,779 @@
       "source": "wwr",
       "id": "bf79c089d7aa45260c9976fb6b8a11999e710606",
       "track": "tech-sales",
-      "score": 60,
-      "flags": [],
       "firstSeenAt": "2026-10-15T20:32:31.715Z",
+      "score": 60,
+      "flags": []
+    },
+    {
+      "title": "Temporary Sales Associate",
+      "company": "Tapestry",
+      "location": "Myrtle Beach, Horry County",
+      "remote": false,
+      "pay": "$31,200–$40,560/year",
+      "url": "https://www.adzuna.com/details/5929173388?utm_medium=api&utm_source=ea9765bf",
+      "postedAt": "2026-10-15T11:48:55.000Z",
+      "snippet": "Coach is a global fashion house founded in New York in 1941. Inspired by the vision of Creative Director Stuart Vevers and the inclusive and courageous spirit of our hometown, we make beautiful things, crafted to last—for you to be yoursel…",
+      "source": "adzuna",
+      "id": "0819f162fbc2826831400cb3507d54f80704b263",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 55,
+      "flags": [],
       "otherLocations": []
+    },
+    {
+      "title": "Counter Sales Agent",
+      "company": "Synerfac Technical Staffing",
+      "location": "Myrtle Beach, Horry County",
+      "remote": false,
+      "pay": "$41,600–$43,680/year",
+      "url": "https://www.adzuna.com/land/ad/5928600691?se=RM0PCuHI8RGYwPFSmBM_bA&utm_medium=api&utm_source=ea9765bf&v=DB45B8F43458A3EA8C417953B9E715A87A2A7FAA",
+      "postedAt": "2026-10-15T02:22:34.000Z",
+      "snippet": "Position - Counter Sales Agent Location - Myrtle Beach, SC Company - Manufacturing Description - This is a great opportunity to join a stable manufacturing company and gain experience with room to grow with the organization. You will work …",
+      "source": "adzuna",
+      "id": "afed9823ba721186508d8a2c308ebb3c130c648c",
+      "track": "tech-sales",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 55,
+      "flags": []
+    },
+    {
+      "title": "Sales Associate - Spencer's",
+      "company": "Spencer Gifts - Spirit Halloween",
+      "location": "Carolina Forest, Horry County",
+      "remote": false,
+      "pay": "$22,360–$22,880/year",
+      "url": "https://www.adzuna.com/land/ad/5928105458?se=RM0PCuHI8RGYwPFSmBM_bA&utm_medium=api&utm_source=ea9765bf&v=528B20BBA331B66CCAC53ADE2A23473D952D0E00",
+      "postedAt": "2026-10-14T20:27:57.000Z",
+      "snippet": "Hourly rate ranges from $10.75 - $11.00 per hour and is dependent upon qualifications and experience. Benefits include: Contest Prize Awards, 401K Plan with Company Match, Employee Assistance Program, 30% Merchandise Discount. All Bonuses,…",
+      "source": "adzuna",
+      "id": "7325ef97f3ba8ec7b27d1e4754efbd71d2077e17",
+      "track": "tech-sales",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 55,
+      "flags": []
+    },
+    {
+      "title": "Retail Associate",
+      "company": "Margaritaville Restaurants",
+      "location": "Carolina Forest, Horry County",
+      "remote": false,
+      "pay": "$33,280/year",
+      "url": "https://www.adzuna.com/details/5927571583?utm_medium=api&utm_source=ea9765bf",
+      "postedAt": "2026-10-14T10:00:22.000Z",
+      "snippet": "Company Overview: Margaritaville and Landshark is a warm and inviting place where people from all walks of life come together to create paradise. We offer an exciting employment experience where creating and delivering fun and escapism for…",
+      "source": "adzuna",
+      "id": "cd5e535bbff1e5fdc26cead4b9fa2a208abe7bf1",
+      "track": "tech-sales",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 55,
+      "flags": []
+    },
+    {
+      "title": "Tax Expert - In-Office",
+      "company": "Intuit",
+      "location": "North Charleston, Charleston County (+5 more)",
+      "remote": false,
+      "pay": "$48,880–$85,280/year",
+      "url": "https://www.adzuna.com/land/ad/5927474870?se=EnD-CeHI8RGnv4JedLxTEg&utm_medium=api&utm_source=ea9765bf&v=2C984F1395EC079688EA3BCA3EAE819BFA5F066C",
+      "postedAt": "2026-10-14T08:23:38.000Z",
+      "snippet": "Overview Intuit is seeking highly motivated individuals to join our dynamic team as dedicated year-round TurboTax Local Service Experts in one of our new TurboTax locations across the United States. This unique opportunity combines tax exp…",
+      "source": "adzuna",
+      "id": "edefc089e999b5bba303fc8fa6b503dd952486ce",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 55,
+      "flags": [
+        "high-pay"
+      ],
+      "otherLocations": [
+        "Summerville, Dorchester County",
+        "Charleston, Charleston County",
+        "Pinehaven, Charleston County",
+        "Saint Andrews, Charleston County",
+        "Atlantic Beach, Horry County"
+      ]
+    },
+    {
+      "title": "Box Office Attendant Part Time/Full Time",
+      "company": "Pirates Voyage Myrtle Beach",
+      "location": "Myrtle Beach, Horry County",
+      "remote": false,
+      "pay": "$24,960/year",
+      "url": "https://www.adzuna.com/details/5926998453?utm_medium=api&utm_source=ea9765bf",
+      "postedAt": "2026-10-14T02:54:58.000Z",
+      "snippet": "Pirates Voyage Box Office Agent Join the Crew! Do you enjoy working with people, providing great customer service, and being part of a fun entertainment environment? We are looking for Box Office Agents to join our crew! As a Box Office Ag…",
+      "source": "adzuna",
+      "id": "16962dfea059b4394c8ddbea2fff1c1cd3c41b64",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 55,
+      "flags": []
+    },
+    {
+      "title": "Tax Expert - Onsite",
+      "company": "Intuit",
+      "location": "North Myrtle Beach, Horry County (+2 more)",
+      "remote": false,
+      "pay": "$48,880–$85,280/year",
+      "url": "https://www.adzuna.com/land/ad/5926280251?se=XELxCeHI8RGgYcdhZypWfA&utm_medium=api&utm_source=ea9765bf&v=EDADD1DDC5B60B033F325458007293DA33D7A446",
+      "postedAt": "2026-10-13T18:19:31.000Z",
+      "snippet": "Overview Intuit is seeking highly motivated individuals to join our dynamic team as dedicated year-round TurboTax Local Service Experts in one of our new TurboTax locations across the United States. This unique opportunity combines tax exp…",
+      "source": "adzuna",
+      "id": "dfe4d0ec05e1fcbf7c25250bc57132ca24880b14",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 55,
+      "flags": [
+        "high-pay"
+      ],
+      "otherLocations": [
+        "Charleston, Charleston County",
+        "Saint Andrews, Charleston County"
+      ]
+    },
+    {
+      "title": "Tax Expert - Tax Office",
+      "company": "Intuit",
+      "location": "North Myrtle Beach, Horry County (+3 more)",
+      "remote": false,
+      "pay": "$48,880–$85,280/year",
+      "url": "https://www.adzuna.com/land/ad/5926280081?se=XELxCeHI8RGgYcdhZypWfA&utm_medium=api&utm_source=ea9765bf&v=AC150145C3AE7D7FDCDF59E61126178B680A13EC",
+      "postedAt": "2026-10-13T18:19:23.000Z",
+      "snippet": "Overview Intuit is seeking highly motivated individuals to join our dynamic team as dedicated year-round TurboTax Local Service Experts in one of our new TurboTax locations across the United States. This unique opportunity combines tax exp…",
+      "source": "adzuna",
+      "id": "18ab175c9b9f8cbd6bd9d3934fa76867ed7ea0f0",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 55,
+      "flags": [
+        "high-pay"
+      ],
+      "otherLocations": [
+        "Saint Andrews, Charleston County",
+        "Atlantic Beach, Horry County",
+        "Pinehaven, Charleston County"
+      ]
+    },
+    {
+      "title": "Tax Expert - Local Office",
+      "company": "Intuit",
+      "location": "Charleston, Charleston County (+4 more)",
+      "remote": false,
+      "pay": "$48,880–$85,280/year",
+      "url": "https://www.adzuna.com/land/ad/5926279454?se=EnD-CeHI8RGnv4JedLxTEg&utm_medium=api&utm_source=ea9765bf&v=B88E77A3C9FDDF506FD024BD75BC69C19DF73CBB",
+      "postedAt": "2026-10-13T18:18:09.000Z",
+      "snippet": "Overview Intuit is seeking highly motivated individuals to join our dynamic team as dedicated year-round TurboTax Local Service Experts in one of our new TurboTax locations across the United States. This unique opportunity combines tax exp…",
+      "source": "adzuna",
+      "id": "c7e1d5808c98ac801280809f7f7dfe0f5d6e1b4b",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 55,
+      "flags": [
+        "high-pay"
+      ],
+      "otherLocations": [
+        "North Charleston, Charleston County",
+        "Saint Andrews, Charleston County",
+        "Atlantic Beach, Horry County",
+        "Pinehaven, Charleston County"
+      ]
+    },
+    {
+      "title": "CDL-A Truck Driver - Earn Up to $75,000/Year - No-Touch Benefits",
+      "company": "C.R. England",
+      "location": "Carolina Forest, Horry County",
+      "remote": false,
+      "pay": "$0–$75,000/year",
+      "url": "https://www.adzuna.com/land/ad/5925551625?se=BpXCCeHI8RGgYcdhZypWfA&utm_medium=api&utm_source=ea9765bf&v=2DEB62554D3F0D079DD65E78E2509853439AC3B0",
+      "postedAt": "2026-10-13T04:40:14.000Z",
+      "snippet": "Job Description C.R. England is Now Urgently Hiring Dedicated CDL-A Truck Drivers! Top Drivers Earn Up to $75,000 Annually* - No-Touch Pre-Loaded Freight \\n \\n \\n Valid CDL-A and 3 months of current experience required \\n This lane is not …",
+      "source": "adzuna",
+      "id": "48d2ec96e3de9446818d45a23c191abe908a2006",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 55,
+      "flags": [
+        "high-pay"
+      ]
+    },
+    {
+      "title": "Seasonal Sales Associate - Coastal Grand Mall - Myrtle Beach, SC",
+      "company": "Pacsun Careers",
+      "location": "Carolina Forest, Horry County",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/details/5923210431?utm_medium=api&utm_source=ea9765bf",
+      "postedAt": "2026-10-11T07:13:48.000Z",
+      "snippet": "Join the Pacsun Community Pacsun is dedicated to delivering an exclusive collection of the most relevant brands and styles to a community of inspired youth. Through partnerships with brands such as adidas, Brandy Melville, Essentials Fear …",
+      "source": "adzuna",
+      "id": "ce5378e0e197acbf7f70d50fcc6637cc32972eac",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 55,
+      "flags": [
+        "entry-level"
+      ]
+    },
+    {
+      "title": "Retail Associates",
+      "company": "Hobby Lobby",
+      "location": "Murrells Inlet, Horry County",
+      "remote": false,
+      "pay": "$34,320–$36,400/year",
+      "url": "https://www.adzuna.com/details/5918946883?utm_medium=api&utm_source=ea9765bf",
+      "postedAt": "2026-10-08T08:58:13.000Z",
+      "snippet": "Immediate Openings! We are currently accepting applications for seasonal positions! We offer exciting career opportunities for bright, energetic and talented individuals in a stimulating, fast-paced and team-oriented culture. Hobby Lobby i…",
+      "source": "adzuna",
+      "id": "f3a7f61a9f51141a93b17a8486cc85444f8a1de2",
+      "track": "tech-sales",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 55,
+      "flags": [
+        "entry-level"
+      ]
+    },
+    {
+      "title": "Media Sales Representative",
+      "company": "Best Version Media",
+      "location": "Myrtle Beach, Horry County (+1 more)",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/land/ad/5929493283?se=RM0PCuHI8RGYwPFSmBM_bA&utm_medium=api&utm_source=ea9765bf&v=E11604ECC2BBA5DAAB809D90A92E8F8E00609002",
+      "postedAt": "2026-10-15T16:51:49.000Z",
+      "snippet": "Job Description Job Description If you love your community and want to get paid for building real relationships in it, this is the outside sales opportunity built for that — not a desk job, not a call center. Best Version Media has spent n…",
+      "source": "adzuna",
+      "id": "88fd95a7d423009d0ac22f04d5fcbd139e0ef26e",
+      "track": "tech-sales",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 50,
+      "flags": [],
+      "otherLocations": [
+        "Georgetown, Georgetown County"
+      ]
+    },
+    {
+      "title": "HIRING THIS WEEK! PERFECT PART TIME JOB-WEEKEND SALES-GREAT PAY",
+      "company": "Zipfizz Corporation",
+      "location": "Charleston, Charleston County",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/details/5929345953?utm_medium=api&utm_source=ea9765bf",
+      "postedAt": "2026-10-15T14:27:46.000Z",
+      "snippet": "Join Zipfizz as a Brand Ambassador inside Costco! Zipfizz, a vitamin-enhanced energy and hydration drink, is hiring enthusiastic Brand Ambassadors to represent our products at Costco and event locations near your area. www.zipfizz.com Comp…",
+      "source": "adzuna",
+      "id": "afb1543af603d96896705b886fa21cb8635708cb",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 50,
+      "flags": []
+    },
+    {
+      "title": "Tax Expert - In-Person",
+      "company": "Intuit",
+      "location": "Atlantic Beach, Horry County",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/land/ad/5929076051?se=XELxCeHI8RGgYcdhZypWfA&utm_medium=api&utm_source=ea9765bf&v=B9DCBA4600A918BAC71B8291022AAA7971F75F7E",
+      "postedAt": "2026-10-15T10:03:25.000Z",
+      "snippet": "Overview Intuit is seeking highly motivated individuals to join our dynamic team as dedicated year-round TurboTax Local Service Experts in one of our new TurboTax locations across the United States. This unique opportunity combines tax exp…",
+      "source": "adzuna",
+      "id": "679b2316fc11321457a51bf6f92dc8ea5bf20ca8",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 50,
+      "flags": []
+    },
+    {
+      "title": "Part Time Weekend Product Demonstrator in Costco",
+      "company": "CDS",
+      "location": "Adams Run, Charleston County",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/details/5929018675?utm_medium=api&utm_source=ea9765bf",
+      "postedAt": "2026-10-15T08:31:47.000Z",
+      "snippet": "We want you to help us shape the future of shopping experiences and deliver on our purpose of connecting people with the products and experiences that enrich their lives. Joining Advantage Solutions means joining a network of 65,000 teamma…",
+      "source": "adzuna",
+      "id": "fbfc4b24be045a81fc7d6b38b4a1973927ce029c",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 50,
+      "flags": []
+    },
+    {
+      "title": "Scoop and Slice Attendant",
+      "company": "Peregrine Hospitality",
+      "location": "Carolina Forest, Horry County",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/details/5928744020?utm_medium=api&utm_source=ea9765bf",
+      "postedAt": "2026-10-15T05:22:09.000Z",
+      "snippet": "Essential Functions Knowledge of the appropriate table settings and service ware. Knowledge of all menu items, prices and methods of preparation. Use suggestive selling techniques to encourage the guests to choose items that are house spec…",
+      "source": "adzuna",
+      "id": "e2833807457a1b1ebe7b1200168aed2944675f3d",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 50,
+      "flags": []
+    },
+    {
+      "title": "Physician Family Practice-Without OB - Competitive Salary",
+      "company": "NOW Healthcare Recruiting",
+      "location": "Surfside, Horry County (+1 more)",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/land/ad/5928451975?se=BpXCCeHI8RGgYcdhZypWfA&utm_medium=api&utm_source=ea9765bf&v=59FB79047311CDBA4A089422361DC704401D7718",
+      "postedAt": "2026-10-14T23:45:03.000Z",
+      "snippet": "Job Description High Quality Hospital system seeks Family Medicine Physician or Internal Medicine Physician to work in Florence, SC! (1hr to Myrtle Beach) \\n \\n Enjoy the warm weather and beautiful beaches of South Carolina! \\n \\n \\n \\n \\n…",
+      "source": "adzuna",
+      "id": "f353252e4091178a05da68dabdeb9daa3d3a7748",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 50,
+      "flags": [],
+      "otherLocations": [
+        "Myrtle Beach, Horry County"
+      ]
+    },
+    {
+      "title": "Physician Obstetrics & Gynecology - Competitive Salary",
+      "company": "NOW Healthcare Recruiting",
+      "location": "Surfside, Horry County (+1 more)",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/land/ad/5928446790?se=BpXCCeHI8RGgYcdhZypWfA&utm_medium=api&utm_source=ea9765bf&v=2859229B33D923EA820986C32D83852B49E54EA0",
+      "postedAt": "2026-10-14T23:43:43.000Z",
+      "snippet": "Job Description High Quality Hospital system seeks an OB/GYN to work in Myrtle Beach, South Carolina! \\n \\n Enjoy the warm weather and beautiful beaches of South Carolina! \\n \\n \\n \\n \\n CONTACT: Anna Craig 843-297-4123 anna@nowhealthcare.…",
+      "source": "adzuna",
+      "id": "35814b8e9e40968fa4896b1f31b14864c1e8997e",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 50,
+      "flags": [],
+      "otherLocations": [
+        "Myrtle Beach, Horry County"
+      ]
+    },
+    {
+      "title": "Physician Surgery-General - Competitive Salary",
+      "company": "Archway Physician Recruitment",
+      "location": "Myrtle Beach, Horry County",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/land/ad/5928185791?se=BpXCCeHI8RGgYcdhZypWfA&utm_medium=api&utm_source=ea9765bf&v=DE93E7061EED67843C22753D53B6DAC73BB724DC",
+      "postedAt": "2026-10-14T20:51:21.000Z",
+      "snippet": "Job Description Orthopedic Surgery - Hand opening in Myrtle Beach, SCFull-Time & Permanent PositionRequirements: \\n \\n BE/BC Orthopedic Surgery \\n Fellowship training in Hand \\n SC Licensed or Pending Details:\\n Join a thriving practice wi…",
+      "source": "adzuna",
+      "id": "68d74784516b0012e565e87d6c66dba9b990d751",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 50,
+      "flags": []
+    },
+    {
+      "title": "Physician Pediatric Hospitalist - Competitive Salary",
+      "company": "Britt Medical Search",
+      "location": "Conway, Horry County",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/land/ad/5928185545?se=BpXCCeHI8RGgYcdhZypWfA&utm_medium=api&utm_source=ea9765bf&v=6B453D1C65A83B52FFE60776FD83019B5A8D4BAC",
+      "postedAt": "2026-10-14T20:51:20.000Z",
+      "snippet": "Job Description Medical Center is now seeking a Pediatric Hospitalist to join our team in Myrtle Beach. \\n This is a full-time inpatient pediatrician role, focusing on providing care to newborns and pediatric patients admitted to the hospi…",
+      "source": "adzuna",
+      "id": "72b1b4f85eb511e6839b128db0b7ecfbea02d761",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 50,
+      "flags": []
+    },
+    {
+      "title": "Physician Endocrinology - Competitive Salary",
+      "company": "Pacific Companies",
+      "location": "Myrtle Beach, Horry County",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/land/ad/5928181638?se=BpXCCeHI8RGgYcdhZypWfA&utm_medium=api&utm_source=ea9765bf&v=00952215CC797E710238EEF26A3A2D7058B9B97A",
+      "postedAt": "2026-10-14T20:50:15.000Z",
+      "snippet": "Job Description Build a rewarding endocrinology practice with a health system that prioritizes physician autonomy, collaboration, and long-term growth. This employed opportunity allows you to step into an established practice with immediat…",
+      "source": "adzuna",
+      "id": "44b59002ac0c590c2b2936a27d72e623f7ce3a76",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 50,
+      "flags": []
+    },
+    {
+      "title": "Physician Pediatrics - Competitive Salary",
+      "company": "Provider Healthcare",
+      "location": "Little River, Horry County",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/land/ad/5928180756?se=BpXCCeHI8RGgYcdhZypWfA&utm_medium=api&utm_source=ea9765bf&v=14EC81473F3B532399E58ADEE6DEF734D93CE1C6",
+      "postedAt": "2026-10-14T20:49:53.000Z",
+      "snippet": "Job Description Pediatrician – Permanent Opportunity in South Carolina | Stability Great Lifestyle \\n Looking for a long-term opportunity where you can make a meaningful impact on children’s health while enjoying a great quality of life? J…",
+      "source": "adzuna",
+      "id": "1005a0f0067bc315d49de052a1ca3cd4201a894b",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 50,
+      "flags": []
+    },
+    {
+      "title": "Physician Physiatry/Physical Medicine & Rehabilitation - Competitive Salary",
+      "company": "Source Medical, LLC.",
+      "location": "Myrtle Beach, Horry County",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/land/ad/5928180171?se=BpXCCeHI8RGgYcdhZypWfA&utm_medium=api&utm_source=ea9765bf&v=872C7F38110871C2AAF54AE8AB8F2BF38C6F794E",
+      "postedAt": "2026-10-14T20:49:46.000Z",
+      "snippet": "Job Description Physical Medicine & Rehabilitation opening in Mrytle Beach, SCLocated in Mrytle BeachFull time/PermanentEmployedOther DetailsBoard Certified or Board Eligible Physical Medicine & Rehabilitation physicians are encouraged to …",
+      "source": "adzuna",
+      "id": "620eb9f60c944ff5bcabe142c6d3e0a3c57e08ce",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 50,
+      "flags": []
+    },
+    {
+      "title": "Physician Obstetrics & Gynecology - Competitive Salary",
+      "company": "Ob Hospitalist Group",
+      "location": "Myrtle Beach, Horry County",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/land/ad/5928175990?se=BpXCCeHI8RGgYcdhZypWfA&utm_medium=api&utm_source=ea9765bf&v=EFD51ED5C86FCA0F16C0AFC6ADE930E5BD4E71B0",
+      "postedAt": "2026-10-14T20:48:33.000Z",
+      "snippet": "Job Description \\n \\n Grand Strand Medical Center in Myrtle Beach, SC \\n \\n Our Part Time Time Hospitalist Position Offers: \\n \\n Guaranteed shifts and hourly rate \\n Flexible scheduling \\n Medical malpractice insurance with unlimited tail…",
+      "source": "adzuna",
+      "id": "096fd6f4a4d2e6beac67ba32d5db374ef8a99f46",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 50,
+      "flags": []
+    },
+    {
+      "title": "Physician Orthopedics-Hand Surgery - Competitive Salary",
+      "company": "Summit Recruiting Group",
+      "location": "Myrtle Beach, Horry County",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/land/ad/5928174381?se=BpXCCeHI8RGgYcdhZypWfA&utm_medium=api&utm_source=ea9765bf&v=B79FD1CF6932BC879BDEB4F1E175CC0CDBC2C24D",
+      "postedAt": "2026-10-14T20:48:12.000Z",
+      "snippet": "Job Description Orthopedic Hand Surgery in Myrtle Beach, SC \\n \\n Coastal community \\n 350,000 person service area Position Details: \\n Full-time, permanent position \\n Employed \\n Seeking Board Certified Orthopedic Hand Surgery \\n About M…",
+      "source": "adzuna",
+      "id": "53a62e704a33e0c7a6330c74c419e4fcbd99ad10",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 50,
+      "flags": []
+    },
+    {
+      "title": "Physician Cardiology - Competitive Salary",
+      "company": "Med Career Center, Inc",
+      "location": "Myrtle Beach, Horry County",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/land/ad/5928168892?se=BpXCCeHI8RGgYcdhZypWfA&utm_medium=api&utm_source=ea9765bf&v=0FB7EC690383A046AEC49C436A456C4075F16D11",
+      "postedAt": "2026-10-14T20:46:18.000Z",
+      "snippet": "Job Description JOB DESCRIPTION: Medical Center in South Carolina is seeking a BC/BE General Cardiologist to join its growing team to meet the increasing demand for cardiovascular services in the community. Competitive compensation along w…",
+      "source": "adzuna",
+      "id": "ff4a9ccfb10145aa59a4007ca0300215513049ad",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 50,
+      "flags": []
+    },
+    {
+      "title": "Physician Rheumatology - Competitive Salary",
+      "company": "NOW Healthcare Recruiting",
+      "location": "Myrtle Beach, Horry County",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/land/ad/5928166921?se=BpXCCeHI8RGgYcdhZypWfA&utm_medium=api&utm_source=ea9765bf&v=6EA88577B86E66FD346DC41AC962E6F9F44E9DBD",
+      "postedAt": "2026-10-14T20:45:32.000Z",
+      "snippet": "Job Description Expanding practice seeks a Rheumatologist to work in Myrtle Beach, SC! \\n \\n CONTACT: David Wolfe 843 494 1253 david@nowhealthcare.org\\n \\n \\n \\n \\n Come make a difference within a growing team of providers that focus to en…",
+      "source": "adzuna",
+      "id": "bdb259d9980fc897894e975c39cc23e37aa8d795",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 50,
+      "flags": []
+    },
+    {
+      "title": "$1.3 Million GI Opportunity | Coastal South Carolina | Myrtle Beach",
+      "company": "Pacific Companies",
+      "location": "Conway, Horry County",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/land/ad/5928165632?se=XELxCeHI8RGgYcdhZypWfA&utm_medium=api&utm_source=ea9765bf&v=8683A2A9BE06C3FC7ABAB8648328E50B39A86B0F",
+      "postedAt": "2026-10-14T20:44:58.000Z",
+      "snippet": "Job Description Join a thriving, hospital-employed gastroenterology group in the beautiful coastal community of Myrtle Beach, South Carolina. Step into a practice that blends professional satisfaction and work-life balance, with excellent …",
+      "source": "adzuna",
+      "id": "6a5647f7e355a36dd355eb1ac282781acf90dc6b",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 50,
+      "flags": []
+    },
+    {
+      "title": "Physician Urology - Competitive Salary",
+      "company": "Summit Recruiting Group",
+      "location": "Conway, Horry County",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/land/ad/5928164407?se=BpXCCeHI8RGgYcdhZypWfA&utm_medium=api&utm_source=ea9765bf&v=55CFB2ED4B0835131A83F3BA9C7AED678DCC5977",
+      "postedAt": "2026-10-14T20:44:36.000Z",
+      "snippet": "Job Description Urologist | Conway, SC Grand Strand ‚Äî 10 Miles from Myrtle Beach Position Details* Full-time, permanent position* Schedule: Predictable clinic schedule with protected administrative time ‚Äî shared call rotation designed …",
+      "source": "adzuna",
+      "id": "bdab61654508a56f4daf73b044798f8610c769c9",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 50,
+      "flags": []
+    },
+    {
+      "title": "Physician Gastroenterology - Competitive Salary",
+      "company": "NOW Healthcare Recruiting",
+      "location": "Myrtle Beach, Horry County",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/land/ad/5928163592?se=BpXCCeHI8RGgYcdhZypWfA&utm_medium=api&utm_source=ea9765bf&v=C28256C94DD3303C1C19024B4A642115B0D3231A",
+      "postedAt": "2026-10-14T20:44:25.000Z",
+      "snippet": "Job Description High Quality Hospital system seeks Gastroenterologist to work in Myrtle Beach, South Carolina! \\n \\n Enjoy the warm weather and beautiful beaches of South Carolina! \\n \\n \\n \\n \\n CONTACT: Raymond Stiles 843-574-8233 raymon…",
+      "source": "adzuna",
+      "id": "fa861fc2d1fc23a7ce11bb88ada0e0d65a7e20c0",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 50,
+      "flags": []
+    },
+    {
+      "title": "Physician Pediatrics - Competitive Salary",
+      "company": "Source Medical, LLC.",
+      "location": "Conway, Horry County",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/land/ad/5928160640?se=BpXCCeHI8RGgYcdhZypWfA&utm_medium=api&utm_source=ea9765bf&v=7227CE1C54965DE8D9665B3D12928094F092E62D",
+      "postedAt": "2026-10-14T20:43:05.000Z",
+      "snippet": "Job Description Pediatric Hospitalist OpportunityLocation: Conway, SC - Myrtle Beach 15 miles awayEmployment Type: Full-Time, permanent positionPosition Summary* Full-time pediatric position with a primary focus on inpatient newborn and pe…",
+      "source": "adzuna",
+      "id": "5fbbdf156341c0cdc6a881351475af9791895f1c",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 50,
+      "flags": []
+    },
+    {
+      "title": "Physician Cardiology-Interventional - Competitive Salary",
+      "company": "Enterprise Medical Recruiting",
+      "location": "Myrtle Beach, Horry County",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/land/ad/5928158993?se=BpXCCeHI8RGgYcdhZypWfA&utm_medium=api&utm_source=ea9765bf&v=0D438055072063E1FA84EE28488D5ABB8EB2F684",
+      "postedAt": "2026-10-14T20:42:17.000Z",
+      "snippet": "Job Description \\n \\n \\n \\n Adding an Interventional Cardiologist in coastal South Carolina. Located 15 miles from Myrtle Beach in one of the fastest-growing cities in the country, with an average of 40 new residents a day! The group is pa…",
+      "source": "adzuna",
+      "id": "22209e3e39813fc5c41afad33d7a507247965e0b",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 50,
+      "flags": []
+    },
+    {
+      "title": "Physician Pediatric Hospitalist - Competitive Salary",
+      "company": "GO Staffing",
+      "location": "Myrtle Beach, Horry County",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/land/ad/5928157584?se=BpXCCeHI8RGgYcdhZypWfA&utm_medium=api&utm_source=ea9765bf&v=9115D474C100556E64B25FE077894169ED270678",
+      "postedAt": "2026-10-14T20:41:27.000Z",
+      "snippet": "Job Description Great opportunity in the Myrtle Beach, SC area for a Pediatric Hospitalist to work with a large well respected organization. \\n \\n Board Certified or Board Eligible Pediatrician \\n International residencies not accepted \\n …",
+      "source": "adzuna",
+      "id": "9867f1f61d9bdeb7541cb3eb71a2b13e641d58ef",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 50,
+      "flags": []
+    },
+    {
+      "title": "Physician Urgent Care - Competitive Salary",
+      "company": "Enterprise Medical Recruiting",
+      "location": "Myrtle Beach, Horry County",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/land/ad/5928157422?se=BpXCCeHI8RGgYcdhZypWfA&utm_medium=api&utm_source=ea9765bf&v=FAEFBA60F531830BC12D22242B2D878781565501",
+      "postedAt": "2026-10-14T20:41:25.000Z",
+      "snippet": "Job Description \\n \\n \\n \\n Urgent Care organization opening a new office in beautiful Myrtle Beach, South Carolina. \\n \\n Practice Details \\n \\n Freestanding Urgent care building \\n Digital X-ray \\n Hourly rate plus full benefits \\n 401K …",
+      "source": "adzuna",
+      "id": "836d36d96fa4fdb65b5ef06f61c26fdd973c5599",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 50,
+      "flags": []
+    },
+    {
+      "title": "Physician Pediatric Hospitalist - Competitive Salary",
+      "company": "Med Career Center, Inc",
+      "location": "Myrtle Beach, Horry County",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/land/ad/5928151094?se=BpXCCeHI8RGgYcdhZypWfA&utm_medium=api&utm_source=ea9765bf&v=3B96CC053756EF8625DE33DA8E7BA02C7C5FE6D1",
+      "postedAt": "2026-10-14T20:39:10.000Z",
+      "snippet": "Job Description JOB DESCRIPTION: Medical Center in South Carolina is seeking a BC/BE Gastroenterologist inpatient pediatrician to join the team. The provider will manage a range of inpatient responsibilities, primarily related to newborn c…",
+      "source": "adzuna",
+      "id": "421a0005c43b956bad1987b68d7fb37bfb0fd325",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 50,
+      "flags": []
+    },
+    {
+      "title": "Physician Neurology - Competitive Salary",
+      "company": "Enterprise Medical Recruiting",
+      "location": "Myrtle Beach, Horry County",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/land/ad/5928147808?se=BpXCCeHI8RGgYcdhZypWfA&utm_medium=api&utm_source=ea9765bf&v=B47B27ECF2609512B64C42F2A4CC1A0FD81AFBA2",
+      "postedAt": "2026-10-14T20:37:58.000Z",
+      "snippet": "Job Description \\n \\n \\n \\n Enterprise Medical Recruiting is assisting a hospital in Conway, South Carolina to recruit a new Neurologist ! This is an outpatient practice with 18-22 patient encounters daily. They are working 4.5 clinical da…",
+      "source": "adzuna",
+      "id": "796921b9da1fe16fe7800d8bd8755351ac4d01f6",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 50,
+      "flags": []
+    },
+    {
+      "title": "Physician Obstetrics & Gynecology - Competitive Salary",
+      "company": "RecruitWell",
+      "location": "Myrtle Beach, Horry County",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/land/ad/5928142539?se=BpXCCeHI8RGgYcdhZypWfA&utm_medium=api&utm_source=ea9765bf&v=58AD482AEB21AE572621E5410B26BC26A70C422E",
+      "postedAt": "2026-10-14T20:36:31.000Z",
+      "snippet": "Job Description Myrtle Beach, South Carolina, OB/GYN Hospitalist Job Opportunity \\n \\n We are seeking OB/GYNs with exceptional clinical and communication skills, a passion for healthcare quality improvement, and a desire to shape the futur…",
+      "source": "adzuna",
+      "id": "bc72ab8fa68952c0780a9509be18a71b85731a4a",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 50,
+      "flags": []
+    },
+    {
+      "title": "Physician Emergency Medicine - Competitive Salary",
+      "company": "Enterprise Medical Recruiting",
+      "location": "Myrtle Beach, Horry County",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/land/ad/5928127583?se=BpXCCeHI8RGgYcdhZypWfA&utm_medium=api&utm_source=ea9765bf&v=38E39B4758AE24034BB2B98EE0740565469C7D62",
+      "postedAt": "2026-10-14T20:32:49.000Z",
+      "snippet": "Job Description \\n \\n \\n \\n We’re looking for board-certified or board-eligible Emergency Medicine physicians to join a high-performing team in Myrtle Beach, South Carolina—one of the fastest-growing counties in the U.S. As part of an exci…",
+      "source": "adzuna",
+      "id": "4eccb6567b56c4b3706b06e1ab0c5270955a6365",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 50,
+      "flags": []
+    },
+    {
+      "title": "Physician Neurology - Competitive Salary",
+      "company": "Pacific Companies",
+      "location": "Myrtle Beach, Horry County",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/land/ad/5928115963?se=BpXCCeHI8RGgYcdhZypWfA&utm_medium=api&utm_source=ea9765bf&v=9246FB37E71216A92A8AD6B5E82EDEAA2CDC37FD",
+      "postedAt": "2026-10-14T20:30:26.000Z",
+      "snippet": "Job Description Build a rewarding Neurology career in a physician-centered environment where continued growth has created the opportunity to join an expanding team. The practice provides broad exposure to neurological conditions, allowing …",
+      "source": "adzuna",
+      "id": "e775e84b88402e3bc4e7b884ee4e1f5dac139eb4",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 50,
+      "flags": []
+    },
+    {
+      "title": "Physician Obstetrics & Gynecology - Competitive Salary",
+      "company": "Summit Recruiting Group",
+      "location": "Conway, Horry County",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/land/ad/5928103195?se=BpXCCeHI8RGgYcdhZypWfA&utm_medium=api&utm_source=ea9765bf&v=55B0DD1CFE5C85A4770B5C2C9446113EC3823DD6",
+      "postedAt": "2026-10-14T20:27:23.000Z",
+      "snippet": "Job Description OB/GYN Physician ‚Äì Women's Health | Conway, SC Coastal South Carolina ‚Äî Near Myrtle Beach & Charleston Position Details* Full-time, permanent position* Setting: Primarily outpatient with inpatient responsibilities for d…",
+      "source": "adzuna",
+      "id": "cd8e19bb6d7eb0e9e4842c7f5c4a1c43be149079",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 50,
+      "flags": []
+    },
+    {
+      "title": "Gate Attendant",
+      "company": "EOS",
+      "location": "Myrtle Beach, Horry County",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/details/5927346808?utm_medium=api&utm_source=ea9765bf",
+      "postedAt": "2026-10-14T07:12:07.000Z",
+      "snippet": "Responsibilities Greet guests, team members, and visitors at the gate and guide them to their destination. Divert vehicles that do not belong on property. Promote safe work practices. Respond to guest inquiries and requests and resolve gue…",
+      "source": "adzuna",
+      "id": "aa116370bd3a4f8b7f914826939a1c7c251b2351",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 50,
+      "flags": []
+    },
+    {
+      "title": "Retail Merchandise Associate",
+      "company": "TJX Companies",
+      "location": "Pawleys Island, Georgetown County",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/land/ad/5925508081?se=RM0PCuHI8RGYwPFSmBM_bA&utm_medium=api&utm_source=ea9765bf&v=B7772556BB2B7DD6AC0378AC88259C8D97AFC18A",
+      "postedAt": "2026-10-13T04:14:43.000Z",
+      "snippet": "Job Description TJ Maxx\\n \\n At TJX Companies, every day brings new opportunities for growth, exploration, and achievement. You’ll be part of our vibrant team that embraces diversity, fosters collaboration, and prioritizes your development…",
+      "source": "adzuna",
+      "id": "1ec567e99c9c901acc49783af851cf2e32cb2867",
+      "track": "tech-sales",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 50,
+      "flags": []
+    },
+    {
+      "title": "Brand Market Specialist - Myrtle Beach, SC",
+      "company": "Beauty Barrage",
+      "location": "Myrtle Beach, Horry County",
+      "remote": false,
+      "pay": "$54,080–$62,400/year",
+      "url": "https://www.adzuna.com/details/5923029167?utm_medium=api&utm_source=ea9765bf",
+      "postedAt": "2026-10-11T04:33:18.000Z",
+      "snippet": "Who is Beauty Barrage? Beauty Barrage is a full-service strategic sales management team with our Field Team servicing doors across North America. Beauty Barrage works with some of the hottest brands in beauty today and provides in-store su…",
+      "source": "adzuna",
+      "id": "9c09daba86a7dc2ce7d77062c028cbf3d746066b",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 50,
+      "flags": [
+        "high-pay"
+      ]
+    },
+    {
+      "title": "Seasonal Associate",
+      "company": "Carter's/OshKosh",
+      "location": "Carolina Forest, Horry County",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/land/ad/5913758661?se=XELxCeHI8RGgYcdhZypWfA&utm_medium=api&utm_source=ea9765bf&v=B657AC9D5CCDC7E7056A77002A974D023589D31E",
+      "postedAt": "2026-10-06T07:24:55.000Z",
+      "snippet": "If you are a CURRENT Carter's employee, do not apply via this external application. Search \"Browse Jobs\" in Workday to apply internally. Love what you do. Carter's Careers. As a Seasonal Associate, you will be the first face of the brand f…",
+      "source": "adzuna",
+      "id": "573a873909ada4e636555c42e272a4edab2d5692",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 50,
+      "flags": [
+        "entry-level"
+      ]
     },
     {
       "title": "Enterprise Account Executive - TMT",
@@ -1087,10 +2286,520 @@
       "source": "jobicy",
       "id": "770653bc30218e47644775170b587084854e04a2",
       "track": "quick-cash",
-      "score": 50,
-      "flags": [],
       "firstSeenAt": "2026-10-15T20:32:31.715Z",
+      "score": 50,
+      "flags": []
+    },
+    {
+      "title": "SALES ASSOCIATE in NICHOLS SC S20599",
+      "company": "Dollar General",
+      "location": "Nichols, Horry County",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/land/ad/5924366010?se=RM0PCuHI8RGYwPFSmBM_bA&utm_medium=api&utm_source=ea9765bf&v=C566A983D9253E04F3BB35E8084E1FE20F8EB180",
+      "postedAt": "2026-10-12T12:11:46.000Z",
+      "snippet": "Job Details GENERAL SUMMARY: Act as the point of contact for customers. Assist in setting and maintaining plan-o-grams and programs. Stock merchandise adequately. Perform other duties as necessary to maximize profitability, customer satisf…",
+      "source": "adzuna",
+      "id": "66f3d333245db2954313e8c2253c24eeedb389cf",
+      "track": "tech-sales",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 45,
+      "flags": []
+    },
+    {
+      "title": "Retail Part Time Store Associate",
+      "company": "The ODP Group, LLC",
+      "location": "Carolina Forest, Horry County (+1 more)",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/land/ad/5924143866?se=RM0PCuHI8RGYwPFSmBM_bA&utm_medium=api&utm_source=ea9765bf&v=78011ADEC8C442DC9808CB6AB62A54EA59B617DC",
+      "postedAt": "2026-10-12T07:16:32.000Z",
+      "snippet": "Overview As a Part Time Retail Store Associate at Office Depot, your part-time role is vital to our continued success in today's retail landscape. You'll engage with customers in a friendly and knowledgeable manner, creating a positive sho…",
+      "source": "adzuna",
+      "id": "ae6234c85fac7fcc5ea851cbe711bfe2356b4061",
+      "track": "tech-sales",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 45,
+      "flags": [],
+      "otherLocations": [
+        "Crescent Beach, Horry County"
+      ]
+    },
+    {
+      "title": "Patient Safety Attendant",
+      "company": "HCA Healthcare",
+      "location": "Carolina Forest, Horry County",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/land/ad/5924130003?se=BpXCCeHI8RGgYcdhZypWfA&utm_medium=api&utm_source=ea9765bf&v=078E567F909A1B3A3EF7FFB63C7D267257041053",
+      "postedAt": "2026-10-12T07:12:22.000Z",
+      "snippet": "Do you have the career opportunities as a Patient Safety Attendant you want with your current employer? We have an exciting opportunity for you to join Grand Strand Medical Center which is part of the nation's leading provider of healthcar…",
+      "source": "adzuna",
+      "id": "f0330ba9ac8cf169237bad17a2f48f08e2f2e810",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 45,
+      "flags": []
+    },
+    {
+      "title": "Store Associate",
+      "company": "CVS Health",
+      "location": "Conway, Horry County (+1 more)",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/land/ad/5923148801?se=RM0PCuHI8RGYwPFSmBM_bA&utm_medium=api&utm_source=ea9765bf&v=157F4BA3B8F2B340D1A0C3212F5805752BB8E242",
+      "postedAt": "2026-10-11T07:06:31.000Z",
+      "snippet": "We're building a world of health around every individual - shaping a more connected, convenient and compassionate health experience. At CVS Health®, you'll be surrounded by passionate colleagues who care deeply, innovate with purpose, hold…",
+      "source": "adzuna",
+      "id": "0b0d5403f2153ccc1abcc4e3f68376b976799392",
+      "track": "tech-sales",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 45,
+      "flags": [],
+      "otherLocations": [
+        "Carolina Forest, Horry County"
+      ]
+    },
+    {
+      "title": "Retail Part Time Store Associate",
+      "company": "Office Depot",
+      "location": "Carolina Forest, Horry County",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/details/5922977279?utm_medium=api&utm_source=ea9765bf",
+      "postedAt": "2026-10-11T02:22:02.000Z",
+      "snippet": "Description As a Part Time Retail Store Associate at Office Depot, your part-time role is vital to our continued success in today's retail landscape. You'll engage with customers in a friendly and knowledgeable manner, creating a positive …",
+      "source": "adzuna",
+      "id": "702f13d7a4ef337a5ed2d41707ac2f8badf6fd3f",
+      "track": "tech-sales",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 45,
+      "flags": []
+    },
+    {
+      "title": "Marketing Agent",
+      "company": "Wyndham Hotels & Resorts",
+      "location": "Myrtle Beach, Horry County",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/details/5922974292?utm_medium=api&utm_source=ea9765bf",
+      "postedAt": "2026-10-11T02:15:16.000Z",
+      "snippet": "We Put the World on Vacation Travel Leisure Co. is the world’s leading vacation ownership and travel membership company, with a dynamic and growing portfolio of resort, travel club, and lifestyle travel brands. Our dedicated associates hel…",
+      "source": "adzuna",
+      "id": "526b2765373ce888d926e43f2a54795a20a85b0f",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 45,
+      "flags": []
+    },
+    {
+      "title": "Vacation Sales Ambassador",
+      "company": "Hilton Grand Vacations",
+      "location": "Myrtle Beach, Horry County",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/details/5922895779?utm_medium=api&utm_source=ea9765bf",
+      "postedAt": "2026-10-11T00:36:51.000Z",
+      "snippet": "Description Do you love the outdoors and enjoy helping others plan their next great adventure? Join Hilton Grand Vacations as a Vacation Sales Ambassador inside Bass Pro Shops, where you’ll connect with guests and introduce them to excitin…",
+      "source": "adzuna",
+      "id": "3374e60c7438e72e0cee890fa621776c21cf1ec7",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 45,
+      "flags": []
+    },
+    {
+      "title": "Petcare & Daycare Attendant - Pawleys Islane",
+      "company": "Pawville Intermediate Holdings LLC",
+      "location": "Pawleys Island, Georgetown County",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/details/5922667618?utm_medium=api&utm_source=ea9765bf",
+      "postedAt": "2026-10-10T20:55:38.000Z",
+      "snippet": "Title: Dog Daycare Attendant Join a Team Where Every Stay is a Story. Do you love getting to know a pet's unique personality? At Pawville, we pride ourselves on providing tailored, personalized carefrom breed-specific grooming cuts to enri…",
+      "source": "adzuna",
+      "id": "eac831d501e1f6a6e1008052296cf96b521fc8c6",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 45,
+      "flags": []
+    },
+    {
+      "title": "Team Beauty Lead - Full Time",
+      "company": "Belk",
+      "location": "Murrells Inlet, Horry County",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/details/5921789585?utm_medium=api&utm_source=ea9765bf",
+      "postedAt": "2026-10-10T02:18:31.000Z",
+      "snippet": "The Team Beauty Lead drives personal and department-wide results, demonstrating a passion for building personalized client relationships and sharing a genuine enthusiasm for cosmetic, beauty, and fragrance trends. This role utilizes engagi…",
+      "source": "adzuna",
+      "id": "98d3bf0836c9c4713446e02da25777ca1dbc667e",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 45,
+      "flags": []
+    },
+    {
+      "title": "Environmental Services Attendant",
+      "company": "Sodexo",
+      "location": "Murrells Inlet, Horry County",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/land/ad/5920525635?se=BpXCCeHI8RGgYcdhZypWfA&utm_medium=api&utm_source=ea9765bf&v=404CE74BA2F7250E9CAFFEE0DCFBCE6A5B2C445D",
+      "postedAt": "2026-10-09T07:23:53.000Z",
+      "snippet": "Environmental Services Attendant Location: TIDELANDS WACCAMAW COMMUNITY HOSPITAL - 50029002 Workdays/shifts _:_ ANY SHIFT (OPEN AVAILABILITY). More details will be provided during the interview process. Employment Type: Full-time Pay Range…",
+      "source": "adzuna",
+      "id": "b0ec627f24da1225fe43031ecd46225b532857f5",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 45,
+      "flags": []
+    },
+    {
+      "title": "Restaurant AGM with Growing Scratch Kitchen Brand! ZCJ 3686815",
+      "company": "Superior Talent Source",
+      "location": "Myrtle Beach, Horry County",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/details/5920151530?utm_medium=api&utm_source=ea9765bf",
+      "postedAt": "2026-10-09T01:12:29.000Z",
+      "snippet": "Assistant General Manager – Scratch Kitchen | Food-Driven Culture We’re looking for a hands-on Assistant General Manager who is passionate about food, thrives in a scratch kitchen environment, and takes pride in delivering an exceptional d…",
+      "source": "adzuna",
+      "id": "c34355add18b2c166ac9d179fa434d1403d69fa1",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 45,
+      "flags": []
+    },
+    {
+      "title": "Armed Vehicle Patrol Security Officer",
+      "company": "Allied Universal",
+      "location": "Whiteville, Columbus County",
+      "remote": false,
+      "pay": "$53,996–$62,004/year",
+      "url": "https://www.adzuna.com/land/ad/5919705217?se=BpXCCeHI8RGgYcdhZypWfA&utm_medium=api&utm_source=ea9765bf&v=FDEDBEF9B217AEB2ED2840D8359468F277156D59",
+      "postedAt": "2026-10-08T19:14:00.000Z",
+      "snippet": "As an Armed Vehicle Patrol Security Officer, you help protect a government corrections facility through regular vehicle and foot patrols, visible presence, and professional interaction with staff and visitors. You control access to restric…",
+      "source": "adzuna",
+      "id": "7cc5708e9b60fa16f126933df613596db2428040",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 45,
+      "flags": [
+        "high-pay"
+      ]
+    },
+    {
+      "title": "Automotive Service Technician B Level",
+      "company": "Promotive",
+      "location": "Loris, Horry County",
+      "remote": false,
+      "pay": "$62,000–$78,000/year",
+      "url": "https://www.adzuna.com/land/ad/5919115379?se=XELxCeHI8RGgYcdhZypWfA&utm_medium=api&utm_source=ea9765bf&v=7AFD6DA293319B9C8CEE8F933687C0CCEF0A9DE2",
+      "postedAt": "2026-10-08T10:56:48.000Z",
+      "snippet": "Promotive seeks a B Level Automotive Technician to perform accurate, efficient vehicle diagnostics, maintenance, and repairs. You’ll handle inspections, troubleshooting, and component replacements while documenting work in our systems. Par…",
+      "source": "adzuna",
+      "id": "fb01ff9e3bd0f7da70c43a6a0d334c1d9d1f701b",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 45,
+      "flags": [
+        "high-pay"
+      ]
+    },
+    {
+      "title": "Housekeeping Room Attendant",
+      "company": "EOS",
+      "location": "Myrtle Beach, Horry County",
+      "remote": false,
+      "pay": "$33,280/year",
+      "url": "https://www.adzuna.com/details/5918824416?utm_medium=api&utm_source=ea9765bf",
+      "postedAt": "2026-10-08T07:07:05.000Z",
+      "snippet": "The Kingston Resorts is a 145-acre oceanfront resort on the north-end of Myrtle Beach. Less than 2 miles from Tanger Outlets and a short 20-minute trip to Broadway at the Beach. This resort is home to the Hilton Myrtle Beach Resort, Embass…",
+      "source": "adzuna",
+      "id": "da7e11f32f6c5c8fc823bd3f548efa3923c61677",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 45,
+      "flags": [],
       "otherLocations": []
+    },
+    {
+      "title": "Retail Cleaning Associate",
+      "company": "TJX",
+      "location": "Myrtle Beach, Horry County",
+      "remote": false,
+      "pay": "$29,120–$30,160/year",
+      "url": "https://www.adzuna.com/details/5917023831?utm_medium=api&utm_source=ea9765bf",
+      "postedAt": "2026-10-07T08:24:10.000Z",
+      "snippet": "Marshalls At TJX Companies, every day brings new opportunities for growth, exploration, and achievement. You’ll be part of our vibrant team that embraces diversity, fosters collaboration, and prioritizes your development. Whether you’re wo…",
+      "source": "adzuna",
+      "id": "13a6649e28c35cb0543a343619f222017c079296",
+      "track": "tech-sales",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 45,
+      "flags": []
+    },
+    {
+      "title": "Personal Trainer (Small Group) Instructor",
+      "company": "Valet Living",
+      "location": "Pawleys Island, Georgetown County",
+      "remote": false,
+      "pay": "$83,200–$93,600/year",
+      "url": "https://www.adzuna.com/details/5916679738?utm_medium=api&utm_source=ea9765bf",
+      "postedAt": "2026-10-07T05:21:36.000Z",
+      "snippet": "Ignite Your Fitness Passion with Torch Fitness by Valet Living Are you energized by music, movement, and making an impact? Torch Fitness, a division of Valet Living, is looking for an enthusiastic Group Exercise instructor to sub occasiona…",
+      "source": "adzuna",
+      "id": "8969127df69cfdc8e7d9ff947dd9140486e06b93",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 45,
+      "flags": [
+        "high-pay"
+      ]
+    },
+    {
+      "title": "Beauty Advisor - Part Time",
+      "company": "Belk",
+      "location": "Georgetown, Georgetown County",
+      "remote": false,
+      "pay": "$17,784–$38,084/year",
+      "url": "https://www.adzuna.com/details/5916402135?utm_medium=api&utm_source=ea9765bf",
+      "postedAt": "2026-10-07T03:24:34.000Z",
+      "snippet": "The Team Beauty Associate drives sales and delivers a positive customer experience by providing excellent service through building client relationships, performing product applications, and offering customized recommendations across multip…",
+      "source": "adzuna",
+      "id": "7ee4a04d733f4ed2b75f2c8f43b8272c29ae01fc",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 45,
+      "flags": []
+    },
+    {
+      "title": "Real Estate Agent",
+      "company": "Carolina One Real Estate",
+      "location": "Myrtle Beach, Horry County (+3 more)",
+      "remote": false,
+      "pay": "$90,000–$130,000/year",
+      "url": "https://www.adzuna.com/land/ad/5913651705?se=XELxCeHI8RGgYcdhZypWfA&utm_medium=api&utm_source=ea9765bf&v=80FF9F1D40D99DBCD7F9EE9DC4E3E574B5B9709E",
+      "postedAt": "2026-10-06T06:50:55.000Z",
+      "snippet": "Carolina One Real Estate seeks motivated Real Estate Agents to serve buyers and sellers across the greater Charleston area. In this commission-based role, you’ll prospect and nurture leads, conduct property showings, prepare and present of…",
+      "source": "adzuna",
+      "id": "5f34c0eec1d585cf8c7a2a45836a7dfd2eda8060",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 45,
+      "flags": [
+        "high-pay"
+      ],
+      "otherLocations": [
+        "North Myrtle Beach, Horry County",
+        "Carolina Forest, Horry County",
+        "Surfside, Horry County"
+      ]
+    },
+    {
+      "title": "Light Show Attendant (Temporary)",
+      "company": "City of North Myrtle Beach",
+      "location": "North Myrtle Beach, Horry County",
+      "remote": false,
+      "pay": "$32,240–$38,480/year",
+      "url": "https://www.adzuna.com/details/5912222791?utm_medium=api&utm_source=ea9765bf",
+      "postedAt": "2026-10-05T02:01:55.000Z",
+      "snippet": "General Statement of Job Under general supervision performs customer service work during special event operations at North Myrtle Beach Sports Park. Work will primarily revolve around the City’s operation of The Great Christmas Light Show.…",
+      "source": "adzuna",
+      "id": "3673bf5162675105130ba978c499f6b0f375a1e8",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 45,
+      "flags": []
+    },
+    {
+      "title": "Marketing and Communications Coordinator",
+      "company": "Southeastern Community College",
+      "location": "Whiteville, Columbus County",
+      "remote": false,
+      "pay": "$41,403–$51,755/year",
+      "url": "https://www.adzuna.com/details/5911347432?utm_medium=api&utm_source=ea9765bf",
+      "postedAt": "2026-10-04T06:31:24.000Z",
+      "snippet": "Minimum Requirements Associate’s degree from a regionally accredited institution. Minimum of five years of experience in social media management, public relations, marketing, communications, or related field. Preferred Requirements Bachelo…",
+      "source": "adzuna",
+      "id": "5879ffa3f9bc59017fe08fa5bdb383fc43fbd23e",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 45,
+      "flags": [
+        "high-pay"
+      ]
+    },
+    {
+      "title": "Retail Stocking Associate",
+      "company": "Harbor Freight",
+      "location": "Georgetown, Georgetown County",
+      "remote": false,
+      "pay": "$32,240/year",
+      "url": "https://www.adzuna.com/details/5911259805?utm_medium=api&utm_source=ea9765bf",
+      "postedAt": "2026-10-04T04:25:24.000Z",
+      "snippet": "A Retail Stocking Associate (part-time) is a valued member of a high performing team who is empowered & equipped to do their job. You will know why your work matters and take pride in what you do! The anticipated rate for this position is …",
+      "source": "adzuna",
+      "id": "cd40c38a1fa65fe4db83b12e6459cfb1472792fc",
+      "track": "tech-sales",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 45,
+      "flags": []
+    },
+    {
+      "title": "Tax Expert - On-Site",
+      "company": "Intuit",
+      "location": "North Myrtle Beach, Horry County (+6 more)",
+      "remote": false,
+      "pay": "$48,880–$85,280/year",
+      "url": "https://www.adzuna.com/land/ad/5910926637?se=XELxCeHI8RGgYcdhZypWfA&utm_medium=api&utm_source=ea9765bf&v=654E9E0CA5F533ECEC6BE284241BE4C86D9E545C",
+      "postedAt": "2026-10-03T22:40:02.000Z",
+      "snippet": "Overview Intuit is seeking highly motivated individuals to join our dynamic team as dedicated year-round TurboTax Local Service Experts in one of our new TurboTax locations across the United States. This unique opportunity combines tax exp…",
+      "source": "adzuna",
+      "id": "76b29231aa114d7e00b96cfc648fecd676dc74ad",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 45,
+      "flags": [
+        "high-pay"
+      ],
+      "otherLocations": [
+        "Summerville, Dorchester County",
+        "North Charleston, Charleston County",
+        "Charleston, Charleston County",
+        "Atlantic Beach, Horry County",
+        "Saint Andrews, Charleston County",
+        "Pinehaven, Charleston County"
+      ]
+    },
+    {
+      "title": "Tax Expert - Local Tax Office",
+      "company": "Intuit",
+      "location": "North Myrtle Beach, Horry County (+4 more)",
+      "remote": false,
+      "pay": "$48,880–$85,280/year",
+      "url": "https://www.adzuna.com/land/ad/5910926469?se=XELxCeHI8RGgYcdhZypWfA&utm_medium=api&utm_source=ea9765bf&v=95B544F253C8828508932E0BA80B05067D7D0109",
+      "postedAt": "2026-10-03T22:40:00.000Z",
+      "snippet": "Overview Intuit is seeking highly motivated individuals to join our dynamic team as dedicated year-round TurboTax Local Service Experts in one of our new TurboTax locations across the United States. This unique opportunity combines tax exp…",
+      "source": "adzuna",
+      "id": "42aa094e2066726a30826d4a08f0d56f66cbb19c",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 45,
+      "flags": [
+        "high-pay"
+      ],
+      "otherLocations": [
+        "Summerville, Dorchester County",
+        "Pinehaven, Charleston County",
+        "Saint Andrews, Charleston County",
+        "Atlantic Beach, Horry County"
+      ]
+    },
+    {
+      "title": "Tax Expert - Local Branch",
+      "company": "Intuit",
+      "location": "Summerville, Dorchester County (+3 more)",
+      "remote": false,
+      "pay": "$48,880–$85,280/year",
+      "url": "https://www.adzuna.com/land/ad/5910925965?se=EnD-CeHI8RGnv4JedLxTEg&utm_medium=api&utm_source=ea9765bf&v=C47A282DC0F0E6E03973E4EDB8D4BA7B1965C4B8",
+      "postedAt": "2026-10-03T22:39:56.000Z",
+      "snippet": "Overview Intuit is seeking highly motivated individuals to join our dynamic team as dedicated year-round TurboTax Local Service Experts in one of our new TurboTax locations across the United States. This unique opportunity combines tax exp…",
+      "source": "adzuna",
+      "id": "c31e0c1d426d4b8347ffc44a3a3e3368184a54a6",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 45,
+      "flags": [
+        "high-pay"
+      ],
+      "otherLocations": [
+        "Charleston, Charleston County",
+        "Saint Andrews, Charleston County",
+        "Atlantic Beach, Horry County"
+      ]
+    },
+    {
+      "title": "Tax Expert - Local",
+      "company": "Intuit",
+      "location": "North Myrtle Beach, Horry County (+2 more)",
+      "remote": false,
+      "pay": "$48,880–$85,280/year",
+      "url": "https://www.adzuna.com/land/ad/5910925931?se=XELxCeHI8RGgYcdhZypWfA&utm_medium=api&utm_source=ea9765bf&v=61ABB0D35CE3ADBFB583B154B1FA140D9137A54F",
+      "postedAt": "2026-10-03T22:39:55.000Z",
+      "snippet": "Overview Intuit is seeking highly motivated individuals to join our dynamic team as dedicated year-round TurboTax Local Service Experts in one of our new TurboTax locations across the United States. This unique opportunity combines tax exp…",
+      "source": "adzuna",
+      "id": "77e7601433bd9591b128b09ec624aaf8e78f1633",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 45,
+      "flags": [
+        "high-pay"
+      ],
+      "otherLocations": [
+        "North Charleston, Charleston County",
+        "Pinehaven, Charleston County"
+      ]
+    },
+    {
+      "title": "Tax Expert - Expert Center (Southeast)",
+      "company": "Intuit",
+      "location": "North Charleston, Charleston County (+2 more)",
+      "remote": false,
+      "pay": "$48,880–$85,280/year",
+      "url": "https://www.adzuna.com/land/ad/5910925363?se=EnD-CeHI8RGnv4JedLxTEg&utm_medium=api&utm_source=ea9765bf&v=B52B071DD2CEEF3B753FA892B4CE35207CEDEA3B",
+      "postedAt": "2026-10-03T22:39:50.000Z",
+      "snippet": "Overview Intuit is seeking highly motivated individuals to join our dynamic team as dedicated year-round TurboTax Local Service Experts in one of our new TurboTax locations across the United States. This unique opportunity combines tax exp…",
+      "source": "adzuna",
+      "id": "c13d7ecf47a413c13abb0c558f69f93c4628768a",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 45,
+      "flags": [
+        "high-pay"
+      ],
+      "otherLocations": [
+        "Summerville, Dorchester County",
+        "Pinehaven, Charleston County"
+      ]
+    },
+    {
+      "title": "Brand Market Specialist - Charleston, SC",
+      "company": "Beauty Barrage",
+      "location": "Charleston, Charleston County",
+      "remote": false,
+      "pay": "$54,080–$62,400/year",
+      "url": "https://www.adzuna.com/details/5905081296?utm_medium=api&utm_source=ea9765bf",
+      "postedAt": "2026-10-01T03:25:29.000Z",
+      "snippet": "Who is Beauty Barrage? Beauty Barrage is a full-service strategic sales management team with our Field Team servicing doors across North America. Beauty Barrage works with some of the hottest brands in beauty today and provides in-store su…",
+      "source": "adzuna",
+      "id": "57d26a34e798225b7f2ece0bbf25d4611b4209a8",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 45,
+      "flags": [
+        "high-pay"
+      ]
+    },
+    {
+      "title": "Member Assist Cart Attendant",
+      "company": "Sam's West",
+      "location": "Myrtle Beach, Horry County",
+      "remote": false,
+      "pay": "$35,360–$52,000/year",
+      "url": "https://www.adzuna.com/details/5905035440?utm_medium=api&utm_source=ea9765bf",
+      "postedAt": "2026-10-01T02:28:15.000Z",
+      "snippet": "Position Summary We are looking for people who take pride in their work to join our team. You help shape our member’s entire shopping experience by giving them a positive first and last impression. In the member assist – cart attendant rol…",
+      "source": "adzuna",
+      "id": "ce92c39d2979b8e17f6f4f34f2d988c9af0e1b6c",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 45,
+      "flags": [
+        "high-pay"
+      ]
     },
     {
       "title": "reputed company Customer Success Associate, reputed company (Temporary, Part-Time Weekend)",
@@ -1106,8 +2815,7 @@
       "track": "ai-web",
       "firstSeenAt": "2026-10-15T21:36:30.388Z",
       "score": 45,
-      "flags": [],
-      "otherLocations": []
+      "flags": []
     },
     {
       "title": "[Remote] Healthcare Quality Improvement Specialist (OK, LA & TX (Dallas Fort Worth, Houston, Austin/San Antonio, and Amarillo/Lubbock)",
@@ -1125,8 +2833,7 @@
       "score": 45,
       "flags": [
         "high-pay"
-      ],
-      "otherLocations": []
+      ]
     },
     {
       "title": "Enterprise Account Executive - NAMER",
@@ -1142,6 +2849,360 @@
       "track": "quick-cash",
       "firstSeenAt": "2026-10-15T21:29:28.105Z",
       "score": 45,
+      "flags": []
+    },
+    {
+      "title": "Fine Jewelry Sales Associate",
+      "company": "Christopher's Fine Jewelry",
+      "location": "Pawleys Island, Georgetown County",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/land/ad/5919083447?se=RM0PCuHI8RGYwPFSmBM_bA&utm_medium=api&utm_source=ea9765bf&v=8FEDEFC55115FF0ADD94B892F1F006DB3D2B745F",
+      "postedAt": "2026-10-08T10:12:48.000Z",
+      "snippet": "Fine Jewelry Sales Associate Christopher’s Fine Jewelry | Pawleys Island, SC | Full-Time, On-Site Exceptional service. Meaningful relationships. A career built on both. Christopher’s Fine Jewelry, an established independent jeweler in Pawl…",
+      "source": "adzuna",
+      "id": "d5265f9e20ab8b96f0860cd6934e98f8c883c489",
+      "track": "tech-sales",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 40,
+      "flags": []
+    },
+    {
+      "title": "Field Sales and Marketing Representative- North Myrtle Beach, SC",
+      "company": "Techtronic Industries North America, Inc.",
+      "location": "North Myrtle Beach, Horry County",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/land/ad/5918868046?se=XELxCeHI8RGgYcdhZypWfA&utm_medium=api&utm_source=ea9765bf&v=C1452EE59C388DE1C19BE86161BCACF1B77F6562",
+      "postedAt": "2026-10-08T07:17:45.000Z",
+      "snippet": "Job Description: TTI (Techtronic Industries) is a fast-paced, high energy, organization that rewards out-of-the-box thinking to foster innovation allowing us to be the best in our industry. We provide a multi-faceted training program and h…",
+      "source": "adzuna",
+      "id": "e64d253f33863f272f7817a07bb1b5d4ec199ed6",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 40,
+      "flags": []
+    },
+    {
+      "title": "Temporary Sales Associate - Part-Time",
+      "company": "PVH Corp.",
+      "location": "Carolina Forest, Horry County",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/land/ad/5918846225?se=XELxCeHI8RGgYcdhZypWfA&utm_medium=api&utm_source=ea9765bf&v=DE0E24FAAB4370D2EE8560DB0EFB53CB67A2D5B7",
+      "postedAt": "2026-10-08T07:11:29.000Z",
+      "snippet": "Be part of an iconic story. TOMMY HILFIGER is one of the world's most recognized global lifestyle brands, confidently welcoming and inspiring consumers since 1985. Originally established in New York City and infused with the vibrant spirit…",
+      "source": "adzuna",
+      "id": "7596ed1d154fa6b410b418584e41a81e63d4bdaf",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 40,
+      "flags": [],
+      "otherLocations": []
+    },
+    {
+      "title": "Sales Associate",
+      "company": "Campbell Oil Company",
+      "location": "Carolina Forest, Horry County",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/details/5918821685?utm_medium=api&utm_source=ea9765bf",
+      "postedAt": "2026-10-08T07:06:18.000Z",
+      "snippet": "Description Minuteman Food Mart - Sales Associate - Part Time Join us as we grow together personally and professionally! Four Generations of family leadership continue to make it our vision to leave people better than we found them. We are…",
+      "source": "adzuna",
+      "id": "ef4e6b4ffa9531376334c35de31d0479026010df",
+      "track": "tech-sales",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 40,
+      "flags": []
+    },
+    {
+      "title": "Sales Associate-ANN",
+      "company": "KnitWell Group",
+      "location": "Myrtle Beach, Horry County",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/details/5917070359?utm_medium=api&utm_source=ea9765bf",
+      "postedAt": "2026-10-07T08:42:16.000Z",
+      "snippet": "About us Ann Taylor embodies and celebrates the spirit, heritage, and confidence of American women leading the lives they love. Since its beginnings, Ann Taylor has been committed to providing women with everything they need to feel inspir…",
+      "source": "adzuna",
+      "id": "84ce1d43ffdcf6fc3bf0c6b8c4448d850b118388",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 40,
+      "flags": []
+    },
+    {
+      "title": "Sales Associate",
+      "company": "Rawlings Sporting Goods Company",
+      "location": "Carolina Forest, Horry County",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/details/5916972549?utm_medium=api&utm_source=ea9765bf",
+      "postedAt": "2026-10-07T07:55:19.000Z",
+      "snippet": "Title: Sales Associate Department : Sales Reports To : Store Manager Location: 4619 Factory Stores Blvd, Myrtle Beach, SC 29579 Status : Hourly Hours : Must have ability to work days, nights, and weekends At Rawlings, our mission is to lev…",
+      "source": "adzuna",
+      "id": "3b0bfde203d31545ecadb52b04eed05e7bbbe66c",
+      "track": "tech-sales",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 40,
+      "flags": []
+    },
+    {
+      "title": "High School Secretary I - Attendance Clerk/ Receptionist",
+      "company": "Horry County Schools",
+      "location": "Myrtle Beach, Horry County",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/details/5916957389?utm_medium=api&utm_source=ea9765bf",
+      "postedAt": "2026-10-07T07:42:18.000Z",
+      "snippet": "Position Type: Support Staff/ Secretary Date Posted: 10/5/2026 Location: Myrtle Beach High Closing Date: 10/12/2026 Job Title : School Secretary I - Attendance Clerk Terms of Employment : 190 days Supervisor : Building Principal Job Summar…",
+      "source": "adzuna",
+      "id": "96e064ac7b773d43bc960b1bbc74070eced53e8c",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 40,
+      "flags": []
+    },
+    {
+      "title": "Brand Representatives - Holiday Sales Associate",
+      "company": "stand out for good",
+      "location": "Charleston, Charleston County",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/details/5916853100?utm_medium=api&utm_source=ea9765bf",
+      "postedAt": "2026-10-07T07:04:53.000Z",
+      "snippet": "237 - King Street - Charleston, SC Who Are We? Altar’d State is a rapidly growing women’s fashion brand with 130 locations in 40 states. It feels like a sanctuary - a place of beauty from the inside out. From welcoming experiences and warm…",
+      "source": "adzuna",
+      "id": "9126daf23a53f4a12ff1b0cdb4d5bb9d28bcd09b",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 40,
+      "flags": []
+    },
+    {
+      "title": "Retail Warehouse Associate",
+      "company": "Best Buy",
+      "location": "Myrtle Beach, Horry County",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/details/5915033752?utm_medium=api&utm_source=ea9765bf",
+      "postedAt": "2026-10-06T22:26:57.000Z",
+      "snippet": "As a Retail Warehouse Associate, you'll help us create great shopping experiences by keeping our sales floor stocked and preparing online orders to be shipped to customers' homes. This includes unloading trucks, replenishing store shelves,…",
+      "source": "adzuna",
+      "id": "62cb4a97c6a336f7ad18795aa28b019e4856482d",
+      "track": "tech-sales",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 40,
+      "flags": []
+    },
+    {
+      "title": "Charity Fundraising Representative",
+      "company": "Diamante Forge Inc.",
+      "location": "Myrtle Beach, Horry County",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/land/ad/5914090373?se=XELxCeHI8RGgYcdhZypWfA&utm_medium=api&utm_source=ea9765bf&v=2D28497812F04A41CC541C8256FD2A2346728D6B",
+      "postedAt": "2026-10-06T12:31:48.000Z",
+      "snippet": "This is an onsite full time position in Myrtle Beach SC. We are looking to hire candidates that are willing to start as soon as possible! About Us: Diamante Forge, is a growing sales and marketing firm in the Myrtle Beach area. We focus on…",
+      "source": "adzuna",
+      "id": "380fcf1e8e6ff3761b2d187346beecd24cc89ad6",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 40,
+      "flags": []
+    },
+    {
+      "title": "Customer Experience Rep",
+      "company": "Bulbrite Industries",
+      "location": "Summerville, Dorchester County",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/land/ad/5914050857?se=EnD-CeHI8RGnv4JedLxTEg&utm_medium=api&utm_source=ea9765bf&v=6061869D3489569F4E44B9921AB9123EE24C89B9",
+      "postedAt": "2026-10-06T12:28:13.000Z",
+      "snippet": "Job Summary The Customer Experience Specialist provides excellent customer care in a timely manner, with an emphasis on accurate information, effective communication, and issue resolution. This role serves as a Brand Ambassador for Bulbrit…",
+      "source": "adzuna",
+      "id": "38f4e7c2f407651dd27660813befdd46de686a02",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 40,
+      "flags": []
+    },
+    {
+      "title": "Restaurant AGM with Growing Scratch Kitchen Brand! ZJM 3667920",
+      "company": "Superior Talent Source",
+      "location": "Charleston, Charleston County",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/land/ad/5913946586?se=EnD-CeHI8RGnv4JedLxTEg&utm_medium=api&utm_source=ea9765bf&v=65F290B9E6FB8E9DC9BF56E3EBCFBDD8C1155763",
+      "postedAt": "2026-10-06T11:59:19.000Z",
+      "snippet": "Job Description Job Description Assistant General Manager Scratch Kitchen | Food-Driven Culture Were looking for a hands-on Assistant General Manager who is passionate about food, thrives in a scratch kitchen environment, and takes pride i…",
+      "source": "adzuna",
+      "id": "925ac1d3b0e98d9a0013130a4f5f60699802076e",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 40,
+      "flags": []
+    },
+    {
+      "title": "Dental Hygienist-up to $10,000 welcome bonus benefits",
+      "company": "North Myrtle Beach Dentistry",
+      "location": "North Myrtle Beach, Horry County",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/land/ad/5913551217?se=BpXCCeHI8RGgYcdhZypWfA&utm_medium=api&utm_source=ea9765bf&v=D72DF3350CA9B3CDA28E06A961966EFA5808770D",
+      "postedAt": "2026-10-06T03:57:05.000Z",
+      "snippet": "Job Description Job Description $10,000 Welcome Bonus | Dental Hygienist North Myrtle Beach Dentistry Flexible Schedule | Competitive Pay | Full Benefits Join a Team That Invests in You At North Myrtle Beach Dentistry , we're looking for a…",
+      "source": "adzuna",
+      "id": "9ffcebe73762d05d74dbb48bc3f72e36b06a149f",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 40,
+      "flags": []
+    },
+    {
+      "title": "Dental Hygienist",
+      "company": "Seahawk Dental Care",
+      "location": "Myrtle Beach, Horry County",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/land/ad/5913549079?se=BpXCCeHI8RGgYcdhZypWfA&utm_medium=api&utm_source=ea9765bf&v=5B084C28562DE435DEE061BE03568EE798C6B16D",
+      "postedAt": "2026-10-06T03:56:00.000Z",
+      "snippet": "Job Description Job Description Dental Hygienist Seahawk Dental Care | Myrtle Beach, SC Robert M. Grissom Pkwy & 29th Ave N, Myrtle Beach, SC 29579 Full-Time Opportunity | Growing New Practice | Join an Expanding Hygiene Team Join a Growin…",
+      "source": "adzuna",
+      "id": "c5f400f69686a0dacab31b690818c6382ba0f9a0",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 40,
+      "flags": []
+    },
+    {
+      "title": "Dental Hygienist",
+      "company": "Murrells Inlet Dentistry",
+      "location": "Murrells Inlet, Horry County",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/land/ad/5913548768?se=BpXCCeHI8RGgYcdhZypWfA&utm_medium=api&utm_source=ea9765bf&v=9CEB2C7F3D2844E66203FACA4C80A242491284BE",
+      "postedAt": "2026-10-06T03:55:54.000Z",
+      "snippet": "Job Description Job Description Dental Hygienist Murrells Inlet Dentistry is looking for a Dental Hygienist to join our team. About Us: Join a 13-person team that thrives on collaboration, communication and community Meet our Doctor team h…",
+      "source": "adzuna",
+      "id": "4ee970081e288cbabd0f94b4a0305ad0b36ab92f",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 40,
+      "flags": []
+    },
+    {
+      "title": "Field Sales and Marketing Representative- Myrtle Beach, SC",
+      "company": "Techtronic Industries North America, Inc.",
+      "location": "Carolina Forest, Horry County",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/land/ad/5912451472?se=XELxCeHI8RGgYcdhZypWfA&utm_medium=api&utm_source=ea9765bf&v=8690A0EA93EAA3F615737393F590C14459B32EF8",
+      "postedAt": "2026-10-05T07:24:22.000Z",
+      "snippet": "Job Description: About Us: TTI (Techtronic Industries) is a fast-paced, high energy, organization that rewards out-of-the-box thinking to foster innovation allowing us to be the best in our industry. We provide a multi-faceted training pro…",
+      "source": "adzuna",
+      "id": "f5e85013ef417e86c7ee9b761fdf37ed8e231b90",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 40,
+      "flags": []
+    },
+    {
+      "title": "Home Health Physical Therapist",
+      "company": "CenterWell Home Health",
+      "location": "Myrtle Beach, Horry County",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/land/ad/5911820140?se=XELxCeHI8RGgYcdhZypWfA&utm_medium=api&utm_source=ea9765bf&v=260D913EE2319284848D2ECFB85A7875FCB57679",
+      "postedAt": "2026-10-04T16:39:11.000Z",
+      "snippet": "Become a part of our caring community Area Coverage: Williamsburg County This role has an associated $10,000 sign-on bonus As a therapist at CenterWell Home Health, reporting to the Clinical Manager, you will help patients regain strength,…",
+      "source": "adzuna",
+      "id": "145606e68b6210252aca579ae13e24c09254e28d",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 40,
+      "flags": []
+    },
+    {
+      "title": "Dental Hygienist",
+      "company": "Dental Care on Beaver Run",
+      "location": "Carolina Forest, Horry County",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/land/ad/5908129754?se=XELxCeHI8RGgYcdhZypWfA&utm_medium=api&utm_source=ea9765bf&v=CC0307C9D2FFB22058273E47B6CA7093CED4358D",
+      "postedAt": "2026-10-02T09:46:59.000Z",
+      "snippet": "$5,000 Sign-On Bonus | Dental Hygienist Dental Care on Beaver Run | Surfside Beach, SC 2641 Beaver Run Blvd, Surfside Beach, SC 29575 Full-Time Opportunity | Brand-New Practice Opened in August 2026 | Join the Founding Hygiene Team Help Bu…",
+      "source": "adzuna",
+      "id": "3df214ebc4f22f7b4f75ba7809830c8fd39992bf",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 40,
+      "flags": []
+    },
+    {
+      "title": "Customer Service Attendant",
+      "company": "Sud Stop Car Wash",
+      "location": "North Myrtle Beach, Horry County",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/details/5905778976?utm_medium=api&utm_source=ea9765bf",
+      "postedAt": "2026-10-01T10:19:16.000Z",
+      "snippet": "Welcome and thank you for your interest in joining our team! We’re excited that you’re considering a career with us. At Sud Stop Car Wash, we’re always looking for individuals who bring passion, integrity, and a commitment to excellence in…",
+      "source": "adzuna",
+      "id": "2af037e76fb762c8482ebdcb9a2fd8ec35bf15b5",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 40,
+      "flags": []
+    },
+    {
+      "title": "Sales Associate - Coastal Grand Mall - Myrtle Beach, SC",
+      "company": "Pacsun Careers",
+      "location": "Carolina Forest, Horry County",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/details/5905515189?utm_medium=api&utm_source=ea9765bf",
+      "postedAt": "2026-10-01T07:14:08.000Z",
+      "snippet": "Join the Pacsun Community Pacsun is dedicated to delivering an exclusive collection of the most relevant brands and styles to a community of inspired youth. Through partnerships with brands such as adidas, Brandy Melville, Essentials Fear …",
+      "source": "adzuna",
+      "id": "52ae8e6049e2c4cd9cae0f20e7452f13dc0cef2a",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 40,
+      "flags": []
+    },
+    {
+      "title": "Sales Associate - Part-Time",
+      "company": "PVH Corp.",
+      "location": "Carolina Forest, Horry County",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/land/ad/5905489586?se=XELxCeHI8RGgYcdhZypWfA&utm_medium=api&utm_source=ea9765bf&v=617F9808231E9F24C72AEE7B663DAC35DE45DD3B",
+      "postedAt": "2026-10-01T07:08:30.000Z",
+      "snippet": "Be part of an iconic story. TOMMY HILFIGER is one of the world's most recognized global lifestyle brands, confidently welcoming and inspiring consumers since 1985. Originally established in New York City and infused with the vibrant spirit…",
+      "source": "adzuna",
+      "id": "54f118173d5dde75845009557af2bc03d37acbf0",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 40,
+      "flags": [],
+      "otherLocations": []
+    },
+    {
+      "title": "Computed Tomography Technologist – Travel Job",
+      "company": "Jackson HealthPros",
+      "location": "Surfside, Horry County",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/land/ad/5905133373?se=BpXCCeHI8RGgYcdhZypWfA&utm_medium=api&utm_source=ea9765bf&v=D13976863849622803137F0D00C6CDA1F072C78C",
+      "postedAt": "2026-10-01T03:42:56.000Z",
+      "snippet": "Become a vital part of Jackson HealthPros’ team as an experienced CT Tech! You’ll accurately interpret a physician’s scanning instructions, administer contrast materials, and expertly operate CT scan equipment for an area healthcare facili…",
+      "source": "adzuna",
+      "id": "f7425a25d5ee2969af8ae9b3cf1f4f0546bccbc4",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 40,
       "flags": [],
       "otherLocations": []
     },
@@ -1175,8 +3236,7 @@
       "track": "quick-cash",
       "firstSeenAt": "2026-10-15T21:29:28.105Z",
       "score": 40,
-      "flags": [],
-      "otherLocations": []
+      "flags": []
     },
     {
       "title": "HP Retail Sales Representative",
@@ -1192,8 +3252,7 @@
       "track": "quick-cash",
       "firstSeenAt": "2026-10-15T21:29:28.105Z",
       "score": 40,
-      "flags": [],
-      "otherLocations": []
+      "flags": []
     },
     {
       "title": "Enterprise Account Executive, East",
@@ -1209,8 +3268,7 @@
       "track": "quick-cash",
       "firstSeenAt": "2026-10-15T21:29:28.105Z",
       "score": 40,
-      "flags": [],
-      "otherLocations": []
+      "flags": []
     },
     {
       "title": "Chromebook Sales Specialist",
@@ -1226,8 +3284,7 @@
       "track": "quick-cash",
       "firstSeenAt": "2026-10-15T21:29:28.105Z",
       "score": 40,
-      "flags": [],
-      "otherLocations": []
+      "flags": []
     },
     {
       "title": "Retail Display Installer - Technology",
@@ -1243,8 +3300,9 @@
       "track": "quick-cash",
       "firstSeenAt": "2026-10-15T21:29:28.105Z",
       "score": 40,
-      "flags": [],
-      "otherLocations": []
+      "flags": [
+        "drug-test"
+      ]
     }
   ]
 }
