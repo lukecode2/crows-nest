@@ -36,7 +36,7 @@ export function isHighPay(pay) {
 }
 export function isLiveAboard(title) {
   return /\b(?:deck ?hands?|AB|OS|able seaman|ordinary seaman|wiper|oiler|mate|yacht crew|stew\w*|tug\w*|barge\w*|offshore|vessels?|ships?|shipyard|mariner|seaman|delivery crew|day ?workers?|crew member)\b/i.test(title || '') &&
-    !/\b(?:dock ?hands?|fueler|boatcierge|instructor|technician|mechanic|sales|club|dealership|service writer|valet|front desk|call center)\b/i.test(title || '');
+    !/\b(?:dock ?hands?|fueler|boatcierge|instructor|technician|mechanic|sales|club|dealership|service writer|valet|front desk|call center|hilton|marriott|hyatt|hotel|resort|restaurant|kitchen|bar)\b/i.test(title || '');
 }
 export function lowWageShore(title) {
   return /\b(?:dock ?hands?|fueler|boatcierge|attendant|associate|cashier|valet|cleaner|porter|detailer|instructor|host|server|clerk|merchandiser|ambassador|sales development|business development rep(?:resentative)?|SDR|BDR|retail|club|jobs|careers|rental|marina)\b/i.test(title || '') || /\btechnician\b/i.test(title || '') && !/\b(?:senior|sr|lead|principal|staff|chief|head|manager)\b/i.test(title || '');

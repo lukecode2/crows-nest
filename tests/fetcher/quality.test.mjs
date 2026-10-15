@@ -153,3 +153,8 @@ test('a re-fetched job replaces its stored copy (stale predicted pay cannot surv
   const second = buildFeed(first, [raw], { nowIso, filters: {}, dismissed: { items: [] }, trackedIds: new Set() });
   assert.equal(second.length, 0);
 });
+
+test('hotel restaurant steward is not a live-aboard job', () => {
+  assert.equal(isLiveAboard('Steward, Olive & Sea - Hilton Fort Lauderdale Marina'), false);
+  assert.equal(isLiveAboard('Yacht Stewardess'), true);
+});
