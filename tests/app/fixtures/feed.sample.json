@@ -1,0 +1,240 @@
+{
+  "generatedAt": "2026-10-15T14:00:00Z",
+  "sources": [
+    {
+      "name": "sample",
+      "ok": true,
+      "count": 12,
+      "error": null
+    },
+    {
+      "name": "sample-offline",
+      "ok": false,
+      "count": 0,
+      "error": "Fictional source outage for UI testing"
+    }
+  ],
+  "jobs": [
+    {
+      "id": "sample-01",
+      "track": "marine-local",
+      "title": "Dockhand — will train",
+      "company": "Paper Sail Marina (fictional)",
+      "location": "North Myrtle Beach, SC",
+      "remote": false,
+      "pay": "$18–20/hr",
+      "url": "https://example.com/fictional-jobs/1",
+      "source": "sample",
+      "postedAt": "2026-10-14T09:00:00Z",
+      "firstSeenAt": "2026-10-14T12:00:00Z",
+      "score": 92,
+      "flags": [
+        "entry-level",
+        "drug-test"
+      ],
+      "snippet": "Help members launch, fuel, and dock small boats. Weekend availability; hands-on boat experience welcome."
+    },
+    {
+      "id": "sample-02",
+      "track": "marine-local",
+      "title": "Marina guest services & dock crew",
+      "company": "Seaglass Cove Boats (fictional)",
+      "location": "Murrells Inlet, SC",
+      "remote": false,
+      "pay": "$19/hr",
+      "url": "https://example.com/fictional-jobs/2",
+      "source": "sample",
+      "postedAt": "2026-10-13T09:00:00Z",
+      "firstSeenAt": "2026-10-13T12:00:00Z",
+      "score": 85,
+      "flags": [
+        "entry-level"
+      ],
+      "snippet": "Welcome boaters, manage dock lines, and keep the waterfront shipshape. Paid on-the-job training."
+    },
+    {
+      "id": "sample-03",
+      "track": "marine-chs",
+      "title": "Passenger ferry deckhand",
+      "company": "Lantern Shoal Ferry (fictional)",
+      "location": "Charleston, SC",
+      "remote": false,
+      "pay": "$21/hr",
+      "url": "https://example.com/fictional-jobs/3",
+      "source": "sample",
+      "postedAt": "2026-10-12T09:00:00Z",
+      "firstSeenAt": "2026-10-15T12:00:00Z",
+      "score": 88,
+      "flags": [
+        "needs-twic",
+        "drug-test"
+      ],
+      "snippet": "Work a local passenger ferry route. Assist with docking, passenger safety, and daily vessel checks."
+    },
+    {
+      "id": "sample-04",
+      "track": "marine-chs",
+      "title": "Harbor tour deck crew — seasonal",
+      "company": "Brass Buoy Harbor Tours (fictional)",
+      "location": "Mount Pleasant, SC",
+      "remote": false,
+      "pay": "$20/hr + tips",
+      "url": "https://example.com/fictional-jobs/4",
+      "source": "sample",
+      "postedAt": "2026-10-15T09:00:00Z",
+      "firstSeenAt": "2026-10-14T12:00:00Z",
+      "score": 82,
+      "flags": [
+        "entry-level",
+        "drug-test"
+      ],
+      "snippet": "Small-group harbor tours seek a friendly deckhand. Local day trips; bring your customer service skills."
+    },
+    {
+      "id": "sample-05",
+      "track": "marine-national",
+      "title": "Junior yacht deckhand",
+      "company": "Moonwake Crew Co. (fictional)",
+      "location": "Fort Lauderdale, FL",
+      "remote": false,
+      "pay": "$3,200/month",
+      "url": "https://example.com/fictional-jobs/5",
+      "source": "sample",
+      "postedAt": "2026-10-14T09:00:00Z",
+      "firstSeenAt": "2026-10-13T12:00:00Z",
+      "score": 84,
+      "flags": [
+        "entry-level",
+        "needs-eng1"
+      ],
+      "snippet": "Entry-level deck role on a private yacht. Washdowns, line handling, and guest setup. ENG1 required."
+    },
+    {
+      "id": "sample-06",
+      "track": "marine-national",
+      "title": "Ordinary seaman — research support",
+      "company": "Blue Compass Vessel Lab (fictional)",
+      "location": "Norfolk, VA",
+      "remote": false,
+      "pay": "$48,000–55,000/year",
+      "url": "https://example.com/fictional-jobs/6",
+      "source": "sample",
+      "postedAt": "2026-10-13T09:00:00Z",
+      "firstSeenAt": "2026-10-15T12:00:00Z",
+      "score": 79,
+      "flags": [
+        "needs-mmc",
+        "drug-test"
+      ],
+      "snippet": "Support a coastal research vessel crew. USCG MMC and medical required; rotational schedule."
+    },
+    {
+      "id": "sample-07",
+      "track": "ai-web",
+      "title": "Junior front-end web assistant",
+      "company": "Kite & Keel Digital (fictional)",
+      "location": "Remote — US",
+      "remote": true,
+      "pay": "$24–30/hr",
+      "url": "https://example.com/fictional-jobs/7",
+      "source": "sample",
+      "postedAt": "2026-10-12T09:00:00Z",
+      "firstSeenAt": "2026-10-14T12:00:00Z",
+      "score": 90,
+      "flags": [
+        "entry-level"
+      ],
+      "snippet": "Build accessible landing pages with HTML, CSS, and JavaScript. Portfolio projects count as experience."
+    },
+    {
+      "id": "sample-08",
+      "track": "ai-web",
+      "title": "AI response evaluator — flexible contract",
+      "company": "Pebble Prompt Studio (fictional)",
+      "location": "Remote — US",
+      "remote": true,
+      "pay": "$22/hr",
+      "url": "https://example.com/fictional-jobs/8",
+      "source": "sample",
+      "postedAt": "2026-10-15T09:00:00Z",
+      "firstSeenAt": "2026-10-13T12:00:00Z",
+      "score": 81,
+      "flags": [
+        "entry-level"
+      ],
+      "snippet": "Review AI responses for clarity and accuracy. Flexible weekly hours, paid onboarding, no degree required."
+    },
+    {
+      "id": "sample-09",
+      "track": "tech-sales",
+      "title": "Sales development representative — trainee",
+      "company": "Harborlight Demo Software (fictional)",
+      "location": "Remote — US",
+      "remote": true,
+      "pay": "$45,000 base + commission",
+      "url": "https://example.com/fictional-jobs/9",
+      "source": "sample",
+      "postedAt": "2026-10-14T09:00:00Z",
+      "firstSeenAt": "2026-10-15T12:00:00Z",
+      "score": 87,
+      "flags": [
+        "entry-level"
+      ],
+      "snippet": "Learn outbound outreach, book product demos, and work with a supportive sales team. No prior SDR role needed."
+    },
+    {
+      "id": "sample-10",
+      "track": "tech-sales",
+      "title": "Full-time retail tech ambassador",
+      "company": "Copper Gull Devices (fictional)",
+      "location": "Myrtle Beach, SC",
+      "remote": false,
+      "pay": "$23/hr",
+      "url": "https://example.com/fictional-jobs/10",
+      "source": "sample",
+      "postedAt": "2026-10-13T09:00:00Z",
+      "firstSeenAt": "2026-10-14T12:00:00Z",
+      "score": 86,
+      "flags": [
+        "entry-level"
+      ],
+      "snippet": "Bring smart-home demos to life at a local electronics store. Full-time schedule and product training."
+    },
+    {
+      "id": "sample-11",
+      "track": "quick-cash",
+      "title": "Weekend event valet",
+      "company": "Driftwood Key Parking (fictional)",
+      "location": "Myrtle Beach, SC",
+      "remote": false,
+      "pay": "$16/hr + tips",
+      "url": "https://example.com/fictional-jobs/11",
+      "source": "sample",
+      "postedAt": "2026-10-12T09:00:00Z",
+      "firstSeenAt": "2026-10-13T12:00:00Z",
+      "score": 91,
+      "flags": [
+        "entry-level"
+      ],
+      "snippet": "Evening valet shifts for local events. Valid driver’s license, friendly service, and reliable availability."
+    },
+    {
+      "id": "sample-12",
+      "track": "quick-cash",
+      "title": "Boat detailer — day work",
+      "company": "Sunny Cleat Detailing (fictional)",
+      "location": "Little River, SC",
+      "remote": false,
+      "pay": "$22–25/hr",
+      "url": "https://example.com/fictional-jobs/12",
+      "source": "sample",
+      "postedAt": "2026-10-15T09:00:00Z",
+      "firstSeenAt": "2026-10-15T12:00:00Z",
+      "score": 89,
+      "flags": [
+        "entry-level"
+      ],
+      "snippet": "Immediate day work washing and detailing boats. Supplies provided; get paid weekly for work outdoors."
+    }
+  ]
+}

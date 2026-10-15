@@ -1,0 +1,5 @@
+{
+  "excludeCompanies": ["carnival", "royal caribbean", "norwegian cruise", "ncl", "celebrity cruises", "princess cruises", "disney cruise", "msc cruises", "virgin voyages", "american cruise lines", "viking", "windstar", "lindblad", "american queen", "uncruise", "holland america", "oceania cruises", "regent seven seas", "silversea", "seabourn", "cunard", "azamara"],
+  "allowCompanies": ["spiritline", "spirit line", "barefoot queen", "military sealift command"],
+  "excludeKeywords": []
+}

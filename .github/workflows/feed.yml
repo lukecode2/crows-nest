@@ -1,0 +1,35 @@
+name: feed
+on:
+  schedule:
+    - cron: '15 11,17,23 * * *'   # 7:15am, 1:15pm, 7:15pm Eastern (EDT)
+  workflow_dispatch: {}
+permissions:
+  contents: write
+concurrency:
+  group: feed
+  cancel-in-progress: false
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: '20' }
+      - run: npm test
+      - run: node scripts/fetch-feed.mjs
+        env:
+          ADZUNA_APP_ID: ${{ secrets.ADZUNA_APP_ID }}
+          ADZUNA_APP_KEY: ${{ secrets.ADZUNA_APP_KEY }}
+          USAJOBS_API_KEY: ${{ secrets.USAJOBS_API_KEY }}
+          USAJOBS_EMAIL: ${{ secrets.USAJOBS_EMAIL }}
+          RAPIDAPI_KEY: ${{ secrets.RAPIDAPI_KEY }}
+      - name: Commit feed
+        run: |
+          git config user.name "crows-nest-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/feed.json data/pagewatch.json
+          git diff --cached --quiet && exit 0
+          git commit -m "feed: refresh $(date -u +%Y-%m-%dT%H:%MZ)"
+          for i in 1 2 3; do git pull --rebase && git push && exit 0; sleep 5; done
+          exit 1

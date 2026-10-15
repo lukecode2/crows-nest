@@ -1,0 +1,136 @@
+{
+  "adzuna": [
+    {
+      "what": "deckhand",
+      "where": "Myrtle Beach SC",
+      "track": "marine-local"
+    },
+    {
+      "what": "dockhand marina",
+      "where": "Myrtle Beach SC",
+      "track": "marine-local"
+    },
+    {
+      "what": "deckhand",
+      "where": "Charleston SC",
+      "track": "marine-chs"
+    },
+    {
+      "what": "boat crew",
+      "where": "Charleston SC",
+      "track": "marine-chs"
+    },
+    {
+      "what": "deckhand yacht",
+      "where": "Fort Lauderdale FL",
+      "track": "marine-national"
+    },
+    {
+      "what": "valet",
+      "where": "Myrtle Beach SC",
+      "track": "quick-cash"
+    },
+    {
+      "what": "brand ambassador",
+      "where": "Myrtle Beach SC",
+      "track": "quick-cash"
+    },
+    {
+      "what": "sales development representative",
+      "where": "",
+      "track": "tech-sales"
+    }
+  ],
+  "jsearch": [
+    {
+      "query": "deckhand jobs in Myrtle Beach, SC",
+      "track": "marine-local"
+    },
+    {
+      "query": "dock hand marina jobs Myrtle Beach SC",
+      "track": "marine-local"
+    },
+    {
+      "query": "deckhand jobs in Charleston, SC",
+      "track": "marine-chs"
+    },
+    {
+      "query": "ferry deckhand Charleston SC",
+      "track": "marine-chs"
+    },
+    {
+      "query": "yacht deckhand Fort Lauderdale",
+      "track": "marine-national"
+    },
+    {
+      "query": "entry level deckhand",
+      "track": "marine-national"
+    },
+    {
+      "query": "brand ambassador Best Buy Myrtle Beach",
+      "track": "quick-cash"
+    },
+    {
+      "query": "valet attendant Myrtle Beach",
+      "track": "quick-cash"
+    },
+    {
+      "query": "entry level SDR remote",
+      "track": "tech-sales"
+    },
+    {
+      "query": "retail tech sales associate Myrtle Beach",
+      "track": "tech-sales"
+    },
+    {
+      "query": "AI trainer remote no experience",
+      "track": "ai-web"
+    },
+    {
+      "query": "junior web developer remote entry level",
+      "track": "ai-web"
+    }
+  ],
+  "remote": [
+    {
+      "q": "ai trainer",
+      "track": "ai-web"
+    },
+    {
+      "q": "data annotation",
+      "track": "ai-web"
+    },
+    {
+      "q": "prompt",
+      "track": "ai-web"
+    },
+    {
+      "q": "automation",
+      "track": "ai-web"
+    },
+    {
+      "q": "wordpress",
+      "track": "ai-web"
+    },
+    {
+      "q": "web developer",
+      "track": "ai-web"
+    },
+    {
+      "q": "junior developer",
+      "track": "ai-web"
+    },
+    {
+      "q": "sales development",
+      "track": "tech-sales"
+    },
+    {
+      "q": "business development representative",
+      "track": "tech-sales"
+    },
+    {
+      "q": "customer success",
+      "track": "tech-sales"
+    }
+  ]
+}

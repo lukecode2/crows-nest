@@ -1,0 +1,397 @@
+{
+  "_verifiedAt": "2026-10-15",
+  "_notes": "Endpoints researched with web search and verified using live HTTP requests. Page-watch checks robots.txt on each run, establishes a baseline without emitting jobs, and cannot execute JavaScript. Agency track is null so classifier decides tech-sales vs quick-cash; states apply when an ATS supplies a location.",
+  "_skipped": [
+    {
+      "name": "Sea Tow",
+      "reason": "No verifiable careers endpoint found: /careers/ and /captain-careers/ return 404; homepage loads but has no careers link. Hiring appears franchise-specific.",
+      "checked": [
+        "https://seatow.com/careers/",
+        "https://seatow.com/captain-careers/",
+        "https://seatow.com/"
+      ]
+    },
+    {
+      "name": "Yotspot",
+      "reason": "Cloudflare challenge returns HTTP 403 on both the homepage and job search. Omitted rather than bypassing access controls.",
+      "checked": [
+        "https://www.yotspot.com/",
+        "https://www.yotspot.com/search/yacht-jobs.html"
+      ]
+    }
+  ],
+  "companies": [
+    {
+      "name": "Safe Harbor Marinas",
+      "track": "marine-national",
+      "ats": "page",
+      "url": "https://secure4.saashr.com/ta/6166382.careers?CareersSearch",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://www.shmarinas.com/careers/"
+      },
+      "note": "UKG Ready; job listings require JavaScript. Page-watch sees HTML links only. Live robots.txt disallows this board path; pagewatch skips it."
+    },
+    {
+      "name": "Brunswick Corporation (Freedom Boat Club)",
+      "track": "marine-national",
+      "ats": "workday",
+      "host": "brunswick.wd1.myworkdayjobs.com",
+      "tenant": "brunswick",
+      "site": "search",
+      "searchText": "Freedom Boat Club",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "method": "POST",
+        "url": "https://brunswick.wd1.myworkdayjobs.com/wday/cxs/brunswick/search/jobs",
+        "source": "https://www.brunswick.com/careers/search-jobs"
+      },
+      "keywords": [
+        "dock",
+        "boat",
+        "marina",
+        "club",
+        "captain",
+        "member"
+      ]
+    },
+    {
+      "name": "MarineMax",
+      "track": "marine-national",
+      "ats": "page",
+      "url": "https://recruiting.ultipro.com/MAR1038MAMI/JobBoard/33511185-9151-40f6-a10c-ae9ce6cf471e/",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://www.marinemax.com/pages/careers"
+      },
+      "note": "UKG Pro; job listings require JavaScript. Public careers page returned 429 twice, then 200; the linked job board returned 200. Live robots.txt disallows this board path; pagewatch skips it."
+    },
+    {
+      "name": "SpiritLine Cruises",
+      "track": "marine-chs",
+      "ats": "page",
+      "url": "https://careers.aramark.com/jobs?keyword=SpiritLine",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://careers.aramark.com/job/captain-spiritline-cruises-ft-sumter-tours/charleston-sc/683082/"
+      },
+      "note": "Aramark recruits for SpiritLine/Fort Sumter Tours. The individual indexed job is closed (410); the filtered careers search is live (200). Charleston harbor tours, allow-listed.",
+      "keywords": [
+        "spiritline"
+      ]
+    },
+    {
+      "name": "City Experiences / Hornblower",
+      "track": "marine-national",
+      "ats": "page",
+      "url": "https://jobs.dayforcehcm.com/en-US/hornblower/CANDIDATEPORTAL?departmentId=1",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://www.hornblowercorp.com/careers/"
+      },
+      "note": "Marine operations department only; harbor tours and ferries. Dayforce listings require JavaScript.",
+      "keywords": [
+        "deck",
+        "captain",
+        "mate",
+        "crew"
+      ],
+      "states": [
+        "SC",
+        "FL"
+      ]
+    },
+    {
+      "name": "Crowley",
+      "track": "marine-national",
+      "ats": "page",
+      "url": "https://careers.crowley.com/jobs",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://www.crowley.com/careers/"
+      },
+      "note": "Current iCIMS careers site; the older Taleo search is obsolete. Listings require JavaScript."
+    },
+    {
+      "name": "Moran Towing",
+      "track": "marine-national",
+      "ats": "page",
+      "url": "https://secure4.saashr.com/ta/6084283.careers?CareersSearch",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://www.morantug.com/careers-at-moran/how-to-apply/"
+      },
+      "note": "UKG Ready; job listings require JavaScript. Live robots.txt disallows this board path; pagewatch skips it."
+    },
+    {
+      "name": "Edison Chouest Offshore",
+      "track": "marine-national",
+      "ats": "page",
+      "url": "https://www.chouest.com/jobs/index.html",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://www.chouest.com/jobs/index.html"
+      },
+      "note": "Official careers page links to https://chouest.exacthire.com/ (also verified HTTP 200); ExactHire is a JavaScript app."
+    },
+    {
+      "name": "Kirby Corporation",
+      "track": "marine-national",
+      "ats": "page",
+      "url": "https://maritimecareers-kirbycorp.icims.com/jobs/search",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://kirbycorp.com/careers/"
+      },
+      "note": "Maritime positions rather than corporate/engine-service careers."
+    },
+    {
+      "name": "Harbor Docking & Towing",
+      "track": "marine-chs",
+      "ats": "page",
+      "url": "https://harbor-dt.apscareerportal.com/account",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://harbordocking.com/careers/"
+      },
+      "note": "APS Career Portal. Old ApplicantPro board returns a Service Unavailable page despite HTTP 200."
+    },
+    {
+      "name": "The Crew Network",
+      "track": "marine-national",
+      "ats": "page",
+      "url": "https://www.crewnetwork.com/looking-for-a-job/",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://www.crewnetwork.com/"
+      },
+      "note": "Official Find a Job page; vacancies are loaded by JavaScript."
+    },
+    {
+      "name": "Cotton Crews",
+      "track": "marine-national",
+      "ats": "page",
+      "url": "https://www.cottoncrews.com/crew-jobs/",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://www.cottoncrews.com/crew-jobs/"
+      }
+    },
+    {
+      "name": "Bluewater Yachting",
+      "track": "marine-national",
+      "ats": "page",
+      "url": "https://www.bluewateryachting.com/crew-placement/yacht-crew/jobs",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://www.bluewateryachting.com/crew-placement/yacht-crew/jobs"
+      }
+    },
+    {
+      "name": "Dockwalk",
+      "track": "marine-national",
+      "ats": "page",
+      "url": "https://www.dockwalk.com/jobs",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://www.dockwalk.com/jobs"
+      },
+      "note": "Jobs and career resources; some extracted links may be career advice rather than a vacancy."
+    },
+    {
+      "name": "NOAA Marine Operations",
+      "track": "marine-national",
+      "ats": "page",
+      "url": "https://marinerhiring.noaa.gov/Jobs/Openings",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://marinerhiring.noaa.gov/"
+      },
+      "note": "Openings list uses JavaScript; USAJOBS API also covers federal vessel positions."
+    },
+    {
+      "name": "Military Sealift Command",
+      "track": "marine-national",
+      "ats": "page",
+      "url": "https://sealiftcommand.com/",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://www.sealiftcommand.com/"
+      },
+      "note": "US federal sealift, not MSC Cruises."
+    },
+    {
+      "name": "2020 Companies",
+      "track": null,
+      "ats": "workday",
+      "host": "2020companies.wd1.myworkdayjobs.com",
+      "tenant": "2020companies",
+      "site": "External_Careers",
+      "searchText": "Myrtle",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "method": "POST",
+        "url": "https://2020companies.wd1.myworkdayjobs.com/wday/cxs/2020companies/External_Careers/jobs",
+        "source": "https://www.2020companies.com/careers/"
+      },
+      "note": "Live API returned three Myrtle Beach roles. Targeted search prevents the first 20 nationwide listings from crowding out local opportunities.",
+      "states": [
+        "SC",
+        "NC",
+        "Remote"
+      ]
+    },
+    {
+      "name": "ActionLink",
+      "track": null,
+      "ats": "page",
+      "url": "https://phh.tbe.taleo.net/phh01/ats/careers/v2/jobSearch?act=redirectCwsV2&cws=41&org=ACTIONLINK",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://actionlink.com/careers-3/"
+      },
+      "note": "Official careers page links to this Taleo Business Edition search. Also represented by Acosta Group.",
+      "states": [
+        "SC",
+        "NC",
+        "Remote"
+      ]
+    },
+    {
+      "name": "BDS Connected Solutions",
+      "track": null,
+      "ats": "page",
+      "url": "https://careers-channelpartners.icims.com/jobs/search",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://channelpartners.com/careers/"
+      },
+      "note": "BDS now redirects to Channel Partners. Old careers-bdssolutions.icims.com also responds but lists only one role; current board lists multiple tech/demo roles.",
+      "states": [
+        "SC",
+        "NC",
+        "Remote"
+      ]
+    },
+    {
+      "name": "Advantage Solutions",
+      "track": null,
+      "ats": "page",
+      "url": "https://careers.youradv.com/",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://youradv.com/careers/"
+      },
+      "states": [
+        "SC",
+        "NC",
+        "Remote"
+      ]
+    },
+    {
+      "name": "CROSSMARK",
+      "track": null,
+      "ats": "page",
+      "url": "https://acosta.jobs/agency/crossmark/jobs/",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://acosta.jobs/"
+      },
+      "note": "Acosta Group agency-specific careers page; listings require JavaScript.",
+      "states": [
+        "SC",
+        "NC",
+        "Remote"
+      ]
+    },
+    {
+      "name": "Mosaic",
+      "track": null,
+      "ats": "page",
+      "url": "https://acosta.jobs/agency/mosaic/jobs/",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://acosta.jobs/"
+      },
+      "note": "Acosta Group agency-specific careers page; listings require JavaScript.",
+      "states": [
+        "SC",
+        "NC",
+        "Remote"
+      ]
+    },
+    {
+      "name": "Premium Retail Services",
+      "track": null,
+      "ats": "page",
+      "url": "https://premium.avature.net/en_US/jobs/",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://premiumretail.com/careers/"
+      },
+      "states": [
+        "SC",
+        "NC",
+        "Remote"
+      ],
+      "note": " Live robots.txt disallows this board path; pagewatch skips it."
+    },
+    {
+      "name": "SPAR Business Services",
+      "track": null,
+      "ats": "page",
+      "url": "https://careers-sparinc.icims.com/jobs/search",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://sparinc.com/spar-careers/"
+      },
+      "note": "Current official SPAR careers site links to iCIMS. Historical SmartRecruiters board was found but is not used.",
+      "states": [
+        "SC",
+        "NC",
+        "Remote"
+      ]
+    },
+    {
+      "name": "Acosta",
+      "track": null,
+      "ats": "page",
+      "url": "https://acosta.jobs/agency/acosta/jobs/",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://acosta.jobs/"
+      },
+      "note": "Acosta Group agency-specific careers page; listings require JavaScript.",
+      "states": [
+        "SC",
+        "NC",
+        "Remote"
+      ]
+    }
+  ]
+}
