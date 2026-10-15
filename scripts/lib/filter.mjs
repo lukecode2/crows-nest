@@ -15,7 +15,7 @@ export function isCruise(job, filters = {}) {
 export function isSenior(job, filters = {}) {
   const title = job.title || '';
   const assistant = /\bassistant\b/i.test(title);
-  if (!assistant && /\b(?:vp|vice president|director|general manager|head of|chief|president|owner|partner|managers?)\b/i.test(title)) return true;
+  if (!assistant && /\b(?:senior|sr|vp|vice president|director|general manager|head of|chief|president|owner|partner|managers?)\b/i.test(title)) return true;
   if (!['ai-web', 'tech-sales'].includes(job.track)) return false;
   if (/\b(?:II|III|IV)\b/i.test(title)) return true;
   if ((/\bengineers?\b/i.test(title) || job.track === 'ai-web' && /\b(?:architect|scientist|researcher)\b/i.test(title)) &&
@@ -31,6 +31,7 @@ export function dropReason(job, { filters = {}, dismissed = {}, trackedIds = new
   if (new Set(trackedIds).has(job.id)) return 'tracked';
   if (isCruise(job, filters)) return 'cruise';
   if (isSenior(job, filters)) return 'senior';
+  if (needsOtherLanguage(job.title)) return 'language';
   if ((filters.excludeKeywords || []).some(k => lower(job.title).includes(lower(k)))) return 'excluded-keyword';
   if (job.track?.startsWith('marine-') && !isMarineTitle(job.title)) return 'not-marine';
   if (inHomeRegion(job.location) || job.remote) return null;
@@ -82,4 +83,9 @@ export function applyFilters(jobs, options = {}) {
     if (job.id) ids.set(job.id, kept || job);
   }
   return result;
+}
+
+// Luke speaks English only; AI-rating and support gigs often require another language.
+export function needsOtherLanguage(title) {
+  return /\b(?:german|french|spanish|japanese|korean|chinese|mandarin|cantonese|portuguese|italian|dutch|polish|arabic|hindi|turkish|russian|swedish|norwegian|danish|finnish|hebrew|vietnamese|thai|indonesian|bilingual)\b/i.test(title || '');
 }

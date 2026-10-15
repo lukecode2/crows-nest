@@ -46,11 +46,12 @@ test('live aboard signals and shore exclusions, including SDR and BDR', () => {
 });
 test('distance rule drops far shore work and preserves local work, live aboard and high pay with flags', () => {
   for (const [title, location] of [['Freedom Boat Club - Dock Hand at Lighthouse Point', 'Lighthouse Point, FL'], ['Freedom Boat Club - Part-Time Boat Fueler at Venice', 'Venice, FL'], ['Freedom Boat Club - Boating Instructor at Bald Ridge', 'Cumming, GA'], ['Freedom Boat Club - Part-Time Boatcierge at Marco', 'Marco Island, FL']]) assert.equal(applyFilters([job(title, { location })]).length, 0, title);
-  for (const [title, location, pay, flag] of [['Deckhand – Inland Barge Fleet', 'Illinois', '', 'live-aboard'], ['Deckhand (Dual Rate)', 'Portland, Oregon', '$30.14–$46.16/hr', 'high-pay'], ['Yacht Deckhand', 'Fort Lauderdale, FL', '', 'live-aboard'], ['Marina Receptionist', 'Miami, FL', '', 'pay-unknown'], ['Dockhand', 'Miami, FL', '$24/hr', 'high-pay']]) {
+  for (const [title, location, pay, flag] of [['Deckhand – Inland Barge Fleet', 'Illinois', '', 'live-aboard'], ['Deckhand (Dual Rate)', 'Portland, Oregon', '$30.14–$46.16/hr', 'high-pay'], ['Yacht Deckhand', 'Fort Lauderdale, FL', '', 'live-aboard'], ['Dockhand', 'Miami, FL', '$24/hr', 'high-pay']]) {
     const [kept] = applyFilters([job(title, { location, pay })]);
     assert.ok(kept, title); assert.equal(kept.track, 'marine-national'); assert.ok(kept.flags.includes('far-away')); assert.ok(kept.flags.includes(flag));
   }
   assert.equal(applyFilters([job('Freedom Boat Club - Dock Hand')]).length, 1);
+  assert.equal(applyFilters([job('Marina Receptionist', { location: 'Miami, FL', pay: '' })]).length, 0); // far shore marina job, no pay: Luke only moves for boat or high-pay work
   assert.equal(applyFilters([job('Marina Receptionist', { location: 'Miami, FL', pay: '$18/hr' })]).length, 0);
   assert.equal(applyFilters([job('Valet', { track: 'quick-cash', location: 'Miami, FL', pay: '$100/hr' })]).length, 0);
   for (const track of ['tech-sales', 'ai-web']) {
@@ -124,4 +125,22 @@ test('bare annual amounts from persisted feeds retain high-pay eligibility', () 
 test('county names shared with distant states need a local city or explicit home state', () => {
   for (const location of ['Indianapolis, Marion County', 'Cambridge, Dorchester County', 'Martinsburg, Berkeley County']) assert.equal(inHomeRegion(location), false, location);
   for (const location of ['Marion County', 'Florence, Florence County', 'Mullins, Marion County', 'Lake City, Florence County', 'Ladson, Dorchester County', 'Any town, Berkeley County, South Carolina']) assert.equal(inHomeRegion(location), true, location);
+});
+
+test('round 3: senior on all tracks, language gigs, far club listings, predicted Adzuna pay', async () => {
+  const { isSenior, needsOtherLanguage } = await import('../../scripts/lib/filter.mjs');
+  const { lowWageShore } = await import('../../scripts/lib/region.mjs');
+  assert.equal(isSenior({ title: 'Senior Marine Electronics Tech (Fort Lauderdale)', track: 'marine-national' }), true);
+  assert.equal(isSenior({ title: 'AE - Sr Brand Ambassador (Sr Sales Associate)', track: 'quick-cash' }), true);
+  assert.equal(isSenior({ title: 'Lead Deckhand', track: 'marine-local' }), false);
+  assert.equal(needsOtherLanguage('Artemis AI Data Rater - German'), true);
+  assert.equal(needsOtherLanguage('AI Trainer'), false);
+  assert.equal(lowWageShore('Freedom Boat Club Greater Boston and Cape Cod Jobs'), true);
+  const adzuna = await import('../../scripts/sources/adzuna.mjs');
+  const jobs = await adzuna.fetchJobs({ env: { ADZUNA_APP_ID: 'a', ADZUNA_APP_KEY: 'b' }, searches: { adzuna: [{ what: 'x', where: 'y', track: 'quick-cash' }] }, log: () => {},
+    http: { getJson: async () => ({ results: [
+      { title: 'Event Staff', company: { display_name: 'A' }, location: { display_name: 'Myrtle Beach' }, redirect_url: 'https://a/1', salary_min: 65370, salary_max: 65370, salary_is_predicted: '1' },
+      { title: 'Valet', company: { display_name: 'B' }, location: { display_name: 'Myrtle Beach' }, redirect_url: 'https://a/2', salary_min: 15, salary_max: 18, salary_is_predicted: '0' }] }) } });
+  assert.equal(jobs[0].pay, '');
+  assert.notEqual(jobs[1].pay, '');
 });

@@ -39,5 +39,5 @@ export function isLiveAboard(title) {
     !/\b(?:dock ?hands?|fueler|boatcierge|instructor|technician|mechanic|sales|club|dealership|service writer|valet|front desk|call center)\b/i.test(title || '');
 }
 export function lowWageShore(title) {
-  return /\b(?:dock ?hands?|fueler|boatcierge|attendant|associate|cashier|valet|cleaner|porter|detailer|instructor|host|server|clerk|merchandiser|ambassador|sales development|business development rep(?:resentative)?|SDR|BDR|retail)\b/i.test(title || '') || /\btechnician\b/i.test(title || '') && !/\b(?:senior|sr|lead|principal|staff|chief|head|manager)\b/i.test(title || '');
+  return /\b(?:dock ?hands?|fueler|boatcierge|attendant|associate|cashier|valet|cleaner|porter|detailer|instructor|host|server|clerk|merchandiser|ambassador|sales development|business development rep(?:resentative)?|SDR|BDR|retail|club|jobs|careers|rental|marina)\b/i.test(title || '') || /\btechnician\b/i.test(title || '') && !/\b(?:senior|sr|lead|principal|staff|chief|head|manager)\b/i.test(title || '');
 }
