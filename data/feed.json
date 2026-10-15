@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T21:36:30.388Z",
+  "generatedAt": "2026-10-15T21:38:56.466Z",
   "sources": [
     {
       "name": "adzuna",
@@ -98,24 +98,6 @@
       "flags": [
         "entry-level",
         "high-pay"
-      ]
-    },
-    {
-      "title": "Artemis AI Data Rater - German",
-      "company": "Welo Global",
-      "location": "Remote",
-      "remote": true,
-      "pay": "$7/hourly",
-      "url": "https://himalayas.app/companies/welo-global/jobs/artemis-ai-data-rater-german",
-      "postedAt": "2026-10-15T21:07:55.000Z",
-      "snippet": "OVERVIEW Are you tech-savvy? Have a passion for quality? We are looking for Data Raters to work on projects aimed at advancing AI technologies. Join us for a unique chance to kickstart your career in the AI field! This project is an excell…",
-      "source": "himalayas",
-      "id": "66a3b0156b96a3e7a9bfd4aff160e945faf5dc62",
-      "track": "ai-web",
-      "firstSeenAt": "2026-10-15T21:29:28.105Z",
-      "score": 85,
-      "flags": [
-        "entry-level"
       ],
       "otherLocations": []
     },
@@ -135,7 +117,8 @@
       "score": 80,
       "flags": [
         "entry-level"
-      ]
+      ],
+      "otherLocations": []
     },
     {
       "title": "Retail Sales Associate (Seasonal)-HWY 17-$13/hr",
@@ -211,29 +194,8 @@
       "flags": [
         "far-away",
         "high-pay"
-      ]
-    },
-    {
-      "title": "Senior Marine Electronics Tech (Fort Lauderdale)",
-      "company": "Concord Marine Electronics",
-      "location": "Lazy Lake, Broward County (+1 more)",
-      "remote": false,
-      "pay": "$130,595.69/year",
-      "url": "https://www.adzuna.com/land/ad/5927880782?se=xsodfeDI8RGINu7MzrNU1Q&utm_medium=api&utm_source=ea9765bf&v=E8FBB912F75D6C43B27D8EAC3A72AC42FF332728",
-      "postedAt": "2026-10-14T13:47:53.000Z",
-      "snippet": "Senior Marine Electronics Technician – Fort Lauderdale, FL Location: Fort Lauderdale, FL (on-site) Pay type: Hourly Range: $30–$43 per hour $5,000 sign-on bonus after 180 days of successful full-time employment. Senior Marine Electronics T…",
-      "source": "adzuna",
-      "id": "3fb7b0e1f9d822c029e6ba5d20845d0a56010d38",
-      "track": "marine-national",
-      "firstSeenAt": "2026-10-15T21:36:30.388Z",
-      "score": 75,
-      "flags": [
-        "far-away",
-        "high-pay"
       ],
-      "otherLocations": [
-        "Fort Lauderdale, Broward County"
-      ]
+      "otherLocations": []
     },
     {
       "title": "Freelance Graphic Designer (Reviewer) - AI Training",
@@ -519,42 +481,6 @@
       "firstSeenAt": "2026-10-15T20:53:15.652Z"
     },
     {
-      "title": "Mobile Associate - Retail Sales, Bilingual",
-      "company": "T-Mobile",
-      "location": "Myrtle Beach, Horry County",
-      "remote": false,
-      "pay": "$37,440",
-      "url": "https://www.adzuna.com/details/5923225156?utm_medium=api&utm_source=ea9765bf",
-      "postedAt": "2026-10-11T07:17:19.000Z",
-      "snippet": "At T-Mobile, we invest in YOU! Our Total Rewards Package ensures that employees get the same big love we give our customers. All team members receive a competitive base salary and compensation package - this is Total Rewards. Employees enj…",
-      "source": "adzuna",
-      "id": "7d2996908749009034ddb514efe01a97f4b883de",
-      "track": "tech-sales",
-      "score": 70,
-      "flags": [],
-      "firstSeenAt": "2026-10-15T20:47:30.879Z",
-      "otherLocations": []
-    },
-    {
-      "title": "Mobile Associate - Retail Sales, Bilingual",
-      "company": "T-Mobile USA, Inc.",
-      "location": "North Myrtle Beach, Horry County",
-      "remote": false,
-      "pay": "$69,920.44",
-      "url": "https://www.adzuna.com/details/5921544207?utm_medium=api&utm_source=ea9765bf",
-      "postedAt": "2026-10-09T22:37:50.000Z",
-      "snippet": "At T-Mobile, we invest in YOU! Our Total Rewards Package ensures that employees get the same big love we give our customers. All team members receive a competitive base salary and compensation package - this is Total Rewards. Employees enj…",
-      "source": "adzuna",
-      "id": "cc596914dd6f38971bfad27a7132af7911939c36",
-      "track": "tech-sales",
-      "score": 70,
-      "flags": [
-        "high-pay"
-      ],
-      "firstSeenAt": "2026-10-15T20:47:30.879Z",
-      "otherLocations": []
-    },
-    {
       "title": "Retail Sales Associate - Full Time",
       "company": "AutoZone",
       "location": "Georgetown, Georgetown County",
@@ -682,70 +608,23 @@
       "otherLocations": []
     },
     {
-      "title": "Freedom Boat Club Greater Boston and Cape Cod Jobs",
-      "company": "Brunswick Corporation (Freedom Boat Club)",
-      "location": "Plymouth, MA; Boston, MA; South Yarmouth, MA; Chatham, MA; Marshfield, MA; East Falmouth, MA; Buzzards Bay, MA; Provincetown, MA; Charlestown, MA; Scituate, MA; Hingham, MA; East Dennis, MA; Beverly, MA",
-      "remote": false,
-      "pay": "",
-      "url": "https://brunswick.wd1.myworkdayjobs.com/en-US/search/job/Plymouth-MA/Freedom-Boat-Club-Greater-Boston-and-Cape-Cod-Jobs_JR-051657",
-      "postedAt": "2026-09-18T00:00:00.000Z",
-      "snippet": "Part time Are you ready for what’s next? Come explore opportunities within Brunswick, a global marine leader committed to challenging conventions and innovating next-generation technologies that transform experiences on the water and beyon…",
-      "source": "ats",
-      "id": "1d53c310d25f39163af6336193d9641cc6451bf3",
-      "track": "marine-national",
-      "firstSeenAt": "2026-10-15T20:32:31.715Z",
-      "score": 70,
-      "flags": [
-        "entry-level",
-        "drug-test",
-        "far-away",
-        "pay-unknown"
-      ],
-      "otherLocations": []
-    },
-    {
       "title": "Sales Associate - Spirit",
       "company": "Spencer Gifts - Spirit Halloween",
       "location": "Carolina Forest, Horry County",
       "remote": false,
       "pay": "$24,544–$24,960/year",
-      "url": "https://www.adzuna.com/land/ad/5928102847?se=yr2PfeDI8RGgYcdhZypWfA&utm_medium=api&utm_source=ea9765bf&v=6121F1585D20D101A0BA3122451A1FF3FEB234E2",
+      "url": "https://www.adzuna.com/land/ad/5928102847?se=rCgZ1ODI8RGnv4JedLxTEg&utm_medium=api&utm_source=ea9765bf&v=6121F1585D20D101A0BA3122451A1FF3FEB234E2",
       "postedAt": "2026-10-14T20:27:19.000Z",
       "snippet": "Hourly rate ranges from $11.80 - $12.00 per hour and is dependent upon qualifications and experience. Benefits include: Set-Up and Tear Down Premium Pay Programs, End of Season Premium Pay Program. All Bonus and Pay Programs subject to qua…",
       "source": "adzuna",
-      "id": "3ac35adcdee29d30855736e808ff59cabf596350",
+      "id": "2b9047d08e27b3f96c0ec460901e0bf5193cf00f",
       "track": "tech-sales",
-      "firstSeenAt": "2026-10-15T21:36:30.388Z",
+      "firstSeenAt": "2026-10-15T21:38:56.466Z",
       "score": 65,
       "flags": [
         "entry-level"
       ],
       "otherLocations": []
-    },
-    {
-      "title": "Part-time Nabisco Merchandiser",
-      "company": "Mondelez International",
-      "location": "Chadbourn, Columbus County (+5 more)",
-      "remote": false,
-      "pay": "$29,547.22/year",
-      "url": "https://www.adzuna.com/land/ad/5927401925?se=SsUNfeDI8RGYwPFSmBM_bA&utm_medium=api&utm_source=ea9765bf&v=292863BB114BE1B6E7D7765576803CAF7DF156F2",
-      "postedAt": "2026-10-14T07:29:16.000Z",
-      "snippet": "Chadbourn, North Carolina, United States Whiteville, North Carolina, United States Tabor City, North Carolina, United States Part time R-179576 Job Description Join our Mission to Lead the Future of Snacking at Mondelēz International Part …",
-      "source": "adzuna",
-      "id": "65224bb53caeb63afa399dbf7df975c9a06be50c",
-      "track": "quick-cash",
-      "firstSeenAt": "2026-10-15T21:36:30.388Z",
-      "score": 65,
-      "flags": [
-        "entry-level"
-      ],
-      "otherLocations": [
-        "Whiteville, Columbus County",
-        "Tabor City, Columbus County",
-        "Carolina Forest, Horry County",
-        "Pawleys Island, Georgetown County",
-        "Murrells Inlet, Horry County"
-      ]
     },
     {
       "title": "Front End Web Developers",
@@ -761,7 +640,8 @@
       "track": "ai-web",
       "firstSeenAt": "2026-10-15T21:36:30.388Z",
       "score": 65,
-      "flags": []
+      "flags": [],
+      "otherLocations": []
     },
     {
       "title": "Host, Olive and Sea - Hilton Fort Lauderdale Marina",
@@ -816,10 +696,10 @@
       "firstSeenAt": "2026-10-15T21:36:30.388Z",
       "score": 65,
       "flags": [
-        "drug-test",
         "far-away",
         "high-pay"
-      ]
+      ],
+      "otherLocations": []
     },
     {
       "title": "Rooms Controller - Hilton Fort Lauderdale Marina",
@@ -857,7 +737,8 @@
       "flags": [
         "far-away",
         "high-pay"
-      ]
+      ],
+      "otherLocations": []
     },
     {
       "title": "Seasonal Sales Associate (HWY 501)",
@@ -969,25 +850,6 @@
         "live-aboard"
       ],
       "firstSeenAt": "2026-10-15T20:53:15.652Z"
-    },
-    {
-      "title": "AE - Sr Brand Ambassador (Sr Sales Associate)",
-      "company": "American Eagle Outfitters",
-      "location": "Charleston, Charleston County",
-      "remote": false,
-      "pay": "$92,119.1",
-      "url": "https://www.adzuna.com/details/5919128230?utm_medium=api&utm_source=ea9765bf",
-      "postedAt": "2026-10-08T11:05:39.000Z",
-      "snippet": "Description YOUR ROLE As a part-time Sr Brand Ambassador, you bring our brand to life every day! Your goal is to provide everyone who comes in the store with an amazing shopping experience, making their day better than before they came in.…",
-      "source": "adzuna",
-      "id": "925ebc3b5f590bf085383f69b94600788eb92224",
-      "track": "quick-cash",
-      "score": 65,
-      "flags": [
-        "high-pay"
-      ],
-      "firstSeenAt": "2026-10-15T20:47:30.879Z",
-      "otherLocations": []
     },
     {
       "title": "Retail Sales Associate – Part Time",
@@ -1333,6 +1195,49 @@
       "flags": [],
       "firstSeenAt": "2026-10-15T20:32:31.715Z",
       "otherLocations": []
+    },
+    {
+      "title": "Entry-Level Customer Service Representative – Remote‑First Role with arenaflex, Kansas City, MO – Launch Your Career in Service Excellence",
+      "company": "remote quest jobs",
+      "location": "",
+      "remote": true,
+      "pay": "",
+      "url": "https://us.remotejobs.dedyn.io/job/entry-level-customer-service-representative-remote-first-role-with-arenaflex-kansas-city-mo-launch-your-career-in-service-excellence",
+      "postedAt": "2026-10-14T23:00:00.000Z",
+      "snippet": "via Remote Quest Jobs. ```html Why arenaflex? – Shaping Experiences Through Service At arenaflex, we believe that reputed company interaction is an opportunity to shape a lasting impression. As a forward‑thinking organization that blends c…",
+      "source": "jsearch",
+      "id": "48898a05494c1ae16daab5bf2cb75107691c937f",
+      "track": "ai-web",
+      "firstSeenAt": "2026-10-15T21:38:56.466Z",
+      "score": 60,
+      "flags": [
+        "entry-level"
+      ]
+    },
+    {
+      "title": "Part-time Nabisco Merchandiser",
+      "company": "Mondelez International",
+      "location": "Chadbourn, Columbus County (+5 more)",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/land/ad/5927401925?se=1nDe0-DI8RGnv4JedLxTEg&utm_medium=api&utm_source=ea9765bf&v=292863BB114BE1B6E7D7765576803CAF7DF156F2",
+      "postedAt": "2026-10-14T07:29:16.000Z",
+      "snippet": "Chadbourn, North Carolina, United States Whiteville, North Carolina, United States Tabor City, North Carolina, United States Part time R-179576 Job Description Join our Mission to Lead the Future of Snacking at Mondelēz International Part …",
+      "source": "adzuna",
+      "id": "25e6b55472bf2eb50e6a215171c49cd51d5f53eb",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:38:56.466Z",
+      "score": 60,
+      "flags": [
+        "entry-level"
+      ],
+      "otherLocations": [
+        "Whiteville, Columbus County",
+        "Tabor City, Columbus County",
+        "Carolina Forest, Horry County",
+        "Pawleys Island, Georgetown County",
+        "Murrells Inlet, Horry County"
+      ]
     },
     {
       "title": "Deckhands",
@@ -1740,66 +1645,6 @@
       "otherLocations": []
     },
     {
-      "title": "Freedom Boat Club - Membership Executive in Stuart, FL",
-      "company": "Brunswick Corporation (Freedom Boat Club)",
-      "location": "Stuart, FL",
-      "remote": false,
-      "pay": "",
-      "url": "https://brunswick.wd1.myworkdayjobs.com/en-US/search/job/Stuart-FL/Freedom-Boat-Club---Membership-Executive-in-Stuart--FL_JR-051368",
-      "postedAt": "2026-09-18T00:00:00.000Z",
-      "snippet": "Full time Are you ready for what’s next? Come explore opportunities within Brunswick, a global marine leader committed to challenging conventions and innovating next-generation technologies that transform experiences on the water and beyon…",
-      "source": "ats",
-      "id": "6dbded3776469e18d34cfca600902543eca7488e",
-      "track": "marine-national",
-      "score": 60,
-      "flags": [
-        "far-away",
-        "pay-unknown"
-      ],
-      "firstSeenAt": "2026-10-15T20:32:31.715Z",
-      "otherLocations": []
-    },
-    {
-      "title": "Freedom Boat Club - Membership Executive in Fort Lauderdale, FL",
-      "company": "Brunswick Corporation (Freedom Boat Club)",
-      "location": "Fort Lauderdale, FL",
-      "remote": false,
-      "pay": "",
-      "url": "https://brunswick.wd1.myworkdayjobs.com/en-US/search/job/Fort-Lauderdale-FL/Freedom-Boat-Club---Membership-Executive-in-Southeast--FL--Fort-Lauderdale-to-Islamorada-_JR-048091",
-      "postedAt": "2026-09-18T00:00:00.000Z",
-      "snippet": "Full time Are you ready for what’s next? Come explore opportunities within Brunswick, a global marine leader committed to challenging conventions and innovating next-generation technologies that transform experiences on the water and beyon…",
-      "source": "ats",
-      "id": "fa752f03b485261b87b49ec35fa413c9dc254e38",
-      "track": "marine-national",
-      "score": 60,
-      "flags": [
-        "far-away",
-        "pay-unknown"
-      ],
-      "firstSeenAt": "2026-10-15T20:32:31.715Z",
-      "otherLocations": []
-    },
-    {
-      "title": "Freedom Boat Club - Membership Executive in Riviera Beach, FL",
-      "company": "Brunswick Corporation (Freedom Boat Club)",
-      "location": "Riviera Beach, FL",
-      "remote": false,
-      "pay": "",
-      "url": "https://brunswick.wd1.myworkdayjobs.com/en-US/search/job/Riviera-Beach-FL/Freedom-Boat-Club---Membership-Executive-in-Riviera-Beach--FL_JR-051369",
-      "postedAt": "2026-09-18T00:00:00.000Z",
-      "snippet": "Full time Are you ready for what’s next? Come explore opportunities within Brunswick, a global marine leader committed to challenging conventions and innovating next-generation technologies that transform experiences on the water and beyon…",
-      "source": "ats",
-      "id": "46ccb995182ff7a4117a0ca0d4c0e86a9085405e",
-      "track": "marine-national",
-      "score": 60,
-      "flags": [
-        "far-away",
-        "pay-unknown"
-      ],
-      "firstSeenAt": "2026-10-15T20:32:31.715Z",
-      "otherLocations": []
-    },
-    {
       "title": "Performance Creative Strategist and AI Producer",
       "company": "Icarus Digital Marketing",
       "location": "Remote",
@@ -1870,7 +1715,8 @@
       "score": 55,
       "flags": [
         "high-pay"
-      ]
+      ],
+      "otherLocations": []
     },
     {
       "title": "Physician Physiatry/Physical Medicine & Rehabilitation - Competitive Salary",
@@ -1888,7 +1734,8 @@
       "score": 55,
       "flags": [
         "high-pay"
-      ]
+      ],
+      "otherLocations": []
     },
     {
       "title": "Physician Orthopedics-Hand Surgery - Competitive Salary",
@@ -1906,7 +1753,8 @@
       "score": 55,
       "flags": [
         "high-pay"
-      ]
+      ],
+      "otherLocations": []
     },
     {
       "title": "$1.3 Million GI Opportunity | Coastal South Carolina | Myrtle Beach",
@@ -1924,7 +1772,8 @@
       "score": 55,
       "flags": [
         "high-pay"
-      ]
+      ],
+      "otherLocations": []
     },
     {
       "title": "Retail Merchandise Associate",
@@ -1940,7 +1789,8 @@
       "track": "tech-sales",
       "firstSeenAt": "2026-10-15T21:36:30.388Z",
       "score": 55,
-      "flags": []
+      "flags": [],
+      "otherLocations": []
     },
     {
       "title": "Tax Expert - Local Office",
@@ -2973,7 +2823,8 @@
       "track": "ai-web",
       "firstSeenAt": "2026-10-15T21:36:30.388Z",
       "score": 45,
-      "flags": []
+      "flags": [],
+      "otherLocations": []
     },
     {
       "title": "Fine Jewelry Sales Associate",
@@ -2989,7 +2840,8 @@
       "track": "tech-sales",
       "firstSeenAt": "2026-10-15T21:36:30.388Z",
       "score": 45,
-      "flags": []
+      "flags": [],
+      "otherLocations": []
     },
     {
       "title": "Housekeeping Room Attendant",
@@ -3022,7 +2874,8 @@
       "track": "tech-sales",
       "firstSeenAt": "2026-10-15T21:36:30.388Z",
       "score": 45,
-      "flags": []
+      "flags": [],
+      "otherLocations": []
     },
     {
       "title": "[Remote] Healthcare Quality Improvement Specialist (OK, LA & TX (Dallas Fort Worth, Houston, Austin/San Antonio, and Amarillo/Lubbock)",
@@ -3040,7 +2893,8 @@
       "score": 45,
       "flags": [
         "high-pay"
-      ]
+      ],
+      "otherLocations": []
     },
     {
       "title": "Sales Associate-ANN",
@@ -3058,7 +2912,8 @@
       "score": 45,
       "flags": [
         "high-pay"
-      ]
+      ],
+      "otherLocations": []
     },
     {
       "title": "Retail Cleaning Associate",
@@ -3074,7 +2929,8 @@
       "track": "tech-sales",
       "firstSeenAt": "2026-10-15T21:36:30.388Z",
       "score": 45,
-      "flags": []
+      "flags": [],
+      "otherLocations": []
     },
     {
       "title": "Sales Associate",
@@ -3090,7 +2946,8 @@
       "track": "tech-sales",
       "firstSeenAt": "2026-10-15T21:36:30.388Z",
       "score": 45,
-      "flags": []
+      "flags": [],
+      "otherLocations": []
     },
     {
       "title": "High School Secretary I - Attendance Clerk/ Receptionist",
@@ -3106,7 +2963,8 @@
       "track": "quick-cash",
       "firstSeenAt": "2026-10-15T21:36:30.388Z",
       "score": 45,
-      "flags": []
+      "flags": [],
+      "otherLocations": []
     },
     {
       "title": "Brand Representatives - Holiday Sales Associate",
@@ -3122,7 +2980,8 @@
       "track": "quick-cash",
       "firstSeenAt": "2026-10-15T21:36:30.388Z",
       "score": 45,
-      "flags": []
+      "flags": [],
+      "otherLocations": []
     },
     {
       "title": "Personal Trainer (Small Group) Instructor",
@@ -3140,7 +2999,8 @@
       "score": 45,
       "flags": [
         "high-pay"
-      ]
+      ],
+      "otherLocations": []
     },
     {
       "title": "Beauty Advisor - Part Time",
@@ -3156,7 +3016,8 @@
       "track": "quick-cash",
       "firstSeenAt": "2026-10-15T21:36:30.388Z",
       "score": 45,
-      "flags": []
+      "flags": [],
+      "otherLocations": []
     },
     {
       "title": "Retail Warehouse Associate",
@@ -3172,25 +3033,8 @@
       "track": "tech-sales",
       "firstSeenAt": "2026-10-15T21:36:30.388Z",
       "score": 45,
-      "flags": []
-    },
-    {
-      "title": "HVAC Senior Service Technician 4",
-      "company": "Jakes",
-      "location": "Little River, Horry County",
-      "remote": false,
-      "pay": "$56,160–$68,640/year",
-      "url": "https://www.adzuna.com/details/5914273945?utm_medium=api&utm_source=ea9765bf",
-      "postedAt": "2026-10-06T17:19:00.000Z",
-      "snippet": "Senior HVAC Service Technician Jake’s | Little River, SC $27–$33 per hour commissions | Great benefits and PTO package Jake’s is hiring a Senior HVAC Service Technician with 5 years of hands-on service experience . If you’re a skilled trou…",
-      "source": "adzuna",
-      "id": "f2b57746e32333fabc750d8d74639587d6f281a4",
-      "track": "quick-cash",
-      "firstSeenAt": "2026-10-15T21:36:30.388Z",
-      "score": 45,
-      "flags": [
-        "high-pay"
-      ]
+      "flags": [],
+      "otherLocations": []
     },
     {
       "title": "Customer Experience Rep",
@@ -3208,7 +3052,8 @@
       "score": 45,
       "flags": [
         "high-pay"
-      ]
+      ],
+      "otherLocations": []
     },
     {
       "title": "Dental Hygienist-up to $10,000 welcome bonus benefits",
@@ -3226,7 +3071,8 @@
       "score": 45,
       "flags": [
         "high-pay"
-      ]
+      ],
+      "otherLocations": []
     },
     {
       "title": "Light Show Attendant (Temporary)",
@@ -3242,7 +3088,8 @@
       "track": "quick-cash",
       "firstSeenAt": "2026-10-15T21:36:30.388Z",
       "score": 45,
-      "flags": []
+      "flags": [],
+      "otherLocations": []
     },
     {
       "title": "Tax Expert - Expert Center (Southeast)",
@@ -3351,7 +3198,8 @@
       "score": 45,
       "flags": [
         "high-pay"
-      ]
+      ],
+      "otherLocations": []
     },
     {
       "title": "Retail Stocking Associate",
@@ -3367,7 +3215,8 @@
       "track": "tech-sales",
       "firstSeenAt": "2026-10-15T21:36:30.388Z",
       "score": 45,
-      "flags": []
+      "flags": [],
+      "otherLocations": []
     },
     {
       "title": "Customer Service Attendant",
@@ -3383,7 +3232,8 @@
       "track": "quick-cash",
       "firstSeenAt": "2026-10-15T21:36:30.388Z",
       "score": 45,
-      "flags": []
+      "flags": [],
+      "otherLocations": []
     },
     {
       "title": "Sales Associate - Coastal Grand Mall - Myrtle Beach, SC",
@@ -3399,7 +3249,8 @@
       "track": "quick-cash",
       "firstSeenAt": "2026-10-15T21:36:30.388Z",
       "score": 45,
-      "flags": []
+      "flags": [],
+      "otherLocations": []
     },
     {
       "title": "Brand Market Specialist - Charleston, SC",
@@ -3417,7 +3268,8 @@
       "score": 45,
       "flags": [
         "high-pay"
-      ]
+      ],
+      "otherLocations": []
     },
     {
       "title": "Member Assist Cart Attendant",
@@ -3435,7 +3287,8 @@
       "score": 45,
       "flags": [
         "high-pay"
-      ]
+      ],
+      "otherLocations": []
     },
     {
       "title": "Enterprise Account Executive - NAMER",
