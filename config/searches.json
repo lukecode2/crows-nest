@@ -1,43 +1,43 @@
 {
   "adzuna": [
     {
-      "what": "deckhand",
+      "what_or": "deckhand dockhand marina boat yacht mate captain",
       "where": "Myrtle Beach SC",
       "track": "marine-local"
     },
     {
-      "what": "dockhand marina",
-      "where": "Myrtle Beach SC",
+      "what_or": "deckhand dockhand marina boat mate",
+      "where": "Murrells Inlet SC",
       "track": "marine-local"
     },
     {
-      "what": "deckhand",
+      "what_or": "deckhand dockhand marina boat ferry harbor mate captain",
       "where": "Charleston SC",
       "track": "marine-chs"
     },
     {
-      "what": "boat crew",
-      "where": "Charleston SC",
-      "track": "marine-chs"
-    },
-    {
-      "what": "deckhand yacht",
+      "what_or": "deckhand yacht dayworker mate marina",
       "where": "Fort Lauderdale FL",
       "track": "marine-national"
     },
     {
-      "what": "valet",
+      "what_or": "valet parking attendant",
       "where": "Myrtle Beach SC",
       "track": "quick-cash"
     },
     {
-      "what": "brand ambassador",
+      "what_or": "brand ambassador demonstrator promotional event",
       "where": "Myrtle Beach SC",
       "track": "quick-cash"
     },
     {
-      "what": "sales development representative",
-      "where": "",
+      "what_or": "valet brand ambassador demonstrator",
+      "where": "Charleston SC",
+      "track": "quick-cash"
+    },
+    {
+      "what_or": "sales associate wireless electronics retail",
+      "where": "Myrtle Beach SC",
       "track": "tech-sales"
     }
   ],

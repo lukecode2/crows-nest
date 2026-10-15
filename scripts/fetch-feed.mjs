@@ -19,7 +19,8 @@ import * as arbeitnow from './sources/arbeitnow.mjs';
 import * as wwr from './sources/wwr.mjs';
 import * as ats from './sources/ats.mjs';
 import * as pagewatch from './sources/pagewatch.mjs';
-export const sources = [adzuna, usajobs, jsearch, remotive, remoteok, jobicy, himalayas, arbeitnow, wwr, ats, pagewatch];
+import * as sweep from './sources/sweep.mjs';
+export const sources = [adzuna, usajobs, jsearch, remotive, remoteok, jobicy, himalayas, arbeitnow, wwr, ats, pagewatch, sweep];
 
 export async function runSources(list, ctx) {
   const results = await Promise.all(list.map(async source => {

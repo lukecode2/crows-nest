@@ -7,6 +7,8 @@ export function isCruise(job, filters = {}) {
 }
 export function isSenior(job, filters = {}) {
   if (!['ai-web', 'tech-sales'].includes(job.track)) return false;
+  if (job.track === 'ai-web' && /\b(engineer|architect|scientist|researcher)\b/i.test(job.title || '') &&
+    !/\b(junior|entry|associate|intern|apprentice|trainee|trainer)\b/i.test(job.title || '')) return true;
   return /\b(senior|sr\.?|lead|principal|staff|manager|director|head of|vp)\b/i.test(job.title || '') ||
     /\b([4-9]|1\d)\+?\s*years/i.test(job.snippet || '') || /(bachelor'?s|degree)\s+(is\s+)?required/i.test(job.snippet || '') ||
     (filters.seniorKeywords || []).some(k => new RegExp(`\\b${k.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`, 'i').test(`${job.title} ${job.snippet}`));

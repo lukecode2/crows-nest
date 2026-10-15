@@ -27,7 +27,7 @@ export function createStore(options = {}) {
   const api = options.api || github;
   const fetcher = options.fetcher || ((...args) => fetch(...args));
   let token = sample ? '' : read('token') || '';
-  const state = { tracker: blankTracker(), dismissed: blankDismissed(), feed: { generatedAt: null, sources: [], jobs: [] }, sync: 'local', lastVisit: read('lastVisit'), sample, loaded: false, lastSaved: null, error: '', storageError: false };
+  const state = { tracker: blankTracker(), dismissed: blankDismissed(), feed: { generatedAt: null, sources: [], jobs: [] }, sweep: null, sync: 'local', lastVisit: read('lastVisit'), sample, loaded: false, lastSaved: null, error: '', storageError: false };
   const listeners = new Set();
   const dirty = { tracker: false, dismissed: false };
   const revisions = { tracker: 0, dismissed: 0 };
@@ -86,6 +86,11 @@ export function createStore(options = {}) {
       jsonFile(sample ? 'tests/app/fixtures/feed.sample.json' : 'data/feed.json?t=' + Date.now())
         .then(feed => { if (!Array.isArray(feed.jobs) || !Array.isArray(feed.sources)) throw new Error('Invalid feed'); state.feed = feed; emit(); })
         .catch(() => { state.feedError = 'The lookout is offline. Your saved leads are still aboard.'; emit(); }),
+      jsonFile('data/sweep.json?t=' + Date.now())
+        .then(sweep => {
+          if (!Array.isArray(sweep?.items) || !(sweep.sweptAt === null || (typeof sweep.sweptAt === 'string' && Number.isFinite(Date.parse(sweep.sweptAt))))) throw new Error('Invalid sweep');
+          state.sweep = sweep; emit();
+        }).catch(() => { state.sweep = null; emit(); }),
       !cached ? jsonFile('data/tracker.json').then(seed => { if (seed.version === 1 && Array.isArray(seed.jobs)) state.tracker = mergeTrackers(state.tracker, seed); emit(); }).catch(() => {}) : Promise.resolve(),
       !token ? jsonFile('data/dismissed.json').then(publicData => { state.dismissed = mergeDismissed(state.dismissed, publicData); }).catch(() => {}) : Promise.resolve()
     ]);

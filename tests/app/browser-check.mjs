@@ -14,7 +14,8 @@ const mime = { '.html': 'text/html', '.js': 'text/javascript', '.css': 'text/css
 const fixture = JSON.parse(await readFile(resolve(root, 'tests/app/fixtures/feed.sample.json'), 'utf8'));
 try {
   for (const width of [1280, 390, 360]) {
-    const context = await browser.newContext({ viewport: { width, height: 900 }, reducedMotion: 'reduce' });
+    const height = width < 720 ? 844 : 900;
+    const context = await browser.newContext({ viewport: { width, height }, reducedMotion: 'reduce' });
     const page = await context.newPage();
     const errors = [];
     page.on('pageerror', error => errors.push(error.message));
@@ -27,6 +28,7 @@ try {
       catch (_) { await route.fulfill({ status: 404, body: 'Not found' }); }
     });
     await page.route('https://fonts.googleapis.com/**', route => route.fulfill({ contentType: 'text/css', body: '' }));
+    await page.route('**/data/sweep.json?*', route => route.fulfill({ contentType: 'application/json', body: JSON.stringify({ sweptAt: null, items: [] }) }));
     await page.goto('http://crows-nest.test/?sample=1#helm');
     await page.getByText('Call 843-732-3777 about dock crew', { exact: true }).waitFor();
     assert.equal(await page.locator('.pennant').count(), 10);
@@ -36,6 +38,26 @@ try {
       await page.waitForFunction(route => location.hash === '#' + route && document.querySelector('main h1'), route);
       assert.equal(await page.locator('h1').count(), 1);
       assert.ok(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth), `${width}px: ${route} overflows the page`);
+      if (route === 'helm') {
+        assert.equal(await page.locator('.helm-view > :first-child').getAttribute('class'), 'weekly-grid');
+        const scoreboard = await page.locator('.weekly-grid').boundingBox();
+        const fold = width < 720 ? (await page.locator('#navigation').boundingBox()).y : height;
+        assert.ok(scoreboard.y >= 0 && scoreboard.y + scoreboard.height <= fold, `${width}px: full scoreboard must be above the fold`);
+        await page.getByRole('heading', { name: 'Weekly sweep due', exact: true }).waitFor();
+        assert.equal(await page.locator('.sweep-reminder p').textContent(), 'Open Claude Code in ~/crows-nest and type /weekly-sweep');
+      }
+      if (route === 'nest' && width < 720) {
+        const chips = page.locator('.filter-chips');
+        assert.ok(await chips.evaluate(el => el.scrollWidth > el.clientWidth && getComputedStyle(el).overflowX === 'auto'));
+        const rows = await page.locator('.filter-chip').evaluateAll(els => new Set(els.map(el => el.getBoundingClientRect().top)).size);
+        assert.equal(rows, 1, `${width}px: filters must occupy one row`);
+        await chips.evaluate(el => { el.scrollLeft = el.scrollWidth; });
+        assert.ok(await chips.evaluate(el => el.scrollLeft > 0));
+        await chips.evaluate(el => { el.scrollLeft = 0; });
+        const firstCard = await page.locator('.job-card h2').first().boundingBox();
+        const fold = (await page.locator('#navigation').boundingBox()).y;
+        assert.ok(firstCard.y + firstCard.height < fold, `${width}px: first job title must be above the fold`);
+      }
       if (['helm', 'nest', 'voyage'].includes(route)) await page.screenshot({ path: `${output}/${width}-${route}.png`, fullPage: route !== 'voyage' });
     }
     await page.locator('#navigation a[href="#nest"]').click();
@@ -111,6 +133,14 @@ try {
     await page.getByText('<img src=x onerror=alert(1)>', { exact: true }).waitFor();
     assert.equal(await page.locator('.job-card img').count(), 0);
     assert.equal(await page.locator('.job-card h2 a').count(), 0);
+    // Missing, invalid or fresh sweep data never shows a due reminder.
+    for (const data of [null, {}, { sweptAt: new Date().toISOString(), items: [] }]) {
+      await page.route('**/data/sweep.json?*', route => route.fulfill({ status: data === null ? 503 : 200, contentType: 'application/json', body: JSON.stringify(data) }));
+      await page.evaluate(() => localStorage.removeItem('cn.sample.lastVisit'));
+      await page.goto('http://crows-nest.test/?sample=1#helm');
+      await page.waitForFunction(() => localStorage.getItem('cn.sample.lastVisit'));
+      assert.equal(await page.locator('.sweep-reminder').count(), 0);
+    }
     assert.deepEqual(errors, [], `${width}px: browser runtime errors`);
     await context.close(); console.log(`PASS: ${width}px routes, overflow, persistence, sheets, papers, import/export, feed safety`);
   }

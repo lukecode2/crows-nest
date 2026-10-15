@@ -8,6 +8,26 @@ function setup(options = {}) {
   const store = createStore({ storage, fetcher: async () => ({ ok: true, json: async () => ({ jobs: [], sources: [] }) }), api: { getFile: async () => null, putFile: async () => 'saved' }, ...options });
   return { store, values };
 }
+test('sweep loads with a cache-buster and stays hidden on fetch or data failures', async () => {
+  for (const sweep of [{ sweptAt: null, items: [] }, { sweptAt: '2026-10-15T12:00:00Z', items: [] }, null, {}, { sweptAt: 'invalid', items: [] }, { sweptAt: null, items: 'invalid' }, 'http-error', 'offline', 'invalid-json']) {
+    let loadedSweep = false;
+    const { store } = setup({ fetcher: async (path, options) => {
+      if (path.startsWith('data/sweep.json')) {
+        loadedSweep = true;
+        assert.match(path, /^data\/sweep\.json\?t=\d+$/);
+        assert.equal(options.cache, 'no-store');
+        if (sweep === 'offline') throw new TypeError('offline');
+        return { ok: sweep !== 'http-error', json: async () => { if (sweep === 'invalid-json') throw new SyntaxError('bad JSON'); return sweep; } };
+      }
+      return { ok: true, json: async () => ({ jobs: [], sources: [] }) };
+    } });
+    await store.load();
+    assert.ok(loadedSweep);
+    assert.deepEqual(store.state.sweep, sweep && Array.isArray(sweep.items) && (sweep.sweptAt === null || sweep.sweptAt === '2026-10-15T12:00:00Z') ? sweep : null);
+    assert.equal(store.state.feedError, undefined);
+    store.dispose();
+  }
+});
 test('expired token preserves local tracker and edits, including after reload', async () => {
   const { store, values } = setup({ api: { getFile: async () => { throw Object.assign(new Error('Expired token'), { status: 401 }); } } });
   await store.load();

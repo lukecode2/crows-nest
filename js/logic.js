@@ -1,5 +1,10 @@
 import { TRACKS } from './config.js';
 const DAY = 86400000;
+export function weeklySweepDue(sweep, now = Date.now()) {
+  if (!sweep) return false;
+  if (sweep.sweptAt === null) return true;
+  return typeof sweep.sweptAt === 'string' && now - Date.parse(sweep.sweptAt) > 7 * DAY;
+}
 const dateNumber = s => Date.parse(s + 'T12:00:00Z');
 export const localToday = (date = new Date()) => `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')}`;
 export const addDays = (dateStr, n) => new Date(dateNumber(dateStr) + n * DAY).toISOString().slice(0, 10);

@@ -1,30 +1,68 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { createServer } from 'node:http';
+import { mkdtemp, writeFile, rm } from 'node:fs/promises';
+import { tmpdir } from 'node:os';
+import { join } from 'node:path';
 import { getJson, getText } from '../../scripts/lib/http.mjs';
 import * as ats from '../../scripts/sources/ats.mjs';
 import * as pagewatch from '../../scripts/sources/pagewatch.mjs';
 import * as jsearch from '../../scripts/sources/jsearch.mjs';
 import * as remotive from '../../scripts/sources/remotive.mjs';
-import { buildFeed } from '../../scripts/fetch-feed.mjs';
+import * as sweep from '../../scripts/sources/sweep.mjs';
+import { buildFeed, runSources, sources } from '../../scripts/fetch-feed.mjs';
 
 const context = extra => ({ env: {}, companies: [], searches: { remote: [] }, state: {}, now: new Date('2026-10-15T12:00:00Z'), log: () => {}, ...extra });
 
 test('HTTP retries non-JSON, sends user agent, times out and accepts POST', async t => {
-  let attempts = 0;
-  const server = createServer((req, res) => {
-    if (req.url === '/slow') return;
-    if (req.url === '/retry' && attempts++ === 0) return res.end('<html>oops</html>');
-    res.setHeader('content-type', 'application/json');
-    res.end(JSON.stringify({ agent: req.headers['user-agent'], method: req.method }));
+  let attempts = 0, timeouts = 0;
+  t.mock.method(globalThis, 'fetch', async (url, options) => {
+    if (url.endsWith('/slow')) {
+      timeouts++;
+      return new Promise((_, reject) => options.signal.addEventListener('abort', () => reject(options.signal.reason), { once: true }));
+    }
+    if (url.endsWith('/retry') && attempts++ === 0) return new Response('<html>oops</html>');
+    return Response.json({ agent: options.headers.get('User-Agent'), method: options.method, body: options.body });
   });
-  await new Promise(resolve => server.listen(0, '127.0.0.1', resolve));
-  t.after(() => { server.closeAllConnections(); server.close(); });
-  const base = `http://127.0.0.1:${server.address().port}`;
+  const base = 'https://http.example';
   assert.match((await getJson(base + '/retry')).agent, /CrowsNestJobBot/);
   assert.equal(attempts, 2);
-  assert.equal((await getJson(base, { method: 'POST', body: '{}' })).method, 'POST');
+  const posted = await getJson(base, { method: 'POST', body: '{}' });
+  assert.equal(posted.method, 'POST');
+  assert.equal(posted.body, '{}');
   await assert.rejects(getText(base + '/slow', { timeoutMs: 30, retries: 1 }), /timeout|abort/i);
+  assert.equal(timeouts, 2);
+});
+
+test('weekly sweep reads local jobs and uses the normal feed pipeline; missing or invalid files are empty', async t => {
+  const dir = await mkdtemp(join(tmpdir(), 'crows-nest-sweep-'));
+  t.after(() => rm(dir, { recursive: true, force: true }));
+  const sweepPath = join(dir, 'sweep.json');
+  const ctx = context({ sweepPath });
+  assert.ok(sources.includes(sweep));
+  assert.deepEqual(await sweep.fetchJobs(ctx), []);
+  for (const invalid of ['not JSON', 'null', '{}', '{"items":{}}', '{"sweptAt":null,"items":[null]}', '{"sweptAt":null,"items":[{"title":42}]}', '{"sweptAt":"bad date","items":[{"title":"Deckhand"}]}']) {
+    await writeFile(sweepPath, invalid);
+    assert.deepEqual(await sweep.fetchJobs(ctx), []);
+  }
+  const items = [
+    { title: 'Junior Software Engineer', company: 'A', url: 'https://a/job', source: 'browser', trackHint: 'ai-web', snippet: 'Entry level' },
+    { title: 'AI Platform Engineer', company: 'B', url: 'https://b/job', trackHint: 'ai-web' },
+    { title: 'Cruise Ship Crew', company: 'C', url: 'https://c/job' }
+  ];
+  await writeFile(sweepPath, JSON.stringify({ about: "Jobs found by Claude's weekly browser sweep", sweptAt: null, items }));
+  const { jobs: raw, report } = await runSources([sweep], ctx);
+  assert.equal(raw.length, 3);
+  assert.ok(raw.every(j => j.source === 'sweep'));
+  assert.deepEqual(report, [{ name: 'sweep', ok: true, count: 3, error: null }]);
+  const options = { filters: {}, dismissed: { items: [] }, nowIso: ctx.now.toISOString() };
+  const jobs = buildFeed([], raw, options);
+  assert.equal(jobs.length, 1);
+  assert.equal(jobs[0].track, 'ai-web');
+  assert.equal(jobs[0].source, 'sweep');
+  assert.ok(jobs[0].score > 0);
+  assert.ok(jobs[0].flags.includes('entry-level'));
+  assert.equal(buildFeed(jobs, raw, options).length, 1);
+  assert.deepEqual(buildFeed(jobs, raw, { ...options, dismissed: { items: [{ id: jobs[0].id }] } }), []);
 });
 
 test('all five ATS adapters map their public payload and isolate a company failure', async () => {

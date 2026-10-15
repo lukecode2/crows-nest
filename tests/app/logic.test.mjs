@@ -4,6 +4,16 @@ import * as L from '../../js/logic.js';
 
 const job = (o) => ({ id: Math.random().toString(36), stage: 'castoff', dateApplied: null, lastFollowUp: null, history: [], ...o });
 
+test('weekly sweep is due only when never swept or strictly older than seven days', () => {
+  const now = Date.parse('2026-10-15T12:00:00Z');
+  assert.equal(L.weeklySweepDue({ sweptAt: null }, now), true);
+  assert.equal(L.weeklySweepDue({ sweptAt: '2026-10-08T11:59:59Z' }, now), true);
+  for (const sweptAt of ['2026-10-08T12:00:00Z', '2026-10-15T00:00:00Z', '2026-10-16T00:00:00Z', 'invalid', undefined]) {
+    assert.equal(L.weeklySweepDue({ sweptAt }, now), false);
+  }
+  assert.equal(L.weeklySweepDue(null, now), false);
+});
+
 test('weekStart is Monday; Sunday belongs to previous Monday', () => {
   assert.equal(L.weekStart('2026-10-15'), '2026-10-12'); // Thursday
   assert.equal(L.weekStart('2026-10-18'), '2026-10-12'); // Sunday

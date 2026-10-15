@@ -42,6 +42,18 @@ test('senior filter only for ai-web/tech-sales', () => {
   assert.equal(isSenior({ ...J({ title: 'Web Developer', snippet: 'Requires 5+ years of React' }), track: 'ai-web' }, filters), true);
   assert.equal(isSenior({ ...J({ title: 'Lead Deckhand' }), track: 'marine-local' }, filters), false);
 });
+test('ai-web technical titles require entry-level wording in the title', () => {
+  for (const title of ['AI Platform Engineer', 'Cloud Architect', 'Data Scientist', 'AI Researcher']) {
+    assert.equal(isSenior(J({ title, track: 'ai-web', snippet: 'Junior applicants welcome' }), filters), true, title);
+    assert.equal(isSenior(J({ title, track: 'tech-sales' }), filters), false, title);
+    assert.equal(isSenior(J({ title, track: 'marine-national' }), filters), false, title);
+  }
+  for (const title of ['Junior Software Engineer', 'Entry-level Engineer', 'Associate Architect', 'Researcher Intern', 'Apprentice Engineer', 'Trainee Scientist', 'AI Engineer Trainer', 'AI Trainer']) {
+    assert.equal(isSenior(J({ title, track: 'ai-web' }), filters), false, title);
+  }
+  assert.equal(isSenior(J({ title: 'Senior Engineer — Junior Mentor', track: 'ai-web' }), filters), true);
+  assert.equal(isSenior(J({ title: 'Junior Engineer', track: 'ai-web', snippet: '5+ years required' }), filters), true);
+});
 test('applyFilters drops dismissed, company-dismissed, tracked, dupes', () => {
   const mk = (o) => { const j = J(o); return { ...j, id: makeId(j), track: classifyTrack(j) }; };
   const a = mk({ title: 'Deckhand', company: 'A', url: 'https://a.com/1', location: 'Charleston, SC' });

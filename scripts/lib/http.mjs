@@ -11,7 +11,7 @@ async function request(url, options, json) {
       const requestHeaders = new Headers({ 'User-Agent': USER_AGENT, Accept: json ? 'application/json' : 'text/html,text/plain;q=0.9' });
       new Headers(headers).forEach((v, k) => requestHeaders.set(k, v));
       const response = await fetch(url, { headers: requestHeaders, method, body, signal: controller.signal });
-      if (!response.ok) { const error = new Error(`HTTP ${response.status} from ${new URL(url).hostname}`); error.status = response.status; throw error; }
+      if (!response.ok) { const detail = (await response.text().catch(() => '')).replace(/\s+/g, ' ').slice(0, 160); const error = new Error(`HTTP ${response.status} from ${new URL(url).hostname}${detail ? `: ${detail}` : ''}`); error.status = response.status; throw error; }
       return json ? await response.json() : await response.text();
     } catch (error) {
       if (signal?.aborted || attempt >= retries) throw error;
