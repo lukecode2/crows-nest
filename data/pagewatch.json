@@ -37,20 +37,7 @@
   "https://careers.crowley.com/jobs": [
     "https://careers.crowley.com/careers-home"
   ],
-  "https://www.dockwalk.com/jobs": [
-    "https://www.dockwalk.com/crewlife",
-    "https://www.dockwalk.com/crewlife/captains",
-    "https://www.dockwalk.com/crewlife/deckhands",
-    "https://www.dockwalk.com/jobs",
-    "https://www.dockwalk.com/jobs/career-advice",
-    "https://www.dockwalk.com/dockwalk-presents",
-    "https://www.dockwalk.com/digital-dockwalk",
-    "https://www.dockwalk.com/crewlife/interior-dual-roles",
-    "https://www.dockwalk.com/crewlife/power-of-letting-go-as-a-chef",
-    "https://www.dockwalk.com/crewlife/senior-yacht-crew-cv-essentials",
-    "https://www.dockwalk.com/jobs/training/yacht-engineer-skills-you-should-have",
-    "https://www.dockwalk.com/jobs/training/when-and-where-to-be-for-yacht-crew-jobs"
-  ],
+  "https://www.dockwalk.com/jobs": [],
   "https://www.cottoncrews.com/crew-jobs/": [
     "https://www.cottoncrews.com/luxury-yacht-crew-agency/",
     "https://www.cottoncrews.com/app-guide/",
@@ -542,5 +529,11 @@
     "https://careers.saltchuk.com/jobs/",
     "http://www.careerleaf.com/"
   ],
-  "https://www.baesystems.com/en-us/careers": []
+  "https://www.baesystems.com/en-us/careers": [],
+  "https://scspa.com/contact-us/careers/": [
+    "https://scspa.com/contact-us/carrier-sales/",
+    "https://scspa.com/contact-us/marketing-and-sales/",
+    "https://scspa.com/contact-us/careers/",
+    "https://careers.smartrecruiters.com/SouthCarolinaPortsAuthority"
+  ]
 }

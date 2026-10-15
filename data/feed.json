@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-10-15T21:33:16.501Z",
+  "generatedAt": "2026-10-15T21:36:30.388Z",
   "sources": [
     {
       "name": "adzuna",
-      "ok": false,
-      "count": 0,
-      "error": "missing key"
+      "ok": true,
+      "count": 400,
+      "error": null
     },
     {
       "name": "usajobs",
-      "ok": false,
-      "count": 0,
-      "error": "missing key"
+      "ok": true,
+      "count": 18,
+      "error": null
     },
     {
       "name": "jsearch",
-      "ok": false,
-      "count": 0,
-      "error": "missing key"
+      "ok": true,
+      "count": 10,
+      "error": null
     },
     {
       "name": "remotive",
@@ -82,6 +82,25 @@
   ],
   "jobs": [
     {
+      "title": "Remote Junior Web Developer - HTML/CSS/JS",
+      "company": "The Elite Job",
+      "location": "",
+      "remote": true,
+      "pay": "$20–$30/hour",
+      "url": "https://www.theelitejob.com/job/15937/remote-junior-web-developer-html-css-js",
+      "postedAt": "2026-10-14T23:00:00.000Z",
+      "snippet": "via The Elite Job. Job Summary The Elite Job is seeking a passionate and motivated Remote Junior Web Developer with strong foundational skills in HTML, CSS, and JavaScript. This is a perfect opportunity for entry-level developers who are e…",
+      "source": "jsearch",
+      "id": "dd5662ddda6fef60fed7f0c8d5ddcf9de9c97fb7",
+      "track": "ai-web",
+      "firstSeenAt": "2026-10-15T21:36:30.388Z",
+      "score": 85,
+      "flags": [
+        "entry-level",
+        "high-pay"
+      ]
+    },
+    {
       "title": "Artemis AI Data Rater - German",
       "company": "Welo Global",
       "location": "Remote",
@@ -101,6 +120,24 @@
       "otherLocations": []
     },
     {
+      "title": "Junior Full reputed company Developer",
+      "company": "Remotical",
+      "location": "",
+      "remote": true,
+      "pay": "",
+      "url": "https://remotical.0u.66ghz.com/job/junior-full-stack-developer-10",
+      "postedAt": "2026-10-14T23:00:00.000Z",
+      "snippet": "via Remotical. reputed company is an award-winning, rapidly growing federal government contractor committed to providing innovative, high-performing solutions to our government clients and focused on fostering a workplace that encourages g…",
+      "source": "jsearch",
+      "id": "f9d69f241c0734070ad845cfa84f41e30c61d052",
+      "track": "ai-web",
+      "firstSeenAt": "2026-10-15T21:36:30.388Z",
+      "score": 80,
+      "flags": [
+        "entry-level"
+      ]
+    },
+    {
       "title": "Retail Sales Associate (Seasonal)-HWY 17-$13/hr",
       "company": "New Balance",
       "location": "Myrtle Beach, Horry County",
@@ -116,7 +153,8 @@
       "flags": [
         "entry-level"
       ],
-      "firstSeenAt": "2026-10-15T20:47:30.879Z"
+      "firstSeenAt": "2026-10-15T20:47:30.879Z",
+      "otherLocations": []
     },
     {
       "title": "(US) Sales Development Representative (6 month contract)",
@@ -157,6 +195,47 @@
       "otherLocations": []
     },
     {
+      "title": "Boat Captain",
+      "company": "Guest Services",
+      "location": "Dania Beach, Broward County",
+      "remote": false,
+      "pay": "$52,483.43/year",
+      "url": "https://www.adzuna.com/details/5928359906?utm_medium=api&utm_source=ea9765bf",
+      "postedAt": "2026-10-14T22:22:56.000Z",
+      "snippet": "Compensation Amount: 26.00 USD Hourly Job Summary: Our Tour Boat Captains pilot twin outboard 45' Corinthian Catamarans in Everglades Backcountry and Near Costal Florida Bay waters. Our Captains operate in strict compliance with USCG regul…",
+      "source": "adzuna",
+      "id": "1a3ec222108706baaf28652a395d13a8bf059f6b",
+      "track": "marine-national",
+      "firstSeenAt": "2026-10-15T21:36:30.388Z",
+      "score": 75,
+      "flags": [
+        "far-away",
+        "high-pay"
+      ]
+    },
+    {
+      "title": "Senior Marine Electronics Tech (Fort Lauderdale)",
+      "company": "Concord Marine Electronics",
+      "location": "Lazy Lake, Broward County (+1 more)",
+      "remote": false,
+      "pay": "$130,595.69/year",
+      "url": "https://www.adzuna.com/land/ad/5927880782?se=xsodfeDI8RGINu7MzrNU1Q&utm_medium=api&utm_source=ea9765bf&v=E8FBB912F75D6C43B27D8EAC3A72AC42FF332728",
+      "postedAt": "2026-10-14T13:47:53.000Z",
+      "snippet": "Senior Marine Electronics Technician – Fort Lauderdale, FL Location: Fort Lauderdale, FL (on-site) Pay type: Hourly Range: $30–$43 per hour $5,000 sign-on bonus after 180 days of successful full-time employment. Senior Marine Electronics T…",
+      "source": "adzuna",
+      "id": "3fb7b0e1f9d822c029e6ba5d20845d0a56010d38",
+      "track": "marine-national",
+      "firstSeenAt": "2026-10-15T21:36:30.388Z",
+      "score": 75,
+      "flags": [
+        "far-away",
+        "high-pay"
+      ],
+      "otherLocations": [
+        "Fort Lauderdale, Broward County"
+      ]
+    },
+    {
       "title": "Freelance Graphic Designer (Reviewer) - AI Training",
       "company": "HumanSignal",
       "location": "Remote",
@@ -187,7 +266,8 @@
       "track": "quick-cash",
       "score": 75,
       "flags": [],
-      "firstSeenAt": "2026-10-15T20:53:15.652Z"
+      "firstSeenAt": "2026-10-15T20:53:15.652Z",
+      "otherLocations": []
     },
     {
       "title": "Retail Sales - Part Time",
@@ -222,7 +302,8 @@
       "track": "tech-sales",
       "score": 75,
       "flags": [],
-      "firstSeenAt": "2026-10-15T20:53:15.652Z"
+      "firstSeenAt": "2026-10-15T20:53:15.652Z",
+      "otherLocations": []
     },
     {
       "title": "Experienced AB Tugboat Deckhand at Curtin Maritime Long Beach, CA",
@@ -260,7 +341,8 @@
       "flags": [
         "high-pay"
       ],
-      "firstSeenAt": "2026-10-15T20:47:30.879Z"
+      "firstSeenAt": "2026-10-15T20:47:30.879Z",
+      "otherLocations": []
     },
     {
       "title": "Seasonal Retail Sales Associate",
@@ -278,7 +360,8 @@
       "flags": [
         "entry-level"
       ],
-      "firstSeenAt": "2026-10-15T20:47:30.879Z"
+      "firstSeenAt": "2026-10-15T20:47:30.879Z",
+      "otherLocations": []
     },
     {
       "title": "Seasonal Retail Sales Associate",
@@ -321,6 +404,28 @@
       "firstSeenAt": "2026-10-15T20:42:31.689Z"
     },
     {
+      "title": "Deckhand Leader",
+      "company": "U.S. Army Corps of Engineers",
+      "location": "Saint Louis, Missouri",
+      "remote": false,
+      "pay": "$29.36–$34.28/Per Hour",
+      "url": "https://www.usajobs.gov:443/job/881851000",
+      "postedAt": "2026-08-24T11:39:20.333Z",
+      "snippet": "This is a Direct Hire Authority (DHA) solicitation utilizing the DHA for Certain Personnel of the DoD Workforce to recruit and appoint qualified candidates to positions in the competitive service. About the Position: Serves as working lead…",
+      "source": "usajobs",
+      "id": "ccb03fe8a4fcd32d67869bd1526b6612f7996aa7",
+      "track": "marine-national",
+      "firstSeenAt": "2026-10-15T20:42:31.689Z",
+      "score": 75,
+      "flags": [
+        "entry-level",
+        "far-away",
+        "live-aboard",
+        "high-pay"
+      ],
+      "otherLocations": []
+    },
+    {
       "title": "AI Trainer",
       "company": "iMerit Technology",
       "location": "Remote",
@@ -353,7 +458,8 @@
       "track": "quick-cash",
       "score": 70,
       "flags": [],
-      "firstSeenAt": "2026-10-15T20:53:15.652Z"
+      "firstSeenAt": "2026-10-15T20:53:15.652Z",
+      "otherLocations": []
     },
     {
       "title": "Retail Sales Associate - Full Time",
@@ -369,7 +475,8 @@
       "track": "tech-sales",
       "score": 70,
       "flags": [],
-      "firstSeenAt": "2026-10-15T20:53:15.652Z"
+      "firstSeenAt": "2026-10-15T20:53:15.652Z",
+      "otherLocations": []
     },
     {
       "title": "Deckhand – Inland Barge Fleet Hour Shifts",
@@ -425,7 +532,8 @@
       "track": "tech-sales",
       "score": 70,
       "flags": [],
-      "firstSeenAt": "2026-10-15T20:47:30.879Z"
+      "firstSeenAt": "2026-10-15T20:47:30.879Z",
+      "otherLocations": []
     },
     {
       "title": "Mobile Associate - Retail Sales, Bilingual",
@@ -443,7 +551,8 @@
       "flags": [
         "high-pay"
       ],
-      "firstSeenAt": "2026-10-15T20:47:30.879Z"
+      "firstSeenAt": "2026-10-15T20:47:30.879Z",
+      "otherLocations": []
     },
     {
       "title": "Retail Sales Associate - Full Time",
@@ -459,7 +568,8 @@
       "track": "tech-sales",
       "score": 70,
       "flags": [],
-      "firstSeenAt": "2026-10-15T20:47:30.879Z"
+      "firstSeenAt": "2026-10-15T20:47:30.879Z",
+      "otherLocations": []
     },
     {
       "title": "Aerie - Brand Ambassador (Sales Associate)",
@@ -477,7 +587,8 @@
       "flags": [
         "high-pay"
       ],
-      "firstSeenAt": "2026-10-15T20:47:30.879Z"
+      "firstSeenAt": "2026-10-15T20:47:30.879Z",
+      "otherLocations": []
     },
     {
       "title": "AE - Brand Ambassador (Sales Associate)",
@@ -593,6 +704,162 @@
       "otherLocations": []
     },
     {
+      "title": "Sales Associate - Spirit",
+      "company": "Spencer Gifts - Spirit Halloween",
+      "location": "Carolina Forest, Horry County",
+      "remote": false,
+      "pay": "$24,544–$24,960/year",
+      "url": "https://www.adzuna.com/land/ad/5928102847?se=yr2PfeDI8RGgYcdhZypWfA&utm_medium=api&utm_source=ea9765bf&v=6121F1585D20D101A0BA3122451A1FF3FEB234E2",
+      "postedAt": "2026-10-14T20:27:19.000Z",
+      "snippet": "Hourly rate ranges from $11.80 - $12.00 per hour and is dependent upon qualifications and experience. Benefits include: Set-Up and Tear Down Premium Pay Programs, End of Season Premium Pay Program. All Bonus and Pay Programs subject to qua…",
+      "source": "adzuna",
+      "id": "3ac35adcdee29d30855736e808ff59cabf596350",
+      "track": "tech-sales",
+      "firstSeenAt": "2026-10-15T21:36:30.388Z",
+      "score": 65,
+      "flags": [
+        "entry-level"
+      ],
+      "otherLocations": []
+    },
+    {
+      "title": "Part-time Nabisco Merchandiser",
+      "company": "Mondelez International",
+      "location": "Chadbourn, Columbus County (+5 more)",
+      "remote": false,
+      "pay": "$29,547.22/year",
+      "url": "https://www.adzuna.com/land/ad/5927401925?se=SsUNfeDI8RGYwPFSmBM_bA&utm_medium=api&utm_source=ea9765bf&v=292863BB114BE1B6E7D7765576803CAF7DF156F2",
+      "postedAt": "2026-10-14T07:29:16.000Z",
+      "snippet": "Chadbourn, North Carolina, United States Whiteville, North Carolina, United States Tabor City, North Carolina, United States Part time R-179576 Job Description Join our Mission to Lead the Future of Snacking at Mondelēz International Part …",
+      "source": "adzuna",
+      "id": "65224bb53caeb63afa399dbf7df975c9a06be50c",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:36:30.388Z",
+      "score": 65,
+      "flags": [
+        "entry-level"
+      ],
+      "otherLocations": [
+        "Whiteville, Columbus County",
+        "Tabor City, Columbus County",
+        "Carolina Forest, Horry County",
+        "Pawleys Island, Georgetown County",
+        "Murrells Inlet, Horry County"
+      ]
+    },
+    {
+      "title": "Front End Web Developers",
+      "company": "Dealervero",
+      "location": "",
+      "remote": true,
+      "pay": "",
+      "url": "https://www.ziprecruiter.com/c/DealerVero/Job/Front-End-Web-Developers/-in-Minneapolis,MN?jid=71d45ca288598e15",
+      "postedAt": "2026-10-12T00:00:00.000Z",
+      "snippet": "via ZipRecruiter. Web Developer Job Duties: • Regular exposure to business stakeholders and executive management, as well as the authority and scope to apply your expertise to many interesting technical problems. • Candidate must have a st…",
+      "source": "jsearch",
+      "id": "c48196e7daf4564d6cfe107665039a15c4936061",
+      "track": "ai-web",
+      "firstSeenAt": "2026-10-15T21:36:30.388Z",
+      "score": 65,
+      "flags": []
+    },
+    {
+      "title": "Host, Olive and Sea - Hilton Fort Lauderdale Marina",
+      "company": "Hilton",
+      "location": "Sunrise, Broward County",
+      "remote": false,
+      "pay": "$57,198.54/year",
+      "url": "https://www.adzuna.com/details/5916880935?utm_medium=api&utm_source=ea9765bf",
+      "postedAt": "2026-10-07T07:11:03.000Z",
+      "snippet": "Job Identification: 225232 Job Category: Food and Beverage Job Schedule: Full time Salary $20/USD/Hourly Equal Opportunity Employer EOE, including disability/vets Exceptional Hospitality Starts with You Picture yourself brightening someone…",
+      "source": "adzuna",
+      "id": "9d30249c17c8c2100d444878a90d42ab698c5310",
+      "track": "marine-national",
+      "firstSeenAt": "2026-10-15T21:36:30.388Z",
+      "score": 65,
+      "flags": [
+        "far-away",
+        "high-pay"
+      ]
+    },
+    {
+      "title": "Housekeeping Dispatcher - Hilton Fort Lauderdale Marina",
+      "company": "Hilton",
+      "location": "Sunrise, Broward County",
+      "remote": false,
+      "pay": "$59,455.81/year",
+      "url": "https://www.adzuna.com/details/5916880659?utm_medium=api&utm_source=ea9765bf",
+      "postedAt": "2026-10-07T07:11:01.000Z",
+      "snippet": "Job Identification: 225570 Job Category: Housekeeping and Laundry Job Schedule: Full time Salary $22/USD/Hourly Equal Opportunity Employer EOE, including disability/vets Exceptional Hospitality Starts with You Picture yourself brightening …",
+      "source": "adzuna",
+      "id": "327c20c41885cba8be5245c04bca8c5a3b351658",
+      "track": "marine-national",
+      "firstSeenAt": "2026-10-15T21:36:30.388Z",
+      "score": 65,
+      "flags": [
+        "far-away",
+        "high-pay"
+      ]
+    },
+    {
+      "title": "Marine Surveyor (Open to both U.S. Citizens and Federal Employees)",
+      "company": "Maritime Administration",
+      "location": "Multiple Locations",
+      "remote": false,
+      "pay": "$74,678–$158,322/Per Year",
+      "url": "https://www.usajobs.gov:443/job/887816700",
+      "postedAt": "2026-10-06T15:04:30.533Z",
+      "snippet": "The position serves as a field level subject matter expert on the maintenance, repair, and operations of the National Defense Reserve Force (NDRF) and Public Nautical School Ship Program (PNSP) Ships. This position is located in the Mariti…",
+      "source": "usajobs",
+      "id": "20e6ea82ae80c050d5746fdc7dbdda205b8f5739",
+      "track": "marine-national",
+      "firstSeenAt": "2026-10-15T21:36:30.388Z",
+      "score": 65,
+      "flags": [
+        "drug-test",
+        "far-away",
+        "high-pay"
+      ]
+    },
+    {
+      "title": "Rooms Controller - Hilton Fort Lauderdale Marina",
+      "company": "Hilton",
+      "location": "Sunrise, Broward County",
+      "remote": false,
+      "pay": "$67,330.83/year",
+      "url": "https://www.adzuna.com/details/5911409994?utm_medium=api&utm_source=ea9765bf",
+      "postedAt": "2026-10-04T07:05:42.000Z",
+      "snippet": "Job Identification: 225235 Job Category: Guest Services, Operations, and Front Office Job Schedule: Full time Salary $20/USD/Hourly Equal Opportunity Employer EOE, including disability/vets Exceptional Hospitality Starts with You Picture y…",
+      "source": "adzuna",
+      "id": "347086a2de401aba13d150ca71a787e4c52f72a3",
+      "track": "marine-national",
+      "firstSeenAt": "2026-10-15T21:36:30.388Z",
+      "score": 65,
+      "flags": [
+        "far-away",
+        "high-pay"
+      ]
+    },
+    {
+      "title": "MARINE SURVEYOR",
+      "company": "Military Sealift Command",
+      "location": "Naval Base, Norfolk, Virginia",
+      "remote": false,
+      "pay": "$75,788–$98,530/Per Year",
+      "url": "https://www.usajobs.gov:443/job/873936400",
+      "postedAt": "2026-06-24T00:00:00.000Z",
+      "snippet": "This is a public notice flyer to notify interested applicants of anticipated vacancies. Applications will not be accepted through this flyer. Interested applicants must follow the directions in the \"How to Apply\" section of this flyer to b…",
+      "source": "usajobs",
+      "id": "3d3a6928083d7eea3c4b46c8d38459571635a6f6",
+      "track": "marine-national",
+      "firstSeenAt": "2026-10-15T21:36:30.388Z",
+      "score": 65,
+      "flags": [
+        "far-away",
+        "high-pay"
+      ]
+    },
+    {
       "title": "Seasonal Sales Associate (HWY 501)",
       "company": "Under Armour, Inc.",
       "location": "Carolina Forest, Horry County",
@@ -608,7 +875,8 @@
       "flags": [
         "entry-level"
       ],
-      "firstSeenAt": "2026-10-15T20:53:15.652Z"
+      "firstSeenAt": "2026-10-15T20:53:15.652Z",
+      "otherLocations": []
     },
     {
       "title": "Retail Seasonal",
@@ -644,7 +912,8 @@
       "flags": [
         "entry-level"
       ],
-      "firstSeenAt": "2026-10-15T20:53:15.652Z"
+      "firstSeenAt": "2026-10-15T20:53:15.652Z",
+      "otherLocations": []
     },
     {
       "title": "Offshore Deckhand",
@@ -679,7 +948,8 @@
       "track": "tech-sales",
       "score": 65,
       "flags": [],
-      "firstSeenAt": "2026-10-15T20:53:15.652Z"
+      "firstSeenAt": "2026-10-15T20:53:15.652Z",
+      "otherLocations": []
     },
     {
       "title": "VV - DECKHAND; OS​/AB",
@@ -716,7 +986,8 @@
       "flags": [
         "high-pay"
       ],
-      "firstSeenAt": "2026-10-15T20:47:30.879Z"
+      "firstSeenAt": "2026-10-15T20:47:30.879Z",
+      "otherLocations": []
     },
     {
       "title": "Retail Sales Associate – Part Time",
@@ -774,7 +1045,8 @@
         "live-aboard",
         "high-pay"
       ],
-      "firstSeenAt": "2026-10-15T20:47:30.879Z"
+      "firstSeenAt": "2026-10-15T20:47:30.879Z",
+      "otherLocations": []
     },
     {
       "title": "Retail Sales Associate",
@@ -790,7 +1062,8 @@
       "track": "tech-sales",
       "score": 65,
       "flags": [],
-      "firstSeenAt": "2026-10-15T20:47:30.879Z"
+      "firstSeenAt": "2026-10-15T20:47:30.879Z",
+      "otherLocations": []
     },
     {
       "title": "Event Coordinator",
@@ -806,7 +1079,8 @@
       "track": "quick-cash",
       "score": 65,
       "flags": [],
-      "firstSeenAt": "2026-10-15T20:47:30.879Z"
+      "firstSeenAt": "2026-10-15T20:47:30.879Z",
+      "otherLocations": []
     },
     {
       "title": "Retail Sales Associate",
@@ -822,7 +1096,8 @@
       "track": "tech-sales",
       "score": 65,
       "flags": [],
-      "firstSeenAt": "2026-10-15T20:47:30.879Z"
+      "firstSeenAt": "2026-10-15T20:47:30.879Z",
+      "otherLocations": []
     },
     {
       "title": "Retail Sales",
@@ -858,7 +1133,8 @@
       "track": "quick-cash",
       "score": 65,
       "flags": [],
-      "firstSeenAt": "2026-10-15T20:42:31.689Z"
+      "firstSeenAt": "2026-10-15T20:42:31.689Z",
+      "otherLocations": []
     },
     {
       "title": "Oiler-Deckhand (DR)",
@@ -877,7 +1153,8 @@
         "live-aboard",
         "high-pay"
       ],
-      "firstSeenAt": "2026-10-15T20:42:31.689Z"
+      "firstSeenAt": "2026-10-15T20:42:31.689Z",
+      "otherLocations": []
     },
     {
       "title": "Deckhand (Dual Rate)",
@@ -897,27 +1174,8 @@
         "live-aboard",
         "high-pay"
       ],
-      "firstSeenAt": "2026-10-15T20:42:31.689Z"
-    },
-    {
-      "title": "Deckhand Leader",
-      "company": "U.S. Army Corps of Engineers",
-      "location": "Saint Louis, Missouri",
-      "remote": false,
-      "pay": "$29.36–$34.28/Per Hour",
-      "url": "https://www.usajobs.gov:443/job/881851000",
-      "postedAt": "2026-08-24T11:39:20.333Z",
-      "snippet": "This is a Direct Hire Authority (DHA) solicitation utilizing the DHA for Certain Personnel of the DoD Workforce to recruit and appoint qualified candidates to positions in the competitive service. About the Position: Serves as working lead…",
-      "source": "usajobs",
-      "id": "ccb03fe8a4fcd32d67869bd1526b6612f7996aa7",
-      "track": "marine-national",
-      "score": 65,
-      "flags": [
-        "far-away",
-        "live-aboard",
-        "high-pay"
-      ],
-      "firstSeenAt": "2026-10-15T20:42:31.689Z"
+      "firstSeenAt": "2026-10-15T20:42:31.689Z",
+      "otherLocations": []
     },
     {
       "title": "MOTOR VESSEL CAPTAIN",
@@ -937,7 +1195,8 @@
         "live-aboard",
         "high-pay"
       ],
-      "firstSeenAt": "2026-10-15T20:42:31.689Z"
+      "firstSeenAt": "2026-10-15T20:42:31.689Z",
+      "otherLocations": []
     },
     {
       "title": "Full-Stack E-commerce Developer with Sage X3 Experience",
@@ -1188,7 +1447,8 @@
       "flags": [
         "entry-level"
       ],
-      "firstSeenAt": "2026-10-15T20:47:30.879Z"
+      "firstSeenAt": "2026-10-15T20:47:30.879Z",
+      "otherLocations": []
     },
     {
       "title": "Enterprise Account Executive (Kazakhstan)",
@@ -1574,6 +1834,115 @@
       "otherLocations": []
     },
     {
+      "title": "Media Sales Representative",
+      "company": "Best Version Media",
+      "location": "Myrtle Beach, Horry County (+1 more)",
+      "remote": false,
+      "pay": "$66,070.42/year",
+      "url": "https://www.adzuna.com/land/ad/5929493283?se=yr2PfeDI8RGgYcdhZypWfA&utm_medium=api&utm_source=ea9765bf&v=E11604ECC2BBA5DAAB809D90A92E8F8E00609002",
+      "postedAt": "2026-10-15T16:51:49.000Z",
+      "snippet": "Job Description Job Description If you love your community and want to get paid for building real relationships in it, this is the outside sales opportunity built for that — not a desk job, not a call center. Best Version Media has spent n…",
+      "source": "adzuna",
+      "id": "6ceec10f2fed25369968de47f7ab8b56867422e2",
+      "track": "tech-sales",
+      "firstSeenAt": "2026-10-15T21:36:30.388Z",
+      "score": 55,
+      "flags": [
+        "high-pay"
+      ],
+      "otherLocations": [
+        "Georgetown, Georgetown County"
+      ]
+    },
+    {
+      "title": "Physician Surgery-General - Competitive Salary",
+      "company": "Archway Physician Recruitment",
+      "location": "Myrtle Beach, Horry County",
+      "remote": false,
+      "pay": "$103,312.35/year",
+      "url": "https://www.adzuna.com/land/ad/5928185791?se=hOT_fODI8RGnv4JedLxTEg&utm_medium=api&utm_source=ea9765bf&v=DE93E7061EED67843C22753D53B6DAC73BB724DC",
+      "postedAt": "2026-10-14T20:51:21.000Z",
+      "snippet": "Job Description Orthopedic Surgery - Hand opening in Myrtle Beach, SCFull-Time & Permanent PositionRequirements: \\n \\n BE/BC Orthopedic Surgery \\n Fellowship training in Hand \\n SC Licensed or Pending Details:\\n Join a thriving practice wi…",
+      "source": "adzuna",
+      "id": "fd312631d7e76171566fe3cbff7292fb346ab618",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:36:30.388Z",
+      "score": 55,
+      "flags": [
+        "high-pay"
+      ]
+    },
+    {
+      "title": "Physician Physiatry/Physical Medicine & Rehabilitation - Competitive Salary",
+      "company": "Source Medical, LLC.",
+      "location": "Myrtle Beach, Horry County",
+      "remote": false,
+      "pay": "$86,180.38/year",
+      "url": "https://www.adzuna.com/land/ad/5928180171?se=hOT_fODI8RGnv4JedLxTEg&utm_medium=api&utm_source=ea9765bf&v=872C7F38110871C2AAF54AE8AB8F2BF38C6F794E",
+      "postedAt": "2026-10-14T20:49:46.000Z",
+      "snippet": "Job Description Physical Medicine & Rehabilitation opening in Mrytle Beach, SCLocated in Mrytle BeachFull time/PermanentEmployedOther DetailsBoard Certified or Board Eligible Physical Medicine & Rehabilitation physicians are encouraged to …",
+      "source": "adzuna",
+      "id": "c8e21f6cd70ee4c25dac2d2ad76e12b8294c6f42",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:36:30.388Z",
+      "score": 55,
+      "flags": [
+        "high-pay"
+      ]
+    },
+    {
+      "title": "Physician Orthopedics-Hand Surgery - Competitive Salary",
+      "company": "Summit Recruiting Group",
+      "location": "Myrtle Beach, Horry County",
+      "remote": false,
+      "pay": "$100,189.93/year",
+      "url": "https://www.adzuna.com/land/ad/5928174381?se=hOT_fODI8RGnv4JedLxTEg&utm_medium=api&utm_source=ea9765bf&v=B79FD1CF6932BC879BDEB4F1E175CC0CDBC2C24D",
+      "postedAt": "2026-10-14T20:48:12.000Z",
+      "snippet": "Job Description Orthopedic Hand Surgery in Myrtle Beach, SC \\n \\n Coastal community \\n 350,000 person service area Position Details: \\n Full-time, permanent position \\n Employed \\n Seeking Board Certified Orthopedic Hand Surgery \\n About M…",
+      "source": "adzuna",
+      "id": "36de8c700bc1a42946ef137d30fee7d711f36b5e",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:36:30.388Z",
+      "score": 55,
+      "flags": [
+        "high-pay"
+      ]
+    },
+    {
+      "title": "$1.3 Million GI Opportunity | Coastal South Carolina | Myrtle Beach",
+      "company": "Pacific Companies",
+      "location": "Conway, Horry County",
+      "remote": false,
+      "pay": "$147,135.17/year",
+      "url": "https://www.adzuna.com/land/ad/5928165632?se=SsUNfeDI8RGYwPFSmBM_bA&utm_medium=api&utm_source=ea9765bf&v=8683A2A9BE06C3FC7ABAB8648328E50B39A86B0F",
+      "postedAt": "2026-10-14T20:44:58.000Z",
+      "snippet": "Job Description Join a thriving, hospital-employed gastroenterology group in the beautiful coastal community of Myrtle Beach, South Carolina. Step into a practice that blends professional satisfaction and work-life balance, with excellent …",
+      "source": "adzuna",
+      "id": "4e34adc3433d0db5aae2b32c97df937ae448ae25",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:36:30.388Z",
+      "score": 55,
+      "flags": [
+        "high-pay"
+      ]
+    },
+    {
+      "title": "Retail Merchandise Associate",
+      "company": "TJX Companies",
+      "location": "Pawleys Island, Georgetown County",
+      "remote": false,
+      "pay": "$27,311.86/year",
+      "url": "https://www.adzuna.com/land/ad/5925508081?se=yr2PfeDI8RGgYcdhZypWfA&utm_medium=api&utm_source=ea9765bf&v=B7772556BB2B7DD6AC0378AC88259C8D97AFC18A",
+      "postedAt": "2026-10-13T04:14:43.000Z",
+      "snippet": "Job Description TJ Maxx\\n \\n At TJX Companies, every day brings new opportunities for growth, exploration, and achievement. You’ll be part of our vibrant team that embraces diversity, fosters collaboration, and prioritizes your development…",
+      "source": "adzuna",
+      "id": "d56211c0e6db7649c7d42602e99d433337279a9c",
+      "track": "tech-sales",
+      "firstSeenAt": "2026-10-15T21:36:30.388Z",
+      "score": 55,
+      "flags": []
+    },
+    {
       "title": "Tax Expert - Local Office",
       "company": "Intuit",
       "location": "North Charleston, Charleston County (+5 more)",
@@ -1664,7 +2033,8 @@
       "flags": [
         "high-pay"
       ],
-      "firstSeenAt": "2026-10-15T20:53:15.652Z"
+      "firstSeenAt": "2026-10-15T20:53:15.652Z",
+      "otherLocations": []
     },
     {
       "title": "Tax Expert - Onsite",
@@ -1702,7 +2072,8 @@
       "track": "tech-sales",
       "score": 55,
       "flags": [],
-      "firstSeenAt": "2026-10-15T20:53:15.652Z"
+      "firstSeenAt": "2026-10-15T20:53:15.652Z",
+      "otherLocations": []
     },
     {
       "title": "Physician Neurology - Competitive Salary",
@@ -1783,7 +2154,8 @@
       "flags": [
         "high-pay"
       ],
-      "firstSeenAt": "2026-10-15T20:53:15.652Z"
+      "firstSeenAt": "2026-10-15T20:53:15.652Z",
+      "otherLocations": []
     },
     {
       "title": "Physician Endocrinology - Competitive Salary",
@@ -1801,7 +2173,8 @@
       "flags": [
         "high-pay"
       ],
-      "firstSeenAt": "2026-10-15T20:53:15.652Z"
+      "firstSeenAt": "2026-10-15T20:53:15.652Z",
+      "otherLocations": []
     },
     {
       "title": "Physician Pediatrics - Competitive Salary",
@@ -1819,7 +2192,8 @@
       "flags": [
         "high-pay"
       ],
-      "firstSeenAt": "2026-10-15T20:53:15.652Z"
+      "firstSeenAt": "2026-10-15T20:53:15.652Z",
+      "otherLocations": []
     },
     {
       "title": "Physician Obstetrics & Gynecology - Competitive Salary",
@@ -1837,7 +2211,8 @@
       "flags": [
         "high-pay"
       ],
-      "firstSeenAt": "2026-10-15T20:53:15.652Z"
+      "firstSeenAt": "2026-10-15T20:53:15.652Z",
+      "otherLocations": []
     },
     {
       "title": "Physician Cardiology - Competitive Salary",
@@ -1855,7 +2230,8 @@
       "flags": [
         "high-pay"
       ],
-      "firstSeenAt": "2026-10-15T20:53:15.652Z"
+      "firstSeenAt": "2026-10-15T20:53:15.652Z",
+      "otherLocations": []
     },
     {
       "title": "Physician Rheumatology - Competitive Salary",
@@ -1873,7 +2249,8 @@
       "flags": [
         "high-pay"
       ],
-      "firstSeenAt": "2026-10-15T20:53:15.652Z"
+      "firstSeenAt": "2026-10-15T20:53:15.652Z",
+      "otherLocations": []
     },
     {
       "title": "Physician Urology - Competitive Salary",
@@ -1891,7 +2268,8 @@
       "flags": [
         "high-pay"
       ],
-      "firstSeenAt": "2026-10-15T20:53:15.652Z"
+      "firstSeenAt": "2026-10-15T20:53:15.652Z",
+      "otherLocations": []
     },
     {
       "title": "Physician Gastroenterology - Competitive Salary",
@@ -1909,7 +2287,8 @@
       "flags": [
         "high-pay"
       ],
-      "firstSeenAt": "2026-10-15T20:53:15.652Z"
+      "firstSeenAt": "2026-10-15T20:53:15.652Z",
+      "otherLocations": []
     },
     {
       "title": "Physician Pediatrics - Competitive Salary",
@@ -1927,7 +2306,8 @@
       "flags": [
         "high-pay"
       ],
-      "firstSeenAt": "2026-10-15T20:53:15.652Z"
+      "firstSeenAt": "2026-10-15T20:53:15.652Z",
+      "otherLocations": []
     },
     {
       "title": "Physician Cardiology-Interventional - Competitive Salary",
@@ -1945,7 +2325,8 @@
       "flags": [
         "high-pay"
       ],
-      "firstSeenAt": "2026-10-15T20:53:15.652Z"
+      "firstSeenAt": "2026-10-15T20:53:15.652Z",
+      "otherLocations": []
     },
     {
       "title": "Physician Pediatric Hospitalist - Competitive Salary",
@@ -1963,7 +2344,8 @@
       "flags": [
         "high-pay"
       ],
-      "firstSeenAt": "2026-10-15T20:53:15.652Z"
+      "firstSeenAt": "2026-10-15T20:53:15.652Z",
+      "otherLocations": []
     },
     {
       "title": "Physician Urgent Care - Competitive Salary",
@@ -1981,7 +2363,8 @@
       "flags": [
         "high-pay"
       ],
-      "firstSeenAt": "2026-10-15T20:53:15.652Z"
+      "firstSeenAt": "2026-10-15T20:53:15.652Z",
+      "otherLocations": []
     },
     {
       "title": "Physician Pediatric Hospitalist - Competitive Salary",
@@ -1999,7 +2382,8 @@
       "flags": [
         "high-pay"
       ],
-      "firstSeenAt": "2026-10-15T20:53:15.652Z"
+      "firstSeenAt": "2026-10-15T20:53:15.652Z",
+      "otherLocations": []
     },
     {
       "title": "Physician Obstetrics & Gynecology - Competitive Salary",
@@ -2017,7 +2401,8 @@
       "flags": [
         "high-pay"
       ],
-      "firstSeenAt": "2026-10-15T20:53:15.652Z"
+      "firstSeenAt": "2026-10-15T20:53:15.652Z",
+      "otherLocations": []
     },
     {
       "title": "Physician Emergency Medicine - Competitive Salary",
@@ -2035,7 +2420,8 @@
       "flags": [
         "high-pay"
       ],
-      "firstSeenAt": "2026-10-15T20:53:15.652Z"
+      "firstSeenAt": "2026-10-15T20:53:15.652Z",
+      "otherLocations": []
     },
     {
       "title": "Physician Neurology - Competitive Salary",
@@ -2053,7 +2439,8 @@
       "flags": [
         "high-pay"
       ],
-      "firstSeenAt": "2026-10-15T20:53:15.652Z"
+      "firstSeenAt": "2026-10-15T20:53:15.652Z",
+      "otherLocations": []
     },
     {
       "title": "Sales Associate - Spencer's",
@@ -2069,7 +2456,8 @@
       "track": "tech-sales",
       "score": 55,
       "flags": [],
-      "firstSeenAt": "2026-10-15T20:53:15.652Z"
+      "firstSeenAt": "2026-10-15T20:53:15.652Z",
+      "otherLocations": []
     },
     {
       "title": "Physician Obstetrics & Gynecology - Competitive Salary",
@@ -2087,46 +2475,8 @@
       "flags": [
         "high-pay"
       ],
-      "firstSeenAt": "2026-10-15T20:53:15.652Z"
-    },
-    {
-      "title": "Sales Associate - Spirit",
-      "company": "Spencer Gifts - Spirit Halloween",
-      "location": "Carolina Forest, Horry County",
-      "remote": false,
-      "pay": "$24,544–$24,960",
-      "url": "https://www.adzuna.com/land/ad/5928102847?se=ZG_wctrI8RGgYcdhZypWfA&utm_medium=api&utm_source=ea9765bf&v=6121F1585D20D101A0BA3122451A1FF3FEB234E2",
-      "postedAt": "2026-10-14T20:27:19.000Z",
-      "snippet": "Hourly rate ranges from $11.80 - $12.00 per hour and is dependent upon qualifications and experience. Benefits include: Set-Up and Tear Down Premium Pay Programs, End of Season Premium Pay Program. All Bonus and Pay Programs subject to qua…",
-      "source": "adzuna",
-      "id": "678dd6ff8b93729bdf33d460f7c5c1e0638e4716",
-      "track": "tech-sales",
-      "score": 55,
-      "flags": [],
-      "firstSeenAt": "2026-10-15T20:53:15.652Z"
-    },
-    {
-      "title": "Part-time Nabisco Merchandiser",
-      "company": "Mondelez International",
-      "location": "Chadbourn, Columbus County (+5 more)",
-      "remote": false,
-      "pay": "$29,547.22",
-      "url": "https://www.adzuna.com/land/ad/5927401925?se=-v9lctrI8RGYwPFSmBM_bA&utm_medium=api&utm_source=ea9765bf&v=292863BB114BE1B6E7D7765576803CAF7DF156F2",
-      "postedAt": "2026-10-14T07:29:16.000Z",
-      "snippet": "Chadbourn, North Carolina, United States Whiteville, North Carolina, United States Tabor City, North Carolina, United States Part time R-179576 Job Description Join our Mission to Lead the Future of Snacking at Mondelēz International Part …",
-      "source": "adzuna",
-      "id": "0c5c874a5a8e1d5a7b8272add2058a931f575a08",
-      "track": "quick-cash",
-      "score": 55,
-      "flags": [],
       "firstSeenAt": "2026-10-15T20:53:15.652Z",
-      "otherLocations": [
-        "Whiteville, Columbus County",
-        "Tabor City, Columbus County",
-        "Carolina Forest, Horry County",
-        "Pawleys Island, Georgetown County",
-        "Murrells Inlet, Horry County"
-      ]
+      "otherLocations": []
     },
     {
       "title": "CDL-A Truck Driver - Earn Up to $75,000/Year - No-Touch Benefits",
@@ -2144,7 +2494,8 @@
       "flags": [
         "high-pay"
       ],
-      "firstSeenAt": "2026-10-15T20:53:15.652Z"
+      "firstSeenAt": "2026-10-15T20:53:15.652Z",
+      "otherLocations": []
     },
     {
       "title": "Seasonal Associate",
@@ -2162,7 +2513,8 @@
       "flags": [
         "entry-level"
       ],
-      "firstSeenAt": "2026-10-15T20:53:15.652Z"
+      "firstSeenAt": "2026-10-15T20:53:15.652Z",
+      "otherLocations": []
     },
     {
       "title": "HIRING THIS WEEK! PERFECT PART TIME JOB-WEEKEND SALES-GREAT PAY",
@@ -2178,7 +2530,8 @@
       "track": "quick-cash",
       "score": 55,
       "flags": [],
-      "firstSeenAt": "2026-10-15T20:47:30.879Z"
+      "firstSeenAt": "2026-10-15T20:47:30.879Z",
+      "otherLocations": []
     },
     {
       "title": "Part Time Weekend Product Demonstrator in Costco",
@@ -2196,7 +2549,8 @@
       "flags": [
         "high-pay"
       ],
-      "firstSeenAt": "2026-10-15T20:47:30.879Z"
+      "firstSeenAt": "2026-10-15T20:47:30.879Z",
+      "otherLocations": []
     },
     {
       "title": "Scoop and Slice Attendant",
@@ -2212,7 +2566,8 @@
       "track": "quick-cash",
       "score": 55,
       "flags": [],
-      "firstSeenAt": "2026-10-15T20:47:30.879Z"
+      "firstSeenAt": "2026-10-15T20:47:30.879Z",
+      "otherLocations": []
     },
     {
       "title": "Retail Associate",
@@ -2228,7 +2583,8 @@
       "track": "tech-sales",
       "score": 55,
       "flags": [],
-      "firstSeenAt": "2026-10-15T20:47:30.879Z"
+      "firstSeenAt": "2026-10-15T20:47:30.879Z",
+      "otherLocations": []
     },
     {
       "title": "Gate Attendant",
@@ -2244,7 +2600,8 @@
       "track": "quick-cash",
       "score": 55,
       "flags": [],
-      "firstSeenAt": "2026-10-15T20:47:30.879Z"
+      "firstSeenAt": "2026-10-15T20:47:30.879Z",
+      "otherLocations": []
     },
     {
       "title": "Box Office Attendant Part Time/Full Time",
@@ -2260,7 +2617,8 @@
       "track": "quick-cash",
       "score": 55,
       "flags": [],
-      "firstSeenAt": "2026-10-15T20:47:30.879Z"
+      "firstSeenAt": "2026-10-15T20:47:30.879Z",
+      "otherLocations": []
     },
     {
       "title": "Retail Associates",
@@ -2278,7 +2636,8 @@
       "flags": [
         "entry-level"
       ],
-      "firstSeenAt": "2026-10-15T20:47:30.879Z"
+      "firstSeenAt": "2026-10-15T20:47:30.879Z",
+      "otherLocations": []
     },
     {
       "title": "Temporary Sales Associate",
@@ -2294,7 +2653,8 @@
       "track": "tech-sales",
       "score": 55,
       "flags": [],
-      "firstSeenAt": "2026-10-15T20:42:31.689Z"
+      "firstSeenAt": "2026-10-15T20:42:31.689Z",
+      "otherLocations": []
     },
     {
       "title": "Retail Appointment Setter",
@@ -2362,12 +2722,13 @@
       "track": "tech-sales",
       "score": 50,
       "flags": [],
-      "firstSeenAt": "2026-10-15T20:53:15.652Z"
+      "firstSeenAt": "2026-10-15T20:53:15.652Z",
+      "otherLocations": []
     },
     {
       "title": "Retail Part Time Store Associate",
       "company": "The ODP Group, LLC",
-      "location": "Carolina Forest, Horry County",
+      "location": "Carolina Forest, Horry County (+1 more)",
       "remote": false,
       "pay": "$38,060.64",
       "url": "https://www.adzuna.com/land/ad/5924143866?se=ZG_wctrI8RGgYcdhZypWfA&utm_medium=api&utm_source=ea9765bf&v=78011ADEC8C442DC9808CB6AB62A54EA59B617DC",
@@ -2378,7 +2739,10 @@
       "track": "tech-sales",
       "score": 50,
       "flags": [],
-      "firstSeenAt": "2026-10-15T20:53:15.652Z"
+      "firstSeenAt": "2026-10-15T20:53:15.652Z",
+      "otherLocations": [
+        "Crescent Beach, Horry County"
+      ]
     },
     {
       "title": "Patient Safety Attendant",
@@ -2394,12 +2758,13 @@
       "track": "quick-cash",
       "score": 50,
       "flags": [],
-      "firstSeenAt": "2026-10-15T20:53:15.652Z"
+      "firstSeenAt": "2026-10-15T20:53:15.652Z",
+      "otherLocations": []
     },
     {
       "title": "Store Associate",
       "company": "CVS Health",
-      "location": "Conway, Horry County",
+      "location": "Conway, Horry County (+1 more)",
       "remote": false,
       "pay": "$35,221.5",
       "url": "https://www.adzuna.com/land/ad/5923148801?se=ZG_wctrI8RGgYcdhZypWfA&utm_medium=api&utm_source=ea9765bf&v=157F4BA3B8F2B340D1A0C3212F5805752BB8E242",
@@ -2410,7 +2775,10 @@
       "track": "tech-sales",
       "score": 50,
       "flags": [],
-      "firstSeenAt": "2026-10-15T20:53:15.652Z"
+      "firstSeenAt": "2026-10-15T20:53:15.652Z",
+      "otherLocations": [
+        "Carolina Forest, Horry County"
+      ]
     },
     {
       "title": "Environmental Services Attendant",
@@ -2426,7 +2794,8 @@
       "track": "quick-cash",
       "score": 50,
       "flags": [],
-      "firstSeenAt": "2026-10-15T20:53:15.652Z"
+      "firstSeenAt": "2026-10-15T20:53:15.652Z",
+      "otherLocations": []
     },
     {
       "title": "Brand Market Specialist - Myrtle Beach, SC",
@@ -2444,7 +2813,8 @@
       "flags": [
         "high-pay"
       ],
-      "firstSeenAt": "2026-10-15T20:47:30.879Z"
+      "firstSeenAt": "2026-10-15T20:47:30.879Z",
+      "otherLocations": []
     },
     {
       "title": "Retail Part Time Store Associate",
@@ -2460,7 +2830,8 @@
       "track": "tech-sales",
       "score": 50,
       "flags": [],
-      "firstSeenAt": "2026-10-15T20:47:30.879Z"
+      "firstSeenAt": "2026-10-15T20:47:30.879Z",
+      "otherLocations": []
     },
     {
       "title": "Vacation Sales Ambassador",
@@ -2478,7 +2849,8 @@
       "flags": [
         "high-pay"
       ],
-      "firstSeenAt": "2026-10-15T20:47:30.879Z"
+      "firstSeenAt": "2026-10-15T20:47:30.879Z",
+      "otherLocations": []
     },
     {
       "title": "Petcare & Daycare Attendant - Pawleys Islane",
@@ -2494,7 +2866,8 @@
       "track": "quick-cash",
       "score": 50,
       "flags": [],
-      "firstSeenAt": "2026-10-15T20:47:30.879Z"
+      "firstSeenAt": "2026-10-15T20:47:30.879Z",
+      "otherLocations": []
     },
     {
       "title": "Team Beauty Lead - Full Time",
@@ -2512,7 +2885,8 @@
       "flags": [
         "high-pay"
       ],
-      "firstSeenAt": "2026-10-15T20:47:30.879Z"
+      "firstSeenAt": "2026-10-15T20:47:30.879Z",
+      "otherLocations": []
     },
     {
       "title": "Restaurant AGM with Growing Scratch Kitchen Brand! ZCJ 3686815",
@@ -2530,7 +2904,8 @@
       "flags": [
         "high-pay"
       ],
-      "firstSeenAt": "2026-10-15T20:47:30.879Z"
+      "firstSeenAt": "2026-10-15T20:47:30.879Z",
+      "otherLocations": []
     },
     {
       "title": "Marketing Agent",
@@ -2546,7 +2921,8 @@
       "track": "quick-cash",
       "score": 50,
       "flags": [],
-      "firstSeenAt": "2026-10-15T20:42:31.689Z"
+      "firstSeenAt": "2026-10-15T20:42:31.689Z",
+      "otherLocations": []
     },
     {
       "title": "Interior Design Consultant",
@@ -2584,6 +2960,484 @@
       "otherLocations": []
     },
     {
+      "title": "reputed company Customer Success Associate, reputed company (Temporary, Part-Time Weekend)",
+      "company": "remote quest jobs",
+      "location": "",
+      "remote": true,
+      "pay": "",
+      "url": "https://us.remotejobs.dedyn.io/job/2535159",
+      "postedAt": "2026-10-12T00:00:00.000Z",
+      "snippet": "via Remote Quest Jobs. Role Summary The Customer Success Associate, reputed company is responsible for delivering frontline support by addressing straightforward customer inquiries and resolving common issues efficiently. This role require…",
+      "source": "jsearch",
+      "id": "a032a924253f71f8b6453b29d289af1b1addb6fc",
+      "track": "ai-web",
+      "firstSeenAt": "2026-10-15T21:36:30.388Z",
+      "score": 45,
+      "flags": []
+    },
+    {
+      "title": "Fine Jewelry Sales Associate",
+      "company": "Christopher's Fine Jewelry",
+      "location": "Pawleys Island, Georgetown County",
+      "remote": false,
+      "pay": "$35,954.49/year",
+      "url": "https://www.adzuna.com/land/ad/5919083447?se=yr2PfeDI8RGgYcdhZypWfA&utm_medium=api&utm_source=ea9765bf&v=8FEDEFC55115FF0ADD94B892F1F006DB3D2B745F",
+      "postedAt": "2026-10-08T10:12:48.000Z",
+      "snippet": "Fine Jewelry Sales Associate Christopher’s Fine Jewelry | Pawleys Island, SC | Full-Time, On-Site Exceptional service. Meaningful relationships. A career built on both. Christopher’s Fine Jewelry, an established independent jeweler in Pawl…",
+      "source": "adzuna",
+      "id": "f20771f61f6e0c957f0ee4c9fe6ab0e4c8a0c9e2",
+      "track": "tech-sales",
+      "firstSeenAt": "2026-10-15T21:36:30.388Z",
+      "score": 45,
+      "flags": []
+    },
+    {
+      "title": "Housekeeping Room Attendant",
+      "company": "EOS",
+      "location": "Myrtle Beach, Horry County",
+      "remote": false,
+      "pay": "$33,280/year",
+      "url": "https://www.adzuna.com/details/5918824416?utm_medium=api&utm_source=ea9765bf",
+      "postedAt": "2026-10-08T07:07:05.000Z",
+      "snippet": "The Kingston Resorts is a 145-acre oceanfront resort on the north-end of Myrtle Beach. Less than 2 miles from Tanger Outlets and a short 20-minute trip to Broadway at the Beach. This resort is home to the Hilton Myrtle Beach Resort, Embass…",
+      "source": "adzuna",
+      "id": "da7e11f32f6c5c8fc823bd3f548efa3923c61677",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:36:30.388Z",
+      "score": 45,
+      "flags": [],
+      "otherLocations": []
+    },
+    {
+      "title": "Sales Associate",
+      "company": "Campbell Oil Company",
+      "location": "Carolina Forest, Horry County",
+      "remote": false,
+      "pay": "$31,194.61/year",
+      "url": "https://www.adzuna.com/details/5918821685?utm_medium=api&utm_source=ea9765bf",
+      "postedAt": "2026-10-08T07:06:18.000Z",
+      "snippet": "Description Minuteman Food Mart - Sales Associate - Part Time Join us as we grow together personally and professionally! Four Generations of family leadership continue to make it our vision to leave people better than we found them. We are…",
+      "source": "adzuna",
+      "id": "ef4e6b4ffa9531376334c35de31d0479026010df",
+      "track": "tech-sales",
+      "firstSeenAt": "2026-10-15T21:36:30.388Z",
+      "score": 45,
+      "flags": []
+    },
+    {
+      "title": "[Remote] Healthcare Quality Improvement Specialist (OK, LA & TX (Dallas Fort Worth, Houston, Austin/San Antonio, and Amarillo/Lubbock)",
+      "company": "Mixpanel",
+      "location": "",
+      "remote": true,
+      "pay": "$46,559–$55,164/year",
+      "url": "https://workdock.liveblog365.com/job/remote-healthcare-quality-improvement-specialist-ok-la-tx-dallas-fort-worth-houston-austinsan-antoni",
+      "postedAt": "2026-10-08T00:00:00.000Z",
+      "snippet": "via Workdock. Note: The job is a remote job and is open to candidates in USA. TMF Health Quality Institute is dedicated to improving healthcare quality, and they are seeking a Healthcare Quality Improvement Specialist. The role involves pl…",
+      "source": "jsearch",
+      "id": "50d98bd4a761339ce934ade4b6625baffb7152d6",
+      "track": "ai-web",
+      "firstSeenAt": "2026-10-15T21:36:30.388Z",
+      "score": 45,
+      "flags": [
+        "high-pay"
+      ]
+    },
+    {
+      "title": "Sales Associate-ANN",
+      "company": "KnitWell Group",
+      "location": "Myrtle Beach, Horry County",
+      "remote": false,
+      "pay": "$63,058.96/year",
+      "url": "https://www.adzuna.com/details/5917070359?utm_medium=api&utm_source=ea9765bf",
+      "postedAt": "2026-10-07T08:42:16.000Z",
+      "snippet": "About us Ann Taylor embodies and celebrates the spirit, heritage, and confidence of American women leading the lives they love. Since its beginnings, Ann Taylor has been committed to providing women with everything they need to feel inspir…",
+      "source": "adzuna",
+      "id": "84ce1d43ffdcf6fc3bf0c6b8c4448d850b118388",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:36:30.388Z",
+      "score": 45,
+      "flags": [
+        "high-pay"
+      ]
+    },
+    {
+      "title": "Retail Cleaning Associate",
+      "company": "TJX",
+      "location": "Myrtle Beach, Horry County",
+      "remote": false,
+      "pay": "$29,120–$30,160/year",
+      "url": "https://www.adzuna.com/details/5917023831?utm_medium=api&utm_source=ea9765bf",
+      "postedAt": "2026-10-07T08:24:10.000Z",
+      "snippet": "Marshalls At TJX Companies, every day brings new opportunities for growth, exploration, and achievement. You’ll be part of our vibrant team that embraces diversity, fosters collaboration, and prioritizes your development. Whether you’re wo…",
+      "source": "adzuna",
+      "id": "13a6649e28c35cb0543a343619f222017c079296",
+      "track": "tech-sales",
+      "firstSeenAt": "2026-10-15T21:36:30.388Z",
+      "score": 45,
+      "flags": []
+    },
+    {
+      "title": "Sales Associate",
+      "company": "Rawlings Sporting Goods Company",
+      "location": "Carolina Forest, Horry County",
+      "remote": false,
+      "pay": "$47,291.41/year",
+      "url": "https://www.adzuna.com/details/5916972549?utm_medium=api&utm_source=ea9765bf",
+      "postedAt": "2026-10-07T07:55:19.000Z",
+      "snippet": "Title: Sales Associate Department : Sales Reports To : Store Manager Location: 4619 Factory Stores Blvd, Myrtle Beach, SC 29579 Status : Hourly Hours : Must have ability to work days, nights, and weekends At Rawlings, our mission is to lev…",
+      "source": "adzuna",
+      "id": "3b0bfde203d31545ecadb52b04eed05e7bbbe66c",
+      "track": "tech-sales",
+      "firstSeenAt": "2026-10-15T21:36:30.388Z",
+      "score": 45,
+      "flags": []
+    },
+    {
+      "title": "High School Secretary I - Attendance Clerk/ Receptionist",
+      "company": "Horry County Schools",
+      "location": "Myrtle Beach, Horry County",
+      "remote": false,
+      "pay": "$31,940.09/year",
+      "url": "https://www.adzuna.com/details/5916957389?utm_medium=api&utm_source=ea9765bf",
+      "postedAt": "2026-10-07T07:42:18.000Z",
+      "snippet": "Position Type: Support Staff/ Secretary Date Posted: 10/5/2026 Location: Myrtle Beach High Closing Date: 10/12/2026 Job Title : School Secretary I - Attendance Clerk Terms of Employment : 190 days Supervisor : Building Principal Job Summar…",
+      "source": "adzuna",
+      "id": "96e064ac7b773d43bc960b1bbc74070eced53e8c",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:36:30.388Z",
+      "score": 45,
+      "flags": []
+    },
+    {
+      "title": "Brand Representatives - Holiday Sales Associate",
+      "company": "stand out for good",
+      "location": "Charleston, Charleston County",
+      "remote": false,
+      "pay": "$33,690/year",
+      "url": "https://www.adzuna.com/details/5916853100?utm_medium=api&utm_source=ea9765bf",
+      "postedAt": "2026-10-07T07:04:53.000Z",
+      "snippet": "237 - King Street - Charleston, SC Who Are We? Altar’d State is a rapidly growing women’s fashion brand with 130 locations in 40 states. It feels like a sanctuary - a place of beauty from the inside out. From welcoming experiences and warm…",
+      "source": "adzuna",
+      "id": "9126daf23a53f4a12ff1b0cdb4d5bb9d28bcd09b",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:36:30.388Z",
+      "score": 45,
+      "flags": []
+    },
+    {
+      "title": "Personal Trainer (Small Group) Instructor",
+      "company": "Valet Living",
+      "location": "Pawleys Island, Georgetown County",
+      "remote": false,
+      "pay": "$83,200–$93,600/year",
+      "url": "https://www.adzuna.com/details/5916679738?utm_medium=api&utm_source=ea9765bf",
+      "postedAt": "2026-10-07T05:21:36.000Z",
+      "snippet": "Ignite Your Fitness Passion with Torch Fitness by Valet Living Are you energized by music, movement, and making an impact? Torch Fitness, a division of Valet Living, is looking for an enthusiastic Group Exercise instructor to sub occasiona…",
+      "source": "adzuna",
+      "id": "8969127df69cfdc8e7d9ff947dd9140486e06b93",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:36:30.388Z",
+      "score": 45,
+      "flags": [
+        "high-pay"
+      ]
+    },
+    {
+      "title": "Beauty Advisor - Part Time",
+      "company": "Belk",
+      "location": "Georgetown, Georgetown County",
+      "remote": false,
+      "pay": "$17,784–$38,084/year",
+      "url": "https://www.adzuna.com/details/5916402135?utm_medium=api&utm_source=ea9765bf",
+      "postedAt": "2026-10-07T03:24:34.000Z",
+      "snippet": "The Team Beauty Associate drives sales and delivers a positive customer experience by providing excellent service through building client relationships, performing product applications, and offering customized recommendations across multip…",
+      "source": "adzuna",
+      "id": "7ee4a04d733f4ed2b75f2c8f43b8272c29ae01fc",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:36:30.388Z",
+      "score": 45,
+      "flags": []
+    },
+    {
+      "title": "Retail Warehouse Associate",
+      "company": "Best Buy",
+      "location": "Myrtle Beach, Horry County",
+      "remote": false,
+      "pay": "$35,852.77/year",
+      "url": "https://www.adzuna.com/details/5915033752?utm_medium=api&utm_source=ea9765bf",
+      "postedAt": "2026-10-06T22:26:57.000Z",
+      "snippet": "As a Retail Warehouse Associate, you'll help us create great shopping experiences by keeping our sales floor stocked and preparing online orders to be shipped to customers' homes. This includes unloading trucks, replenishing store shelves,…",
+      "source": "adzuna",
+      "id": "62cb4a97c6a336f7ad18795aa28b019e4856482d",
+      "track": "tech-sales",
+      "firstSeenAt": "2026-10-15T21:36:30.388Z",
+      "score": 45,
+      "flags": []
+    },
+    {
+      "title": "HVAC Senior Service Technician 4",
+      "company": "Jakes",
+      "location": "Little River, Horry County",
+      "remote": false,
+      "pay": "$56,160–$68,640/year",
+      "url": "https://www.adzuna.com/details/5914273945?utm_medium=api&utm_source=ea9765bf",
+      "postedAt": "2026-10-06T17:19:00.000Z",
+      "snippet": "Senior HVAC Service Technician Jake’s | Little River, SC $27–$33 per hour commissions | Great benefits and PTO package Jake’s is hiring a Senior HVAC Service Technician with 5 years of hands-on service experience . If you’re a skilled trou…",
+      "source": "adzuna",
+      "id": "f2b57746e32333fabc750d8d74639587d6f281a4",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:36:30.388Z",
+      "score": 45,
+      "flags": [
+        "high-pay"
+      ]
+    },
+    {
+      "title": "Customer Experience Rep",
+      "company": "Bulbrite Industries",
+      "location": "Summerville, Dorchester County",
+      "remote": false,
+      "pay": "$61,523.41/year",
+      "url": "https://www.adzuna.com/land/ad/5914050857?se=uEdyfeDI8RGgYcdhZypWfA&utm_medium=api&utm_source=ea9765bf&v=6061869D3489569F4E44B9921AB9123EE24C89B9",
+      "postedAt": "2026-10-06T12:28:13.000Z",
+      "snippet": "Job Summary The Customer Experience Specialist provides excellent customer care in a timely manner, with an emphasis on accurate information, effective communication, and issue resolution. This role serves as a Brand Ambassador for Bulbrit…",
+      "source": "adzuna",
+      "id": "f750075b8ff44f8951330a80dd74b2e43a1182c3",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:36:30.388Z",
+      "score": 45,
+      "flags": [
+        "high-pay"
+      ]
+    },
+    {
+      "title": "Dental Hygienist-up to $10,000 welcome bonus benefits",
+      "company": "North Myrtle Beach Dentistry",
+      "location": "North Myrtle Beach, Horry County",
+      "remote": false,
+      "pay": "$94,294.12/year",
+      "url": "https://www.adzuna.com/land/ad/5913551217?se=hOT_fODI8RGnv4JedLxTEg&utm_medium=api&utm_source=ea9765bf&v=D72DF3350CA9B3CDA28E06A961966EFA5808770D",
+      "postedAt": "2026-10-06T03:57:05.000Z",
+      "snippet": "Job Description Job Description $10,000 Welcome Bonus | Dental Hygienist North Myrtle Beach Dentistry Flexible Schedule | Competitive Pay | Full Benefits Join a Team That Invests in You At North Myrtle Beach Dentistry , we're looking for a…",
+      "source": "adzuna",
+      "id": "b8005ba1432753edfa0f2965a17026e0fc68ee6f",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:36:30.388Z",
+      "score": 45,
+      "flags": [
+        "high-pay"
+      ]
+    },
+    {
+      "title": "Light Show Attendant (Temporary)",
+      "company": "City of North Myrtle Beach",
+      "location": "North Myrtle Beach, Horry County",
+      "remote": false,
+      "pay": "$32,240–$38,480/year",
+      "url": "https://www.adzuna.com/details/5912222791?utm_medium=api&utm_source=ea9765bf",
+      "postedAt": "2026-10-05T02:01:55.000Z",
+      "snippet": "General Statement of Job Under general supervision performs customer service work during special event operations at North Myrtle Beach Sports Park. Work will primarily revolve around the City’s operation of The Great Christmas Light Show.…",
+      "source": "adzuna",
+      "id": "3673bf5162675105130ba978c499f6b0f375a1e8",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:36:30.388Z",
+      "score": 45,
+      "flags": []
+    },
+    {
+      "title": "Tax Expert - Expert Center (Southeast)",
+      "company": "Intuit",
+      "location": "Pinehaven, Charleston County (+2 more)",
+      "remote": false,
+      "pay": "$101,042.58/year",
+      "url": "https://www.adzuna.com/land/ad/5911573576?se=uEdyfeDI8RGgYcdhZypWfA&utm_medium=api&utm_source=ea9765bf&v=143E17DEDC72AEADF63C8980484DC122C7CE1BBF",
+      "postedAt": "2026-10-04T09:46:14.000Z",
+      "snippet": "Overview Intuit is seeking highly motivated individuals to join our dynamic team as dedicated year-round TurboTax Local Service Experts in one of our new TurboTax locations across the United States. This unique opportunity combines tax exp…",
+      "source": "adzuna",
+      "id": "79e795d0f0419c42aeffebc7fb8c70c8ebd6ac78",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:36:30.388Z",
+      "score": 45,
+      "flags": [
+        "high-pay"
+      ],
+      "otherLocations": [
+        "North Charleston, Charleston County",
+        "Summerville, Dorchester County"
+      ]
+    },
+    {
+      "title": "Tax Expert - Local",
+      "company": "Intuit",
+      "location": "Pinehaven, Charleston County (+2 more)",
+      "remote": false,
+      "pay": "$97,552.77/year",
+      "url": "https://www.adzuna.com/land/ad/5911571290?se=uEdyfeDI8RGgYcdhZypWfA&utm_medium=api&utm_source=ea9765bf&v=D326472D6C706777DEA9B9C52F5170DE3DABCD0F",
+      "postedAt": "2026-10-04T09:45:17.000Z",
+      "snippet": "Overview Intuit is seeking highly motivated individuals to join our dynamic team as dedicated year-round TurboTax Local Service Experts in one of our new TurboTax locations across the United States. This unique opportunity combines tax exp…",
+      "source": "adzuna",
+      "id": "7f3c55a689f10fce2c14b4131f8989ec8c518953",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:36:30.388Z",
+      "score": 45,
+      "flags": [
+        "high-pay"
+      ],
+      "otherLocations": [
+        "North Myrtle Beach, Horry County",
+        "North Charleston, Charleston County"
+      ]
+    },
+    {
+      "title": "Tax Expert - Local Tax Office",
+      "company": "Intuit",
+      "location": "Pinehaven, Charleston County (+4 more)",
+      "remote": false,
+      "pay": "$97,631.78/year",
+      "url": "https://www.adzuna.com/land/ad/5911570002?se=uEdyfeDI8RGgYcdhZypWfA&utm_medium=api&utm_source=ea9765bf&v=F091FCF9A355E84245268BDCD78FBF81E6D3C022",
+      "postedAt": "2026-10-04T09:44:55.000Z",
+      "snippet": "Overview Intuit is seeking highly motivated individuals to join our dynamic team as dedicated year-round TurboTax Local Service Experts in one of our new TurboTax locations across the United States. This unique opportunity combines tax exp…",
+      "source": "adzuna",
+      "id": "a1f04477249ef0449f26fbecc6db00a3e741cfd4",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:36:30.388Z",
+      "score": 45,
+      "flags": [
+        "high-pay"
+      ],
+      "otherLocations": [
+        "Saint Andrews, Charleston County",
+        "Atlantic Beach, Horry County",
+        "North Myrtle Beach, Horry County",
+        "Summerville, Dorchester County"
+      ]
+    },
+    {
+      "title": "Tax Expert - Local Branch",
+      "company": "Intuit",
+      "location": "Saint Andrews, Charleston County (+3 more)",
+      "remote": false,
+      "pay": "$130,981.98/year",
+      "url": "https://www.adzuna.com/land/ad/5911567842?se=uEdyfeDI8RGgYcdhZypWfA&utm_medium=api&utm_source=ea9765bf&v=2259A460F7322DB702C5AF8246B18C5D0FA602D4",
+      "postedAt": "2026-10-04T09:43:48.000Z",
+      "snippet": "Overview Intuit is seeking highly motivated individuals to join our dynamic team as dedicated year-round TurboTax Local Service Experts in one of our new TurboTax locations across the United States. This unique opportunity combines tax exp…",
+      "source": "adzuna",
+      "id": "89d051d83926bb3a6d61980e9804383e78434e84",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:36:30.388Z",
+      "score": 45,
+      "flags": [
+        "high-pay"
+      ],
+      "otherLocations": [
+        "Atlantic Beach, Horry County",
+        "Summerville, Dorchester County",
+        "Charleston, Charleston County"
+      ]
+    },
+    {
+      "title": "Marketing and Communications Coordinator",
+      "company": "Southeastern Community College",
+      "location": "Whiteville, Columbus County",
+      "remote": false,
+      "pay": "$41,403–$51,755/year",
+      "url": "https://www.adzuna.com/details/5911347432?utm_medium=api&utm_source=ea9765bf",
+      "postedAt": "2026-10-04T06:31:24.000Z",
+      "snippet": "Minimum Requirements Associate’s degree from a regionally accredited institution. Minimum of five years of experience in social media management, public relations, marketing, communications, or related field. Preferred Requirements Bachelo…",
+      "source": "adzuna",
+      "id": "5879ffa3f9bc59017fe08fa5bdb383fc43fbd23e",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:36:30.388Z",
+      "score": 45,
+      "flags": [
+        "high-pay"
+      ]
+    },
+    {
+      "title": "Retail Stocking Associate",
+      "company": "Harbor Freight",
+      "location": "Georgetown, Georgetown County",
+      "remote": false,
+      "pay": "$32,240/year",
+      "url": "https://www.adzuna.com/details/5911259805?utm_medium=api&utm_source=ea9765bf",
+      "postedAt": "2026-10-04T04:25:24.000Z",
+      "snippet": "A Retail Stocking Associate (part-time) is a valued member of a high performing team who is empowered & equipped to do their job. You will know why your work matters and take pride in what you do! The anticipated rate for this position is …",
+      "source": "adzuna",
+      "id": "cd40c38a1fa65fe4db83b12e6459cfb1472792fc",
+      "track": "tech-sales",
+      "firstSeenAt": "2026-10-15T21:36:30.388Z",
+      "score": 45,
+      "flags": []
+    },
+    {
+      "title": "Customer Service Attendant",
+      "company": "Sud Stop Car Wash",
+      "location": "North Myrtle Beach, Horry County",
+      "remote": false,
+      "pay": "$22,152.15/year",
+      "url": "https://www.adzuna.com/details/5905778976?utm_medium=api&utm_source=ea9765bf",
+      "postedAt": "2026-10-01T10:19:16.000Z",
+      "snippet": "Welcome and thank you for your interest in joining our team! We’re excited that you’re considering a career with us. At Sud Stop Car Wash, we’re always looking for individuals who bring passion, integrity, and a commitment to excellence in…",
+      "source": "adzuna",
+      "id": "2af037e76fb762c8482ebdcb9a2fd8ec35bf15b5",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:36:30.388Z",
+      "score": 45,
+      "flags": []
+    },
+    {
+      "title": "Sales Associate - Coastal Grand Mall - Myrtle Beach, SC",
+      "company": "Pacsun Careers",
+      "location": "Carolina Forest, Horry County",
+      "remote": false,
+      "pay": "$33,077.28/year",
+      "url": "https://www.adzuna.com/details/5905515189?utm_medium=api&utm_source=ea9765bf",
+      "postedAt": "2026-10-01T07:14:08.000Z",
+      "snippet": "Join the Pacsun Community Pacsun is dedicated to delivering an exclusive collection of the most relevant brands and styles to a community of inspired youth. Through partnerships with brands such as adidas, Brandy Melville, Essentials Fear …",
+      "source": "adzuna",
+      "id": "52ae8e6049e2c4cd9cae0f20e7452f13dc0cef2a",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:36:30.388Z",
+      "score": 45,
+      "flags": []
+    },
+    {
+      "title": "Brand Market Specialist - Charleston, SC",
+      "company": "Beauty Barrage",
+      "location": "Charleston, Charleston County",
+      "remote": false,
+      "pay": "$54,080–$62,400/year",
+      "url": "https://www.adzuna.com/details/5905081296?utm_medium=api&utm_source=ea9765bf",
+      "postedAt": "2026-10-01T03:25:29.000Z",
+      "snippet": "Who is Beauty Barrage? Beauty Barrage is a full-service strategic sales management team with our Field Team servicing doors across North America. Beauty Barrage works with some of the hottest brands in beauty today and provides in-store su…",
+      "source": "adzuna",
+      "id": "57d26a34e798225b7f2ece0bbf25d4611b4209a8",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:36:30.388Z",
+      "score": 45,
+      "flags": [
+        "high-pay"
+      ]
+    },
+    {
+      "title": "Member Assist Cart Attendant",
+      "company": "Sam's West",
+      "location": "Myrtle Beach, Horry County",
+      "remote": false,
+      "pay": "$35,360–$52,000/year",
+      "url": "https://www.adzuna.com/details/5905035440?utm_medium=api&utm_source=ea9765bf",
+      "postedAt": "2026-10-01T02:28:15.000Z",
+      "snippet": "Position Summary We are looking for people who take pride in their work to join our team. You help shape our member’s entire shopping experience by giving them a positive first and last impression. In the member assist – cart attendant rol…",
+      "source": "adzuna",
+      "id": "ce92c39d2979b8e17f6f4f34f2d988c9af0e1b6c",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-15T21:36:30.388Z",
+      "score": 45,
+      "flags": [
+        "high-pay"
+      ]
+    },
+    {
       "title": "Enterprise Account Executive - NAMER",
       "company": "Legion",
       "location": "Remote",
@@ -2616,7 +3470,8 @@
       "flags": [
         "high-pay"
       ],
-      "firstSeenAt": "2026-10-15T20:53:15.652Z"
+      "firstSeenAt": "2026-10-15T20:53:15.652Z",
+      "otherLocations": []
     },
     {
       "title": "Automotive Service Technician B Level",
@@ -2634,7 +3489,8 @@
       "flags": [
         "high-pay"
       ],
-      "firstSeenAt": "2026-10-15T20:53:15.652Z"
+      "firstSeenAt": "2026-10-15T20:53:15.652Z",
+      "otherLocations": []
     },
     {
       "title": "Field Sales and Marketing Representative- North Myrtle Beach, SC",
@@ -2650,7 +3506,8 @@
       "track": "quick-cash",
       "score": 45,
       "flags": [],
-      "firstSeenAt": "2026-10-15T20:53:15.652Z"
+      "firstSeenAt": "2026-10-15T20:53:15.652Z",
+      "otherLocations": []
     },
     {
       "title": "Temporary Sales Associate - Part-Time",
@@ -2668,7 +3525,8 @@
       "flags": [
         "high-pay"
       ],
-      "firstSeenAt": "2026-10-15T20:53:15.652Z"
+      "firstSeenAt": "2026-10-15T20:53:15.652Z",
+      "otherLocations": []
     },
     {
       "title": "Charity Fundraising Representative",
@@ -2686,7 +3544,8 @@
       "flags": [
         "high-pay"
       ],
-      "firstSeenAt": "2026-10-15T20:53:15.652Z"
+      "firstSeenAt": "2026-10-15T20:53:15.652Z",
+      "otherLocations": []
     },
     {
       "title": "Restaurant AGM with Growing Scratch Kitchen Brand! ZJM 3667920",
@@ -2704,7 +3563,8 @@
       "flags": [
         "high-pay"
       ],
-      "firstSeenAt": "2026-10-15T20:53:15.652Z"
+      "firstSeenAt": "2026-10-15T20:53:15.652Z",
+      "otherLocations": []
     },
     {
       "title": "Real Estate Agent",
@@ -2745,7 +3605,8 @@
       "flags": [
         "high-pay"
       ],
-      "firstSeenAt": "2026-10-15T20:53:15.652Z"
+      "firstSeenAt": "2026-10-15T20:53:15.652Z",
+      "otherLocations": []
     },
     {
       "title": "Dental Hygienist",
@@ -2763,7 +3624,8 @@
       "flags": [
         "high-pay"
       ],
-      "firstSeenAt": "2026-10-15T20:53:15.652Z"
+      "firstSeenAt": "2026-10-15T20:53:15.652Z",
+      "otherLocations": []
     },
     {
       "title": "Field Sales and Marketing Representative- Myrtle Beach, SC",
@@ -2781,7 +3643,8 @@
       "flags": [
         "high-pay"
       ],
-      "firstSeenAt": "2026-10-15T20:53:15.652Z"
+      "firstSeenAt": "2026-10-15T20:53:15.652Z",
+      "otherLocations": []
     },
     {
       "title": "Home Health Physical Therapist",
@@ -2799,12 +3662,13 @@
       "flags": [
         "high-pay"
       ],
-      "firstSeenAt": "2026-10-15T20:53:15.652Z"
+      "firstSeenAt": "2026-10-15T20:53:15.652Z",
+      "otherLocations": []
     },
     {
       "title": "Tax Expert - On-Site",
       "company": "Intuit",
-      "location": "Atlantic Beach, Horry County (+4 more)",
+      "location": "Atlantic Beach, Horry County (+6 more)",
       "remote": false,
       "pay": "$102,812.36",
       "url": "https://www.adzuna.com/land/ad/5911569967?se=-v9lctrI8RGYwPFSmBM_bA&utm_medium=api&utm_source=ea9765bf&v=601DF2D7B5A2C8913FD43AF3D750A449AA7A5722",
@@ -2822,93 +3686,9 @@
         "North Myrtle Beach, Horry County",
         "Summerville, Dorchester County",
         "North Charleston, Charleston County",
-        "Charleston, Charleston County"
-      ]
-    },
-    {
-      "title": "Tax Expert - Local Tax Office",
-      "company": "Intuit",
-      "location": "Atlantic Beach, Horry County (+2 more)",
-      "remote": false,
-      "pay": "$100,550.32",
-      "url": "https://www.adzuna.com/land/ad/5911562338?se=-v9lctrI8RGYwPFSmBM_bA&utm_medium=api&utm_source=ea9765bf&v=757DA5E001A9C98684718D2A1F1E87EF9557552C",
-      "postedAt": "2026-10-04T09:41:23.000Z",
-      "snippet": "Overview Intuit is seeking highly motivated individuals to join our dynamic team as dedicated year-round TurboTax Local Service Experts in one of our new TurboTax locations across the United States. This unique opportunity combines tax exp…",
-      "source": "adzuna",
-      "id": "6027aab67d4a4964f58fc698a79d20d752fdf420",
-      "track": "quick-cash",
-      "score": 45,
-      "flags": [
-        "high-pay"
-      ],
-      "firstSeenAt": "2026-10-15T20:53:15.652Z",
-      "otherLocations": [
-        "North Myrtle Beach, Horry County",
-        "Summerville, Dorchester County"
-      ]
-    },
-    {
-      "title": "Tax Expert - Local Branch",
-      "company": "Intuit",
-      "location": "Atlantic Beach, Horry County (+2 more)",
-      "remote": false,
-      "pay": "$99,106.58",
-      "url": "https://www.adzuna.com/land/ad/5911561693?se=-v9lctrI8RGYwPFSmBM_bA&utm_medium=api&utm_source=ea9765bf&v=3024C63AA3C64B6D4B3513BB7D13835F56D13C84",
-      "postedAt": "2026-10-04T09:41:04.000Z",
-      "snippet": "Overview Intuit is seeking highly motivated individuals to join our dynamic team as dedicated year-round TurboTax Local Service Experts in one of our new TurboTax locations across the United States. This unique opportunity combines tax exp…",
-      "source": "adzuna",
-      "id": "b9e7489003cbcfeb6963bd4dc2851490820e1ffd",
-      "track": "quick-cash",
-      "score": 45,
-      "flags": [
-        "high-pay"
-      ],
-      "firstSeenAt": "2026-10-15T20:53:15.652Z",
-      "otherLocations": [
-        "Summerville, Dorchester County",
-        "Charleston, Charleston County"
-      ]
-    },
-    {
-      "title": "Tax Expert - Local",
-      "company": "Intuit",
-      "location": "North Myrtle Beach, Horry County (+1 more)",
-      "remote": false,
-      "pay": "$48,880–$85,280",
-      "url": "https://www.adzuna.com/land/ad/5910925931?se=-v9lctrI8RGYwPFSmBM_bA&utm_medium=api&utm_source=ea9765bf&v=61ABB0D35CE3ADBFB583B154B1FA140D9137A54F",
-      "postedAt": "2026-10-03T22:39:55.000Z",
-      "snippet": "Overview Intuit is seeking highly motivated individuals to join our dynamic team as dedicated year-round TurboTax Local Service Experts in one of our new TurboTax locations across the United States. This unique opportunity combines tax exp…",
-      "source": "adzuna",
-      "id": "48c141518dae3398de10bcfb4a11078714e02082",
-      "track": "quick-cash",
-      "score": 45,
-      "flags": [
-        "high-pay"
-      ],
-      "firstSeenAt": "2026-10-15T20:53:15.652Z",
-      "otherLocations": [
-        "North Charleston, Charleston County"
-      ]
-    },
-    {
-      "title": "Tax Expert - Expert Center (Southeast)",
-      "company": "Intuit",
-      "location": "North Charleston, Charleston County (+1 more)",
-      "remote": false,
-      "pay": "$48,880–$85,280",
-      "url": "https://www.adzuna.com/land/ad/5910925363?se=CI7JctrI8RGYwPFSmBM_bA&utm_medium=api&utm_source=ea9765bf&v=B52B071DD2CEEF3B753FA892B4CE35207CEDEA3B",
-      "postedAt": "2026-10-03T22:39:50.000Z",
-      "snippet": "Overview Intuit is seeking highly motivated individuals to join our dynamic team as dedicated year-round TurboTax Local Service Experts in one of our new TurboTax locations across the United States. This unique opportunity combines tax exp…",
-      "source": "adzuna",
-      "id": "ffa527c4a2e4cd6ee75893a37c2c5b747c8a8f40",
-      "track": "quick-cash",
-      "score": 45,
-      "flags": [
-        "high-pay"
-      ],
-      "firstSeenAt": "2026-10-15T20:53:15.652Z",
-      "otherLocations": [
-        "Summerville, Dorchester County"
+        "Charleston, Charleston County",
+        "Saint Andrews, Charleston County",
+        "Pinehaven, Charleston County"
       ]
     },
     {
@@ -2927,7 +3707,8 @@
       "flags": [
         "high-pay"
       ],
-      "firstSeenAt": "2026-10-15T20:53:15.652Z"
+      "firstSeenAt": "2026-10-15T20:53:15.652Z",
+      "otherLocations": []
     },
     {
       "title": "Sales Associate - Part-Time",
@@ -2945,7 +3726,8 @@
       "flags": [
         "high-pay"
       ],
-      "firstSeenAt": "2026-10-15T20:53:15.652Z"
+      "firstSeenAt": "2026-10-15T20:53:15.652Z",
+      "otherLocations": []
     },
     {
       "title": "Computed Tomography Technologist – Travel Job",
@@ -2963,7 +3745,24 @@
       "flags": [
         "high-pay"
       ],
-      "firstSeenAt": "2026-10-15T20:53:15.652Z"
+      "firstSeenAt": "2026-10-15T20:53:15.652Z",
+      "otherLocations": []
+    },
+    {
+      "title": "Proof and Control Associate",
+      "company": "WFPro",
+      "location": "",
+      "remote": true,
+      "pay": "",
+      "url": "https://wfpro.t6n.is-best.net/remote-jobs/proof-and-control-associate",
+      "postedAt": "2026-10-08T00:00:00.000Z",
+      "snippet": "via WFPro. The Proof and Control Associate is responsible for performing account analysis and reconciliation, with a focus on cash-related transactions. KEY RESPONSIBILITIES Posts intercompany journal entries on both sides for cross-compan…",
+      "source": "jsearch",
+      "id": "5978c708c35c833ed6f0c5c0bf98dffe0810764c",
+      "track": "ai-web",
+      "firstSeenAt": "2026-10-15T21:36:30.388Z",
+      "score": 40,
+      "flags": []
     },
     {
       "title": "Account Executive, Enterprise",
