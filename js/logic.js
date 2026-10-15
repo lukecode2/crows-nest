@@ -77,7 +77,11 @@ export function mergeTrackers(local = {}, remote = {}) {
   // Tombstones prevent a deleted lead returning after a conflict or another device's save.
   const deletedJobs = { ...remote.deletedJobs };
   Object.entries(local.deletedJobs || {}).forEach(([id, at]) => { if (!deletedJobs[id] || instant(at) > instant(deletedJobs[id])) deletedJobs[id] = at; });
+  const directory = { ...remote.directory };
+  Object.entries(local.directory || {}).forEach(([id, entry]) => {
+    if (!directory[id] || instant(entry.updatedAt) >= instant(directory[id].updatedAt)) directory[id] = entry;
+  });
   return { ...remote, ...local, version: 1, updatedAt: newer.updatedAt || '', settings: { weeklyGoal: 10, followUpDays: 7, ...newer.settings },
     jobs: mergeItems(local.jobs, remote.jobs).filter(j => !deletedJobs[j.id] || editTime(j) > instant(deletedJobs[j.id])),
-    reqs: mergeItems(local.reqs, remote.reqs), ...(Object.keys(deletedJobs).length ? { deletedJobs } : {}) };
+    reqs: mergeItems(local.reqs, remote.reqs), directory, ...(Object.keys(deletedJobs).length ? { deletedJobs } : {}) };
 }

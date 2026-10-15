@@ -1,13 +1,16 @@
 import * as github from './github.js';
 import { DISMISSED_ABOUT, STAGES, TRACKS } from './config.js';
-import { feedJobToTracker, localToday, mergeTrackers } from './logic.js';
-const blankTracker = () => ({ version: 1, updatedAt: '', settings: { weeklyGoal: 10, followUpDays: 7 }, jobs: [], reqs: [] });
+import { feedJobToTracker, localToday, mergeTrackers, safeUrl } from './logic.js';
+import { DIRECTORY_REGIONS, DIRECTORY_STATUSES } from './directory.js';
+const blankTracker = () => ({ version: 1, updatedAt: '', settings: { weeklyGoal: 10, followUpDays: 7 }, jobs: [], reqs: [], directory: {} });
 const blankDismissed = () => ({ about: DISMISSED_ABOUT, items: [] });
 export function validateTracker(value) {
   return value && value.version === 1 && Array.isArray(value.jobs) && Array.isArray(value.reqs) &&
     value.jobs.every(j => j && typeof j.id === 'string' && typeof j.company === 'string' && typeof j.role === 'string' &&
       STAGES.some(s => s.id === j.stage) && TRACKS.some(t => t.id === j.track) && Array.isArray(j.history) && Array.isArray(j.reqs)) &&
-    value.reqs.every(r => r && typeof r.id === 'string' && typeof r.label === 'string');
+    value.reqs.every(r => r && typeof r.id === 'string' && typeof r.label === 'string') &&
+    (value.directory === undefined || (value.directory !== null && typeof value.directory === 'object' && !Array.isArray(value.directory) &&
+      Object.values(value.directory).every(entry => entry && DIRECTORY_STATUSES.some(s => s.id === entry.status) && typeof entry.note === 'string' && Number.isFinite(Date.parse(entry.updatedAt)))));
 }
 function mergeDismissed(local, remote) {
   const removed = { ...remote.removed, ...local.removed };
@@ -27,7 +30,7 @@ export function createStore(options = {}) {
   const api = options.api || github;
   const fetcher = options.fetcher || ((...args) => fetch(...args));
   let token = sample ? '' : read('token') || '';
-  const state = { tracker: blankTracker(), dismissed: blankDismissed(), feed: { generatedAt: null, sources: [], jobs: [] }, sweep: null, sync: 'local', lastVisit: read('lastVisit'), sample, loaded: false, lastSaved: null, error: '', storageError: false };
+  const state = { tracker: blankTracker(), dismissed: blankDismissed(), feed: { generatedAt: null, sources: [], jobs: [] }, directory: null, sweep: null, sync: 'local', lastVisit: read('lastVisit'), sample, loaded: false, lastSaved: null, error: '', storageError: false };
   const listeners = new Set();
   const dirty = { tracker: false, dismissed: false };
   const revisions = { tracker: 0, dismissed: 0 };
@@ -86,6 +89,13 @@ export function createStore(options = {}) {
       jsonFile(sample ? 'tests/app/fixtures/feed.sample.json' : 'data/feed.json?t=' + Date.now())
         .then(feed => { if (!Array.isArray(feed.jobs) || !Array.isArray(feed.sources)) throw new Error('Invalid feed'); state.feed = feed; emit(); })
         .catch(() => { state.feedError = 'The lookout is offline. Your saved leads are still aboard.'; emit(); }),
+      jsonFile('data/directory.json?t=' + Date.now())
+        .then(directory => {
+          if (!Array.isArray(directory?.employers) || !directory.employers.every(e => e &&
+            ['id', 'name', 'town', 'type', 'hiringMethod', 'phone', 'email', 'url', 'tip'].every(key => typeof e[key] === 'string') &&
+            DIRECTORY_REGIONS.some(r => r.id === e.region) && ['top', 'more'].includes(e.tier))) throw new Error('Invalid directory');
+          state.directory = directory; state.directoryError = ''; emit();
+        }).catch(() => { state.directory = null; state.directoryError = 'Your saved notes and Voyage are still aboard. Reload to try the directory again.'; emit(); }),
       jsonFile('data/sweep.json?t=' + Date.now())
         .then(sweep => {
           if (!Array.isArray(sweep?.items) || !(sweep.sweptAt === null || (typeof sweep.sweptAt === 'string' && Number.isFinite(Date.parse(sweep.sweptAt))))) throw new Error('Invalid sweep');
@@ -163,8 +173,29 @@ export function createStore(options = {}) {
     const companies = new Set(state.dismissed.items.filter(j => j.reason === 'company').map(j => j.company.toLowerCase()));
     return state.feed.jobs.filter(j => !saved.has(j.id) && !dismissed.has(j.id) && !urls.has(j.url) && !companies.has((j.company || '').toLowerCase()));
   }
+  function directoryJob(employer) {
+    return state.tracker.jobs.find(job => job.directoryId === employer.id ||
+      job.company.toLowerCase() === employer.name.toLowerCase() ||
+      (safeUrl(employer.url) && job.link === employer.url));
+  }
   return {
-    state, load, save, flush, updateJob, addJob, visibleFeed,
+    state, load, save, flush, updateJob, addJob, visibleFeed, directoryJob,
+    updateDirectory(id, patch) {
+      const previous = state.tracker.directory[id] || { status: 'not-yet', note: '' };
+      const status = patch.status === undefined ? previous.status : patch.status;
+      const note = patch.note === undefined ? previous.note : patch.note;
+      if (!DIRECTORY_STATUSES.some(s => s.id === status) || typeof note !== 'string') throw new Error('Invalid directory entry');
+      const now = stamp();
+      state.tracker.directory = { ...state.tracker.directory, [id]: { status, note, updatedAt: now } };
+      state.tracker.updatedAt = now; changed('tracker');
+    },
+    addDirectoryJob(employer) {
+      const existing = directoryJob(employer);
+      if (existing) return existing;
+      return addJob({ directoryId: employer.id, company: employer.name, role: 'Ask about deckhand / dock crew',
+        track: DIRECTORY_REGIONS.find(r => r.id === employer.region).track, location: employer.town,
+        link: employer.url, contact: { name: '', phone: employer.phone, email: employer.email } });
+    },
     subscribe(fn) { listeners.add(fn); return () => listeners.delete(fn); },
     getToken: () => token,
     async setToken(value) {

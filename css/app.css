@@ -51,8 +51,8 @@ summary { cursor: pointer; padding: 8px 0; }
 .error .status-dot { background: var(--flare); }
 .saving .status-dot { animation: pulse 1.2s ease-in-out infinite; }
 .navigation { display: flex; position: fixed; bottom: 0; left: 0; right: 0; z-index: 20; justify-content: space-around; background: #0d2034f5; border-top: 1px solid var(--rope); padding: 6px max(8px, env(safe-area-inset-left)) calc(6px + env(safe-area-inset-bottom)); -webkit-backdrop-filter: blur(14px); backdrop-filter: blur(14px); }
-.tab { position: relative; display: flex; flex: 1; flex-direction: column; align-items: center; justify-content: center; min-height: 50px; gap: 0; color: var(--mist); font-size: 11px; font-weight: 600; border-radius: 5px; }
-.tab-icon { font-family: system-ui, sans-serif; font-size: 22px; line-height: 1.3; }
+.tab { position: relative; display: flex; flex: 1; min-width: 0; flex-direction: column; align-items: center; justify-content: center; min-height: 50px; gap: 0; color: var(--mist); font-size: 10px; font-weight: 600; border-radius: 5px; }
+.tab-icon { font-family: system-ui, sans-serif; font-size: 20px; line-height: 1.3; }
 .tab-long { display: none; }
 .tab.active { color: var(--brass); background: #d4a94f0a; }
 .tab.active::before { content: ''; height: 2px; width: 22px; border-radius: 2px; background: var(--brass); position: absolute; top: -6px; }
@@ -207,5 +207,23 @@ main { min-width: 0; min-height: 65vh; padding-top: 22px; }
   *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
 }
 
+.harbor-progress { margin-bottom: 20px; }
+.harbor-progress p { color: var(--foam); font-weight: 600; }
+.harbor-controls { display: grid; gap: 16px; margin-bottom: 24px; }
+.harbor-controls > .button { justify-self: start; }
+.harbor-filters, .harbor-statuses { display: flex; flex-wrap: wrap; gap: 7px; }
+.harbor-region { margin-bottom: 32px; }
+.harbor-region > h2 { margin-bottom: 16px; }
+.harbor-card { min-width: 0; overflow-wrap: anywhere; }
+.harbor-card h3 { color: var(--brass); font-size: 21px; margin-bottom: 10px; }
+.harbor-tip { border-left: 2px solid var(--brass); padding-left: 10px; }
+.harbor-contact { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; }
+.harbor-contact > div { flex: 1; min-width: 0; }
+.harbor-contact .small, .contact-text { display: block; }
+.contact-text { -webkit-user-select: text; user-select: text; }
+.harbor-contact .button { flex-shrink: 0; }
+.harbor-link { display: inline-block; color: var(--foam); margin: 4px 0 16px; text-decoration: underline; }
+.harbor-statuses { margin-bottom: 16px; }
+.harbor-card > .button { margin-top: 14px; }
 .flag-chip.flag-good { color: var(--foam); border-color: #7fd1c14d; }
 .flag-chip.flag-muted { color: var(--mist); background: transparent; }

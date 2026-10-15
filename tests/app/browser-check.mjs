@@ -12,6 +12,7 @@ await mkdir(output, { recursive: true });
 const browser = await playwright[process.env.CN_BROWSER || 'chromium'].launch({ headless: true });
 const mime = { '.html': 'text/html', '.js': 'text/javascript', '.css': 'text/css', '.json': 'application/json' };
 const fixture = JSON.parse(await readFile(resolve(root, 'tests/app/fixtures/feed.sample.json'), 'utf8'));
+const directory = JSON.parse(await readFile(resolve(root, 'data/directory.json'), 'utf8'));
 try {
   for (const width of [1280, 390, 360]) {
     const height = width < 720 ? 844 : 900;
@@ -33,11 +34,47 @@ try {
     await page.getByText('Call 843-732-3777 about dock crew', { exact: true }).waitFor();
     assert.equal(await page.locator('.pennant').count(), 10);
     assert.equal(await page.locator('.wave-strip').evaluate(el => getComputedStyle(el).animationName), 'none');
-    for (const route of ['helm', 'nest', 'voyage', 'papers', 'settings']) {
+    for (const route of ['helm', 'nest', 'voyage', 'harbor', 'papers', 'settings']) {
       await page.locator(`#navigation a[href="#${route}"]`).click();
       await page.waitForFunction(route => location.hash === '#' + route && document.querySelector('main h1'), route);
       assert.equal(await page.locator('h1').count(), 1);
       assert.ok(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth), `${width}px: ${route} overflows the page`);
+      assert.equal(await page.locator('#navigation a').count(), 6);
+      assert.ok(await page.locator('#navigation').evaluate(el => el.scrollWidth <= el.clientWidth), `${width}px: navigation scrolls horizontally`);
+      if (route === 'harbor') {
+        await page.locator('.harbor-card').first().waitFor();
+        assert.equal(await page.locator('.harbor-card').count(), 30);
+        await page.getByText('0 of 30 top picks contacted', { exact: true }).waitFor();
+        for (const label of ['Grand Strand (14)', 'Charleston (10)', 'Florida (6)']) await page.getByRole('heading', { name: label, exact: true }).waitFor();
+        const first = page.locator('.harbor-card').first();
+        const id = await first.getAttribute('data-employer-id');
+        const employer = directory.employers.find(e => e.id === id);
+        await page.evaluate(() => { Object.defineProperty(navigator, 'clipboard', { configurable: true, value: { writeText: async value => { window.copiedContact = value; } } }); });
+        await first.getByRole('button', { name: `Copy phone: ${employer.phone}`, exact: true }).click();
+        assert.equal(await page.evaluate(() => window.copiedContact), employer.phone);
+        await first.getByRole('button', { name: 'Called', exact: true }).click();
+        await page.getByText('1 of 30 top picks contacted', { exact: true }).waitFor();
+        const noteLabel = `Note for ${employer.name} (optional)`;
+        await page.getByLabel(noteLabel, { exact: true }).pressSequentially('Call Friday ⚓');
+        await page.reload();
+        await page.getByText('1 of 30 top picks contacted', { exact: true }).waitFor();
+        assert.equal(await page.getByLabel(noteLabel, { exact: true }).inputValue(), 'Call Friday ⚓');
+        await page.locator('.harbor-filters').getByRole('button', { name: 'Called', exact: true }).click();
+        assert.equal(await page.locator('.harbor-card').count(), 1);
+        await page.locator('.harbor-filters').getByRole('button', { name: 'All statuses', exact: true }).click();
+        await page.getByLabel('Search the harbor', { exact: true }).fill(employer.name);
+        assert.equal(await page.locator('.harbor-card').count(), 1);
+        await page.locator('.harbor-card').getByRole('button', { name: 'Add to Voyage', exact: true }).click();
+        await page.locator('.harbor-card').getByRole('button', { name: 'On board', exact: true }).waitFor();
+        const job = await page.evaluate(id => JSON.parse(localStorage.getItem('cn.sample.tracker')).jobs.find(j => j.directoryId === id), id);
+        assert.equal(job.stage, 'dockside'); assert.equal(job.company, employer.name);
+        assert.equal(job.contact.phone, employer.phone); assert.equal(job.contact.email, employer.email);
+        assert.equal(job.role, 'Ask about deckhand / dock crew');
+        await page.getByLabel('Search the harbor', { exact: true }).fill('');
+        await page.getByRole('button', { name: `Show all (${directory.employers.length})`, exact: true }).click();
+        assert.equal(await page.locator('.harbor-card').count(), directory.employers.length);
+        await page.getByRole('button', { name: 'Top picks (30)', exact: true }).click();
+      }
       if (route === 'helm') {
         assert.equal(await page.locator('.helm-view > :first-child').getAttribute('class'), 'weekly-grid');
         const scoreboard = await page.locator('.weekly-grid').boundingBox();
@@ -58,7 +95,7 @@ try {
         const fold = (await page.locator('#navigation').boundingBox()).y;
         assert.ok(firstCard.y + firstCard.height < fold, `${width}px: first job title must be above the fold`);
       }
-      if (['helm', 'nest', 'voyage'].includes(route)) await page.screenshot({ path: `${output}/${width}-${route}.png`, fullPage: route !== 'voyage' });
+      if (['helm', 'nest', 'voyage', 'harbor'].includes(route)) await page.screenshot({ path: `${output}/${width}-${route}.png`, fullPage: route !== 'voyage' });
     }
     await page.locator('#navigation a[href="#nest"]').click();
     assert.equal(await page.locator('.job-card').count(), 12);
@@ -133,6 +170,19 @@ try {
     await page.getByText('<img src=x onerror=alert(1)>', { exact: true }).waitFor();
     assert.equal(await page.locator('.job-card img').count(), 0);
     assert.equal(await page.locator('.job-card h2 a').count(), 0);
+    // Employer names, contacts, hiring methods and notes remain literal text too.
+    const hostile = { ...directory.employers[0], id: 'hostile', name: '<img src=x onerror=alert(1)>', phone: '<svg onload=alert(1)>', email: '<b>crew@example.test</b>',
+      hiringMethod: '<script>alert(1)</script>', tip: '<img src=x>', url: 'javascript:alert(1)' };
+    await page.route('**/data/directory.json?*', route => route.fulfill({ contentType: 'application/json', body: JSON.stringify({ employers: [hostile] }) }));
+    await page.goto('http://crows-nest.test/?sample=1#harbor');
+    await page.locator('.harbor-card h3').waitFor();
+    assert.equal(await page.locator('.harbor-card h3').textContent(), hostile.name);
+    assert.equal(await page.locator('.harbor-card img, .harbor-card svg, .harbor-card script, .harbor-card b, .harbor-card a').count(), 0);
+    assert.equal(await page.locator('.harbor-card .contact-text').first().textContent(), hostile.phone);
+    await page.route('**/data/directory.json?*', route => route.fulfill({ status: 503, body: '' }));
+    await page.reload();
+    await page.getByRole('heading', { name: 'The harbor directory is offline.', exact: true }).waitFor();
+    assert.equal(await page.locator('.harbor-card').count(), 0);
     // Missing, invalid or fresh sweep data never shows a due reminder.
     for (const data of [null, {}, { sweptAt: new Date().toISOString(), items: [] }]) {
       await page.route('**/data/sweep.json?*', route => route.fulfill({ status: data === null ? 503 : 200, contentType: 'application/json', body: JSON.stringify(data) }));
@@ -142,6 +192,6 @@ try {
       assert.equal(await page.locator('.sweep-reminder').count(), 0);
     }
     assert.deepEqual(errors, [], `${width}px: browser runtime errors`);
-    await context.close(); console.log(`PASS: ${width}px routes, overflow, persistence, sheets, papers, import/export, feed safety`);
+    await context.close(); console.log(`PASS: ${width}px routes, navigation, Harbor, persistence, sheets, papers, import/export, untrusted text safety`);
   }
 } finally { await browser.close(); }

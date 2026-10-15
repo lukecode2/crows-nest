@@ -5,14 +5,15 @@ import { nest } from './views/nest.js';
 import { voyage } from './views/voyage.js';
 import { papers } from './views/papers.js';
 import { settings } from './views/settings.js';
+import { harbor } from './views/harbor.js';
 const routes = [
   ['helm', '◉', 'The Helm', 'Helm'], ['nest', '⚑', 'Crow’s Nest', 'Nest'],
-  ['voyage', '⛵', 'The Voyage', 'Voyage'], ['papers', '▤', 'Ship’s Papers', 'Papers'], ['settings', '⚙', 'Settings', 'Settings']
+  ['voyage', '⛵', 'The Voyage', 'Voyage'], ['harbor', '⚓', 'Harbor', 'Harbor'], ['papers', '▤', 'Ship’s Papers', 'Papers'], ['settings', '⚙', 'Settings', 'Settings']
 ];
 const store = createStore({ sample: new URLSearchParams(location.search).get('sample') === '1' });
 const viewState = { track: 'all', search: '', sort: 'score', newOnly: false };
 const main = document.getElementById('main');
-const renderers = { helm, nest, voyage, papers, settings };
+const renderers = { helm, nest, voyage, harbor, papers, settings };
 let previousRoute;
 function render() {
   const route = location.hash.slice(1).split('?')[0];

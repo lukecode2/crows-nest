@@ -2,10 +2,13 @@
   "name": "crows-nest",
   "private": true,
   "type": "module",
-  "engines": { "node": ">=20" },
+  "engines": {
+    "node": ">=20"
+  },
   "scripts": {
     "test": "node --test",
     "feed": "node scripts/fetch-feed.mjs",
-    "feed:dry": "node scripts/fetch-feed.mjs --dry"
+    "feed:dry": "node scripts/fetch-feed.mjs --dry",
+    "directory": "node scripts/build-directory.mjs"
   }
 }
