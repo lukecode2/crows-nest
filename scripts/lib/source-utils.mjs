@@ -15,7 +15,7 @@ export function pay(min, max, interval = '') {
   if (min == null && max == null) return '';
   const number = n => Number(n).toLocaleString('en-US', { maximumFractionDigits: 2 });
   const amount = min != null && max != null && Number(min) !== Number(max) ? `$${number(min)}–$${number(max)}` : `$${number(min ?? max)}`;
-  return amount + ((interval || (Number(max ?? min) < 200 ? 'hour' : '')) ? `/${interval || 'hour'}` : '');
+  return `${amount}/${interval || (Number(max ?? min) < 200 ? 'hour' : 'year')}`;
 }
 export function remoteJobs(jobs) {
   return jobs.filter(j => SALES.test(j.title) || WEB.test(j.title)).map(j => ({ ...j, remote: true, location: 'Remote', trackHint: SALES.test(j.title) ? (TEMP.test(`${j.title} ${j.snippet}`) ? 'quick-cash' : 'tech-sales') : 'ai-web' }));

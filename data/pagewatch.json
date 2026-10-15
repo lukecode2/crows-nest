@@ -37,7 +37,20 @@
   "https://careers.crowley.com/jobs": [
     "https://careers.crowley.com/careers-home"
   ],
-  "https://www.dockwalk.com/jobs": [],
+  "https://www.dockwalk.com/jobs": [
+    "https://www.dockwalk.com/crewlife",
+    "https://www.dockwalk.com/crewlife/captains",
+    "https://www.dockwalk.com/crewlife/deckhands",
+    "https://www.dockwalk.com/jobs",
+    "https://www.dockwalk.com/jobs/career-advice",
+    "https://www.dockwalk.com/dockwalk-presents",
+    "https://www.dockwalk.com/digital-dockwalk",
+    "https://www.dockwalk.com/crewlife/interior-dual-roles",
+    "https://www.dockwalk.com/crewlife/power-of-letting-go-as-a-chef",
+    "https://www.dockwalk.com/crewlife/senior-yacht-crew-cv-essentials",
+    "https://www.dockwalk.com/jobs/training/yacht-engineer-skills-you-should-have",
+    "https://www.dockwalk.com/jobs/training/when-and-where-to-be-for-yacht-crew-jobs"
+  ],
   "https://www.cottoncrews.com/crew-jobs/": [
     "https://www.cottoncrews.com/luxury-yacht-crew-agency/",
     "https://www.cottoncrews.com/app-guide/",
@@ -115,9 +128,419 @@
   "https://acosta.jobs/agency/crossmark/jobs/": [],
   "https://phh.tbe.taleo.net/phh01/ats/careers/v2/jobSearch?act=redirectCwsV2&cws=41&org=ACTIONLINK": [],
   "https://careers-channelpartners.icims.com/jobs/search": [
+    "https://careers-channelpartners.icims.com/jobs/50774/motorola-national-wireless-dealer-sales-lead---bilingual-english-french-required/job",
     "https://careers-channelpartners.icims.com/jobs/50763/weekend-snapdragon-sales-and-training-expert-%28canada%29/job"
   ],
   "https://acosta.jobs/agency/mosaic/jobs/": [],
   "https://acosta.jobs/agency/acosta/jobs/": [],
-  "https://careers-sparinc.icims.com/jobs/search": []
+  "https://careers-sparinc.icims.com/jobs/search": [],
+  "https://recruiting.ultipro.com/MAR1038MAMI/JobBoard/33511185-9151-40f6-a10c-ae9ce6cf471e/": [],
+  "https://www.crewnetwork.com/career-in-yachting/jobs-in-yachting/": [
+    "https://www.crewnetwork.com/looking-for-crew/",
+    "https://www.crewnetwork.com/looking-for-crew/recruiting-crew-for-my-yacht/",
+    "https://www.crewnetwork.com/looking-for-a-job/",
+    "https://www.crewnetwork.com/career-in-yachting/",
+    "https://www.crewnetwork.com/career-in-yachting/jobs-in-yachting/",
+    "https://www.crewnetwork.com/career-in-yachting/crew-salaries/",
+    "https://www.crewnetwork.com/career-in-yachting/how-to-get-experience-in-yachting/",
+    "https://www.crewnetwork.com/career-in-yachting/faq-yacht-crew/",
+    "https://www.crewnetwork.com/career-in-yachting/training/",
+    "https://www.crewnetwork.com/",
+    "https://www.crewnetwork.com/news-and-events/news/is-a-career-in-the-yachting-industry-a-good-fit-for-me/",
+    "https://www.crewnetwork.com/about-the-crew-network/",
+    "https://www.crewnetwork.com/partners-sponsors/"
+  ],
+  "https://www.crewfinders.com/yacht-crew-job-positions.shtml": [
+    "https://www.crewfinders.com/yacht-crew-job-positions.shtml",
+    "https://www.crewfinders.com/yacht-crew-obligations.shtml",
+    "https://www.crewfinders.com/yacht-crew-information.shtml",
+    "https://www.crewfinders.com/yacht-owners.shtml",
+    "https://www.crewfinders.com/yacht-captains-crew.shtml",
+    "https://www.crewfinders.com/crew-houses.shtml",
+    "https://www.crewfinders.com/yachtcrewsalaries.shtml",
+    "https://www.crewfinders.com/frequently-asked-questions-yacht-jobs.shtml",
+    "https://www.crewfinders.com/marinas-shipyards.shtml",
+    "https://www.crewfinders.com/marine-links.shtml",
+    "https://www.crewfinders.com/yacht-captains.shtml",
+    "https://www.crewfinders.com/yacht-mates-deckhands.shtml",
+    "http://data.crewfinders.com/crewLogon/crew_register_1.cfm",
+    "https://www.crewfinders.com/new-yacht-crew-sim-plan.htm"
+  ],
+  "https://www.buyexploreryachts.com/exploreryacht-crewjobs.shtml": [
+    "https://www.buyexploreryachts.com/yachtbrokerage.shtml",
+    "https://www.buyexploreryachts.com/expedition-explorer-yachts/all-ocean-yachts-for-sale.php",
+    "https://www.buyexploreryachts.com/expedition-explorer-yachts/inace-yachts-for-sale.php",
+    "https://www.buyexploreryachts.com/expedition-explorer-yachts/mondo-marine-yachts-for-sale.php",
+    "https://www.buyexploreryachts.com/expedition-explorer-yachts/nordhavn-yachts-for-sale.php",
+    "https://www.buyexploreryachts.com/yacht-search-expedition140.shtml",
+    "https://www.buyexploreryachts.com/yacht-search.shtml",
+    "https://www.buyexploreryachts.com/exploreryacht-crewjobs.shtml",
+    "https://www.buyexploreryachts.com/explorer-yacht-broker-reports.shtml",
+    "https://www.buyexploreryachts.com/exploreryachtlinks.shtml",
+    "https://www.buyexploreryachts.com/yacht-crew-terms.html",
+    "https://www.buyexploreryachts.com/pdf/AllOceanYachtsCrewPlacementAgreement.pdf"
+  ],
+  "https://www.northropandjohnson.com/crew-placement/crew-jobs": [
+    "https://www.northropandjohnson.com/yachts-for-sale",
+    "https://www.northropandjohnson.com/yachts-for-sale/superyachts",
+    "https://www.northropandjohnson.com/yachts-for-sale/motor",
+    "https://www.northropandjohnson.com/yachts-for-sale/sailing",
+    "https://www.northropandjohnson.com/buy-a-yacht",
+    "https://www.northropandjohnson.com/yacht-berths-for-sale",
+    "https://www.northropandjohnson.com/yacht-charter",
+    "https://www.northropandjohnson.com/yachts-for-charter",
+    "https://www.northropandjohnson.com/owners/yacht-management",
+    "https://www.northropandjohnson.com/owners/private-insurance",
+    "https://www.northropandjohnson.com/selling-your-yacht",
+    "https://www.northropandjohnson.com/contact?interest=778190003",
+    "https://www.northropandjohnson.com/our-company/sales-record",
+    "https://www.northropandjohnson.com/crew-placement",
+    "https://www.northropandjohnson.com/crew-placement/yacht-crew-news",
+    "https://www.northropandjohnson.com/crew-placement/crew-jobs",
+    "https://superyachtcrew.io/",
+    "https://www.northropandjohnson.com/events",
+    "https://www.northropandjohnson.com/our-company/careers",
+    "https://www.northropandjohnson.com/yachts-for-sale/explorer"
+  ],
+  "https://www.meridiango.com/jobs": [
+    "https://www.meridiango.com/crews",
+    "https://www.meridiango.com/crew-safety-guidelines",
+    "https://www.meridiango.com/glossary",
+    "https://www.meridiango.com/jobs",
+    "https://www.meridiango.com/yacht-captain-jobs",
+    "https://www.meridiango.com/yacht-deckhand-jobs",
+    "https://www.meridiango.com/yacht-mate-jobs",
+    "https://www.meridiango.com/crew-register"
+  ],
+  "https://premium.avature.net/en_US/jobs/": [
+    "https://premium.avature.net/en_US/jobs/SearchJobsMaps",
+    "https://premiumretail.com/category/career-resources/",
+    "https://premiumretail.com/careers/faqs/"
+  ],
+  "https://www.luxyachts.com/find-work": [
+    "https://www.luxyachts.com/sales",
+    "https://www.luxyachts.com/sales/yachts-for-sale",
+    "https://www.luxyachts.com/sales/yacht-sales",
+    "https://www.luxyachts.com/charter/yachts",
+    "https://www.luxyachts.com/management/yacht-support",
+    "https://www.luxyachts.com/find-work",
+    "https://www.luxyachts.com/crew/my-career",
+    "https://www.luxyachts.com/find-crew",
+    "https://www.luxyachts.com/tools/job-descriptions",
+    "https://www.luxyachts.com/find-crew/luxyachts",
+    "https://www.luxyachts.com/tools/articles/how-do-i-get-started-as-yacht-crew",
+    "https://www.luxyachts.com/tools/salaries"
+  ],
+  "https://www.magnoliamarine.com/careers": [
+    "https://www.magnoliamarine.com/careers",
+    "https://www.magnoliamarine.com/files/Advancement-Career-Poster.pdf"
+  ],
+  "https://www.ctcmarine.com/careers/": [],
+  "https://insigniacrew.com/candidates/careers-hq/": [
+    "https://insigniacrew.com/clients/yacht-crew/",
+    "https://insigniacrew.com/hiring-yacht-crew-guide/",
+    "https://insigniacrew.com/candidates/",
+    "https://insigniacrew.com/candidates/careers-hq/",
+    "https://jobs.insigniacrew.com/",
+    "https://insigniacrew.com/jobs/",
+    "https://insigniacrew.com/we-are-seeking-a-vibrant-talent-manager-with-outstanding-people-skills-to-join-us-insignia-crew/",
+    "https://insigniacrew.com/captains-retreat-time-to-drop-anchor/",
+    "https://insigniacrew.com/insignia-crew-announce-new-partnership-with-praxis/",
+    "https://insigniacrew.com/why-military-veterans-make-the-best-superyacht-crew-members/",
+    "https://insigniacrew.com/do-i-need-qualifications-to-become-yacht-crew/",
+    "https://insigniacrew.com/?page_id=7626",
+    "https://insigniacrew.com/why-use-a-yacht-crew-recruitment-agency/"
+  ],
+  "https://careers.smartrecruiters.com/IngramBargeCompany": [
+    "https://jobs.smartrecruiters.com/IngramBargeCompany/744000150208409-crew-dispatcher",
+    "https://jobs.smartrecruiters.com/IngramBargeCompany/744000142138682-fleet-deckhand-columbus-ky-",
+    "https://jobs.smartrecruiters.com/IngramBargeCompany/744000140822989-material-handler",
+    "https://jobs.smartrecruiters.com/IngramBargeCompany/744000128737611-fleet-deckhand",
+    "https://jobs.smartrecruiters.com/IngramBargeCompany/744000128734453-fleet-deckhand",
+    "https://jobs.smartrecruiters.com/IngramBargeCompany/744000128737978-fleet-deckhand",
+    "https://jobs.smartrecruiters.com/IngramBargeCompany/744000128733616-fleet-deckhand",
+    "https://jobs.smartrecruiters.com/IngramBargeCompany/744000125356580-fleet-boat-captain",
+    "https://jobs.smartrecruiters.com/IngramBargeCompany/744000125352969-fleet-boat-captain",
+    "https://jobs.smartrecruiters.com/IngramBargeCompany/744000125352010-fleet-boat-captain",
+    "https://jobs.smartrecruiters.com/IngramBargeCompany/744000125351391-fleet-boat-captain",
+    "https://jobs.smartrecruiters.com/IngramBargeCompany/744000125344319-fleet-boat-captain",
+    "https://jobs.smartrecruiters.com/IngramBargeCompany/744000125183549-fleet-boat-captain",
+    "https://jobs.smartrecruiters.com/IngramBargeCompany/744000122077477-fleet-deckhand",
+    "https://jobs.smartrecruiters.com/IngramBargeCompany/744000122058397-experienced-lead-mate-deckhand",
+    "https://jobs.smartrecruiters.com/IngramBargeCompany/744000118262738-fleet-boat-captain-non-live-aboard-",
+    "https://jobs.smartrecruiters.com/IngramBargeCompany/744000099718525-small-line-boat-captain"
+  ],
+  "https://www.parkertowing.com/careers": [
+    "https://www.parkertowing.com/careers"
+  ],
+  "https://hillrobinson.com/crew-employment": [
+    "https://hillrobinson.com/yacht-management",
+    "https://hillrobinson.com/crew-services",
+    "https://hillrobinson.com/crew-recruitment",
+    "https://hillrobinson.com/crew-employment",
+    "https://hillrobinson.com/crew-training",
+    "https://hillrobinson.com/careers"
+  ],
+  "https://www.carvercompanies.com/careers/": [
+    "https://www.carvercompanies.com/about-us/sales-book/",
+    "https://www.coeymanslandingmarina.com/",
+    "https://www.carvercompanies.com/divisions/materials/",
+    "https://www.carvercompanies.com/careers/",
+    "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=42e9818d-6d54-469e-8727-4ec738f29e47&ccId=19000101_000001&lang=en_US"
+  ],
+  "https://www.paycomonline.net/v4/ats/web.php/portal/2549D3747AFF851B44F885641C336D73/career-page": [],
+  "https://broussardbrothers.com/careers/": [
+    "https://broussardbrothers.com/careers/",
+    "https://broussardbrothers.com/marine-construction/",
+    "https://broussardbrothers.com/marine-fleet/",
+    "https://broussardbrothers.com/dock-crane-services/",
+    "https://recruiting.paylocity.com/recruiting/jobs/Details/3498402/Broussard-Brothers-Inc/Tug-Boat-Captain",
+    "https://recruiting.paylocity.com/recruiting/jobs/Details/3498389/Broussard-Brothers-Inc/Barge-Crewman",
+    "https://recruiting.paylocity.com/recruiting/jobs/Details/3498362/Broussard-Brothers-Inc/Deckhand"
+  ],
+  "https://www.oriongroupholdingsinc.com/careers": [
+    "https://www.oriongroupholdingsinc.com/careers",
+    "https://www.oriongroupholdingsinc.com/careers/module-holder/career-types-at-orion",
+    "https://recruiting.adp.com/srccar/public/RTI.home?c=1170451&d=OrionCareerSite"
+  ],
+  "https://www.crounse.com/careers/": [
+    "https://www.crounse.com/careers/working-on-the-river/"
+  ],
+  "https://careers.saltchuk.com/jobs/foss-ab-deckhand-engineer-seattletacoma-harbor-in-seattle-washington-us/": [
+    "https://careers.saltchuk.com/jobs/foss-ab-deckhand-engineer-seattletacoma-harbor-in-seattle-washington-us/",
+    "http://www.careerleaf.com/"
+  ],
+  "https://www.vulcanmaterials.com/careers": [
+    "https://www.vulcanmaterials.com/construction-materials",
+    "https://www.vulcanmaterials.com/careers",
+    "https://www.vulcanmaterials.com/careers/sales",
+    "https://careers.vulcanmaterials.com/hcmUI/CandidateExperience/en/sites/careers/jobs",
+    "https://www.vulcanmaterials.com/careers/early-careers",
+    "https://www.vulcanmaterials.com/careers/operations",
+    "https://www.vulcanmaterials.com/careers/accounting-and-finance",
+    "https://www.vulcanmaterials.com/careers/skilled-trades",
+    "https://www.vulcanmaterials.com/construction-materials/product-sales"
+  ],
+  "https://www.tidewater.com/careers": [
+    "https://www.tidewater.com/careers",
+    "https://phh.tbe.taleo.net/phh03/ats/careers/v2/searchResults?org=TIDETRANS&cws=40"
+  ],
+  "https://seacormarine.com/careers/": [
+    "https://seacormarine.com/careers/"
+  ],
+  "https://kiewitcareers.kiewit.com/Weeks": [
+    "https://kiewitcareers.kiewit.com/content/Notice/?locale=en_US"
+  ],
+  "https://www.mansonconstruction.com/careers": [
+    "https://www.mansonconstruction.com/careers",
+    "https://www.mansonconstruction.com/candidate-privacy-policy"
+  ],
+  "https://harbordocking.com/careers/": [
+    "https://harbordocking.com/careers/",
+    "https://harbor-dt.apscareerportal.com/account"
+  ],
+  "https://www.dutragroup.com/careers/": [
+    "https://www.dutragroup.com/careers/",
+    "https://www.dutragroup.com/index.html%3Fp=12723.html",
+    "https://www.dutragroup.com/barged-materials/"
+  ],
+  "https://dredgit.com/careers/": [
+    "https://dredgit.com/careers/"
+  ],
+  "https://marinerhiring.noaa.gov/": [],
+  "https://www.greatlakesgroup.com/careers/": [],
+  "https://gldd.com/careers/": [
+    "https://gldd.com/careers/",
+    "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=782c2409-b287-42ca-9268-2ff13f038551&ccId=19000101_000001&type=MP&lang=en_US",
+    "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=782c2409-b287-42ca-9268-2ff13f038551&ccId=1586553144815137_755&type=MP&lang=en_US",
+    "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=7b491c86-6ecf-4fe4-9b31-f334e4dfcebd&ccId=9200044086053_2&type=JS&lang=en_US"
+  ],
+  "https://www.unols.org/join-usarf": [
+    "https://www.unols.org/join-usarf",
+    "https://www.unols.org/unols-outreach-materials",
+    "https://www.unols.org/jobs",
+    "https://www.unols.org/node/35652/early-career-programs",
+    "https://www.unols.org/form/submit-job-posting",
+    "https://www.unols.org/unols-mate-marine-technical-internship-program"
+  ],
+  "https://scripps.ucsd.edu/ships/jobs": [
+    "https://scripps.ucsd.edu/portal/jobs",
+    "https://scripps.ucsd.edu/research/climate-change-resources",
+    "https://employment.ucsd.edu/jobs?page_size=100&page_number=1&keyword=%22136620+SIO+Research+Vessel+Engine+Crew+-+Per+Diem%22&sort_by=score&sort_order=DESC",
+    "https://employment.ucsd.edu/jobs?page_size=100&page_number=1&keyword=%22136617+SIO+Research+Vessel+Deck+Crew+-+Per+Diem%22&sort_by=score&sort_order=DESC",
+    "https://employment.ucsd.edu/sio-research-vessel-deck-crew-per-diem-136617/job/67164ADF1CB33723649F09A7D1849E4F"
+  ],
+  "https://schmidtocean.org/education/careers-at-sea/": [
+    "https://schmidtocean.org/education/careers-at-sea/",
+    "http://www.mapyourcareer.org/maritime/life-at-sea.html",
+    "http://www.careersatsea.org/",
+    "https://www.youtube.com/watch?v=OYZj1PuY_E0"
+  ],
+  "https://www.ferry.nyc/careers/": [
+    "https://www.ferry.nyc/careers",
+    "https://jobs.dayforcehcm.com/en-US/hornblower/CANDIDATEPORTAL",
+    "https://www.ferry.nyc/careers/"
+  ],
+  "https://www.cascobaylines.com/about-us/career/": [
+    "https://www.cascobaylines.com/about-us/career/",
+    "https://www.cascobaylines.com/uploads/Freight-Agent-Job-Description.pdf",
+    "https://www.cascobaylines.com/full-part-time-deckhands/"
+  ],
+  "https://www.blockislandferry.com/careers/": [
+    "https://www.blockislandferry.com/careers",
+    "https://www.blockislandferry.com/group-sales/"
+  ],
+  "https://www.jaycashman.com/careers/": [
+    "https://www.jaycashman.com/careers/"
+  ],
+  "https://careers.aramark.com/": [
+    "https://www.aramarkcareers.com/",
+    "https://careers.aramark.com/jobs",
+    "https://careers.aramark.com/early-careers",
+    "https://careers.aramark.com/jobs/lob/Parks-and-Destinations/",
+    "https://careers.aramark.com/jobs/"
+  ],
+  "https://yachtstarship.com/careers/": [
+    "https://yachtstarship.com/fleet/yacht-starship/",
+    "https://yachtstarship.com/fleet/yacht-starship-ii/",
+    "https://yachtstarship.com/fleet/yacht-starship-iv/",
+    "https://yachtstarship.com/careers/",
+    "https://recruiting.paylocity.com/recruiting/jobs/All/2a113bc9-ae74-44f3-84cd-8dac88b5cf1b/Yacht-Starship-Dining-Cruises-LLC"
+  ],
+  "https://tallshipsamerica.org/billet-bank/": [
+    "https://tallshipsamerica.org/crewsafety/",
+    "https://tallshipsamerica.org/billet-bank/available-jobs",
+    "https://tallshipsamerica.org/billet-bank/available-crew"
+  ],
+  "https://jobs.dayforcehcm.com/en-US/colonialgroup/CANDIDATEPORTAL": [],
+  "https://www.morantug.com/careers-at-moran/": [
+    "https://www.morantug.com/careers-at-moran/"
+  ],
+  "https://www.oedurant.com/About/Careers/": [
+    "https://www.oedurant.com/About/Careers/",
+    "https://secure4.saashr.com/ta/6084283.careers?CareersSearch&ein_id=68149697&career_portal_id=131844"
+  ],
+  "https://cmdredging.com/careers/": [
+    "https://cmdredging.com/careers/",
+    "https://apply.workable.com/cand-m-dredging-inc/j/06A4478F91/"
+  ],
+  "https://www.detyens.com/job-opportunities-at-detyens-shipyards/": [
+    "https://form.jotform.com/240654816627058",
+    "https://www.detyens.com/job-opportunities-at-detyens-shipyards/",
+    "https://www.detyens.com/job-opportunities-at-detyens-shipyards"
+  ],
+  "https://www.hii.com/careers": [
+    "https://www.hii.com/careers",
+    "https://www.hii.com/careers/ingalls-shipbuilding",
+    "https://www.hii.com/careers/mission-technologies",
+    "https://www.hii.com/careers/newport-news-shipbuilding",
+    "https://www.hii.com/careers/corporate",
+    "https://www.hii.com/careers/internal-careers-program",
+    "https://careers.huntingtoningalls.com/search/?createNewAlert=false&q=%22Entity%3A+Ingalls+Shipbuilding%22",
+    "https://jobs.hii-tsd.com/search/?q=&sortColumn=referencedate&sortDirection=desc",
+    "https://careers.huntingtoningalls.com/search/?createNewAlert=false&q=%22Entity%3A+Newport+News+Shipbuilding%22",
+    "https://careers.huntingtoningalls.com/search/?createNewAlert=false&q=%22Entity%3A+HII+Corporate+Office%22"
+  ],
+  "https://safeharbor.com/careers/": [
+    "https://safeharbor.com/superyachts/",
+    "https://safeharbor.com/careers/"
+  ],
+  "https://bowlinemarinas.com/careers/": [
+    "https://bowlinemarinas.com/careers/",
+    "https://bowlinemarinas.com/dauphin-island-marina/",
+    "https://bowlinemarinas.com/keys-marina/",
+    "https://bowlinemarinas.com/bay-pines-marina/",
+    "https://bowlinemarinas.com/shields-marina/",
+    "https://bowlinemarinas.com/waterways-marina/",
+    "https://bowlinemarinas.com/lake-oconee-marina/",
+    "https://bowlinemarinas.com/southshore-marina/",
+    "https://bowlinemarinas.com/lake-murray-marina/",
+    "https://bowlinemarinas.com/shem-creek-marina/",
+    "https://bowlinemarinas.com/northwest-creek-marina/",
+    "https://bowlinemarinas.com/"
+  ],
+  "https://suntex.com/careers/": [
+    "https://suntex.com/careers/",
+    "https://suntex.com/marinas/",
+    "https://suntex.com/",
+    "https://suntex.com/marinas",
+    "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=08f6f0d8-fe33-401f-a518-03fc32c3ad35&ccId=19000101_000001&type=MP&lang=en_US"
+  ],
+  "https://www.clarkislandmarina.com/careers": [
+    "https://www.clarkislandmarina.com/careers",
+    "https://www.clarkislandmarina.com/speedy-dock",
+    "https://www.clarkislandmarina.com/",
+    "https://www.ziprecruiter.com/c/Ross-Marine/Jobs?hiring_company=deb3e5dd"
+  ],
+  "https://kiawahresort.com/careers/job-listings/": [
+    "https://kiawahresort.com/careers/",
+    "https://kiawahresort.com/careers"
+  ],
+  "https://www.wilddunesresort.com/resort/careers/": [
+    "https://careers.hyatt.com/en-US/careers/search?searchable=%5B%5D&adobe_mc=MCMID%3D11734676276669575850718612717966404392%7CMCORGID%3DD7B27FF452128BAA0A490D4C%2540AdobeOrg%7CTS%3D1763917744",
+    "https://careers.hyatt.com/en-%20US/careers/search?searchable=%5B%5D&amp;adobe_mc=MCMID%3D11734676276669575850718612717966404392%7CMCORGID%3DD7B27FF452128BAA0A490D4C%2540AdobeOrg%7CTS%3D1763917744",
+    "https://www.wilddunesresort.com/resort/careers/"
+  ],
+  "https://wsdot.wa.gov/employment/our-people/ferries/": [
+    "https://www.governmentjobs.com/careers/washington/wsdot?keywords=wsf%20or%20ferries"
+  ],
+  "https://www.patriotspoint.org/about/careers": [
+    "https://www.patriotspoint.org/about/careers"
+  ],
+  "https://www.seabrookisland.com/careers/": [
+    "https://www.seabrookisland.com/careers/"
+  ],
+  "https://patriotspoint.org/about/careers": [
+    "https://patriotspoint.org/about/careers"
+  ],
+  "https://www.rossmarine.com/careers": [
+    "https://www.clarkislandmarina.com/",
+    "https://www.rossmarine.com/careers",
+    "https://www.ziprecruiter.com/c/Ross-Marine/Jobs?hiring_company=deb3e5dd"
+  ],
+  "https://www.charlestonharborresort.com/careers.htm": [
+    "https://charlestonharbormarina.com/",
+    "https://www.charlestonharborresort.com/careers.htm"
+  ],
+  "https://longshoreboats.com/career-opportunities": [
+    "https://longshoreboats.com/career-opportunities",
+    "https://longshoreboats.com/marinas-boat-storage-recommendations",
+    "https://longshoreboats.com/captains-picks"
+  ],
+  "https://www.charlestoncommunitysailing.org/join-the-team": [
+    "https://na3.documents.adobe.com/public/esignWidget?wid=CBFCIBAA3AAABLblqZhDC4Nr-e8segfFDoBuWUFW7ZUNB0iLSzPxDxw05_h8JKiXnHAQMgBoUtvklo3pe5_Y*"
+  ],
+  "https://www.jiyc.org/Sailing/Junior_Sailing/Work_With_Us": [],
+  "https://scaquarium.org/careers/": [
+    "https://scaquarium.org/careers",
+    "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=75b56b56-8483-4bda-aa49-7be44b9d39ce&ccId=19000101_000001&lang=en_US"
+  ],
+  "https://www.downwindsailsmyrtlebeach.com/employment/": [],
+  "https://www.charlestonoutdooradventures.com/employment/": [
+    "https://www.charlestonoutdooradventures.com/wp-content/uploads/2023/12/Captain-Job-Description.pdf",
+    "https://www.charlestonoutdooradventures.com/employment/"
+  ],
+  "https://expresswatersports.com/work-at-express-watersports/": [],
+  "https://www.scmarineservice.com/careers-jobs-employment-boats-dealership--xcareers": [],
+  "https://www.marshallsmarine.com/apply-to-join-us--xcareers": [
+    "https://www.marshallsmarine.com/apply-to-join-us--xcareers"
+  ],
+  "https://www.horrycountysc.gov/employment": [
+    "https://www.governmentjobs.com/careers/horrycountysc"
+  ],
+  "https://redlinepowersports.hireology.careers/": [
+    "https://redlinepowersports.hireology.careers/"
+  ],
+  "https://www.gulfstreamboatclub.com/careers/": [
+    "https://www.gulfstreamboatclub.com/careers/"
+  ],
+  "https://www.shorelinewatersports.com/careers/": [
+    "https://www.shorelinewatersports.com/join-us/",
+    "https://www.shorelinewatersports.com/careers/"
+  ],
+  "https://careers.saltchuk.com/": [
+    "https://careers.saltchuk.com/jobs/",
+    "http://www.careerleaf.com/"
+  ],
+  "https://www.baesystems.com/en-us/careers": []
 }

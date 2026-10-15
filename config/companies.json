@@ -1,6 +1,6 @@
 {
   "_verifiedAt": "2026-10-15",
-  "_notes": "Endpoints researched with web search and verified using live HTTP requests. Page-watch checks robots.txt on each run, establishes a baseline without emitting jobs, and cannot execute JavaScript. Agency track is null so classifier decides tech-sales vs quick-cash; states apply when an ATS supplies a location.",
+  "_notes": "Endpoints researched with web search and verified using live HTTP requests. Page-watch checks robots.txt on each run, establishes a baseline without emitting jobs, and cannot execute JavaScript. Agency track is null so classifier decides tech-sales vs quick-cash; states apply when an ATS supplies a location. Round 2: research employers retained in local-employers.json; reachable career pages added only after live requests and robots checks. Advice-only/dead/blocked pages are listed in _skipped. Paycom and other unverified APIs use page-watch.",
   "_skipped": [
     {
       "name": "Sea Tow",
@@ -18,6 +18,1496 @@
         "https://www.yotspot.com/",
         "https://www.yotspot.com/search/yacht-jobs.html"
       ]
+    },
+    {
+      "name": "Yotspot",
+      "region": "florida",
+      "reason": "Unavailable or parked research URL (HTTP 403)",
+      "checked": [
+        {
+          "url": "https://www.yotspot.com/",
+          "status": 403,
+          "finalUrl": "https://www.yotspot.com/"
+        }
+      ]
+    },
+    {
+      "name": "Crewbay",
+      "region": "florida",
+      "reason": "No accessible careers/jobs link found on supplied site",
+      "checked": [
+        {
+          "url": "https://www.crewbay.com/",
+          "status": 200,
+          "finalUrl": "https://www.crewbay.com/"
+        }
+      ]
+    },
+    {
+      "name": "Dockwalk",
+      "region": "florida",
+      "reason": "Accessible links are advice, general pages, a browser-upgrade screen, or redirects to unrelated employers; no usable job page verified.",
+      "checked": [
+        {
+          "url": "https://www.dockwalk.com/",
+          "status": 200,
+          "finalUrl": "https://www.dockwalk.com/"
+        },
+        {
+          "url": "https://www.dockwalk.com/jobs/career-advice",
+          "status": 200,
+          "finalUrl": "https://www.dockwalk.com/jobs/career-advice"
+        },
+        {
+          "url": "https://www.dockwalk.com/features/does-superyacht-size-matter-crew-career-development-smaller-vs-larger-yachts",
+          "status": 200,
+          "finalUrl": "https://www.dockwalk.com/features/does-superyacht-size-matter-crew-career-development-smaller-vs-larger-yachts"
+        }
+      ]
+    },
+    {
+      "name": "Crew Unlimited",
+      "region": "florida",
+      "reason": "robots.txt disallows page or robots unavailable",
+      "checked": [
+        "https://www.crewwunlimited.com/"
+      ]
+    },
+    {
+      "name": "Bluewater Yachting",
+      "region": "florida",
+      "reason": "No accessible careers/jobs link found on supplied site",
+      "checked": [
+        {
+          "url": "https://www.bluewateryachting.com/",
+          "status": 200,
+          "finalUrl": "https://www.bluewateryachting.com/"
+        }
+      ]
+    },
+    {
+      "name": "Elite Crew International",
+      "region": "florida",
+      "reason": "robots.txt disallows page or robots unavailable",
+      "checked": [
+        "https://www.elitecrew.com/"
+      ]
+    },
+    {
+      "name": "Indeed \u2013 Fort Lauderdale yacht crew",
+      "region": "florida",
+      "reason": "General job board; no employer careers feed",
+      "checked": [
+        "https://www.indeed.com/q-Yacht-Crew-l-Fort-Lauderdale,-FL-jobs.html"
+      ]
+    },
+    {
+      "name": "LinkedIn",
+      "region": "florida",
+      "reason": "General job board; no employer careers feed",
+      "checked": [
+        "https://www.linkedin.com/jobs/"
+      ]
+    },
+    {
+      "name": "Facebook yacht crew groups",
+      "region": "florida",
+      "reason": "No URL supplied in research",
+      "checked": []
+    },
+    {
+      "name": "Marquette Transportation",
+      "region": "national",
+      "reason": "robots.txt disallows page or robots unavailable",
+      "checked": [
+        "https://www.marquettetransportation.com/careers/"
+      ]
+    },
+    {
+      "name": "American Commercial Barge Line (ACBL)",
+      "region": "national",
+      "reason": "Unavailable or parked research URL (HTTP 404)",
+      "checked": [
+        {
+          "url": "https://www.acbl.net/careers/",
+          "status": 404,
+          "finalUrl": "https://www.acbl.net/careers/"
+        }
+      ]
+    },
+    {
+      "name": "AEP River Operations",
+      "region": "national",
+      "reason": "Accessible links are advice, general pages, a browser-upgrade screen, or redirects to unrelated employers; no usable job page verified.",
+      "checked": [
+        {
+          "url": "https://www.aepriverops.com/careers/",
+          "status": 200,
+          "finalUrl": "https://www.aep.com/news/stories/view/1419/"
+        },
+        {
+          "url": "https://www.aep.com/news/stories/view/1419/",
+          "status": 200,
+          "finalUrl": "https://www.aep.com/news/stories/view/1419/"
+        },
+        {
+          "url": "https://www.aep.com/careers/",
+          "status": 200,
+          "finalUrl": "https://www.aep.com/careers/"
+        },
+        {
+          "url": "https://www.aep.com/careers/positions/",
+          "status": 200,
+          "finalUrl": "https://www.aep.com/careers/positions/"
+        },
+        {
+          "url": "https://www.aep.com/careers/positions/saved/",
+          "status": 200,
+          "finalUrl": "https://www.aep.com/careers/positions/saved/"
+        },
+        {
+          "url": "https://www.aep.com/careers/benefits/",
+          "status": 200,
+          "finalUrl": "https://www.aep.com/careers/benefits/"
+        }
+      ]
+    },
+    {
+      "name": "Stevens Towing Co.",
+      "region": "national",
+      "reason": "robots.txt disallows page or robots unavailable",
+      "checked": [
+        "https://stevenstowing.com/careers/"
+      ]
+    },
+    {
+      "name": "Hornbeck Offshore",
+      "region": "national",
+      "reason": "Unavailable or parked research URL (HTTP 404)",
+      "checked": [
+        {
+          "url": "https://www.hornbeckoffshore.com/careers/",
+          "status": 404,
+          "finalUrl": "https://hornbeckoffshore.com/careers/"
+        }
+      ]
+    },
+    {
+      "name": "TowBoatUS",
+      "region": "national",
+      "reason": "robots.txt disallows page or robots unavailable",
+      "checked": [
+        "https://www.towboatus.com/careers/"
+      ]
+    },
+    {
+      "name": "Sea Tow",
+      "region": "national",
+      "reason": "Accessible links are advice, general pages, a browser-upgrade screen, or redirects to unrelated employers; no usable job page verified.",
+      "checked": [
+        {
+          "url": "https://seatow.com/",
+          "status": 200,
+          "finalUrl": "https://seatow.com/"
+        },
+        {
+          "url": "https://seatow.com/programs/",
+          "status": 200,
+          "finalUrl": "https://seatow.com/programs/"
+        }
+      ]
+    },
+    {
+      "name": "Viking Dredging",
+      "region": "national",
+      "reason": "Unavailable or parked research URL (HTTP 404)",
+      "checked": [
+        {
+          "url": "https://www.vikingdredging.com/careers/",
+          "status": 404,
+          "finalUrl": "https://www.vikingdredging.com/careers/"
+        }
+      ]
+    },
+    {
+      "name": "Barnstable County Dredging",
+      "region": "national",
+      "reason": "Unavailable or parked research URL (HTTP 404)",
+      "checked": [
+        {
+          "url": "https://www.barnstablecounty.org/careers",
+          "status": 404,
+          "finalUrl": "https://www.capecod.gov/careers"
+        }
+      ]
+    },
+    {
+      "name": "Bisso Marine",
+      "region": "national",
+      "reason": "robots.txt disallows page or robots unavailable",
+      "checked": [
+        "https://www.bissomarine.com/careers/"
+      ]
+    },
+    {
+      "name": "University of Southern Mississippi \u2013 R/V Tommy Munro",
+      "region": "national",
+      "reason": "Unavailable or parked research URL (HTTP 404)",
+      "checked": [
+        {
+          "url": "https://www.usm.edu/careers/",
+          "status": 404,
+          "finalUrl": "https://www.usm.edu/careers/"
+        }
+      ]
+    },
+    {
+      "name": "Orca Maritime",
+      "region": "national",
+      "reason": "Unavailable or parked research URL (HTTP 404)",
+      "checked": [
+        {
+          "url": "https://www.orcamaritime.com/careers/",
+          "status": 404,
+          "finalUrl": "https://www.orcamaritime.com/careers/"
+        }
+      ]
+    },
+    {
+      "name": "Cardinal Point Captains",
+      "region": "national",
+      "reason": "robots.txt disallows page or robots unavailable",
+      "checked": [
+        "https://www.cardinalpointcaptains.com/careers/"
+      ]
+    },
+    {
+      "name": "Argosy Cruises",
+      "region": "national",
+      "reason": "Unavailable or parked research URL (HTTP 404)",
+      "checked": [
+        {
+          "url": "https://www.argosycruises.com/careers/",
+          "status": 404,
+          "finalUrl": "https://www.argosycruises.com/careers/"
+        }
+      ]
+    },
+    {
+      "name": "Land & Sea / St. Johns River Ferry",
+      "region": "national",
+      "reason": "robots.txt disallows page or robots unavailable",
+      "checked": [
+        "https://www.landandsea.com/careers/"
+      ]
+    },
+    {
+      "name": "Fisher Island Community Association",
+      "region": "national",
+      "reason": "Unavailable or parked research URL (HTTP 404)",
+      "checked": [
+        {
+          "url": "https://www.fisherisland.com/careers/",
+          "status": 404,
+          "finalUrl": "https://www.fisherisland.com/careers/"
+        }
+      ]
+    },
+    {
+      "name": "Charleston Water Taxi",
+      "region": "charleston",
+      "reason": "No accessible careers/jobs link found on supplied site",
+      "checked": [
+        {
+          "url": "https://charlestonwatertaxi.com/",
+          "status": 200,
+          "finalUrl": "https://charlestonwatertaxi.com/"
+        }
+      ]
+    },
+    {
+      "name": "Charleston Harbor Tours \u2013 Carolina Belle",
+      "region": "charleston",
+      "reason": "No accessible careers/jobs link found on supplied site",
+      "checked": [
+        {
+          "url": "https://charlestonharbortours.com/",
+          "status": 200,
+          "finalUrl": "https://charlestonharbortours.com/"
+        }
+      ]
+    },
+    {
+      "name": "Schooner Pride",
+      "region": "charleston",
+      "reason": "No accessible careers/jobs link found on supplied site",
+      "checked": [
+        {
+          "url": "https://www.schoonerpride.com/",
+          "status": 200,
+          "finalUrl": "https://charlestonharbortours.com/tours-cruises/"
+        }
+      ]
+    },
+    {
+      "name": "Savage Companies",
+      "region": "charleston",
+      "reason": "robots.txt disallows page or robots unavailable",
+      "checked": [
+        "https://savage.com/careers/"
+      ]
+    },
+    {
+      "name": "Stevens Towing Co.",
+      "region": "charleston",
+      "reason": "robots.txt disallows page or robots unavailable",
+      "checked": [
+        "https://stevenstowing.com/"
+      ]
+    },
+    {
+      "name": "Charleston Marine Containers",
+      "region": "charleston",
+      "reason": "No URL supplied in research",
+      "checked": []
+    },
+    {
+      "name": "Russell Marine LLC",
+      "region": "charleston",
+      "reason": "No accessible careers/jobs link found on supplied site",
+      "checked": [
+        {
+          "url": "https://www.russellmarine.com/",
+          "status": 200,
+          "finalUrl": "https://www.russellmarine.com/"
+        }
+      ]
+    },
+    {
+      "name": "Charleston Harbor Pilots",
+      "region": "charleston",
+      "reason": "Accessible links are advice, general pages, a browser-upgrade screen, or redirects to unrelated employers; no usable job page verified.",
+      "checked": [
+        {
+          "url": "https://www.charlestonpilots.com/",
+          "status": 200,
+          "finalUrl": "https://charlestonpilots.com/"
+        },
+        {
+          "url": "https://charlestonpilots.com/maritime-couple-celebrates-career-milestone-in-charleston-harbor/",
+          "status": 200,
+          "finalUrl": "https://charlestonpilots.com/maritime-couple-celebrates-career-milestone-in-charleston-harbor/"
+        }
+      ]
+    },
+    {
+      "name": "SCDNR \u2013 Marine Resources Division / Campbell Center",
+      "region": "charleston",
+      "reason": "Unavailable or parked research URL (HTTP 0)",
+      "checked": [
+        {
+          "url": "https://www.dnr.sc.gov/admin/dnrhr.html",
+          "status": 0
+        }
+      ]
+    },
+    {
+      "name": "U.S. Coast Guard Auxiliary \u2013 Sector Charleston",
+      "region": "charleston",
+      "reason": "No accessible careers/jobs link found on supplied site",
+      "checked": [
+        {
+          "url": "https://www.uscga-district-7.org/",
+          "status": 200,
+          "finalUrl": "https://www.uscga-district-7.org/"
+        }
+      ]
+    },
+    {
+      "name": "Charleston County Parks & Recreation",
+      "region": "charleston",
+      "reason": "Accessible links are advice, general pages, a browser-upgrade screen, or redirects to unrelated employers; no usable job page verified.",
+      "checked": [
+        {
+          "url": "https://www.ccprc.com/jobs",
+          "status": 200,
+          "finalUrl": "https://www.ccprc.com/jobs/"
+        },
+        {
+          "url": "https://www.ccprc.com/bids/",
+          "status": 200,
+          "finalUrl": "https://www.ccprc.com/bids/"
+        },
+        {
+          "url": "https://www.ccprc.com/business/",
+          "status": 200,
+          "finalUrl": "https://www.ccprc.com/business/"
+        },
+        {
+          "url": "https://selfserve.ccprc.com/ess/employmentopportunities",
+          "status": 200,
+          "finalUrl": "https://selfserve.ccprc.com/ess/common/Upgrade.aspx"
+        },
+        {
+          "url": "https://selfserve.ccprc.com/ess/EmploymentOpportunities/Interest.aspx",
+          "status": 200,
+          "finalUrl": "https://selfserve.ccprc.com/ess/common/Upgrade.aspx"
+        }
+      ]
+    },
+    {
+      "name": "TowBoatUS Charleston / Allwater Marine",
+      "region": "charleston",
+      "reason": "No accessible careers/jobs link found on supplied site",
+      "checked": [
+        {
+          "url": "https://www.boatus.com/towing/",
+          "status": 200,
+          "finalUrl": "https://www.boatus.com/products-and-services/boat-towing"
+        },
+        {
+          "url": "https://www.boatus.com/about-us/careers",
+          "status": 403,
+          "finalUrl": "https://careers.geico.com/"
+        }
+      ]
+    },
+    {
+      "name": "Sea Tow Charleston",
+      "region": "charleston",
+      "reason": "Accessible links are advice, general pages, a browser-upgrade screen, or redirects to unrelated employers; no usable job page verified.",
+      "checked": [
+        {
+          "url": "https://seatow.com/",
+          "status": 200,
+          "finalUrl": "https://seatow.com/"
+        },
+        {
+          "url": "https://seatow.com/programs/",
+          "status": 200,
+          "finalUrl": "https://seatow.com/programs/"
+        }
+      ]
+    },
+    {
+      "name": "Freedom Boat Club",
+      "region": "charleston",
+      "reason": "robots.txt disallows page or robots unavailable",
+      "checked": [
+        "https://freedomboatclub.com/careers/"
+      ]
+    },
+    {
+      "name": "Barton & Gray Mariners Club",
+      "region": "charleston",
+      "reason": "robots.txt disallows page or robots unavailable",
+      "checked": [
+        "https://bartongray.com/careers/"
+      ]
+    },
+    {
+      "name": "Charleston City Marina",
+      "region": "charleston",
+      "reason": "robots.txt disallows page or robots unavailable",
+      "checked": [
+        "https://charlestoncitymarina.com/"
+      ]
+    },
+    {
+      "name": "Ripley Light Marina",
+      "region": "charleston",
+      "reason": "No accessible careers/jobs link found on supplied site",
+      "checked": [
+        {
+          "url": "https://ripleylightmarina.com/",
+          "status": 200,
+          "finalUrl": "https://www.ripleylightmarina.com/"
+        }
+      ]
+    },
+    {
+      "name": "Ashley Marina",
+      "region": "charleston",
+      "reason": "Unavailable or parked research URL (HTTP 403)",
+      "checked": [
+        {
+          "url": "https://ashleymarina.com/",
+          "status": 403,
+          "finalUrl": "https://dockwa.com/explore/destination/mnc3m9-the-harborage-at-ashley-marina?form=transient"
+        }
+      ]
+    },
+    {
+      "name": "Bristol Marina",
+      "region": "charleston",
+      "reason": "robots.txt disallows page or robots unavailable",
+      "checked": [
+        "https://bristolmarina.com/"
+      ]
+    },
+    {
+      "name": "St. Johns Yacht Harbor",
+      "region": "charleston",
+      "reason": "No accessible careers/jobs link found on supplied site",
+      "checked": [
+        {
+          "url": "https://www.stjohnsyachtharbor.com/",
+          "status": 200,
+          "finalUrl": "https://stjohnsyachtharbor.com/"
+        }
+      ]
+    },
+    {
+      "name": "Bohicket Marina",
+      "region": "charleston",
+      "reason": "robots.txt disallows page or robots unavailable",
+      "checked": [
+        "https://www.bohicketmarina.com/"
+      ]
+    },
+    {
+      "name": "Kiawah Island Club",
+      "region": "charleston",
+      "reason": "robots.txt disallows page or robots unavailable",
+      "checked": [
+        "https://www.kiawahislandclub.com/"
+      ]
+    },
+    {
+      "name": "Isle of Palms Marina",
+      "region": "charleston",
+      "reason": "No accessible careers/jobs link found on supplied site",
+      "checked": [
+        {
+          "url": "https://iopmarina.com/",
+          "status": 200,
+          "finalUrl": "https://iopmarina.com/"
+        }
+      ]
+    },
+    {
+      "name": "Folly Beach Marina",
+      "region": "charleston",
+      "reason": "No accessible careers/jobs link found on supplied site",
+      "checked": [
+        {
+          "url": "https://follybeachmarina.com/",
+          "status": 200,
+          "finalUrl": "https://follybeachmarina.com/"
+        }
+      ]
+    },
+    {
+      "name": "Daniel Island Marina / waterfront operations",
+      "region": "charleston",
+      "reason": "No URL supplied in research",
+      "checked": []
+    },
+    {
+      "name": "Palmetto Boat Sales",
+      "region": "charleston",
+      "reason": "Unavailable or parked research URL (HTTP 403)",
+      "checked": [
+        {
+          "url": "https://www.palmettoboatsales.com/employment",
+          "status": 403,
+          "finalUrl": "https://www.palmettoboatsales.com/employment"
+        }
+      ]
+    },
+    {
+      "name": "Scout Boats",
+      "region": "charleston",
+      "reason": "Unavailable or parked research URL (HTTP 404)",
+      "checked": [
+        {
+          "url": "https://scoutboats.com/careers/",
+          "status": 404,
+          "finalUrl": "https://scoutboats.com/careers/"
+        }
+      ]
+    },
+    {
+      "name": "Coastal Expeditions",
+      "region": "charleston",
+      "reason": "Unavailable or parked research URL (HTTP 404)",
+      "checked": [
+        {
+          "url": "https://coastalexpeditions.com/careers/",
+          "status": 404,
+          "finalUrl": "https://coastalexpeditions.com/careers/"
+        }
+      ]
+    },
+    {
+      "name": "Tidal Wave Water Sports",
+      "region": "charleston",
+      "reason": "No accessible careers/jobs link found on supplied site",
+      "checked": [
+        {
+          "url": "https://tidalwavewatersports.com/",
+          "status": 200,
+          "finalUrl": "https://tidalwavewatersports.com/"
+        }
+      ]
+    },
+    {
+      "name": "Barrier Island Eco Tours",
+      "region": "charleston",
+      "reason": "No accessible careers/jobs link found on supplied site",
+      "checked": [
+        {
+          "url": "https://barrierislandecotours.com/",
+          "status": 200,
+          "finalUrl": "https://nature-tours.com/"
+        }
+      ]
+    },
+    {
+      "name": "Charleston Riverfront Watersports",
+      "region": "charleston",
+      "reason": "No accessible careers/jobs link found on supplied site",
+      "checked": [
+        {
+          "url": "https://charlestonriverfrontwatersports.com/",
+          "status": 200,
+          "finalUrl": "https://charlestonriverfrontwatersports.com/"
+        }
+      ]
+    },
+    {
+      "name": "Charleston Sailing School",
+      "region": "charleston",
+      "reason": "No URL supplied in research",
+      "checked": []
+    },
+    {
+      "name": "Charleston Sailing Charters",
+      "region": "charleston",
+      "reason": "No accessible careers/jobs link found on supplied site",
+      "checked": [
+        {
+          "url": "https://charlestonsailingcharters.com/",
+          "status": 200,
+          "finalUrl": "https://www.charlestonsailingcharters.com/"
+        }
+      ]
+    },
+    {
+      "name": "Carolina Yacht Club",
+      "region": "charleston",
+      "reason": "No accessible careers/jobs link found on supplied site",
+      "checked": [
+        {
+          "url": "https://carolinayachtclub.org/",
+          "status": 200,
+          "finalUrl": "https://carolinayachtclub.org/"
+        },
+        {
+          "url": "https://carolinayachtclub.org/employment/",
+          "status": 0
+        }
+      ]
+    },
+    {
+      "name": "Charleston Dive Center",
+      "region": "charleston",
+      "reason": "No URL supplied in research",
+      "checked": []
+    },
+    {
+      "name": "Lowcountry Scuba",
+      "region": "charleston",
+      "reason": "No URL supplied in research",
+      "checked": []
+    },
+    {
+      "name": "Mainstream Commercial Divers",
+      "region": "charleston",
+      "reason": "robots.txt disallows page or robots unavailable",
+      "checked": [
+        "https://mainstreamcommercialdivers.com/"
+      ]
+    },
+    {
+      "name": "Standard Diving & Marine Contracting",
+      "region": "charleston",
+      "reason": "No accessible careers/jobs link found on supplied site",
+      "checked": [
+        {
+          "url": "https://standarddiving.com/",
+          "status": 200,
+          "finalUrl": "https://www.standarddivingandmarinecontracting.com/"
+        }
+      ]
+    },
+    {
+      "name": "Swift Marine Yacht Management",
+      "region": "charleston",
+      "reason": "robots.txt disallows page or robots unavailable",
+      "checked": [
+        "https://swiftmarinesc.com/"
+      ]
+    },
+    {
+      "name": "Dewees Island POA",
+      "region": "charleston",
+      "reason": "robots.txt disallows page or robots unavailable",
+      "checked": [
+        "https://deweesislandpoa.com/"
+      ]
+    },
+    {
+      "name": "Black River Outdoors",
+      "region": "charleston",
+      "reason": "No accessible careers/jobs link found on supplied site",
+      "checked": [
+        {
+          "url": "https://www.blackriveroutdoors.com/",
+          "status": 200,
+          "finalUrl": "https://blackriveroutdoors.com/"
+        }
+      ]
+    },
+    {
+      "name": "The Charleston Angler",
+      "region": "charleston",
+      "reason": "Accessible links are advice, general pages, a browser-upgrade screen, or redirects to unrelated employers; no usable job page verified.",
+      "checked": [
+        {
+          "url": "https://thecharlestonangler.com/",
+          "status": 200,
+          "finalUrl": "https://www.palmettomoononline.com/"
+        },
+        {
+          "url": "https://www.palmettomoononline.com/pages/join-our-crew",
+          "status": 200,
+          "finalUrl": "https://www.palmettomoononline.com/pages/join-our-crew"
+        }
+      ]
+    },
+    {
+      "name": "Haddrell\u2019s Point Tackle",
+      "region": "charleston",
+      "reason": "No accessible careers/jobs link found on supplied site",
+      "checked": [
+        {
+          "url": "https://haddrellspoint.com/",
+          "status": 200,
+          "finalUrl": "https://haddrellspoint.com/"
+        }
+      ]
+    },
+    {
+      "name": "Palmetto Breeze",
+      "region": "charleston",
+      "reason": "No accessible careers/jobs link found on supplied site",
+      "checked": [
+        {
+          "url": "https://www.palmettobreeze.com/",
+          "status": 200,
+          "finalUrl": "https://www.palmettobreeze.com/"
+        }
+      ]
+    },
+    {
+      "name": "Hurricane Fleet Ocean Adventures",
+      "region": "grand-strand",
+      "reason": "No accessible careers/jobs link found on supplied site",
+      "checked": [
+        {
+          "url": "https://hurricanefleet.com/",
+          "status": 200,
+          "finalUrl": "https://hurricanefleet.com/"
+        }
+      ]
+    },
+    {
+      "name": "Little River Fishing Fleet",
+      "region": "grand-strand",
+      "reason": "No accessible careers/jobs link found on supplied site",
+      "checked": [
+        {
+          "url": "https://littleriverfishingfleet.com/",
+          "status": 200,
+          "finalUrl": "https://littleriverfleet.com/"
+        }
+      ]
+    },
+    {
+      "name": "Voyager Fishing Charters",
+      "region": "grand-strand",
+      "reason": "No accessible careers/jobs link found on supplied site",
+      "checked": [
+        {
+          "url": "https://www.voyagerfishingcharters.com/",
+          "status": 200,
+          "finalUrl": "https://www.voyagerfishingcharters.com/myrtle_beach_deep_sea_fishing/"
+        }
+      ]
+    },
+    {
+      "name": "Barefoot Marina",
+      "region": "grand-strand",
+      "reason": "No accessible careers/jobs link found on supplied site",
+      "checked": [
+        {
+          "url": "https://barefootmarina.com/",
+          "status": 200,
+          "finalUrl": "https://barefootmarina.com/"
+        }
+      ]
+    },
+    {
+      "name": "North Myrtle Beach RV Resort & Dry Dock",
+      "region": "grand-strand",
+      "reason": "No accessible careers/jobs link found on supplied site",
+      "checked": [
+        {
+          "url": "https://www.northmyrtlebeachrvresortanddrydock.com/",
+          "status": 200,
+          "finalUrl": "https://www.northmyrtlebeachrvresortanddrydock.com/"
+        }
+      ]
+    },
+    {
+      "name": "Sea Tow Georgetown / Murrells Inlet",
+      "region": "grand-strand",
+      "reason": "Accessible links are advice, general pages, a browser-upgrade screen, or redirects to unrelated employers; no usable job page verified.",
+      "checked": [
+        {
+          "url": "https://seatow.com/georgetown-murrells-inlet/",
+          "status": 200,
+          "finalUrl": "https://seatow.com/georgetown-murrells-inlet/"
+        },
+        {
+          "url": "https://seatow.com/programs/",
+          "status": 200,
+          "finalUrl": "https://seatow.com/programs/"
+        }
+      ]
+    },
+    {
+      "name": "SCDNR \u2013 Marine Resources / Carroll A. Campbell Jr. Marine Resources Center",
+      "region": "grand-strand",
+      "reason": "Unavailable or parked research URL (HTTP 0)",
+      "checked": [
+        {
+          "url": "https://www.dnr.sc.gov/admin/dnrhr.html",
+          "status": 0
+        }
+      ]
+    },
+    {
+      "name": "U.S. Coast Guard Auxiliary \u2013 Flotilla 12-4",
+      "region": "grand-strand",
+      "reason": "No accessible careers/jobs link found on supplied site",
+      "checked": [
+        {
+          "url": "https://join.cgaux.org/",
+          "status": 200,
+          "finalUrl": "https://join.cgaux.org/"
+        }
+      ]
+    },
+    {
+      "name": "Crazy Sister Marina",
+      "region": "grand-strand",
+      "reason": "No accessible careers/jobs link found on supplied site",
+      "checked": [
+        {
+          "url": "https://www.crazysister.com/",
+          "status": 200,
+          "finalUrl": "https://crazysistermarina.com/"
+        }
+      ]
+    },
+    {
+      "name": "Marlin Quay Marina",
+      "region": "grand-strand",
+      "reason": "robots.txt disallows page or robots unavailable",
+      "checked": [
+        "https://www.marlinquay.com/"
+      ]
+    },
+    {
+      "name": "Wacca Wachee Marina",
+      "region": "grand-strand",
+      "reason": "robots.txt disallows page or robots unavailable",
+      "checked": [
+        "https://www.waccawacheemarina.com/"
+      ]
+    },
+    {
+      "name": "Georgetown Landing Marina",
+      "region": "grand-strand",
+      "reason": "robots.txt disallows page or robots unavailable",
+      "checked": [
+        "https://www.georgetownlanding.com/"
+      ]
+    },
+    {
+      "name": "Myrtle Beach Yacht Club",
+      "region": "grand-strand",
+      "reason": "No accessible careers/jobs link found on supplied site",
+      "checked": [
+        {
+          "url": "https://www.myrtlebeachyachtclub.com/",
+          "status": 200,
+          "finalUrl": "https://myrtlebeachyachtclub.com/"
+        }
+      ]
+    },
+    {
+      "name": "Coquina Harbour Marina",
+      "region": "grand-strand",
+      "reason": "robots.txt disallows page or robots unavailable",
+      "checked": [
+        "https://www.coquinaharbour.com/"
+      ]
+    },
+    {
+      "name": "Harbourgate Marina & Yacht Club",
+      "region": "grand-strand",
+      "reason": "No accessible careers/jobs link found on supplied site",
+      "checked": [
+        {
+          "url": "https://www.harbourgatemarina.com/",
+          "status": 200,
+          "finalUrl": "https://harbourgatemarina.com/"
+        }
+      ]
+    },
+    {
+      "name": "Cricket Cove Marina",
+      "region": "grand-strand",
+      "reason": "No accessible careers/jobs link found on supplied site",
+      "checked": [
+        {
+          "url": "https://www.cricketcovemarina.com/",
+          "status": 200,
+          "finalUrl": "https://cricketcovemarina.com/"
+        }
+      ]
+    },
+    {
+      "name": "Captain Smiley Fishing Charters",
+      "region": "grand-strand",
+      "reason": "robots.txt disallows page or robots unavailable",
+      "checked": [
+        "https://www.captainsmileyfishingcharters.com/"
+      ]
+    },
+    {
+      "name": "Sea Thunder Dolphin Cruise",
+      "region": "grand-strand",
+      "reason": "robots.txt disallows page or robots unavailable",
+      "checked": [
+        "https://www.seathundercruises.com/"
+      ]
+    },
+    {
+      "name": "Ocean Screamer",
+      "region": "grand-strand",
+      "reason": "robots.txt disallows page or robots unavailable",
+      "checked": [
+        "https://www.oceanscreamer.com/"
+      ]
+    },
+    {
+      "name": "Myrtle Beach Watersports",
+      "region": "grand-strand",
+      "reason": "No accessible careers/jobs link found on supplied site",
+      "checked": [
+        {
+          "url": "https://www.myrtlebeachwatersports.com/",
+          "status": 200,
+          "finalUrl": "https://myrtlebeachwatersports.com/"
+        }
+      ]
+    },
+    {
+      "name": "Action Water Sportz",
+      "region": "grand-strand",
+      "reason": "robots.txt disallows page or robots unavailable",
+      "checked": [
+        "https://www.actionwatersportz.com/"
+      ]
+    },
+    {
+      "name": "Freedom Boat Club",
+      "region": "grand-strand",
+      "reason": "robots.txt disallows page or robots unavailable",
+      "checked": [
+        "https://freedomboatclub.com/"
+      ]
+    },
+    {
+      "name": "Carefree Boat Club \u2013 Myrtle Beach",
+      "region": "grand-strand",
+      "reason": "Unavailable or parked research URL (HTTP 404)",
+      "checked": [
+        {
+          "url": "https://www.carefreeboats.com/locations/myrtle-beach/",
+          "status": 404,
+          "finalUrl": "https://carefreeboats.com/locations/myrtle-beach/"
+        }
+      ]
+    },
+    {
+      "name": "TowBoatUS Grand Strand",
+      "region": "grand-strand",
+      "reason": "No accessible careers/jobs link found on supplied site",
+      "checked": [
+        {
+          "url": "https://www.boatus.com/towing/",
+          "status": 200,
+          "finalUrl": "https://www.boatus.com/products-and-services/boat-towing"
+        },
+        {
+          "url": "https://www.boatus.com/about-us/careers",
+          "status": 403,
+          "finalUrl": "https://careers.geico.com/"
+        }
+      ]
+    },
+    {
+      "name": "Sea Tow Myrtle Beach",
+      "region": "grand-strand",
+      "reason": "Accessible links are advice, general pages, a browser-upgrade screen, or redirects to unrelated employers; no usable job page verified.",
+      "checked": [
+        {
+          "url": "https://seatow.com/",
+          "status": 200,
+          "finalUrl": "https://seatow.com/"
+        },
+        {
+          "url": "https://seatow.com/programs/",
+          "status": 200,
+          "finalUrl": "https://seatow.com/programs/"
+        }
+      ]
+    },
+    {
+      "name": "Coastal Scuba",
+      "region": "grand-strand",
+      "reason": "Unavailable or parked research URL (HTTP 0)",
+      "checked": [
+        {
+          "url": "https://www.coastalscuba.com/",
+          "status": 0
+        }
+      ]
+    },
+    {
+      "name": "Black River Outdoors",
+      "region": "grand-strand",
+      "reason": "No accessible careers/jobs link found on supplied site",
+      "checked": [
+        {
+          "url": "https://www.blackriveroutdoors.com/",
+          "status": 200,
+          "finalUrl": "https://blackriveroutdoors.com/"
+        }
+      ]
+    },
+    {
+      "name": "Georgetown County Fire / EMS marine response",
+      "region": "grand-strand",
+      "reason": "robots.txt disallows page or robots unavailable",
+      "checked": [
+        "https://www.georgetowncountysc.org/"
+      ]
+    },
+    {
+      "name": "City of Myrtle Beach",
+      "region": "grand-strand",
+      "reason": "robots.txt disallows page or robots unavailable",
+      "checked": [
+        "https://www.governmentjobs.com/careers/myrtlebeach"
+      ]
+    },
+    {
+      "name": "City of North Myrtle Beach",
+      "region": "grand-strand",
+      "reason": "Accessible links are advice, general pages, a browser-upgrade screen, or redirects to unrelated employers; no usable job page verified.",
+      "checked": [
+        {
+          "url": "https://www.nmb.us/",
+          "status": 200,
+          "finalUrl": "https://www.nmb.us/"
+        },
+        {
+          "url": "https://www.nmb.us/376/Human-Resources",
+          "status": 200,
+          "finalUrl": "https://www.nmb.us/376/Human-Resources"
+        },
+        {
+          "url": "https://www.nmb.us/CivicAlerts.aspx?AID=1586",
+          "status": 200,
+          "finalUrl": "https://www.nmb.us/m/newsflash/home/detail/1586"
+        }
+      ]
+    },
+    {
+      "name": "Coastal Carolina University \u2013 Marine Operations",
+      "region": "grand-strand",
+      "reason": "robots.txt disallows page or robots unavailable",
+      "checked": [
+        "https://www.coastal.edu/hr/"
+      ]
+    },
+    {
+      "name": "Hobcaw Barony / Belle W. Baruch Foundation",
+      "region": "grand-strand",
+      "reason": "Accessible links are advice, general pages, a browser-upgrade screen, or redirects to unrelated employers; no usable job page verified.",
+      "checked": [
+        {
+          "url": "https://www.hobcawbarony.org/",
+          "status": 200,
+          "finalUrl": "https://hobcawbarony.org/"
+        },
+        {
+          "url": "https://hobcawbarony.org/education/",
+          "status": 200,
+          "finalUrl": "https://hobcawbarony.org/education/"
+        }
+      ]
+    },
+    {
+      "name": "The Boat Shed",
+      "region": "grand-strand",
+      "reason": "robots.txt disallows page or robots unavailable",
+      "checked": [
+        "https://www.boatshedsc.com/"
+      ]
+    },
+    {
+      "name": "Thomas Marine",
+      "region": "grand-strand",
+      "reason": "No accessible careers/jobs link found on supplied site",
+      "checked": [
+        {
+          "url": "https://www.thomasmarine.com/",
+          "status": 200,
+          "finalUrl": "https://www.groupethomasmarine.com/"
+        }
+      ]
+    },
+    {
+      "name": "Adams Mobile Marine Repair",
+      "region": "grand-strand",
+      "reason": "robots.txt disallows page or robots unavailable",
+      "checked": [
+        "https://www.adamsmobilmarine.com/"
+      ]
+    },
+    {
+      "name": "Tailwalker Marine",
+      "region": "grand-strand",
+      "reason": "Accessible links are advice, general pages, a browser-upgrade screen, or redirects to unrelated employers; no usable job page verified.",
+      "checked": [
+        {
+          "url": "https://www.tailwalkermarine.com/",
+          "status": 200,
+          "finalUrl": "https://www.tailwalkermarine.com/"
+        },
+        {
+          "url": "https://www.tailwalkermarine.com/our-staff-Tailwalker-Marine",
+          "status": 200,
+          "finalUrl": "https://www.tailwalkermarine.com/our-staff-Tailwalker-Marine"
+        }
+      ]
+    },
+    {
+      "name": "Blue Wave Adventures",
+      "region": "grand-strand",
+      "reason": "No accessible careers/jobs link found on supplied site",
+      "checked": [
+        {
+          "url": "https://bluewaveadventures.com/",
+          "status": 200,
+          "finalUrl": "https://bluewaveadventures.com/"
+        }
+      ]
+    },
+    {
+      "name": "New Wave Watersports",
+      "region": "grand-strand",
+      "reason": "No accessible careers/jobs link found on supplied site",
+      "checked": [
+        {
+          "url": "https://newwavewatersports.com/",
+          "status": 200,
+          "finalUrl": "https://newwavewatersports.com/"
+        }
+      ]
+    },
+    {
+      "name": "Island Adventure Watersports",
+      "region": "grand-strand",
+      "reason": "No accessible careers/jobs link found on supplied site",
+      "checked": [
+        {
+          "url": "https://islandadventurewatersports.com/",
+          "status": 200,
+          "finalUrl": "https://islandadventurewatersports.com/"
+        }
+      ]
+    },
+    {
+      "name": "Barefoot Queen Riverboat",
+      "region": "grand-strand",
+      "reason": "No accessible careers/jobs link found on supplied site",
+      "checked": [
+        {
+          "url": "https://barefootqueen.com/",
+          "status": 200,
+          "finalUrl": "https://barefootqueen.com/"
+        }
+      ]
+    },
+    {
+      "name": "Great American Riverboat Co",
+      "region": "grand-strand",
+      "reason": "robots.txt disallows page or robots unavailable",
+      "checked": [
+        "https://greatamericanriverboat.com/"
+      ]
+    },
+    {
+      "name": "Cruisin\u2019 Tikis Myrtle Beach",
+      "region": "grand-strand",
+      "reason": "No accessible careers/jobs link found on supplied site",
+      "checked": [
+        {
+          "url": "https://cruisintikis.com/",
+          "status": 200,
+          "finalUrl": "https://cruisintikis.com/"
+        }
+      ]
+    },
+    {
+      "name": "Marina Inn at Grande Dunes",
+      "region": "grand-strand",
+      "reason": "robots.txt disallows page or robots unavailable",
+      "checked": [
+        "https://marinainn.com/"
+      ]
+    },
+    {
+      "name": "Barefoot Landing Marina",
+      "region": "grand-strand",
+      "reason": "robots.txt disallows page or robots unavailable",
+      "checked": [
+        "https://barefootlanding.com/"
+      ]
+    },
+    {
+      "name": "Dock Holidays Marina",
+      "region": "grand-strand",
+      "reason": "robots.txt disallows page or robots unavailable",
+      "checked": [
+        "https://dockholidays.com/"
+      ]
+    },
+    {
+      "name": "Apache Pier",
+      "region": "grand-strand",
+      "reason": "robots.txt disallows page or robots unavailable",
+      "checked": [
+        "https://apachepier.com/"
+      ]
+    },
+    {
+      "name": "Cherry Grove Pier",
+      "region": "grand-strand",
+      "reason": "No accessible careers/jobs link found on supplied site",
+      "checked": [
+        {
+          "url": "https://cherrygrovepier.com/",
+          "status": 200,
+          "finalUrl": "https://cherrygrovepier.com/"
+        }
+      ]
+    },
+    {
+      "name": "Harborwalk Marina",
+      "region": "grand-strand",
+      "reason": "No accessible careers/jobs link found on supplied site",
+      "checked": [
+        {
+          "url": "https://harborwalkmarina.com/",
+          "status": 200,
+          "finalUrl": "https://harborwalkmarina.com/"
+        }
+      ]
+    },
+    {
+      "name": "Ripley\u2019s Aquarium",
+      "region": "grand-strand",
+      "reason": "No accessible careers/jobs link found on supplied site",
+      "checked": [
+        {
+          "url": "https://www.ripleyaquariums.com/",
+          "status": 200,
+          "finalUrl": "https://www.ripleys.com/locations?typeID=7"
+        }
+      ]
+    },
+    {
+      "name": "Nu Horizons Dive & Travel",
+      "region": "grand-strand",
+      "reason": "robots.txt disallows page or robots unavailable",
+      "checked": [
+        "https://nuhorizonsdive.com/"
+      ]
+    },
+    {
+      "name": "Bass Pro Shops",
+      "region": "grand-strand",
+      "reason": "robots.txt disallows page or robots unavailable",
+      "checked": [
+        "https://www.basspro.com/careers"
+      ]
+    },
+    {
+      "name": "Captain Dick\u2019s Marina",
+      "region": "grand-strand",
+      "reason": "robots.txt disallows page or robots unavailable",
+      "checked": [
+        "https://captdicksmarina.com/"
+      ]
+    },
+    {
+      "name": "Dockside Marina",
+      "region": "grand-strand",
+      "reason": "No accessible careers/jobs link found on supplied site",
+      "checked": [
+        {
+          "url": "https://docksidemarina.com/",
+          "status": 200,
+          "finalUrl": "https://docksidemarina.com/"
+        }
+      ]
+    },
+    {
+      "name": "Osprey Marina",
+      "region": "grand-strand",
+      "reason": "No accessible careers/jobs link found on supplied site",
+      "checked": [
+        {
+          "url": "https://ospreymarina.com/",
+          "status": 200,
+          "finalUrl": "https://www.ospreymarina.com/"
+        }
+      ]
+    },
+    {
+      "name": "Socastee Swing Bridge Marina",
+      "region": "grand-strand",
+      "reason": "robots.txt disallows page or robots unavailable",
+      "checked": [
+        "https://socasteemarina.com/"
+      ]
+    },
+    {
+      "name": "Little River Marina",
+      "region": "grand-strand",
+      "reason": "No accessible careers/jobs link found on supplied site",
+      "checked": [
+        {
+          "url": "https://littlerivermarina.com/",
+          "status": 200,
+          "finalUrl": "https://littlerivermarina.com/"
+        }
+      ]
+    },
+    {
+      "name": "Georgetown Marina",
+      "region": "grand-strand",
+      "reason": "No accessible careers/jobs link found on supplied site",
+      "checked": [
+        {
+          "url": "https://georgetownmarina.com/",
+          "status": 200,
+          "finalUrl": "https://georgetownmarina.com/"
+        }
+      ]
+    },
+    {
+      "name": "Sea Screamer",
+      "region": "grand-strand",
+      "reason": "No accessible careers/jobs link found on supplied site",
+      "checked": [
+        {
+          "url": "https://seascreamer.com/",
+          "status": 200,
+          "finalUrl": "https://seascreamer.com/"
+        }
+      ]
+    },
+    {
+      "name": "Bahia Mar Yachting Center",
+      "region": "florida",
+      "reason": "No URL supplied in research",
+      "checked": []
+    },
+    {
+      "name": "Las Olas Marina",
+      "region": "florida",
+      "reason": "No URL supplied in research",
+      "checked": []
+    },
+    {
+      "name": "Sunrise Harbor Marina",
+      "region": "florida",
+      "reason": "No URL supplied in research",
+      "checked": []
+    },
+    {
+      "name": "New River Downtown Docks / Riverwalk",
+      "region": "florida",
+      "reason": "No URL supplied in research",
+      "checked": []
+    },
+    {
+      "name": "Fort Lauderdale Marina",
+      "region": "florida",
+      "reason": "No URL supplied in research",
+      "checked": []
+    },
+    {
+      "name": "Hall of Fame Marina",
+      "region": "florida",
+      "reason": "No URL supplied in research",
+      "checked": []
+    },
+    {
+      "name": "Pier Sixty-Six Marina",
+      "region": "florida",
+      "reason": "No URL supplied in research",
+      "checked": []
+    },
+    {
+      "name": "New River / Intracoastal yacht yards",
+      "region": "florida",
+      "reason": "No URL supplied in research",
+      "checked": []
+    },
+    {
+      "name": "Fort Lauderdale International Boat Show",
+      "region": "florida",
+      "reason": "No URL supplied in research",
+      "checked": []
+    },
+    {
+      "name": "American Cruise Lines",
+      "reason": "Cruise line: excluded as required; not requested."
+    },
+    {
+      "name": "Viking Crew",
+      "reason": "Excluded by existing Viking company exclusion; not added."
     }
   ],
   "companies": [
@@ -392,6 +1882,1125 @@
         "NC",
         "Remote"
       ]
+    },
+    {
+      "name": "The Crew Network (TCN) \u2013 Fort Lauderdale",
+      "track": "marine-national",
+      "ats": "page",
+      "url": "https://www.crewnetwork.com/career-in-yachting/jobs-in-yachting/",
+      "location": "Fort Lauderdale, FL",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://www.crewnetwork.com/our-offices/tcn-fort-lauderdale-crew-agency/"
+      },
+      "note": "Research careers page verified by live HTTP request; robots checked. No public ATS API verified; HTML page-watch only.",
+      "researchRegion": "florida"
+    },
+    {
+      "name": "Crewfinders",
+      "track": "marine-national",
+      "ats": "page",
+      "url": "https://www.crewfinders.com/yacht-crew-job-positions.shtml",
+      "location": "Fort Lauderdale, FL",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://www.crewfinders.com/yacht-crew-job-positions.shtml"
+      },
+      "note": "Research careers page verified by live HTTP request; robots checked. No public ATS API verified; HTML page-watch only.",
+      "researchRegion": "florida"
+    },
+    {
+      "name": "All Ocean Yachts",
+      "track": "marine-national",
+      "ats": "page",
+      "url": "https://www.buyexploreryachts.com/exploreryacht-crewjobs.shtml",
+      "location": "Fort Lauderdale, FL",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://www.buyexploreryachts.com/exploreryacht-crewjobs.shtml"
+      },
+      "note": "Research careers page verified by live HTTP request; robots checked. No public ATS API verified; HTML page-watch only.",
+      "researchRegion": "florida"
+    },
+    {
+      "name": "Crew4Yachts",
+      "track": "marine-national",
+      "ats": "page",
+      "url": "https://www.meridiango.com/jobs",
+      "location": "Fort Lauderdale, FL",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://www.crew4yachts.net/"
+      },
+      "note": "Research careers page verified by live HTTP request; robots checked. No public ATS API verified; HTML page-watch only.",
+      "researchRegion": "florida"
+    },
+    {
+      "name": "Northrop & Johnson",
+      "track": "marine-national",
+      "ats": "page",
+      "url": "https://www.northropandjohnson.com/crew-placement/crew-jobs",
+      "location": "Fort Lauderdale, FL",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://www.northropandjohnson.com/"
+      },
+      "note": "Research careers page verified by live HTTP request; robots checked. No public ATS API verified; HTML page-watch only.",
+      "researchRegion": "florida"
+    },
+    {
+      "name": "Luxury Yacht Group",
+      "track": "marine-national",
+      "ats": "page",
+      "url": "https://www.luxyachts.com/find-work",
+      "location": "Fort Lauderdale, FL",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://www.luxyachts.com/"
+      },
+      "note": "Research careers page verified by live HTTP request; robots checked. No public ATS API verified; HTML page-watch only.",
+      "researchRegion": "florida"
+    },
+    {
+      "name": "Hill Robinson",
+      "track": "marine-national",
+      "ats": "page",
+      "url": "https://hillrobinson.com/crew-employment",
+      "location": "Fort Lauderdale, FL",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://www.hillrobinson.com/"
+      },
+      "note": "Research careers page verified by live HTTP request; robots checked. No public ATS API verified; HTML page-watch only.",
+      "researchRegion": "florida"
+    },
+    {
+      "name": "Insignia Crew",
+      "track": "marine-national",
+      "ats": "page",
+      "url": "https://insigniacrew.com/candidates/careers-hq/",
+      "location": "Fort Lauderdale, FL",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://www.insigniacrew.com/"
+      },
+      "note": "Research careers page verified by live HTTP request; robots checked. No public ATS API verified; HTML page-watch only.",
+      "researchRegion": "florida"
+    },
+    {
+      "name": "Magnolia Marine Transport",
+      "track": "marine-national",
+      "ats": "page",
+      "url": "https://www.magnoliamarine.com/careers",
+      "location": "Nationwide",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://www.magnoliamarine.com/careers"
+      },
+      "note": "Research careers page verified by live HTTP request; robots checked. No public ATS API verified; HTML page-watch only.",
+      "researchRegion": "national"
+    },
+    {
+      "name": "Ingram Barge Company",
+      "track": "marine-national",
+      "ats": "page",
+      "url": "https://careers.smartrecruiters.com/IngramBargeCompany",
+      "location": "Nationwide",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://careers.smartrecruiters.com/IngramBargeCompany"
+      },
+      "note": "Official SmartRecruiters careers page verified. The API robots.txt disallows this bot, so use only the allowed HTML careers page.",
+      "researchRegion": "national"
+    },
+    {
+      "name": "Canal Barge Company",
+      "track": "marine-national",
+      "ats": "workday",
+      "url": "https://canalbarge.wd5.myworkdayjobs.com/CBC",
+      "location": "Nationwide",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "method": "POST",
+        "url": "https://canalbarge.wd5.myworkdayjobs.com/wday/cxs/canalbarge/CBC/jobs",
+        "source": "https://www.canalbarge.com/careers/"
+      },
+      "note": "Workday API and robots verified; nine current postings returned.",
+      "host": "canalbarge.wd5.myworkdayjobs.com",
+      "tenant": "canalbarge",
+      "site": "CBC",
+      "maxPages": 5,
+      "researchRegion": "national"
+    },
+    {
+      "name": "Campbell Transportation Company",
+      "track": "marine-national",
+      "ats": "page",
+      "url": "https://www.ctcmarine.com/careers/",
+      "location": "Nationwide",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://www.ctcmarine.com/careers/"
+      },
+      "note": "Research careers page verified by live HTTP request; robots checked. No public ATS API verified; HTML page-watch only.",
+      "researchRegion": "national"
+    },
+    {
+      "name": "Crounse Corporation",
+      "track": "marine-national",
+      "ats": "page",
+      "url": "https://www.crounse.com/careers/",
+      "location": "Nationwide",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://www.crounse.com/careers/"
+      },
+      "note": "Research careers page verified by live HTTP request; robots checked. No public ATS API verified; HTML page-watch only.",
+      "researchRegion": "national"
+    },
+    {
+      "name": "Parker Towing",
+      "track": "marine-national",
+      "ats": "page",
+      "url": "https://www.parkertowing.com/careers",
+      "location": "Nationwide",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://www.parkertowing.com/careers/"
+      },
+      "note": "Research careers page verified by live HTTP request; robots checked. No public ATS API verified; HTML page-watch only.",
+      "researchRegion": "national"
+    },
+    {
+      "name": "Vane Brothers",
+      "track": "marine-national",
+      "ats": "page",
+      "url": "https://www.paycomonline.net/v4/ats/web.php/portal/2549D3747AFF851B44F885641C336D73/career-page",
+      "location": "Nationwide",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://www.vanebrothers.com/careers/"
+      },
+      "note": "Paycom careers page; no public API verified, so page-watch HTML only.",
+      "researchRegion": "national"
+    },
+    {
+      "name": "Broussard Brothers",
+      "track": "marine-national",
+      "ats": "page",
+      "url": "https://broussardbrothers.com/careers/",
+      "location": "Nationwide",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://www.broussardbrothers.com/careers/"
+      },
+      "note": "Research careers page verified by live HTTP request; robots checked. No public ATS API verified; HTML page-watch only.",
+      "researchRegion": "national"
+    },
+    {
+      "name": "Carver Companies",
+      "track": "marine-national",
+      "ats": "page",
+      "url": "https://www.carvercompanies.com/careers/",
+      "location": "Nationwide",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://www.carvercompanies.com/careers/"
+      },
+      "note": "Research careers page verified by live HTTP request; robots checked. No public ATS API verified; HTML page-watch only.",
+      "researchRegion": "national"
+    },
+    {
+      "name": "Harbor Docking and Towing",
+      "track": "marine-national",
+      "ats": "page",
+      "url": "https://harbordocking.com/careers/",
+      "location": "Nationwide",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://www.harbordocking.com/careers/"
+      },
+      "note": "Research careers page verified by live HTTP request; robots checked. No public ATS API verified; HTML page-watch only.",
+      "researchRegion": "national"
+    },
+    {
+      "name": "Orion Marine Construction",
+      "track": "marine-national",
+      "ats": "page",
+      "url": "https://www.oriongroupholdingsinc.com/careers",
+      "location": "Nationwide",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://www.orionmarinegroup.com/careers/"
+      },
+      "note": "Research careers page verified by live HTTP request; robots checked. No public ATS API verified; HTML page-watch only.",
+      "researchRegion": "national"
+    },
+    {
+      "name": "Vulcan Materials",
+      "track": "marine-national",
+      "ats": "page",
+      "url": "https://www.vulcanmaterials.com/careers",
+      "location": "Nationwide",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://www.vulcanmaterials.com/careers/"
+      },
+      "note": "Research careers page verified by live HTTP request; robots checked. No public ATS API verified; HTML page-watch only.",
+      "researchRegion": "national"
+    },
+    {
+      "name": "Foss Maritime",
+      "track": "marine-national",
+      "ats": "page",
+      "url": "https://careers.saltchuk.com/",
+      "location": "Nationwide",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://careers.saltchuk.com/Foss"
+      },
+      "note": "Research careers page verified by live HTTP request; robots checked. No public ATS API verified; HTML page-watch only.",
+      "researchRegion": "national"
+    },
+    {
+      "name": "SEACOR Marine",
+      "track": "marine-national",
+      "ats": "page",
+      "url": "https://seacormarine.com/careers/",
+      "location": "Nationwide",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://www.seacormarine.com/careers/"
+      },
+      "note": "Research careers page verified by live HTTP request; robots checked. No public ATS API verified; HTML page-watch only.",
+      "researchRegion": "national"
+    },
+    {
+      "name": "Tidewater",
+      "track": "marine-national",
+      "ats": "page",
+      "url": "https://www.tidewater.com/careers",
+      "location": "Nationwide",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://www.tidewater.com/careers/"
+      },
+      "note": "Research careers page verified by live HTTP request; robots checked. No public ATS API verified; HTML page-watch only.",
+      "researchRegion": "national"
+    },
+    {
+      "name": "Great Lakes Dredge & Dock",
+      "track": "marine-national",
+      "ats": "page",
+      "url": "https://gldd.com/careers/",
+      "location": "Nationwide",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://www.gldd.com/careers/"
+      },
+      "note": "Research careers page verified by live HTTP request; robots checked. No public ATS API verified; HTML page-watch only.",
+      "researchRegion": "national"
+    },
+    {
+      "name": "Weeks Marine",
+      "track": "marine-national",
+      "ats": "page",
+      "url": "https://kiewitcareers.kiewit.com/Weeks",
+      "location": "Nationwide",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://www.weeksmarine.com/careers/"
+      },
+      "note": "Research careers page verified by live HTTP request; robots checked. No public ATS API verified; HTML page-watch only.",
+      "researchRegion": "national"
+    },
+    {
+      "name": "Cashman Dredging",
+      "track": "marine-national",
+      "ats": "page",
+      "url": "https://www.jaycashman.com/careers/",
+      "location": "Nationwide",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://www.cashmandredging.com/"
+      },
+      "note": "Research careers page verified by live HTTP request; robots checked. No public ATS API verified; HTML page-watch only.",
+      "researchRegion": "national"
+    },
+    {
+      "name": "Manson Construction",
+      "track": "marine-national",
+      "ats": "page",
+      "url": "https://www.mansonconstruction.com/careers",
+      "location": "Nationwide",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://www.mansonconstruction.com/careers/"
+      },
+      "note": "Research careers page verified by live HTTP request; robots checked. No public ATS API verified; HTML page-watch only.",
+      "researchRegion": "national"
+    },
+    {
+      "name": "Dutra Group",
+      "track": "marine-national",
+      "ats": "page",
+      "url": "https://www.dutragroup.com/careers/",
+      "location": "Nationwide",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://www.dutragroup.com/careers/"
+      },
+      "note": "Research careers page verified by live HTTP request; robots checked. No public ATS API verified; HTML page-watch only.",
+      "researchRegion": "national"
+    },
+    {
+      "name": "Dredgit",
+      "track": "marine-national",
+      "ats": "page",
+      "url": "https://dredgit.com/careers/",
+      "location": "Nationwide",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://www.dredgit.com/careers/"
+      },
+      "note": "Research careers page verified by live HTTP request; robots checked. No public ATS API verified; HTML page-watch only.",
+      "researchRegion": "national"
+    },
+    {
+      "name": "Great Lakes Towing / Great Lakes Shipyard",
+      "track": "marine-national",
+      "ats": "page",
+      "url": "https://www.greatlakesgroup.com/careers/",
+      "location": "Nationwide",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://www.greatlakesgroup.com/careers/"
+      },
+      "note": "Research careers page verified by live HTTP request; robots checked. No public ATS API verified; HTML page-watch only.",
+      "researchRegion": "national"
+    },
+    {
+      "name": "NOAA Office of Marine and Aviation Operations",
+      "track": "marine-national",
+      "ats": "page",
+      "url": "https://marinerhiring.noaa.gov/",
+      "location": "Nationwide",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://www.omao.noaa.gov/marine-operations/ship-jobs/positions/deck/ordinary-seaman"
+      },
+      "note": "Research careers page verified by live HTTP request; robots checked. No public ATS API verified; HTML page-watch only.",
+      "researchRegion": "national"
+    },
+    {
+      "name": "Scripps Institution of Oceanography",
+      "track": "marine-national",
+      "ats": "page",
+      "url": "https://scripps.ucsd.edu/ships/jobs",
+      "location": "Nationwide",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://scripps.ucsd.edu/ships/jobs"
+      },
+      "note": "Research careers page verified by live HTTP request; robots checked. No public ATS API verified; HTML page-watch only.",
+      "researchRegion": "national"
+    },
+    {
+      "name": "Schmidt Ocean Institute",
+      "track": "marine-national",
+      "ats": "page",
+      "url": "https://schmidtocean.org/education/careers-at-sea/",
+      "location": "Nationwide",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://schmidtocean.org/education/careers-at-sea/"
+      },
+      "note": "Research careers page verified by live HTTP request; robots checked. No public ATS API verified; HTML page-watch only.",
+      "researchRegion": "national"
+    },
+    {
+      "name": "UNOLS / U.S. Academic Research Fleet",
+      "track": "marine-national",
+      "ats": "page",
+      "url": "https://www.unols.org/join-usarf",
+      "location": "Nationwide",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://www.unols.org/join-usarf"
+      },
+      "note": "Research careers page verified by live HTTP request; robots checked. No public ATS API verified; HTML page-watch only.",
+      "researchRegion": "national"
+    },
+    {
+      "name": "Washington State Ferries",
+      "track": "marine-national",
+      "ats": "page",
+      "url": "https://wsdot.wa.gov/employment/our-people/ferries/",
+      "location": "Nationwide",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://wsdot.wa.gov/employment/our-people/ferries/"
+      },
+      "note": "Research careers page verified by live HTTP request; robots checked. No public ATS API verified; HTML page-watch only.",
+      "researchRegion": "national"
+    },
+    {
+      "name": "NYC Ferry by Hornblower",
+      "track": "marine-national",
+      "ats": "page",
+      "url": "https://www.ferry.nyc/careers/",
+      "location": "Nationwide",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://www.ferry.nyc/careers/"
+      },
+      "note": "Research careers page verified by live HTTP request; robots checked. No public ATS API verified; HTML page-watch only.",
+      "researchRegion": "national"
+    },
+    {
+      "name": "Casco Bay Lines",
+      "track": "marine-national",
+      "ats": "page",
+      "url": "https://www.cascobaylines.com/about-us/career/",
+      "location": "Nationwide",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://www.cascobaylines.com/about-us/career/"
+      },
+      "note": "Research careers page verified by live HTTP request; robots checked. No public ATS API verified; HTML page-watch only.",
+      "researchRegion": "national"
+    },
+    {
+      "name": "Block Island Ferry / Interstate Navigation",
+      "track": "marine-national",
+      "ats": "page",
+      "url": "https://www.blockislandferry.com/careers/",
+      "location": "Nationwide",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://www.blockislandferry.com/careers/"
+      },
+      "note": "Research careers page verified by live HTTP request; robots checked. No public ATS API verified; HTML page-watch only.",
+      "researchRegion": "national"
+    },
+    {
+      "name": "Yacht StarShip",
+      "track": "marine-national",
+      "ats": "page",
+      "url": "https://yachtstarship.com/careers/",
+      "location": "Nationwide",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://www.yachtstarship.com/careers/"
+      },
+      "note": "Research careers page verified by live HTTP request; robots checked. No public ATS API verified; HTML page-watch only.",
+      "researchRegion": "national"
+    },
+    {
+      "name": "Fort Sumter Tours / SpiritLine Cruises (Aramark)",
+      "track": "marine-chs",
+      "ats": "page",
+      "url": "https://careers.aramark.com/",
+      "location": "Charleston & Mount Pleasant",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://careers.aramark.com/"
+      },
+      "note": "Research careers page verified by live HTTP request; robots checked. No public ATS API verified; HTML page-watch only.",
+      "researchRegion": "charleston"
+    },
+    {
+      "name": "Spirit of South Carolina",
+      "track": "marine-chs",
+      "ats": "page",
+      "url": "https://tallshipsamerica.org/billet-bank/",
+      "location": "Charleston",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://tallshipsamerica.org/"
+      },
+      "note": "Research careers page verified by live HTTP request; robots checked. No public ATS API verified; HTML page-watch only.",
+      "researchRegion": "charleston"
+    },
+    {
+      "name": "Moran Towing",
+      "track": "marine-chs",
+      "ats": "page",
+      "url": "https://www.morantug.com/careers-at-moran/",
+      "location": "Charleston / regional ports",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://www.morantug.com/careers-at-moran/"
+      },
+      "note": "Research careers page verified by live HTTP request; robots checked. No public ATS API verified; HTML page-watch only.",
+      "researchRegion": "charleston"
+    },
+    {
+      "name": "Colonial Group / Colonial Towing",
+      "track": "marine-chs",
+      "ats": "page",
+      "url": "https://jobs.dayforcehcm.com/en-US/colonialgroup/CANDIDATEPORTAL",
+      "location": "Charleston",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://www.colonialgroupinc.com/careers"
+      },
+      "note": "Research careers page verified by live HTTP request; robots checked. No public ATS API verified; HTML page-watch only.",
+      "researchRegion": "charleston"
+    },
+    {
+      "name": "O.E. DuRant",
+      "track": "marine-chs",
+      "ats": "page",
+      "url": "https://www.oedurant.com/About/Careers/",
+      "location": "Charleston",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://oedurant.com/"
+      },
+      "note": "Research careers page verified by live HTTP request; robots checked. No public ATS API verified; HTML page-watch only.",
+      "researchRegion": "charleston"
+    },
+    {
+      "name": "C&M Dredging",
+      "track": "marine-chs",
+      "ats": "page",
+      "url": "https://cmdredging.com/careers/",
+      "location": "Charleston",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://cmdredging.com/"
+      },
+      "note": "Research careers page verified by live HTTP request; robots checked. No public ATS API verified; HTML page-watch only.",
+      "researchRegion": "charleston"
+    },
+    {
+      "name": "Great Lakes Dredge & Dock",
+      "track": "marine-chs",
+      "ats": "page",
+      "url": "https://gldd.com/careers/",
+      "location": "Charleston / regional projects",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://www.gldd.com/careers/"
+      },
+      "note": "Research careers page verified by live HTTP request; robots checked. No public ATS API verified; HTML page-watch only.",
+      "researchRegion": "charleston"
+    },
+    {
+      "name": "Weeks Marine",
+      "track": "marine-chs",
+      "ats": "page",
+      "url": "https://kiewitcareers.kiewit.com/Weeks",
+      "location": "Charleston / regional projects",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://www.weeksmarine.com/careers/"
+      },
+      "note": "Research careers page verified by live HTTP request; robots checked. No public ATS API verified; HTML page-watch only.",
+      "researchRegion": "charleston"
+    },
+    {
+      "name": "Cashman Dredging & Marine Contracting",
+      "track": "marine-chs",
+      "ats": "page",
+      "url": "https://www.jaycashman.com/careers/",
+      "location": "Charleston / regional projects",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://www.cashmandredging.com/"
+      },
+      "note": "Research careers page verified by live HTTP request; robots checked. No public ATS API verified; HTML page-watch only.",
+      "researchRegion": "charleston"
+    },
+    {
+      "name": "South Carolina Ports Authority",
+      "track": "marine-chs",
+      "ats": "page",
+      "url": "https://scspa.com/contact-us/careers/",
+      "location": "Charleston / North Charleston / Mount Pleasant",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://scspa.com/contact-us/careers/"
+      },
+      "note": "Official SmartRecruiters careers page verified. The API robots.txt disallows this bot, so use only the allowed HTML careers page.",
+      "researchRegion": "charleston"
+    },
+    {
+      "name": "Newport News Shipbuilding / HII Charleston Operations",
+      "track": "marine-chs",
+      "ats": "page",
+      "url": "https://www.hii.com/careers",
+      "location": "Goose Creek",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://hii.com/careers/"
+      },
+      "note": "Research careers page verified by live HTTP request; robots checked. No public ATS API verified; HTML page-watch only.",
+      "researchRegion": "charleston"
+    },
+    {
+      "name": "Detyens Shipyards",
+      "track": "marine-chs",
+      "ats": "page",
+      "url": "https://www.detyens.com/job-opportunities-at-detyens-shipyards/",
+      "location": "North Charleston",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://detyens.com/"
+      },
+      "note": "Research careers page verified by live HTTP request; robots checked. No public ATS API verified; HTML page-watch only.",
+      "researchRegion": "charleston"
+    },
+    {
+      "name": "BAE Systems \u2013 Charleston Ship Repair",
+      "track": "marine-chs",
+      "ats": "page",
+      "url": "https://www.baesystems.com/en-us/careers",
+      "location": "North Charleston",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://www.baesystems.com/en-us/careers"
+      },
+      "note": "Research careers page verified by live HTTP request; robots checked. No public ATS API verified; HTML page-watch only.",
+      "researchRegion": "charleston"
+    },
+    {
+      "name": "City of Charleston",
+      "track": "marine-chs",
+      "ats": "workday",
+      "url": "https://www.charleston-sc.gov/1565/Employment-Opportunities",
+      "location": "Charleston, SC",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "method": "POST",
+        "url": "https://charlestonsc.wd5.myworkdayjobs.com/wday/cxs/charlestonsc/External/jobs",
+        "source": "https://www.charleston-sc.gov/1566/Employment-Opportunities"
+      },
+      "note": "Official site links to Workday; live JSON API returned 85 postings. Government source also reads this board without a track hint.",
+      "host": "charlestonsc.wd5.myworkdayjobs.com",
+      "tenant": "charlestonsc",
+      "site": "External",
+      "maxPages": 10,
+      "keywords": [
+        "deck",
+        "dock",
+        "boat",
+        "marina",
+        "marine",
+        "yacht",
+        "lifeguard",
+        "ocean rescue",
+        "seaman",
+        "ferry",
+        "tug",
+        "ship",
+        "sail"
+      ],
+      "researchRegion": "charleston"
+    },
+    {
+      "name": "Safe Harbor Marinas",
+      "track": "marine-chs",
+      "ats": "page",
+      "url": "https://safeharbor.com/careers/",
+      "location": "Charleston / Mount Pleasant / area",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://safeharbor.com/careers"
+      },
+      "note": "Research careers page verified by live HTTP request; robots checked. No public ATS API verified; HTML page-watch only.",
+      "researchRegion": "charleston"
+    },
+    {
+      "name": "Suntex Marinas",
+      "track": "marine-chs",
+      "ats": "page",
+      "url": "https://suntex.com/careers/",
+      "location": "Mount Pleasant / Charleston area",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://suntexmarinas.com/careers/"
+      },
+      "note": "Research careers page verified by live HTTP request; robots checked. No public ATS API verified; HTML page-watch only.",
+      "researchRegion": "charleston"
+    },
+    {
+      "name": "Shem Creek Marina",
+      "track": "marine-chs",
+      "ats": "page",
+      "url": "https://bowlinemarinas.com/careers/",
+      "location": "Mount Pleasant",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://shemcreekmarina.com/"
+      },
+      "note": "Research careers page verified by live HTTP request; robots checked. No public ATS API verified; HTML page-watch only.",
+      "researchRegion": "charleston"
+    },
+    {
+      "name": "Clark Island Marina",
+      "track": "marine-chs",
+      "ats": "page",
+      "url": "https://www.clarkislandmarina.com/careers",
+      "location": "Charleston",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://www.clarkislandmarina.com/careers"
+      },
+      "note": "Research careers page verified by live HTTP request; robots checked. No public ATS API verified; HTML page-watch only.",
+      "researchRegion": "charleston"
+    },
+    {
+      "name": "Seabrook Island Club / Seabrook Island Marina",
+      "track": "marine-chs",
+      "ats": "page",
+      "url": "https://www.seabrookisland.com/careers/",
+      "location": "Seabrook Island",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://www.seabrookisland.com/careers/"
+      },
+      "note": "Research careers page verified by live HTTP request; robots checked. No public ATS API verified; HTML page-watch only.",
+      "researchRegion": "charleston"
+    },
+    {
+      "name": "Kiawah Island Golf Resort / Kiawah Island Marina",
+      "track": "marine-chs",
+      "ats": "page",
+      "url": "https://kiawahresort.com/careers/job-listings/",
+      "location": "Kiawah Island",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://www.kiawahresort.com/careers/"
+      },
+      "note": "Research careers page verified by live HTTP request; robots checked. No public ATS API verified; HTML page-watch only.",
+      "researchRegion": "charleston"
+    },
+    {
+      "name": "Wild Dunes Resort \u2013 waterfront/marina",
+      "track": "marine-chs",
+      "ats": "page",
+      "url": "https://www.wilddunesresort.com/resort/careers/",
+      "location": "Isle of Palms",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://www.wilddunes.com/"
+      },
+      "note": "Research careers page verified by live HTTP request; robots checked. No public ATS API verified; HTML page-watch only.",
+      "researchRegion": "charleston"
+    },
+    {
+      "name": "Patriots Point Development Authority",
+      "track": "marine-chs",
+      "ats": "page",
+      "url": "https://www.patriotspoint.org/about/careers",
+      "location": "Mount Pleasant",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://www.patriotspoint.org/"
+      },
+      "note": "Research careers page verified by live HTTP request; robots checked. No public ATS API verified; HTML page-watch only.",
+      "researchRegion": "charleston"
+    },
+    {
+      "name": "Patriot\u2019s Point Marina",
+      "track": "marine-chs",
+      "ats": "page",
+      "url": "https://patriotspoint.org/about/careers",
+      "location": "Mount Pleasant",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://patriotspoint.org/"
+      },
+      "note": "Research careers page verified by live HTTP request; robots checked. No public ATS API verified; HTML page-watch only.",
+      "researchRegion": "charleston"
+    },
+    {
+      "name": "Charleston Harbor Resort & Marina / Charleston Harbor Marina / Beach Club",
+      "track": "marine-chs",
+      "ats": "page",
+      "url": "https://www.charlestonharborresort.com/careers.htm",
+      "location": "Mount Pleasant",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://www.charlestonharborresort.com/careers.htm"
+      },
+      "note": "Research careers page verified by live HTTP request; robots checked. No public ATS API verified; HTML page-watch only.",
+      "researchRegion": "charleston"
+    },
+    {
+      "name": "Longshore Boats",
+      "track": "marine-chs",
+      "ats": "page",
+      "url": "https://longshoreboats.com/career-opportunities",
+      "location": "Charleston / Daniel Island area",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://longshoreboats.com/career-opportunities"
+      },
+      "note": "Research careers page verified by live HTTP request; robots checked. No public ATS API verified; HTML page-watch only.",
+      "researchRegion": "charleston"
+    },
+    {
+      "name": "Ross Marine",
+      "track": "marine-chs",
+      "ats": "page",
+      "url": "https://www.rossmarine.com/careers",
+      "location": "Ravenel / Charleston",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://rossmarine.com/"
+      },
+      "note": "Research careers page verified by live HTTP request; robots checked. No public ATS API verified; HTML page-watch only.",
+      "researchRegion": "charleston"
+    },
+    {
+      "name": "Charleston Outdoor Adventures",
+      "track": "marine-chs",
+      "ats": "page",
+      "url": "https://www.charlestonoutdooradventures.com/employment/",
+      "location": "Charleston / Bowens Island",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://charlestonoutdooradventures.com/"
+      },
+      "note": "Research careers page verified by live HTTP request; robots checked. No public ATS API verified; HTML page-watch only.",
+      "researchRegion": "charleston"
+    },
+    {
+      "name": "Charleston Community Sailing",
+      "track": "marine-chs",
+      "ats": "page",
+      "url": "https://www.charlestoncommunitysailing.org/join-the-team",
+      "location": "Charleston",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://www.charlestoncommunitysailing.org/join-the-team"
+      },
+      "note": "Research careers page verified by live HTTP request; robots checked. No public ATS API verified; HTML page-watch only.",
+      "researchRegion": "charleston"
+    },
+    {
+      "name": "James Island Yacht Club",
+      "track": "marine-chs",
+      "ats": "page",
+      "url": "https://www.jiyc.org/Sailing/Junior_Sailing/Work_With_Us",
+      "location": "James Island",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://www.jiyc.org/Sailing/Junior_Sailing/Work_With_Us"
+      },
+      "note": "Research careers page verified by live HTTP request; robots checked. No public ATS API verified; HTML page-watch only.",
+      "researchRegion": "charleston"
+    },
+    {
+      "name": "South Carolina Aquarium",
+      "track": "marine-chs",
+      "ats": "page",
+      "url": "https://scaquarium.org/careers/",
+      "location": "Charleston",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://scaquarium.org/careers/"
+      },
+      "note": "Research careers page verified by live HTTP request; robots checked. No public ATS API verified; HTML page-watch only.",
+      "researchRegion": "charleston"
+    },
+    {
+      "name": "Express Watersports / Express Dive Center",
+      "track": "marine-local",
+      "ats": "page",
+      "url": "https://expresswatersports.com/work-at-express-watersports/",
+      "location": "Murrells Inlet",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://expresswatersports.com/work-at-express-watersports/"
+      },
+      "note": "Research careers page verified by live HTTP request; robots checked. No public ATS API verified; HTML page-watch only.",
+      "researchRegion": "grand-strand"
+    },
+    {
+      "name": "Downwind Sails Watersports",
+      "track": "marine-local",
+      "ats": "page",
+      "url": "https://www.downwindsailsmyrtlebeach.com/employment/",
+      "location": "Myrtle Beach",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://www.downwindsailsmyrtlebeach.com/employment/"
+      },
+      "note": "Research careers page verified by live HTTP request; robots checked. No public ATS API verified; HTML page-watch only.",
+      "researchRegion": "grand-strand"
+    },
+    {
+      "name": "Shoreline Watersports",
+      "track": "marine-local",
+      "ats": "page",
+      "url": "https://www.shorelinewatersports.com/careers/",
+      "location": "Myrtle Beach",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://www.shorelinewatersports.com/careers/"
+      },
+      "note": "Research careers page verified by live HTTP request; robots checked. No public ATS API verified; HTML page-watch only.",
+      "researchRegion": "grand-strand"
+    },
+    {
+      "name": "Marine Service Center",
+      "track": "marine-local",
+      "ats": "page",
+      "url": "https://www.scmarineservice.com/careers-jobs-employment-boats-dealership--xcareers",
+      "location": "Murrells Inlet",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://www.scmarineservice.com/careers-jobs-employment-boats-dealership--xcareers"
+      },
+      "note": "Research careers page verified by live HTTP request; robots checked. No public ATS API verified; HTML page-watch only.",
+      "researchRegion": "grand-strand"
+    },
+    {
+      "name": "Marshall\u2019s Marine",
+      "track": "marine-local",
+      "ats": "page",
+      "url": "https://www.marshallsmarine.com/apply-to-join-us--xcareers",
+      "location": "Georgetown",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://www.marshallsmarine.com/"
+      },
+      "note": "Research careers page verified by live HTTP request; robots checked. No public ATS API verified; HTML page-watch only.",
+      "researchRegion": "grand-strand"
+    },
+    {
+      "name": "Horry County Fire Rescue \u2013 Marine/Dive",
+      "track": "marine-local",
+      "ats": "page",
+      "url": "https://www.horrycountysc.gov/employment",
+      "location": "Horry County",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://www.horrycountysc.gov/employment"
+      },
+      "note": "Research careers page verified by live HTTP request; robots checked. No public ATS API verified; HTML page-watch only.",
+      "researchRegion": "grand-strand"
+    },
+    {
+      "name": "Gulf Stream Boat Club",
+      "track": "marine-local",
+      "ats": "page",
+      "url": "https://www.gulfstreamboatclub.com/careers/",
+      "location": "Regional; verify local operations",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://www.gulfstreamboatclub.com/careers/"
+      },
+      "note": "Research careers page verified by live HTTP request; robots checked. No public ATS API verified; HTML page-watch only.",
+      "researchRegion": "grand-strand"
+    },
+    {
+      "name": "Safe Harbor Marinas",
+      "track": "marine-local",
+      "ats": "page",
+      "url": "https://safeharbor.com/careers/",
+      "location": "Myrtle Beach, Pawleys Island, Georgetown",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://safeharbor.com/careers"
+      },
+      "note": "Research careers page verified by live HTTP request; robots checked. No public ATS API verified; HTML page-watch only.",
+      "researchRegion": "grand-strand"
+    },
+    {
+      "name": "Redline Powersports",
+      "track": "marine-local",
+      "ats": "page",
+      "url": "https://redlinepowersports.hireology.careers/",
+      "location": "Myrtle Beach",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://redlinepowersports.com/"
+      },
+      "note": "Research careers page verified by live HTTP request; robots checked. No public ATS API verified; HTML page-watch only.",
+      "researchRegion": "grand-strand"
     }
   ]
 }

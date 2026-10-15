@@ -18,3 +18,13 @@ test('keyed source without key reports missing key', async () => {
   assert.equal(report[0].ok, false);
   assert.match(report[0].error, /missing key/);
 });
+
+test('run summary prints every track, at most eight titles each, rejection counts and coverage lists', async () => {
+  const { printRunSummary } = await import('../../scripts/fetch-feed.mjs');
+  const lines = [];
+  printRunSummary({ jobs: Array.from({ length: 10 }, (_, i) => ({ track: 'marine-local', title: `Deckhand ${i}`, company: 'A' })), catchLog: { jobs: [{ kept: false, dropReason: 'senior' }, { kept: true, dropReason: null }] }, companies: { companies: [{ name: 'New Boats', researchRegion: 'grand-strand', ats: 'page', url: 'https://boats/jobs' }], _skipped: [{ name: 'Dead Boats', reason: '404' }] }, govfeeds: { feeds: [{ name: 'County', type: 'rss', url: 'https://county/rss' }], _skipped: [{ name: 'Blocked County', reason: 'robots' }] } }, line => lines.push(line));
+  const output = lines.join('\n');
+  for (const track of ['marine-local', 'marine-chs', 'marine-national', 'ai-web', 'tech-sales', 'quick-cash']) assert.ok(output.includes(track), track);
+  assert.match(output, /marine-local: 10/); assert.match(output, /Deckhand 7/); assert.doesNotMatch(output, /Deckhand 8/);
+  for (const text of ['senior: 1', 'New Boats', 'Dead Boats', 'County', 'Blocked County']) assert.ok(output.includes(text), text);
+});

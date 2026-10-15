@@ -27,10 +27,16 @@ export async function fetchJobs(ctx) {
       }
       case 'workday': {
         const base = `https://${entry.host}/wday/cxs/${encodeURIComponent(entry.tenant)}/${encodeURIComponent(entry.site)}`;
-        const data = await api.getJson(`${base}/jobs`, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ appliedFacets: {}, limit: 20, offset: 0, searchText: entry.searchText || '' }) });
-        jobs = (data.jobPostings || []).map(j => ({ title: j.title, location: j.locationsText || '', url: `https://${entry.host}/en-US/${entry.site}${j.externalPath}`, snippet: [j.timeType, ...(j.bulletFields || [])].filter(Boolean).join(' '), postedAt: null, _path: j.externalPath }));
+        const postings = [];
+        for (let page = 0; page < (entry.maxPages || 1); page++) {
+          const data = await api.getJson(`${base}/jobs`, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ appliedFacets: {}, limit: 20, offset: page * 20, searchText: entry.searchText || '' }) });
+          const batch = data.jobPostings || [];
+          postings.push(...batch);
+          if (batch.length < 20 || postings.length >= data.total) break;
+        }
+        jobs = postings.map(j => ({ title: j.title, location: j.locationsText || '', url: `https://${entry.host}/en-US/${entry.site}${j.externalPath}`, snippet: [j.timeType, ...(j.bulletFields || [])].filter(Boolean).join(' '), postedAt: null, _path: j.externalPath }));
         // Search results omit descriptions and sometimes locations. Details carry eligibility and pay.
-        jobs = jobs.filter(j => entryMatches(j, { ...entry, states: undefined }));
+        jobs = jobs.filter(j => entryMatches(j, { ...entry, states: undefined }) && (!ctx.acceptJob || ctx.acceptJob(j)));
         jobs = await collect(jobs, async job => {
           let detail;
           try { detail = (await api.getJson(`${base}${job._path}`)).jobPostingInfo; }
@@ -42,6 +48,6 @@ export async function fetchJobs(ctx) {
       }
       default: throw new Error(`Unsupported ATS: ${entry.ats}`);
     }
-    return jobs.filter(j => entryMatches(j, entry)).map(j => rawJob({ ...j, company: entry.name, source: name, trackHint: entry.track || undefined }));
+    return jobs.filter(j => entryMatches(j, entry) && (!ctx.acceptJob || ctx.acceptJob(j))).map(j => rawJob({ ...j, company: entry.name, source: name, trackHint: entry.track || undefined }));
   }, ctx, 3);
 }

@@ -89,6 +89,30 @@
     {
       "query": "junior web developer remote entry level",
       "track": "ai-web"
+    },
+    {
+      "query": "deckhand OR dockhand OR boat crew Myrtle Beach SC",
+      "track": "marine-local"
+    },
+    {
+      "query": "marina jobs Murrells Inlet SC",
+      "track": "marine-local"
+    },
+    {
+      "query": "boat captain jobs Myrtle Beach SC",
+      "track": "marine-local"
+    },
+    {
+      "query": "deckhand OR mate Charleston SC",
+      "track": "marine-chs"
+    },
+    {
+      "query": "marina dockhand Charleston SC",
+      "track": "marine-chs"
+    },
+    {
+      "query": "yacht crew live aboard Fort Lauderdale",
+      "track": "marine-national"
     }
   ],
   "remote": [

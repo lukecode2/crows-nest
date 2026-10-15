@@ -206,3 +206,6 @@ main { min-width: 0; min-height: 65vh; padding-top: 22px; }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
 }
+
+.flag-chip.flag-good { color: var(--foam); border-color: #7fd1c14d; }
+.flag-chip.flag-muted { color: var(--mist); background: transparent; }

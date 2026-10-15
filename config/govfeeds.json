@@ -1,0 +1,165 @@
+{
+  "_verifiedAt": "2026-10-15",
+  "_notes": "Only live, machine-readable, robots-permitted feeds enabled. No trackHint: the classifier decides. The SC county restriction is retained on skipped state entries for future authorized feeds. RSS supports CivicPlus/NEOGOV-compatible RSS; JSON and Workday adapters are covered by offline fixtures.",
+  "feeds": [
+    {
+      "name": "Georgetown County",
+      "type": "rss",
+      "url": "https://www.gtcountysc.gov/RSSFeed.aspx?CommunityJobs=False&ModID=66&CID=All-0",
+      "location": "Georgetown County, SC",
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "source": "https://www.gtcountysc.gov/Rss.aspx#cityJobs",
+        "items": 2,
+        "robots": "https://www.gtcountysc.gov/robots.txt"
+      }
+    },
+    {
+      "name": "City of Charleston",
+      "type": "workday",
+      "host": "charlestonsc.wd5.myworkdayjobs.com",
+      "tenant": "charlestonsc",
+      "site": "External",
+      "location": "Charleston, SC",
+      "maxPages": 10,
+      "verifiedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "method": "POST",
+        "url": "https://charlestonsc.wd5.myworkdayjobs.com/wday/cxs/charlestonsc/External/jobs",
+        "source": "https://www.charleston-sc.gov/1566/Employment-Opportunities",
+        "total": 85,
+        "robots": "https://charlestonsc.wd5.myworkdayjobs.com/robots.txt"
+      }
+    }
+  ],
+  "_skipped": [
+    {
+      "name": "City of Myrtle Beach",
+      "url": "https://www.governmentjobs.com/careers/myrtlebeach",
+      "source": "https://www.governmentjobs.com/careers/myrtlebeach",
+      "checkedAt": "2026-10-15",
+      "reason": "GovernmentJobs / NEOGOV robots.txt disallows User-agent: * at /. No crawling or guessed API requests; no accessible authorized machine-readable feed verified.",
+      "robots": "https://www.governmentjobs.com/robots.txt",
+      "verification": {
+        "robotsStatus": 200
+      }
+    },
+    {
+      "name": "City of North Myrtle Beach",
+      "url": "https://www.governmentjobs.com/careers/nmb",
+      "source": "https://www.nmb.us/378/Employment---How-to-Apply",
+      "checkedAt": "2026-10-15",
+      "reason": "GovernmentJobs / NEOGOV robots.txt disallows User-agent: * at /. No crawling or guessed API requests; no accessible authorized machine-readable feed verified.",
+      "robots": "https://www.governmentjobs.com/robots.txt",
+      "verification": {
+        "robotsStatus": 200
+      }
+    },
+    {
+      "name": "Horry County",
+      "url": "https://www.governmentjobs.com/careers/horrycountysc",
+      "source": "https://www.horrycountysc.gov/employment",
+      "checkedAt": "2026-10-15",
+      "reason": "GovernmentJobs / NEOGOV robots.txt disallows User-agent: * at /. No crawling or guessed API requests; no accessible authorized machine-readable feed verified.",
+      "robots": "https://www.governmentjobs.com/robots.txt",
+      "verification": {
+        "robotsStatus": 200
+      }
+    },
+    {
+      "name": "Charleston County",
+      "url": "https://www.governmentjobs.com/careers/charlestoncounty",
+      "source": "https://www.governmentjobs.com/careers/charlestoncounty",
+      "checkedAt": "2026-10-15",
+      "reason": "GovernmentJobs / NEOGOV robots.txt disallows User-agent: * at /. No crawling or guessed API requests; no accessible authorized machine-readable feed verified.",
+      "robots": "https://www.governmentjobs.com/robots.txt",
+      "verification": {
+        "robotsStatus": 200
+      }
+    },
+    {
+      "name": "State of South Carolina",
+      "url": "https://www.governmentjobs.com/careers/sc",
+      "source": "https://jobs.sc.gov/",
+      "checkedAt": "2026-10-15",
+      "reason": "GovernmentJobs / NEOGOV robots.txt disallows User-agent: * at /. No crawling or guessed API requests; no accessible authorized machine-readable feed verified.",
+      "robots": "https://www.governmentjobs.com/robots.txt",
+      "verification": {
+        "robotsStatus": 200
+      },
+      "counties": [
+        "Horry",
+        "Georgetown",
+        "Charleston",
+        "Berkeley",
+        "Dorchester"
+      ]
+    },
+    {
+      "name": "SCDNR",
+      "url": "https://www.governmentjobs.com/careers/sc",
+      "source": "https://dnr.sc.gov/admin/dnrhr.html",
+      "checkedAt": "2026-10-15",
+      "reason": "GovernmentJobs / NEOGOV robots.txt disallows User-agent: * at /. No crawling or guessed API requests; no accessible authorized machine-readable feed verified.",
+      "robots": "https://www.governmentjobs.com/robots.txt",
+      "verification": {
+        "robotsStatus": 200
+      },
+      "counties": [
+        "Horry",
+        "Georgetown",
+        "Charleston",
+        "Berkeley",
+        "Dorchester"
+      ]
+    },
+    {
+      "name": "Charleston County Parks & Recreation",
+      "url": "https://selfserve.ccprc.com/ess/employmentopportunities",
+      "source": "https://www.ccprc.com/jobs/",
+      "checkedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "finalUrl": "https://selfserve.ccprc.com/ess/common/Upgrade.aspx"
+      },
+      "reason": "Official Munis employment link redirects to Upgrade Browser; no machine-readable feed verified."
+    },
+    {
+      "name": "City of North Charleston",
+      "url": "https://www.northcharleston.org/government/city_departments/human_resources/apply_for_a_job.php",
+      "checkedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "robotsStatus": 404
+      },
+      "reason": "Official page lists application forms and HTML vacancies; no RSS or JSON feed linked or verified."
+    },
+    {
+      "name": "Town of Mount Pleasant",
+      "url": "https://www.tompsc.com/",
+      "source": "https://www.tompsc.com/",
+      "checkedAt": "2026-10-15",
+      "careersUrl": "https://us62e2.dayforcehcm.com/",
+      "verification": {
+        "status": 200,
+        "robotsStatus": 200
+      },
+      "reason": "Official Jobs link uses Dayforce; its robots.txt disallows /. No authorized machine-readable feed verified.",
+      "robots": "https://us62e2.dayforcehcm.com/robots.txt"
+    },
+    {
+      "name": "SC Ports Authority",
+      "url": "https://careers.smartrecruiters.com/SouthCarolinaPortsAuthority",
+      "source": "https://scspa.com/contact-us/careers/",
+      "checkedAt": "2026-10-15",
+      "verification": {
+        "status": 200,
+        "robotsStatus": 200
+      },
+      "reason": "Official SmartRecruiters careers page verified, but api.smartrecruiters.com robots.txt disallows this bot. HTML page-watch configured in companies.json; no JSON feed enabled.",
+      "robots": "https://api.smartrecruiters.com/robots.txt"
+    }
+  ]
+}

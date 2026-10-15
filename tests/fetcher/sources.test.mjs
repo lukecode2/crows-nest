@@ -45,7 +45,7 @@ test('weekly sweep reads local jobs and uses the normal feed pipeline; missing o
     assert.deepEqual(await sweep.fetchJobs(ctx), []);
   }
   const items = [
-    { title: 'Junior Software Engineer', company: 'A', url: 'https://a/job', source: 'browser', trackHint: 'ai-web', snippet: 'Entry level' },
+    { title: 'Junior Software Engineer', company: 'A', location: 'Remote', url: 'https://a/job', source: 'browser', trackHint: 'ai-web', snippet: 'Entry level' },
     { title: 'AI Platform Engineer', company: 'B', url: 'https://b/job', trackHint: 'ai-web' },
     { title: 'Cruise Ship Crew', company: 'C', url: 'https://c/job' }
   ];
@@ -102,12 +102,19 @@ test('pagewatch respects robots, baselines first run, resolves URLs and emits on
   await assert.rejects(pagewatch.fetchJobs(ctx), /robots/);
 });
 
-test('JSearch caps calls at two and rotates across three slots', async () => {
+test('JSearch uses one local and one other call per run, rotates each pool and limits technical experience', async () => {
   const calls = [];
-  const searches = { jsearch: Array.from({ length: 12 }, (_, i) => ({ query: `query${i}`, track: 'marine-local' })) };
-  for (const runSlot of [0, 1, 2]) await jsearch.fetchJobs(context({ env: { RAPIDAPI_KEY: 'test' }, searches, runSlot, http: { getJson: async url => { calls.push(new URL(url).searchParams.get('query')); return { data: [] }; } } }));
+  const searches = { jsearch: [
+    ...['marine-local', 'marine-chs', 'quick-cash'].map((track, i) => ({ query: `local${i}`, track })),
+    ...['ai-web', 'tech-sales', 'marine-national'].map((track, i) => ({ query: `rest${i}`, track }))
+  ] };
+  for (const runSlot of [0, 1, 2]) await jsearch.fetchJobs(context({ env: { RAPIDAPI_KEY: 'test' }, searches, runSlot, http: { getJson: async url => { calls.push(new URL(url).searchParams); return { data: [] }; } } }));
   assert.equal(calls.length, 6);
-  assert.equal(new Set(calls).size, 6);
+  assert.equal(new Set(calls.map(p => p.get('query'))).size, 6);
+  for (let i = 0; i < calls.length; i += 2) {
+    assert.match(calls[i].get('query'), /^local/); assert.match(calls[i + 1].get('query'), /^rest/);
+  }
+  for (const params of calls) assert.equal(params.get('job_requirements'), ['rest0', 'rest1'].includes(params.get('query')) ? 'no_experience,under_3_years_experience' : null);
 });
 
 test('remote boards keep only matching titles', async () => {
@@ -185,4 +192,11 @@ test('JSearch uses search-v2 and reads data.jobs with publisher', async () => {
   assert.equal(jobs.length, 1);
   assert.equal(jobs[0].trackHint, 'marine-chs');
   assert.match(jobs[0].snippet, /^via Indeed\./);
+});
+
+test('salary formatter labels annual pay for Adzuna and preserves government pay periods', async () => {
+  const { pay } = await import('../../scripts/lib/source-utils.mjs');
+  assert.equal(pay(40000, 55000), '$40,000–$55,000/year');
+  assert.equal(pay(18, 25), '$18–$25/hour');
+  assert.equal(pay(55602, 72285, 'Per Year'), '$55,602–$72,285/Per Year');
 });

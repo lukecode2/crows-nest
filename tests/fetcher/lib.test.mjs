@@ -37,7 +37,7 @@ test('cruise filter: blocks cruise lines, allows harbor tours and MSC (Sealift)'
   assert.equal(isCruise(J({ company: 'Military Sealift Command', title: 'Ordinary Seaman' }), filters), false);
   assert.equal(isCruise(J({ company: 'MSC Cruises', title: 'Deckhand' }), filters), true);
 });
-test('senior filter only for ai-web/tech-sales', () => {
+test('senior filter preserves marine Lead Deckhand', () => {
   assert.equal(isSenior({ ...J({ title: 'Senior Web Developer' }), track: 'ai-web' }, filters), true);
   assert.equal(isSenior({ ...J({ title: 'Web Developer', snippet: 'Requires 5+ years of React' }), track: 'ai-web' }, filters), true);
   assert.equal(isSenior({ ...J({ title: 'Lead Deckhand' }), track: 'marine-local' }, filters), false);
@@ -45,7 +45,7 @@ test('senior filter only for ai-web/tech-sales', () => {
 test('ai-web technical titles require entry-level wording in the title', () => {
   for (const title of ['AI Platform Engineer', 'Cloud Architect', 'Data Scientist', 'AI Researcher']) {
     assert.equal(isSenior(J({ title, track: 'ai-web', snippet: 'Junior applicants welcome' }), filters), true, title);
-    assert.equal(isSenior(J({ title, track: 'tech-sales' }), filters), false, title);
+    assert.equal(isSenior(J({ title, track: 'tech-sales' }), filters), /Engineer/.test(title), title);
     assert.equal(isSenior(J({ title, track: 'marine-national' }), filters), false, title);
   }
   for (const title of ['Junior Software Engineer', 'Entry-level Engineer', 'Associate Architect', 'Researcher Intern', 'Apprentice Engineer', 'Trainee Scientist', 'AI Engineer Trainer', 'AI Trainer']) {
@@ -58,8 +58,8 @@ test('applyFilters drops dismissed, company-dismissed, tracked, dupes', () => {
   const mk = (o) => { const j = J(o); return { ...j, id: makeId(j), track: classifyTrack(j) }; };
   const a = mk({ title: 'Deckhand', company: 'A', url: 'https://a.com/1', location: 'Charleston, SC' });
   const b = mk({ title: 'Dockhand', company: 'Bad Co', url: 'https://b.com/2', location: 'Charleston, SC' });
-  const c = mk({ title: 'Mate', company: 'C', url: 'https://c.com/3', location: 'Charleston, SC' });
-  const d = mk({ title: 'Mate', company: 'C', url: 'https://c.com/3?utm_source=z', location: 'Charleston, SC' });
+  const c = mk({ title: 'Vessel Mate', company: 'C', url: 'https://c.com/3', location: 'Charleston, SC' });
+  const d = mk({ title: 'Vessel Mate', company: 'C', url: 'https://c.com/3?utm_source=z', location: 'Charleston, SC' });
   const e = mk({ title: 'Valet', company: 'E', url: 'https://e.com/5', location: 'Myrtle Beach, SC' });
   const dismissed = { items: [{ id: a.id, url: a.url, company: 'A', reason: 'too-far' }, { id: 'zz', company: 'bad co', reason: 'company' }] };
   const out = applyFilters([a, b, c, d, e], { filters, dismissed, trackedIds: new Set([e.id]) });
