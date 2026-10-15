@@ -144,3 +144,12 @@ test('round 3: senior on all tracks, language gigs, far club listings, predicted
   assert.equal(jobs[0].pay, '');
   assert.notEqual(jobs[1].pay, '');
 });
+
+test('a re-fetched job replaces its stored copy (stale predicted pay cannot survive)', () => {
+  const nowIso = '2026-10-15T22:00:00.000Z';
+  const raw = { title: 'Host, Olive and Sea - Hilton Fort Lauderdale Marina', company: 'Hilton', location: 'Sunrise, Broward County', url: 'https://example.com/host', pay: '', source: 'adzuna', trackHint: 'marine-national', snippet: '' };
+  const first = buildFeed([], [{ ...raw, pay: '$57,198.54/year' }], { nowIso, filters: {}, dismissed: { items: [] }, trackedIds: new Set() });
+  assert.equal(first.length, 1);
+  const second = buildFeed(first, [raw], { nowIso, filters: {}, dismissed: { items: [] }, trackedIds: new Set() });
+  assert.equal(second.length, 0);
+});

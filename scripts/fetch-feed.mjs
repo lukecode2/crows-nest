@@ -51,7 +51,10 @@ function normalizeJob(raw, previous = false) {
 }
 function candidates(prev, incoming, nowIso) {
   const prior = new Map(prev.map(j => [j.id, j]));
-  return [...prev.map(j => normalizeJob(j, true)), ...incoming.map(j => normalizeJob(j))].map(j => ({ ...j, firstSeenAt: prior.get(j.id)?.firstSeenAt || j.firstSeenAt || nowIso, ...scoreJob(j) }));
+  const fresh = incoming.map(j => normalizeJob(j));
+  const freshIds = new Set(fresh.map(j => j.id));
+  // A job fetched again this run replaces its stored copy, so corrected fields (e.g. pay) win.
+  return [...prev.filter(j => !freshIds.has(j.id)).map(j => normalizeJob(j, true)), ...fresh].map(j => ({ ...j, firstSeenAt: prior.get(j.id)?.firstSeenAt || j.firstSeenAt || nowIso, ...scoreJob(j) }));
 }
 export function buildFeed(prev, incoming, options) {
   const cutoff = Date.parse(options.nowIso) - 30 * 86400000;
