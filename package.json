@@ -1,0 +1,11 @@
+{
+  "name": "crows-nest",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "test": "node --test",
+    "feed": "node scripts/fetch-feed.mjs",
+    "feed:dry": "node scripts/fetch-feed.mjs --dry"
+  }
+}
