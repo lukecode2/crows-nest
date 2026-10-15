@@ -176,3 +176,13 @@ test('USAJOBS passes required authentication and maps vessel jobs', async () => 
   assert.equal(jobs[0].pay, '$20–$25/hour');
   for (const source of [usajobs, jsearch]) await assert.rejects(source.fetchJobs(context()), /missing key/);
 });
+
+test('JSearch uses search-v2 and reads data.jobs with publisher', async () => {
+  let called = '';
+  const jobs = await jsearch.fetchJobs(context({ env: { RAPIDAPI_KEY: 'test' }, searches: { jsearch: [{ query: 'deckhand jobs in Charleston, SC', track: 'marine-chs' }] }, runSlot: 0,
+    http: { getJson: async url => { called = url; return { status: 'OK', data: { jobs: [{ job_title: 'Deckhand', employer_name: 'Harbor Co', job_city: 'Charleston', job_state: 'South Carolina', job_apply_link: 'https://www.indeed.com/viewjob?jk=1', job_publisher: 'Indeed', job_description: 'Entry level', job_posted_at_datetime_utc: '2026-10-14T22:00:00.000Z' }], cursor: 'x' } }; } } }));
+  assert.match(called, /\/search-v2\?/);
+  assert.equal(jobs.length, 1);
+  assert.equal(jobs[0].trackHint, 'marine-chs');
+  assert.match(jobs[0].snippet, /^via Indeed\./);
+});
