@@ -1,7 +1,7 @@
 {
   "version": 1,
   "directory": {},
-  "updatedAt": "2026-10-16T00:40:32.409Z",
+  "updatedAt": "2026-10-16T18:55:29.689Z",
   "settings": {
     "weeklyGoal": 10,
     "followUpDays": 7
@@ -778,6 +778,36 @@
         {
           "stage": "dockside",
           "at": "2026-10-16T00:40:32.409Z"
+        }
+      ]
+    },
+    {
+      "id": "t_mvbbvd7ccnreaov",
+      "feedId": "62ad48dd388396740be1daa1b3aaaeb5d7298eff",
+      "company": "Stagwell Global",
+      "role": "Part Time Promotional Specialist - Bacardi",
+      "track": "quick-cash",
+      "location": "Myrtle Beach, SC",
+      "link": "https://www.adzuna.com/details/5813780127",
+      "pay": "$30/hour",
+      "stage": "castoff",
+      "dateApplied": "2026-10-16",
+      "lastFollowUp": null,
+      "contact": {
+        "name": "",
+        "email": "",
+        "phone": ""
+      },
+      "notes": "",
+      "reqs": [],
+      "nextAction": "",
+      "nextDue": null,
+      "createdAt": "2026-10-16T18:55:29.689Z",
+      "updatedAt": "2026-10-16T18:55:29.689Z",
+      "history": [
+        {
+          "stage": "castoff",
+          "at": "2026-10-16T18:55:29.689Z"
         }
       ]
     }
