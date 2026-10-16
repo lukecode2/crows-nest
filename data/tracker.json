@@ -1,7 +1,7 @@
 {
   "version": 1,
   "directory": {},
-  "updatedAt": "2026-10-15T00:00:00Z",
+  "updatedAt": "2026-10-16T00:19:41.118Z",
   "settings": {
     "weeklyGoal": 10,
     "followUpDays": 7
@@ -628,6 +628,36 @@
         {
           "stage": "dockside",
           "at": "2026-10-15T00:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "t_mva80fcujwq61rn",
+      "feedId": "ba05040002af8a9ac9ca2ca5c72474c2ac5fe7db",
+      "company": "PointClickCare",
+      "role": "(US) Sales Development Representative",
+      "track": "tech-sales",
+      "location": "Remote",
+      "link": "https://jobicy.com/jobs/155279-us-sales-development-representative",
+      "pay": "",
+      "stage": "dockside",
+      "dateApplied": null,
+      "lastFollowUp": null,
+      "contact": {
+        "name": "",
+        "email": "",
+        "phone": ""
+      },
+      "notes": "",
+      "reqs": [],
+      "nextAction": "",
+      "nextDue": null,
+      "createdAt": "2026-10-16T00:19:41.118Z",
+      "updatedAt": "2026-10-16T00:19:41.118Z",
+      "history": [
+        {
+          "stage": "dockside",
+          "at": "2026-10-16T00:19:41.118Z"
         }
       ]
     }
