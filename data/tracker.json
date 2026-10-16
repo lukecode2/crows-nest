@@ -1,7 +1,7 @@
 {
   "version": 1,
   "directory": {},
-  "updatedAt": "2026-10-16T18:55:29.689Z",
+  "updatedAt": "2026-10-16T18:55:40.269Z",
   "settings": {
     "weeklyGoal": 10,
     "followUpDays": 7
@@ -808,6 +808,36 @@
         {
           "stage": "castoff",
           "at": "2026-10-16T18:55:29.689Z"
+        }
+      ]
+    },
+    {
+      "id": "t_mvbbvld9zxmfayr",
+      "feedId": "8450951ce927e3ff815fbd778d3872b151394676",
+      "company": "Rhino Staging",
+      "role": "Event Stagehand - Myrtle Beach",
+      "track": "quick-cash",
+      "location": "Myrtle Beach, SC",
+      "link": "https://www.adzuna.com/details/5878282106",
+      "pay": "$19–$20/hour",
+      "stage": "castoff",
+      "dateApplied": "2026-10-16",
+      "lastFollowUp": null,
+      "contact": {
+        "name": "",
+        "email": "",
+        "phone": ""
+      },
+      "notes": "",
+      "reqs": [],
+      "nextAction": "",
+      "nextDue": null,
+      "createdAt": "2026-10-16T18:55:40.269Z",
+      "updatedAt": "2026-10-16T18:55:40.269Z",
+      "history": [
+        {
+          "stage": "castoff",
+          "at": "2026-10-16T18:55:40.269Z"
         }
       ]
     }
