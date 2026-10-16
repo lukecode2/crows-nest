@@ -1,4 +1,17 @@
 {
   "about": "Jobs Luke dismissed. Fetcher never re-shows these; AIs read this to tune filters.",
-  "items": []
+  "items": [
+    {
+      "id": "dd5662ddda6fef60fed7f0c8d5ddcf9de9c97fb7",
+      "title": "Remote Junior Web Developer - HTML/CSS/JS",
+      "company": "The Elite Job",
+      "location": "",
+      "url": "https://www.theelitejob.com/job/15937/remote-junior-web-developer-html-css-js",
+      "source": "jsearch",
+      "track": "ai-web",
+      "reason": "not-interested",
+      "note": "too competive, it already has 9k views",
+      "dismissedAt": "2026-10-16T00:15:32.849Z"
+    }
+  ]
 }
