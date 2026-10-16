@@ -1,7 +1,7 @@
 {
   "version": 1,
   "directory": {},
-  "updatedAt": "2026-10-16T00:21:50.261Z",
+  "updatedAt": "2026-10-16T00:23:46.822Z",
   "settings": {
     "weeklyGoal": 10,
     "followUpDays": 7
@@ -688,6 +688,36 @@
         {
           "stage": "dockside",
           "at": "2026-10-16T00:21:50.261Z"
+        }
+      ]
+    },
+    {
+      "id": "t_mva85oxykiywbq1",
+      "feedId": "4b28407df0b2643339a4e1e7784ac7ac7409c936",
+      "company": "TeamDynamix",
+      "role": "Sales Development Representative, High Growth B2B SaaS (Remote)",
+      "track": "tech-sales",
+      "location": "Remote",
+      "link": "https://www.indeed.com/viewjob?jk=47606fe5a4b36c66",
+      "pay": "$55,000 - $60,000 a year",
+      "stage": "dockside",
+      "dateApplied": null,
+      "lastFollowUp": null,
+      "contact": {
+        "name": "",
+        "email": "",
+        "phone": ""
+      },
+      "notes": "",
+      "reqs": [],
+      "nextAction": "",
+      "nextDue": null,
+      "createdAt": "2026-10-16T00:23:46.822Z",
+      "updatedAt": "2026-10-16T00:23:46.822Z",
+      "history": [
+        {
+          "stage": "dockside",
+          "at": "2026-10-16T00:23:46.822Z"
         }
       ]
     }
