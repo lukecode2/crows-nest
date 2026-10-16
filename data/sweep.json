@@ -1,6 +1,6 @@
 {
   "about": "Jobs found by Claude's weekly browser sweep",
-  "sweptAt": "2026-10-16T18:23:06.679Z",
+  "sweptAt": "2026-10-16T20:05:27.573Z",
   "items": [
     {
       "title": "Assistant Dockmaster - Deep Point Marina",
@@ -192,6 +192,42 @@
       "url": "https://www.simplyhired.com/job/crfU45an2vE5jxq6IGwywCmpsTzKR_R8uT0XEEV0xy5b6Ak-ZYbmRQ",
       "postedAt": "2026-10-13T12:00:00Z",
       "snippet": "Valet/bell at Ocean 22 resort, daily pay, benefits day one. Needs 6 months customer service (he has valet + brand ambassador) and manual-transmission driving.",
+      "trackHint": "quick-cash"
+    },
+    {
+      "title": "Marina Forklift Operator",
+      "company": "Inlet Watch Yacht Club",
+      "location": "Wilmington, NC",
+      "remote": false,
+      "pay": "$20/hr in training, $22/hr after",
+      "url": "https://www.simplyhired.com/job/AKLwZnri7SSz7M4lEaoq5od6Vtb5VhHveAqEo9GT8blBOvKhqo-bgA",
+      "postedAt": "2026-10-16T12:00:00Z",
+      "snippet": "Full-time dry-stack marina job: forklift boats in and out of the water and keep the launch docks clear. Paid training, health/dental, PTO. Only a driver's licence required. Weekends required.",
+      "source": "sweep",
+      "trackHint": "marine-local"
+    },
+    {
+      "title": "Detailer",
+      "company": "Camping World",
+      "location": "Myrtle Beach, SC",
+      "remote": false,
+      "pay": "$14.00–$16.82/hr",
+      "url": "https://www.simplyhired.com/job/SADO6PSAaQ_9PYP_UUowDvTj7F-P6xPJiLLL61De1s0Rp16E2QXndg",
+      "postedAt": "2026-10-10T12:00:00Z",
+      "snippet": "Full-time detailer at the RV and boat dealership: clean and prep RVs for sale, may cross-train on forklift. Benefits incl. health and 401(k). Needs a driver's licence.",
+      "source": "sweep",
+      "trackHint": "quick-cash"
+    },
+    {
+      "title": "Marketing and Event Coordinator",
+      "company": "Grand Strand Health and Wellness",
+      "location": "Murrells Inlet, SC",
+      "remote": false,
+      "pay": "$35,000–$55,000/year",
+      "url": "https://www.simplyhired.com/job/taLMBNbL2d58jcDJZ19MMLXmsQjz5qJpzKORFYp07VkWiYB-tUL68Q",
+      "postedAt": "2026-10-14T12:00:00Z",
+      "snippet": "Entry-level full-time role running community events, local partnerships and social media. Wants 1 yr promotional experience (his brand ambassador work fits). Apply with resume + why, mention something from their website.",
+      "source": "sweep",
       "trackHint": "quick-cash"
     }
   ]
