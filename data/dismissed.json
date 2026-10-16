@@ -24,6 +24,18 @@
       "reason": "needs-experience",
       "note": "",
       "dismissedAt": "2026-10-16T00:16:51.721Z"
+    },
+    {
+      "id": "d1add3a7ef63f1899747aab9668cecb6846fe0c6",
+      "title": "Retail Sales Associate (Seasonal)-HWY 17-$13/hr",
+      "company": "New Balance",
+      "location": "Myrtle Beach, Horry County",
+      "url": "https://www.adzuna.com/details/5920366000?utm_medium=api&utm_source=ea9765bf",
+      "source": "adzuna",
+      "track": "tech-sales",
+      "reason": "pay-too-low",
+      "note": "",
+      "dismissedAt": "2026-10-16T00:17:02.471Z"
     }
   ]
 }
