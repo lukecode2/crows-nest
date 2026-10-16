@@ -1,5 +1,5 @@
 ---
-description: Weekly browser sweep for jobs the feed robot can't reach (Indeed, yacht boards, local listings)
+description: Weekly browser sweep for jobs the feed robot can't reach (SimplyHired/Indeed, yacht boards, local listings)
 ---
 
 You are doing Luke's weekly job sweep for Crow's Nest. The GitHub Action already pulls Adzuna, USAJOBS,
@@ -15,10 +15,12 @@ read search-result lists, don't open every listing. Aim for ~15 searches and sto
    Hard rules: no cruise ships or cruise lines; no senior or high-experience tech roles.
 
 ## Where to look (results posted in the last 7 days)
-- Indeed: deckhand / dockhand / marina / boat captain trainee in Myrtle Beach SC, Murrells Inlet, North Myrtle
-  Beach, Charleston SC, Fort Lauderdale FL; valet + brand ambassador in Myrtle Beach; remote entry-level SDR;
-  remote AI trainer / data annotation.
-- Yacht crew: Yotspot (deck, delivery crew), The Crew Network, Cotton Crews, Bluewater, Dockwalk classifieds,
+- SimplyHired (carries Indeed's listings; Indeed itself Cloudflare-blocks the extension). Use
+  `simplyhired.com/search?q=<terms>&l=<city>&t=7`: deckhand / dockhand / marina / boat in Myrtle Beach SC,
+  Murrells Inlet, North Myrtle Beach, Charleston SC, Wilmington NC, Fort Lauderdale FL; valet, brand ambassador,
+  event, detailer in Myrtle Beach; remote entry-level SDR; remote AI trainer / data annotation. Skip "seasonal":
+  it's all mall retail under $15/hr. Fallback: Bing's jobs panel (search "<role> jobs <city> apply").
+- Yacht crew: The Crew Network, Cotton Crews, Bluewater, Dockwalk classifieds (Yotspot's search filters don't work),
   daywork posts for Fort Lauderdale (boat show is Oct 28 – Nov 1 each year: look harder in October).
 - Local: Craigslist Myrtle Beach + Charleston (jobs › marine/transport, general labor, sales), marina and
   charter websites in Murrells Inlet / NMB / Charleston with "now hiring" pages.

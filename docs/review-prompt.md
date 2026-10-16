@@ -16,6 +16,14 @@ Use these distance rules:
 - Unknown pay can justify investigating a far-away role only when it is not clearly low-wage shore work. Do not recommend distant low-paid dock/retail/attendant jobs. Treat sales-development/SDR, business-development-rep/BDR, and retail titles as low-wage shore work for this rule.
 - Far-away nonremote AI/web or tech-sales work needs the same high-pay threshold; unknown pay is worth checking only for roles outside those low-wage categories.
 
+The feed also rejects these on purpose (see `scripts/lib/fit.mjs`), so only recommend one when the posting shows the gate was wrong:
+
+- A listed top rate under $15/hour. Generic store retail unless it pays $15+/hour or is a tech/marine retailer or brand agency.
+- Commission-only pay, postings that need another language, and account-executive roles not marked associate/junior/entry.
+- Remote jobs open only outside the US.
+- Marine jobs that need a captain's licence, MMC rating or other credential he must already hold. "Must obtain", "preferred" and "will train" are fine.
+- Other careers (medical, legal, trades, CDL, kitchen, cleaning, warehouse, cashier) and repost-farm aggregators.
+
 Return a short, ranked shortlist table:
 
 | title | company | location | pay | why it's worth a look | url |
