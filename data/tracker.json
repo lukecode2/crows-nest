@@ -1,7 +1,7 @@
 {
   "version": 1,
   "directory": {},
-  "updatedAt": "2026-10-16T00:25:43.633Z",
+  "updatedAt": "2026-10-16T00:40:32.409Z",
   "settings": {
     "weeklyGoal": 10,
     "followUpDays": 7
@@ -748,6 +748,36 @@
         {
           "stage": "dockside",
           "at": "2026-10-16T00:25:43.633Z"
+        }
+      ]
+    },
+    {
+      "id": "t_mva8r8uw3z9w6iu",
+      "feedId": "ea71b1d024e3629eaf80fb65cbc068a2efef10ff",
+      "company": "City of Charleston",
+      "role": "Lead Dockhand",
+      "track": "marine-chs",
+      "location": "Charleston Maritime Center Building",
+      "link": "https://charlestonsc.wd5.myworkdayjobs.com/en-US/External/job/Charleston-Maritime-Center-Building/Lead-Dockhand_JR101600",
+      "pay": "",
+      "stage": "dockside",
+      "dateApplied": null,
+      "lastFollowUp": null,
+      "contact": {
+        "name": "",
+        "email": "",
+        "phone": ""
+      },
+      "notes": "",
+      "reqs": [],
+      "nextAction": "",
+      "nextDue": null,
+      "createdAt": "2026-10-16T00:40:32.409Z",
+      "updatedAt": "2026-10-16T00:40:32.409Z",
+      "history": [
+        {
+          "stage": "dockside",
+          "at": "2026-10-16T00:40:32.409Z"
         }
       ]
     }
