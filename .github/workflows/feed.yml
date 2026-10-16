@@ -24,6 +24,7 @@ jobs:
           USAJOBS_API_KEY: ${{ secrets.USAJOBS_API_KEY }}
           USAJOBS_EMAIL: ${{ secrets.USAJOBS_EMAIL }}
           RAPIDAPI_KEY: ${{ secrets.RAPIDAPI_KEY }}
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
       - name: Commit feed
         run: |
           git config user.name "crows-nest-bot"

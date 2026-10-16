@@ -91,3 +91,26 @@ test('merge compares instants correctly when ISO timestamps omit milliseconds', 
   assert.equal(merged.jobs[0].notes, 'newer');
   assert.equal(merged.settings.weeklyGoal, 12);
 });
+
+test('pitchFor picks the intro that fits the track and names the job', () => {
+  const marine = L.pitchFor({ track: 'marine-local', title: 'Marina Forklift Operator', company: 'Inlet Watch Yacht Club' });
+  assert.match(marine, /^Hi, I'm Luke Smith and I'd like to apply for the Marina Forklift Operator role at Inlet Watch Yacht Club\./);
+  assert.match(marine, /1,000\+ hours at the helm/);
+  assert.match(marine, /STCW Basic/);
+  assert.match(L.pitchFor({ track: 'tech-sales', title: 'Sales Development Representative', company: 'Fieldwire' }), /product demos at Best Buy/);
+  assert.match(L.pitchFor({ track: 'quick-cash', title: 'Seasonal Brand Ambassador', company: 'Ralph Lauren' }), /product demos at Best Buy/);
+  assert.match(L.pitchFor({ track: 'quick-cash', title: 'Bellperson & Valet', company: 'Hilton Grand Vacations' }), /valet/);
+  assert.match(L.pitchFor({ track: 'ai-web', title: 'AI Trainer', company: 'iMerit' }), /real-estate website/);
+});
+
+test('pitchFor trims location and shift details off long titles', () => {
+  assert.match(L.pitchFor({ track: 'quick-cash', title: 'Bellperson & Valet (Part-time) - Ocean 22', company: 'Hilton Grand Vacations' }), /for the Bellperson & Valet role at Hilton/);
+  assert.match(L.pitchFor({ track: 'quick-cash', title: 'Event Staff Team Member - John T. Rhodes Myrtle Beach Sports Center', company: 'X' }), /for the Event Staff Team Member role/);
+  assert.match(L.pitchFor({ track: 'quick-cash', title: '', company: '' }), /apply for this role\./);
+});
+
+test('pitchFor writes a business pitch for freelance leads', () => {
+  const lead = L.pitchFor({ track: 'ai-web', title: 'Freelance lead: Salty Charters — add online booking', company: 'Salty Charters' });
+  assert.match(lead, /^Hi, I'm Luke Smith, a web developer here in Myrtle Beach\./);
+  assert.match(lead, /add online booking/);
+});

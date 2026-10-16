@@ -1,5 +1,5 @@
 import { STAGES, TRACKS } from '../config.js';
-import { feedJobToTracker, localToday, daysBetween, safeUrl } from '../logic.js';
+import { feedJobToTracker, localToday, daysBetween, safeUrl, pitchFor } from '../logic.js';
 import { h, button, trackChip, pageHeading, field, sheet, toast, confirmInline, dateLabel } from '../ui.js';
 export function voyage(store) {
   const jobs = store.state.tracker.jobs;
@@ -68,6 +68,10 @@ export function openJob(store, existing) {
     h('div', { class: 'sheet-actions' }, h('button', { type: 'submit', class: 'button primary' }, 'Save changes'), button('Mark followed up', () => {
       stage = 'hailed'; inputs.lastFollowUp.value = localToday();
       if (persist()) { drawStages(); toast('Hail logged for today.'); }
+    }, 'button secondary'), button('Copy pitch', async () => {
+      const text = pitchFor({ title: role.value, company: company.value, track: track.value });
+      try { await navigator.clipboard.writeText(text); toast('Pitch copied. Paste it into the application.'); }
+      catch (_) { notes.value = (notes.value ? notes.value + '\n\n' : '') + text; notes.focus(); toast('Pitch added to Notes — copy it from there.'); }
     }, 'button secondary'), existing && button('Delete', async e => {
       const trigger = e.currentTarget; trigger.disabled = true;
       const confirmed = await confirmInline(form, 'Delete this job from your voyage log?');

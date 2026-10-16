@@ -1,5 +1,5 @@
 import { TRACKS, DISMISS_REASONS } from '../config.js';
-import { safeUrl } from '../logic.js';
+import { safeUrl, pitchFor } from '../logic.js';
 import { dispatchFeed } from '../github.js';
 import { h, button, trackChip, pageHeading, empty, ago, toast, field } from '../ui.js';
 export function nest(store, ui) {
@@ -35,8 +35,19 @@ export function nest(store, ui) {
       })),
       h('div', { class: 'match-row' }, h('span', { class: 'score-line', role: 'meter', 'aria-label': 'Match score', 'aria-valuemin': 0, 'aria-valuemax': 100, 'aria-valuenow': score }, h('i', { style: { width: score + '%' } })), h('span', { class: 'small muted' }, `${score} match`)),
       h('p', { class: 'job-source small muted' }, `${job.source || 'Direct'} · ${ago(job.postedAt || job.firstSeenAt)}`),
-      h('div', { class: 'card-actions' }, button('Save', () => { store.saveFeedJob(job, 'dockside'); toast('Safely docked. Find it in The Voyage.'); }, 'button secondary'), button('Applied', () => { store.saveFeedJob(job, 'castoff'); toast('Cast off! Application added to this week’s voyage.'); }, 'button primary'), button('Dismiss', e => dismissPanel(card, job, e.currentTarget), 'button quiet')));
+      h('div', { class: 'card-actions' }, button('Save', () => { store.saveFeedJob(job, 'dockside'); toast('Safely docked. Find it in The Voyage.'); }, 'button secondary'), button('Applied', () => { store.saveFeedJob(job, 'castoff'); toast('Cast off! Application added to this week’s voyage.'); }, 'button primary'), button('Pitch', e => pitchPanel(card, job, e.currentTarget), 'button quiet'), button('Dismiss', e => dismissPanel(card, job, e.currentTarget), 'button quiet')));
     return card;
+  }
+  function pitchPanel(card, job, trigger) {
+    const open = card.querySelector('.pitch-panel');
+    if (open) { open.remove(); return; }
+    const text = h('textarea', { rows: 8, class: 'selectable', value: pitchFor(job), 'aria-label': 'Your pitch' });
+    const panel = h('div', { class: 'dismiss-panel pitch-panel' }, h('h3', {}, 'Your pitch'), h('p', { class: 'small muted' }, 'Paste it into the application’s note or “Why you?” box. Tweak it first if you like.'), text,
+      h('div', { class: 'button-row' }, button('Copy pitch', async () => {
+        try { await navigator.clipboard.writeText(text.value); toast('Pitch copied. Paste it into the application.'); }
+        catch (_) { text.focus(); text.select(); toast('Text selected — use Copy on your device.'); }
+      }, 'button primary'), button('Close', () => { panel.remove(); trigger.focus(); }, 'button secondary')));
+    card.append(panel); text.focus(); text.setSelectionRange(0, 0); text.scrollTop = 0;
   }
   function dismissPanel(card, job, trigger) {
     if (card.querySelector('.dismiss-panel')) return;

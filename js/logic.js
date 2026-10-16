@@ -85,3 +85,21 @@ export function mergeTrackers(local = {}, remote = {}) {
     jobs: mergeItems(local.jobs, remote.jobs).filter(j => !deletedJobs[j.id] || editTime(j) > instant(deletedJobs[j.id])),
     reqs: mergeItems(local.reqs, remote.reqs), directory, ...(Object.keys(deletedJobs).length ? { deletedJobs } : {}) };
 }
+
+// Short intros for Quick Apply notes and "Why you?" boxes. Every claim comes from his résumé.
+const PITCHES = {
+  marine: 'I have 1,000+ hours at the helm and 8 seasons of marina work: I ran charters and towed watersports for groups of up to 15 at Pinecrest Marina, and launched, fueled, cleaned and covered boats at Freedom Boat Club. I hold STCW Basic (Sea School Charleston, 2025), a driver\'s license and a US passport, and I\'m ready to build saltwater experience.',
+  sales: 'I\'ve run live product demos at Best Buy for Meta, Amazon Fire TV and SimpliSafe as a brand ambassador with 2020 Companies, ActionLink and BDS Connected Solutions. I consistently met KPIs and sales goals, trained store staff on client products, and I\'m comfortable starting conversations with shoppers all day.',
+  cash: 'I\'ve worked valet in high-volume hospitality settings (HPS in Charleston, Evolution Parking in Myrtle Beach) and brand-ambassador demos at Best Buy, so I\'m used to fast-paced, guest-facing work. I\'m local to Myrtle Beach and can start right away.',
+  aiweb: 'I designed and built a full real-estate website for a local agent using AI-assisted development, including property search, lead capture and an admin dashboard, so I work with AI tools hands-on. I\'m detail-oriented and pick up new guidelines quickly.'
+};
+const PROMO = /\b(?:ambassador|demo\w*|promot\w*|sales|merchandis\w*|marketing|event|brand)\b/i;
+// "Bellperson & Valet (Part-time) - Ocean 22" reads better as "Bellperson & Valet".
+const shortTitle = title => String(title || '').split(/\s+[-–—|]\s+|\s*\(/)[0].trim();
+export function pitchFor(job) {
+  const lead = String(job.title || '').match(/^freelance lead:\s*(.+?)\s*[—–-]\s*(.+)$/i);
+  if (lead) return `Hi, I'm Luke Smith, a web developer here in Myrtle Beach. I came across ${job.company || lead[1]} and had an idea: ${lead[2].replace(/[.\s]+$/, '')}. I recently built a full real-estate website for a local agent, with property search, lead capture and an admin dashboard. I'd be glad to put together a quick mockup for you, no strings attached.`;
+  const kind = String(job.track || '').startsWith('marine-') ? 'marine' : job.track === 'tech-sales' ? 'sales' : job.track === 'ai-web' ? 'aiweb' : PROMO.test(job.title || '') ? 'sales' : 'cash';
+  const title = shortTitle(job.title);
+  return `Hi, I'm Luke Smith and I'd like to apply for ${title ? `the ${title} role` : 'this role'}${job.company ? ` at ${job.company}` : ''}. ${PITCHES[kind]} I'd welcome the chance to talk. Thank you!`;
+}

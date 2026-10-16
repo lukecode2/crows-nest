@@ -9,6 +9,7 @@ import { scoreJob } from './lib/score.mjs';
 import { mergeFeed } from './lib/merge.mjs';
 import { checkLinks } from './lib/linkcheck.mjs';
 import { rawJob, iso } from './lib/source-utils.mjs';
+import { hotJobs, sendAlert } from './lib/alert.mjs';
 import * as adzuna from './sources/adzuna.mjs';
 import * as usajobs from './sources/usajobs.mjs';
 import * as jsearch from './sources/jsearch.mjs';
@@ -140,6 +141,9 @@ export async function main(argv = process.argv.slice(2)) {
     await writeJson(resolve(root, 'data/feed.json'), { generatedAt: now.toISOString(), sources: report, jobs });
     await writeJson(resolve(root, 'data/pagewatch.json'), state);
     await writeJson(resolve(root, 'data/all-jobs.json'), catchLog);
+    const hot = hotJobs(prev.jobs || [], jobs);
+    try { if (await sendAlert(hot, { topic: process.env.NTFY_TOPIC })) console.log(`Phone alert: ${hot.length} new hot jobs`); }
+    catch (error) { console.warn(`Phone alert failed: ${error.message}`); }
   }
   printRunSummary({ jobs, catchLog, companies, govfeeds });
   return { jobs, report, catchLog };
