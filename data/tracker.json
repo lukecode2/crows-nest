@@ -1,7 +1,7 @@
 {
   "version": 1,
   "directory": {},
-  "updatedAt": "2026-10-16T00:23:46.822Z",
+  "updatedAt": "2026-10-16T00:25:43.633Z",
   "settings": {
     "weeklyGoal": 10,
     "followUpDays": 7
@@ -718,6 +718,36 @@
         {
           "stage": "dockside",
           "at": "2026-10-16T00:23:46.822Z"
+        }
+      ]
+    },
+    {
+      "id": "t_mva8872pyt3pboa",
+      "feedId": "270244b81b933ebf457129a0a521aec190de56cd",
+      "company": "LegiStorm",
+      "role": "Sales Development Representative -- Remote Position",
+      "track": "tech-sales",
+      "location": "Remote",
+      "link": "https://www.indeed.com/viewjob?jk=45a309e382ca946f",
+      "pay": "$55,000 - $70,000 a year",
+      "stage": "dockside",
+      "dateApplied": null,
+      "lastFollowUp": null,
+      "contact": {
+        "name": "",
+        "email": "",
+        "phone": ""
+      },
+      "notes": "",
+      "reqs": [],
+      "nextAction": "",
+      "nextDue": null,
+      "createdAt": "2026-10-16T00:25:43.633Z",
+      "updatedAt": "2026-10-16T00:25:43.633Z",
+      "history": [
+        {
+          "stage": "dockside",
+          "at": "2026-10-16T00:25:43.633Z"
         }
       ]
     }
