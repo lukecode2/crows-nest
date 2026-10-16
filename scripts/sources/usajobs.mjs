@@ -7,7 +7,7 @@ export async function fetchJobs(ctx) {
     const data = await client(ctx).getJson(`https://data.usajobs.gov/api/search?${params}`, { headers: { Host: 'data.usajobs.gov', 'User-Agent': ctx.env.USAJOBS_EMAIL, 'Authorization-Key': ctx.env.USAJOBS_API_KEY } });
     return (data.SearchResult?.SearchResultItems || []).map(item => {
       const j = item.MatchedObjectDescriptor, salary = j.PositionRemuneration?.[0];
-      return rawJob({ title: j.PositionTitle, company: j.OrganizationName || j.DepartmentName || '', location: j.PositionLocationDisplay || '', url: j.PositionURI || j.ApplyURI?.[0], postedAt: iso(j.PublicationStartDate), snippet: [j.UserArea?.Details?.JobSummary, j.QualificationSummary, j.UserArea?.Details?.Requirements].filter(Boolean).join(' '), pay: salary ? pay(salary.MinimumRange, salary.MaximumRange, salary.Description || salary.RateIntervalCode) : '', source: name, trackHint: 'marine-national' });
+      return rawJob({ title: j.PositionTitle, company: j.OrganizationName || j.DepartmentName || '', location: j.PositionLocationDisplay || '', url: j.PositionURI || j.ApplyURI?.[0], postedAt: iso(j.PublicationStartDate), snippet: [j.UserArea?.Details?.JobSummary, j.QualificationSummary, j.UserArea?.Details?.Requirements].filter(Boolean).join(' '), pay: salary ? pay(salary.MinimumRange, salary.MaximumRange, salary.Description || salary.RateIntervalCode) : '', closesAt: iso(j.ApplicationCloseDate), source: name, trackHint: 'marine-national' });
     });
   }, ctx);
 }

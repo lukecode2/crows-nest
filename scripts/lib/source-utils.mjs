@@ -17,8 +17,9 @@ export function pay(min, max, interval = '') {
   const amount = min != null && max != null && Number(min) !== Number(max) ? `$${number(min)}–$${number(max)}` : `$${number(min ?? max)}`;
   return `${amount}/${interval || (Number(max ?? min) < 200 ? 'hour' : 'year')}`;
 }
+// `eligible` is the board's own "who can apply" text (e.g. "USA, Canada"), kept so remoteAbroad() can read it.
 export function remoteJobs(jobs) {
-  return jobs.filter(j => SALES.test(j.title) || WEB.test(j.title)).map(j => ({ ...j, remote: true, location: 'Remote', trackHint: SALES.test(j.title) ? (TEMP.test(`${j.title} ${j.snippet}`) ? 'quick-cash' : 'tech-sales') : 'ai-web' }));
+  return jobs.filter(j => SALES.test(j.title) || WEB.test(j.title)).map(({ eligible, ...j }) => ({ ...j, remote: true, location: eligible ? `Remote — ${cleanText(eligible, 120)}` : 'Remote', trackHint: SALES.test(j.title) ? (TEMP.test(`${j.title} ${j.snippet}`) ? 'quick-cash' : 'tech-sales') : 'ai-web' }));
 }
 // A broken company/query must not discard other successful results. All failing is a source error.
 export async function collect(entries, worker, ctx, concurrency = 3) {

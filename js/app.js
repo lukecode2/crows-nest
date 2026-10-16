@@ -11,7 +11,7 @@ const routes = [
   ['voyage', '⛵', 'The Voyage', 'Voyage'], ['harbor', '⚓', 'Harbor', 'Harbor'], ['papers', '▤', 'Ship’s Papers', 'Papers'], ['settings', '⚙', 'Settings', 'Settings']
 ];
 const store = createStore({ sample: new URLSearchParams(location.search).get('sample') === '1' });
-const viewState = { track: 'all', search: '', sort: 'score', newOnly: false };
+const viewState = { track: 'all', search: '', sort: 'score', newOnly: false, fastOnly: false };
 const main = document.getElementById('main');
 const renderers = { helm, nest, voyage, harbor, papers, settings };
 let previousRoute;

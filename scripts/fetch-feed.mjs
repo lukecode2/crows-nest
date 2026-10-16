@@ -7,6 +7,7 @@ import { classifyTrack } from './lib/classify.mjs';
 import { applyFilters, dropReason, roleKey } from './lib/filter.mjs';
 import { scoreJob } from './lib/score.mjs';
 import { mergeFeed } from './lib/merge.mjs';
+import { checkLinks } from './lib/linkcheck.mjs';
 import { rawJob, iso } from './lib/source-utils.mjs';
 import * as adzuna from './sources/adzuna.mjs';
 import * as usajobs from './sources/usajobs.mjs';
@@ -15,13 +16,12 @@ import * as remotive from './sources/remotive.mjs';
 import * as remoteok from './sources/remoteok.mjs';
 import * as jobicy from './sources/jobicy.mjs';
 import * as himalayas from './sources/himalayas.mjs';
-import * as arbeitnow from './sources/arbeitnow.mjs';
 import * as wwr from './sources/wwr.mjs';
 import * as ats from './sources/ats.mjs';
 import * as pagewatch from './sources/pagewatch.mjs';
 import * as sweep from './sources/sweep.mjs';
 import * as govjobs from './sources/govjobs.mjs';
-export const sources = [adzuna, usajobs, jsearch, remotive, remoteok, jobicy, himalayas, arbeitnow, wwr, ats, pagewatch, sweep, govjobs];
+export const sources = [adzuna, usajobs, jsearch, remotive, remoteok, jobicy, himalayas, wwr, ats, pagewatch, sweep, govjobs];
 
 export async function runSources(list, ctx) {
   const results = await Promise.all(list.map(async source => {
@@ -49,23 +49,25 @@ function normalizeJob(raw, previous = false) {
   const normalized = { ...rest, title: cleanText(job.title, Infinity), company: cleanText(job.company, Infinity), location: cleanText(job.location, Infinity), url: String(job.url || ''), pay: cleanText(job.pay, Infinity), remote: Boolean(job.remote), postedAt: iso(job.postedAt), snippet: cleanText(job.snippet, Infinity) };
   return { ...normalized, id: previous && job.id ? job.id : makeId(normalized), track: previous && job.track ? job.track : classifyTrack({ ...normalized, trackHint }) };
 }
-function candidates(prev, incoming, nowIso) {
+// Sources that return their whole current list every run: a stored job they no longer return was filled or pulled.
+export const EXHAUSTIVE_SOURCES = ['usajobs', 'govjobs', 'sweep'];
+function candidates(prev, incoming, nowIso, refreshed = new Set()) {
   const prior = new Map(prev.map(j => [j.id, j]));
   const fresh = incoming.map(j => normalizeJob(j));
   const freshIds = new Set(fresh.map(j => j.id));
   // A job fetched again this run replaces its stored copy, so corrected fields (e.g. pay) win.
-  return [...prev.filter(j => !freshIds.has(j.id)).map(j => normalizeJob(j, true)), ...fresh].map(j => ({ ...j, firstSeenAt: prior.get(j.id)?.firstSeenAt || j.firstSeenAt || nowIso, ...scoreJob(j) }));
+  return [...prev.filter(j => !freshIds.has(j.id) && !refreshed.has(j.source)).map(j => normalizeJob(j, true)), ...fresh].map(j => ({ ...j, firstSeenAt: prior.get(j.id)?.firstSeenAt || j.firstSeenAt || nowIso, ...scoreJob(j) }));
 }
 export function buildFeed(prev, incoming, options) {
   const cutoff = Date.parse(options.nowIso) - 30 * 86400000;
-  const filtered = applyFilters(candidates(prev, incoming, options.nowIso).filter(j => Date.parse(j.firstSeenAt) >= cutoff), options);
+  const filtered = applyFilters(candidates(prev, incoming, options.nowIso, options.refreshed).filter(j => Date.parse(j.firstSeenAt) >= cutoff), options);
   return mergeFeed([], filtered, options.nowIso).map(j => ({ ...j, snippet: cleanText(j.snippet) }));
 }
 export const CATCH_ABOUT = 'Every job the robot saw this run, kept or not. Give this file plus docs/review-prompt.md to any AI to find good jobs the filters missed.';
 export function buildCatchLog(prev, incoming, kept, options) {
   const keptIds = new Set(kept.map(j => j.id));
   const seenKept = new Set();
-  const all = candidates(prev, incoming, options.nowIso);
+  const all = candidates(prev, incoming, options.nowIso, options.refreshed);
   const cities = [...new Set(all.flatMap(j => [j.location, ...(j.otherLocations || [])].map(l => String(l || '').replace(/\s*\(\+\d+ more\)$/, '').split(',')[0])))];
   const keptRoles = new Set(kept.map(j => roleKey(j, cities)));
   const jobs = all.sort((a, b) => (Date.parse(b.postedAt || b.firstSeenAt) || 0) - (Date.parse(a.postedAt || a.firstSeenAt) || 0)).map(job => {
@@ -121,8 +123,16 @@ export async function main(argv = process.argv.slice(2)) {
   ]);
   const now = new Date();
   const { jobs: raw, report } = await runSources(sources, { env: process.env, searches, companies, govfeeds, http, log: message => console.warn(message), now, runSlot: Math.floor(now.getUTCHours() / 8), state });
-  const options = { filters, dismissed, trackedIds: new Set((tracker.jobs || []).flatMap(j => [j.feedId, j.id]).filter(Boolean)), nowIso: now.toISOString() };
-  const jobs = buildFeed(prev.jobs || [], raw, options);
+  const refreshed = new Set(report.filter(r => r.ok && EXHAUSTIVE_SOURCES.includes(r.name)).map(r => r.name));
+  let options = { filters, dismissed, trackedIds: new Set((tracker.jobs || []).flatMap(j => [j.feedId, j.id]).filter(Boolean)), nowIso: now.toISOString(), refreshed };
+  let jobs = buildFeed(prev.jobs || [], raw, options);
+  if (!argv.includes('--no-linkcheck')) {
+    // Filled and closed postings otherwise sit in the feed for 30 days.
+    const { dead, checked, checkedAt } = await checkLinks(jobs, { nowIso: options.nowIso });
+    options = { ...options, deadIds: dead };
+    jobs = buildFeed(prev.jobs || [], raw, options).map(j => checked.has(j.id) ? { ...j, linkCheckedAt: checkedAt } : j);
+    console.log(`Link check: ${checked.size} pages opened, ${dead.size} filled or closed`);
+  }
   const catchLog = buildCatchLog(prev.jobs || [], raw, jobs, options);
   for (const r of report) console.log(`${r.name}: ${r.ok ? `${r.count} jobs` : `FAILED (${r.error})`}`);
   console.log(`${argv.includes('--dry') ? 'Dry run' : 'Feed'}: ${jobs.length} jobs after filtering and merge (${raw.length} fetched)`);

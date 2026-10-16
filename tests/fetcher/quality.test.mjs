@@ -54,17 +54,18 @@ test('distance rule drops far shore work and preserves local work, live aboard a
   assert.equal(applyFilters([job('Marina Receptionist', { location: 'Miami, FL', pay: '' })]).length, 0); // far shore marina job, no pay: Luke only moves for boat or high-pay work
   assert.equal(applyFilters([job('Marina Receptionist', { location: 'Miami, FL', pay: '$18/hr' })]).length, 0);
   assert.equal(applyFilters([job('Valet', { track: 'quick-cash', location: 'Miami, FL', pay: '$100/hr' })]).length, 0);
-  for (const track of ['tech-sales', 'ai-web']) {
-    assert.equal(applyFilters([job('Sales Development Representative', { track, location: 'Mundelein, Lake County' })]).length, 0);
-    assert.equal(applyFilters([job('Web Developer', { track, location: 'Chicago, IL', pay: '$18/hr' })]).length, 0);
-    assert.ok(applyFilters([job('Web Developer', { track, location: 'Chicago, IL' })])[0].flags.includes('pay-unknown'));
-    assert.ok(applyFilters([job('Web Developer', { track, location: 'Chicago, IL', pay: '$55,000/year' })])[0].flags.includes('high-pay'));
-    assert.equal(applyFilters([job('Sales Development Representative', { track, location: 'Remote' })]).length, 1);
-    assert.equal(applyFilters([job('Sales Development Representative', { track, remote: true, location: 'Chicago, IL' })]).length, 1);
+  // Each track only keeps its own kind of work (see fit.test.mjs), so use a fitting title per track.
+  for (const [track, title, onsite] of [['tech-sales', 'Sales Development Representative', 'Solutions Sales Specialist'], ['ai-web', 'AI Trainer', 'Junior Web Developer']]) {
+    assert.equal(applyFilters([job('Sales Development Representative', { track: 'tech-sales', location: 'Mundelein, Lake County' })]).length, 0);
+    assert.equal(applyFilters([job(onsite, { track, location: 'Chicago, IL', pay: '$18/hr' })]).length, 0);
+    assert.ok(applyFilters([job(onsite, { track, location: 'Chicago, IL' })])[0].flags.includes('pay-unknown'));
+    assert.ok(applyFilters([job(onsite, { track, location: 'Chicago, IL', pay: '$55,000/year' })])[0].flags.includes('high-pay'));
+    assert.equal(applyFilters([job(title, { track, location: 'Remote' })]).length, 1);
+    assert.equal(applyFilters([job(title, { track, remote: true, location: 'Chicago, IL' })]).length, 1);
   }
 });
 test('duplicates collapse punctuation and location suffixes, keep best then newest, preserve up to ten locations', () => {
-  const jobs = ['Myrtle Beach', 'Conway', 'Charleston', 'Wilmington', 'Loris'].map((location, i) => job('AE - Brand Ambassador (Sales Associate)' + (i === 1 ? ' - Conway' : i === 2 ? ' (Charleston)' : i === 3 ? ' at Wilmington' : ''), { id: `${i}`, company: i % 2 ? 'American Eagle!' : 'American Eagle', track: 'tech-sales', location, score: i === 2 || i === 4 ? 90 : 30, postedAt: `2026-10-${10 + i}T00:00:00Z` }));
+  const jobs = ['Myrtle Beach', 'Conway', 'Charleston', 'Wilmington', 'Loris'].map((location, i) => job('AE - Brand Ambassador (Sales Associate)' + (i === 1 ? ' - Conway' : i === 2 ? ' (Charleston)' : i === 3 ? ' at Wilmington' : ''), { id: `${i}`, company: i % 2 ? 'Best Buy!' : 'Best Buy', track: 'tech-sales', location, score: i === 2 || i === 4 ? 90 : 30, postedAt: `2026-10-${10 + i}T00:00:00Z` }));
   const [kept] = applyFilters(jobs);
   assert.equal(applyFilters(jobs).length, 1); assert.equal(kept.id, '4'); assert.equal(kept.location, 'Loris (+4 more)'); assert.equal(kept.otherLocations.length, 4);
   assert.equal(applyFilters([kept])[0].location, kept.location);

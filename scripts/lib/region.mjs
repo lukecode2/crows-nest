@@ -41,3 +41,23 @@ export function isLiveAboard(title) {
 export function lowWageShore(title) {
   return /\b(?:dock ?hands?|fueler|boatcierge|attendant|associate|cashier|valet|cleaner|porter|detailer|instructor|host|server|clerk|merchandiser|ambassador|sales development|business development rep(?:resentative)?|SDR|BDR|retail|club|jobs|careers|rental|marina)\b/i.test(title || '') || /\btechnician\b/i.test(title || '') && !/\b(?:senior|sr|lead|principal|staff|chief|head|manager)\b/i.test(title || '');
 }
+
+// Remote listings are often remote only inside another country ("Remote - Germany", "Nordics", "Thailand only").
+// Georgia and Jersey are left out on purpose: they are also US places.
+const FOREIGN_NAMES = 'Europe|European Union|EU|EMEA|APAC|Asia|Asia Pacific|LATAM|Latin America|South America|Central America|Africa|Middle East|DACH|Nordics?|Scandinavia|Benelux|CEE|Central Eastern Europe|Eastern Europe|Western Europe|UK|U\\.K\\.|United Kingdom|Great Britain|England|Scotland|Wales|Ireland|Germany|France|Spain|Portugal|Italy|Netherlands|Belgium|Switzerland|Austria|Poland|Czechia|Czech Republic|Slovakia|Hungary|Romania|Bulgaria|Greece|Croatia|Serbia|Bosnia|Slovenia|North Macedonia|Macedonia|Albania|Kosovo|Moldova|Ukraine|Belarus|Russia|Lithuania|Latvia|Estonia|Finland|Sweden|Norway|Denmark|Iceland|Turkey|Türkiye|Israel|UAE|United Arab Emirates|Saudi|Saudi Arabia|Qatar|Egypt|Nigeria|Kenya|South Africa|Ghana|Morocco|India|Pakistan|Bangladesh|Sri Lanka|Nepal|China|Hong Kong|Taiwan|Japan|Korea|South Korea|Philippines|Vietnam|Thailand|Malaysia|Singapore|Indonesia|Australia|New Zealand|Canada|Brazil|Argentina|Chile|Colombia|Peru|Uruguay|Costa Rica|Kazakhstan|Uzbekistan|Armenia|Azerbaijan|Cyprus|Malta|Luxembourg|London|Berlin|Munich|Paris|Madrid|Barcelona|Lisbon|Amsterdam|Dublin|Warsaw|Krakow|Prague|Vienna|Zurich|Stockholm|Copenhagen|Oslo|Helsinki|Tokyo|Nagoya|Osaka|Seoul|Beijing|Shanghai|Shenzhen|Bangalore|Bengaluru|Mumbai|Delhi|Hyderabad|Manila|Cebu|Jakarta|Bangkok|Riyadh|Dubai|Tel Aviv|Istanbul|Toronto|Vancouver|Montreal|Sydney|Melbourne|São Paulo|Sao Paulo|Buenos Aires|Bogota|Mexico City';
+const FOREIGN = new RegExp(`(?<![\\w-])(?:${FOREIGN_NAMES}|(?<!New )Mexico|(?<!Panama City, )Panama)(?![\\w-])`, 'i');
+const US_MARKER = /(?<![\w-])(?:USA?|U\.S\.A?\.?|United States(?: of America)?|America|Americas|North(?:ern)? America|Anywhere|Worldwide|Global|US timezones?|EST|EDT|Eastern Time|South Carolina)(?![\w-])/i;
+const ABROAD_PHRASE = new RegExp(`\\bnon-?U\\.?S\\.?(?:[- ]based)?\\b|\\boutside (?:of )?(?:the )?(?:US|U\\.S\\.|United States)\\b|\\b(?:based|located|resid(?:e|ing|ent)|living) in (?:the )?(?:${FOREIGN_NAMES})\\b|\\blocation:\\s*(?:${FOREIGN_NAMES})\\b|\\b(?:${FOREIGN_NAMES})[- ](?:based|only)\\b|\\b(?:${FOREIGN_NAMES}) (?:national|citizens?)\\b`, 'i');
+export function foreignPlace(value) { return FOREIGN.test(String(value || '')); }
+export function remoteAbroad(job) {
+  const title = String(job.title || ''), snippet = String(job.snippet || '');
+  if (foreignPlace(title.replace(/^\(US\)\s*/i, ''))) return true;
+  // "Remote — USA, Canada" style eligibility written by the remote-board sources.
+  const eligibility = String(job.location || '').replace(/^\s*remote\b\s*[—–:,-]?\s*/i, '').replace(/\s*\(\+\d+ more\)$/, '');
+  if (US_MARKER.test(eligibility)) return false;
+  if (foreignPlace(eligibility)) return true;
+  // We Work Remotely descriptions open with "Headquarters: Remote - Germany".
+  const hq = snippet.match(/headquarters:\s*([^\n]{0,160}?)(?:\s+URL:|\s{2,}|$)/i)?.[1] || '';
+  if (foreignPlace(hq) && !US_MARKER.test(hq)) return true;
+  return ABROAD_PHRASE.test(snippet.slice(0, 1500));
+}

@@ -8,7 +8,7 @@ export async function fetchJobs(ctx) {
     const field = (item, tag) => cleanText(item.match(new RegExp(`<${tag}\\b[^>]*>([\\s\\S]*?)<\\/${tag}>`, 'i'))?.[1] || '', Infinity);
     return remoteJobs([...xml.matchAll(/<item\b[^>]*>([\s\S]*?)<\/item>/gi)].map(([, item]) => {
       const text = field(item, 'title'), split = text.indexOf(':');
-      return rawJob({ title: split < 0 ? text : text.slice(split + 1).trim(), company: split < 0 ? '' : text.slice(0, split).trim(), url: field(item, 'link'), postedAt: iso(field(item, 'pubDate')), snippet: field(item, 'description'), source: name });
+      return rawJob({ title: split < 0 ? text : text.slice(split + 1).trim(), company: split < 0 ? '' : text.slice(0, split).trim(), url: field(item, 'link'), postedAt: iso(field(item, 'pubDate')), snippet: field(item, 'description'), eligible: [field(item, 'country').replace(/\p{Regional_Indicator}/gu, '').trim(), field(item, 'state')].filter(Boolean).join(', '), source: name });
     }));
   }, ctx);
 }

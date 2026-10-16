@@ -1,4 +1,5 @@
 import { TRACK_KEYWORDS } from './classify.mjs';
+import { STARTS_FAST } from './fit.mjs';
 export function scoreJob(job) {
   const text = `${job.title || ''} ${job.snippet || ''}`;
   let score = 40;
@@ -6,6 +7,8 @@ export function scoreJob(job) {
   if (TRACK_KEYWORDS[job.track]?.test(job.title || '')) score += 20;
   if (/\b(?:entry|no experience|will train|trainee|junior|apprentice|seasonal)\b/i.test(text)) { score += 10; flags.push('entry-level'); }
   if (String(job.pay || '').trim()) score += 5;
+  // Luke needs income now: seasonal, temp, day-work and "start immediately" jobs rank higher.
+  if (STARTS_FAST.test(text)) { score += 10; flags.push('starts-fast'); }
   const age = (Date.now() - Date.parse(job.postedAt)) / 86400000;
   if (age >= 0 && age <= 3) score += 10;
   else if (age >= 0 && age <= 7) score += 5;

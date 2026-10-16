@@ -1,5 +1,6 @@
 import { normalizeUrl } from './normalize.mjs';
-import { inHomeRegion, isHighPay, isLiveAboard, lowWageShore, SC_CITIES, NC_CITIES } from './region.mjs';
+import { inHomeRegion, isHighPay, isLiveAboard, lowWageShore, remoteAbroad, foreignPlace, SC_CITIES, NC_CITIES } from './region.mjs';
+import { OTHER_CAREER, marineFit, needsLicence, needsCredentialHeLacks, salesFit, aiWebFit, payTooLow, isJunk, notAJobLink } from './fit.mjs';
 const lower = value => String(value || '').trim().toLowerCase();
 const escaped = value => value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 export const MARINE_TITLE = /\b(?:deck ?hands?|dock ?hands?|deck crew|boats?|boating|marina|marine|maritime|yachts?|yachting|vessel|seaman|mariner|ferry|tug(?:boat)?|barge|ship(?:yard)?|sailing|sailor|charter|harbou?r|able seaman|AB|OS|wiper|oiler|stew(?:ard|ardess)?|day ?worker|ocean rescue|lifeguard)\b/i;
@@ -10,30 +11,58 @@ export function isMarineTitle(title) {
 export function isCruise(job, filters = {}) {
   const company = lower(job.company);
   if ((filters.allowCompanies || []).some(c => company.includes(lower(c)))) return false;
-  return (filters.excludeCompanies || []).some(c => company.includes(lower(c))) || /cruise\s*(ship|line)s?/i.test(`${job.title} ${job.snippet}`);
+  return (filters.excludeCompanies || []).some(c => company.includes(lower(c))) || /cruise\s*(ship|line)s?/i.test(`${job.title} ${job.snippet}`) ||
+    CRUISE_BRANDS.test(`${job.title} ${job.snippet}`);
+}
+// Crewing agencies post cruise jobs under their own name ("ISMIRA ... DECKHAND for Virgin Voyages").
+const CRUISE_BRANDS = /\b(?:virgin voyages|royal caribbean|carnival cruise|norwegian cruise|celebrity cruises|princess cruises|disney cruise|msc cruises|holland america|viking (?:cruises|river|ocean)|windstar|lindblad|american queen|uncruise|oceania cruises|regent seven seas|silversea|seabourn|cunard|azamara|american cruise lines?)\b/i;
+const NUMBER_WORDS = { one: 1, two: 2, three: 3, four: 4, five: 5, six: 6, seven: 7, eight: 8, nine: 9, ten: 10 };
+// Largest "N years of/required/experience" in the text (ranges count from their low end), ignoring company bragging.
+export function requiredYears(snippet) {
+  const found = [...String(snippet || '').matchAll(/\b(\d{1,2}|one|two|three|four|five|six|seven|eight|nine|ten)\s*(?:\(\d+\)\s*)?(?:\+|plus)?\s*(?:(?:-|–|to)\s*\d{1,2}\s*)?(?:\+\s*)?years?['’]?\s+(?!of (?:history|excellence|service|growth|innovation|tradition|serving|business|operation|success|combined))(?:of|in|experience|exp|required|working|professional|related|relevant|selling|sales|closing|b2b|saas|quota)\b/gi)]
+    .map(m => NUMBER_WORDS[m[1].toLowerCase()] ?? Number(m[1])).filter(n => n <= 15);
+  return found.length ? Math.max(...found) : 0;
 }
 export function isSenior(job, filters = {}) {
   const title = job.title || '';
   const assistant = /\bassistant\b/i.test(title);
   if (!assistant && /\b(?:senior|sr|vp|vice president|director|general manager|head of|chief|president|owner|partner|managers?)\b/i.test(title)) return true;
-  if (!['ai-web', 'tech-sales'].includes(job.track)) return false;
+  if (!['ai-web', 'tech-sales'].includes(job.track)) return requiredYears(job.snippet) >= 4;
   if (/\b(?:II|III|IV)\b/i.test(title)) return true;
   if ((/\bengineers?\b/i.test(title) || job.track === 'ai-web' && /\b(?:architect|scientist|researcher)\b/i.test(title)) &&
     !/\b(?:junior|entry|associate|intern|apprentice|trainee|trainer)\b/i.test(title)) return true;
   return /\b(?:senior|sr\.?|lead|principal|staff)\b/i.test(title) ||
-    /\b([4-9]|1\d)\+?\s*years/i.test(job.snippet || '') || /(bachelor'?s|degree)\s+(is\s+)?required/i.test(job.snippet || '') ||
+    requiredYears(job.snippet) >= 3 || /(bachelor'?s|degree)\s+(is\s+)?required/i.test(job.snippet || '') ||
     (filters.seniorKeywords || []).some(k => new RegExp(`\\b${escaped(k)}\\b`, 'i').test(`${title} ${job.snippet}`));
 }
 // Kept separate from deduplication so the catch log uses exactly the same gates.
-export function dropReason(job, { filters = {}, dismissed = {}, trackedIds = new Set() } = {}) {
+export function dropReason(job, { filters = {}, dismissed = {}, trackedIds = new Set(), nowIso, deadIds } = {}) {
   const items = dismissed.items || [];
   if (items.some(j => j.id && j.id === job.id || j.url && normalizeUrl(j.url) === normalizeUrl(job.url) || j.reason === 'company' && lower(j.company) && lower(j.company) === lower(job.company))) return 'dismissed';
   if (new Set(trackedIds).has(job.id)) return 'tracked';
+  if (deadIds?.has(job.id)) return 'dead-link';
   if (isCruise(job, filters)) return 'cruise';
+  if (isJunk(job, filters)) return 'junk-listing';
+  const skipped = (filters.skipCompanies || []).find(c => lower(job.company).includes(lower(c.name)));
+  if (skipped) return skipped.reason || 'skipped-company';
+  if (notAJobLink(job)) return 'not-a-job';
+  if (job.closesAt && nowIso && Date.parse(job.closesAt) < Date.parse(nowIso)) return 'closed';
   if (isSenior(job, filters)) return 'senior';
   if (needsOtherLanguage(job.title)) return 'language';
   if ((filters.excludeKeywords || []).some(k => lower(job.title).includes(lower(k)))) return 'excluded-keyword';
-  if (job.track?.startsWith('marine-') && !isMarineTitle(job.title)) return 'not-marine';
+  const remote = job.remote || /^\s*remote\b/i.test(job.location || '');
+  if (remote && remoteAbroad(job)) return 'remote-abroad';
+  if (!remote && foreignPlace(job.location) && !(job.track?.startsWith('marine-') && isLiveAboard(job.title))) return 'abroad';
+  if (job.track?.startsWith('marine-')) {
+    if (!marineFit(job, isMarineTitle)) return 'not-marine';
+    if (needsLicence(job, filters.profile) || needsCredentialHeLacks(job, filters.profile)) return 'needs-licence';
+  } else if (job.track === 'ai-web') {
+    if (OTHER_CAREER.test(job.title || '') || !aiWebFit(job)) return 'off-track';
+  } else {
+    const reason = salesFit(job);
+    if (reason) return reason;
+  }
+  if (payTooLow(job.pay)) return 'pay-too-low';
   if (inHomeRegion(job.location) || job.remote) return null;
   if (job.track === 'quick-cash') return 'far-quick-cash';
   if (job.track?.startsWith('marine-')) {

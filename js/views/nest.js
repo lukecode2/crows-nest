@@ -14,7 +14,7 @@ export function nest(store, ui) {
       el.append(h('span', {}, track.label), h('span', { class: 'chip-count' }, track.id === 'all' ? all.length : all.filter(j => j.track === track.id).length)); return el;
     }));
     const query = ui.search.toLowerCase().trim();
-    const jobs = all.filter(j => (ui.track === 'all' || j.track === ui.track) && (!ui.newOnly || isNew(j)) &&
+    const jobs = all.filter(j => (ui.track === 'all' || j.track === ui.track) && (!ui.newOnly || isNew(j)) && (!ui.fastOnly || (j.flags || []).includes('starts-fast')) &&
       (!query || [j.title, j.company, j.location, j.snippet].join(' ').toLowerCase().includes(query)))
       .sort((a, b) => ui.sort === 'newest' ? (b.postedAt || b.firstSeenAt || '').localeCompare(a.postedAt || a.firstSeenAt || '') : (b.score || 0) - (a.score || 0));
     count.textContent = `${jobs.length} ${jobs.length === 1 ? 'opportunity' : 'opportunities'} on the horizon`;
@@ -29,9 +29,9 @@ export function nest(store, ui) {
       h('h2', {}, title), h('p', { class: 'job-company' }, job.company), h('p', { class: 'muted small' }, [job.location, job.remote ? 'Remote' : null].filter(Boolean).join(' · ')),
       job.pay && h('p', { class: 'job-pay' }, job.pay), job.snippet && h('p', { class: 'job-snippet' }, job.snippet),
       h('div', { class: 'job-flags' }, ...(job.flags || []).map(flag => {
-        const labels = { 'needs-twic': 'TWIC', 'needs-mmc': 'MMC', 'needs-eng1': 'ENG1', 'drug-test': 'Drug test', 'entry-level': 'Entry level', 'page-changed': 'Page updated', 'far-away': 'Far away', 'live-aboard': 'Live aboard', 'high-pay': 'High pay', 'pay-unknown': 'Pay unknown' };
+        const labels = { 'needs-twic': 'TWIC', 'needs-mmc': 'MMC', 'needs-eng1': 'ENG1', 'drug-test': 'Drug test', 'entry-level': 'Entry level', 'page-changed': 'Page updated', 'far-away': 'Far away', 'live-aboard': 'Live aboard', 'high-pay': 'High pay', 'pay-unknown': 'Pay unknown', 'starts-fast': 'Starts fast' };
         const credential = ['needs-twic', 'needs-mmc', 'needs-eng1', 'drug-test'].includes(flag);
-        return h(credential ? 'a' : 'span', { ...(credential ? { route: 'papers' } : {}), class: 'flag-chip' + (flag === 'high-pay' ? ' flag-good' : flag === 'pay-unknown' ? ' flag-muted' : '') }, labels[flag] || flag);
+        return h(credential ? 'a' : 'span', { ...(credential ? { route: 'papers' } : {}), class: 'flag-chip' + (['high-pay', 'starts-fast'].includes(flag) ? ' flag-good' : flag === 'pay-unknown' ? ' flag-muted' : '') }, labels[flag] || flag);
       })),
       h('div', { class: 'match-row' }, h('span', { class: 'score-line', role: 'meter', 'aria-label': 'Match score', 'aria-valuemin': 0, 'aria-valuemax': 100, 'aria-valuenow': score }, h('i', { style: { width: score + '%' } })), h('span', { class: 'small muted' }, `${score} match`)),
       h('p', { class: 'job-source small muted' }, `${job.source || 'Direct'} · ${ago(job.postedAt || job.firstSeenAt)}`),
@@ -67,6 +67,7 @@ export function nest(store, ui) {
     h('ul', { class: 'source-list' }, ...sources.map(source => h('li', {}, h('span', { class: source.ok ? 'foam-text' : 'flare-text' }, source.ok ? '●' : '○'), h('strong', {}, source.name), h('span', { class: 'muted' }, source.ok ? `${source.count} jobs` : source.error || 'Unavailable'))))), refresh), store.state.feedError && h('p', { class: 'flare-text small' }, store.state.feedError));
   draw();
   return h('div', { class: 'view nest-view' }, pageHeading('THE LOOKOUT', 'Crow’s Nest', 'Six waters to explore. Your next opportunity is out there.'),
-    h('section', { class: 'feed-controls', 'aria-label': 'Feed filters' }, chips, h('div', { class: 'search-row' }, field('Search the horizon', search, 'search-field'), field('Sort by', sort), h('label', { class: 'check-label new-toggle' }, h('input', { type: 'checkbox', checked: ui.newOnly, onChange: e => { ui.newOnly = e.target.checked; draw(); } }), 'New only'))),
+    h('section', { class: 'feed-controls', 'aria-label': 'Feed filters' }, chips, h('div', { class: 'search-row' }, field('Search the horizon', search, 'search-field'), field('Sort by', sort), h('label', { class: 'check-label new-toggle' }, h('input', { type: 'checkbox', checked: ui.newOnly, onChange: e => { ui.newOnly = e.target.checked; draw(); } }), 'New only'),
+      h('label', { class: 'check-label new-toggle' }, h('input', { type: 'checkbox', checked: ui.fastOnly, onChange: e => { ui.fastOnly = e.target.checked; draw(); } }), 'Starts fast'))),
     count, list, health);
 }

@@ -1,5 +1,14 @@
 {
-  "excludeCompanies": ["carnival", "royal caribbean", "norwegian cruise", "ncl", "celebrity cruises", "princess cruises", "disney cruise", "msc cruises", "virgin voyages", "american cruise lines", "viking", "windstar", "lindblad", "american queen", "uncruise", "holland america", "oceania cruises", "regent seven seas", "silversea", "seabourn", "cunard", "azamara"],
+  "profile": {
+    "_about": "What Luke holds today. Flip captainLicense to true once he has an OUPV/master licence, or mmc once he has a Merchant Mariner Credential, and those jobs show up again.",
+    "captainLicense": false,
+    "mmc": false
+  },
+  "excludeCompanies": ["carnival", "royal caribbean", "norwegian cruise", "ncl", "celebrity cruises", "princess cruises", "disney cruise", "msc cruises", "virgin voyages", "american cruise lines", "viking", "windstar", "lindblad", "american queen", "uncruise", "holland america", "oceania cruises", "regent seven seas", "silversea", "seabourn", "cunard", "azamara", "ismira"],
   "allowCompanies": ["spiritline", "spirit line", "barefoot queen", "military sealift command"],
-  "excludeKeywords": []
+  "excludeKeywords": [],
+  "junkSources": [],
+  "skipCompanies": [
+    { "name": "Beauty Barrage", "reason": "needs-experience", "why": "Every Brand Market Specialist posting requires prior beauty-retail experience (checked 2026-10-16)." }
+  ]
 }
