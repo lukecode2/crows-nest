@@ -32,7 +32,7 @@ export function isSenior(job, filters = {}) {
   if ((/\bengineers?\b/i.test(title) || job.track === 'ai-web' && /\b(?:architect|scientist|researcher)\b/i.test(title)) &&
     !/\b(?:junior|entry|associate|intern|apprentice|trainee|trainer)\b/i.test(title)) return true;
   return /\b(?:senior|sr\.?|lead|principal|staff)\b/i.test(title) ||
-    requiredYears(job.snippet) >= 3 || /(bachelor'?s|degree)\s+(is\s+)?required/i.test(job.snippet || '') ||
+    requiredYears(job.snippet) >= 2 || /(bachelor'?s|degree)\s+(is\s+)?required/i.test(job.snippet || '') ||
     (filters.seniorKeywords || []).some(k => new RegExp(`\\b${escaped(k)}\\b`, 'i').test(`${title} ${job.snippet}`));
 }
 // Kept separate from deduplication so the catch log uses exactly the same gates.
@@ -48,7 +48,8 @@ export function dropReason(job, { filters = {}, dismissed = {}, trackedIds = new
   if (notAJobLink(job)) return 'not-a-job';
   if (job.closesAt && nowIso && Date.parse(job.closesAt) < Date.parse(nowIso)) return 'closed';
   if (isSenior(job, filters)) return 'senior';
-  if (needsOtherLanguage(job.title)) return 'language';
+  if (needsOtherLanguage(job.title) || /\b(?:bilingual|spanish|french|portuguese|mandarin)\b[^.]{0,40}\brequired\b|\bfluen(?:t|cy) in (?:spanish|french|portuguese|mandarin|german)\b/i.test(job.snippet || '')) return 'language';
+  if (['quick-cash', 'tech-sales'].includes(job.track) && /\b(?:100% commission|commission[- ]only|straight commission)\b/i.test(job.snippet || '')) return 'commission-only';
   if ((filters.excludeKeywords || []).some(k => lower(job.title).includes(lower(k)))) return 'excluded-keyword';
   const remote = job.remote || /^\s*remote\b/i.test(job.location || '');
   if (remote && remoteAbroad(job)) return 'remote-abroad';

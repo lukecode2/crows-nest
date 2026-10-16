@@ -1,6 +1,6 @@
 {
   "about": "Jobs found by Claude's weekly browser sweep",
-  "sweptAt": "2026-10-15T22:24:49.904Z",
+  "sweptAt": "2026-10-16T18:23:06.679Z",
   "items": [
     {
       "title": "Assistant Dockmaster - Deep Point Marina",
@@ -11,18 +11,6 @@
       "url": "https://www.craigslist.org/view/d/wilmington-assistant-dockmaster-deep/qbanLNbAddBFw6mF89Sa3h",
       "postedAt": "2026-10-09T12:00:00Z",
       "snippet": "Full-time dock crew at the Bald Head Island ferry marina (85 slips, may cover the 170-slip BHI marina). Asks for public-facing + marina experience, which matches his 8 seasons. Needs an NC driver licence.",
-      "trackHint": "marine-local",
-      "source": "sweep"
-    },
-    {
-      "title": "Rigger — Tracker Boat Center",
-      "company": "Bass Pro Shops",
-      "location": "Myrtle Beach, SC",
-      "remote": false,
-      "pay": "",
-      "url": "https://careers.basspro.com/us/en/job/R267762/Rigger",
-      "postedAt": null,
-      "snippet": "Full-time, rigging motors and accessories on new boats at the Myrtle Beach Tracker boat center. Hands-on boat work at home with no licence needed. Pay not posted (ZipRecruiter estimates $21.50–28/hr).",
       "trackHint": "marine-local",
       "source": "sweep"
     },
@@ -133,6 +121,78 @@
       "snippet": "Vehicle detailer in Myrtle Beach with a $1,000 sign-on bonus. Steady hours; detailing skills carry over to boats. Posted in the last 7 days.",
       "trackHint": "quick-cash",
       "source": "sweep"
+    },
+    {
+      "remote": false,
+      "source": "sweep",
+      "title": "Ferry Mate - Full Time",
+      "company": "Bald Head Island Transportation",
+      "location": "Southport, NC",
+      "pay": "",
+      "url": "https://www.ziprecruiter.com/c/Bald-Head-Island-Transportation,-Inc./Job/Ferry-Mate-FT/-in-Southport,NC?jid=ac7b0d3ead3f4a6b",
+      "postedAt": "2026-09-25T12:00:00Z",
+      "snippet": "Passenger ferry deck crew: lines, boarding, watch standing, steering under the master. No USCG licence required; 1 yr public-facing work, First Aid/CPR, drug test, NC driver licence.",
+      "trackHint": "marine-local"
+    },
+    {
+      "remote": false,
+      "source": "sweep",
+      "title": "Event Stagehand - Myrtle Beach",
+      "company": "Rhino Staging",
+      "location": "Myrtle Beach, SC",
+      "pay": "$19–$20/hour",
+      "url": "https://www.adzuna.com/details/5878282106",
+      "postedAt": null,
+      "snippet": "On-call W-2 crew for concerts and festivals around Myrtle Beach. No experience required, 18+, own transport. Shifts as events come up, so he can start right away. Listing says closing soon.",
+      "trackHint": "quick-cash"
+    },
+    {
+      "remote": false,
+      "source": "sweep",
+      "title": "Part Time Promotional Specialist - Bacardi",
+      "company": "Stagwell Global",
+      "location": "Myrtle Beach, SC",
+      "pay": "$30/hour",
+      "url": "https://www.adzuna.com/details/5813780127",
+      "postedAt": null,
+      "snippet": "Part-time brand promo at local events and bars. Brand-ambassador experience preferred, which matches his 2020 Companies/ActionLink work. Closing soon.",
+      "trackHint": "quick-cash"
+    },
+    {
+      "remote": false,
+      "source": "sweep",
+      "title": "Zipfizz Brand Ambassador - Weekend Demo",
+      "company": "Zipfizz Corporation",
+      "location": "Myrtle Beach, SC",
+      "pay": "$20/hour",
+      "url": "https://www.adzuna.com/details/5704629462",
+      "postedAt": null,
+      "snippet": "Weekend product demos inside Costco, up to $35/hr with commission, weekly pay, paid training, no experience required. Closing soon.",
+      "trackHint": "quick-cash"
+    },
+    {
+      "remote": false,
+      "source": "sweep",
+      "title": "Sales Development Representative",
+      "company": "Camping World",
+      "location": "Myrtle Beach, SC",
+      "pay": "$35,000–$55,000/year",
+      "url": "https://www.adzuna.com/details/5352364938",
+      "postedAt": null,
+      "snippet": "In-person SDR at the Myrtle Beach RV/boat dealership: scripted calls, booking appointments, uncapped variable pay. Sales experience a plus; wants CRM familiarity.",
+      "trackHint": "tech-sales"
+    },
+    {
+      "remote": false,
+      "source": "sweep",
+      "title": "Bellperson & Valet (Part-time) - Ocean 22",
+      "company": "Hilton Grand Vacations",
+      "location": "Myrtle Beach, SC",
+      "pay": "",
+      "url": "https://www.simplyhired.com/job/crfU45an2vE5jxq6IGwywCmpsTzKR_R8uT0XEEV0xy5b6Ak-ZYbmRQ",
+      "postedAt": "2026-10-13T12:00:00Z",
+      "snippet": "Valet/bell at Ocean 22 resort, daily pay, benefits day one. Needs 6 months customer service (he has valet + brand ambassador) and manual-transmission driving.",
+      "trackHint": "quick-cash"
     }
   ]
 }

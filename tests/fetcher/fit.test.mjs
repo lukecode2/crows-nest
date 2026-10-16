@@ -127,3 +127,9 @@ test('companies skipped in config give their own reason', () => {
   const filters = { skipCompanies: [{ name: 'Beauty Barrage', reason: 'needs-experience' }] };
   assert.equal(dropReason(job('Brand Market Specialist - Myrtle Beach, SC', { company: 'Beauty Barrage' }), { filters }), 'needs-experience');
 });
+
+test('description-level language, commission-only and 2+ year sales requirements', () => {
+  assert.equal(reason('Counter Sales Agent', { pay: '$20–$21/hour', snippet: 'Bilingual with English and Spanish required' }), 'language');
+  assert.equal(reason('Media Sales Representative', { snippet: 'Model: 100% commission, independent-contractor business' }), 'commission-only');
+  assert.equal(reason('Business Development Representative', { track: 'tech-sales', remote: true, location: 'Remote', snippet: '2 - 5+ years of experience in healthcare sales' }), 'senior');
+});
