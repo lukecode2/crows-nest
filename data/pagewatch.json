@@ -72,16 +72,16 @@
     "https://www.bluewateryachting.com/crew-placement/contacts",
     "https://www.bluewateryachting.com/yacht-management/contacts",
     "https://www.bluewateryachting.com/crew-placement/looking-for-work",
+    "https://www.bluewateryachting.com/yacht-crew-job/chief-steward-ess-159352",
     "https://www.bluewateryachting.com/yacht-crew-job/captain-159350",
+    "https://www.bluewateryachting.com/yacht-crew-job/deckhand-159349",
     "https://www.bluewateryachting.com/yacht-crew-job/chief-officer-159248",
     "https://www.bluewateryachting.com/yacht-crew-job/deckhand-159305",
+    "https://www.bluewateryachting.com/yacht-crew-job/2nd-officer-159348",
     "https://www.bluewateryachting.com/yacht-crew-job/deckhand-159347",
     "https://www.bluewateryachting.com/yacht-crew-job/sole-engineer-159346",
     "https://www.bluewateryachting.com/yacht-crew-job/captain-159345",
     "https://www.bluewateryachting.com/yacht-crew-job/captain-159344",
-    "https://www.bluewateryachting.com/yacht-crew-job/2nd-steward-ess-159343",
-    "https://www.bluewateryachting.com/yacht-crew-job/crew-chef-159342",
-    "https://www.bluewateryachting.com/yacht-crew-job/chief-steward-ess-159341",
     "https://www.bluewateryachting.com/yacht-charter"
   ],
   "https://marinerhiring.noaa.gov/Jobs/Openings": [],
@@ -91,26 +91,26 @@
     "https://sealiftcommand.com/departments/engine/deck-engineer-machinist/f5a03923-2ad3-4f36-a465-63c77826d4a9",
     "https://sealiftcommand.com/departments/engine/deck-engineer-machinist---mixed-work-schedule/0f0191ca-d05c-4c8b-a7ae-126b7ccae654",
     "https://sealiftcommand.com/departments/engine/deck-engineer-machinist---trainee/01a0c925-1559-77b9-bb09-37116d5616b8",
-    "https://sealiftcommand.com/career-fair/1cfe9abb1b186b3c28ca5806fe3f1b8c9bcfa7cc0eb5198444c48b4cea6277d3",
-    "https://sealiftcommand.com/career-fair/d978bd6f46a610bcb5f344b2fc4d051e5fd4abe7b8aaadce1c296db429625c8e",
     "https://sealiftcommand.com/career-fair/c20acfa43a12ff5b4d0dbdb5d5ec9141f25cb9c7c5ace1ca88f97a7a47982e92",
     "https://sealiftcommand.com/career-fair/1f650053d49b904f32a0f5640b72b0a085f85d3e8ab8954de0e87cc710ea18ea",
     "https://sealiftcommand.com/career-fair/23466612cbed6c4f42dc37c629e29e2195444c70fd41da6fc65ba3e31ec81fb7",
     "https://sealiftcommand.com/career-fair/9ed52e736e139e723dd0eab8905c937f9114d77f921ce8fb86d34fdd61b5aeb2",
     "https://sealiftcommand.com/career-fair/5732415a4f1810bb79c38f6aa7ed1654b4a5742a6026a037f8ddcc57a4702150",
-    "https://sealiftcommand.com/career-fair/5236cef4e5e4a58e7c8e44a20095e47fa99acb869fd466b2d087d439843dab85"
+    "https://sealiftcommand.com/career-fair/5236cef4e5e4a58e7c8e44a20095e47fa99acb869fd466b2d087d439843dab85",
+    "https://sealiftcommand.com/career-fair/01bc5b0127cc2e8babf68afd0930153b2a848d5cad8c86bd0b7c855015c8630f",
+    "https://sealiftcommand.com/career-fair/51926a1402c4b591e35111e06f2eeb87fa0e131b4a6950ee9a0725f36858b8c4"
   ],
   "https://careers.youradv.com/": [
     "https://youradv.com/solution/private-brand-solutions/",
     "https://careers.youradv.com/",
     "https://youradv.com/solution/insights-sales-growth/",
     "https://youradv.com/careers/",
-    "https://careers.youradv.com/job/?req_id=2026-440531",
-    "https://uscareers2-asm.icims.com/jobs/440531/job",
     "https://careers.youradv.com/job/?req_id=2026-441259",
     "https://uscareers-asm.icims.com/jobs/441259/job",
     "https://careers.youradv.com/job/?req_id=2026-441257",
-    "https://uscareers-asm.icims.com/jobs/441257/job"
+    "https://uscareers-asm.icims.com/jobs/441257/job",
+    "https://careers.youradv.com/job/?req_id=2026-441256",
+    "https://uscareers-asm.icims.com/jobs/441256/job"
   ],
   "https://acosta.jobs/agency/crossmark/jobs/": [],
   "https://phh.tbe.taleo.net/phh01/ats/careers/v2/jobSearch?act=redirectCwsV2&cws=41&org=ACTIONLINK": [],
@@ -394,11 +394,7 @@
     "https://yachtstarship.com/careers/",
     "https://recruiting.paylocity.com/recruiting/jobs/All/2a113bc9-ae74-44f3-84cd-8dac88b5cf1b/Yacht-Starship-Dining-Cruises-LLC"
   ],
-  "https://tallshipsamerica.org/billet-bank/": [
-    "https://tallshipsamerica.org/crewsafety/",
-    "https://tallshipsamerica.org/billet-bank/available-jobs",
-    "https://tallshipsamerica.org/billet-bank/available-crew"
-  ],
+  "https://tallshipsamerica.org/billet-bank/": [],
   "https://jobs.dayforcehcm.com/en-US/colonialgroup/CANDIDATEPORTAL": [],
   "https://www.morantug.com/careers-at-moran/": [
     "https://www.morantug.com/careers-at-moran/"
@@ -531,9 +527,6 @@
   ],
   "https://www.baesystems.com/en-us/careers": [],
   "https://scspa.com/contact-us/careers/": [
-    "https://scspa.com/contact-us/carrier-sales/",
-    "https://scspa.com/contact-us/marketing-and-sales/",
-    "https://scspa.com/contact-us/careers/",
     "https://careers.smartrecruiters.com/SouthCarolinaPortsAuthority"
   ]
 }
