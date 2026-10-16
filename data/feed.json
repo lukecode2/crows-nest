@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-10-16T18:23:40.794Z",
+  "generatedAt": "2026-10-16T19:55:44.297Z",
   "sources": [
     {
       "name": "adzuna",
       "ok": true,
-      "count": 363,
+      "count": 338,
       "error": null
     },
     {
       "name": "usajobs",
       "ok": true,
-      "count": 13,
+      "count": 14,
       "error": null
     },
     {
       "name": "jsearch",
       "ok": true,
-      "count": 5,
+      "count": 4,
       "error": null
     },
     {
@@ -34,13 +34,13 @@
     {
       "name": "jobicy",
       "ok": true,
-      "count": 43,
+      "count": 41,
       "error": null
     },
     {
       "name": "himalayas",
       "ok": true,
-      "count": 4,
+      "count": 2,
       "error": null
     },
     {
@@ -58,7 +58,7 @@
     {
       "name": "pagewatch",
       "ok": true,
-      "count": 7,
+      "count": 0,
       "error": null
     },
     {
@@ -75,26 +75,6 @@
     }
   ],
   "jobs": [
-    {
-      "title": "Event Stagehand - Myrtle Beach",
-      "company": "Rhino Staging",
-      "location": "Myrtle Beach, SC",
-      "remote": false,
-      "pay": "$19–$20/hour",
-      "url": "https://www.adzuna.com/details/5878282106",
-      "postedAt": null,
-      "snippet": "On-call W-2 crew for concerts and festivals around Myrtle Beach. No experience required, 18+, own transport. Shifts as events come up, so he can start right away. Listing says closing soon.",
-      "source": "sweep",
-      "id": "8450951ce927e3ff815fbd778d3872b151394676",
-      "track": "quick-cash",
-      "firstSeenAt": "2026-10-16T18:23:40.794Z",
-      "score": 85,
-      "flags": [
-        "entry-level",
-        "starts-fast"
-      ],
-      "linkCheckedAt": "2026-10-16T18:23:40.794Z"
-    },
     {
       "title": "Zipfizz Brand Ambassador - Weekend Demo",
       "company": "Zipfizz Corporation",
@@ -113,7 +93,7 @@
         "entry-level",
         "starts-fast"
       ],
-      "linkCheckedAt": "2026-10-16T18:23:40.794Z"
+      "linkCheckedAt": "2026-10-16T19:55:44.297Z"
     },
     {
       "title": "Deckhand Leader",
@@ -137,7 +117,7 @@
         "live-aboard",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-16T18:23:40.794Z"
+      "linkCheckedAt": "2026-10-16T19:55:44.297Z"
     },
     {
       "title": "Account Executive - Essex/Middlesex, MA Region (Entry Level)",
@@ -157,7 +137,7 @@
         "entry-level"
       ],
       "otherLocations": [],
-      "linkCheckedAt": "2026-10-16T18:23:40.794Z"
+      "linkCheckedAt": "2026-10-16T19:55:44.297Z"
     },
     {
       "title": "Video Data Annotation Specialist",
@@ -177,7 +157,7 @@
         "entry-level",
         "starts-fast"
       ],
-      "linkCheckedAt": "2026-10-16T18:23:40.794Z"
+      "linkCheckedAt": "2026-10-16T19:55:44.297Z"
     },
     {
       "title": "Seasonal Brand Ambassador",
@@ -197,7 +177,7 @@
         "entry-level",
         "starts-fast"
       ],
-      "linkCheckedAt": "2026-10-16T18:23:40.794Z"
+      "linkCheckedAt": "2026-10-16T19:55:44.297Z"
     },
     {
       "title": "Deckhand – Inland Barge Fleet Hour Shifts",
@@ -221,7 +201,7 @@
         "live-aboard",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-16T18:23:40.794Z"
+      "linkCheckedAt": "2026-10-16T19:55:44.297Z"
     },
     {
       "title": "MARINE DECKHAND - TRAVEL REQUIRED",
@@ -243,7 +223,28 @@
         "live-aboard",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-16T18:23:40.794Z"
+      "linkCheckedAt": "2026-10-16T19:55:44.297Z"
+    },
+    {
+      "title": "Equipment Operator (Marina Forklift)",
+      "company": "Air Force Materiel Command",
+      "location": "Eglin AFB, Florida",
+      "remote": false,
+      "pay": "$25.14/Per Hour",
+      "url": "https://www.usajobs.gov:443/job/889166900",
+      "postedAt": "2026-10-16T15:51:17.767Z",
+      "snippet": "About the position: This position is Non-appropriated Fund (NAF) and will be assigned to the Eglin Outdoor Recreation - Ben's Lake Marina. This is a NAF (Non-Appropriated Fund) position assigned to the 96th Force Support Squadron at Eglin …",
+      "source": "usajobs",
+      "closesAt": "2026-10-30T23:59:59.997Z",
+      "id": "f1818dc7f66e5bf4fa7c0780d663c1514e0c5f63",
+      "track": "marine-national",
+      "firstSeenAt": "2026-10-16T19:55:44.297Z",
+      "score": 75,
+      "flags": [
+        "far-away",
+        "high-pay"
+      ],
+      "linkCheckedAt": "2026-10-16T19:55:44.297Z"
     },
     {
       "title": "Deckhand - Inland River Shipyard Support",
@@ -260,7 +261,6 @@
       "firstSeenAt": "2026-10-16T18:23:40.794Z",
       "score": 75,
       "flags": [
-        "needs-twic",
         "far-away",
         "live-aboard"
       ],
@@ -286,7 +286,7 @@
         "far-away",
         "live-aboard"
       ],
-      "linkCheckedAt": "2026-10-16T18:23:40.794Z"
+      "linkCheckedAt": "2026-10-16T19:55:44.297Z"
     },
     {
       "title": "AI Trainer",
@@ -305,7 +305,34 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-16T18:23:40.794Z"
+      "linkCheckedAt": "2026-10-16T19:55:44.297Z"
+    },
+    {
+      "title": "Part-time Nabisco Merchandiser",
+      "company": "Mondelez International",
+      "location": "Chadbourn, Columbus County (+5 more)",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/land/ad/5927401925?se=cgWwk5vJ8RGjutuTSb6jOA&utm_medium=api&utm_source=ea9765bf&v=292863BB114BE1B6E7D7765576803CAF7DF156F2",
+      "postedAt": "2026-10-14T07:29:16.000Z",
+      "snippet": "Chadbourn, North Carolina, United States Whiteville, North Carolina, United States Tabor City, North Carolina, United States Part time R-179576 Job Description Join our Mission to Lead the Future of Snacking at Mondelēz International Part …",
+      "source": "adzuna",
+      "id": "020d228e90305a91a22554ecc4b50a6b5743fa1a",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-16T19:55:44.297Z",
+      "score": 70,
+      "flags": [
+        "entry-level",
+        "starts-fast"
+      ],
+      "otherLocations": [
+        "Tabor City, Columbus County",
+        "Whiteville, Columbus County",
+        "Carolina Forest, Horry County",
+        "Pawleys Island, Georgetown County",
+        "Murrells Inlet, Horry County"
+      ],
+      "linkCheckedAt": "2026-10-16T19:55:44.297Z"
     },
     {
       "title": "Bellperson & Valet",
@@ -323,7 +350,7 @@
       "score": 70,
       "flags": [],
       "otherLocations": [],
-      "linkCheckedAt": "2026-10-16T18:23:40.794Z"
+      "linkCheckedAt": "2026-10-16T19:55:44.297Z"
     },
     {
       "title": "Field Sales/ Brand Ambassador",
@@ -340,7 +367,8 @@
       "firstSeenAt": "2026-10-16T18:23:40.794Z",
       "score": 70,
       "flags": [],
-      "linkCheckedAt": "2026-10-16T18:23:40.794Z"
+      "linkCheckedAt": "2026-10-16T18:23:40.794Z",
+      "otherLocations": []
     },
     {
       "title": "Blood Drive Event Planner",
@@ -357,7 +385,7 @@
       "firstSeenAt": "2026-10-16T18:23:40.794Z",
       "score": 70,
       "flags": [],
-      "linkCheckedAt": "2026-10-16T18:23:40.794Z"
+      "linkCheckedAt": "2026-10-16T19:55:44.297Z"
     },
     {
       "title": "Event Coordinator - Myrtle Beach",
@@ -392,34 +420,7 @@
       "firstSeenAt": "2026-10-16T18:23:40.794Z",
       "score": 70,
       "flags": [],
-      "linkCheckedAt": "2026-10-16T18:23:40.794Z"
-    },
-    {
-      "title": "Part-time Nabisco Merchandiser",
-      "company": "Mondelez International",
-      "location": "Chadbourn, Columbus County (+5 more)",
-      "remote": false,
-      "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5927401925?se=8gOdt47J8RGDx8ZkEzzWsw&utm_medium=api&utm_source=ea9765bf&v=292863BB114BE1B6E7D7765576803CAF7DF156F2",
-      "postedAt": "2026-10-14T07:29:16.000Z",
-      "snippet": "Chadbourn, North Carolina, United States Whiteville, North Carolina, United States Tabor City, North Carolina, United States Part time R-179576 Job Description Join our Mission to Lead the Future of Snacking at Mondelēz International Part …",
-      "source": "adzuna",
-      "id": "7d01e00682501626c0ccd954802030da54e67ff6",
-      "track": "quick-cash",
-      "firstSeenAt": "2026-10-16T18:23:40.794Z",
-      "score": 70,
-      "flags": [
-        "entry-level",
-        "starts-fast"
-      ],
-      "otherLocations": [
-        "Tabor City, Columbus County",
-        "Whiteville, Columbus County",
-        "Carolina Forest, Horry County",
-        "Pawleys Island, Georgetown County",
-        "Murrells Inlet, Horry County"
-      ],
-      "linkCheckedAt": "2026-10-16T18:23:40.794Z"
+      "linkCheckedAt": "2026-10-16T19:55:44.297Z"
     },
     {
       "title": "Event Staff Team Member - John T. Rhodes Myrtle Beach Sports Center",
@@ -436,7 +437,7 @@
       "firstSeenAt": "2026-10-15T21:40:27.290Z",
       "score": 70,
       "flags": [],
-      "linkCheckedAt": "2026-10-16T18:23:40.794Z"
+      "linkCheckedAt": "2026-10-16T19:55:44.297Z"
     },
     {
       "title": "Retail Sales Associate",
@@ -491,7 +492,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-16T18:23:40.794Z"
+      "linkCheckedAt": "2026-10-16T19:55:44.297Z"
     },
     {
       "title": "Bellperson & Valet (Part-time) - Ocean 22",
@@ -508,7 +509,7 @@
       "firstSeenAt": "2026-10-16T18:23:40.794Z",
       "score": 65,
       "flags": [],
-      "linkCheckedAt": "2026-10-16T18:23:40.794Z"
+      "linkCheckedAt": "2026-10-16T19:55:44.297Z"
     },
     {
       "title": "Marine Construction Crew Member",
@@ -529,7 +530,7 @@
         "live-aboard",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-16T18:23:40.794Z"
+      "linkCheckedAt": "2026-10-16T19:55:44.297Z"
     },
     {
       "title": "Data Annotation Specialist - Computer Vision",
@@ -548,7 +549,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-16T18:23:40.794Z"
+      "linkCheckedAt": "2026-10-16T19:55:44.297Z"
     },
     {
       "title": "Temporary Sales Associate",
@@ -568,7 +569,7 @@
         "starts-fast"
       ],
       "otherLocations": [],
-      "linkCheckedAt": "2026-10-16T18:23:40.794Z"
+      "linkCheckedAt": "2026-10-16T19:55:44.297Z"
     },
     {
       "title": "Sales Development Representative",
@@ -585,7 +586,7 @@
       "firstSeenAt": "2026-10-15T20:32:31.715Z",
       "score": 65,
       "flags": [],
-      "linkCheckedAt": "2026-10-16T18:23:40.794Z"
+      "linkCheckedAt": "2026-10-16T19:55:44.297Z"
     },
     {
       "title": "SDR (Sales Development Representative)",
@@ -602,7 +603,7 @@
       "firstSeenAt": "2026-10-15T20:32:31.715Z",
       "score": 65,
       "flags": [],
-      "linkCheckedAt": "2026-10-16T18:23:40.794Z"
+      "linkCheckedAt": "2026-10-16T19:55:44.297Z"
     },
     {
       "title": "Sales Development Representative, Outbound",
@@ -619,7 +620,7 @@
       "firstSeenAt": "2026-10-15T20:32:31.715Z",
       "score": 65,
       "flags": [],
-      "linkCheckedAt": "2026-10-16T18:23:40.794Z"
+      "linkCheckedAt": "2026-10-16T19:55:44.297Z"
     },
     {
       "title": "Deckhand - 50m Private Motor Yacht",
@@ -659,7 +660,8 @@
       "flags": [
         "entry-level"
       ],
-      "linkCheckedAt": "2026-10-16T18:23:40.794Z"
+      "linkCheckedAt": "2026-10-16T18:23:40.794Z",
+      "otherLocations": []
     },
     {
       "title": "Marine Painter Underwater Coatings Division",
@@ -676,7 +678,8 @@
       "firstSeenAt": "2026-10-16T18:23:40.794Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-10-16T18:23:40.794Z"
+      "linkCheckedAt": "2026-10-16T18:23:40.794Z",
+      "otherLocations": []
     },
     {
       "title": "Ferry Mate - Full Time",
@@ -696,7 +699,7 @@
         "drug-test",
         "live-aboard"
       ],
-      "linkCheckedAt": "2026-10-16T18:23:40.794Z"
+      "linkCheckedAt": "2026-10-16T19:55:44.297Z"
     },
     {
       "title": "Deckhand",
@@ -716,7 +719,7 @@
         "far-away",
         "live-aboard"
       ],
-      "linkCheckedAt": "2026-10-16T18:23:40.794Z"
+      "linkCheckedAt": "2026-10-16T19:55:44.297Z"
     },
     {
       "title": "Assistant Dockmaster - Deep Point Marina",
@@ -733,7 +736,7 @@
       "firstSeenAt": "2026-10-15T22:25:32.969Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-10-16T18:23:40.794Z"
+      "linkCheckedAt": "2026-10-16T19:55:44.297Z"
     },
     {
       "title": "PERFECT PART TIME JOB-WEEKEND SALES-Weekly PAY !",
@@ -752,7 +755,7 @@
       "flags": [
         "starts-fast"
       ],
-      "linkCheckedAt": "2026-10-16T18:23:40.794Z"
+      "linkCheckedAt": "2026-10-16T19:55:44.297Z"
     },
     {
       "title": "Part Time Weekend Product Demonstrator in Costco",
@@ -771,7 +774,7 @@
       "flags": [
         "starts-fast"
       ],
-      "linkCheckedAt": "2026-10-16T18:23:40.794Z"
+      "linkCheckedAt": "2026-10-16T19:55:44.297Z"
     },
     {
       "title": "Event Coordinator",
@@ -788,7 +791,7 @@
       "firstSeenAt": "2026-10-15T21:40:27.290Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-10-16T18:23:40.794Z"
+      "linkCheckedAt": "2026-10-16T19:55:44.297Z"
     },
     {
       "title": "Retail Sales Associate",
@@ -822,7 +825,7 @@
       "firstSeenAt": "2026-10-16T18:23:40.794Z",
       "score": 55,
       "flags": [],
-      "linkCheckedAt": "2026-10-16T18:23:40.794Z"
+      "linkCheckedAt": "2026-10-16T19:55:44.297Z"
     },
     {
       "title": "Firefighter Recruit, Georgetown County Fire and EMS",
@@ -841,7 +844,7 @@
       "flags": [
         "starts-fast"
       ],
-      "linkCheckedAt": "2026-10-16T18:23:40.794Z"
+      "linkCheckedAt": "2026-10-16T19:55:44.297Z"
     },
     {
       "title": "LOCK AND DAM OPERATOR",
@@ -863,7 +866,7 @@
         "far-away",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-16T18:23:40.794Z"
+      "linkCheckedAt": "2026-10-16T19:55:44.297Z"
     },
     {
       "title": "Counter Sales Agent",
@@ -900,7 +903,7 @@
       "flags": [
         "starts-fast"
       ],
-      "linkCheckedAt": "2026-10-16T18:23:40.794Z"
+      "linkCheckedAt": "2026-10-16T19:55:44.297Z"
     },
     {
       "title": "Sales Associates",
@@ -917,7 +920,8 @@
       "firstSeenAt": "2026-10-16T18:23:40.794Z",
       "score": 50,
       "flags": [],
-      "linkCheckedAt": "2026-10-16T18:23:40.794Z"
+      "linkCheckedAt": "2026-10-16T18:23:40.794Z",
+      "otherLocations": []
     },
     {
       "title": "Small Craft Operator",
@@ -944,7 +948,7 @@
         "Port Arthur, Texas",
         "Galveston, Texas"
       ],
-      "linkCheckedAt": "2026-10-16T18:23:40.794Z"
+      "linkCheckedAt": "2026-10-16T19:55:44.297Z"
     },
     {
       "title": "Guest Services Attendant",
@@ -961,7 +965,7 @@
       "firstSeenAt": "2026-10-16T18:23:40.794Z",
       "score": 50,
       "flags": [],
-      "linkCheckedAt": "2026-10-16T18:23:40.794Z"
+      "linkCheckedAt": "2026-10-16T19:55:44.297Z"
     },
     {
       "title": "Media Sales Representative",
@@ -1000,7 +1004,7 @@
       "flags": [
         "starts-fast"
       ],
-      "linkCheckedAt": "2026-10-16T18:23:40.794Z"
+      "linkCheckedAt": "2026-10-16T19:55:44.297Z"
     },
     {
       "title": "Retail Display Installer - Technology",
@@ -1020,26 +1024,7 @@
         "starts-fast",
         "drug-test"
       ],
-      "linkCheckedAt": "2026-10-16T18:23:40.794Z"
-    },
-    {
-      "title": "Part Time Promotional Specialist - Bacardi",
-      "company": "Stagwell Global",
-      "location": "Myrtle Beach, SC",
-      "remote": false,
-      "pay": "$30/hour",
-      "url": "https://www.adzuna.com/details/5813780127",
-      "postedAt": null,
-      "snippet": "Part-time brand promo at local events and bars. Brand-ambassador experience preferred, which matches his 2020 Companies/ActionLink work. Closing soon.",
-      "source": "sweep",
-      "id": "62ad48dd388396740be1daa1b3aaaeb5d7298eff",
-      "track": "quick-cash",
-      "firstSeenAt": "2026-10-16T18:23:40.794Z",
-      "score": 45,
-      "flags": [
-        "high-pay"
-      ],
-      "linkCheckedAt": "2026-10-16T18:23:40.794Z"
+      "linkCheckedAt": "2026-10-16T19:55:44.297Z"
     },
     {
       "title": "Xfinity Retail Sales Consultant",
@@ -1056,7 +1041,8 @@
       "firstSeenAt": "2026-10-16T18:23:40.794Z",
       "score": 45,
       "flags": [],
-      "linkCheckedAt": "2026-10-16T18:23:40.794Z"
+      "linkCheckedAt": "2026-10-16T18:23:40.794Z",
+      "otherLocations": []
     },
     {
       "title": "Licensed Real Estate Sales Agent",
@@ -1073,7 +1059,7 @@
       "firstSeenAt": "2026-10-16T18:23:40.794Z",
       "score": 45,
       "flags": [],
-      "linkCheckedAt": "2026-10-16T18:23:40.794Z"
+      "linkCheckedAt": "2026-10-16T19:55:44.297Z"
     },
     {
       "title": "Sales Specialist, Charleston",
@@ -1090,7 +1076,7 @@
       "firstSeenAt": "2026-10-16T18:23:40.794Z",
       "score": 45,
       "flags": [],
-      "linkCheckedAt": "2026-10-16T18:23:40.794Z"
+      "linkCheckedAt": "2026-10-16T19:55:44.297Z"
     },
     {
       "title": "Field Sales and Marketing Representative- North Myrtle Beach, SC",
@@ -1109,7 +1095,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-16T18:23:40.794Z"
+      "linkCheckedAt": "2026-10-16T19:55:44.297Z"
     },
     {
       "title": "Trades Helper Linehandler (Relief Pool) (Open to both U.S. Citizens and Federal Employees)",
@@ -1130,7 +1116,7 @@
         "far-away",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-16T18:23:40.794Z"
+      "linkCheckedAt": "2026-10-16T19:55:44.297Z"
     },
     {
       "title": "Marketing Agent",
@@ -1147,7 +1133,7 @@
       "firstSeenAt": "2026-10-15T21:40:27.290Z",
       "score": 45,
       "flags": [],
-      "linkCheckedAt": "2026-10-16T18:23:40.794Z"
+      "linkCheckedAt": "2026-10-16T19:55:44.297Z"
     },
     {
       "title": "Vacation Sales Ambassador",
@@ -1164,7 +1150,7 @@
       "firstSeenAt": "2026-10-15T21:40:27.290Z",
       "score": 45,
       "flags": [],
-      "linkCheckedAt": "2026-10-16T18:23:40.794Z"
+      "linkCheckedAt": "2026-10-16T19:55:44.297Z"
     },
     {
       "title": "New Business Sales Representative - Work from Home",
@@ -1181,7 +1167,8 @@
       "firstSeenAt": "2026-10-16T18:23:40.794Z",
       "score": 40,
       "flags": [],
-      "linkCheckedAt": "2026-10-16T18:23:40.794Z"
+      "linkCheckedAt": "2026-10-16T18:23:40.794Z",
+      "otherLocations": []
     },
     {
       "title": "Sales Consultant, Public Relations, & Brand Representative for Real Estate Media Company",
@@ -1198,7 +1185,7 @@
       "firstSeenAt": "2026-10-16T18:23:40.794Z",
       "score": 40,
       "flags": [],
-      "linkCheckedAt": "2026-10-16T18:23:40.794Z"
+      "linkCheckedAt": "2026-10-16T19:55:44.297Z"
     },
     {
       "title": "Detailer",
@@ -1215,7 +1202,7 @@
       "firstSeenAt": "2026-10-15T22:25:32.969Z",
       "score": 40,
       "flags": [],
-      "linkCheckedAt": "2026-10-16T18:23:40.794Z"
+      "linkCheckedAt": "2026-10-16T19:55:44.297Z"
     },
     {
       "title": "Field Sales and Marketing Representative- North Myrtle Beach, SC",
@@ -1268,7 +1255,7 @@
       "firstSeenAt": "2026-10-15T21:29:28.105Z",
       "score": 40,
       "flags": [],
-      "linkCheckedAt": "2026-10-16T18:23:40.794Z"
+      "linkCheckedAt": "2026-10-16T19:55:44.297Z"
     }
   ]
 }
