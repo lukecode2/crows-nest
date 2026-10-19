@@ -1,7 +1,7 @@
 {
   "version": 1,
   "directory": {},
-  "updatedAt": "2026-10-19T19:33:30.970Z",
+  "updatedAt": "2026-10-19T19:34:01.055Z",
   "settings": {
     "weeklyGoal": 10,
     "followUpDays": 7
@@ -868,6 +868,36 @@
         {
           "stage": "dockside",
           "at": "2026-10-19T19:33:30.970Z"
+        }
+      ]
+    },
+    {
+      "id": "t_mvfnkgnzp73utmc",
+      "feedId": "40e5ca5b42c5b48ea42257acb85ffd8912d0209c",
+      "company": "Aerotek",
+      "role": "REMOTE JUNIOR / MID-LEVEL WEB DEVELOPER",
+      "track": "ai-web",
+      "location": "",
+      "link": "https://bebee.com/us/jobs/remote-junior-mid-level-web-developer-aerotek-san-francisco--ij-1792139050321-p2gv9hv",
+      "pay": "$89,000–$160,000/year",
+      "stage": "dockside",
+      "dateApplied": null,
+      "lastFollowUp": null,
+      "contact": {
+        "name": "",
+        "email": "",
+        "phone": ""
+      },
+      "notes": "",
+      "reqs": [],
+      "nextAction": "",
+      "nextDue": null,
+      "createdAt": "2026-10-19T19:34:01.055Z",
+      "updatedAt": "2026-10-19T19:34:01.055Z",
+      "history": [
+        {
+          "stage": "dockside",
+          "at": "2026-10-19T19:34:01.055Z"
         }
       ]
     }
