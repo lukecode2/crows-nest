@@ -1,7 +1,7 @@
 {
   "version": 1,
   "directory": {},
-  "updatedAt": "2026-10-19T19:34:01.055Z",
+  "updatedAt": "2026-10-19T20:16:59.000Z",
   "settings": {
     "weeklyGoal": 10,
     "followUpDays": 7
@@ -848,26 +848,30 @@
       "role": "Lead Brand Ambassador - In-Store Sampling (Part-Time, Weekends)",
       "track": "quick-cash",
       "location": "Charleston, Charleston County",
-      "link": "https://www.adzuna.com/land/ad/5934330874?se=iCBPTeLL8RGS5dXBZxj2tQ&utm_medium=api&utm_source=ea9765bf&v=9CF27AA35845E758DA504408A2B596103ABD5175",
-      "pay": "",
-      "stage": "dockside",
-      "dateApplied": null,
+      "link": "https://apply.workable.com/j/DF93915176",
+      "pay": "$30–35/hr",
+      "stage": "castoff",
+      "dateApplied": "2026-10-19",
       "lastFollowUp": null,
       "contact": {
         "name": "",
         "email": "",
         "phone": ""
       },
-      "notes": "",
+      "notes": "Applied via Workable with tailored résumé (no valet). Files: ~/Documents/Luke Job Folder/3 Applications/Everyday Dose - Lead Brand Ambassador. Confirmation emailed to southcarolinacss@gmail.com.",
       "reqs": [],
       "nextAction": "",
       "nextDue": null,
       "createdAt": "2026-10-19T19:33:30.970Z",
-      "updatedAt": "2026-10-19T19:33:30.970Z",
+      "updatedAt": "2026-10-19T20:16:59.000Z",
       "history": [
         {
           "stage": "dockside",
           "at": "2026-10-19T19:33:30.970Z"
+        },
+        {
+          "stage": "castoff",
+          "at": "2026-10-19T20:16:59.000Z"
         }
       ]
     },
