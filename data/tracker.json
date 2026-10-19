@@ -1,7 +1,7 @@
 {
   "version": 1,
   "directory": {},
-  "updatedAt": "2026-10-16T18:55:40.269Z",
+  "updatedAt": "2026-10-19T19:33:30.970Z",
   "settings": {
     "weeklyGoal": 10,
     "followUpDays": 7
@@ -838,6 +838,36 @@
         {
           "stage": "castoff",
           "at": "2026-10-16T18:55:40.269Z"
+        }
+      ]
+    },
+    {
+      "id": "t_mvfnjtgakcbcz6j",
+      "feedId": "5edf8eeefb6e9ecb57bc906addad82f7ff82ad7f",
+      "company": "Everyday Dose Inc.",
+      "role": "Lead Brand Ambassador - In-Store Sampling (Part-Time, Weekends)",
+      "track": "quick-cash",
+      "location": "Charleston, Charleston County",
+      "link": "https://www.adzuna.com/land/ad/5934330874?se=iCBPTeLL8RGS5dXBZxj2tQ&utm_medium=api&utm_source=ea9765bf&v=9CF27AA35845E758DA504408A2B596103ABD5175",
+      "pay": "",
+      "stage": "dockside",
+      "dateApplied": null,
+      "lastFollowUp": null,
+      "contact": {
+        "name": "",
+        "email": "",
+        "phone": ""
+      },
+      "notes": "",
+      "reqs": [],
+      "nextAction": "",
+      "nextDue": null,
+      "createdAt": "2026-10-19T19:33:30.970Z",
+      "updatedAt": "2026-10-19T19:33:30.970Z",
+      "history": [
+        {
+          "stage": "dockside",
+          "at": "2026-10-19T19:33:30.970Z"
         }
       ]
     }
