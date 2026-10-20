@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-20T01:46:20.408Z",
+  "generatedAt": "2026-10-20T15:38:35.355Z",
   "sources": [
     {
       "name": "adzuna",
       "ok": true,
-      "count": 387,
+      "count": 395,
       "error": null
     },
     {
@@ -22,7 +22,7 @@
     {
       "name": "remotive",
       "ok": true,
-      "count": 40,
+      "count": 20,
       "error": null
     },
     {
@@ -34,19 +34,19 @@
     {
       "name": "jobicy",
       "ok": true,
-      "count": 52,
+      "count": 49,
       "error": null
     },
     {
       "name": "himalayas",
       "ok": true,
-      "count": 1,
+      "count": 5,
       "error": null
     },
     {
       "name": "wwr",
       "ok": true,
-      "count": 89,
+      "count": 88,
       "error": null
     },
     {
@@ -58,7 +58,7 @@
     {
       "name": "pagewatch",
       "ok": true,
-      "count": 2,
+      "count": 15,
       "error": null
     },
     {
@@ -116,7 +116,7 @@
         "entry-level",
         "starts-fast"
       ],
-      "linkCheckedAt": "2026-10-20T01:46:20.408Z"
+      "linkCheckedAt": "2026-10-20T15:38:35.355Z"
     },
     {
       "title": "Deckhand Leader",
@@ -140,26 +140,7 @@
         "live-aboard",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-20T01:46:20.408Z"
-    },
-    {
-      "title": "Sales Development Representative",
-      "company": "GoFasti",
-      "location": "Remote — Anywhere",
-      "remote": true,
-      "pay": "",
-      "url": "https://jobicy.com/jobs/155559-1011-sales-development-representative",
-      "postedAt": "2026-10-17T06:55:52.000Z",
-      "snippet": "We Make Remote Work Remarkable • TopTalent from LatAm Hello! We are GoFasti , a Talent-as-a-Service. GoFasti bridges the gap between world-class developers and designers from LatAm and first-class companies around the globe. We need an Eng…",
-      "source": "jobicy",
-      "id": "ed9905b7a641405b1aa39fca397941b37ec14725",
-      "track": "tech-sales",
-      "firstSeenAt": "2026-10-17T14:11:06.587Z",
-      "score": 80,
-      "flags": [
-        "entry-level"
-      ],
-      "linkCheckedAt": "2026-10-20T01:46:20.408Z"
+      "linkCheckedAt": "2026-10-20T15:38:35.355Z"
     },
     {
       "title": "Marketing and Event Coordinator",
@@ -179,7 +160,7 @@
         "entry-level",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-20T01:46:20.408Z"
+      "linkCheckedAt": "2026-10-20T15:38:35.355Z"
     },
     {
       "title": "Video Data Annotation Specialist",
@@ -199,7 +180,7 @@
         "entry-level",
         "starts-fast"
       ],
-      "linkCheckedAt": "2026-10-20T01:46:20.408Z"
+      "linkCheckedAt": "2026-10-20T15:38:35.355Z"
     },
     {
       "title": "Seasonal Brand Ambassador",
@@ -219,7 +200,27 @@
         "entry-level",
         "starts-fast"
       ],
-      "linkCheckedAt": "2026-10-20T01:46:20.408Z"
+      "linkCheckedAt": "2026-10-20T15:38:35.355Z"
+    },
+    {
+      "title": "Business Development Representative - US, Remote",
+      "company": "Granicus",
+      "location": "Remote — United States",
+      "remote": true,
+      "pay": "$50,000/annual",
+      "url": "https://himalayas.app/companies/granicus/jobs/business-development-representative-us-remote?utm_source=api",
+      "postedAt": "2026-10-20T15:08:12.000Z",
+      "snippet": "The Company Serving the People Who Serve the People Granicus is driven by the excitement of building, implementing, and maintaining technology that is transforming the Govtech industry by bringing governments and its constituents together.…",
+      "source": "himalayas",
+      "closesAt": "2026-12-19T15:08:10.000Z",
+      "id": "cd8e9e7904813bdf25d099f9528f309e27fa7f52",
+      "track": "tech-sales",
+      "firstSeenAt": "2026-10-20T15:38:35.355Z",
+      "score": 75,
+      "flags": [
+        "high-pay"
+      ],
+      "linkCheckedAt": "2026-10-20T15:38:35.355Z"
     },
     {
       "title": "Deckhand",
@@ -242,7 +243,7 @@
         "high-pay"
       ],
       "otherLocations": [],
-      "linkCheckedAt": "2026-10-20T01:46:20.408Z"
+      "linkCheckedAt": "2026-10-20T15:38:35.355Z"
     },
     {
       "title": "Yacht Stewardess / Steward — Fort Lauderdale, FL",
@@ -263,7 +264,7 @@
         "far-away",
         "live-aboard"
       ],
-      "linkCheckedAt": "2026-10-19T17:27:01.917Z"
+      "linkCheckedAt": "2026-10-20T15:38:35.355Z"
     },
     {
       "title": "Parking Valet Attendant - Overnight",
@@ -284,24 +285,23 @@
       "otherLocations": []
     },
     {
-      "title": "Parking Valet Attendant",
-      "company": "Propark Mobility",
-      "location": "Johns Island, Charleston County",
-      "remote": false,
-      "pay": "$27,040–$52,000/year",
-      "url": "https://www.adzuna.com/land/ad/5932093060?se=3OIjmTTK8RGq65mh8wCbFA&utm_medium=api&utm_source=ea9765bf&v=1A5F026BA421F3C399EAA6EA5F82E1443ECF38EF",
-      "postedAt": "2026-10-17T07:24:33.000Z",
-      "snippet": "Job Description Job Description Overview Por favor, desplázate hacia abajo para ver la versión en español Parking Valet Attendant Pay Rate: $13.00 - $25.00 per hour plus cash tip$! Job Type: Full-time Location: Johns Island, South Carolina…",
-      "source": "adzuna",
-      "id": "6d96eac18ca76a6926c4aa5c07d77c72b939880e",
-      "track": "quick-cash",
+      "title": "Sales Development Representative",
+      "company": "GoFasti",
+      "location": "Remote — Anywhere",
+      "remote": true,
+      "pay": "",
+      "url": "https://jobicy.com/jobs/155559-1011-sales-development-representative",
+      "postedAt": "2026-10-17T06:55:52.000Z",
+      "snippet": "We Make Remote Work Remarkable • TopTalent from LatAm Hello! We are GoFasti , a Talent-as-a-Service. GoFasti bridges the gap between world-class developers and designers from LatAm and first-class companies around the globe. We need an Eng…",
+      "source": "jobicy",
+      "id": "ed9905b7a641405b1aa39fca397941b37ec14725",
+      "track": "tech-sales",
       "firstSeenAt": "2026-10-17T14:11:06.587Z",
       "score": 75,
       "flags": [
-        "high-pay"
+        "entry-level"
       ],
-      "linkCheckedAt": "2026-10-19T17:27:01.917Z",
-      "otherLocations": []
+      "linkCheckedAt": "2026-10-20T15:38:35.355Z"
     },
     {
       "title": "Account Executive - Essex/Middlesex, MA Region (Entry Level)",
@@ -320,7 +320,27 @@
       "flags": [
         "entry-level"
       ],
-      "linkCheckedAt": "2026-10-19T17:27:01.917Z"
+      "linkCheckedAt": "2026-10-20T15:38:35.355Z"
+    },
+    {
+      "title": "Parking Valet Attendant",
+      "company": "Propark Mobility",
+      "location": "Saint Andrews, Charleston County (+1 more)",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/details/5935508922?utm_medium=api&utm_source=ea9765bf",
+      "postedAt": "2026-10-20T10:58:11.000Z",
+      "snippet": "Parking Valet Attendants Pay Rate: $12.00 - $22.00 per hour plus cash tip$! Job Type: Part-time Location: Charleston, South Carolina Shift & Schedule: All shifts available Must Have: 2 Years Drivers License Applications will be accepted un…",
+      "source": "adzuna",
+      "id": "fe042e4b1cdb90fc747b87ce725440f7876c9742",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-20T15:38:35.355Z",
+      "score": 70,
+      "flags": [],
+      "otherLocations": [
+        "Johns Island, Charleston County"
+      ],
+      "linkCheckedAt": "2026-10-20T15:38:35.355Z"
     },
     {
       "title": "Sales Development Representative, Hospital Solutions",
@@ -338,7 +358,7 @@
       "score": 70,
       "flags": [],
       "otherLocations": [],
-      "linkCheckedAt": "2026-10-20T01:46:20.408Z"
+      "linkCheckedAt": "2026-10-20T15:38:35.355Z"
     },
     {
       "title": "Sales Development Representative, Clinical Search",
@@ -356,7 +376,7 @@
       "score": 70,
       "flags": [],
       "otherLocations": [],
-      "linkCheckedAt": "2026-10-20T01:46:20.408Z"
+      "linkCheckedAt": "2026-10-20T15:38:35.355Z"
     },
     {
       "title": "Lead Brand Ambassador - In-Store Sampling (Part-Time, Weekends)",
@@ -391,7 +411,7 @@
       "score": 70,
       "flags": [],
       "otherLocations": [],
-      "linkCheckedAt": "2026-10-20T01:46:20.408Z"
+      "linkCheckedAt": "2026-10-20T15:38:35.355Z"
     },
     {
       "title": "EVENT INSTALLER",
@@ -409,7 +429,7 @@
       "score": 70,
       "flags": [],
       "otherLocations": [],
-      "linkCheckedAt": "2026-10-19T17:27:01.917Z"
+      "linkCheckedAt": "2026-10-20T15:38:35.355Z"
     },
     {
       "title": "Marine Painter Underwater Coatings Division",
@@ -427,7 +447,7 @@
       "score": 70,
       "flags": [],
       "otherLocations": [],
-      "linkCheckedAt": "2026-10-19T17:27:01.917Z"
+      "linkCheckedAt": "2026-10-20T15:38:35.355Z"
     },
     {
       "title": "Event Coordinator - Myrtle Beach",
@@ -483,7 +503,7 @@
       "firstSeenAt": "2026-10-18T14:32:37.273Z",
       "score": 70,
       "flags": [],
-      "linkCheckedAt": "2026-10-20T01:46:20.408Z"
+      "linkCheckedAt": "2026-10-20T15:38:35.355Z"
     },
     {
       "title": "Sales Development Representative - Renewables",
@@ -500,8 +520,7 @@
       "firstSeenAt": "2026-10-18T14:32:37.273Z",
       "score": 70,
       "flags": [],
-      "otherLocations": [],
-      "linkCheckedAt": "2026-10-20T01:46:20.408Z"
+      "linkCheckedAt": "2026-10-20T15:38:35.355Z"
     },
     {
       "title": "Brand Ambassador - N. Charleston 1",
@@ -518,7 +537,7 @@
       "firstSeenAt": "2026-10-18T14:32:37.273Z",
       "score": 70,
       "flags": [],
-      "linkCheckedAt": "2026-10-19T17:27:01.917Z"
+      "linkCheckedAt": "2026-10-20T15:38:35.355Z"
     },
     {
       "title": "Charleston Event Brand Ambassador (ApeFest)",
@@ -556,62 +575,7 @@
       "firstSeenAt": "2026-10-17T19:20:03.287Z",
       "score": 70,
       "flags": [],
-      "linkCheckedAt": "2026-10-19T17:27:01.917Z"
-    },
-    {
-      "title": "Field Sales/ Brand Ambassador",
-      "company": "Brad Halling American Whiskey Ko. dba BHAWK",
-      "location": "Myrtle Beach, Horry County (+1 more)",
-      "remote": false,
-      "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5932312871?se=KmJ6wl_K8RGIlt-psuh1ig&utm_medium=api&utm_source=ea9765bf&v=28AE82F590B42E369BAD2B152043BF063281D5A6",
-      "postedAt": "2026-10-17T11:07:05.000Z",
-      "snippet": "Job Description Job Description TERRITORY SALES REPRESENTATIVE Brad Halling American Whiskey Ko. (BHAWK) · MYRTLE BEACH, SOUTH CAROLINA Part-time · $20.00/hour commission · 20-30 hrs per week TERRITORY SALES REPRESENTATIVE Brad Halling Ame…",
-      "source": "adzuna",
-      "id": "e42bc826ec22092cb94bd22d1aa50314ba9dbcfb",
-      "track": "quick-cash",
-      "firstSeenAt": "2026-10-17T19:20:03.287Z",
-      "score": 70,
-      "flags": [],
-      "otherLocations": [
-        "Charleston, Charleston County"
-      ],
-      "linkCheckedAt": "2026-10-19T17:27:01.917Z"
-    },
-    {
-      "title": "Part-Time Trunk Show Brand Ambassador",
-      "company": "HART SHAPED ROCKS LLC",
-      "location": "Charleston, Charleston County",
-      "remote": false,
-      "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5932310448?se=HBHewl_K8RGD3NuKZ_epjg&utm_medium=api&utm_source=ea9765bf&v=EF5248369AAD202496B75497CE4197774D935CC4",
-      "postedAt": "2026-10-17T11:05:28.000Z",
-      "snippet": "Job Description Job Description PART-TIME TRUNK SHOW BRAND AMBASSADOR HART is a personalized, soulful jewelry brand headquartered in Charleston, South Carolina. Built around the belief that what you wear should mean something, HART offers …",
-      "source": "adzuna",
-      "id": "d4ae2955e9867346a09860cc8c07898b20b4dff0",
-      "track": "quick-cash",
-      "firstSeenAt": "2026-10-17T19:20:03.287Z",
-      "score": 70,
-      "flags": [],
-      "linkCheckedAt": "2026-10-19T17:27:01.917Z",
-      "otherLocations": []
-    },
-    {
-      "title": "Brand Ambassador - Charleston 1",
-      "company": "Service Pros Auto Glass",
-      "location": "Charleston, Charleston County",
-      "remote": false,
-      "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5931783522?se=3OIjmTTK8RGq65mh8wCbFA&utm_medium=api&utm_source=ea9765bf&v=F2927D76B9B9FC57F36B702E58E5E63163E9DF3D",
-      "postedAt": "2026-10-17T02:10:26.000Z",
-      "snippet": "Job Description Job Description Brand Ambassador / Service Pros Auto Glass $750 - $2000 | Weekly Pay | Full-Time Service Pros Auto Glass is hiring Brand Ambassadors to represent our company inside partnered automotive dealerships. This rol…",
-      "source": "adzuna",
-      "id": "10fd2578881eed33829de289ae4a4218a4520b0e",
-      "track": "quick-cash",
-      "firstSeenAt": "2026-10-17T14:11:06.587Z",
-      "score": 70,
-      "flags": [],
-      "linkCheckedAt": "2026-10-19T17:27:01.917Z"
+      "linkCheckedAt": "2026-10-20T15:38:35.355Z"
     },
     {
       "title": "Marina Forklift Operator",
@@ -628,7 +592,7 @@
       "firstSeenAt": "2026-10-16T20:06:13.035Z",
       "score": 70,
       "flags": [],
-      "linkCheckedAt": "2026-10-20T01:46:20.408Z"
+      "linkCheckedAt": "2026-10-20T15:38:35.355Z"
     },
     {
       "title": "Equipment Operator (Marina Forklift)",
@@ -649,7 +613,7 @@
         "far-away",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-20T01:46:20.408Z"
+      "linkCheckedAt": "2026-10-20T15:38:35.355Z"
     },
     {
       "title": "Deckhand - Inland River Shipyard Support",
@@ -669,7 +633,7 @@
         "far-away",
         "live-aboard"
       ],
-      "linkCheckedAt": "2026-10-19T17:27:01.917Z"
+      "linkCheckedAt": "2026-10-20T15:38:35.355Z"
     },
     {
       "title": "AI Trainer",
@@ -688,7 +652,34 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-20T01:46:20.408Z"
+      "linkCheckedAt": "2026-10-20T15:38:35.355Z"
+    },
+    {
+      "title": "Part-time Nabisco Merchandiser",
+      "company": "Mondelez International",
+      "location": "Chadbourn, Columbus County (+5 more)",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/land/ad/5927401925?se=jPHFUJzM8RGzd4eSn7_T1A&utm_medium=api&utm_source=ea9765bf&v=292863BB114BE1B6E7D7765576803CAF7DF156F2",
+      "postedAt": "2026-10-14T07:29:16.000Z",
+      "snippet": "Chadbourn, North Carolina, United States Whiteville, North Carolina, United States Tabor City, North Carolina, United States Part time R-179576 Job Description Join our Mission to Lead the Future of Snacking at Mondelēz International Part …",
+      "source": "adzuna",
+      "id": "66c7fed95d5b1f5e067f8e5f4a9a0cde182c8cab",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-20T15:38:35.355Z",
+      "score": 65,
+      "flags": [
+        "entry-level",
+        "starts-fast"
+      ],
+      "otherLocations": [
+        "Tabor City, Columbus County",
+        "Whiteville, Columbus County",
+        "Carolina Forest, Horry County",
+        "Pawleys Island, Georgetown County",
+        "Murrells Inlet, Horry County"
+      ],
+      "linkCheckedAt": "2026-10-20T15:38:35.355Z"
     },
     {
       "title": "Blood Drive Event Planner",
@@ -705,7 +696,7 @@
       "firstSeenAt": "2026-10-19T17:27:01.917Z",
       "score": 65,
       "flags": [],
-      "linkCheckedAt": "2026-10-20T01:46:20.408Z"
+      "linkCheckedAt": "2026-10-20T15:38:35.355Z"
     },
     {
       "title": "Private Yacht Deckhand – Career in Yachting & Detail Work",
@@ -726,7 +717,7 @@
         "live-aboard",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-19T17:27:01.917Z"
+      "linkCheckedAt": "2026-10-20T15:38:35.355Z"
     },
     {
       "title": "Head Stewardess — 50m Charter Yacht Interior Lead",
@@ -747,7 +738,45 @@
         "live-aboard",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-19T17:27:01.917Z"
+      "linkCheckedAt": "2026-10-20T15:38:35.355Z"
+    },
+    {
+      "title": "Field Sales/ Brand Ambassador",
+      "company": "Brad Halling American Whiskey Ko. dba BHAWK",
+      "location": "Myrtle Beach, Horry County (+1 more)",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/land/ad/5932312871?se=KmJ6wl_K8RGIlt-psuh1ig&utm_medium=api&utm_source=ea9765bf&v=28AE82F590B42E369BAD2B152043BF063281D5A6",
+      "postedAt": "2026-10-17T11:07:05.000Z",
+      "snippet": "Job Description Job Description TERRITORY SALES REPRESENTATIVE Brad Halling American Whiskey Ko. (BHAWK) · MYRTLE BEACH, SOUTH CAROLINA Part-time · $20.00/hour commission · 20-30 hrs per week TERRITORY SALES REPRESENTATIVE Brad Halling Ame…",
+      "source": "adzuna",
+      "id": "e42bc826ec22092cb94bd22d1aa50314ba9dbcfb",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-17T19:20:03.287Z",
+      "score": 65,
+      "flags": [],
+      "otherLocations": [
+        "Charleston, Charleston County"
+      ],
+      "linkCheckedAt": "2026-10-20T15:38:35.355Z"
+    },
+    {
+      "title": "Part-Time Trunk Show Brand Ambassador",
+      "company": "HART SHAPED ROCKS LLC",
+      "location": "Charleston, Charleston County",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/land/ad/5932310448?se=HBHewl_K8RGD3NuKZ_epjg&utm_medium=api&utm_source=ea9765bf&v=EF5248369AAD202496B75497CE4197774D935CC4",
+      "postedAt": "2026-10-17T11:05:28.000Z",
+      "snippet": "Job Description Job Description PART-TIME TRUNK SHOW BRAND AMBASSADOR HART is a personalized, soulful jewelry brand headquartered in Charleston, South Carolina. Built around the belief that what you wear should mean something, HART offers …",
+      "source": "adzuna",
+      "id": "d4ae2955e9867346a09860cc8c07898b20b4dff0",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-17T19:20:03.287Z",
+      "score": 65,
+      "flags": [],
+      "linkCheckedAt": "2026-10-20T15:38:35.355Z",
+      "otherLocations": []
     },
     {
       "title": "Business Transformation Consultant - AI Trainer",
@@ -766,7 +795,24 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-19T17:27:01.917Z"
+      "linkCheckedAt": "2026-10-20T15:38:35.355Z"
+    },
+    {
+      "title": "Brand Ambassador - Charleston 1",
+      "company": "Service Pros Auto Glass",
+      "location": "Charleston, Charleston County",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/land/ad/5931783522?se=3OIjmTTK8RGq65mh8wCbFA&utm_medium=api&utm_source=ea9765bf&v=F2927D76B9B9FC57F36B702E58E5E63163E9DF3D",
+      "postedAt": "2026-10-17T02:10:26.000Z",
+      "snippet": "Job Description Job Description Brand Ambassador / Service Pros Auto Glass $750 - $2000 | Weekly Pay | Full-Time Service Pros Auto Glass is hiring Brand Ambassadors to represent our company inside partnered automotive dealerships. This rol…",
+      "source": "adzuna",
+      "id": "10fd2578881eed33829de289ae4a4218a4520b0e",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-17T14:11:06.587Z",
+      "score": 65,
+      "flags": [],
+      "linkCheckedAt": "2026-10-20T15:38:35.355Z"
     },
     {
       "title": "Marine Outboard Technician",
@@ -783,7 +829,7 @@
       "firstSeenAt": "2026-10-17T14:11:06.587Z",
       "score": 65,
       "flags": [],
-      "linkCheckedAt": "2026-10-19T17:27:01.917Z",
+      "linkCheckedAt": "2026-10-20T15:38:35.355Z",
       "otherLocations": []
     },
     {
@@ -801,7 +847,7 @@
       "firstSeenAt": "2026-10-17T14:11:06.587Z",
       "score": 65,
       "flags": [],
-      "linkCheckedAt": "2026-10-19T17:27:01.917Z",
+      "linkCheckedAt": "2026-10-20T15:38:35.355Z",
       "otherLocations": []
     },
     {
@@ -819,7 +865,7 @@
       "firstSeenAt": "2026-10-17T01:16:17.005Z",
       "score": 65,
       "flags": [],
-      "linkCheckedAt": "2026-10-20T01:46:20.408Z"
+      "linkCheckedAt": "2026-10-20T15:38:35.355Z"
     },
     {
       "title": "Field Business Development Representative (BDR) – Managed IT & Cybersecurity (Red Bank)",
@@ -855,7 +901,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-20T01:46:20.408Z"
+      "linkCheckedAt": "2026-10-20T15:38:35.355Z"
     },
     {
       "title": "Bellperson & Valet",
@@ -873,7 +919,7 @@
       "score": 65,
       "flags": [],
       "otherLocations": [],
-      "linkCheckedAt": "2026-10-20T01:46:20.408Z"
+      "linkCheckedAt": "2026-10-20T15:38:35.355Z"
     },
     {
       "title": "Bellperson & Valet (Part-time)",
@@ -890,24 +936,7 @@
       "firstSeenAt": "2026-10-16T18:23:40.794Z",
       "score": 65,
       "flags": [],
-      "linkCheckedAt": "2026-10-20T01:46:20.408Z"
-    },
-    {
-      "title": "Bellperson & Valet (Part-time) - Ocean 22",
-      "company": "Hilton Grand Vacations",
-      "location": "Myrtle Beach, SC",
-      "remote": false,
-      "pay": "",
-      "url": "https://www.simplyhired.com/job/crfU45an2vE5jxq6IGwywCmpsTzKR_R8uT0XEEV0xy5b6Ak-ZYbmRQ",
-      "postedAt": "2026-10-13T12:00:00.000Z",
-      "snippet": "Valet/bell at Ocean 22 resort, daily pay, benefits day one. Needs 6 months customer service (he has valet + brand ambassador) and manual-transmission driving.",
-      "source": "sweep",
-      "id": "7be0454bd208aac3329abe2dd568db98d6cf82df",
-      "track": "quick-cash",
-      "firstSeenAt": "2026-10-16T18:23:40.794Z",
-      "score": 65,
-      "flags": [],
-      "linkCheckedAt": "2026-10-20T01:46:20.408Z"
+      "linkCheckedAt": "2026-10-20T15:38:35.355Z"
     },
     {
       "title": "Marine Construction Crew Member",
@@ -928,7 +957,7 @@
         "live-aboard",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-20T01:46:20.408Z"
+      "linkCheckedAt": "2026-10-20T15:38:35.355Z"
     },
     {
       "title": "Data Annotation Specialist - Computer Vision",
@@ -947,7 +976,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-20T01:46:20.408Z"
+      "linkCheckedAt": "2026-10-20T15:38:35.355Z"
     },
     {
       "title": "Event Staff Team Member - John T. Rhodes Myrtle Beach Sports Center",
@@ -964,7 +993,7 @@
       "firstSeenAt": "2026-10-15T21:40:27.290Z",
       "score": 65,
       "flags": [],
-      "linkCheckedAt": "2026-10-20T01:46:20.408Z"
+      "linkCheckedAt": "2026-10-20T15:38:35.355Z"
     },
     {
       "title": "Retail Sales Associate",
@@ -982,7 +1011,7 @@
       "score": 65,
       "flags": [],
       "otherLocations": [],
-      "linkCheckedAt": "2026-10-19T17:27:01.917Z"
+      "linkCheckedAt": "2026-10-20T15:38:35.355Z"
     },
     {
       "title": "Valet Parking Attendant MUSC ( Afternoon Shift )",
@@ -1000,7 +1029,7 @@
       "score": 65,
       "flags": [],
       "otherLocations": [],
-      "linkCheckedAt": "2026-10-19T17:27:01.917Z"
+      "linkCheckedAt": "2026-10-20T15:38:35.355Z"
     },
     {
       "title": "Deckhand – Inland Barge Fleet Hour Shifts",
@@ -1021,7 +1050,7 @@
         "live-aboard",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-19T17:27:01.917Z"
+      "linkCheckedAt": "2026-10-20T15:38:35.355Z"
     },
     {
       "title": "MARINE DECKHAND - TRAVEL REQUIRED",
@@ -1042,7 +1071,69 @@
         "live-aboard",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-19T17:27:01.917Z"
+      "linkCheckedAt": "2026-10-20T15:38:35.355Z"
+    },
+    {
+      "title": "Deckhand - 53m Private/Charter Motor Yacht",
+      "company": "Bluewater Yachting",
+      "location": "",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.bluewateryachting.com/yacht-crew-job/deckhand-159359",
+      "postedAt": null,
+      "snippet": "New link on careers page",
+      "source": "pagewatch",
+      "flags": [
+        "page-changed",
+        "far-away",
+        "live-aboard"
+      ],
+      "id": "a78070d1d0ded2976de51f10a4b0196114ccb062",
+      "track": "marine-national",
+      "firstSeenAt": "2026-10-20T15:38:35.355Z",
+      "score": 60,
+      "linkCheckedAt": "2026-10-20T15:38:35.355Z"
+    },
+    {
+      "title": "Deckhand - 34m Private Motor Yacht",
+      "company": "Bluewater Yachting",
+      "location": "",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.bluewateryachting.com/yacht-crew-job/deckhand-159277",
+      "postedAt": null,
+      "snippet": "New link on careers page",
+      "source": "pagewatch",
+      "flags": [
+        "page-changed",
+        "far-away",
+        "live-aboard"
+      ],
+      "id": "9431cda15ad0e759c7a261715f3f8798548db910",
+      "track": "marine-national",
+      "firstSeenAt": "2026-10-20T15:38:35.355Z",
+      "score": 60,
+      "linkCheckedAt": "2026-10-20T15:38:35.355Z"
+    },
+    {
+      "title": "PERFECT PART TIME JOB-WEEKEND SALES-Weekly PAY !",
+      "company": "Zipfizz Corporation",
+      "location": "Charleston, Charleston County",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/land/ad/5935525441?se=sM8sUZzM8RGxOcn8vDO86g&utm_medium=api&utm_source=ea9765bf&v=9D7832AAC80D549A0EFF5960A82B2DE8B021ED73",
+      "postedAt": "2026-10-20T11:21:38.000Z",
+      "snippet": "Job Description Job Description Join Zipfizz as a Brand Ambassador inside Costco! Zipfizz, a vitamin-enhanced energy and hydration drink, is hiring enthusiastic Brand Ambassadors to represent our products at Costco and event locations near…",
+      "source": "adzuna",
+      "id": "1f9570e43ba7965ba65011d8bdab2d3533f27c7b",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-20T15:38:35.355Z",
+      "score": 60,
+      "flags": [
+        "starts-fast"
+      ],
+      "otherLocations": [],
+      "linkCheckedAt": "2026-10-20T15:38:35.355Z"
     },
     {
       "title": "Yacht Deck/Stew — Private 70' Vessel, Caribbean",
@@ -1062,7 +1153,7 @@
         "far-away",
         "live-aboard"
       ],
-      "linkCheckedAt": "2026-10-19T17:27:01.917Z"
+      "linkCheckedAt": "2026-10-20T15:38:35.355Z"
     },
     {
       "title": "Service Valet - Shuttle Driver - North Shore CDJR",
@@ -1079,27 +1170,7 @@
       "firstSeenAt": "2026-10-18T14:32:37.273Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-10-19T17:27:01.917Z"
-    },
-    {
-      "title": "CUSTOMER AMBASSADOR (FULL TIME)",
-      "company": "Eurest",
-      "location": "North Charleston, Charleston County",
-      "remote": false,
-      "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5932540184?se=HBHewl_K8RGD3NuKZ_epjg&utm_medium=api&utm_source=ea9765bf&v=11E68CAA5DA6E0FE0E2894F51B05C4B52BC3C334",
-      "postedAt": "2026-10-17T14:11:27.000Z",
-      "snippet": "Job Description Job Description We are hiring immediately for full time CUSTOMER AMBASSADOR positions. Location : North Charleston, SC 29418 Note: online applications accepted only. Schedule : Full time schedule. Days and hours may vary. M…",
-      "source": "adzuna",
-      "id": "8ae300c2652209e2c1a3d1aa353cc37505f602da",
-      "track": "quick-cash",
-      "firstSeenAt": "2026-10-17T19:20:03.287Z",
-      "score": 60,
-      "flags": [
-        "starts-fast"
-      ],
-      "linkCheckedAt": "2026-10-19T17:27:01.917Z",
-      "otherLocations": []
+      "linkCheckedAt": "2026-10-20T15:38:35.355Z"
     },
     {
       "title": "Deckhand - 50m Private Motor Yacht",
@@ -1120,7 +1191,24 @@
       "track": "marine-national",
       "firstSeenAt": "2026-10-16T18:23:40.794Z",
       "score": 60,
-      "linkCheckedAt": "2026-10-19T17:27:01.917Z"
+      "linkCheckedAt": "2026-10-20T15:38:35.355Z"
+    },
+    {
+      "title": "Bellperson & Valet (Part-time) - Ocean 22",
+      "company": "Hilton Grand Vacations",
+      "location": "Myrtle Beach, SC",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.simplyhired.com/job/crfU45an2vE5jxq6IGwywCmpsTzKR_R8uT0XEEV0xy5b6Ak-ZYbmRQ",
+      "postedAt": "2026-10-13T12:00:00.000Z",
+      "snippet": "Valet/bell at Ocean 22 resort, daily pay, benefits day one. Needs 6 months customer service (he has valet + brand ambassador) and manual-transmission driving.",
+      "source": "sweep",
+      "id": "7be0454bd208aac3329abe2dd568db98d6cf82df",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-16T18:23:40.794Z",
+      "score": 60,
+      "flags": [],
+      "linkCheckedAt": "2026-10-20T15:38:35.355Z"
     },
     {
       "title": "Ferry Mate - Full Time",
@@ -1140,7 +1228,7 @@
         "drug-test",
         "live-aboard"
       ],
-      "linkCheckedAt": "2026-10-20T01:46:20.408Z"
+      "linkCheckedAt": "2026-10-20T15:38:35.355Z"
     },
     {
       "title": "Deckhand",
@@ -1160,7 +1248,7 @@
         "far-away",
         "live-aboard"
       ],
-      "linkCheckedAt": "2026-10-20T01:46:20.408Z"
+      "linkCheckedAt": "2026-10-20T15:38:35.355Z"
     },
     {
       "title": "Assistant Dockmaster - Deep Point Marina",
@@ -1177,7 +1265,7 @@
       "firstSeenAt": "2026-10-15T22:25:32.969Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-10-20T01:46:20.408Z"
+      "linkCheckedAt": "2026-10-20T15:38:35.355Z"
     },
     {
       "title": "Event Coordinator",
@@ -1194,7 +1282,7 @@
       "firstSeenAt": "2026-10-15T21:40:27.290Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-10-19T17:27:01.917Z"
+      "linkCheckedAt": "2026-10-20T15:38:35.355Z"
     },
     {
       "title": "Retail Sales Associate",
@@ -1211,7 +1299,7 @@
       "firstSeenAt": "2026-10-15T21:40:27.290Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-10-19T17:27:01.917Z"
+      "linkCheckedAt": "2026-10-20T15:38:35.355Z"
     },
     {
       "title": "Offshore Deckhand",
@@ -1231,7 +1319,7 @@
         "far-away",
         "live-aboard"
       ],
-      "linkCheckedAt": "2026-10-19T17:27:01.917Z"
+      "linkCheckedAt": "2026-10-20T15:38:35.355Z"
     },
     {
       "title": "Sales Development Representative",
@@ -1285,6 +1373,54 @@
       "linkCheckedAt": "2026-10-20T01:46:20.408Z"
     },
     {
+      "title": "Retail Customer Account & Sales Representative",
+      "company": "Rent A Center",
+      "location": "Conway, Horry County",
+      "remote": false,
+      "pay": "$42,000–$50,000/year",
+      "url": "https://www.adzuna.com/land/ad/5935408238?se=yPMxUZzM8RGz3-dAyi5M2w&utm_medium=api&utm_source=ea9765bf&v=7D1CAFE52BA63BDAABFAD8EF28925C16D675D940",
+      "postedAt": "2026-10-20T08:17:51.000Z",
+      "snippet": "Rent-A-Center seeks a Customer Account Representative to deliver friendly, knowledgeable service in a fast-paced retail environment. You will assist customers with product selection, explain rent-to-own options, and open and manage account…",
+      "source": "adzuna",
+      "id": "7ebd8feff0b4f9566e6a681e7e3b497abfb39701",
+      "track": "tech-sales",
+      "firstSeenAt": "2026-10-20T15:38:35.355Z",
+      "score": 55,
+      "flags": [
+        "high-pay"
+      ],
+      "linkCheckedAt": "2026-10-20T15:38:35.355Z"
+    },
+    {
+      "title": "Product Demonstrator",
+      "company": "Advantage Solutions",
+      "location": "James Island, Charleston County (+11 more)",
+      "remote": false,
+      "pay": "$37,440–$49,400/year",
+      "url": "https://www.adzuna.com/land/ad/5935317213?se=sM8sUZzM8RGxOcn8vDO86g&utm_medium=api&utm_source=ea9765bf&v=8D1B7BCFF73972567CF6A51DE5AD97A70F966D5C",
+      "postedAt": "2026-10-20T06:35:45.000Z",
+      "snippet": "Join Advantage Solutions, a globally recognized leader in sales and marketing solutions, as a Part Time Product Demonstrator. In this role, you will play a pivotal part in enhancing our brand impact and engagement by directly interacting w…",
+      "source": "adzuna",
+      "id": "06bd0bd4ff7bdb3bff8726d183099cbacecc308a",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-20T15:38:35.355Z",
+      "score": 55,
+      "flags": [],
+      "otherLocations": [
+        "Goose Creek, Berkeley County",
+        "Awendaw, Charleston County",
+        "Daniel Island, Berkeley County",
+        "Cottageville, Colleton County",
+        "Ravenel, Charleston County",
+        "Ridgeville, Dorchester County",
+        "Ladson, Berkeley County",
+        "Moncks Corner, Berkeley County",
+        "Mount Pleasant, Charleston County",
+        "Rantowels, Charleston County"
+      ],
+      "linkCheckedAt": "2026-10-20T15:38:35.355Z"
+    },
+    {
       "title": "Field Sales and Marketing Representative- Myrtle Beach, SC",
       "company": "TTI",
       "location": "Myrtle Beach, Horry County",
@@ -1301,7 +1437,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-19T17:27:01.917Z"
+      "linkCheckedAt": "2026-10-20T15:38:35.355Z"
     },
     {
       "title": "Retail Paint Sales Associate",
@@ -1318,27 +1454,27 @@
       "firstSeenAt": "2026-10-18T19:24:52.475Z",
       "score": 55,
       "flags": [],
-      "linkCheckedAt": "2026-10-19T17:27:01.917Z",
+      "linkCheckedAt": "2026-10-20T15:38:35.355Z",
       "otherLocations": []
     },
     {
-      "title": "Retail Lead Generation Sales Representative",
-      "company": "ARS-Rescue Rooter",
-      "location": "Myrtle Beach, Horry County",
+      "title": "CUSTOMER AMBASSADOR (FULL TIME)",
+      "company": "Eurest",
+      "location": "North Charleston, Charleston County",
       "remote": false,
-      "pay": "$48,000–$58,000/year",
-      "url": "https://www.adzuna.com/land/ad/5931978180?se=TOwdmTTK8RGTjuVkbjlGnw&utm_medium=api&utm_source=ea9765bf&v=D5ED02C558C7616C2C8638CB6AFF11429D1F8AA7",
-      "postedAt": "2026-10-17T06:45:18.000Z",
-      "snippet": "ARS-Rescue Rooter is seeking an In-Store Lead Generation Specialist to represent our HVAC, plumbing, and electrical services inside major retail locations. You’ll proactively approach shoppers, start friendly conversations, qualify their h…",
+      "pay": "",
+      "url": "https://www.adzuna.com/land/ad/5932540184?se=HBHewl_K8RGD3NuKZ_epjg&utm_medium=api&utm_source=ea9765bf&v=11E68CAA5DA6E0FE0E2894F51B05C4B52BC3C334",
+      "postedAt": "2026-10-17T14:11:27.000Z",
+      "snippet": "Job Description Job Description We are hiring immediately for full time CUSTOMER AMBASSADOR positions. Location : North Charleston, SC 29418 Note: online applications accepted only. Schedule : Full time schedule. Days and hours may vary. M…",
       "source": "adzuna",
-      "id": "ded0f55f3bf456adcf2ecc2ce81c5ff25201b41c",
+      "id": "8ae300c2652209e2c1a3d1aa353cc37505f602da",
       "track": "quick-cash",
-      "firstSeenAt": "2026-10-17T14:11:06.587Z",
+      "firstSeenAt": "2026-10-17T19:20:03.287Z",
       "score": 55,
       "flags": [
-        "high-pay"
+        "starts-fast"
       ],
-      "linkCheckedAt": "2026-10-19T17:27:01.917Z",
+      "linkCheckedAt": "2026-10-20T15:38:35.355Z",
       "otherLocations": []
     },
     {
@@ -1358,7 +1494,7 @@
       "flags": [
         "entry-level"
       ],
-      "linkCheckedAt": "2026-10-19T17:27:01.917Z",
+      "linkCheckedAt": "2026-10-20T15:38:35.355Z",
       "otherLocations": []
     },
     {
@@ -1381,26 +1517,7 @@
         "far-away",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-20T01:46:20.408Z"
-    },
-    {
-      "title": "PERFECT PART TIME JOB-WEEKEND SALES-Weekly PAY !",
-      "company": "Zipfizz Corporation",
-      "location": "Charleston, Charleston County",
-      "remote": false,
-      "pay": "",
-      "url": "https://www.adzuna.com/details/5929345953?utm_medium=api&utm_source=ea9765bf",
-      "postedAt": "2026-10-15T14:27:46.000Z",
-      "snippet": "Join Zipfizz as a Brand Ambassador inside Costco! Zipfizz, a vitamin-enhanced energy and hydration drink, is hiring enthusiastic Brand Ambassadors to represent our products at Costco and event locations near your area. www.zipfizz.com Comp…",
-      "source": "adzuna",
-      "id": "afb1543af603d96896705b886fa21cb8635708cb",
-      "track": "quick-cash",
-      "firstSeenAt": "2026-10-15T21:40:27.290Z",
-      "score": 55,
-      "flags": [
-        "starts-fast"
-      ],
-      "linkCheckedAt": "2026-10-20T01:46:20.408Z"
+      "linkCheckedAt": "2026-10-20T15:38:35.355Z"
     },
     {
       "title": "Part Time Weekend Product Demonstrator in Costco",
@@ -1438,7 +1555,7 @@
       "flags": [
         "starts-fast"
       ],
-      "linkCheckedAt": "2026-10-19T17:27:01.917Z"
+      "linkCheckedAt": "2026-10-20T15:38:35.355Z"
     },
     {
       "title": "Part-Time Retail Merchandiser - Conway, SC",
@@ -1456,7 +1573,7 @@
       "score": 50,
       "flags": [],
       "otherLocations": [],
-      "linkCheckedAt": "2026-10-19T17:27:01.917Z"
+      "linkCheckedAt": "2026-10-20T15:38:35.355Z"
     },
     {
       "title": "Console OR Interior Installer/Rigger",
@@ -1473,7 +1590,7 @@
       "firstSeenAt": "2026-10-19T17:27:01.917Z",
       "score": 50,
       "flags": [],
-      "linkCheckedAt": "2026-10-19T17:27:01.917Z",
+      "linkCheckedAt": "2026-10-20T15:38:35.355Z",
       "otherLocations": []
     },
     {
@@ -1491,7 +1608,7 @@
       "firstSeenAt": "2026-10-18T19:24:52.475Z",
       "score": 50,
       "flags": [],
-      "linkCheckedAt": "2026-10-19T17:27:01.917Z",
+      "linkCheckedAt": "2026-10-20T15:38:35.355Z",
       "otherLocations": []
     },
     {
@@ -1515,70 +1632,24 @@
       "linkCheckedAt": "2026-10-20T01:46:20.408Z"
     },
     {
-      "title": "Part Time Product Demonstrator in Costco",
-      "company": "CDS",
-      "location": "Daniel Island, Berkeley County (+1 more)",
+      "title": "Retail Lead Generation Sales Representative",
+      "company": "ARS-Rescue Rooter",
+      "location": "Myrtle Beach, Horry County",
       "remote": false,
-      "pay": "",
-      "url": "https://www.adzuna.com/details/5932190169?utm_medium=api&utm_source=ea9765bf",
-      "postedAt": "2026-10-17T08:43:00.000Z",
-      "snippet": "We want you to help us shape the future of shopping experiences and deliver on our purpose of connecting people with the products and experiences that enrich their lives. Joining Advantage Solutions means joining a network of 65,000 teamma…",
+      "pay": "$48,000–$58,000/year",
+      "url": "https://www.adzuna.com/land/ad/5931978180?se=TOwdmTTK8RGTjuVkbjlGnw&utm_medium=api&utm_source=ea9765bf&v=D5ED02C558C7616C2C8638CB6AFF11429D1F8AA7",
+      "postedAt": "2026-10-17T06:45:18.000Z",
+      "snippet": "ARS-Rescue Rooter is seeking an In-Store Lead Generation Specialist to represent our HVAC, plumbing, and electrical services inside major retail locations. You’ll proactively approach shoppers, start friendly conversations, qualify their h…",
       "source": "adzuna",
-      "id": "78777ffdb459161b935943a6fc641e3e8d582213",
-      "track": "quick-cash",
-      "firstSeenAt": "2026-10-17T19:20:03.287Z",
-      "score": 50,
-      "flags": [],
-      "otherLocations": [
-        "James Island, Charleston County"
-      ],
-      "linkCheckedAt": "2026-10-20T01:46:20.408Z"
-    },
-    {
-      "title": "Part Time Product Demonstrator",
-      "company": "Advantage Solutions",
-      "location": "Yonges Island, Charleston County (+11 more)",
-      "remote": false,
-      "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5932020373?se=3OIjmTTK8RGq65mh8wCbFA&utm_medium=api&utm_source=ea9765bf&v=07D6ECEF564E37F8BB2DB09E938E57F79BC87D06",
-      "postedAt": "2026-10-17T07:06:23.000Z",
-      "snippet": "Job Description We want you to help us shape the future of shopping experiences and deliver on our purpose of connecting people with the products and experiences that enrich their lives. Joining Advantage Solutions means joining a network …",
-      "source": "adzuna",
-      "id": "de13db391743b2d496c669c337ccf79760b75205",
+      "id": "ded0f55f3bf456adcf2ecc2ce81c5ff25201b41c",
       "track": "quick-cash",
       "firstSeenAt": "2026-10-17T14:11:06.587Z",
       "score": 50,
-      "flags": [],
-      "otherLocations": [
-        "Goose Creek, Berkeley County",
-        "Ridgeville, Dorchester County",
-        "Ravenel, Charleston County",
-        "Awendaw, Charleston County",
-        "Ladson, Berkeley County",
-        "Johns Island, Charleston County",
-        "Mount Pleasant, Charleston County",
-        "Cottageville, Colleton County",
-        "Rantowels, Charleston County",
-        "Charleston, Charleston County"
+      "flags": [
+        "high-pay"
       ],
-      "linkCheckedAt": "2026-10-19T17:27:01.917Z"
-    },
-    {
-      "title": "Brand Expert",
-      "company": "Charlotte Tilbury",
-      "location": "Charleston, Charleston County",
-      "remote": false,
-      "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5931789454?se=3OIjmTTK8RGq65mh8wCbFA&utm_medium=api&utm_source=ea9765bf&v=925A8DFF5EB41F1134FBFC28244FD35819DD4074",
-      "postedAt": "2026-10-17T02:11:51.000Z",
-      "snippet": "Job Description Job Description Charlotte Tilbury is seeking passionate and talented Brand Experts to join our team. As a Brand Expert, you will be the face of Charlotte Tilbury in-store, providing exceptional makeup artistry, personalized…",
-      "source": "adzuna",
-      "id": "5718110c5df682c53404ef814b65b7da2c23336e",
-      "track": "quick-cash",
-      "firstSeenAt": "2026-10-17T14:11:06.587Z",
-      "score": 50,
-      "flags": [],
-      "linkCheckedAt": "2026-10-19T17:27:01.917Z"
+      "linkCheckedAt": "2026-10-20T15:38:35.355Z",
+      "otherLocations": []
     },
     {
       "title": "Marketing Events Specialist",
@@ -1595,34 +1666,7 @@
       "firstSeenAt": "2026-10-16T18:23:40.794Z",
       "score": 50,
       "flags": [],
-      "linkCheckedAt": "2026-10-20T01:46:20.408Z"
-    },
-    {
-      "title": "Small Craft Operator",
-      "company": "U.S. Army Corps of Engineers",
-      "location": "Aberdeen, Washington (+2 more)",
-      "remote": false,
-      "pay": "$35.9–$43.34/Per Hour",
-      "url": "https://www.usajobs.gov:443/job/888464400",
-      "postedAt": "2026-10-13T07:55:16.853Z",
-      "snippet": "This is a Direct Hire Authority (DHA) solicitation utilizing the DHA for Certain Personnel of the DoD Workforce to recruit and appoint qualified candidates to positions in the competitive service. About the Position: Operates a Survey Boat…",
-      "source": "usajobs",
-      "closesAt": "2026-10-26T23:59:59.997Z",
-      "id": "53bc3beb6bfa79c30dbcff41c88b5ebd0331836a",
-      "track": "marine-national",
-      "firstSeenAt": "2026-10-16T18:23:40.794Z",
-      "score": 50,
-      "flags": [
-        "needs-twic",
-        "needs-mmc",
-        "far-away",
-        "high-pay"
-      ],
-      "otherLocations": [
-        "Port Arthur, Texas",
-        "Galveston, Texas"
-      ],
-      "linkCheckedAt": "2026-10-20T01:46:20.408Z"
+      "linkCheckedAt": "2026-10-20T15:38:35.355Z"
     },
     {
       "title": "Firefighter Recruit, Georgetown County Fire and EMS",
@@ -1641,7 +1685,7 @@
       "flags": [
         "starts-fast"
       ],
-      "linkCheckedAt": "2026-10-20T01:46:20.408Z"
+      "linkCheckedAt": "2026-10-20T15:38:35.355Z"
     },
     {
       "title": "Chromebook Sales Specialist",
@@ -1660,31 +1704,7 @@
       "flags": [
         "starts-fast"
       ],
-      "linkCheckedAt": "2026-10-20T01:46:20.408Z"
-    },
-    {
-      "title": "Part-time Nabisco Merchandiser",
-      "company": "Mondelez International",
-      "location": "Chadbourn, Columbus County (+5 more)",
-      "remote": false,
-      "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5927401925?se=Ugr2TOLL8RG4GPmddZJewA&utm_medium=api&utm_source=ea9765bf&v=292863BB114BE1B6E7D7765576803CAF7DF156F2",
-      "postedAt": "2026-10-14T07:29:16.000Z",
-      "snippet": "Chadbourn, North Carolina, United States Whiteville, North Carolina, United States Tabor City, North Carolina, United States Part time R-179576 Job Description Join our Mission to Lead the Future of Snacking at Mondelēz International Part …",
-      "source": "adzuna",
-      "id": "b85b2cb3561737e0b7eb4e24cb8ab9c672201556",
-      "track": "quick-cash",
-      "firstSeenAt": "2026-10-19T17:27:01.917Z",
-      "score": 45,
-      "flags": [],
-      "otherLocations": [
-        "Tabor City, Columbus County",
-        "Whiteville, Columbus County",
-        "Carolina Forest, Horry County",
-        "Pawleys Island, Georgetown County",
-        "Murrells Inlet, Horry County"
-      ],
-      "linkCheckedAt": "2026-10-19T17:27:01.917Z"
+      "linkCheckedAt": "2026-10-20T15:38:35.355Z"
     },
     {
       "title": "Outside Sales Representative",
@@ -1702,6 +1722,72 @@
       "score": 45,
       "flags": [],
       "linkCheckedAt": "2026-10-20T01:46:20.408Z"
+    },
+    {
+      "title": "Part Time Product Demonstrator in Costco",
+      "company": "CDS",
+      "location": "Daniel Island, Berkeley County (+1 more)",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/details/5932190169?utm_medium=api&utm_source=ea9765bf",
+      "postedAt": "2026-10-17T08:43:00.000Z",
+      "snippet": "We want you to help us shape the future of shopping experiences and deliver on our purpose of connecting people with the products and experiences that enrich their lives. Joining Advantage Solutions means joining a network of 65,000 teamma…",
+      "source": "adzuna",
+      "id": "78777ffdb459161b935943a6fc641e3e8d582213",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-17T19:20:03.287Z",
+      "score": 45,
+      "flags": [],
+      "otherLocations": [
+        "James Island, Charleston County"
+      ],
+      "linkCheckedAt": "2026-10-20T15:38:35.355Z"
+    },
+    {
+      "title": "Part Time Product Demonstrator",
+      "company": "Advantage Solutions",
+      "location": "Yonges Island, Charleston County (+11 more)",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/land/ad/5932020373?se=3OIjmTTK8RGq65mh8wCbFA&utm_medium=api&utm_source=ea9765bf&v=07D6ECEF564E37F8BB2DB09E938E57F79BC87D06",
+      "postedAt": "2026-10-17T07:06:23.000Z",
+      "snippet": "Job Description We want you to help us shape the future of shopping experiences and deliver on our purpose of connecting people with the products and experiences that enrich their lives. Joining Advantage Solutions means joining a network …",
+      "source": "adzuna",
+      "id": "de13db391743b2d496c669c337ccf79760b75205",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-17T14:11:06.587Z",
+      "score": 45,
+      "flags": [],
+      "otherLocations": [
+        "Goose Creek, Berkeley County",
+        "Ridgeville, Dorchester County",
+        "Ravenel, Charleston County",
+        "Awendaw, Charleston County",
+        "Ladson, Berkeley County",
+        "Johns Island, Charleston County",
+        "Mount Pleasant, Charleston County",
+        "Cottageville, Colleton County",
+        "Rantowels, Charleston County",
+        "Charleston, Charleston County"
+      ],
+      "linkCheckedAt": "2026-10-20T15:38:35.355Z"
+    },
+    {
+      "title": "Brand Expert",
+      "company": "Charlotte Tilbury",
+      "location": "Charleston, Charleston County",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/land/ad/5931789454?se=3OIjmTTK8RGq65mh8wCbFA&utm_medium=api&utm_source=ea9765bf&v=925A8DFF5EB41F1134FBFC28244FD35819DD4074",
+      "postedAt": "2026-10-17T02:11:51.000Z",
+      "snippet": "Job Description Job Description Charlotte Tilbury is seeking passionate and talented Brand Experts to join our team. As a Brand Expert, you will be the face of Charlotte Tilbury in-store, providing exceptional makeup artistry, personalized…",
+      "source": "adzuna",
+      "id": "5718110c5df682c53404ef814b65b7da2c23336e",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-17T14:11:06.587Z",
+      "score": 45,
+      "flags": [],
+      "linkCheckedAt": "2026-10-20T15:38:35.355Z"
     },
     {
       "title": "Outside Sales Professional",
@@ -1735,7 +1821,7 @@
       "firstSeenAt": "2026-10-16T20:06:13.035Z",
       "score": 45,
       "flags": [],
-      "linkCheckedAt": "2026-10-20T01:46:20.408Z"
+      "linkCheckedAt": "2026-10-20T15:38:35.355Z"
     },
     {
       "title": "Sales Associates",
@@ -1752,8 +1838,35 @@
       "firstSeenAt": "2026-10-16T18:23:40.794Z",
       "score": 45,
       "flags": [],
-      "linkCheckedAt": "2026-10-19T17:27:01.917Z",
+      "linkCheckedAt": "2026-10-20T15:38:35.355Z",
       "otherLocations": []
+    },
+    {
+      "title": "Small Craft Operator",
+      "company": "U.S. Army Corps of Engineers",
+      "location": "Aberdeen, Washington (+2 more)",
+      "remote": false,
+      "pay": "$35.9–$43.34/Per Hour",
+      "url": "https://www.usajobs.gov:443/job/888464400",
+      "postedAt": "2026-10-13T07:55:16.853Z",
+      "snippet": "This is a Direct Hire Authority (DHA) solicitation utilizing the DHA for Certain Personnel of the DoD Workforce to recruit and appoint qualified candidates to positions in the competitive service. About the Position: Operates a Survey Boat…",
+      "source": "usajobs",
+      "closesAt": "2026-10-26T23:59:59.997Z",
+      "id": "53bc3beb6bfa79c30dbcff41c88b5ebd0331836a",
+      "track": "marine-national",
+      "firstSeenAt": "2026-10-16T18:23:40.794Z",
+      "score": 45,
+      "flags": [
+        "needs-twic",
+        "needs-mmc",
+        "far-away",
+        "high-pay"
+      ],
+      "otherLocations": [
+        "Port Arthur, Texas",
+        "Galveston, Texas"
+      ],
+      "linkCheckedAt": "2026-10-20T15:38:35.355Z"
     },
     {
       "title": "Guest Services Attendant",
@@ -1770,7 +1883,7 @@
       "firstSeenAt": "2026-10-16T18:23:40.794Z",
       "score": 45,
       "flags": [],
-      "linkCheckedAt": "2026-10-20T01:46:20.408Z"
+      "linkCheckedAt": "2026-10-20T15:38:35.355Z"
     },
     {
       "title": "Sales Specialist, Charleston",
@@ -1806,7 +1919,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-19T17:27:01.917Z"
+      "linkCheckedAt": "2026-10-20T15:38:35.355Z"
     },
     {
       "title": "Trades Helper Linehandler (Relief Pool) (Open to both U.S. Citizens and Federal Employees)",
@@ -1827,7 +1940,7 @@
         "far-away",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-20T01:46:20.408Z"
+      "linkCheckedAt": "2026-10-20T15:38:35.355Z"
     },
     {
       "title": "Media Sales Representative",
@@ -1847,7 +1960,7 @@
       "otherLocations": [
         "Georgetown, Georgetown County"
       ],
-      "linkCheckedAt": "2026-10-19T17:27:01.917Z"
+      "linkCheckedAt": "2026-10-20T15:38:35.355Z"
     },
     {
       "title": "Xfinity Retail Sales Consultant",
@@ -1864,7 +1977,7 @@
       "firstSeenAt": "2026-10-16T18:23:40.794Z",
       "score": 40,
       "flags": [],
-      "linkCheckedAt": "2026-10-19T17:27:01.917Z",
+      "linkCheckedAt": "2026-10-20T15:38:35.355Z",
       "otherLocations": []
     },
     {
@@ -1882,7 +1995,7 @@
       "firstSeenAt": "2026-10-16T18:23:40.794Z",
       "score": 40,
       "flags": [],
-      "linkCheckedAt": "2026-10-19T17:27:01.917Z"
+      "linkCheckedAt": "2026-10-20T15:38:35.355Z"
     },
     {
       "title": "New Business Sales Representative - Work from Home",
@@ -1899,7 +2012,7 @@
       "firstSeenAt": "2026-10-16T18:23:40.794Z",
       "score": 40,
       "flags": [],
-      "linkCheckedAt": "2026-10-19T17:27:01.917Z",
+      "linkCheckedAt": "2026-10-20T15:38:35.355Z",
       "otherLocations": []
     },
     {
@@ -1934,7 +2047,7 @@
       "firstSeenAt": "2026-10-15T22:25:32.969Z",
       "score": 40,
       "flags": [],
-      "linkCheckedAt": "2026-10-20T01:46:20.408Z"
+      "linkCheckedAt": "2026-10-20T15:38:35.355Z"
     },
     {
       "title": "Marketing Agent",
@@ -1951,7 +2064,7 @@
       "firstSeenAt": "2026-10-15T21:40:27.290Z",
       "score": 40,
       "flags": [],
-      "linkCheckedAt": "2026-10-19T17:27:01.917Z"
+      "linkCheckedAt": "2026-10-20T15:38:35.355Z"
     },
     {
       "title": "Vacation Sales Ambassador",
@@ -1968,7 +2081,7 @@
       "firstSeenAt": "2026-10-15T21:40:27.290Z",
       "score": 40,
       "flags": [],
-      "linkCheckedAt": "2026-10-20T01:46:20.408Z"
+      "linkCheckedAt": "2026-10-20T15:38:35.355Z"
     },
     {
       "title": "Field Sales and Marketing Representative- North Myrtle Beach, SC",
@@ -1986,7 +2099,7 @@
       "score": 40,
       "flags": [],
       "otherLocations": [],
-      "linkCheckedAt": "2026-10-19T17:27:01.917Z"
+      "linkCheckedAt": "2026-10-20T15:38:35.355Z"
     },
     {
       "title": "Field Sales and Marketing Representative- Myrtle Beach, SC",
@@ -2004,7 +2117,7 @@
       "score": 40,
       "flags": [],
       "otherLocations": [],
-      "linkCheckedAt": "2026-10-19T17:27:01.917Z"
+      "linkCheckedAt": "2026-10-20T15:38:35.355Z"
     },
     {
       "title": "HP Retail Sales Representative",
@@ -2021,7 +2134,7 @@
       "firstSeenAt": "2026-10-15T21:29:28.105Z",
       "score": 40,
       "flags": [],
-      "linkCheckedAt": "2026-10-20T01:46:20.408Z"
+      "linkCheckedAt": "2026-10-20T15:38:35.355Z"
     },
     {
       "title": "Retail Display Installer - Technology",
