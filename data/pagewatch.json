@@ -91,20 +91,22 @@
     "https://sealiftcommand.com/departments/engine/deck-engineer-machinist/f5a03923-2ad3-4f36-a465-63c77826d4a9",
     "https://sealiftcommand.com/departments/engine/deck-engineer-machinist---mixed-work-schedule/0f0191ca-d05c-4c8b-a7ae-126b7ccae654",
     "https://sealiftcommand.com/departments/engine/deck-engineer-machinist---trainee/01a0c925-1559-77b9-bb09-37116d5616b8",
-    "https://sealiftcommand.com/career-fair/c20acfa43a12ff5b4d0dbdb5d5ec9141f25cb9c7c5ace1ca88f97a7a47982e92",
     "https://sealiftcommand.com/career-fair/1f650053d49b904f32a0f5640b72b0a085f85d3e8ab8954de0e87cc710ea18ea",
-    "https://sealiftcommand.com/career-fair/23466612cbed6c4f42dc37c629e29e2195444c70fd41da6fc65ba3e31ec81fb7",
     "https://sealiftcommand.com/career-fair/9ed52e736e139e723dd0eab8905c937f9114d77f921ce8fb86d34fdd61b5aeb2",
+    "https://sealiftcommand.com/career-fair/23466612cbed6c4f42dc37c629e29e2195444c70fd41da6fc65ba3e31ec81fb7",
     "https://sealiftcommand.com/career-fair/5732415a4f1810bb79c38f6aa7ed1654b4a5742a6026a037f8ddcc57a4702150",
     "https://sealiftcommand.com/career-fair/5236cef4e5e4a58e7c8e44a20095e47fa99acb869fd466b2d087d439843dab85",
     "https://sealiftcommand.com/career-fair/01bc5b0127cc2e8babf68afd0930153b2a848d5cad8c86bd0b7c855015c8630f",
-    "https://sealiftcommand.com/career-fair/51926a1402c4b591e35111e06f2eeb87fa0e131b4a6950ee9a0725f36858b8c4"
+    "https://sealiftcommand.com/career-fair/51926a1402c4b591e35111e06f2eeb87fa0e131b4a6950ee9a0725f36858b8c4",
+    "https://sealiftcommand.com/career-fair/9389594c5c25c2f8cee7cdd19b76b85bdb3197ced07f8205b933176f0956f835"
   ],
   "https://careers.youradv.com/": [
     "https://youradv.com/solution/private-brand-solutions/",
     "https://careers.youradv.com/",
     "https://youradv.com/solution/insights-sales-growth/",
     "https://youradv.com/careers/",
+    "https://careers.youradv.com/job/?req_id=2026-441189",
+    "https://uscareers2-asm.icims.com/jobs/441189/job",
     "https://careers.youradv.com/job/?req_id=2026-441294",
     "https://uscareers-asm.icims.com/jobs/441294/job",
     "https://careers.youradv.com/job/?req_id=2026-441293",
@@ -397,7 +399,11 @@
     "https://yachtstarship.com/careers/",
     "https://recruiting.paylocity.com/recruiting/jobs/All/2a113bc9-ae74-44f3-84cd-8dac88b5cf1b/Yacht-Starship-Dining-Cruises-LLC"
   ],
-  "https://tallshipsamerica.org/billet-bank/": [],
+  "https://tallshipsamerica.org/billet-bank/": [
+    "https://tallshipsamerica.org/crewsafety/",
+    "https://tallshipsamerica.org/billet-bank/available-jobs",
+    "https://tallshipsamerica.org/billet-bank/available-crew"
+  ],
   "https://jobs.dayforcehcm.com/en-US/colonialgroup/CANDIDATEPORTAL": [],
   "https://www.morantug.com/careers-at-moran/": [
     "https://www.morantug.com/careers-at-moran/"
