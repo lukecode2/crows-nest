@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T15:52:25.707Z",
+  "generatedAt": "2026-10-22T20:32:49.292Z",
   "sources": [
     {
       "name": "adzuna",
@@ -16,7 +16,7 @@
     {
       "name": "jsearch",
       "ok": true,
-      "count": 10,
+      "count": 9,
       "error": null
     },
     {
@@ -34,19 +34,19 @@
     {
       "name": "jobicy",
       "ok": true,
-      "count": 51,
+      "count": 49,
       "error": null
     },
     {
       "name": "himalayas",
       "ok": true,
-      "count": 3,
+      "count": 2,
       "error": null
     },
     {
       "name": "wwr",
       "ok": true,
-      "count": 88,
+      "count": 91,
       "error": null
     },
     {
@@ -58,7 +58,7 @@
     {
       "name": "pagewatch",
       "ok": true,
-      "count": 2,
+      "count": 0,
       "error": null
     },
     {
@@ -116,7 +116,7 @@
         "entry-level",
         "starts-fast"
       ],
-      "linkCheckedAt": "2026-10-22T15:52:25.707Z"
+      "linkCheckedAt": "2026-10-22T20:32:49.292Z"
     },
     {
       "title": "Deckhand Leader",
@@ -140,7 +140,7 @@
         "live-aboard",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-22T15:52:25.707Z"
+      "linkCheckedAt": "2026-10-22T20:32:49.292Z"
     },
     {
       "title": "Junior Sales Development Representative",
@@ -159,7 +159,7 @@
       "flags": [
         "entry-level"
       ],
-      "linkCheckedAt": "2026-10-22T15:52:25.707Z"
+      "linkCheckedAt": "2026-10-22T20:32:49.292Z"
     },
     {
       "title": "Video Data Annotation Specialist",
@@ -179,7 +179,7 @@
         "entry-level",
         "starts-fast"
       ],
-      "linkCheckedAt": "2026-10-22T15:52:25.707Z"
+      "linkCheckedAt": "2026-10-22T20:32:49.292Z"
     },
     {
       "title": "Seasonal Brand Ambassador",
@@ -199,7 +199,7 @@
         "entry-level",
         "starts-fast"
       ],
-      "linkCheckedAt": "2026-10-22T15:52:25.707Z"
+      "linkCheckedAt": "2026-10-22T20:32:49.292Z"
     },
     {
       "title": "Yacht Deckhand — Hollywood, FL",
@@ -240,7 +240,7 @@
       "otherLocations": [
         "Saint Andrews, Charleston County"
       ],
-      "linkCheckedAt": "2026-10-21T20:35:55.186Z"
+      "linkCheckedAt": "2026-10-22T20:32:49.292Z"
     },
     {
       "title": "Business Development Representative - US, Remote",
@@ -260,29 +260,6 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-22T15:52:25.707Z"
-    },
-    {
-      "title": "Deckhand",
-      "company": "U.S. Army Corps of Engineers",
-      "location": "Saint Louis, Missouri",
-      "remote": false,
-      "pay": "$26.71–$31.16/Per Hour",
-      "url": "https://www.usajobs.gov:443/job/889357800",
-      "postedAt": "2026-10-19T16:27:41.970Z",
-      "snippet": "This is a Direct Hire Authority (DHA) solicitation utilizing the DHA for Certain Personnel of the DoD Workforce to recruit and appoint qualified candidates to positions in the competitive service. About the Position: Works as a Deckhand, p…",
-      "source": "usajobs",
-      "closesAt": "2026-11-09T23:59:59.997Z",
-      "id": "8adc1394dba9181aac383d481b878dc727a7d8b5",
-      "track": "marine-national",
-      "firstSeenAt": "2026-10-20T01:46:20.408Z",
-      "score": 75,
-      "flags": [
-        "far-away",
-        "live-aboard",
-        "high-pay"
-      ],
-      "otherLocations": [],
       "linkCheckedAt": "2026-10-22T15:52:25.707Z"
     },
     {
@@ -323,7 +300,7 @@
       "flags": [
         "entry-level"
       ],
-      "linkCheckedAt": "2026-10-22T15:52:25.707Z"
+      "linkCheckedAt": "2026-10-22T20:32:49.292Z"
     },
     {
       "title": "Marketing and Event Coordinator",
@@ -343,7 +320,7 @@
         "entry-level",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-22T15:52:25.707Z"
+      "linkCheckedAt": "2026-10-22T20:32:49.292Z"
     },
     {
       "title": "Account Executive - Essex/Middlesex, MA Region (Entry Level)",
@@ -379,7 +356,7 @@
       "firstSeenAt": "2026-10-21T20:35:55.186Z",
       "score": 70,
       "flags": [],
-      "linkCheckedAt": "2026-10-21T20:35:55.186Z"
+      "linkCheckedAt": "2026-10-22T20:32:49.292Z"
     },
     {
       "title": "College Event Staff",
@@ -415,7 +392,7 @@
       "score": 70,
       "flags": [],
       "otherLocations": [],
-      "linkCheckedAt": "2026-10-22T15:52:25.707Z"
+      "linkCheckedAt": "2026-10-22T20:32:49.292Z"
     },
     {
       "title": "Yacht Safety Administrator: Remote",
@@ -437,38 +414,27 @@
       "linkCheckedAt": "2026-10-22T01:28:07.341Z"
     },
     {
-      "title": "Sales Development Representative, Hospital Solutions",
-      "company": "Doximity",
-      "location": "Remote — USA",
-      "remote": true,
-      "pay": "",
-      "url": "https://jobicy.com/jobs/155862-sales-development-representative-hospital-solutions",
-      "postedAt": "2026-10-19T16:11:04.000Z",
-      "snippet": "Hospital Solutions, Sales Development Representative Location: Remote About Doximity Doximity is the leading clinical AI company with the largest network of U.S. clinicians. Doximity’s AI-powered workflow platform is trusted by over 85% of…",
-      "source": "jobicy",
-      "id": "84e7472ac48269ef57dcff5f4a1272e46cc088f1",
-      "track": "tech-sales",
+      "title": "Deckhand",
+      "company": "U.S. Army Corps of Engineers",
+      "location": "Saint Louis, Missouri",
+      "remote": false,
+      "pay": "$26.71–$31.16/Per Hour",
+      "url": "https://www.usajobs.gov:443/job/889357800",
+      "postedAt": "2026-10-19T16:27:41.970Z",
+      "snippet": "This is a Direct Hire Authority (DHA) solicitation utilizing the DHA for Certain Personnel of the DoD Workforce to recruit and appoint qualified candidates to positions in the competitive service. About the Position: Works as a Deckhand, p…",
+      "source": "usajobs",
+      "closesAt": "2026-11-09T23:59:59.997Z",
+      "id": "8adc1394dba9181aac383d481b878dc727a7d8b5",
+      "track": "marine-national",
       "firstSeenAt": "2026-10-20T01:46:20.408Z",
       "score": 70,
-      "flags": [],
-      "linkCheckedAt": "2026-10-22T15:52:25.707Z"
-    },
-    {
-      "title": "Sales Development Representative, Clinical Search",
-      "company": "Doximity",
-      "location": "Remote — USA",
-      "remote": true,
-      "pay": "",
-      "url": "https://jobicy.com/jobs/155859-sales-development-representative-clinical-search",
-      "postedAt": "2026-10-19T16:10:50.000Z",
-      "snippet": "Sales Development Representative, Permanent Placement Location: Remote | Hybrid | Onsite – Dallas, TX About the Role The Sales Development team is a driving force behind Doximity ’s growth. We’re on a mission to connect healthcare professi…",
-      "source": "jobicy",
-      "id": "8df98e4d3400be0c9731f56343fc577970d7d437",
-      "track": "tech-sales",
-      "firstSeenAt": "2026-10-20T01:46:20.408Z",
-      "score": 70,
-      "flags": [],
-      "linkCheckedAt": "2026-10-22T15:52:25.707Z"
+      "flags": [
+        "far-away",
+        "live-aboard",
+        "high-pay"
+      ],
+      "otherLocations": [],
+      "linkCheckedAt": "2026-10-22T20:32:49.292Z"
     },
     {
       "title": "Parking Valet Attendant - Overnight",
@@ -503,7 +469,7 @@
       "firstSeenAt": "2026-10-16T20:06:13.035Z",
       "score": 70,
       "flags": [],
-      "linkCheckedAt": "2026-10-22T15:52:25.707Z"
+      "linkCheckedAt": "2026-10-22T20:32:49.292Z"
     },
     {
       "title": "Equipment Operator (Marina Forklift)",
@@ -524,7 +490,7 @@
         "far-away",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-22T15:52:25.707Z"
+      "linkCheckedAt": "2026-10-22T20:32:49.292Z"
     },
     {
       "title": "Remote Machine Learning Expert - AI Trainer ($150-$200 per hour)",
@@ -559,7 +525,7 @@
       "firstSeenAt": "2026-10-21T20:35:55.186Z",
       "score": 65,
       "flags": [],
-      "linkCheckedAt": "2026-10-21T20:35:55.186Z"
+      "linkCheckedAt": "2026-10-22T20:32:49.292Z"
     },
     {
       "title": "Foss Dredge Deckhand/Engineer",
@@ -601,6 +567,40 @@
       "linkCheckedAt": "2026-10-22T01:28:07.341Z"
     },
     {
+      "title": "Sales Development Representative, Hospital Solutions",
+      "company": "Doximity",
+      "location": "Remote — USA",
+      "remote": true,
+      "pay": "",
+      "url": "https://jobicy.com/jobs/155862-sales-development-representative-hospital-solutions",
+      "postedAt": "2026-10-19T16:11:04.000Z",
+      "snippet": "Hospital Solutions, Sales Development Representative Location: Remote About Doximity Doximity is the leading clinical AI company with the largest network of U.S. clinicians. Doximity’s AI-powered workflow platform is trusted by over 85% of…",
+      "source": "jobicy",
+      "id": "84e7472ac48269ef57dcff5f4a1272e46cc088f1",
+      "track": "tech-sales",
+      "firstSeenAt": "2026-10-20T01:46:20.408Z",
+      "score": 65,
+      "flags": [],
+      "linkCheckedAt": "2026-10-22T20:32:49.292Z"
+    },
+    {
+      "title": "Sales Development Representative, Clinical Search",
+      "company": "Doximity",
+      "location": "Remote — USA",
+      "remote": true,
+      "pay": "",
+      "url": "https://jobicy.com/jobs/155859-sales-development-representative-clinical-search",
+      "postedAt": "2026-10-19T16:10:50.000Z",
+      "snippet": "Sales Development Representative, Permanent Placement Location: Remote | Hybrid | Onsite – Dallas, TX About the Role The Sales Development team is a driving force behind Doximity ’s growth. We’re on a mission to connect healthcare professi…",
+      "source": "jobicy",
+      "id": "8df98e4d3400be0c9731f56343fc577970d7d437",
+      "track": "tech-sales",
+      "firstSeenAt": "2026-10-20T01:46:20.408Z",
+      "score": 65,
+      "flags": [],
+      "linkCheckedAt": "2026-10-22T20:32:49.292Z"
+    },
+    {
       "title": "Lead Brand Ambassador - In-Store Sampling (Part-Time, Weekends)",
       "company": "Everyday Dose Inc.",
       "location": "Charleston, Charleston County",
@@ -632,7 +632,7 @@
       "firstSeenAt": "2026-10-19T17:27:01.917Z",
       "score": 65,
       "flags": [],
-      "linkCheckedAt": "2026-10-22T15:52:25.707Z"
+      "linkCheckedAt": "2026-10-22T20:32:49.292Z"
     },
     {
       "title": "EVENT INSTALLER",
@@ -685,7 +685,7 @@
       "firstSeenAt": "2026-10-19T17:27:01.917Z",
       "score": 65,
       "flags": [],
-      "linkCheckedAt": "2026-10-22T15:52:25.707Z"
+      "linkCheckedAt": "2026-10-22T20:32:49.292Z"
     },
     {
       "title": "Event Coordinator - Myrtle Beach",
@@ -783,7 +783,7 @@
       "firstSeenAt": "2026-10-18T14:32:37.273Z",
       "score": 65,
       "flags": [],
-      "linkCheckedAt": "2026-10-22T15:52:25.707Z"
+      "linkCheckedAt": "2026-10-22T20:32:49.292Z"
     },
     {
       "title": "Sales Development Representative - Renewables",
@@ -800,7 +800,7 @@
       "firstSeenAt": "2026-10-18T14:32:37.273Z",
       "score": 65,
       "flags": [],
-      "linkCheckedAt": "2026-10-22T15:52:25.707Z"
+      "linkCheckedAt": "2026-10-22T20:32:49.292Z"
     },
     {
       "title": "Brand Ambassador - N. Charleston 1",
@@ -999,7 +999,7 @@
       "firstSeenAt": "2026-10-17T01:16:17.005Z",
       "score": 65,
       "flags": [],
-      "linkCheckedAt": "2026-10-22T15:52:25.707Z"
+      "linkCheckedAt": "2026-10-22T20:32:49.292Z"
     },
     {
       "title": "Sales Development Representative",
@@ -1018,7 +1018,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-22T15:52:25.707Z"
+      "linkCheckedAt": "2026-10-22T20:32:49.292Z"
     },
     {
       "title": "Bellperson & Valet",
@@ -1036,7 +1036,7 @@
       "score": 65,
       "flags": [],
       "otherLocations": [],
-      "linkCheckedAt": "2026-10-22T15:52:25.707Z"
+      "linkCheckedAt": "2026-10-22T20:32:49.292Z"
     },
     {
       "title": "Marine Construction Crew Member",
@@ -1057,7 +1057,7 @@
         "live-aboard",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-22T15:52:25.707Z"
+      "linkCheckedAt": "2026-10-22T20:32:49.292Z"
     },
     {
       "title": "Data Annotation Specialist - Computer Vision",
@@ -1076,7 +1076,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-22T15:52:25.707Z"
+      "linkCheckedAt": "2026-10-22T20:32:49.292Z"
     },
     {
       "title": "Retail Sales Associate",
@@ -1173,7 +1173,34 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-22T15:52:25.707Z"
+      "linkCheckedAt": "2026-10-22T20:32:49.292Z"
+    },
+    {
+      "title": "Part-time Nabisco Merchandiser",
+      "company": "Mondelez International",
+      "location": "Carolina Forest, Horry County (+5 more)",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/land/ad/5923218585?se=GuCywFfO8RG_LI0d65RFqg&utm_medium=api&utm_source=ea9765bf&v=36CC2048E6C3B820D620556A99C29EC13A994CFA",
+      "postedAt": "2026-10-11T07:16:40.000Z",
+      "snippet": "Myrtle Beach, South Carolina, United States Pawley's Island, South Carolina, United States Murrells Inlet, South Carolina, United States Part time R-178981 Job Description Join our Mission to Lead the Future of Snacking at Mondelēz Interna…",
+      "source": "adzuna",
+      "id": "8a58fd08065d971f6a1c1a6c0d42e45fcfa666f6",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-22T20:32:49.292Z",
+      "score": 60,
+      "flags": [
+        "entry-level",
+        "starts-fast"
+      ],
+      "otherLocations": [
+        "Pawleys Island, Georgetown County",
+        "Murrells Inlet, Horry County",
+        "Chadbourn, Columbus County",
+        "Tabor City, Columbus County",
+        "Whiteville, Columbus County"
+      ],
+      "linkCheckedAt": "2026-10-22T20:32:49.292Z"
     },
     {
       "title": "Service Steward(ess) - 40m Private Motor Yacht",
@@ -1233,34 +1260,8 @@
       "flags": [
         "entry-level"
       ],
-      "linkCheckedAt": "2026-10-22T15:52:25.707Z"
-    },
-    {
-      "title": "Part-time Nabisco Merchandiser",
-      "company": "Mondelez International",
-      "location": "Carolina Forest, Horry County (+5 more)",
-      "remote": false,
-      "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5923218585?se=iMNAlTDO8RGd8eOqR9IQ5A&utm_medium=api&utm_source=ea9765bf&v=36CC2048E6C3B820D620556A99C29EC13A994CFA",
-      "postedAt": "2026-10-11T07:16:40.000Z",
-      "snippet": "Myrtle Beach, South Carolina, United States Pawley's Island, South Carolina, United States Murrells Inlet, South Carolina, United States Part time R-178981 Job Description Join our Mission to Lead the Future of Snacking at Mondelēz Interna…",
-      "source": "adzuna",
-      "id": "3ecb618635ac26fa4f64980f6b8509210ca1af50",
-      "track": "quick-cash",
-      "firstSeenAt": "2026-10-22T15:52:25.707Z",
-      "score": 60,
-      "flags": [
-        "entry-level",
-        "starts-fast"
-      ],
-      "otherLocations": [
-        "Pawleys Island, Georgetown County",
-        "Murrells Inlet, Horry County",
-        "Chadbourn, Columbus County",
-        "Tabor City, Columbus County",
-        "Whiteville, Columbus County"
-      ],
-      "linkCheckedAt": "2026-10-22T15:52:25.707Z"
+      "linkCheckedAt": "2026-10-22T15:52:25.707Z",
+      "otherLocations": []
     },
     {
       "title": "Deckhand - 53m Private/Charter Motor Yacht",
@@ -1380,7 +1381,7 @@
       "firstSeenAt": "2026-10-16T18:23:40.794Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-10-22T15:52:25.707Z"
+      "linkCheckedAt": "2026-10-22T20:32:49.292Z"
     },
     {
       "title": "Bellperson & Valet (Part-time) - Ocean 22",
@@ -1397,7 +1398,7 @@
       "firstSeenAt": "2026-10-16T18:23:40.794Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-10-22T15:52:25.707Z"
+      "linkCheckedAt": "2026-10-22T20:32:49.292Z"
     },
     {
       "title": "Ferry Mate - Full Time",
@@ -1417,7 +1418,7 @@
         "drug-test",
         "live-aboard"
       ],
-      "linkCheckedAt": "2026-10-22T15:52:25.707Z"
+      "linkCheckedAt": "2026-10-22T20:32:49.292Z"
     },
     {
       "title": "Deckhand",
@@ -1437,7 +1438,7 @@
         "far-away",
         "live-aboard"
       ],
-      "linkCheckedAt": "2026-10-22T15:52:25.707Z"
+      "linkCheckedAt": "2026-10-22T20:32:49.292Z"
     },
     {
       "title": "Assistant Dockmaster - Deep Point Marina",
@@ -1454,7 +1455,7 @@
       "firstSeenAt": "2026-10-15T22:25:32.969Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-10-22T15:52:25.707Z"
+      "linkCheckedAt": "2026-10-22T20:32:49.292Z"
     },
     {
       "title": "Event Staff Team Member - John T. Rhodes Myrtle Beach Sports Center",
@@ -1471,7 +1472,7 @@
       "firstSeenAt": "2026-10-15T21:40:27.290Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-10-22T15:52:25.707Z"
+      "linkCheckedAt": "2026-10-22T20:32:49.292Z"
     },
     {
       "title": "Event Coordinator",
@@ -1596,7 +1597,7 @@
         "entry-level",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-21T20:35:55.186Z"
+      "linkCheckedAt": "2026-10-22T20:32:49.292Z"
     },
     {
       "title": "Temporary Sales Associate",
@@ -1615,7 +1616,7 @@
       "flags": [
         "starts-fast"
       ],
-      "linkCheckedAt": "2026-10-22T15:52:25.707Z"
+      "linkCheckedAt": "2026-10-22T20:32:49.292Z"
     },
     {
       "title": "Retail Customer Account & Sales Representative",
@@ -1795,7 +1796,7 @@
       "firstSeenAt": "2026-10-16T18:23:40.794Z",
       "score": 50,
       "flags": [],
-      "linkCheckedAt": "2026-10-22T15:52:25.707Z"
+      "linkCheckedAt": "2026-10-22T20:32:49.292Z"
     },
     {
       "title": "Firefighter Recruit, Georgetown County Fire and EMS",
@@ -1814,7 +1815,7 @@
       "flags": [
         "starts-fast"
       ],
-      "linkCheckedAt": "2026-10-22T15:52:25.707Z"
+      "linkCheckedAt": "2026-10-22T20:32:49.292Z"
     },
     {
       "title": "Chromebook Sales Specialist",
@@ -1833,7 +1834,7 @@
       "flags": [
         "starts-fast"
       ],
-      "linkCheckedAt": "2026-10-22T15:52:25.707Z"
+      "linkCheckedAt": "2026-10-22T20:32:49.292Z"
     },
     {
       "title": "Part Time Product Demonstrator",
@@ -1862,7 +1863,7 @@
         "Cottageville, Colleton County",
         "Rantowels, Charleston County"
       ],
-      "linkCheckedAt": "2026-10-21T20:35:55.186Z"
+      "linkCheckedAt": "2026-10-22T20:32:49.292Z"
     },
     {
       "title": "Part-Time Retail Merchandiser - Conway, SC",
@@ -1990,7 +1991,7 @@
       "firstSeenAt": "2026-10-16T20:06:13.035Z",
       "score": 45,
       "flags": [],
-      "linkCheckedAt": "2026-10-22T15:52:25.707Z"
+      "linkCheckedAt": "2026-10-22T20:32:49.292Z"
     },
     {
       "title": "Sales Associates",
@@ -2035,7 +2036,7 @@
         "Port Arthur, Texas",
         "Galveston, Texas"
       ],
-      "linkCheckedAt": "2026-10-22T15:52:25.707Z"
+      "linkCheckedAt": "2026-10-22T20:32:49.292Z"
     },
     {
       "title": "Guest Services Attendant",
@@ -2109,27 +2110,7 @@
         "far-away",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-22T15:52:25.707Z"
-    },
-    {
-      "title": "Media Sales Representative",
-      "company": "Best Version Media",
-      "location": "Myrtle Beach, Horry County (+1 more)",
-      "remote": false,
-      "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5929493283?se=RM0PCuHI8RGYwPFSmBM_bA&utm_medium=api&utm_source=ea9765bf&v=E11604ECC2BBA5DAAB809D90A92E8F8E00609002",
-      "postedAt": "2026-10-15T16:51:49.000Z",
-      "snippet": "Job Description Job Description If you love your community and want to get paid for building real relationships in it, this is the outside sales opportunity built for that — not a desk job, not a call center. Best Version Media has spent n…",
-      "source": "adzuna",
-      "id": "88fd95a7d423009d0ac22f04d5fcbd139e0ef26e",
-      "track": "tech-sales",
-      "firstSeenAt": "2026-10-15T21:40:27.290Z",
-      "score": 45,
-      "flags": [],
-      "otherLocations": [
-        "Georgetown, Georgetown County"
-      ],
-      "linkCheckedAt": "2026-10-22T15:52:25.707Z"
+      "linkCheckedAt": "2026-10-22T20:32:49.292Z"
     },
     {
       "title": "Outside Sales Representative",
@@ -2233,6 +2214,26 @@
       "firstSeenAt": "2026-10-15T22:25:32.969Z",
       "score": 40,
       "flags": [],
+      "linkCheckedAt": "2026-10-22T20:32:49.292Z"
+    },
+    {
+      "title": "Media Sales Representative",
+      "company": "Best Version Media",
+      "location": "Myrtle Beach, Horry County (+1 more)",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/land/ad/5929493283?se=RM0PCuHI8RGYwPFSmBM_bA&utm_medium=api&utm_source=ea9765bf&v=E11604ECC2BBA5DAAB809D90A92E8F8E00609002",
+      "postedAt": "2026-10-15T16:51:49.000Z",
+      "snippet": "Job Description Job Description If you love your community and want to get paid for building real relationships in it, this is the outside sales opportunity built for that — not a desk job, not a call center. Best Version Media has spent n…",
+      "source": "adzuna",
+      "id": "88fd95a7d423009d0ac22f04d5fcbd139e0ef26e",
+      "track": "tech-sales",
+      "firstSeenAt": "2026-10-15T21:40:27.290Z",
+      "score": 40,
+      "flags": [],
+      "otherLocations": [
+        "Georgetown, Georgetown County"
+      ],
       "linkCheckedAt": "2026-10-22T15:52:25.707Z"
     },
     {
@@ -2250,7 +2251,7 @@
       "firstSeenAt": "2026-10-15T21:40:27.290Z",
       "score": 40,
       "flags": [],
-      "linkCheckedAt": "2026-10-22T15:52:25.707Z"
+      "linkCheckedAt": "2026-10-22T20:32:49.292Z"
     },
     {
       "title": "Vacation Sales Ambassador",
@@ -2267,7 +2268,7 @@
       "firstSeenAt": "2026-10-15T21:40:27.290Z",
       "score": 40,
       "flags": [],
-      "linkCheckedAt": "2026-10-22T15:52:25.707Z"
+      "linkCheckedAt": "2026-10-22T20:32:49.292Z"
     },
     {
       "title": "Field Sales and Marketing Representative- North Myrtle Beach, SC",
@@ -2320,7 +2321,7 @@
       "firstSeenAt": "2026-10-15T21:29:28.105Z",
       "score": 40,
       "flags": [],
-      "linkCheckedAt": "2026-10-22T15:52:25.707Z"
+      "linkCheckedAt": "2026-10-22T20:32:49.292Z"
     },
     {
       "title": "Retail Display Installer - Technology",
