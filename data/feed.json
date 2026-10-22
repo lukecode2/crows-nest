@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T20:35:55.186Z",
+  "generatedAt": "2026-10-22T01:28:07.341Z",
   "sources": [
     {
       "name": "adzuna",
@@ -16,7 +16,7 @@
     {
       "name": "jsearch",
       "ok": true,
-      "count": 10,
+      "count": 2,
       "error": null
     },
     {
@@ -34,7 +34,7 @@
     {
       "name": "jobicy",
       "ok": true,
-      "count": 57,
+      "count": 61,
       "error": null
     },
     {
@@ -58,7 +58,7 @@
     {
       "name": "pagewatch",
       "ok": true,
-      "count": 0,
+      "count": 8,
       "error": null
     },
     {
@@ -96,7 +96,7 @@
       "otherLocations": [
         "North Myrtle Beach, Horry County"
       ],
-      "linkCheckedAt": "2026-10-21T01:31:18.270Z"
+      "linkCheckedAt": "2026-10-22T01:28:07.341Z"
     },
     {
       "title": "Zipfizz Brand Ambassador - Weekend Demo",
@@ -116,7 +116,7 @@
         "entry-level",
         "starts-fast"
       ],
-      "linkCheckedAt": "2026-10-21T20:35:55.186Z"
+      "linkCheckedAt": "2026-10-22T01:28:07.341Z"
     },
     {
       "title": "Deckhand Leader",
@@ -140,7 +140,7 @@
         "live-aboard",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-21T20:35:55.186Z"
+      "linkCheckedAt": "2026-10-22T01:28:07.341Z"
     },
     {
       "title": "Junior Sales Development Representative",
@@ -160,7 +160,7 @@
         "entry-level"
       ],
       "otherLocations": [],
-      "linkCheckedAt": "2026-10-21T20:35:55.186Z"
+      "linkCheckedAt": "2026-10-22T01:28:07.341Z"
     },
     {
       "title": "Video Data Annotation Specialist",
@@ -180,7 +180,7 @@
         "entry-level",
         "starts-fast"
       ],
-      "linkCheckedAt": "2026-10-21T20:35:55.186Z"
+      "linkCheckedAt": "2026-10-22T01:28:07.341Z"
     },
     {
       "title": "Seasonal Brand Ambassador",
@@ -200,7 +200,7 @@
         "entry-level",
         "starts-fast"
       ],
-      "linkCheckedAt": "2026-10-21T20:35:55.186Z"
+      "linkCheckedAt": "2026-10-22T01:28:07.341Z"
     },
     {
       "title": "Yacht Deckhand — Hollywood, FL",
@@ -221,7 +221,7 @@
         "far-away",
         "live-aboard"
       ],
-      "linkCheckedAt": "2026-10-21T01:31:18.270Z"
+      "linkCheckedAt": "2026-10-22T01:28:07.341Z"
     },
     {
       "title": "Parking Valet Attendant",
@@ -284,7 +284,7 @@
         "high-pay"
       ],
       "otherLocations": [],
-      "linkCheckedAt": "2026-10-21T20:35:55.186Z"
+      "linkCheckedAt": "2026-10-22T01:28:07.341Z"
     },
     {
       "title": "Yacht Stewardess / Steward — Fort Lauderdale, FL",
@@ -324,7 +324,7 @@
       "flags": [
         "entry-level"
       ],
-      "linkCheckedAt": "2026-10-21T20:35:55.186Z"
+      "linkCheckedAt": "2026-10-22T01:28:07.341Z"
     },
     {
       "title": "Marketing and Event Coordinator",
@@ -344,7 +344,7 @@
         "entry-level",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-21T20:35:55.186Z"
+      "linkCheckedAt": "2026-10-22T01:28:07.341Z"
     },
     {
       "title": "Account Executive - Essex/Middlesex, MA Region (Entry Level)",
@@ -416,26 +416,7 @@
       "score": 70,
       "flags": [],
       "otherLocations": [],
-      "linkCheckedAt": "2026-10-21T20:35:55.186Z"
-    },
-    {
-      "title": "Yacht Deckhand — Charleston, SC",
-      "company": "Yacht Service Network",
-      "location": "Charleston, South Carolina",
-      "remote": false,
-      "pay": "",
-      "url": "https://yachtservicenetwork.com/jobs/deckhand/in/charleston",
-      "postedAt": "2026-10-19T00:00:00.000Z",
-      "snippet": "via Yacht Service Network. Charleston, SC's deck-crew market turns over fast — refit work, day-work and full-time deckhand roles come up almost every week through the summer. STCW Basic plus PWC and powerboat tickets are the practical entr…",
-      "source": "jsearch",
-      "id": "44eb0c67c5077e5712ed22d813ff94252e418c4b",
-      "track": "marine-chs",
-      "firstSeenAt": "2026-10-21T01:31:18.270Z",
-      "score": 70,
-      "flags": [
-        "live-aboard"
-      ],
-      "linkCheckedAt": "2026-10-21T01:31:18.270Z"
+      "linkCheckedAt": "2026-10-22T01:28:07.341Z"
     },
     {
       "title": "Yacht Safety Administrator: Remote",
@@ -454,7 +435,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-21T01:31:18.270Z"
+      "linkCheckedAt": "2026-10-22T01:28:07.341Z"
     },
     {
       "title": "Sales Development Representative, Hospital Solutions",
@@ -471,7 +452,7 @@
       "firstSeenAt": "2026-10-20T01:46:20.408Z",
       "score": 70,
       "flags": [],
-      "linkCheckedAt": "2026-10-21T20:35:55.186Z"
+      "linkCheckedAt": "2026-10-22T01:28:07.341Z"
     },
     {
       "title": "Sales Development Representative, Clinical Search",
@@ -488,7 +469,7 @@
       "firstSeenAt": "2026-10-20T01:46:20.408Z",
       "score": 70,
       "flags": [],
-      "linkCheckedAt": "2026-10-21T20:35:55.186Z"
+      "linkCheckedAt": "2026-10-22T01:28:07.341Z"
     },
     {
       "title": "Lead Brand Ambassador - In-Store Sampling (Part-Time, Weekends)",
@@ -505,7 +486,7 @@
       "firstSeenAt": "2026-10-20T01:46:20.408Z",
       "score": 70,
       "flags": [],
-      "linkCheckedAt": "2026-10-21T01:31:18.270Z"
+      "linkCheckedAt": "2026-10-22T01:28:07.341Z"
     },
     {
       "title": "Business Development Representative, Provider",
@@ -522,7 +503,7 @@
       "firstSeenAt": "2026-10-19T17:27:01.917Z",
       "score": 70,
       "flags": [],
-      "linkCheckedAt": "2026-10-21T20:35:55.186Z"
+      "linkCheckedAt": "2026-10-22T01:28:07.341Z"
     },
     {
       "title": "EVENT INSTALLER",
@@ -575,7 +556,7 @@
       "firstSeenAt": "2026-10-18T00:59:01.424Z",
       "score": 70,
       "flags": [],
-      "linkCheckedAt": "2026-10-21T01:31:18.270Z",
+      "linkCheckedAt": "2026-10-22T01:28:07.341Z",
       "otherLocations": []
     },
     {
@@ -593,7 +574,7 @@
       "firstSeenAt": "2026-10-16T20:06:13.035Z",
       "score": 70,
       "flags": [],
-      "linkCheckedAt": "2026-10-21T20:35:55.186Z"
+      "linkCheckedAt": "2026-10-22T01:28:07.341Z"
     },
     {
       "title": "Equipment Operator (Marina Forklift)",
@@ -614,7 +595,7 @@
         "far-away",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-21T20:35:55.186Z"
+      "linkCheckedAt": "2026-10-22T01:28:07.341Z"
     },
     {
       "title": "[Remote] Sales Development Representative | SaaS / AI (EST in US/Ontario CA)",
@@ -654,6 +635,25 @@
       "linkCheckedAt": "2026-10-21T15:56:10.980Z"
     },
     {
+      "title": "Yacht Deckhand — Charleston, SC",
+      "company": "Yacht Service Network",
+      "location": "Charleston, South Carolina",
+      "remote": false,
+      "pay": "",
+      "url": "https://yachtservicenetwork.com/jobs/deckhand/in/charleston",
+      "postedAt": "2026-10-19T00:00:00.000Z",
+      "snippet": "via Yacht Service Network. Charleston, SC's deck-crew market turns over fast — refit work, day-work and full-time deckhand roles come up almost every week through the summer. STCW Basic plus PWC and powerboat tickets are the practical entr…",
+      "source": "jsearch",
+      "id": "44eb0c67c5077e5712ed22d813ff94252e418c4b",
+      "track": "marine-chs",
+      "firstSeenAt": "2026-10-21T01:31:18.270Z",
+      "score": 65,
+      "flags": [
+        "live-aboard"
+      ],
+      "linkCheckedAt": "2026-10-22T01:28:07.341Z"
+    },
+    {
       "title": "Blood Drive Event Planner",
       "company": "The Blood Connection",
       "location": "Myrtle Beach, Horry County",
@@ -668,7 +668,7 @@
       "firstSeenAt": "2026-10-19T17:27:01.917Z",
       "score": 65,
       "flags": [],
-      "linkCheckedAt": "2026-10-21T20:35:55.186Z"
+      "linkCheckedAt": "2026-10-22T01:28:07.341Z"
     },
     {
       "title": "Event Coordinator - Myrtle Beach",
@@ -686,7 +686,7 @@
       "score": 65,
       "flags": [],
       "otherLocations": [],
-      "linkCheckedAt": "2026-10-21T01:31:18.270Z"
+      "linkCheckedAt": "2026-10-22T01:28:07.341Z"
     },
     {
       "title": "Fleet Deckhand — Inland Barges (7/7 Schedule)",
@@ -707,7 +707,7 @@
         "live-aboard",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-21T01:31:18.270Z"
+      "linkCheckedAt": "2026-10-22T01:28:07.341Z"
     },
     {
       "title": "Private Yacht Deckhand – Career in Yachting & Detail Work",
@@ -766,7 +766,7 @@
       "firstSeenAt": "2026-10-18T14:32:37.273Z",
       "score": 65,
       "flags": [],
-      "linkCheckedAt": "2026-10-21T20:35:55.186Z"
+      "linkCheckedAt": "2026-10-22T01:28:07.341Z"
     },
     {
       "title": "Sales Development Representative - Renewables",
@@ -783,7 +783,7 @@
       "firstSeenAt": "2026-10-18T14:32:37.273Z",
       "score": 65,
       "flags": [],
-      "linkCheckedAt": "2026-10-21T20:35:55.186Z"
+      "linkCheckedAt": "2026-10-22T01:28:07.341Z"
     },
     {
       "title": "Brand Ambassador - N. Charleston 1",
@@ -803,6 +803,25 @@
       "linkCheckedAt": "2026-10-21T15:56:10.980Z"
     },
     {
+      "title": "Service Valet - Shuttle Driver - North Shore CDJR",
+      "company": "Hanania Auto Group",
+      "location": "Little River, South Carolina",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.jobilize.com/job/us-sc-little-river-service-valet-shuttle-driver-north-shore-cdjr-hanania",
+      "postedAt": "2026-10-17T00:00:00.000Z",
+      "snippet": "via Jobilize. Service Valet | Shuttle Driver - North Shore CDJR North Shore Chrysler Dodge Jeep Ram - Little River, SC 29566 Drive the Experience. Be the First and Last Impression. Myrtle Beach, SC | Brand-New Dealership | Opening October …",
+      "source": "jsearch",
+      "id": "408cd59b3008251cada291b307d3c22963e4a1cb",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-18T14:32:37.273Z",
+      "score": 65,
+      "flags": [
+        "drug-test"
+      ],
+      "linkCheckedAt": "2026-10-22T01:28:07.341Z"
+    },
+    {
       "title": "Charleston Event Brand Ambassador (ApeFest)",
       "company": "InCast Marketing",
       "location": "James Island, Charleston County (+1 more)",
@@ -820,7 +839,7 @@
       "otherLocations": [
         "Charleston, Charleston County"
       ],
-      "linkCheckedAt": "2026-10-21T01:31:18.270Z"
+      "linkCheckedAt": "2026-10-22T01:28:07.341Z"
     },
     {
       "title": "Business Development Representative - Healthcare",
@@ -965,24 +984,7 @@
       "firstSeenAt": "2026-10-17T01:16:17.005Z",
       "score": 65,
       "flags": [],
-      "linkCheckedAt": "2026-10-21T20:35:55.186Z"
-    },
-    {
-      "title": "Field Business Development Representative (BDR) – Managed IT & Cybersecurity (Red Bank)",
-      "company": "Monmouth Cyber",
-      "location": "",
-      "remote": true,
-      "pay": "",
-      "url": "https://jobmesh.io/job/5826a23c-76f6-4aec-8528-1e7f5e2824a1",
-      "postedAt": "2026-10-15T00:00:00.000Z",
-      "snippet": "via JobMESH. About Monmouth Cyber Monmouth Cyber provides best-in-class cybersecurity and managed IT solutions to organizations seeking secure, reliable technology environments. We help New Jersey businesses protect themselves from evolvin…",
-      "source": "jsearch",
-      "id": "f62810bb5177bd2d34b959c60c16c5249cdaed72",
-      "track": "tech-sales",
-      "firstSeenAt": "2026-10-17T01:16:17.005Z",
-      "score": 65,
-      "flags": [],
-      "linkCheckedAt": "2026-10-21T01:31:18.270Z"
+      "linkCheckedAt": "2026-10-22T01:28:07.341Z"
     },
     {
       "title": "Sales Development Representative",
@@ -1001,7 +1003,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-21T20:35:55.186Z"
+      "linkCheckedAt": "2026-10-22T01:28:07.341Z"
     },
     {
       "title": "Bellperson & Valet",
@@ -1019,7 +1021,7 @@
       "score": 65,
       "flags": [],
       "otherLocations": [],
-      "linkCheckedAt": "2026-10-21T20:35:55.186Z"
+      "linkCheckedAt": "2026-10-22T01:28:07.341Z"
     },
     {
       "title": "Bellperson & Valet (Part-time)",
@@ -1036,7 +1038,7 @@
       "firstSeenAt": "2026-10-16T18:23:40.794Z",
       "score": 65,
       "flags": [],
-      "linkCheckedAt": "2026-10-21T20:35:55.186Z"
+      "linkCheckedAt": "2026-10-22T01:28:07.341Z"
     },
     {
       "title": "Deckhand - Inland River Shipyard Support",
@@ -1077,7 +1079,7 @@
         "live-aboard",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-21T20:35:55.186Z"
+      "linkCheckedAt": "2026-10-22T01:28:07.341Z"
     },
     {
       "title": "Data Annotation Specialist - Computer Vision",
@@ -1096,7 +1098,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-21T20:35:55.186Z"
+      "linkCheckedAt": "2026-10-22T01:28:07.341Z"
     },
     {
       "title": "Retail Sales Associate",
@@ -1193,27 +1195,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-21T20:35:55.186Z"
-    },
-    {
-      "title": "Remote Sales Representative – Entry Level",
-      "company": "PSI Groups",
-      "location": "",
-      "remote": true,
-      "pay": "$50,000–$250,000/year",
-      "url": "https://www.linkedin.com/jobs/view/remote-sales-representative-%E2%80%93-entry-level-at-psi-groups-4479172185",
-      "postedAt": "2026-10-15T00:00:00.000Z",
-      "snippet": "via LinkedIn. We are looking for motivated, driven individuals to join our growing sales team in a 100% remote, work-from-home opportunity. This position is ideal for someone who enjoys working with people, building relationships, and want…",
-      "source": "jsearch",
-      "id": "e96a0f6a46791ac622828ae8f7af0a977f560dde",
-      "track": "tech-sales",
-      "firstSeenAt": "2026-10-21T20:35:55.186Z",
-      "score": 60,
-      "flags": [
-        "entry-level",
-        "high-pay"
-      ],
-      "linkCheckedAt": "2026-10-21T20:35:55.186Z"
+      "linkCheckedAt": "2026-10-22T01:28:07.341Z"
     },
     {
       "title": "Part-time Nabisco Merchandiser",
@@ -1221,13 +1203,13 @@
       "location": "Carolina Forest, Horry County (+5 more)",
       "remote": false,
       "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5923218585?se=BJiqBI_N8RGOypJfxApL1A&utm_medium=api&utm_source=ea9765bf&v=36CC2048E6C3B820D620556A99C29EC13A994CFA",
+      "url": "https://www.adzuna.com/land/ad/5923218585?se=NEPA1rfN8RGB8pCzaQZ2NQ&utm_medium=api&utm_source=ea9765bf&v=36CC2048E6C3B820D620556A99C29EC13A994CFA",
       "postedAt": "2026-10-11T07:16:40.000Z",
       "snippet": "Myrtle Beach, South Carolina, United States Pawley's Island, South Carolina, United States Murrells Inlet, South Carolina, United States Part time R-178981 Job Description Join our Mission to Lead the Future of Snacking at Mondelēz Interna…",
       "source": "adzuna",
-      "id": "5a97765aa04b1a94ac33848d1b6e3095fe1038d6",
+      "id": "d9c22f4618598e7a93bdba143ea965132b8c7bbb",
       "track": "quick-cash",
-      "firstSeenAt": "2026-10-21T20:35:55.186Z",
+      "firstSeenAt": "2026-10-22T01:28:07.341Z",
       "score": 60,
       "flags": [
         "entry-level",
@@ -1240,7 +1222,7 @@
         "Tabor City, Columbus County",
         "Whiteville, Columbus County"
       ],
-      "linkCheckedAt": "2026-10-21T20:35:55.186Z"
+      "linkCheckedAt": "2026-10-22T01:28:07.341Z"
     },
     {
       "title": "Temporary Sales Associate",
@@ -1259,7 +1241,7 @@
       "flags": [
         "starts-fast"
       ],
-      "linkCheckedAt": "2026-10-21T20:35:55.186Z"
+      "linkCheckedAt": "2026-10-22T01:28:07.341Z"
     },
     {
       "title": "Deckhand - 53m Private/Charter Motor Yacht",
@@ -1344,23 +1326,6 @@
       "linkCheckedAt": "2026-10-21T15:56:10.980Z"
     },
     {
-      "title": "Service Valet - Shuttle Driver - North Shore CDJR",
-      "company": "Hanania Auto Group",
-      "location": "Little River, South Carolina",
-      "remote": false,
-      "pay": "",
-      "url": "https://www.jobilize.com/job/us-sc-little-river-service-valet-shuttle-driver-north-shore-cdjr-hanania",
-      "postedAt": "2026-10-11T00:00:00.000Z",
-      "snippet": "via Jobilize. Service Valet | Shuttle Driver - North Shore CDJR North Shore Chrysler Dodge Jeep Ram - Little River, SC 29566 Drive the Experience. Be the First and Last Impression. Myrtle Beach, SC | Brand-New Dealership | Opening October …",
-      "source": "jsearch",
-      "id": "408cd59b3008251cada291b307d3c22963e4a1cb",
-      "track": "quick-cash",
-      "firstSeenAt": "2026-10-18T14:32:37.273Z",
-      "score": 60,
-      "flags": [],
-      "linkCheckedAt": "2026-10-21T15:56:10.980Z"
-    },
-    {
       "title": "Deckhand - 50m Private Motor Yacht",
       "company": "Bluewater Yachting",
       "location": "",
@@ -1396,7 +1361,7 @@
       "firstSeenAt": "2026-10-16T18:23:40.794Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-10-21T20:35:55.186Z"
+      "linkCheckedAt": "2026-10-22T01:28:07.341Z"
     },
     {
       "title": "Ferry Mate - Full Time",
@@ -1416,7 +1381,7 @@
         "drug-test",
         "live-aboard"
       ],
-      "linkCheckedAt": "2026-10-21T20:35:55.186Z"
+      "linkCheckedAt": "2026-10-22T01:28:07.341Z"
     },
     {
       "title": "Deckhand",
@@ -1436,7 +1401,7 @@
         "far-away",
         "live-aboard"
       ],
-      "linkCheckedAt": "2026-10-21T20:35:55.186Z"
+      "linkCheckedAt": "2026-10-22T01:28:07.341Z"
     },
     {
       "title": "Assistant Dockmaster - Deep Point Marina",
@@ -1453,7 +1418,7 @@
       "firstSeenAt": "2026-10-15T22:25:32.969Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-10-21T20:35:55.186Z"
+      "linkCheckedAt": "2026-10-22T01:28:07.341Z"
     },
     {
       "title": "Event Staff Team Member - John T. Rhodes Myrtle Beach Sports Center",
@@ -1470,7 +1435,7 @@
       "firstSeenAt": "2026-10-15T21:40:27.290Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-10-21T20:35:55.186Z"
+      "linkCheckedAt": "2026-10-22T01:28:07.341Z"
     },
     {
       "title": "Event Coordinator",
@@ -1541,7 +1506,7 @@
       "firstSeenAt": "2026-10-15T20:32:31.715Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-10-21T01:31:18.270Z"
+      "linkCheckedAt": "2026-10-22T01:28:07.341Z"
     },
     {
       "title": "SDR (Sales Development Representative)",
@@ -1558,7 +1523,7 @@
       "firstSeenAt": "2026-10-15T20:32:31.715Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-10-21T01:31:18.270Z"
+      "linkCheckedAt": "2026-10-22T01:28:07.341Z"
     },
     {
       "title": "Sales Development Representative, Outbound",
@@ -1575,7 +1540,27 @@
       "firstSeenAt": "2026-10-15T20:32:31.715Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-10-21T01:31:18.270Z"
+      "linkCheckedAt": "2026-10-22T01:28:07.341Z"
+    },
+    {
+      "title": "Remote Sales Representative – Entry Level",
+      "company": "PSI Groups",
+      "location": "",
+      "remote": true,
+      "pay": "$50,000–$250,000/year",
+      "url": "https://www.linkedin.com/jobs/view/remote-sales-representative-%E2%80%93-entry-level-at-psi-groups-4479172185",
+      "postedAt": "2026-10-15T00:00:00.000Z",
+      "snippet": "via LinkedIn. We are looking for motivated, driven individuals to join our growing sales team in a 100% remote, work-from-home opportunity. This position is ideal for someone who enjoys working with people, building relationships, and want…",
+      "source": "jsearch",
+      "id": "e96a0f6a46791ac622828ae8f7af0a977f560dde",
+      "track": "tech-sales",
+      "firstSeenAt": "2026-10-21T20:35:55.186Z",
+      "score": 55,
+      "flags": [
+        "entry-level",
+        "high-pay"
+      ],
+      "linkCheckedAt": "2026-10-21T20:35:55.186Z"
     },
     {
       "title": "Retail Customer Account & Sales Representative",
@@ -1643,7 +1628,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-21T01:31:18.270Z"
+      "linkCheckedAt": "2026-10-22T01:28:07.341Z"
     },
     {
       "title": "CUSTOMER AMBASSADOR (FULL TIME)",
@@ -1793,7 +1778,7 @@
       "firstSeenAt": "2026-10-16T18:23:40.794Z",
       "score": 50,
       "flags": [],
-      "linkCheckedAt": "2026-10-21T20:35:55.186Z"
+      "linkCheckedAt": "2026-10-22T01:28:07.341Z"
     },
     {
       "title": "Firefighter Recruit, Georgetown County Fire and EMS",
@@ -1812,7 +1797,7 @@
       "flags": [
         "starts-fast"
       ],
-      "linkCheckedAt": "2026-10-21T20:35:55.186Z"
+      "linkCheckedAt": "2026-10-22T01:28:07.341Z"
     },
     {
       "title": "Chromebook Sales Specialist",
@@ -1831,7 +1816,7 @@
       "flags": [
         "starts-fast"
       ],
-      "linkCheckedAt": "2026-10-21T20:35:55.186Z"
+      "linkCheckedAt": "2026-10-22T01:28:07.341Z"
     },
     {
       "title": "Part Time Product Demonstrator",
@@ -1898,7 +1883,7 @@
       "otherLocations": [
         "Charleston County, South Carolina"
       ],
-      "linkCheckedAt": "2026-10-21T01:31:18.270Z"
+      "linkCheckedAt": "2026-10-22T01:28:07.341Z"
     },
     {
       "title": "Part Time Product Demonstrator in Costco",
@@ -1918,7 +1903,7 @@
       "otherLocations": [
         "James Island, Charleston County"
       ],
-      "linkCheckedAt": "2026-10-21T20:35:55.186Z"
+      "linkCheckedAt": "2026-10-22T01:28:07.341Z"
     },
     {
       "title": "Brand Expert",
@@ -1952,7 +1937,7 @@
       "firstSeenAt": "2026-10-17T01:16:17.005Z",
       "score": 45,
       "flags": [],
-      "linkCheckedAt": "2026-10-21T01:31:18.270Z"
+      "linkCheckedAt": "2026-10-22T01:28:07.341Z"
     },
     {
       "title": "Detailer",
@@ -1969,7 +1954,7 @@
       "firstSeenAt": "2026-10-16T20:06:13.035Z",
       "score": 45,
       "flags": [],
-      "linkCheckedAt": "2026-10-21T20:35:55.186Z"
+      "linkCheckedAt": "2026-10-22T01:28:07.341Z"
     },
     {
       "title": "Sales Associates",
@@ -2014,7 +1999,7 @@
         "Port Arthur, Texas",
         "Galveston, Texas"
       ],
-      "linkCheckedAt": "2026-10-21T20:35:55.186Z"
+      "linkCheckedAt": "2026-10-22T01:28:07.341Z"
     },
     {
       "title": "Guest Services Attendant",
@@ -2048,7 +2033,7 @@
       "firstSeenAt": "2026-10-16T18:23:40.794Z",
       "score": 45,
       "flags": [],
-      "linkCheckedAt": "2026-10-21T01:31:18.270Z"
+      "linkCheckedAt": "2026-10-22T01:28:07.341Z"
     },
     {
       "title": "Field Sales and Marketing Representative- North Myrtle Beach, SC",
@@ -2067,7 +2052,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-21T01:31:18.270Z"
+      "linkCheckedAt": "2026-10-22T01:28:07.341Z"
     },
     {
       "title": "Trades Helper Linehandler (Relief Pool) (Open to both U.S. Citizens and Federal Employees)",
@@ -2088,7 +2073,7 @@
         "far-away",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-21T20:35:55.186Z"
+      "linkCheckedAt": "2026-10-22T01:28:07.341Z"
     },
     {
       "title": "Media Sales Representative",
@@ -2125,7 +2110,7 @@
       "firstSeenAt": "2026-10-19T01:10:35.433Z",
       "score": 40,
       "flags": [],
-      "linkCheckedAt": "2026-10-21T01:31:18.270Z"
+      "linkCheckedAt": "2026-10-22T01:28:07.341Z"
     },
     {
       "title": "Xfinity Retail Sales Consultant",
@@ -2160,7 +2145,7 @@
       "firstSeenAt": "2026-10-16T18:23:40.794Z",
       "score": 40,
       "flags": [],
-      "linkCheckedAt": "2026-10-21T15:56:10.980Z"
+      "linkCheckedAt": "2026-10-22T01:28:07.341Z"
     },
     {
       "title": "New Business Sales Representative - Work from Home",
@@ -2195,7 +2180,7 @@
       "firstSeenAt": "2026-10-16T18:23:40.794Z",
       "score": 40,
       "flags": [],
-      "linkCheckedAt": "2026-10-21T01:31:18.270Z"
+      "linkCheckedAt": "2026-10-22T01:28:07.341Z"
     },
     {
       "title": "Detailer",
@@ -2212,7 +2197,7 @@
       "firstSeenAt": "2026-10-15T22:25:32.969Z",
       "score": 40,
       "flags": [],
-      "linkCheckedAt": "2026-10-21T20:35:55.186Z"
+      "linkCheckedAt": "2026-10-22T01:28:07.341Z"
     },
     {
       "title": "Marketing Agent",
@@ -2229,7 +2214,7 @@
       "firstSeenAt": "2026-10-15T21:40:27.290Z",
       "score": 40,
       "flags": [],
-      "linkCheckedAt": "2026-10-21T20:35:55.186Z"
+      "linkCheckedAt": "2026-10-22T01:28:07.341Z"
     },
     {
       "title": "Vacation Sales Ambassador",
@@ -2246,7 +2231,7 @@
       "firstSeenAt": "2026-10-15T21:40:27.290Z",
       "score": 40,
       "flags": [],
-      "linkCheckedAt": "2026-10-21T20:35:55.186Z"
+      "linkCheckedAt": "2026-10-22T01:28:07.341Z"
     },
     {
       "title": "Field Sales and Marketing Representative- North Myrtle Beach, SC",
@@ -2299,7 +2284,7 @@
       "firstSeenAt": "2026-10-15T21:29:28.105Z",
       "score": 40,
       "flags": [],
-      "linkCheckedAt": "2026-10-21T20:35:55.186Z"
+      "linkCheckedAt": "2026-10-22T01:28:07.341Z"
     },
     {
       "title": "Retail Display Installer - Technology",
@@ -2316,7 +2301,7 @@
       "firstSeenAt": "2026-10-15T21:29:28.105Z",
       "score": 40,
       "flags": [],
-      "linkCheckedAt": "2026-10-21T01:31:18.270Z"
+      "linkCheckedAt": "2026-10-22T01:28:07.341Z"
     }
   ]
 }
