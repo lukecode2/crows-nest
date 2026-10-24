@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T14:11:01.410Z",
+  "generatedAt": "2026-10-24T14:28:44.643Z",
   "sources": [
     {
       "name": "adzuna",
@@ -58,7 +58,7 @@
     {
       "name": "pagewatch",
       "ok": true,
-      "count": 3,
+      "count": 0,
       "error": null
     },
     {
@@ -93,7 +93,7 @@
         "entry-level",
         "starts-fast"
       ],
-      "linkCheckedAt": "2026-10-24T14:11:01.410Z"
+      "linkCheckedAt": "2026-10-24T14:28:44.643Z"
     },
     {
       "title": "Video Data Annotation Specialist",
@@ -113,7 +113,7 @@
         "entry-level",
         "starts-fast"
       ],
-      "linkCheckedAt": "2026-10-24T14:11:01.410Z"
+      "linkCheckedAt": "2026-10-24T14:28:44.643Z"
     },
     {
       "title": "Overnight Valet Attendant",
@@ -132,7 +132,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-24T14:11:01.410Z"
+      "linkCheckedAt": "2026-10-24T14:28:44.643Z"
     },
     {
       "title": "Marketing and Event Coordinator",
@@ -154,7 +154,7 @@
       "otherLocations": [
         "Murrells Inlet, SC"
       ],
-      "linkCheckedAt": "2026-10-24T14:11:01.410Z"
+      "linkCheckedAt": "2026-10-24T14:28:44.643Z"
     },
     {
       "title": "AI Trainer - Video Annotation",
@@ -174,7 +174,7 @@
         "high-pay"
       ],
       "otherLocations": [],
-      "linkCheckedAt": "2026-10-24T14:11:01.410Z"
+      "linkCheckedAt": "2026-10-24T14:28:44.643Z"
     },
     {
       "title": "PT Sales Associate - Seasonal",
@@ -194,7 +194,7 @@
         "entry-level",
         "starts-fast"
       ],
-      "linkCheckedAt": "2026-10-24T14:11:01.410Z"
+      "linkCheckedAt": "2026-10-24T14:28:44.643Z"
     },
     {
       "title": "Parking Valet Attendant - Hotel",
@@ -239,7 +239,7 @@
       "otherLocations": [
         "Saint Louis, Missouri"
       ],
-      "linkCheckedAt": "2026-10-24T14:11:01.410Z"
+      "linkCheckedAt": "2026-10-24T14:28:44.643Z"
     },
     {
       "title": "Parking Valet Attendant - Overnight",
@@ -256,7 +256,7 @@
       "firstSeenAt": "2026-10-23T15:43:44.939Z",
       "score": 75,
       "flags": [],
-      "linkCheckedAt": "2026-10-24T14:11:01.410Z"
+      "linkCheckedAt": "2026-10-24T14:28:44.643Z"
     },
     {
       "title": "Junior Sales Development Representative",
@@ -275,7 +275,7 @@
       "flags": [
         "entry-level"
       ],
-      "linkCheckedAt": "2026-10-24T14:11:01.410Z"
+      "linkCheckedAt": "2026-10-24T14:28:44.643Z"
     },
     {
       "title": "Graduate Sales Development Representative",
@@ -293,7 +293,7 @@
       "score": 70,
       "flags": [],
       "otherLocations": [],
-      "linkCheckedAt": "2026-10-24T14:11:01.410Z"
+      "linkCheckedAt": "2026-10-24T14:28:44.643Z"
     },
     {
       "title": "Ferry Deckhand",
@@ -312,7 +312,7 @@
       "flags": [
         "live-aboard"
       ],
-      "linkCheckedAt": "2026-10-24T14:11:01.410Z"
+      "linkCheckedAt": "2026-10-24T14:28:44.643Z"
     },
     {
       "title": "Parking Valet Attendant",
@@ -329,7 +329,7 @@
       "firstSeenAt": "2026-10-24T13:42:05.182Z",
       "score": 70,
       "flags": [],
-      "linkCheckedAt": "2026-10-24T14:11:01.410Z"
+      "linkCheckedAt": "2026-10-24T14:28:44.643Z"
     },
     {
       "title": "Business Development Representative - US, Remote",
@@ -464,7 +464,7 @@
       "firstSeenAt": "2026-10-20T01:46:20.408Z",
       "score": 65,
       "flags": [],
-      "linkCheckedAt": "2026-10-24T14:11:01.410Z"
+      "linkCheckedAt": "2026-10-24T14:28:44.643Z"
     },
     {
       "title": "Sales Development Representative, Clinical Search",
@@ -481,7 +481,7 @@
       "firstSeenAt": "2026-10-20T01:46:20.408Z",
       "score": 65,
       "flags": [],
-      "linkCheckedAt": "2026-10-24T14:11:01.410Z"
+      "linkCheckedAt": "2026-10-24T14:28:44.643Z"
     },
     {
       "title": "Business Development Representative, Provider",
@@ -498,7 +498,7 @@
       "firstSeenAt": "2026-10-19T17:27:01.917Z",
       "score": 65,
       "flags": [],
-      "linkCheckedAt": "2026-10-24T14:11:01.410Z"
+      "linkCheckedAt": "2026-10-24T14:28:44.643Z"
     },
     {
       "title": "Event Coordinator - Myrtle Beach",
@@ -554,7 +554,7 @@
       "firstSeenAt": "2026-10-18T14:32:37.273Z",
       "score": 65,
       "flags": [],
-      "linkCheckedAt": "2026-10-24T14:11:01.410Z"
+      "linkCheckedAt": "2026-10-24T14:28:44.643Z"
     },
     {
       "title": "Charleston Event Brand Ambassador (ApeFest)",
@@ -611,7 +611,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-24T14:11:01.410Z"
+      "linkCheckedAt": "2026-10-24T14:28:44.643Z"
     },
     {
       "title": "Marine Construction Crew Member",
@@ -631,7 +631,7 @@
         "live-aboard",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-24T14:11:01.410Z"
+      "linkCheckedAt": "2026-10-24T14:28:44.643Z"
     },
     {
       "title": "Data Annotation Specialist - Computer Vision",
@@ -650,7 +650,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-24T14:11:01.410Z"
+      "linkCheckedAt": "2026-10-24T14:28:44.643Z"
     },
     {
       "title": "MARINE DECKHAND - TRAVEL REQUIRED",
@@ -679,13 +679,13 @@
       "location": "Carolina Forest, Horry County (+5 more)",
       "remote": false,
       "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5923218585?se=stkZv7TP8RGeCOCEFqtoQg&utm_medium=api&utm_source=ea9765bf&v=36CC2048E6C3B820D620556A99C29EC13A994CFA",
+      "url": "https://www.adzuna.com/land/ad/5923218585?se=-GLJOLfP8RGbELD-OmAmaw&utm_medium=api&utm_source=ea9765bf&v=36CC2048E6C3B820D620556A99C29EC13A994CFA",
       "postedAt": "2026-10-11T07:16:40.000Z",
       "snippet": "Myrtle Beach, South Carolina, United States Pawley's Island, South Carolina, United States Murrells Inlet, South Carolina, United States Part time R-178981 Job Description Join our Mission to Lead the Future of Snacking at Mondelēz Interna…",
       "source": "adzuna",
-      "id": "42e36536e1be292b8c7076291c1feb22608c4871",
+      "id": "6fa1b289026d5d5bc10f08b11dfa3cb47b5596ab",
       "track": "quick-cash",
-      "firstSeenAt": "2026-10-24T14:11:01.410Z",
+      "firstSeenAt": "2026-10-24T14:28:44.643Z",
       "score": 60,
       "flags": [
         "entry-level",
@@ -698,7 +698,7 @@
         "Tabor City, Columbus County",
         "Whiteville, Columbus County"
       ],
-      "linkCheckedAt": "2026-10-24T14:11:01.410Z"
+      "linkCheckedAt": "2026-10-24T14:28:44.643Z"
     },
     {
       "title": "Foss Dredge Deckhand/Engineer",
@@ -735,7 +735,7 @@
       "firstSeenAt": "2026-10-19T17:27:01.917Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-10-24T14:11:01.410Z"
+      "linkCheckedAt": "2026-10-24T14:28:44.643Z"
     },
     {
       "title": "Service Valet - Shuttle Driver - North Shore CDJR",
@@ -786,7 +786,7 @@
       "firstSeenAt": "2026-10-16T18:23:40.794Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-10-24T14:11:01.410Z"
+      "linkCheckedAt": "2026-10-24T14:28:44.643Z"
     },
     {
       "title": "Ferry Mate - Full Time",
@@ -806,7 +806,7 @@
         "drug-test",
         "live-aboard"
       ],
-      "linkCheckedAt": "2026-10-24T14:11:01.410Z"
+      "linkCheckedAt": "2026-10-24T14:28:44.643Z"
     },
     {
       "title": "Deckhand",
@@ -826,7 +826,7 @@
         "far-away",
         "live-aboard"
       ],
-      "linkCheckedAt": "2026-10-24T14:11:01.410Z"
+      "linkCheckedAt": "2026-10-24T14:28:44.643Z"
     },
     {
       "title": "Assistant Dockmaster - Deep Point Marina",
@@ -843,7 +843,7 @@
       "firstSeenAt": "2026-10-15T22:25:32.969Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-10-24T14:11:01.410Z"
+      "linkCheckedAt": "2026-10-24T14:28:44.643Z"
     },
     {
       "title": "Event Staff Team Member - John T. Rhodes Myrtle Beach Sports Center",
@@ -860,7 +860,7 @@
       "firstSeenAt": "2026-10-15T21:40:27.290Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-10-24T14:11:01.410Z"
+      "linkCheckedAt": "2026-10-24T14:28:44.643Z"
     },
     {
       "title": "Retail Sales Associate",
@@ -934,7 +934,7 @@
       "otherLocations": [
         "Charleston, Charleston County"
       ],
-      "linkCheckedAt": "2026-10-24T14:11:01.410Z"
+      "linkCheckedAt": "2026-10-24T14:28:44.643Z"
     },
     {
       "title": "In-Store Sales Lead Generator",
@@ -953,7 +953,7 @@
       "flags": [
         "starts-fast"
       ],
-      "linkCheckedAt": "2026-10-24T14:11:01.410Z"
+      "linkCheckedAt": "2026-10-24T14:28:44.643Z"
     },
     {
       "title": "Temporary Sales Associate",
@@ -972,7 +972,7 @@
       "flags": [
         "starts-fast"
       ],
-      "linkCheckedAt": "2026-10-24T14:11:01.410Z"
+      "linkCheckedAt": "2026-10-24T14:28:44.643Z"
     },
     {
       "title": "Light Show Attendant (Temporary)",
@@ -1008,7 +1008,8 @@
       "firstSeenAt": "2026-10-24T14:11:01.410Z",
       "score": 50,
       "flags": [],
-      "linkCheckedAt": "2026-10-24T14:11:01.410Z"
+      "linkCheckedAt": "2026-10-24T14:11:01.410Z",
+      "otherLocations": []
     },
     {
       "title": "Leasing Ambassador (Build to Rent) (Part Time)",
@@ -1025,7 +1026,7 @@
       "firstSeenAt": "2026-10-24T13:42:05.182Z",
       "score": 50,
       "flags": [],
-      "linkCheckedAt": "2026-10-24T14:11:01.410Z"
+      "linkCheckedAt": "2026-10-24T14:28:44.643Z"
     },
     {
       "title": "Become a Luxury Brand Evaluator in Charleston, US",
@@ -1042,7 +1043,7 @@
       "firstSeenAt": "2026-10-24T13:42:05.182Z",
       "score": 50,
       "flags": [],
-      "linkCheckedAt": "2026-10-24T14:11:01.410Z"
+      "linkCheckedAt": "2026-10-24T14:28:44.643Z"
     },
     {
       "title": "Merchandiser",
@@ -1127,7 +1128,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-24T14:11:01.410Z"
+      "linkCheckedAt": "2026-10-24T14:28:44.643Z"
     },
     {
       "title": "Firefighter Recruit, Georgetown County Fire and EMS",
@@ -1146,7 +1147,7 @@
       "flags": [
         "starts-fast"
       ],
-      "linkCheckedAt": "2026-10-24T14:11:01.410Z"
+      "linkCheckedAt": "2026-10-24T14:28:44.643Z"
     },
     {
       "title": "Part Time Product Demonstrator",
@@ -1212,7 +1213,7 @@
       "firstSeenAt": "2026-10-16T18:23:40.794Z",
       "score": 45,
       "flags": [],
-      "linkCheckedAt": "2026-10-24T14:11:01.410Z"
+      "linkCheckedAt": "2026-10-24T14:28:44.643Z"
     },
     {
       "title": "Guest Services Attendant",
@@ -1289,7 +1290,7 @@
         "far-away",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-24T14:11:01.410Z"
+      "linkCheckedAt": "2026-10-24T14:28:44.643Z"
     },
     {
       "title": "HP Retail Sales Representative",
@@ -1306,7 +1307,7 @@
       "firstSeenAt": "2026-10-15T21:29:28.105Z",
       "score": 45,
       "flags": [],
-      "linkCheckedAt": "2026-10-24T14:11:01.410Z"
+      "linkCheckedAt": "2026-10-24T14:28:44.643Z"
     },
     {
       "title": "Sales Representative - Uniform",
@@ -1344,7 +1345,7 @@
       "otherLocations": [
         "James Island, Charleston County"
       ],
-      "linkCheckedAt": "2026-10-24T14:11:01.410Z"
+      "linkCheckedAt": "2026-10-24T14:28:44.643Z"
     },
     {
       "title": "Outside Sales Professional",
@@ -1378,7 +1379,7 @@
       "firstSeenAt": "2026-10-15T22:25:32.969Z",
       "score": 40,
       "flags": [],
-      "linkCheckedAt": "2026-10-24T14:11:01.410Z"
+      "linkCheckedAt": "2026-10-24T14:28:44.643Z"
     },
     {
       "title": "Marketing Agent",
@@ -1395,7 +1396,7 @@
       "firstSeenAt": "2026-10-15T21:40:27.290Z",
       "score": 40,
       "flags": [],
-      "linkCheckedAt": "2026-10-24T14:11:01.410Z"
+      "linkCheckedAt": "2026-10-24T14:28:44.643Z"
     },
     {
       "title": "Vacation Sales Ambassador",
@@ -1412,7 +1413,7 @@
       "firstSeenAt": "2026-10-15T21:40:27.290Z",
       "score": 40,
       "flags": [],
-      "linkCheckedAt": "2026-10-24T14:11:01.410Z"
+      "linkCheckedAt": "2026-10-24T14:28:44.643Z"
     },
     {
       "title": "Retail Display Installer - Technology",
