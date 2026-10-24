@@ -39,7 +39,8 @@
       "url": "https://www.yotspot.com/",
       "hiringMethod": "Create a deckhand profile; upload CV, STCW, references, and photos",
       "contact": "",
-      "track": "marine-national"
+      "track": "marine-national",
+      "verificationNote": "Automated link check blocked; current openings still need confirmation."
     },
     {
       "name": "Crew4Yachts",
@@ -72,14 +73,16 @@
       "track": "marine-national"
     },
     {
-      "name": "Crew Unlimited",
+      "name": "Crew Unlimited / Blue Oceans Yachting",
       "town": "Fort Lauderdale, FL",
       "region": "florida",
       "type": "Crew agency",
-      "url": "https://www.crewwunlimited.com/",
-      "hiringMethod": "Register as entry-level deck crew",
+      "url": "https://www.crewunlimited.com/",
+      "hiringMethod": "Employer website; ask about the current crew-registration route",
       "contact": "",
-      "track": "marine-national"
+      "track": "marine-national",
+      "tip": "Check the current crew-registration route and ask about entry-level paid roles.",
+      "verifiedAt": "2026-10-24"
     },
     {
       "name": "Northrop & Johnson",
@@ -136,10 +139,12 @@
       "town": "Fort Lauderdale, FL",
       "region": "florida",
       "type": "Crew agency",
-      "url": "https://www.elitecrew.com/",
+      "url": "",
       "hiringMethod": "Register as entry-level deck crew",
       "contact": "",
-      "track": "marine-national"
+      "track": "marine-national",
+      "researchOnly": true,
+      "verificationNote": "Link could not be verified; call the supplied contact before visiting."
     },
     {
       "name": "Indeed \u2013 Fort Lauderdale yacht crew",
@@ -356,10 +361,12 @@
       "town": "Nationwide",
       "region": "national",
       "type": "Tug / barge",
-      "url": "https://stevenstowing.com/careers/",
+      "url": "",
       "hiringMethod": "Deckhand / licensed tug operator",
       "contact": "",
-      "track": "marine-national"
+      "track": "marine-national",
+      "researchOnly": true,
+      "verificationNote": "Link could not be verified; call the supplied contact before visiting."
     },
     {
       "name": "Foss Maritime",
@@ -746,10 +753,12 @@
       "town": "Charleston",
       "region": "charleston",
       "type": "Marine cargo, tug and barge support",
-      "url": "https://savage.com/careers/",
+      "url": "",
       "hiringMethod": "Online application",
       "contact": "",
-      "track": "marine-chs"
+      "track": "marine-chs",
+      "researchOnly": true,
+      "verificationNote": "Link could not be verified; call the supplied contact before visiting."
     },
     {
       "name": "Moran Towing",
@@ -766,10 +775,12 @@
       "town": "Charleston / Yonges Island",
       "region": "charleston",
       "type": "Tug and barge, marine transportation",
-      "url": "https://stevenstowing.com/",
+      "url": "",
       "hiringMethod": "Indeed / ZipRecruiter / direct contact",
       "contact": "",
-      "track": "marine-chs"
+      "track": "marine-chs",
+      "researchOnly": true,
+      "verificationNote": "Link could not be verified; call the supplied contact before visiting."
     },
     {
       "name": "Colonial Group / Colonial Towing",
@@ -886,10 +897,12 @@
       "town": "North Charleston / project sites",
       "region": "charleston",
       "type": "Workboat captain, marine construction support",
-      "url": "https://www.russellmarine.com/",
+      "url": "",
       "hiringMethod": "ZipRecruiter / company contact",
       "contact": "",
-      "track": "marine-chs"
+      "track": "marine-chs",
+      "researchOnly": true,
+      "verificationNote": "Link could not be verified; call the supplied contact before visiting."
     },
     {
       "name": "Charleston Harbor Pilots",
@@ -915,11 +928,15 @@
       "name": "U.S. Coast Guard Auxiliary \u2013 Sector Charleston",
       "town": "Charleston",
       "region": "charleston",
-      "type": "Volunteer marine patrol and safety",
+      "type": "Volunteer training \u2014 unpaid",
       "url": "https://www.uscga-district-7.org/",
       "hiringMethod": "Volunteer application / flotilla onboarding",
       "contact": "",
-      "track": "marine-chs"
+      "track": "marine-chs",
+      "volunteer": true,
+      "researchOnly": true,
+      "tip": "Optional volunteer training, not income; ask about time and training costs.",
+      "suggestedRole": "Volunteer training (unpaid)"
     },
     {
       "name": "Charleston County Parks & Recreation",
@@ -989,27 +1006,31 @@
       "url": "https://freedomboatclub.com/careers/",
       "hiringMethod": "Online application / Indeed",
       "contact": "",
-      "track": "marine-chs"
+      "track": "marine-chs",
+      "verificationNote": "Automated link check blocked; current openings still need confirmation."
     },
     {
       "name": "Barton & Gray Mariners Club",
       "town": "Charleston",
       "region": "charleston",
       "type": "Boat club / harbor support",
-      "url": "https://bartongray.com/careers/",
+      "url": "https://www.bartonandgray.com/careers",
       "hiringMethod": "LinkedIn / online application",
       "contact": "",
-      "track": "marine-chs"
+      "track": "marine-chs",
+      "verifiedAt": "2026-10-24"
     },
     {
       "name": "Charleston City Marina",
       "town": "Charleston",
       "region": "charleston",
       "type": "Marina, dry stack, fuel dock",
-      "url": "https://charlestoncitymarina.com/",
+      "url": "",
       "hiringMethod": "Walk-in / email",
       "contact": "",
-      "track": "marine-chs"
+      "track": "marine-chs",
+      "researchOnly": true,
+      "verificationNote": "Link could not be verified; call the supplied contact before visiting."
     },
     {
       "name": "Ripley Light Marina",
@@ -1029,17 +1050,20 @@
       "url": "https://ashleymarina.com/",
       "hiringMethod": "Walk-in / email",
       "contact": "",
-      "track": "marine-chs"
+      "track": "marine-chs",
+      "verificationNote": "Automated link check blocked; current openings still need confirmation."
     },
     {
       "name": "Bristol Marina",
       "town": "Charleston",
       "region": "charleston",
       "type": "Marina",
-      "url": "https://bristolmarina.com/",
+      "url": "",
       "hiringMethod": "Walk-in / email",
       "contact": "",
-      "track": "marine-chs"
+      "track": "marine-chs",
+      "researchOnly": true,
+      "verificationNote": "Link could not be verified; call the supplied contact before visiting."
     },
     {
       "name": "Shem Creek Marina",
@@ -1076,10 +1100,12 @@
       "town": "Seabrook Island / Kiawah area",
       "region": "charleston",
       "type": "Marina, dry storage, charter base",
-      "url": "https://www.bohicketmarina.com/",
+      "url": "",
       "hiringMethod": "Walk-in / email / seasonal application",
       "contact": "",
-      "track": "marine-chs"
+      "track": "marine-chs",
+      "researchOnly": true,
+      "verificationNote": "Link could not be verified; call the supplied contact before visiting."
     },
     {
       "name": "Seabrook Island Club / Seabrook Island Marina",
@@ -1106,10 +1132,12 @@
       "town": "Kiawah / Seabrook area",
       "region": "charleston",
       "type": "Club marina, dock operations, boating",
-      "url": "https://www.kiawahislandclub.com/",
+      "url": "",
       "hiringMethod": "Club careers / direct contact",
       "contact": "",
-      "track": "marine-chs"
+      "track": "marine-chs",
+      "researchOnly": true,
+      "verificationNote": "Link could not be verified; call the supplied contact before visiting."
     },
     {
       "name": "Isle of Palms Marina",
@@ -1136,10 +1164,12 @@
       "town": "Folly Beach",
       "region": "charleston",
       "type": "Marina",
-      "url": "https://follybeachmarina.com/",
+      "url": "",
       "hiringMethod": "Walk-in / email",
       "contact": "",
-      "track": "marine-chs"
+      "track": "marine-chs",
+      "researchOnly": true,
+      "verificationNote": "Link could not be verified; call the supplied contact before visiting."
     },
     {
       "name": "Patriots Point Development Authority",
@@ -1236,10 +1266,11 @@
       "town": "Mount Pleasant / Charleston",
       "region": "charleston",
       "type": "Kayak, ferry, nature tours",
-      "url": "https://coastalexpeditions.com/careers/",
-      "hiringMethod": "Online application",
+      "url": "https://coastalexpeditions.com/",
+      "hiringMethod": "Employer website; current hiring unconfirmed",
       "contact": "",
-      "track": "marine-chs"
+      "track": "marine-chs",
+      "verifiedAt": "2026-10-24"
     },
     {
       "name": "Tidal Wave Water Sports",
@@ -1258,16 +1289,6 @@
       "type": "Dolphin / sightseeing / eco tours",
       "url": "https://barrierislandecotours.com/",
       "hiringMethod": "Email / phone",
-      "contact": "",
-      "track": "marine-chs"
-    },
-    {
-      "name": "Charleston Riverfront Watersports",
-      "town": "Charleston",
-      "region": "charleston",
-      "type": "Kayak / SUP rentals",
-      "url": "https://charlestonriverfrontwatersports.com/",
-      "hiringMethod": "Walk-in / email",
       "contact": "",
       "track": "marine-chs"
     },
@@ -1303,13 +1324,14 @@
     },
     {
       "name": "Carolina Yacht Club",
-      "town": "Charleston",
+      "town": "Charleston, SC",
       "region": "charleston",
       "type": "Yacht club",
-      "url": "https://carolinayachtclub.org/",
+      "url": "https://www.carolinayachtclubsc.org/",
       "hiringMethod": "Email / phone",
-      "contact": "",
-      "track": "marine-chs"
+      "contact": "(843) 722-0209",
+      "track": "marine-chs",
+      "verifiedAt": "2026-10-24"
     },
     {
       "name": "James Island Yacht Club",
@@ -1319,7 +1341,10 @@
       "url": "https://www.jiyc.org/Sailing/Junior_Sailing/Work_With_Us",
       "hiringMethod": "Direct application / club contact",
       "contact": "(843) 795-6060",
-      "track": "marine-chs"
+      "track": "marine-chs",
+      "researchOnly": true,
+      "tip": "Past 2026 sailing-instructor openings; requires instructor certification.",
+      "suggestedRole": "Ask about current paid club openings and required certification"
     },
     {
       "name": "South Carolina Aquarium",
@@ -1329,7 +1354,9 @@
       "url": "https://scaquarium.org/careers/",
       "hiringMethod": "Online application",
       "contact": "",
-      "track": "marine-chs"
+      "track": "marine-chs",
+      "tip": "Check current paid visitor-service or animal-care roles and their requirements.",
+      "suggestedRole": "Ask about paid aquarium openings"
     },
     {
       "name": "Charleston Dive Center",
@@ -1376,20 +1403,24 @@
       "town": "Charleston",
       "region": "charleston",
       "type": "Dive, hull cleaning, yacht management",
-      "url": "https://swiftmarinesc.com/",
+      "url": "",
       "hiringMethod": "SimplyHired / email",
       "contact": "",
-      "track": "marine-chs"
+      "track": "marine-chs",
+      "researchOnly": true,
+      "verificationNote": "Link could not be verified; call the supplied contact before visiting."
     },
     {
       "name": "Dewees Island POA",
       "town": "Dewees Island",
       "region": "charleston",
       "type": "Ferry deckhand, island operations",
-      "url": "https://deweesislandpoa.com/",
+      "url": "",
       "hiringMethod": "ZipRecruiter / Indeed",
       "contact": "",
-      "track": "marine-chs"
+      "track": "marine-chs",
+      "researchOnly": true,
+      "verificationNote": "Link could not be verified; call the supplied contact before visiting."
     },
     {
       "name": "Black River Outdoors",
@@ -1409,7 +1440,8 @@
       "url": "https://thecharlestonangler.com/",
       "hiringMethod": "Email / walk-in",
       "contact": "",
-      "track": "marine-chs"
+      "track": "marine-chs",
+      "verificationNote": "Automated link check blocked; current openings still need confirmation."
     },
     {
       "name": "Haddrell\u2019s Point Tackle",
@@ -1439,7 +1471,9 @@
       "url": "https://expresswatersports.com/work-at-express-watersports/",
       "hiringMethod": "Online application / email / walk-in",
       "contact": "jobs@expresswatersports.com; (843) 357-7777",
-      "track": "marine-local"
+      "track": "marine-local",
+      "researchOnly": true,
+      "tip": "Old 2024 hiring page\u2014call to confirm current vacancies."
     },
     {
       "name": "Downwind Sails Watersports",
@@ -1449,7 +1483,9 @@
       "url": "https://www.downwindsailsmyrtlebeach.com/employment/",
       "hiringMethod": "Downloaded application by email; walk-in",
       "contact": "(843) 448-7245",
-      "track": "marine-local"
+      "track": "marine-local",
+      "researchOnly": true,
+      "tip": "Season ends in October\u2014ask about remaining paid shifts or next-season hiring."
     },
     {
       "name": "Shoreline Watersports",
@@ -1559,17 +1595,23 @@
       "url": "https://www.horrycountysc.gov/employment",
       "hiringMethod": "Online county application when posted",
       "contact": "(843) 915-5000",
-      "track": "marine-local"
+      "track": "marine-local",
+      "tip": "Check paid recruit eligibility and training; marine-team assignment is not guaranteed.",
+      "suggestedRole": "Check paid fire/rescue recruit eligibility"
     },
     {
       "name": "U.S. Coast Guard Auxiliary \u2013 Flotilla 12-4",
       "town": "Myrtle Beach / Grand Strand",
       "region": "grand-strand",
-      "type": "Volunteer marine patrol and safety",
+      "type": "Volunteer training \u2014 unpaid",
       "url": "https://join.cgaux.org/",
       "hiringMethod": "Online volunteer application",
       "contact": "",
-      "track": "marine-local"
+      "track": "marine-local",
+      "volunteer": true,
+      "researchOnly": true,
+      "tip": "Optional volunteer training, not income; ask about time and training costs.",
+      "suggestedRole": "Volunteer training (unpaid)"
     },
     {
       "name": "Crazy Sister Marina",
@@ -1589,27 +1631,31 @@
       "url": "https://www.marlinquay.com/",
       "hiringMethod": "Walk-in / email / Facebook",
       "contact": "",
-      "track": "marine-local"
+      "track": "marine-local",
+      "verificationNote": "Automated link check blocked; current openings still need confirmation."
     },
     {
-      "name": "Wacca Wachee Marina",
+      "name": "Wacca Wache Marina",
       "town": "Murrells Inlet",
       "region": "grand-strand",
       "type": "Marina / ICW services",
-      "url": "https://www.waccawacheemarina.com/",
+      "url": "https://waccawachemarina.com/",
       "hiringMethod": "Walk-in / email",
       "contact": "",
-      "track": "marine-local"
+      "track": "marine-local",
+      "verifiedAt": "2026-10-24"
     },
     {
       "name": "Georgetown Landing Marina",
       "town": "Georgetown",
       "region": "grand-strand",
       "type": "Marina, fuel, storage, charter base",
-      "url": "https://www.georgetownlanding.com/",
+      "url": "",
       "hiringMethod": "Walk-in / email",
       "contact": "(843) 546-1776",
-      "track": "marine-local"
+      "track": "marine-local",
+      "researchOnly": true,
+      "verificationNote": "Link could not be verified; call the supplied contact before visiting."
     },
     {
       "name": "Myrtle Beach Yacht Club",
@@ -1626,10 +1672,12 @@
       "town": "Little River",
       "region": "grand-strand",
       "type": "Marina community / yacht club",
-      "url": "https://www.coquinaharbour.com/",
+      "url": "",
       "hiringMethod": "Walk-in / email",
       "contact": "",
-      "track": "marine-local"
+      "track": "marine-local",
+      "researchOnly": true,
+      "verificationNote": "Link could not be verified; call the supplied contact before visiting."
     },
     {
       "name": "Harbourgate Marina & Yacht Club",
@@ -1659,27 +1707,34 @@
       "url": "https://www.captainsmileyfishingcharters.com/",
       "hiringMethod": "Call / email",
       "contact": "",
-      "track": "marine-local"
+      "track": "marine-local",
+      "verificationNote": "Automated link check blocked; current openings still need confirmation."
     },
     {
-      "name": "Sea Thunder Dolphin Cruise",
-      "town": "Myrtle Beach",
+      "name": "Myrtle Beach Dolphin Cruises",
+      "town": "Little River, SC",
       "region": "grand-strand",
       "type": "Dolphin / sightseeing cruise",
-      "url": "https://www.seathundercruises.com/",
+      "url": "https://www.myrtlebeachdolphincruises.com/",
       "hiringMethod": "Call / walk-in",
       "contact": "",
-      "track": "marine-local"
+      "track": "marine-local",
+      "tip": "Ask the operator of Sea Screamer and Sea Thunder about paid crew openings.",
+      "researchOnly": true,
+      "verificationNote": "Official site identifies both boats; automated link check blocked (403).",
+      "verifiedAt": "2026-10-24"
     },
     {
       "name": "Ocean Screamer",
       "town": "Myrtle Beach",
       "region": "grand-strand",
       "type": "Speedboat / sightseeing tours",
-      "url": "https://www.oceanscreamer.com/",
+      "url": "",
       "hiringMethod": "Call / walk-in",
       "contact": "",
-      "track": "marine-local"
+      "track": "marine-local",
+      "researchOnly": true,
+      "verificationNote": "Link could not be verified; call the supplied contact before visiting."
     },
     {
       "name": "Myrtle Beach Watersports",
@@ -1699,7 +1754,8 @@
       "url": "https://www.actionwatersportz.com/",
       "hiringMethod": "Indeed / walk-in",
       "contact": "",
-      "track": "marine-local"
+      "track": "marine-local",
+      "verificationNote": "Automated link check blocked; current openings still need confirmation."
     },
     {
       "name": "Freedom Boat Club",
@@ -1709,27 +1765,20 @@
       "url": "https://freedomboatclub.com/",
       "hiringMethod": "Online application / Indeed",
       "contact": "",
-      "track": "marine-local"
-    },
-    {
-      "name": "Carefree Boat Club \u2013 Myrtle Beach",
-      "town": "Myrtle Beach area",
-      "region": "grand-strand",
-      "type": "Boat club",
-      "url": "https://www.carefreeboats.com/locations/myrtle-beach/",
-      "hiringMethod": "Online careers / club contact",
-      "contact": "",
-      "track": "marine-local"
+      "track": "marine-local",
+      "verificationNote": "Automated link check blocked; current openings still need confirmation."
     },
     {
       "name": "Gulf Stream Boat Club",
-      "town": "Regional; verify local operations",
-      "region": "grand-strand",
-      "type": "Boat club, dockhand and manager roles",
+      "town": "Florida",
+      "region": "florida",
+      "type": "Boat club / dock crew research",
       "url": "https://www.gulfstreamboatclub.com/careers/",
       "hiringMethod": "Online application / resume",
       "contact": "(888) 702-2256; sales@gulfstreamboatclub.com",
-      "track": "marine-local"
+      "track": "marine-national",
+      "researchOnly": true,
+      "tip": "Florida shore-side work; confirm pay and travel costs before considering a move."
     },
     {
       "name": "TowBoatUS Grand Strand",
@@ -1776,10 +1825,14 @@
       "town": "Georgetown County",
       "region": "grand-strand",
       "type": "Public-safety marine response",
-      "url": "https://www.georgetowncountysc.org/",
+      "url": "",
       "hiringMethod": "County employment portal when posted",
       "contact": "",
-      "track": "marine-local"
+      "track": "marine-local",
+      "researchOnly": true,
+      "verificationNote": "Link could not be verified; call the supplied contact before visiting.",
+      "tip": "Check paid recruit eligibility and training; marine-team assignment is not guaranteed.",
+      "suggestedRole": "Check paid fire/rescue recruit eligibility"
     },
     {
       "name": "City of Myrtle Beach",
@@ -1906,10 +1959,12 @@
       "town": "Myrtle Beach",
       "region": "grand-strand",
       "type": "Riverboat cruises",
-      "url": "https://greatamericanriverboat.com/",
+      "url": "",
       "hiringMethod": "Walk-in / email",
       "contact": "(843) 650-9120",
-      "track": "marine-local"
+      "track": "marine-local",
+      "researchOnly": true,
+      "verificationNote": "Link could not be verified; call the supplied contact before visiting."
     },
     {
       "name": "Cruisin\u2019 Tikis Myrtle Beach",
@@ -1936,40 +1991,50 @@
       "town": "Myrtle Beach",
       "region": "grand-strand",
       "type": "Marina / hotel",
-      "url": "https://marinainn.com/",
+      "url": "",
       "hiringMethod": "Online application / Indeed",
       "contact": "(843) 449-8880",
-      "track": "marine-local"
+      "track": "marine-local",
+      "researchOnly": true,
+      "verificationNote": "Link could not be verified; call the supplied contact before visiting."
     },
     {
       "name": "Barefoot Landing Marina",
       "town": "North Myrtle Beach",
       "region": "grand-strand",
       "type": "Marina",
-      "url": "https://barefootlanding.com/",
+      "url": "",
       "hiringMethod": "Walk-in / email",
       "contact": "(843) 272-8349",
-      "track": "marine-local"
+      "track": "marine-local",
+      "researchOnly": true,
+      "verificationNote": "Link could not be verified; call the supplied contact before visiting."
     },
     {
       "name": "Dock Holidays Marina",
       "town": "North Myrtle Beach",
       "region": "grand-strand",
       "type": "Marina / dry stack",
-      "url": "https://dockholidays.com/",
+      "url": "",
       "hiringMethod": "Walk-in / email",
       "contact": "(843) 280-5555",
-      "track": "marine-local"
+      "track": "marine-local",
+      "researchOnly": true,
+      "verificationNote": "Link could not be verified; call the supplied contact before visiting."
     },
     {
       "name": "Apache Pier",
       "town": "Myrtle Beach",
       "region": "grand-strand",
       "type": "Pier / fishing",
-      "url": "https://apachepier.com/",
+      "url": "",
       "hiringMethod": "Walk-in",
       "contact": "(843) 449-6464",
-      "track": "marine-local"
+      "track": "marine-local",
+      "researchOnly": true,
+      "verificationNote": "Link could not be verified; call the supplied contact before visiting.",
+      "tip": "Ask about paid pier-attendant openings and hourly pay.",
+      "suggestedRole": "Ask about paid pier-attendant openings"
     },
     {
       "name": "Cherry Grove Pier",
@@ -1979,7 +2044,9 @@
       "url": "https://cherrygrovepier.com/",
       "hiringMethod": "Walk-in",
       "contact": "(843) 249-1625",
-      "track": "marine-local"
+      "track": "marine-local",
+      "tip": "Ask about paid pier-attendant openings and hourly pay.",
+      "suggestedRole": "Ask about paid pier-attendant openings"
     },
     {
       "name": "Harborwalk Marina",
@@ -1999,7 +2066,9 @@
       "url": "https://www.ripleyaquariums.com/",
       "hiringMethod": "Online application",
       "contact": "(843) 916-0888",
-      "track": "marine-local"
+      "track": "marine-local",
+      "tip": "Check current paid visitor-service or animal-care roles and their requirements.",
+      "suggestedRole": "Ask about paid aquarium openings"
     },
     {
       "name": "Nu Horizons Dive & Travel",
@@ -2036,20 +2105,24 @@
       "town": "Murrells Inlet",
       "region": "grand-strand",
       "type": "Marina / fishing",
-      "url": "https://captdicksmarina.com/",
+      "url": "",
       "hiringMethod": "Walk-in / email",
       "contact": "",
-      "track": "marine-local"
+      "track": "marine-local",
+      "researchOnly": true,
+      "verificationNote": "Link could not be verified; call the supplied contact before visiting."
     },
     {
       "name": "Dockside Marina",
       "town": "Murrells Inlet",
       "region": "grand-strand",
       "type": "Marina",
-      "url": "https://docksidemarina.com/",
+      "url": "",
       "hiringMethod": "Walk-in / email",
       "contact": "",
-      "track": "marine-local"
+      "track": "marine-local",
+      "researchOnly": true,
+      "verificationNote": "Link could not be verified; call the supplied contact before visiting."
     },
     {
       "name": "Osprey Marina",
@@ -2066,40 +2139,26 @@
       "town": "Myrtle Beach",
       "region": "grand-strand",
       "type": "Marina",
-      "url": "https://socasteemarina.com/",
+      "url": "",
       "hiringMethod": "Walk-in / email",
       "contact": "(843) 293-1234",
-      "track": "marine-local"
+      "track": "marine-local",
+      "researchOnly": true,
+      "verificationNote": "Link could not be verified; call the supplied contact before visiting."
     },
     {
-      "name": "Little River Marina",
-      "town": "Little River",
-      "region": "grand-strand",
-      "type": "Marina",
-      "url": "https://littlerivermarina.com/",
-      "hiringMethod": "Walk-in / email",
-      "contact": "",
-      "track": "marine-local"
-    },
-    {
-      "name": "Georgetown Marina",
-      "town": "Georgetown",
-      "region": "grand-strand",
-      "type": "Marina",
-      "url": "https://georgetownmarina.com/",
-      "hiringMethod": "Walk-in / email",
-      "contact": "",
-      "track": "marine-local"
-    },
-    {
-      "name": "Sea Screamer",
-      "town": "Myrtle Beach",
+      "name": "Myrtle Beach Dolphin Cruises",
+      "town": "Little River, SC",
       "region": "grand-strand",
       "type": "Dolphin / sightseeing tours",
-      "url": "https://seascreamer.com/",
+      "url": "https://www.myrtlebeachdolphincruises.com/",
       "hiringMethod": "Walk-in / email",
       "contact": "(843) 280-8400",
-      "track": "marine-local"
+      "track": "marine-local",
+      "tip": "Ask the operator of Sea Screamer and Sea Thunder about paid crew openings.",
+      "researchOnly": true,
+      "verificationNote": "Official site identifies both boats; automated link check blocked (403).",
+      "verifiedAt": "2026-10-24"
     },
     {
       "name": "Bahia Mar Yachting Center",

@@ -72,7 +72,7 @@ test('date arithmetic stays correct across daylight saving changes', () => {
   assert.equal(L.addDays('2026-03-07', 2), '2026-03-09');
 });
 test('totals include historical interviews; new counts cover all tracks', () => {
-  assert.deepEqual(L.totals([job({ dateApplied: '2026-10-12', stage: 'lost', history: [{ stage: 'boarding' }] }), job({ stage: 'hired' })]), { applied: 1, interviews: 2, offers: 1 });
+  assert.deepEqual(L.totals([job({ dateApplied: '2026-10-12', stage: 'lost', history: [{ stage: 'boarding' }] }), job({ stage: 'hired' })]), { applied: 1, interviews: 1, hired: 1 });
   const counts = L.newSince([{ track: 'ai-web', firstSeenAt: '2026-10-15T10:00:00Z' }], '2026-10-14T10:00:00Z');
   assert.equal(counts['ai-web'], 1);
   assert.equal(counts['marine-local'], 0);
@@ -113,4 +113,25 @@ test('pitchFor writes a business pitch for freelance leads', () => {
   const lead = L.pitchFor({ track: 'ai-web', title: 'Freelance lead: Salty Charters — add online booking', company: 'Salty Charters' });
   assert.match(lead, /^Hi, I'm Luke Smith, a web developer here in Myrtle Beach\./);
   assert.match(lead, /add online booking/);
+});
+
+test('stage day counts use local history and creation dates across midnight', () => {
+  const previousTZ = process.env.TZ; process.env.TZ = 'America/New_York';
+  try {
+    assert.equal(L.stageDays({ history: [{ at: '2026-10-24T00:30:00Z' }] }, '2026-10-24'), 1);
+    assert.equal(L.stageDays({ createdAt: '2026-10-24T00:30:00Z' }, '2026-10-24'), 1);
+    assert.equal(L.stageDays({ history: [{ at: '2026-10-24T04:30:00Z' }] }, '2026-10-24'), 0);
+    assert.equal(L.stageDays({}, '2026-10-24'), 0);
+    assert.equal(L.nextLocalMidnight(new Date('2026-11-01T00:00:00-04:00')).getTime() - Date.parse('2026-11-01T00:00:00-04:00'), 25 * 3600000);
+  } finally { if (previousTZ === undefined) delete process.env.TZ; else process.env.TZ = previousTZ; }
+});
+test('interviews require Boarding history; Hired has its own count', () => {
+  assert.deepEqual(L.totals([{ stage: 'hired', history: [] }, { stage: 'lost', history: [{ stage: 'boarding' }] }]), { applied: 0, interviews: 1, hired: 1 });
+  for (const stage of ['hailed', 'boarding', 'hired']) {
+    assert.equal(L.needsApplicationDate({ dateApplied: null }, stage), true);
+    assert.equal(L.needsApplicationDate({ dateApplied: '2026-10-24' }, stage), false);
+  }
+});
+test('pitch title strips an initial region token before shift details', () => {
+  assert.match(L.pitchFor({ title: '(US) Sales Development Representative (Remote)', track: 'tech-sales' }), /for the Sales Development Representative role/);
 });

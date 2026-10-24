@@ -1,6 +1,5 @@
 import { TRACKS, DISMISS_REASONS } from '../config.js';
 import { safeUrl, pitchFor } from '../logic.js';
-import { dispatchFeed } from '../github.js';
 import { h, button, trackChip, pageHeading, empty, ago, toast, field } from '../ui.js';
 export function nest(store, ui) {
   const all = store.visibleFeed();
@@ -35,32 +34,38 @@ export function nest(store, ui) {
       })),
       h('div', { class: 'match-row' }, h('span', { class: 'score-line', role: 'meter', 'aria-label': 'Match score', 'aria-valuemin': 0, 'aria-valuemax': 100, 'aria-valuenow': score }, h('i', { style: { width: score + '%' } })), h('span', { class: 'small muted' }, `${score} match`)),
       h('p', { class: 'job-source small muted' }, `${job.source || 'Direct'} · ${ago(job.postedAt || job.firstSeenAt)}`),
-      h('div', { class: 'card-actions' }, button('Save', () => { store.saveFeedJob(job, 'dockside'); toast('Safely docked. Find it in The Voyage.'); }, 'button secondary'), button('Applied', () => { store.saveFeedJob(job, 'castoff'); toast('Cast off! Application added to this week’s voyage.'); }, 'button primary'), button('Pitch', e => pitchPanel(card, job, e.currentTarget), 'button quiet'), button('Dismiss', e => dismissPanel(card, job, e.currentTarget), 'button quiet')));
+      h('div', { class: 'card-actions' }, button('Save', () => { store.saveFeedJob(job, 'dockside'); toast('Safely docked. Find it in The Voyage.'); }, 'button secondary'), button('Applied', () => { store.saveFeedJob(job, 'castoff'); toast('Cast off! Application added to this week’s voyage.'); }, 'button primary'), button('Pitch', e => pitchPanel(card, job, e.currentTarget), 'button quiet', { 'aria-expanded': 'false', 'data-panel': 'pitch' }), button('Dismiss', e => dismissPanel(card, job, e.currentTarget), 'button quiet', { 'aria-expanded': 'false', 'data-panel': 'dismiss' })));
     return card;
   }
   function pitchPanel(card, job, trigger) {
     const open = card.querySelector('.pitch-panel');
-    if (open) { open.remove(); return; }
+    if (open) { open.remove(); trigger.setAttribute('aria-expanded', 'false'); return; }
+    closePanels(card); trigger.setAttribute('aria-expanded', 'true');
     const text = h('textarea', { rows: 8, class: 'selectable', value: pitchFor(job), 'aria-label': 'Your pitch' });
     const panel = h('div', { class: 'dismiss-panel pitch-panel' }, h('h3', {}, 'Your pitch'), h('p', { class: 'small muted' }, 'Paste it into the application’s note or “Why you?” box. Tweak it first if you like.'), text,
       h('div', { class: 'button-row' }, button('Copy pitch', async () => {
         try { await navigator.clipboard.writeText(text.value); toast('Pitch copied. Paste it into the application.'); }
         catch (_) { text.focus(); text.select(); toast('Text selected — use Copy on your device.'); }
-      }, 'button primary'), button('Close', () => { panel.remove(); trigger.focus(); }, 'button secondary')));
+      }, 'button primary'), button('Close', () => { panel.remove(); trigger.setAttribute('aria-expanded', 'false'); trigger.focus(); }, 'button secondary')));
     card.append(panel); text.focus(); text.setSelectionRange(0, 0); text.scrollTop = 0;
   }
+  function closePanels(card) {
+    card.querySelectorAll('.dismiss-panel').forEach(panel => panel.remove());
+    card.querySelectorAll('[data-panel]').forEach(control => control.setAttribute('aria-expanded', 'false'));
+  }
   function dismissPanel(card, job, trigger) {
-    if (card.querySelector('.dismiss-panel')) return;
+    if (card.querySelector('.job-dismiss-panel')) return;
+    closePanels(card); trigger.setAttribute('aria-expanded', 'true');
     let reason = 'not-interested';
     const note = h('textarea', { rows: 2, placeholder: 'Optional note for future you…', maxlength: 2000 });
     const reasons = h('div', { class: 'reason-chips', role: 'group', 'aria-label': 'Dismiss reason' });
     function drawReasons() {
       reasons.replaceChildren(...DISMISS_REASONS.map(r => button(r.label, () => { reason = r.id; drawReasons(); }, 'reason-chip ' + (reason === r.id ? 'selected' : ''), { 'aria-pressed': reason === r.id })));
     }
-    const panel = h('div', { class: 'dismiss-panel' }, h('h3', {}, 'Let this one sail?'), h('p', { class: 'small muted' }, 'Your reason helps keep the next catch relevant.'), reasons, field('Add a note', note),
+    const panel = h('div', { class: 'dismiss-panel job-dismiss-panel' }, h('h3', {}, 'Let this one sail?'), h('p', { class: 'small muted' }, 'Your reason helps keep the next catch relevant.'), reasons, field('Add a note', note),
       h('div', { class: 'button-row' }, button('Dismiss job', () => {
         store.dismiss(job, reason, note.value.trim()); toast('Job dismissed.', { label: 'Undo', run: () => store.undoDismiss(job.id) });
-      }, 'button danger'), button('Keep it', () => { panel.remove(); trigger.focus(); }, 'button secondary')));
+      }, 'button danger'), button('Keep it', () => { panel.remove(); trigger.setAttribute('aria-expanded', 'false'); trigger.focus(); }, 'button secondary')));
     drawReasons(); card.append(panel); reasons.querySelector('button').focus();
   }
   const search = h('input', { type: 'search', placeholder: 'Search roles, companies, places…', value: ui.search, onInput: e => { ui.search = e.target.value; draw(); } });
@@ -70,12 +75,14 @@ export function nest(store, ui) {
   const refresh = button('↻ Refresh now', async () => {
     if (!store.getToken()) { toast(store.state.sample ? 'Sample feed stays local. Return to the live feed to refresh.' : 'Add a GitHub token in Settings to send the lookout.'); if (!store.state.sample) location.hash = 'settings'; return; }
     refresh.disabled = true;
-    try { await dispatchFeed(store.getToken()); toast('Lookout sent — new jobs in ~2 min'); }
+    try { await store.refreshFeed(); }
     catch (_) { toast('Could not send the lookout. Check your token’s Actions permission in Settings.'); }
     finally { refresh.disabled = false; }
-  }, 'button secondary small-button');
+  }, 'button secondary small-button', { disabled: store.state.feedRefresh === 'waiting' });
+  const reload = button('Reload feed', async () => { await store.reloadFeed(); }, 'button secondary small-button');
+  const refreshMessages = { waiting: 'Lookout running; checking for its report…', timeout: 'Still running—try Reload feed later.', ready: 'Fresh report aboard.' };
   const health = h('footer', { class: 'source-health panel' }, h('div', { class: 'section-top' }, h('details', {}, h('summary', {}, `${store.state.feed.generatedAt ? 'Updated ' + ago(store.state.feed.generatedAt) : 'Awaiting first report'} · ${healthy}/${sources.length} sources OK`),
-    h('ul', { class: 'source-list' }, ...sources.map(source => h('li', {}, h('span', { class: source.ok ? 'foam-text' : 'flare-text' }, source.ok ? '●' : '○'), h('strong', {}, source.name), h('span', { class: 'muted' }, source.ok ? `${source.count} jobs` : source.error || 'Unavailable'))))), refresh), store.state.feedError && h('p', { class: 'flare-text small' }, store.state.feedError));
+    h('ul', { class: 'source-list' }, ...sources.map(source => h('li', {}, h('span', { class: source.ok ? 'foam-text' : 'flare-text' }, source.ok ? '●' : '○'), h('strong', {}, source.name), h('span', { class: 'muted' }, source.ok ? `${source.count} jobs` : source.error || 'Unavailable'))))), h('div', { class: 'button-row' }, refresh, reload)), store.state.feedRefresh && h('p', { class: 'small', role: 'status' }, refreshMessages[store.state.feedRefresh]), store.state.feedError && h('p', { class: 'flare-text small' }, store.state.feedError));
   draw();
   return h('div', { class: 'view nest-view' }, pageHeading('THE LOOKOUT', 'Crow’s Nest', 'Six waters to explore. Your next opportunity is out there.'),
     h('section', { class: 'feed-controls', 'aria-label': 'Feed filters' }, chips, h('div', { class: 'search-row' }, field('Search the horizon', search, 'search-field'), field('Sort by', sort), h('label', { class: 'check-label new-toggle' }, h('input', { type: 'checkbox', checked: ui.newOnly, onChange: e => { ui.newOnly = e.target.checked; draw(); } }), 'New only'),

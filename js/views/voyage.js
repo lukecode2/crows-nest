@@ -1,5 +1,5 @@
 import { STAGES, TRACKS } from '../config.js';
-import { feedJobToTracker, localToday, daysBetween, safeUrl, pitchFor } from '../logic.js';
+import { feedJobToTracker, localToday, stageDays, needsApplicationDate, safeUrl, pitchFor } from '../logic.js';
 import { h, button, trackChip, pageHeading, field, sheet, toast, confirmInline, dateLabel } from '../ui.js';
 export function voyage(store) {
   const jobs = store.state.tracker.jobs;
@@ -12,13 +12,15 @@ export function voyage(store) {
       onDrop: e => {
         e.preventDefault(); column.classList.remove('drag-over');
         const id = e.dataTransfer.getData('text/plain');
-        if (jobs.some(j => j.id === id && j.stage !== stage.id)) { store.updateJob(id, { stage: stage.id }); toast(`Moved to ${stage.label}.`); }
+        if (jobs.some(j => j.id === id && j.stage !== stage.id)) {
+          const job = jobs.find(j => j.id === id);
+          if (needsApplicationDate(job, stage.id)) openJob(store, job, stage.id);
+          else { store.updateJob(id, { stage: stage.id }); toast(`Moved to ${stage.label}.`); }
+        }
       }
     }, h('header', { class: 'column-heading' }, h('div', {}, h('span', { class: 'column-index' }, String(index + 1).padStart(2, '0')), h('h2', {}, stage.label), h('small', {}, stage.hint)), h('span', { class: 'count-pill' }, stageJobs.length)));
     stageJobs.forEach(job => {
-      const at = (job.history || []).slice(-1)[0];
-      const date = (at ? at.at : job.createdAt || '').slice(0, 10);
-      const days = date ? Math.max(0, daysBetween(date, localToday())) : 0;
+      const days = stageDays(job);
       column.append(button('', () => openJob(store, job), 'pipeline-card', {
         draggable: 'true', 'data-job-id': job.id, 'aria-label': `${job.company}: ${job.role}. Open details`,
         onDragStart: e => { e.dataTransfer.setData('text/plain', job.id); e.dataTransfer.effectAllowed = 'move'; e.currentTarget.classList.add('dragging'); },
@@ -33,9 +35,9 @@ export function voyage(store) {
   });
   return h('div', { class: 'view voyage-view' }, pageHeading('FROM FIRST LOOK TO FIRST DAY', 'The Voyage', 'Every application has a course. Drag to move, or tap a card to chart the next step.', button('+ Add job', () => openJob(store), 'button primary')), h('p', { class: 'board-help small muted' }, '← Scroll the logbook to see all six stages →'), board);
 }
-export function openJob(store, existing) {
+export function openJob(store, existing, initialStage) {
   let job = existing || feedJobToTracker({}, 'dockside', localToday());
-  let stage = job.stage, saved = !!existing;
+  let stage = initialStage || job.stage, saved = !!existing;
   const inputs = {};
   const input = (key, type = 'text', value = job[key] || '') => { const el = h('input', { type, value, name: key }); inputs[key] = el; return el; };
   const track = h('select', { name: 'track' }, ...TRACKS.map(t => h('option', { value: t.id, selected: t.id === job.track }, t.label)));
@@ -56,7 +58,7 @@ export function openJob(store, existing) {
   }));
   const stageButtons = h('div', { class: 'stage-buttons', role: 'group', 'aria-label': 'Job stage' });
   let close;
-  const form = h('form', { class: 'job-form', onSubmit: e => { e.preventDefault(); if (persist()) { close(); toast(saved ? 'Voyage log saved.' : 'Job added to your voyage.'); } } },
+  const form = h('form', { class: 'job-form', onSubmit: e => { e.preventDefault(); const wasSaved = saved; if (persist()) { close(); toast(wasSaved ? 'Voyage log saved.' : 'Job added to your voyage.'); } } },
     h('p', { class: 'eyebrow' }, existing ? 'YOUR VOYAGE LOG' : 'A NEW POSSIBILITY'), h('h2', {}, existing ? 'Job details' : 'Add a job'),
     h('div', { class: 'form-grid' }, field('Company', company), field('Role', role), field('Track', track), field('Location', input('location')), field('Job link', input('link', 'url')), field('Pay', input('pay'))),
     h('fieldset', {}, h('legend', {}, 'Set your heading'), stageButtons),
@@ -89,6 +91,7 @@ export function openJob(store, existing) {
   function persist() {
     if (!form.reportValidity()) return false;
     const data = values();
+    if (needsApplicationDate(data, stage)) { toast('Add the date you applied before logging this stage.'); inputs.dateApplied.focus(); return false; }
     if (saved) store.updateJob(job.id, data);
     else { job = store.addJob(data); saved = true; }
     if (stage === 'castoff' && !inputs.dateApplied.value) inputs.dateApplied.value = localToday();
@@ -97,7 +100,7 @@ export function openJob(store, existing) {
   function drawStages() {
     stageButtons.replaceChildren(...STAGES.map(s => button(s.label, () => {
       const old = stage; stage = s.id;
-      if (saved && !persist()) stage = old;
+      if (saved && !needsApplicationDate(values(), stage) && !persist()) stage = old;
       drawStages();
     }, 'stage-button ' + (stage === s.id ? 'selected' : ''), { 'aria-pressed': stage === s.id })));
   }

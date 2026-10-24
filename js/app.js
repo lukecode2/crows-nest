@@ -1,4 +1,5 @@
 import { createStore } from './store.js';
+import { createDayClock } from './day-clock.js';
 import { h } from './ui.js';
 import { helm } from './views/helm.js';
 import { nest } from './views/nest.js';
@@ -33,9 +34,9 @@ function render() {
   pill.replaceChildren(h('span', { class: 'status-dot' }), h('span', {}, labels[store.state.sync]));
   const banners = [];
   if (store.state.sample) banners.push(h('p', { class: 'banner sample-banner' }, '⚑ Sample waters — fictional feed companies. Changes stay in a separate local demo.', h('a', { href: location.origin + location.pathname }, 'Return to live feed ↗')));
-  if (store.state.sync === 'local') banners.push(h('p', { class: 'banner' }, 'Saved on this device', h('span', {}, ' · ' + (store.state.sample ? 'Demo mode' : 'Add a GitHub token in Settings to sync across devices.'))));
+  if (store.state.sync === 'local' && !store.state.storageError) banners.push(h('p', { class: 'banner' }, 'Saved on this device', h('span', {}, ' · ' + (store.state.sample ? 'Demo mode' : 'Add a GitHub token in Settings to sync across devices.'))));
   if (store.state.error) banners.push(h('p', { class: 'banner error-banner' }, store.state.error));
-  if (store.state.storageError) banners.push(h('p', { class: 'banner error-banner' }, 'Browser storage is unavailable. Export your tracker before closing this page.'));
+  if (store.state.storageError) banners.push(h('p', { class: 'banner error-banner' }, 'Changes are in memory only. Export before closing.'));
   document.getElementById('banners').replaceChildren(...banners);
   main.replaceChildren(renderers[active](store, viewState, render));
   // Background sync must not interrupt a note, search, or token being typed.
@@ -54,5 +55,6 @@ function render() {
 }
 window.addEventListener('hashchange', () => { render(); window.scrollTo(0, 0); });
 window.addEventListener('online', () => store.retry());
-document.addEventListener('visibilitychange', () => { if (document.hidden) store.flush(); });
+const dayClock = createDayClock(render);
+document.addEventListener('visibilitychange', () => { if (document.hidden) store.flush(); else dayClock.check(); });
 store.subscribe(render); render(); store.load();

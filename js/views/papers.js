@@ -10,8 +10,8 @@ export function papers(store) {
       const id = 'req-' + req.id;
       return h('article', { class: 'panel paper-card ' + (req.done ? 'paper-done' : '') },
         h('input', { id, class: 'paper-checkbox', type: 'checkbox', checked: req.done, onChange: e => store.updateRequirement(req.id, { done: e.target.checked }) }),
-        h('div', { class: 'paper-content' }, h('h2', {}, h('label', { for: id }, req.label)), h('p', { class: 'muted' }, req.unlocks),
-          field('Your note', h('input', { type: 'text', value: req.note || '', placeholder: 'Appointment, cost, next step…', onChange: e => store.updateRequirement(req.id, { note: e.target.value }) })),
-          h('details', { class: 'unlocks' }, h('summary', {}, `Unlocks ${unlocked.length} ${unlocked.length === 1 ? 'job' : 'jobs'}`), unlocked.length ? h('ul', {}, ...unlocked.map(job => h('li', {}, job.company + ' · ' + job.role))) : h('p', { class: 'small muted' }, 'No linked jobs yet. Assign papers in a job’s details.'))));
+        h('div', { class: 'paper-content' }, h('h2', {}, h('label', { for: id }, req.label)), h('p', { class: 'muted' }, req.unlocks), req.url && h('a', { href: req.url, target: '_blank', rel: 'noopener noreferrer', class: 'text-link' }, 'Check the current guidance ↗'),
+          field('Your note', h('input', { type: 'text', value: req.note || '', placeholder: req.id === 'drug' ? 'Test/program date, employer, record location…' : 'Appointment, cost, next step…', onChange: e => store.updateRequirement(req.id, { note: e.target.value }) })),
+          h('details', { class: 'unlocks' }, h('summary', {}, `Linked to ${unlocked.length} tracked ${unlocked.length === 1 ? 'job' : 'jobs'}`), unlocked.length ? h('ul', {}, ...unlocked.map(job => h('li', {}, job.company + ' · ' + job.role))) : h('p', { class: 'small muted' }, 'No tracked jobs reference this item yet.'))));
     })));
 }

@@ -12,7 +12,7 @@ export const STAGES = [
   { id: 'castoff', label: 'Cast Off', hint: 'Applied' },
   { id: 'hailed', label: 'Hailed', hint: 'Followed up' },
   { id: 'boarding', label: 'Boarding', hint: 'Interview' },
-  { id: 'hired', label: 'Hired', hint: 'Offer' },
+  { id: 'hired', label: 'Hired', hint: 'Accepted / hired' },
   { id: 'lost', label: 'Lost at Sea', hint: 'Rejected' }
 ];
 export const BOAT_SHOW = { name: 'Fort Lauderdale International Boat Show', start: '2026-10-28', end: '2026-11-01' };

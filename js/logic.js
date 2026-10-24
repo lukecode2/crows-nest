@@ -7,6 +7,12 @@ export function weeklySweepDue(sweep, now = Date.now()) {
 }
 const dateNumber = s => Date.parse(s + 'T12:00:00Z');
 export const localToday = (date = new Date()) => `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')}`;
+export function nextLocalMidnight(date = new Date()) { return new Date(date.getFullYear(), date.getMonth(), date.getDate() + 1); }
+export function stageDays(job, today = localToday()) {
+  const history = (job.history || []).slice(-1)[0];
+  const at = history ? history.at : job.createdAt;
+  return at ? Math.max(0, daysBetween(localToday(new Date(at)), today)) : 0;
+}
 export const addDays = (dateStr, n) => new Date(dateNumber(dateStr) + n * DAY).toISOString().slice(0, 10);
 export const daysBetween = (a, b) => Math.round((dateNumber(b) - dateNumber(a)) / DAY);
 export function weekStart(dateStr) {
@@ -23,11 +29,12 @@ export function streak(jobs, today, goal) {
   while (appsInWeek(jobs, week) >= goal) { count++; week = addDays(week, -7); }
   return count;
 }
+export const needsApplicationDate = (job, stage) => ['hailed', 'boarding', 'hired'].includes(stage) && !job.dateApplied;
 export function totals(jobs) {
   return {
     applied: jobs.filter(j => j.dateApplied).length,
-    interviews: jobs.filter(j => ['boarding', 'hired'].includes(j.stage) || (j.history || []).some(h => h.stage === 'boarding')).length,
-    offers: jobs.filter(j => j.stage === 'hired').length
+    interviews: jobs.filter(j => (j.history || []).some(h => h.stage === 'boarding')).length,
+    hired: jobs.filter(j => j.stage === 'hired').length
   };
 }
 export function overdue(jobs, today, days = 7) {
@@ -95,7 +102,7 @@ const PITCHES = {
 };
 const PROMO = /\b(?:ambassador|demo\w*|promot\w*|sales|merchandis\w*|marketing|event|brand)\b/i;
 // "Bellperson & Valet (Part-time) - Ocean 22" reads better as "Bellperson & Valet".
-const shortTitle = title => String(title || '').split(/\s+[-–—|]\s+|\s*\(/)[0].trim();
+const shortTitle = title => String(title || '').replace(/^\([A-Z]{2,3}\)\s*/, '').split(/\s+[-–—|]\s+|\s*\(/)[0].trim();
 export function pitchFor(job) {
   const lead = String(job.title || '').match(/^freelance lead:\s*(.+?)\s*[—–-]\s*(.+)$/i);
   if (lead) return `Hi, I'm Luke Smith, a web developer here in Myrtle Beach. I came across ${job.company || lead[1]} and had an idea: ${lead[2].replace(/[.\s]+$/, '')}. I recently built a full real-estate website for a local agent, with property search, lead capture and an admin dashboard. I'd be glad to put together a quick mockup for you, no strings attached.`;

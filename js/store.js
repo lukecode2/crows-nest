@@ -4,14 +4,31 @@ import { feedJobToTracker, localToday, mergeTrackers, safeUrl } from './logic.js
 import { DIRECTORY_REGIONS, DIRECTORY_STATUSES } from './directory.js';
 const blankTracker = () => ({ version: 1, updatedAt: '', settings: { weeklyGoal: 10, followUpDays: 7 }, jobs: [], reqs: [], directory: {} });
 const blankDismissed = () => ({ about: DISMISSED_ABOUT, items: [] });
+const object = value => value !== null && typeof value === 'object' && !Array.isArray(value);
+const dateOnly = value => typeof value === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(value) &&
+  Number.isFinite(Date.parse(value + 'T12:00:00Z')) && new Date(value + 'T12:00:00Z').toISOString().slice(0, 10) === value;
+const timestamp = value => typeof value === 'string' && /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d+)?(?:Z|[+-]\d{2}:\d{2})$/.test(value) && dateOnly(value.slice(0, 10)) && Number.isFinite(Date.parse(value));
+const optional = (value, key, check) => value[key] === undefined || check(value[key]);
+const strings = (value, keys) => keys.every(key => optional(value, key, v => typeof v === 'string'));
+const uniqueIds = items => items.every(item => object(item) && typeof item.id === 'string' && item.id.trim()) && new Set(items.map(item => item.id)).size === items.length;
 export function validateTracker(value) {
-  return value && value.version === 1 && Array.isArray(value.jobs) && Array.isArray(value.reqs) &&
-    value.jobs.every(j => j && typeof j.id === 'string' && typeof j.company === 'string' && typeof j.role === 'string' &&
-      STAGES.some(s => s.id === j.stage) && TRACKS.some(t => t.id === j.track) && Array.isArray(j.history) && Array.isArray(j.reqs)) &&
-    value.reqs.every(r => r && typeof r.id === 'string' && typeof r.label === 'string') &&
-    (value.directory === undefined || (value.directory !== null && typeof value.directory === 'object' && !Array.isArray(value.directory) &&
-      Object.values(value.directory).every(entry => entry && DIRECTORY_STATUSES.some(s => s.id === entry.status) && typeof entry.note === 'string' && Number.isFinite(Date.parse(entry.updatedAt)))));
+  return Boolean(object(value) && value.version === 1 && Array.isArray(value.jobs) && Array.isArray(value.reqs) &&
+    optional(value, 'updatedAt', at => at === '' || timestamp(at)) &&
+    optional(value, 'settings', settings => object(settings) && Number.isInteger(settings.weeklyGoal) && settings.weeklyGoal >= 1 && settings.weeklyGoal <= 100 && Number.isInteger(settings.followUpDays) && settings.followUpDays > 0) &&
+    uniqueIds(value.jobs) && uniqueIds(value.reqs) &&
+    value.jobs.every(j => typeof j.company === 'string' && typeof j.role === 'string' &&
+      STAGES.some(s => s.id === j.stage) && TRACKS.some(t => t.id === j.track) && Array.isArray(j.history) && Array.isArray(j.reqs) && j.reqs.every(id => typeof id === 'string') &&
+      j.history.every(h => object(h) && STAGES.some(s => s.id === h.stage) && timestamp(h.at)) &&
+      strings(j, ['location', 'link', 'pay', 'notes', 'nextAction', 'directoryId']) && optional(j, 'feedId', id => id === null || typeof id === 'string') &&
+      ['dateApplied', 'lastFollowUp', 'nextDue'].every(key => optional(j, key, date => date === null || dateOnly(date))) &&
+      ['createdAt', 'updatedAt'].every(key => optional(j, key, timestamp)) &&
+      optional(j, 'contact', contact => object(contact) && strings(contact, ['name', 'email', 'phone']))) &&
+    value.reqs.every(r => typeof r.label === 'string' && strings(r, ['note', 'unlocks', 'url']) && optional(r, 'done', done => typeof done === 'boolean') &&
+      optional(r, 'updatedAt', timestamp) && optional(r, 'guidanceVersion', v => Number.isInteger(v) && v > 0)) &&
+    optional(value, 'deletedJobs', deleted => object(deleted) && Object.values(deleted).every(timestamp)) &&
+    optional(value, 'directory', directory => object(directory) && Object.values(directory).every(entry => object(entry) && DIRECTORY_STATUSES.some(s => s.id === entry.status) && typeof entry.note === 'string' && timestamp(entry.updatedAt))));
 }
+const invalidTracker = () => new Error('This tracker contains invalid fields; nothing was imported.');
 function mergeDismissed(local, remote) {
   const removed = { ...remote.removed, ...local.removed };
   Object.entries(remote.removed || {}).forEach(([id, at]) => { if (at > (removed[id] || '')) removed[id] = at; });
@@ -25,16 +42,19 @@ export function createStore(options = {}) {
   const sample = options.sample || false;
   const prefix = sample ? 'cn.sample.' : 'cn.';
   const read = key => { try { return storage && storage.getItem(prefix + key); } catch (_) { return null; } };
-  const write = (key, value) => { try { storage && storage.setItem(prefix + key, value); } catch (_) { state.storageError = true; } };
+  const write = (key, value) => { try { if (!storage) throw new Error('Storage unavailable'); storage.setItem(prefix + key, value); return true; } catch (_) { state.storageError = true; return false; } };
   const parse = (text, fallback) => { try { return JSON.parse(text) || fallback; } catch (_) { return fallback; } };
   const api = options.api || github;
   const fetcher = options.fetcher || ((...args) => fetch(...args));
   let token = sample ? '' : read('token') || '';
-  const state = { tracker: blankTracker(), dismissed: blankDismissed(), feed: { generatedAt: null, sources: [], jobs: [] }, directory: null, sweep: null, sync: 'local', lastVisit: read('lastVisit'), sample, loaded: false, lastSaved: null, error: '', storageError: false };
+  const state = { tracker: blankTracker(), dismissed: blankDismissed(), feed: { generatedAt: null, sources: [], jobs: [] }, directory: null, sweep: null, sync: 'local', lastVisit: read('lastVisit'), sample, loaded: false, lastSaved: null, error: '', storageError: !storage };
+  try { if (!storage) throw new Error('Storage unavailable'); storage.setItem(prefix + 'probe', '1'); if (storage.removeItem) storage.removeItem(prefix + 'probe'); } catch (_) { state.storageError = true; }
   const listeners = new Set();
   const dirty = { tracker: false, dismissed: false };
   const revisions = { tracker: 0, dismissed: 0 };
   const shas = { tracker: undefined, dismissed: undefined };
+  let feedPoll, pollTimer, releasePoll;
+  const pause = options.pause || (ms => new Promise(resolve => { releasePoll = resolve; pollTimer = setTimeout(resolve, ms); }));
   let timer, saving = false, loading = false, disposed = false;
   const emit = () => listeners.forEach(fn => fn(state));
   const persist = () => { write('tracker', JSON.stringify(state.tracker)); write('dismissed', JSON.stringify(state.dismissed)); };
@@ -61,14 +81,17 @@ export function createStore(options = {}) {
   function failed(error) {
     state.sync = !error.status || [401, 403].includes(error.status) ? 'local' : 'error';
     state.error = [401, 403].includes(error.status) ? 'Token unavailable or expired. Your changes are saved on this device.' : 'Could not sync. Your changes are saved on this device; retry in Settings.';
-    persist(); emit();
+    persist();
+    if (state.storageError) state.error = 'Could not sync. Changes are in memory only. Export before closing.';
+    emit();
   }
+  function mergeRemote(local, remote) { if (!validateTracker(remote)) throw invalidTracker(); return mergeTrackers(local, remote); }
   async function pull() {
     for (const key of ['tracker', 'dismissed']) {
       const file = await api.getFile(`data/${key}.json`, token);
       shas[key] = file ? file.sha : null;
       if (file) {
-        const merged = key === 'tracker' ? mergeTrackers(state.tracker, file.json) : mergeDismissed(state.dismissed, file.json);
+        const merged = key === 'tracker' ? mergeRemote(state.tracker, file.json) : mergeDismissed(state.dismissed, file.json);
         state[key] = merged;
         if (JSON.stringify(merged) !== JSON.stringify(file.json)) { dirty[key] = true; revisions[key]++; }
       } else { dirty[key] = true; revisions[key]++; }
@@ -77,18 +100,41 @@ export function createStore(options = {}) {
     persist(); emit();
     if (dirty.tracker || dirty.dismissed) save();
   }
+  async function reloadFeed() {
+    try {
+      const feed = await jsonFile(sample ? 'tests/app/fixtures/feed.sample.json' : 'data/feed.json?t=' + Date.now());
+      if (!Array.isArray(feed.jobs) || !Array.isArray(feed.sources)) throw new Error('Invalid feed');
+      if (disposed) return false;
+      const newer = Date.parse(feed.generatedAt) > (Date.parse(state.feed.generatedAt) || 0);
+      state.feed = feed; state.feedError = ''; if (newer && state.feedRefresh === 'waiting') state.feedRefresh = 'ready'; emit(); return newer;
+    } catch (_) { state.feedError = 'The lookout is offline. Your saved leads are still aboard.'; emit(); return false; }
+  }
+  async function refreshFeed() {
+    if (feedPoll) return feedPoll;
+    feedPoll = (async () => {
+      await api.dispatchFeed(token);
+      if (disposed) return;
+      state.feedRefresh = 'waiting'; emit();
+      const deadline = Date.now() + 6 * 60000;
+      for (let attempt = 0; attempt < 12 && Date.now() < deadline; attempt++) {
+        await pause(Math.min(30000, deadline - Date.now()));
+        if (disposed) return;
+        if (await reloadFeed() || state.feedRefresh === 'ready') { state.feedRefresh = 'ready'; emit(); return; }
+      }
+      state.feedRefresh = 'timeout'; emit();
+    })();
+    try { await feedPoll; } finally { feedPoll = null; }
+  }
   async function load() {
     loading = true;
     let cached = parse(read('tracker'), null);
-    if (!cached || cached.version !== 1 || !Array.isArray(cached.jobs) || !Array.isArray(cached.reqs)) cached = null;
+    if (!validateTracker(cached)) cached = null;
     if (cached) state.tracker = mergeTrackers(cached, blankTracker());
     const dismissed = parse(read('dismissed'), null);
     if (dismissed && Array.isArray(dismissed.items)) state.dismissed = dismissed;
     emit();
     await Promise.all([
-      jsonFile(sample ? 'tests/app/fixtures/feed.sample.json' : 'data/feed.json?t=' + Date.now())
-        .then(feed => { if (!Array.isArray(feed.jobs) || !Array.isArray(feed.sources)) throw new Error('Invalid feed'); state.feed = feed; emit(); })
-        .catch(() => { state.feedError = 'The lookout is offline. Your saved leads are still aboard.'; emit(); }),
+      reloadFeed(),
       jsonFile('data/directory.json?t=' + Date.now())
         .then(directory => {
           if (!Array.isArray(directory?.employers) || !directory.employers.every(e => e &&
@@ -101,7 +147,20 @@ export function createStore(options = {}) {
           if (!Array.isArray(sweep?.items) || !(sweep.sweptAt === null || (typeof sweep.sweptAt === 'string' && Number.isFinite(Date.parse(sweep.sweptAt))))) throw new Error('Invalid sweep');
           state.sweep = sweep; emit();
         }).catch(() => { state.sweep = null; emit(); }),
-      !cached ? jsonFile('data/tracker.json').then(seed => { if (seed.version === 1 && Array.isArray(seed.jobs)) state.tracker = mergeTrackers(state.tracker, seed); emit(); }).catch(() => {}) : Promise.resolve(),
+      jsonFile('data/tracker.json').then(seed => {
+        if (!validateTracker(seed)) throw invalidTracker();
+        if (!cached) state.tracker = mergeTrackers(state.tracker, seed);
+        else {
+          // Ship new guidance to cached logbooks without changing personal notes or completion.
+          const reqs = seed.reqs.map(req => {
+            const previous = state.tracker.reqs.find(r => r.id === req.id);
+            return previous && (req.guidanceVersion || 0) > (previous.guidanceVersion || 0)
+              ? { ...req, done: previous.done, note: previous.note, updatedAt: stamp() } : req;
+          });
+          state.tracker.reqs = mergeTrackers({ reqs: state.tracker.reqs }, { reqs }).reqs;
+        }
+        emit();
+      }).catch(() => {}),
       !token ? jsonFile('data/dismissed.json').then(publicData => { state.dismissed = mergeDismissed(state.dismissed, publicData); }).catch(() => {}) : Promise.resolve()
     ]);
     if (token) { try { await pull(); } catch (error) { failed(error); } }
@@ -122,7 +181,7 @@ export function createStore(options = {}) {
         if (shas[key] === undefined) {
           const file = await api.getFile(`data/${key}.json`, activeToken);
           shas[key] = file ? file.sha : null;
-          if (file) state[key] = key === 'tracker' ? mergeTrackers(state[key], file.json) : mergeDismissed(state[key], file.json);
+          if (file) state[key] = key === 'tracker' ? mergeRemote(state[key], file.json) : mergeDismissed(state[key], file.json);
         }
         let revision;
         for (let attempt = 0; attempt < 2; attempt++) {
@@ -136,7 +195,7 @@ export function createStore(options = {}) {
             if (attempt || ![409, 422].includes(error.status)) throw error;
             const remote = await api.getFile(`data/${key}.json`, activeToken);
             shas[key] = remote ? remote.sha : null;
-            if (remote) state[key] = key === 'tracker' ? mergeTrackers(state[key], remote.json) : mergeDismissed(state[key], remote.json);
+            if (remote) state[key] = key === 'tracker' ? mergeRemote(state[key], remote.json) : mergeDismissed(state[key], remote.json);
             persist(); emit();
           }
         }
@@ -179,7 +238,7 @@ export function createStore(options = {}) {
       (safeUrl(employer.url) && job.link === employer.url));
   }
   return {
-    state, load, save, flush, updateJob, addJob, visibleFeed, directoryJob,
+    state, load, reloadFeed, refreshFeed, save, flush, updateJob, addJob, visibleFeed, directoryJob,
     updateDirectory(id, patch) {
       const previous = state.tracker.directory[id] || { status: 'not-yet', note: '' };
       const status = patch.status === undefined ? previous.status : patch.status;
@@ -192,7 +251,7 @@ export function createStore(options = {}) {
     addDirectoryJob(employer) {
       const existing = directoryJob(employer);
       if (existing) return existing;
-      return addJob({ directoryId: employer.id, company: employer.name, role: 'Ask about deckhand / dock crew',
+      return addJob({ directoryId: employer.id, company: employer.name, role: employer.suggestedRole || 'Ask about deckhand / dock crew',
         track: DIRECTORY_REGIONS.find(r => r.id === employer.region).track, location: employer.town,
         link: employer.url, contact: { name: '', phone: employer.phone, email: employer.email } });
     },
@@ -228,9 +287,9 @@ export function createStore(options = {}) {
     },
     updateSettings(patch) { Object.assign(state.tracker.settings, patch); state.tracker.updatedAt = stamp(); changed('tracker'); },
     importTracker(value) {
-      if (!validateTracker(value)) throw new Error('Choose a valid Crow’s Nest version 1 tracker export.');
+      if (!validateTracker(value)) throw invalidTracker();
       state.tracker = mergeTrackers(state.tracker, value); state.tracker.updatedAt = stamp(); changed('tracker');
     },
-    dispose() { disposed = true; clearTimeout(timer); listeners.clear(); }
+    dispose() { disposed = true; clearTimeout(timer); clearTimeout(pollTimer); if (releasePoll) releasePoll(); listeners.clear(); }
   };
 }

@@ -19,3 +19,15 @@ test('sample feed has twelve clearly fictional jobs and covers all six tracks', 
   assert.ok(feed.jobs.every(j => /fictional/i.test(j.company) && j.source === 'sample'));
   assert.equal(STAGES.length, 6);
 });
+
+test('corrected Papers timestamps beat an old cached copy in either merge direction', async () => {
+  const { mergeTrackers } = await import('../../js/logic.js');
+  const tracker = await json('../../data/tracker.json');
+  const cached = { ...tracker, updatedAt: '2026-10-23T12:00:00Z', reqs: tracker.reqs.filter(r => !['stcw-basic', 'uscg-medical', 'stcw-acceptance'].includes(r.id)).map(r => ({ ...r, label: 'Old guidance', updatedAt: '2026-10-23T12:00:00Z' })) };
+  for (const result of [mergeTrackers(cached, tracker), mergeTrackers(tracker, cached)]) {
+    for (const id of ['doctor', 'eng1', 'mmc', 'drug', 'seaservice', 'stcw-basic', 'uscg-medical', 'stcw-acceptance']) {
+      assert.deepEqual(result.reqs.find(r => r.id === id), tracker.reqs.find(r => r.id === id));
+    }
+  }
+  assert.equal(tracker.reqs.find(r => r.id === 'stcw-basic').done, true);
+});

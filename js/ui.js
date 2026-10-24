@@ -3,7 +3,9 @@ import { safeUrl, daysBetween, localToday } from './logic.js';
 export function h(tag, attrs = {}, ...children) {
   const el = document.createElement(tag);
   Object.entries(attrs || {}).forEach(([key, value]) => {
-    if (value === null || value === undefined || value === false) return;
+    if (value === null || value === undefined) return;
+    if (key.startsWith('aria-')) { el.setAttribute(key, String(value)); return; }
+    if (value === false) return;
     if (key === 'class') el.className = value;
     else if (key === 'href') { const url = safeUrl(value); if (url) el.setAttribute('href', url); }
     else if (key === 'route') el.setAttribute('href', '#' + value);

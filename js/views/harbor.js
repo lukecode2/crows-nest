@@ -7,7 +7,8 @@ export function harbor(store, ui) {
   const employers = data?.employers || [];
   const records = store.state.tracker.directory;
   const filters = ui.harbor || (ui.harbor = { showAll: false, search: '', status: 'all' });
-  const view = h('div', { class: 'view harbor-view' }, pageHeading('THE LOCAL DOCKS', 'Harbor', 'A short call list. Make contact, leave a note, keep moving.'));
+  const view = h('div', { class: 'view harbor-view' }, pageHeading('EMPLOYERS & CREW RESOURCES', 'Harbor', 'A short call list. Make contact, leave a note, keep moving.'));
+  view.append(h('p', { class: 'muted small' }, 'Employer research, not confirmed openings — call or check before you go.'));
   if (!data) {
     view.append(empty('⚓', store.state.directoryError ? 'The harbor directory is offline.' : 'Charting the harbor…',
       store.state.directoryError || 'Your local employer list is on its way.'));
@@ -37,15 +38,16 @@ export function harbor(store, ui) {
       onInput: event => store.updateDirectory(employer.id, { note: event.target.value }) });
     return h('article', { class: 'job-card harbor-card', 'data-employer-id': employer.id },
       h('h3', {}, employer.name), h('p', { class: 'muted small' }, `${employer.town} · ${employer.type}`),
-      h('p', { class: 'small' }, 'How they hire: ', employer.hiringMethod), h('p', { class: 'harbor-tip small' }, employer.tip),
+      h('p', { class: 'small' }, 'Suggested contact route: ', employer.hiringMethod), h('p', { class: 'harbor-tip small' }, employer.tip),
+      employer.verificationNote && h('p', { class: 'small muted' }, employer.verificationNote), employer.verifiedAt && h('p', { class: 'small muted' }, 'Link checked ' + employer.verifiedAt),
       contactLine('Phone', employer.phone), contactLine('Email', employer.email),
       safeUrl(employer.url) && h('a', { href: employer.url, target: '_blank', rel: 'noopener noreferrer', class: 'harbor-link' }, 'Website / careers ↗'),
       h('div', { class: 'harbor-statuses', role: 'group', 'aria-label': `Contact status for ${employer.name}` },
         ...DIRECTORY_STATUSES.map(item => button(item.label, () => store.updateDirectory(employer.id, { status: item.id }),
           'reason-chip ' + (status === item.id ? 'selected' : ''), { 'aria-pressed': status === item.id }))),
       field(`Note for ${employer.name} (optional)`, note),
-      button(aboard ? 'On board' : 'Add to Voyage', () => { store.addDirectoryJob(employer); toast('Safely docked. Find it in The Voyage.'); },
-        'button ' + (aboard ? 'secondary' : 'primary'), { disabled: Boolean(aboard) }));
+      button(employer.volunteer ? 'Volunteer training — unpaid' : aboard ? 'On board' : 'Add to Voyage', () => { store.addDirectoryJob(employer); toast('Safely docked. Find it in The Voyage.'); },
+        'button ' + (aboard ? 'secondary' : 'primary'), { disabled: Boolean(aboard || employer.volunteer) }));
   }
   function draw() {
     toggle.textContent = filters.showAll ? `Top picks (${progress.total})` : `Show all (${employers.length})`;

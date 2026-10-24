@@ -101,3 +101,32 @@ test('directory conflicts merge per employer and retry through the existing trac
   assert.deepEqual(saved.directory.other, remote.directory.other); assert.equal(store.state.sync, 'synced');
   store.dispose();
 });
+
+test('special employer roles carry through to Voyage without promising deck jobs', async () => {
+  const { store } = setup(); await store.load();
+  const pier = { ...employers[0], id: 'pier', name: 'Paid Pier', suggestedRole: 'Ask about paid pier-attendant openings' };
+  const rescue = { ...employers[1], id: 'rescue', name: 'County Rescue', suggestedRole: 'Check paid fire/rescue recruit eligibility' };
+  assert.equal(store.addDirectoryJob(pier).role, pier.suggestedRole);
+  assert.equal(store.addDirectoryJob(rescue).role, rescue.suggestedRole); store.dispose();
+});
+
+test('directory corrections keep expired and unverified research out of top picks', async () => {
+  const { readFile } = await import('node:fs/promises');
+  const { buildDirectory, scoreEmployer } = await import('../../scripts/build-directory.mjs');
+  const source = JSON.parse(await readFile(new URL('../../config/local-employers.json', import.meta.url), 'utf8'));
+  const { employers } = buildDirectory(source);
+  for (const name of ['Little River Marina', 'Georgetown Marina', 'Charleston Riverfront Watersports', 'Dockside Marina', 'Folly Beach Marina', 'Russell Marine LLC']) assert.ok(!employers.some(e => e.name === name), name);
+  for (const pattern of [/Express Watersports/, /Downwind Sails/, /James Island Yacht Club/, /Auxiliary/, /Gulf Stream/]) {
+    const rows = employers.filter(e => pattern.test(e.name)); assert.ok(rows.length);
+    assert.ok(rows.every(e => e.tier === 'more'));
+  }
+  assert.equal(employers.find(e => e.name === 'Gulf Stream Boat Club').region, 'florida');
+  assert.equal(employers.find(e => e.name === 'Carolina Yacht Club').phone, '(843) 722-0209');
+  assert.equal(employers.filter(e => /Myrtle Beach Dolphin Cruises/.test(e.name)).length, 1);
+  assert.ok(employers.filter(e => e.volunteer).every(e => /unpaid/.test(e.type)));
+  assert.ok(employers.filter(e => /Pier \/ fishing/.test(e.type)).every(e => /pier-attendant/.test(e.tip + e.suggestedRole)));
+  const base = { type: 'Marina', region: 'grand-strand', hiringMethod: 'Phone', url: '', phone: '555-555-0100' };
+  assert.ok(scoreEmployer({ ...base, phone: '', currentEntryLevel: true }) > scoreEmployer(base));
+  assert.ok(employers.find(e => e.name === 'Georgetown Landing Marina').phone);
+  assert.equal(employers.find(e => e.name === 'Georgetown Landing Marina').url, '');
+});

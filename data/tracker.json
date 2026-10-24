@@ -1,7 +1,7 @@
 {
   "version": 1,
   "directory": {},
-  "updatedAt": "2026-10-19T20:16:59.000Z",
+  "updatedAt": "2026-10-24T13:27:29.566Z",
   "settings": {
     "weeklyGoal": 10,
     "followUpDays": 7
@@ -909,27 +909,32 @@
   "reqs": [
     {
       "id": "doctor",
-      "label": "Doctor visit / health check",
+      "label": "Doctor visit / health check (optional)",
       "done": false,
       "note": "",
-      "unlocks": "First step — clears you for the ENG1 and USCG medical.",
-      "updatedAt": "2026-10-15T00:00:00Z"
+      "unlocks": "Optional: discuss health concerns with your usual doctor. This does not replace ENG1 or the USCG medical; book the required exam directly.",
+      "updatedAt": "2026-10-24T13:27:29.566Z",
+      "guidanceVersion": 1
     },
     {
       "id": "eng1",
       "label": "ENG1 yacht crew medical",
       "done": false,
       "note": "",
-      "unlocks": "Required for yacht crew jobs (Fort Lauderdale, delivery crew). Done by MCA-approved doctors — several in Fort Lauderdale; often same day.",
-      "updatedAt": "2026-10-15T00:00:00Z"
+      "unlocks": "Many yacht jobs require ENG1; book with an MCA-approved doctor from the current list (1 in Fort Lauderdale, plus Boynton Beach and Lake Park). Confirm employer acceptance, price and appointments before paying.",
+      "updatedAt": "2026-10-24T13:27:29.566Z",
+      "url": "https://www.gov.uk/government/publications/mca-approved-doctors-overseas/mca-approved-doctors-overseas#united-states-of-america",
+      "guidanceVersion": 1
     },
     {
       "id": "mmc",
-      "label": "USCG Merchant Mariner Credential + medical certificate",
+      "label": "USCG Merchant Mariner Credential",
       "done": false,
       "note": "",
-      "unlocks": "Needed for NOAA, Military Sealift Command and most US-flag commercial vessels. Apply via USCG NMC; medical is form CG-719K.",
-      "updatedAt": "2026-10-15T00:00:00Z"
+      "unlocks": "Entry-level OS, Wiper and Steward ratings need no sea time; get TWIC first. Apply with CG-719B, medical CG-719K and accepted drug-test records; check the posting and current NMC checklist.",
+      "updatedAt": "2026-10-24T13:27:29.566Z",
+      "url": "https://www.dco.uscg.mil/Portals/9/NMC/pdfs/checklists/mcp_fm_nmc5_56_web.pdf",
+      "guidanceVersion": 1
     },
     {
       "id": "twic",
@@ -941,19 +946,21 @@
     },
     {
       "id": "drug",
-      "label": "Drug test ready (clean)",
+      "label": "DOT/USCG drug-test documentation",
       "done": false,
       "note": "",
-      "unlocks": "Pre-employment DOT drug test is standard for every passenger and commercial vessel job.",
-      "updatedAt": "2026-10-15T00:00:00Z"
+      "unlocks": "Ask which DOT test or program evidence the employer accepts. Keep the dated record and check whether it is still accepted for each job.",
+      "updatedAt": "2026-10-24T13:27:29.566Z",
+      "guidanceVersion": 1
     },
     {
       "id": "seaservice",
       "label": "Sea service letter — Pinecrest Marina",
       "done": false,
       "note": "",
-      "unlocks": "Documents your 1,000+ helm hours; needed for MMC ratings and future captain's license.",
-      "updatedAt": "2026-10-15T00:00:00Z"
+      "unlocks": "Useful for future ratings or a captain’s licence; entry-level ratings need no sea time. Record vessel details and service days, not just helm hours.",
+      "updatedAt": "2026-10-24T13:27:29.566Z",
+      "guidanceVersion": 1
     },
     {
       "id": "resume-marine",
@@ -978,6 +985,34 @@
       "note": "",
       "unlocks": "For AI and web gigs and freelance pitches.",
       "updatedAt": "2026-10-15T00:00:00Z"
+    },
+    {
+      "id": "stcw-basic",
+      "label": "STCW Basic Training — Sea School Charleston (2025)",
+      "done": true,
+      "note": "",
+      "unlocks": "Keep certificate copies and exact training dates handy for employers.",
+      "updatedAt": "2026-10-24T13:27:29.566Z",
+      "guidanceVersion": 1
+    },
+    {
+      "id": "uscg-medical",
+      "label": "USCG medical certificate",
+      "done": false,
+      "note": "",
+      "unlocks": "Complete CG-719K for the required USCG medical application. Track this separately from your MMC and confirm the posting’s requirements.",
+      "updatedAt": "2026-10-24T13:27:29.566Z",
+      "guidanceVersion": 1
+    },
+    {
+      "id": "stcw-acceptance",
+      "label": "Check if your STCW needs the 2026 PSSR refresher",
+      "done": false,
+      "note": "",
+      "unlocks": "Ask yacht employers or crew agents if your 2025 STCW Basic needs the new 2026 PSSR refresher. The March 31, 2027 UK deadline only applies to UK-certified crew.",
+      "updatedAt": "2026-10-24T13:27:29.566Z",
+      "guidanceVersion": 1,
+      "url": "https://www.gov.uk/government/publications/mgn-718-mf-2026-imo-amendment-to-pssr/mgn-718-mf-2026-imo-amendment-to-pssr"
     }
   ]
 }

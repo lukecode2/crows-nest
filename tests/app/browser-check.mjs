@@ -2,6 +2,7 @@
 // CN_PLAYWRIGHT_MODULE=/absolute/path/to/playwright/index.mjs node tests/app/browser-check.mjs
 // CN_BROWSER=webkit selects WebKit; screenshots go to /tmp/crows-nest-preview by default.
 import assert from 'node:assert/strict';
+import { appsInWeek } from '../../js/logic.js';
 import { readFile, mkdir } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import { resolve, extname } from 'node:path';
@@ -9,14 +10,14 @@ const playwright = await import(process.env.CN_PLAYWRIGHT_MODULE || 'playwright'
 const root = fileURLToPath(new URL('../../', import.meta.url));
 const output = process.env.CN_SCREENSHOTS || '/tmp/crows-nest-preview';
 await mkdir(output, { recursive: true });
-const browser = await playwright[process.env.CN_BROWSER || 'chromium'].launch({ headless: true });
+const browser = await playwright[process.env.CN_BROWSER || 'chromium'].launch({ headless: true, ...(process.env.CN_CHROME ? { executablePath: process.env.CN_CHROME } : {}) });
 const mime = { '.html': 'text/html', '.js': 'text/javascript', '.css': 'text/css', '.json': 'application/json' };
 const fixture = JSON.parse(await readFile(resolve(root, 'tests/app/fixtures/feed.sample.json'), 'utf8'));
 const directory = JSON.parse(await readFile(resolve(root, 'data/directory.json'), 'utf8'));
 try {
   for (const width of [1280, 390, 360]) {
     const height = width < 720 ? 844 : 900;
-    const context = await browser.newContext({ viewport: { width, height }, reducedMotion: 'reduce' });
+    const context = await browser.newContext({ viewport: { width, height }, reducedMotion: 'reduce', timezoneId: 'America/New_York' });
     const page = await context.newPage();
     const errors = [];
     page.on('pageerror', error => errors.push(error.message));
@@ -32,11 +33,16 @@ try {
     await page.route('**/data/sweep.json?*', route => route.fulfill({ contentType: 'application/json', body: JSON.stringify({ sweptAt: null, items: [] }) }));
     await page.goto('http://crows-nest.test/?sample=1#helm');
     await page.getByText('Call 843-732-3777 about dock crew', { exact: true }).waitFor();
+    await page.waitForFunction(() => localStorage.getItem('cn.sample.lastVisit'));
+    const initialTracker = await page.evaluate(() => JSON.parse(localStorage.getItem('cn.sample.tracker')));
+    const today = await page.evaluate(() => { const d = new Date(); return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`; });
+    const initialApps = appsInWeek(initialTracker.jobs, today);
+    const initialDismissed = await page.evaluate(() => JSON.parse(localStorage.getItem('cn.sample.dismissed')).items.length);
     assert.equal(await page.locator('.pennant').count(), 10);
     assert.equal(await page.locator('.wave-strip').evaluate(el => getComputedStyle(el).animationName), 'none');
     for (const route of ['helm', 'nest', 'voyage', 'harbor', 'papers', 'settings']) {
       await page.locator(`#navigation a[href="#${route}"]`).click();
-      await page.waitForFunction(route => location.hash === '#' + route && document.querySelector('main h1'), route);
+      await page.locator('.' + route + '-view').waitFor();
       assert.equal(await page.locator('h1').count(), 1);
       assert.ok(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth), `${width}px: ${route} overflows the page`);
       assert.equal(await page.locator('#navigation a').count(), 6);
@@ -69,7 +75,7 @@ try {
         const job = await page.evaluate(id => JSON.parse(localStorage.getItem('cn.sample.tracker')).jobs.find(j => j.directoryId === id), id);
         assert.equal(job.stage, 'dockside'); assert.equal(job.company, employer.name);
         assert.equal(job.contact.phone, employer.phone); assert.equal(job.contact.email, employer.email);
-        assert.equal(job.role, 'Ask about deckhand / dock crew');
+        assert.equal(job.role, employer.suggestedRole || 'Ask about deckhand / dock crew');
         await page.getByLabel('Search the harbor', { exact: true }).fill('');
         await page.getByRole('button', { name: `Show all (${directory.employers.length})`, exact: true }).click();
         assert.equal(await page.locator('.harbor-card').count(), directory.employers.length);
@@ -98,6 +104,8 @@ try {
       if (['helm', 'nest', 'voyage', 'harbor'].includes(route)) await page.screenshot({ path: `${output}/${width}-${route}.png`, fullPage: route !== 'voyage' });
     }
     await page.locator('#navigation a[href="#nest"]').click();
+    await page.locator('.nest-view').waitFor();
+    await page.waitForFunction(() => document.querySelectorAll('.job-card').length === 12);
     assert.equal(await page.locator('.job-card').count(), 12);
     await page.getByLabel('Search the horizon').fill('Moonwake');
     assert.equal(await page.locator('.job-card').count(), 1);
@@ -106,7 +114,8 @@ try {
     assert.equal(await page.locator('.job-card').count(), 2);
     await page.getByRole('button', { name: 'All waters' }).click();
     await page.getByLabel('New only').check();
-    assert.equal(await page.locator('.job-card').count(), 12);
+    // Reloading Harbor has recorded this visit; the older sample catch is no longer new.
+    assert.equal(await page.locator('.job-card').count(), 0);
     await page.getByLabel('New only').uncheck();
     await page.locator('.job-card').first().getByRole('button', { name: 'Save', exact: true }).click();
     assert.equal(await page.locator('.job-card').count(), 11);
@@ -115,7 +124,11 @@ try {
     assert.equal(await page.locator('.job-card').count(), 11);
     await page.locator('.job-card').first().getByRole('button', { name: 'Applied', exact: true }).click();
     assert.equal(await page.locator('.job-card').count(), 10);
+    await page.locator('.job-card').first().getByRole('button', { name: 'Pitch', exact: true }).click();
+    await page.getByLabel('Your pitch', { exact: true }).waitFor();
     await page.locator('.job-card').first().getByRole('button', { name: 'Dismiss', exact: true }).click();
+    assert.equal(await page.locator('.pitch-panel').count(), 0);
+    assert.equal(await page.locator('.job-dismiss-panel').count(), 1);
     await page.getByRole('button', { name: 'Pay too low', exact: true }).click();
     await page.getByLabel('Add a note').fill('Café ⚓ — sample note');
     await page.getByRole('button', { name: 'Dismiss job', exact: true }).click();
@@ -127,11 +140,13 @@ try {
     await page.reload();
     await page.locator('.job-card').first().waitFor();
     assert.equal(await page.locator('.job-card').count(), 9);
-    assert.equal(await page.evaluate(() => JSON.parse(localStorage.getItem('cn.sample.dismissed')).items.length), 1);
+    assert.equal(await page.evaluate(() => JSON.parse(localStorage.getItem('cn.sample.dismissed')).items.length), initialDismissed + 1);
     assert.equal(await page.evaluate(() => localStorage.getItem('cn.tracker')), null);
     await page.locator('#navigation a[href="#helm"]').click();
-    assert.equal(await page.locator('[aria-label="Weekly applications"]').getAttribute('aria-valuenow'), '1');
+    await page.locator('.helm-view').waitFor();
+    assert.equal(await page.locator('[aria-label="Weekly applications"]').getAttribute('aria-valuenow'), String(initialApps + 1));
     await page.locator('#navigation a[href="#voyage"]').click();
+    await page.locator('.voyage-view').waitFor();
     if (width === 1280) {
       const id = await page.locator('[data-stage="dockside"] .pipeline-card').first().getAttribute('data-job-id');
       await page.locator(`[data-job-id="${id}"]`).dragTo(page.locator('[data-stage="castoff"] .column-heading'));
@@ -143,6 +158,11 @@ try {
     await page.getByLabel('Notes', { exact: true }).fill('Café ⚓ 🛥️ — naïve');
     await page.getByRole('button', { name: 'Boarding', exact: true }).click();
     await page.getByRole('button', { name: 'Save changes', exact: true }).click();
+    await page.getByText('Add the date you applied before logging this stage.', { exact: true }).waitFor();
+    assert.equal(await page.getByRole('dialog').count(), 1);
+    await page.getByLabel('Date applied', { exact: true }).fill(today);
+    await page.getByRole('button', { name: 'Save changes', exact: true }).click();
+    await page.getByText('Job added to your voyage.', { exact: true }).waitFor();
     await page.getByRole('button', { name: 'Test Buoy (fictional): Junior deckhand. Open details', exact: true }).click();
     assert.equal(await page.getByLabel('Notes', { exact: true }).inputValue(), 'Café ⚓ 🛥️ — naïve');
     await page.getByRole('button', { name: 'Mark followed up', exact: true }).click();
@@ -152,7 +172,7 @@ try {
     assert.equal(await page.getByRole('dialog').count(), 0);
     await page.locator('#navigation a[href="#papers"]').click();
     await page.getByLabel('TWIC card', { exact: true }).check();
-    assert.ok(await page.getByText('2 of 9 papers in order', { exact: true }).count());
+    assert.ok(await page.getByText('3 of 12 papers in order', { exact: true }).count());
     await page.locator('#navigation a[href="#settings"]').click();
     await page.getByLabel('Applications per week', { exact: true }).fill('12');
     await page.getByRole('button', { name: 'Set goal', exact: true }).click();
@@ -160,13 +180,13 @@ try {
     const exported = JSON.parse(await readFile(await download.path(), 'utf8'));
     assert.equal(exported.version, 1); assert.equal(exported.settings.weeklyGoal, 12);
     await page.getByLabel('↑ Import tracker JSON').setInputFiles({ name: 'invalid.json', mimeType: 'application/json', buffer: Buffer.from('{"version":2}') });
-    await page.getByText('Choose a valid Crow’s Nest version 1 tracker export.', { exact: true }).waitFor();
+    await page.getByText('This tracker contains invalid fields; nothing was imported.', { exact: true }).waitFor();
     await page.getByLabel('↑ Import tracker JSON').setInputFiles({ name: 'tracker.json', mimeType: 'application/json', buffer: Buffer.from(JSON.stringify(exported)) });
     await page.getByText('Logbooks merged. Your newest edits are aboard.', { exact: true }).waitFor();
     // An actual hostile feed value must remain literal text, with no executable link.
     await page.route('**/tests/app/fixtures/feed.sample.json', route => route.fulfill({ contentType: 'application/json', body: JSON.stringify({ ...fixture, jobs: [{ ...fixture.jobs[0], title: '<img src=x onerror=alert(1)>', url: 'javascript:alert(1)' }] }) }));
     await page.evaluate(() => { localStorage.removeItem('cn.sample.tracker'); localStorage.removeItem('cn.sample.dismissed'); });
-    await page.goto('http://crows-nest.test/?sample=1#nest');
+    await page.goto(`http://crows-nest.test/?sample=1&check=${Date.now()}#nest`);
     await page.getByText('<img src=x onerror=alert(1)>', { exact: true }).waitFor();
     assert.equal(await page.locator('.job-card img').count(), 0);
     assert.equal(await page.locator('.job-card h2 a').count(), 0);
@@ -174,7 +194,7 @@ try {
     const hostile = { ...directory.employers[0], id: 'hostile', name: '<img src=x onerror=alert(1)>', phone: '<svg onload=alert(1)>', email: '<b>crew@example.test</b>',
       hiringMethod: '<script>alert(1)</script>', tip: '<img src=x>', url: 'javascript:alert(1)' };
     await page.route('**/data/directory.json?*', route => route.fulfill({ contentType: 'application/json', body: JSON.stringify({ employers: [hostile] }) }));
-    await page.goto('http://crows-nest.test/?sample=1#harbor');
+    await page.goto(`http://crows-nest.test/?sample=1&check=${Date.now()}#harbor`);
     await page.locator('.harbor-card h3').waitFor();
     assert.equal(await page.locator('.harbor-card h3').textContent(), hostile.name);
     assert.equal(await page.locator('.harbor-card img, .harbor-card svg, .harbor-card script, .harbor-card b, .harbor-card a').count(), 0);
@@ -187,7 +207,7 @@ try {
     for (const data of [null, {}, { sweptAt: new Date().toISOString(), items: [] }]) {
       await page.route('**/data/sweep.json?*', route => route.fulfill({ status: data === null ? 503 : 200, contentType: 'application/json', body: JSON.stringify(data) }));
       await page.evaluate(() => localStorage.removeItem('cn.sample.lastVisit'));
-      await page.goto('http://crows-nest.test/?sample=1#helm');
+      await page.goto(`http://crows-nest.test/?sample=1&check=${Date.now()}#helm`);
       await page.waitForFunction(() => localStorage.getItem('cn.sample.lastVisit'));
       assert.equal(await page.locator('.sweep-reminder').count(), 0);
     }

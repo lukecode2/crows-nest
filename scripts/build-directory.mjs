@@ -42,10 +42,15 @@ export function scoreEmployer(e) {
   const crew = crewTypes.test(e.type);
   const direct = /walk[ -]?in|phone|call|email/i.test(e.hiringMethod);
   const careers = /career|online|application|apply|register|portal|resume|profile/i.test(e.hiringMethod) || /career|jobs|employment/i.test(e.url);
-  return (crew ? 3 : 0) + (e.region === 'grand-strand' ? 2 : e.region === 'charleston' ? 1 : 0) +
+  return (e.currentEntryLevel ? 10 : 0) - (e.researchOnly || e.volunteer ? 10 : 0) + (crew ? 3 : 0) + (e.region === 'grand-strand' ? 2 : e.region === 'charleston' ? 1 : 0) +
     ((e.region !== 'florida' && direct) || careers ? 1 : 0) + (e.phone ? 1 : 0);
 }
 function approach(e) {
+  if (e.tip) return e.tip;
+  if (/volunteer|auxiliary/i.test(e.type + ' ' + e.name)) return 'Optional volunteer training, not income; ask about time and training costs.';
+  if (/pier \/ fishing/i.test(e.type)) return 'Ask about paid pier-attendant openings and hourly pay.';
+  if (/fire|rescue|public-safety/i.test(e.type)) return 'Check paid recruit eligibility and training; marine-team assignment is not guaranteed.';
+  if (/aquarium/i.test(e.name)) return 'Check current paid visitor-service or animal-care openings and their requirements.';
   if (e.region === 'florida') return /day[ -]?work/i.test(`${e.type} ${e.hiringMethod}`)
     ? 'Ask about paid day work and send your marine resume with STCW details.'
     : 'Register your marine resume and STCW details; ask about junior live-aboard deck roles.';
@@ -85,7 +90,12 @@ export function buildDirectory(source, generatedAt = new Date().toISOString()) {
       phone: [...new Set(details.flatMap(c => c.phone.split('; ')).filter(Boolean))].join('; '),
       email: [...new Set(details.flatMap(c => c.email.split('; ')).filter(Boolean))].join('; '),
       url: entries.map(e => webUrl(e.careersUrl)).find(Boolean) || entries.map(e => webUrl(e.url) || webUrl(e.website)).find(Boolean) || '',
-      tier: 'more'
+      tier: 'more', researchOnly: entries.some(e => e.researchOnly), volunteer: entries.some(e => e.volunteer),
+      currentEntryLevel: entries.some(e => e.currentEntryLevel),
+      tip: entries.map(e => e.tip).find(Boolean) || '',
+      suggestedRole: entries.map(e => e.suggestedRole).find(Boolean) || 'Ask about deckhand / dock crew',
+      verificationNote: [...new Set(entries.map(e => e.verificationNote).filter(Boolean))].join(' '),
+      verifiedAt: entries.map(e => e.verifiedAt).filter(Boolean).sort().pop() || ''
     };
     const baseId = e.id;
     for (let suffix = 2; usedIds.has(e.id); suffix++) e.id = `${baseId}-${suffix}`;
@@ -96,8 +106,8 @@ export function buildDirectory(source, generatedAt = new Date().toISOString()) {
   // Prefer an identified local town over an uncertain regional listing when scores tie.
   const uncertain = e => /verify local|regional;/i.test(e.town) ? 1 : 0;
   employers.sort((a, b) => regions.indexOf(a.region) - regions.indexOf(b.region) || b.score - a.score || uncertain(a) - uncertain(b));
-  for (const region of regions) employers.filter(e => e.region === region).slice(0, TOP_COUNTS[region]).forEach(e => { e.tier = 'top'; });
-  return { generatedAt, about: 'Local employers and crew resources condensed from config/local-employers.json. Research contacts and hiring methods need confirmation; inclusion does not mean an opening is available. Chains appear once in the nearest region, with towns joined. Scores: crew fit +3, Grand Strand +2 or Charleston +1, direct local hiring or careers route +1, phone +1; ties favor identified local towns, then research order.', employers };
+  for (const region of regions) employers.filter(e => e.region === region && !e.researchOnly && !e.volunteer).slice(0, TOP_COUNTS[region]).forEach(e => { e.tier = 'top'; });
+  return { generatedAt, about: 'Local employers and crew resources condensed from config/local-employers.json. Research contacts and hiring methods need confirmation; inclusion does not mean an opening is available. Chains appear once in the nearest region, with towns joined. Scores: confirmed current entry-level availability +10, research-only or volunteer -10, crew fit +3, Grand Strand +2 or Charleston +1, direct local hiring or careers route +1, phone +1; ties favor identified local towns, then research order.', employers };
 }
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
   const source = JSON.parse(await readFile(new URL('../config/local-employers.json', import.meta.url), 'utf8'));
