@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T13:35:40.667Z",
+  "generatedAt": "2026-10-24T14:09:42.634Z",
   "about": "Local employers and crew resources condensed from config/local-employers.json. Research contacts and hiring methods need confirmation; inclusion does not mean an opening is available. Chains appear once in the nearest region, with towns joined. Scores: confirmed current entry-level availability +10, research-only or volunteer -10, crew fit +3, Grand Strand +2 or Charleston +1, direct local hiring or careers route +1, phone +1; ties favor identified local towns, then research order.",
   "employers": [
     {
@@ -963,26 +963,6 @@
       "score": 6
     },
     {
-      "id": "spirit-of-south-carolina",
-      "name": "Spirit of South Carolina",
-      "region": "charleston",
-      "town": "Charleston",
-      "type": "Tall ship / sail training",
-      "hiringMethod": "Online application / email",
-      "phone": "(843) 818-4402",
-      "email": "",
-      "url": "https://tallshipsamerica.org/",
-      "tier": "top",
-      "researchOnly": false,
-      "volunteer": false,
-      "currentEntryLevel": false,
-      "tip": "Check the jobs page for deck or dock crew roles and send your marine resume.",
-      "suggestedRole": "Ask about deckhand / dock crew",
-      "verificationNote": "",
-      "verifiedAt": "",
-      "score": 6
-    },
-    {
       "id": "charleston-harbor-tours-carolina-belle",
       "name": "Charleston Harbor Tours – Carolina Belle",
       "region": "charleston",
@@ -1132,7 +1112,7 @@
       "phone": "",
       "email": "",
       "url": "https://www.colonialgroupinc.com/careers",
-      "tier": "more",
+      "tier": "top",
       "researchOnly": false,
       "volunteer": false,
       "currentEntryLevel": false,
@@ -1741,6 +1721,26 @@
       "verificationNote": "",
       "verifiedAt": "",
       "score": -4
+    },
+    {
+      "id": "spirit-of-south-carolina",
+      "name": "Spirit of South Carolina",
+      "region": "charleston",
+      "town": "Charleston",
+      "type": "Tall ship / sail training (unpaid volunteer crew)",
+      "hiringMethod": "Volunteer sign-up; paid crew billets are licensed mates",
+      "phone": "(843) 818-4402",
+      "email": "",
+      "url": "https://www.spiritofsc.org/spirit-volunteers",
+      "tier": "more",
+      "researchOnly": false,
+      "volunteer": true,
+      "currentEntryLevel": false,
+      "tip": "Optional volunteer training, not income; ask about time and training costs.",
+      "suggestedRole": "Ask about deckhand / dock crew",
+      "verificationNote": "",
+      "verifiedAt": "2026-10-24",
+      "score": -5
     },
     {
       "id": "u-s-coast-guard-auxiliary-sector-charleston",

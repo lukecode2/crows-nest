@@ -28,7 +28,7 @@ export function nest(store, ui) {
       h('h2', {}, title), h('p', { class: 'job-company' }, job.company), h('p', { class: 'muted small' }, [job.location, job.remote ? 'Remote' : null].filter(Boolean).join(' · ')),
       job.pay && h('p', { class: 'job-pay' }, job.pay), job.snippet && h('p', { class: 'job-snippet' }, job.snippet),
       h('div', { class: 'job-flags' }, ...(job.flags || []).map(flag => {
-        const labels = { 'needs-twic': 'TWIC', 'needs-mmc': 'MMC', 'needs-eng1': 'ENG1', 'drug-test': 'Drug test', 'entry-level': 'Entry level', 'page-changed': 'Page updated', 'far-away': 'Far away', 'live-aboard': 'Live aboard', 'high-pay': 'High pay', 'pay-unknown': 'Pay unknown', 'starts-fast': 'Starts fast' };
+        const labels = { 'needs-twic': 'TWIC', 'needs-mmc': 'MMC', 'needs-eng1': 'ENG1', 'drug-test': 'Drug test', 'entry-level': 'Entry level', 'page-changed': 'Page updated', 'far-away': 'Far away', 'live-aboard': 'Vessel crew', 'high-pay': 'High pay', 'pay-unknown': 'Pay unknown', 'starts-fast': 'Starts fast' };
         const credential = ['needs-twic', 'needs-mmc', 'needs-eng1', 'drug-test'].includes(flag);
         return h(credential ? 'a' : 'span', { ...(credential ? { route: 'papers' } : {}), class: 'flag-chip' + (['high-pay', 'starts-fast'].includes(flag) ? ' flag-good' : flag === 'pay-unknown' ? ' flag-muted' : '') }, labels[flag] || flag);
       })),

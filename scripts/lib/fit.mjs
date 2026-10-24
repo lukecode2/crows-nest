@@ -26,7 +26,7 @@ export function needsLicence(job, profile = {}) {
   const title = text(job.title);
   if (/\bexperienced\b/i.test(title)) return true;
   if (MARINE_TRADE.test(title) && TRAINING.test(`${title} ${job.snippet || ''}`) || /\b(?:trainee|apprentice|cadet|in training|entry|junior|deck ?hands?|dock ?hands?|crew member)\b/i.test(title)) return false;
-  if (!profile.captainLicense && /\b(?:captain|master|pilot)\b/i.test(title)) return true;
+  if (!profile.captainLicense && /\b(?:captain|master|pilot|small craft operator|boating instructor)\b/i.test(title)) return true;
   return /\b(?:surveyor|tankerman|engineer|QMED|electronics tech\w*)\b/i.test(title);
 }
 
@@ -37,7 +37,8 @@ const MUST_HOLD = /\b(?:must (?:possess|have|hold|already)|required|requires|sel
 const NOT_YET = /\b(?:obtain|within \w+ (?:months?|days)|preferred|a plus|helpful|nice to have|will train|sponsor)\b/i;
 export function needsCredentialHeLacks(job, profile = {}) {
   return String(job.snippet || '').split(/(?<=[.;!?•])\s+|\s+(?=[-*•]\s)/).some(sentence => {
-    if (!CREDENTIAL.test(sentence) || !MUST_HOLD.test(sentence) || NOT_YET.test(sentence) || /\b(?:no|not)\b[^.;]{0,80}\b(?:required|needed)\b/i.test(sentence)) return false;
+    const at = sentence.search(CREDENTIAL);
+    if (at < 0 || !MUST_HOLD.test(sentence) || NOT_YET.test(sentence.slice(Math.max(0, at - 80), at + 120)) || /\b(?:no|not)\b[^.;]{0,80}\b(?:required|needed)\b/i.test(sentence)) return false;
     const captainOnly = /captain|master|OUPV|six[- ]pack|motorboat|operator|licen[cs]e/i.test(sentence) && !/MMC|merchant mariner|endorsement|able[- ]bodied/i.test(sentence);
     return !(captainOnly && profile.captainLicense) && !(!captainOnly && profile.mmc);
   });
@@ -59,7 +60,7 @@ export function salesFit(job) {
   if (/\b(?:AGM|assistant (?:general |store )?manager|supervisor|team lead|store lead|key ?holder)\b/i.test(title)) return 'senior';
   // He dismissed an "entry-level" Services AE as needing experience: closing roles need a track record.
   if (/\baccount executive\b/i.test(title) && !/\b(?:associate|junior|entry)\b/i.test(title)) return 'needs-experience';
-  if ((STORE_RETAIL.test(title) || /\bbrand ambassador\b/i.test(title) && APPAREL_STORE.test(job.company)) && !TECH_RETAILER.test(`${job.company} ${title}`) && !(parsePay(job.pay, job.snippet)?.hourlyMax >= 15)) return 'generic-retail';
+  if ((STORE_RETAIL.test(title) || /\bbrand (?:ambassador|representative)\b/i.test(title) && APPAREL_STORE.test(job.company)) && !TECH_RETAILER.test(`${job.company} ${title}`) && !(parsePay(job.pay, job.snippet)?.hourlyMax >= 15)) return 'generic-retail';
   return null;
 }
 
@@ -69,6 +70,7 @@ const WEB = /\b(?:web|wordpress|shopify|webflow|front[- ]?end|full[- ]?stack|dev
 const JUNIOR = /\b(?:junior|jr|entry|associate|intern|apprentice|trainee|graduate|beginner|no experience)\b/i;
 export function aiWebFit(job) {
   const title = text(job.title);
+  if (/\bconsultant\b/i.test(title) && !JUNIOR.test(title)) return false;
   return AI_GIG.test(title) || WEB.test(title) && JUNIOR.test(title);
 }
 

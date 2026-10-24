@@ -32,7 +32,7 @@ function requiresDegree(snippet) {
 export function isSenior(job, filters = {}) {
   const title = job.title || '';
   const assistant = /\bassistant\b/i.test(title);
-  if (/\b(?:leader|supervisor)\b/i.test(title) || /\b(?:head|chief)[- ]+(?:stew(?:ard(?:ess)?)?|deckhand|chef|engineer)\b/i.test(title)) return true;
+  if (/\b(?:leader|supervisor|(?:ramp|valet|bell|shift) captain)\b/i.test(title) || /\b(?:head|chief)[- ]+(?:stew(?:ard(?:ess)?)?|deckhand|chef|engineer)\b/i.test(title)) return true;
   const snippet = String(job.snippet || '');
   if (/\b(?:sales|SDR|BDR|account executive|business development|brand (?:ambassador|specialist))\b/i.test(title) && requiredYears(snippet) >= 2) return true;
   if (requiresDegree(snippet)) return true;
@@ -59,6 +59,9 @@ export function dropReason(job, { filters = {}, dismissed = {}, trackedIds = new
   if (isJunk(job, filters)) return 'junk-listing';
   const skipped = (filters.skipCompanies || []).find(c => lower(job.company).includes(lower(c.name)));
   if (skipped) return skipped.reason || 'skipped-company';
+  // Single postings an audit read in full: the snippet hides what rules them out (config/filters.json "excludeJobs").
+  const excluded = (filters.excludeJobs || []).find(e => e.id === job.id || e.url && job.url && normalizeUrl(e.url) === normalizeUrl(job.url));
+  if (excluded) return excluded.reason || 'excluded-job';
   if (notAJobLink(job)) return 'not-a-job';
   if (job.closesAt && nowIso && Date.parse(job.closesAt) < Date.parse(nowIso)) return 'closed';
   if (isSenior(job, filters)) return 'senior';

@@ -86,7 +86,8 @@ test('marine jobs that need a licence or rating he does not hold are dropped', (
 
 test('real boat work with plain titles is rescued; far marina desk jobs are not', () => {
   const national = (title, location, pay = '') => reason(title, { track: 'marine-national', location, pay });
-  assert.equal(national('Small Craft Operator', 'Aberdeen, Washington', '$33.36–$40.63/Per Hour'), null);
+  // Both USACE small craft postings seen (Oct 2026) need a Coast Guard operator licence he doesn't hold yet.
+  assert.equal(national('Small Craft Operator', 'Aberdeen, Washington', '$33.36–$40.63/Per Hour'), 'needs-licence');
   assert.equal(national('LOCK AND DAM OPERATOR', 'Multiple Locations', '$23.65–$35.4/Per Hour'), null);
   assert.equal(national('Trades Helper Linehandler (Relief Pool)', 'Massena, New York', '$27.57–$32.85/Per Hour'), null);
   assert.equal(national('Maintenance Worker (DR)', 'Wilmington, North Carolina', '$26.96–$31.41/Per Hour'), null);
@@ -105,7 +106,7 @@ test('jobs he could start this week are flagged and ranked up', () => {
 test('closed postings and jobs a full-list source stopped returning disappear', () => {
   const nowIso = '2026-10-16T12:00:00Z';
   const base = { company: 'U.S. Army Corps of Engineers', location: 'Multiple Locations', track: 'marine-national', pay: '$30/hr', firstSeenAt: '2026-10-15T00:00:00Z', score: 50, flags: [] };
-  const prev = [{ ...base, id: 'closed', title: 'Lock and Dam Operator', source: 'usajobs', closesAt: '2026-10-15T00:00:00Z' }, { ...base, id: 'gone', title: 'Small Craft Operator', source: 'sweep' }, { ...base, id: 'search', title: 'Deckhand', source: 'adzuna' }];
+  const prev = [{ ...base, id: 'closed', title: 'Lock and Dam Operator', source: 'usajobs', closesAt: '2026-10-15T00:00:00Z' }, { ...base, id: 'gone', title: 'Trades Helper Linehandler', source: 'sweep' }, { ...base, id: 'search', title: 'Deckhand', source: 'adzuna' }];
   const settings = { nowIso, filters: {}, dismissed: { items: [] }, trackedIds: new Set() };
   assert.deepEqual(buildFeed(prev, [], settings).map(j => j.id).sort(), ['gone', 'search']);
   assert.deepEqual(buildFeed(prev, [], { ...settings, refreshed: new Set(['sweep', 'usajobs']) }).map(j => j.id), ['search']);
@@ -132,4 +133,13 @@ test('description-level language, commission-only and 2+ year sales requirements
   assert.equal(reason('Counter Sales Agent', { pay: '$20–$21/hour', snippet: 'Bilingual with English and Spanish required' }), 'language');
   assert.equal(reason('Media Sales Representative', { snippet: 'Model: 100% commission, independent-contractor business' }), 'commission-only');
   assert.equal(reason('Business Development Representative', { track: 'tech-sales', remote: true, location: 'Remote', snippet: '2 - 5+ years of experience in healthcare sales' }), 'senior');
+});
+
+test('second-audit gates: ramp captains, store brand reps, consultant trainers, licences by title, excluded jobs', () => {
+  assert.equal(reason('Valet Ramp Captain', { company: 'Evolution Parking & Guest Services' }), 'senior');
+  assert.equal(reason('Brand Representative - King Street, Abercrombie & Fitch', { company: 'Abercrombie & Fitch', location: 'Charleston, SC' }), 'generic-retail');
+  assert.equal(reason('Business Transformation Consultant - AI Trainer', { track: 'ai-web', remote: true, location: 'Remote' }), 'off-track');
+  assert.equal(reason('Freedom Boat Club - Boating Instructor at Clemson Marina', { track: 'marine-national', location: 'Seneca, SC', pay: '$30/hr' }), 'needs-licence');
+  const filters = { excludeJobs: [{ id: 'x1', reason: 'residency' }] };
+  assert.equal(dropReason({ ...job('Resident Ambassador - Charleston, SC'), id: 'x1' }, { filters }), 'residency');
 });

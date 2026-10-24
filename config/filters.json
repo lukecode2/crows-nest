@@ -4,11 +4,142 @@
     "captainLicense": false,
     "mmc": false
   },
-  "excludeCompanies": ["carnival", "royal caribbean", "norwegian cruise", "ncl", "celebrity cruises", "princess cruises", "disney cruise", "msc cruises", "virgin voyages", "american cruise lines", "viking", "windstar", "lindblad", "american queen", "uncruise", "holland america", "oceania cruises", "regent seven seas", "silversea", "seabourn", "cunard", "azamara", "ismira"],
-  "allowCompanies": ["spiritline", "spirit line", "barefoot queen", "military sealift command"],
+  "excludeCompanies": [
+    "carnival",
+    "royal caribbean",
+    "norwegian cruise",
+    "ncl",
+    "celebrity cruises",
+    "princess cruises",
+    "disney cruise",
+    "msc cruises",
+    "virgin voyages",
+    "american cruise lines",
+    "viking",
+    "windstar",
+    "lindblad",
+    "american queen",
+    "uncruise",
+    "holland america",
+    "oceania cruises",
+    "regent seven seas",
+    "silversea",
+    "seabourn",
+    "cunard",
+    "azamara",
+    "ismira"
+  ],
+  "allowCompanies": [
+    "spiritline",
+    "spirit line",
+    "barefoot queen",
+    "military sealift command"
+  ],
   "excludeKeywords": [],
-  "junkSources": [],
+  "junkSources": [
+    "liveblog365.com",
+    "66ghz.com",
+    "hireloom",
+    "firstremote",
+    "allboardsolutions"
+  ],
   "skipCompanies": [
-    { "name": "Beauty Barrage", "reason": "needs-experience", "why": "Every Brand Market Specialist posting requires prior beauty-retail experience (checked 2026-10-16)." }
+    {
+      "name": "Beauty Barrage",
+      "reason": "needs-experience",
+      "why": "Every Brand Market Specialist posting requires prior beauty-retail experience (checked 2026-10-16)."
+    }
+  ],
+  "excludeJobs": [
+    {
+      "id": "a6a233ec424ed826991e4f10ada6643455e4db4f",
+      "url": "https://www.adzuna.com/details/5940066108?utm_medium=api&utm_source=ea9765bf",
+      "reason": "residency",
+      "why": "PulteGroup Resident Ambassador: must already live in the Del Webb community. Checked 2026-10-24."
+    },
+    {
+      "id": "1333924629363b4a20b9dcba807e56c8488f6bff",
+      "url": "https://www.adzuna.com/land/ad/5939557929?se=skbttLDP8RGfF7qFcyl_6g&utm_medium=api&utm_source=ea9765bf&v=4F94A5EFB2877CFD141F9F54140DC7CF1FE68855",
+      "reason": "needs-experience",
+      "why": "Breakthru Off Premise Sales Rep: minimum two years of sales experience. Checked 2026-10-24."
+    },
+    {
+      "id": "a000fc6da05698f59a72dc3c2bbba019ba6a9801",
+      "url": "https://jobicy.com/jobs/156578-business-development-representative-20",
+      "reason": "needs-experience",
+      "why": "Canonical BDR: needs prior SDR quota record and enterprise tech sales. Checked 2026-10-24."
+    },
+    {
+      "id": "f86efd740ec437395ee7c151b365167cbafdb876",
+      "url": "https://www.glassdoor.com/job-listing/jv?jl=1010292756870",
+      "reason": "off-track",
+      "why": "DataAnnotation Business Transformation Consultant: needs consulting practice. Checked 2026-10-24."
+    },
+    {
+      "id": "1155b2b9f55c977093dc655cd2fb5091a48179d0",
+      "url": "https://jobicy.com/jobs/155501-business-development-representative-army",
+      "reason": "needs-experience",
+      "why": "Defense Unicorns BDR: leads negotiations and closes deals with executives. Checked 2026-10-24."
+    },
+    {
+      "id": "e96a0f6a46791ac622828ae8f7af0a977f560dde",
+      "url": "https://www.linkedin.com/jobs/view/remote-sales-representative-%E2%80%93-entry-level-at-psi-groups-4479172185",
+      "reason": "off-track",
+      "why": "PSI Groups: insurance producer career under a generic sales title. Checked 2026-10-24."
+    },
+    {
+      "id": "9bb9b4ca8e19149894a4a82628f92cb7d906fe39",
+      "url": "https://www.adzuna.com/land/ad/5920524704?se=nMgut47J8RGjutuTSb6jOA&utm_medium=api&utm_source=ea9765bf&v=B25EA1D3531A3DE735E6B9D503B5743AC1E4A0E2",
+      "reason": "needs-experience",
+      "why": "Scholastic New Business Sales: minimum three years of proven sales. Checked 2026-10-24."
+    },
+    {
+      "id": "2ea8a9aa501e58dbcc357415e27c6a5d728bd8c7",
+      "url": "https://www.adzuna.com/details/5917196417?utm_medium=api&utm_source=ea9765bf",
+      "reason": "needs-experience",
+      "why": "Elevated Coastal Productions: at least three years of sales background. Checked 2026-10-24."
+    },
+    {
+      "id": "2748cca7225b4132f1f60d37118f07a2df77c857",
+      "url": "https://jobicy.com/jobs/153078-sales-development-representative-10",
+      "reason": "not-a-job",
+      "why": "dscout SDR: talent pool, contacts applicants only when a role opens. Checked 2026-10-24."
+    },
+    {
+      "id": "bced9ec8de21e86dd520f060449499234d5e4018",
+      "url": "https://www.bluewateryachting.com/yacht-crew-job/service-steward-ess-159362",
+      "reason": "needs-licence",
+      "why": "Bluewater service steward: ENG1 plus a year of silver-service experience. Checked 2026-10-24."
+    },
+    {
+      "id": "a78070d1d0ded2976de51f10a4b0196114ccb062",
+      "url": "https://www.bluewateryachting.com/yacht-crew-job/deckhand-159359",
+      "reason": "needs-licence",
+      "why": "Bluewater 53m deckhand: ENG1, Yacht Rating and YM Offshore required. Checked 2026-10-24."
+    },
+    {
+      "id": "8e574b775d2dec3faca69c442eae75bddc3691f6",
+      "url": "https://www.bluewateryachting.com/yacht-crew-job/deckhand-159349",
+      "reason": "needs-licence",
+      "why": "Bluewater 50m deckhand: ENG1 and Yacht Rating required. Checked 2026-10-24."
+    },
+    {
+      "id": "7c84cf1f6f94ec8d5af46e9bfd240328a1f44fbb",
+      "url": "https://www.learn4good.com/jobs/granite-city/illinois/transportation/5542639164/e/",
+      "reason": "duplicate",
+      "why": "Learn4Good repost of the Ingram Sauget fleet deckhand job (kept: b305688e). Checked 2026-10-24."
+    },
+    {
+      "id": "07606c6eb967f0340b7d582c567011ed271ff49c",
+      "url": "https://bebee.com/us/jobs/offshore-deckhand-ingram-barge-company-east-carondelet-il--jooble-142997696306065650",
+      "reason": "duplicate",
+      "why": "BeBee repost of the Ingram Sauget fleet deckhand job (kept: b305688e). Checked 2026-10-24."
+    },
+    {
+      "id": "7be0454bd208aac3329abe2dd568db98d6cf82df",
+      "url": "https://www.simplyhired.com/job/crfU45an2vE5jxq6IGwywCmpsTzKR_R8uT0XEEV0xy5b6Ak-ZYbmRQ",
+      "reason": "duplicate",
+      "why": "Second copy of Hilton Grand Vacations Ocean 22 bellperson/valet (kept: 015086fd). Checked 2026-10-24."
+    }
   ]
 }
