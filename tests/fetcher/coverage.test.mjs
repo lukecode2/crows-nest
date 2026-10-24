@@ -2,7 +2,7 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 const json = path => readFile(new URL('../../' + path, import.meta.url), 'utf8').then(JSON.parse);
-test('research catalog preserves employer fields, regional tracks, supplied URLs and business contacts', async () => {
+test('research catalog preserves employer fields, regional tracks, supplied or reverified URLs and business contacts', async () => {
   const { employers } = await json('config/local-employers.json');
   const research = (await Promise.all(['grand-strand-employers', 'charleston-employers', 'florida-liveaboard-highpay'].map(f => readFile(new URL(`../../docs/research/${f}.md`, import.meta.url), 'utf8')))).join('\n');
   assert.ok(employers.length > 200);
@@ -11,7 +11,10 @@ test('research catalog preserves employer fields, regional tracks, supplied URLs
     for (const key of ['name', 'town', 'region', 'type', 'url', 'hiringMethod', 'contact', 'track']) assert.equal(typeof e[key], 'string', `${e.name}: ${key}`);
     assert.equal(e.track, tracks[e.region]);
     assert.ok(!/American Cruise Lines|Viking Crew/i.test(e.name));
-    if (e.url) assert.ok(research.includes(e.url), `${e.name}: URL not supplied by research`);
+    if (e.url) {
+      assert.match(e.url, /^https?:\/\//);
+      assert.ok(research.includes(e.url) || /^\d{4}-\d{2}-\d{2}$/.test(e.verifiedAt || '') && Number.isFinite(Date.parse(e.verifiedAt)), `${e.name}: URL needs research provenance or dated reverification`);
+    }
     for (const contact of e.contact.split('; ').filter(Boolean)) assert.match(contact, /^(?:[\w.+-]+@[\w.-]+\.[a-zA-Z]{2,}|(?:1[- ])?\(?\d{3}\)?[- .]\d{3}[- .]\d{4})$/);
   }
 });

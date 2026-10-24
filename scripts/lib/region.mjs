@@ -1,5 +1,5 @@
 // Locations arrive as city/state, city/county, or semicolon-separated ATS locations.
-export const SC_CITIES = 'Myrtle Beach|North Myrtle Beach|Conway|Carolina Forest|Surfside|Surfside Beach|Garden City|Murrells Inlet|Pawleys Island|Georgetown|Little River|Loris|Aynor|Charleston|North Charleston|Mount Pleasant|Summerville|James Island|Johns Island|Daniel Island|Isle of Palms|Folly Beach|Kiawah|Kiawah Island|Goose Creek|Moncks Corner|Hanahan|Ladson'.split('|');
+export const SC_CITIES = 'Myrtle Beach|North Myrtle Beach|Conway|Carolina Forest|Surfside|Surfside Beach|Garden City|Murrells Inlet|Pawleys Island|Georgetown|Little River|Loris|Aynor|Charleston|North Charleston|McClellanville|Mount Pleasant|Summerville|James Island|Johns Island|Daniel Island|Isle of Palms|Folly Beach|Kiawah|Kiawah Island|Goose Creek|Moncks Corner|Hanahan|Ladson'.split('|');
 export const NC_CITIES = 'Wilmington|Shallotte|Calabash|Southport|Leland|Whiteville|Tabor City'.split('|');
 const SC_COUNTIES = 'Horry|Georgetown|Charleston|Berkeley|Dorchester|Colleton|Williamsburg|Marion|Florence'.split('|');
 const NC_COUNTIES = 'Brunswick|Columbus|New Hanover|Pender'.split('|');
@@ -18,8 +18,18 @@ export function inHomeRegion(location) {
       (!state || state === 'nc' || state === 'north carolina') && nc.test(part);
   });
 }
-export function parsePay(pay) {
-  const text = String(pay || '');
+// Only explicit base hourly rates can fill a missing structured pay field.
+export function statedPay(job) {
+  if (String(job.pay || '').trim()) return job.pay;
+  const snippet = String(job.snippet || '');
+  const rates = [...snippet.matchAll(/(?:\$\s*\d+(?:\.\d+)?(?:\s*[-–—]\s*\$?\s*\d+(?:\.\d+)?)?|pay rate:\s*\$?\s*\d+(?:\.\d+)?(?:\s*[-–—]\s*\$?\s*\d+(?:\.\d+)?)?)\s*(?:\/\s*(?:hr|hour)|(?:per|an)\s+hour|hourly)\b/gi)].filter(m => {
+    const before = snippet.slice(Math.max(0, m.index - 30), m.index), after = snippet.slice(m.index + m[0].length, m.index + m[0].length + 40);
+    return !/\b(?:tips?|gratuities)\s*:?\s*$/i.test(before) && !/^\s*(?:(?:including|with|in|after)\s+)?(?:tips?|gratuities)\b/i.test(after);
+  });
+  return (rates.find(m => /^pay rate:/i.test(m[0])) || rates[0])?.[0].replace(/^pay rate:\s*/i, '') || '';
+}
+export function parsePay(pay, snippet = '') {
+  const text = String(statedPay({ pay, snippet }));
   const hourly = /\b(?:hr|hrs|hour|hourly)\b/i.test(text);
   const annual = /\b(?:yr|year|yearly|annual|annually)\b/i.test(text);
   if (!hourly && !annual && /\b(?:day|daily|week|weekly|month|monthly)\b/i.test(text)) return null;

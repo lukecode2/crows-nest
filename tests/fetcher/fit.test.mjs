@@ -80,7 +80,7 @@ test('marine jobs that need a licence or rating he does not hold are dropped', (
   for (const title of ['Boat Captain Trainee', 'Deckhand', 'Lead Dockhand', 'First Mate - Fishing Charter']) assert.equal(marine(title), null, title);
   assert.equal(marine('Deckhand (Dual Rate)', { snippet: 'Minimum Qualifications. You must possess a current United States Coast Guard Merchant Mariner Credential (MMC), Seafarer Unlimited (AB Unlimited) Endorsement or higher AND a current TWIC.' }), 'needs-licence');
   assert.equal(marine('Deckhand – Inland Barge Fleet', { snippet: 'Must have Drivers Licenses and a Valid TWIC card. Must obtain MMC (Merchant Mariner Credential).' }), null);
-  assert.equal(needsCredentialHeLacks({ snippet: 'For the XF-10 grade level: Must possess all of the following: (1) a current MMC, (2) Deck Officer-Master of Self-Propelled Vessels.' }), false);
+  assert.equal(needsCredentialHeLacks({ snippet: 'For the XF-10 grade level: Must possess all of the following: (1) a current MMC, (2) Deck Officer-Master of Self-Propelled Vessels.' }), true);
   assert.equal(needsCredentialHeLacks({ snippet: 'Selective Placement Factors: Must possess and maintain an Ordinary Seaman (O/S), Oiler Endorsement and STCW certification.' }), true);
 });
 

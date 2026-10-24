@@ -30,13 +30,18 @@ export function alertMessage(jobs, siteUrl = SITE_URL) {
 
 // ntfy.sh is a free push service: Luke subscribes to the topic in the ntfy phone app.
 // JSON publishing keeps em dashes and other non-ASCII text out of HTTP headers.
-export async function sendAlert(jobs, { topic, fetchImpl = fetch, siteUrl = SITE_URL } = {}) {
+export async function sendAlert(jobs, { topic, fetchImpl = fetch, siteUrl = SITE_URL, timeoutMs = 15000 } = {}) {
   if (!topic || !jobs.length) return false;
-  const res = await fetchImpl('https://ntfy.sh/', {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ topic, ...alertMessage(jobs, siteUrl), tags: ['anchor'], priority: 4 })
-  });
-  if (!res.ok) throw new Error(`ntfy ${res.status}`);
-  return true;
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(new Error('ntfy timeout')), timeoutMs);
+  try {
+    const res = await fetchImpl('https://ntfy.sh/', {
+      signal: controller.signal,
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ topic, ...alertMessage(jobs, siteUrl), tags: ['anchor'], priority: 4 })
+    });
+    if (!res.ok) throw new Error(`ntfy ${res.status}`);
+    return true;
+  } finally { clearTimeout(timer); }
 }
