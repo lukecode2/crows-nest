@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T02:01:16.772Z",
+  "generatedAt": "2026-10-27T16:33:36.212Z",
   "sources": [
     {
       "name": "adzuna",
@@ -10,13 +10,13 @@
     {
       "name": "usajobs",
       "ok": true,
-      "count": 20,
+      "count": 17,
       "error": null
     },
     {
       "name": "jsearch",
       "ok": true,
-      "count": 0,
+      "count": 11,
       "error": null
     },
     {
@@ -34,31 +34,31 @@
     {
       "name": "jobicy",
       "ok": true,
-      "count": 73,
+      "count": 65,
       "error": null
     },
     {
       "name": "himalayas",
       "ok": true,
-      "count": 3,
+      "count": 4,
       "error": null
     },
     {
       "name": "wwr",
       "ok": true,
-      "count": 92,
+      "count": 88,
       "error": null
     },
     {
       "name": "ats",
       "ok": true,
-      "count": 33,
+      "count": 32,
       "error": null
     },
     {
       "name": "pagewatch",
       "ok": true,
-      "count": 1,
+      "count": 7,
       "error": null
     },
     {
@@ -114,7 +114,27 @@
         "entry-level",
         "starts-fast"
       ],
-      "linkCheckedAt": "2026-10-27T02:01:16.772Z"
+      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
+    },
+    {
+      "title": "Commercial Business Development Representative",
+      "company": "Chainguard",
+      "location": "Remote — USA",
+      "remote": true,
+      "pay": "",
+      "url": "https://jobicy.com/jobs/157292-commercial-business-development-representative",
+      "postedAt": "2026-10-27T05:21:41.000Z",
+      "snippet": "Chainguard is the trusted source for open source. By delivering hardened, secure, and production-ready builds of all the open source software engineers and AI agents rely on, Chainguard helps organizations build faster, stay compliant, and…",
+      "source": "jobicy",
+      "id": "58c9557f0c90aecbdb9fa3589c61c2cd3b8e6070",
+      "track": "tech-sales",
+      "firstSeenAt": "2026-10-27T16:33:36.212Z",
+      "score": 80,
+      "flags": [
+        "entry-level"
+      ],
+      "otherLocations": [],
+      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
     },
     {
       "title": "Video Data Annotation Specialist",
@@ -134,7 +154,44 @@
         "entry-level",
         "starts-fast"
       ],
-      "linkCheckedAt": "2026-10-27T02:01:16.772Z"
+      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
+    },
+    {
+      "title": "Parking Valet Attendant - Hotel",
+      "company": "Propark Mobility",
+      "location": "Charleston, Charleston County (+1 more)",
+      "remote": false,
+      "pay": "$8.00 - $15.00 per hour",
+      "url": "https://www.adzuna.com/land/ad/5943557139?se=Kph_KSTS8RGUsfier4aeyQ&utm_medium=api&utm_source=ea9765bf&v=8BC9BECD2A2644718543A7CDB7A8F65559068FF2",
+      "postedAt": "2026-10-27T11:47:56.000Z",
+      "snippet": "Job Description Job Description Overview Parking Valet Attendant - Hotel Pay Rate: $8.00 - $15.00 per hour plus cash tip$! Job Type: Part-time Location: Charleston, SC Shifts Available: Mornings, Afternoons, and Overnights, Weekends & Holi…",
+      "source": "adzuna",
+      "id": "b4539292051897617cff0dc0ce1d097a482ec340",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-27T16:33:36.212Z",
+      "score": 75,
+      "flags": [],
+      "otherLocations": [
+        "Saint Andrews, Charleston County"
+      ],
+      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
+    },
+    {
+      "title": "Valet Parking Attendant MUSC ( Morning Shift)",
+      "company": "Reimagined Parking",
+      "location": "Charleston, Charleston County",
+      "remote": false,
+      "pay": "$11 - $20/hr",
+      "url": "https://www.adzuna.com/land/ad/5943556883?se=Kph_KSTS8RGUsfier4aeyQ&utm_medium=api&utm_source=ea9765bf&v=6E3F3DE9DA14770C6CE7254DE683EBC585206581",
+      "postedAt": "2026-10-27T11:47:53.000Z",
+      "snippet": "Job Description Job Description Description Position: Valet Parking Attendant Location: MUSC Rutledge Tower Adress: 135 Rutledge Ave Shift: Mon-Fri 7am-3pm Pay rate: $11 - $20/hr plus tips At Reimagined Parking, we believe great people dri…",
+      "source": "adzuna",
+      "id": "9f33d073d4a9912570ea1a989fc3f94e9192f460",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-27T16:33:36.212Z",
+      "score": 75,
+      "flags": [],
+      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
     },
     {
       "title": "Marketing and Event Coordinator",
@@ -157,7 +214,7 @@
       "otherLocations": [
         "Murrells Inlet, Horry County"
       ],
-      "linkCheckedAt": "2026-10-27T02:01:16.772Z"
+      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
     },
     {
       "title": "Business Development Representative",
@@ -177,7 +234,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-26T17:19:32.335Z"
+      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
     },
     {
       "title": "Remote SDR: Entry-Level with Full Training & Growth",
@@ -197,7 +254,7 @@
         "entry-level",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-26T17:19:32.335Z"
+      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
     },
     {
       "title": "Business Development Representative",
@@ -234,26 +291,7 @@
       "firstSeenAt": "2026-10-25T14:56:13.466Z",
       "score": 75,
       "flags": [],
-      "linkCheckedAt": "2026-10-27T02:01:16.772Z"
-    },
-    {
-      "title": "Valet Attendant - $20 Per Hour Plus Tips",
-      "company": "Evolution Parking & Guest Services",
-      "location": "James Island, Charleston County",
-      "remote": false,
-      "pay": "$41,600–$83,200/year",
-      "url": "https://www.adzuna.com/details/5940481745?utm_medium=api&utm_source=ea9765bf",
-      "postedAt": "2026-10-24T08:33:04.000Z",
-      "snippet": "At Evolution , we’re always on the lookout for the right people. Those who are passionate about the service industry – going above and beyond to make guests happy. Those who aren’t afraid to disrupt the “status quo” as we create new ways t…",
-      "source": "adzuna",
-      "id": "000e2a52d0a0d1e5791631bb5ebf28294cddd0af",
-      "track": "quick-cash",
-      "firstSeenAt": "2026-10-25T14:56:13.466Z",
-      "score": 75,
-      "flags": [
-        "high-pay"
-      ],
-      "linkCheckedAt": "2026-10-27T02:01:16.772Z"
+      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
     },
     {
       "title": "Junior Sales Development Representative",
@@ -272,24 +310,26 @@
       "flags": [
         "entry-level"
       ],
-      "linkCheckedAt": "2026-10-27T02:01:16.772Z"
+      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
     },
     {
-      "title": "Parking Valet Attendant - Hotel",
-      "company": "Propark Mobility",
-      "location": "Saint Andrews, Charleston County",
-      "remote": false,
-      "pay": "$8.00 - $15.00 per hour",
-      "url": "https://www.adzuna.com/details/5939365177?utm_medium=api&utm_source=ea9765bf",
-      "postedAt": "2026-10-23T11:00:39.000Z",
-      "snippet": "Parking Valet Attendant - Hotel Pay Rate: $8.00 - $15.00 per hour plus cash tip$! Job Type: Part-time Location: Charleston, SC Shifts Available: Mornings, Afternoons, and Overnights, Weekends & Holiday Must Have: 2 Years Drivers License Ap…",
-      "source": "adzuna",
-      "id": "edc4c8c948c9478b96ae387e5a5e9f2c8d065e2c",
-      "track": "quick-cash",
-      "firstSeenAt": "2026-10-27T02:01:16.772Z",
+      "title": "Special Operations AI Scenario Evaluator",
+      "company": "OpenTrain AI",
+      "location": "",
+      "remote": true,
+      "pay": "$40–$80/hour",
+      "url": "https://www.opentrain.ai/jobs/special-operations-ai-scenario-evaluator--cmvm2jcu0000l08jyf19m4l50/",
+      "postedAt": "2026-10-24T00:00:00.000Z",
+      "snippet": "via OpenTrain AI. The work You will evaluate AI-generated scenarios involving special operations, tactical planning, and combat decision-making. Your feedback will help assess whether the scenarios reflect realistic operations and sound mi…",
+      "source": "jsearch",
+      "id": "7af49d64a00ed143ac3ad4eba99a40195c42a923",
+      "track": "ai-web",
+      "firstSeenAt": "2026-10-27T16:33:36.212Z",
       "score": 70,
-      "flags": [],
-      "linkCheckedAt": "2026-10-27T02:01:16.772Z"
+      "flags": [
+        "high-pay"
+      ],
+      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
     },
     {
       "title": "Parking Valet Attendant - Overnight",
@@ -306,25 +346,7 @@
       "firstSeenAt": "2026-10-27T02:01:16.772Z",
       "score": 70,
       "flags": [],
-      "linkCheckedAt": "2026-10-27T02:01:16.772Z"
-    },
-    {
-      "title": "Brand Ambassador - Hanahan 1",
-      "company": "Service Pros Auto Glass",
-      "location": "Hanahan, Berkeley County",
-      "remote": false,
-      "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5942308728?se=tHUiamHR8RGh_oyDYnSS7w&utm_medium=api&utm_source=ea9765bf&v=4DED6984DE31F90E42EC3D334D6378A279A0C946",
-      "postedAt": "2026-10-26T11:35:55.000Z",
-      "snippet": "Job Description Job Description Brand Ambassador / Service Pros Auto Glass $750 - $2000 | Weekly Pay | Full-Time Service Pros Auto Glass is hiring Brand Ambassadors to represent our company inside partnered automotive dealerships. This rol…",
-      "source": "adzuna",
-      "id": "24aba93ea0e65227180d272d7d75ebaa5c7beb9d",
-      "track": "tech-sales",
-      "firstSeenAt": "2026-10-26T17:19:32.335Z",
-      "score": 70,
-      "flags": [],
-      "linkCheckedAt": "2026-10-26T17:19:32.335Z",
-      "otherLocations": []
+      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
     },
     {
       "title": "Business Development Representative",
@@ -342,7 +364,7 @@
       "score": 70,
       "flags": [],
       "otherLocations": [],
-      "linkCheckedAt": "2026-10-27T02:01:16.772Z"
+      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
     },
     {
       "title": "Event Coordinator",
@@ -359,7 +381,7 @@
       "firstSeenAt": "2026-10-25T14:56:13.466Z",
       "score": 70,
       "flags": [],
-      "linkCheckedAt": "2026-10-27T02:01:16.772Z"
+      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
     },
     {
       "title": "Account Executive Officer, Ocean Marine Luxury Yacht",
@@ -379,7 +401,7 @@
         "far-away",
         "pay-unknown"
       ],
-      "linkCheckedAt": "2026-10-27T02:01:16.772Z"
+      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
     },
     {
       "title": "Business Development Representative",
@@ -396,41 +418,26 @@
       "firstSeenAt": "2026-10-25T14:56:13.466Z",
       "score": 70,
       "flags": [],
-      "linkCheckedAt": "2026-10-27T02:01:16.772Z"
+      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
     },
     {
-      "title": "Sales Development Representative",
-      "company": "Socket",
-      "location": "Remote — USA",
-      "remote": true,
-      "pay": "",
-      "url": "https://jobicy.com/jobs/156766-sales-development-representative-13",
-      "postedAt": "2026-10-24T16:13:45.000Z",
-      "snippet": "About Us Socket helps devs and security teams ship faster by cutting out security busywork. Thousands of orgs use Socket to safely find, audit, and manage open source code. Our customers - from Anthropic to xAI, and Figma to Vercel - love …",
-      "source": "jobicy",
-      "id": "c678da94f6ee62a151964bbdad9fe211170bae09",
-      "track": "tech-sales",
-      "firstSeenAt": "2026-10-24T19:28:12.186Z",
+      "title": "Valet Attendant - $20 Per Hour Plus Tips",
+      "company": "Evolution Parking & Guest Services",
+      "location": "James Island, Charleston County",
+      "remote": false,
+      "pay": "$41,600–$83,200/year",
+      "url": "https://www.adzuna.com/details/5940481745?utm_medium=api&utm_source=ea9765bf",
+      "postedAt": "2026-10-24T08:33:04.000Z",
+      "snippet": "At Evolution , we’re always on the lookout for the right people. Those who are passionate about the service industry – going above and beyond to make guests happy. Those who aren’t afraid to disrupt the “status quo” as we create new ways t…",
+      "source": "adzuna",
+      "id": "000e2a52d0a0d1e5791631bb5ebf28294cddd0af",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-25T14:56:13.466Z",
       "score": 70,
-      "flags": [],
-      "linkCheckedAt": "2026-10-27T02:01:16.772Z"
-    },
-    {
-      "title": "Graduate Sales Development Representative",
-      "company": "Canonical",
-      "location": "Remote — Anywhere",
-      "remote": true,
-      "pay": "",
-      "url": "https://jobicy.com/jobs/149555-graduate-sales-development-representative",
-      "postedAt": "2026-10-24T03:45:29.000Z",
-      "snippet": "Canonical is a global software company that publishes Ubuntu and open-source enterprise solutions for cloud, developer, IoT and AI. Ubuntu is the fastest growing Linux distribution and ranks as the number #1 OS in the cloud. In partnership…",
-      "source": "jobicy",
-      "id": "5ea6979da210fb1f2d31d8e304901b657b605feb",
-      "track": "tech-sales",
-      "firstSeenAt": "2026-10-24T13:42:05.182Z",
-      "score": 70,
-      "flags": [],
-      "linkCheckedAt": "2026-10-27T02:01:16.772Z"
+      "flags": [
+        "high-pay"
+      ],
+      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
     },
     {
       "title": "Overnight Valet Attendant",
@@ -449,7 +456,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-27T02:01:16.772Z"
+      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
     },
     {
       "title": "AI Trainer - Video Annotation",
@@ -469,7 +476,7 @@
         "high-pay"
       ],
       "otherLocations": [],
-      "linkCheckedAt": "2026-10-27T02:01:16.772Z"
+      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
     },
     {
       "title": "PT Sales Associate - Seasonal",
@@ -489,23 +496,7 @@
         "entry-level",
         "starts-fast"
       ],
-      "linkCheckedAt": "2026-10-26T17:19:32.335Z"
-    },
-    {
-      "title": "Parking Valet Attendant",
-      "company": "Propark Mobility",
-      "location": "Saint Andrews, Charleston County",
-      "remote": false,
-      "pay": "$12.00 - $22.00 per hour",
-      "url": "https://www.adzuna.com/details/5935508922?utm_medium=api&utm_source=ea9765bf",
-      "postedAt": "2026-10-20T10:58:11.000Z",
-      "snippet": "Parking Valet Attendants Pay Rate: $12.00 - $22.00 per hour plus cash tip$! Job Type: Part-time Location: Charleston, South Carolina Shift & Schedule: All shifts available Must Have: 2 Years Drivers License Applications will be accepted un…",
-      "source": "adzuna",
-      "id": "fe042e4b1cdb90fc747b87ce725440f7876c9742",
-      "track": "quick-cash",
-      "firstSeenAt": "2026-10-24T13:42:05.182Z",
-      "score": 70,
-      "flags": []
+      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
     },
     {
       "title": "Deckhand",
@@ -530,27 +521,41 @@
       "otherLocations": [
         "Saint Louis, Missouri"
       ],
-      "linkCheckedAt": "2026-10-27T02:01:16.772Z"
+      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
     },
     {
-      "title": "Business Development Representative - US, Remote",
-      "company": "Granicus",
-      "location": "Remote — United States",
+      "title": "Sales Development Representative",
+      "company": "Socket",
+      "location": "Remote — USA",
       "remote": true,
-      "pay": "$50,000/annual",
-      "url": "https://himalayas.app/companies/granicus/jobs/business-development-representative-us-remote?utm_source=api",
-      "postedAt": "2026-10-20T15:08:12.000Z",
-      "snippet": "The Company Serving the People Who Serve the People Granicus is driven by the excitement of building, implementing, and maintaining technology that is transforming the Govtech industry by bringing governments and its constituents together.…",
-      "source": "himalayas",
-      "closesAt": "2026-12-19T15:08:10.000Z",
-      "id": "cd8e9e7904813bdf25d099f9528f309e27fa7f52",
+      "pay": "",
+      "url": "https://jobicy.com/jobs/156766-sales-development-representative-13",
+      "postedAt": "2026-10-24T16:13:45.000Z",
+      "snippet": "About Us Socket helps devs and security teams ship faster by cutting out security busywork. Thousands of orgs use Socket to safely find, audit, and manage open source code. Our customers - from Anthropic to xAI, and Figma to Vercel - love …",
+      "source": "jobicy",
+      "id": "c678da94f6ee62a151964bbdad9fe211170bae09",
       "track": "tech-sales",
-      "firstSeenAt": "2026-10-20T15:38:35.355Z",
-      "score": 70,
-      "flags": [
-        "high-pay"
-      ],
-      "linkCheckedAt": "2026-10-26T17:19:32.335Z"
+      "firstSeenAt": "2026-10-24T19:28:12.186Z",
+      "score": 65,
+      "flags": [],
+      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
+    },
+    {
+      "title": "Graduate Sales Development Representative",
+      "company": "Canonical",
+      "location": "Remote — Anywhere",
+      "remote": true,
+      "pay": "",
+      "url": "https://jobicy.com/jobs/149555-graduate-sales-development-representative",
+      "postedAt": "2026-10-24T03:45:29.000Z",
+      "snippet": "Canonical is a global software company that publishes Ubuntu and open-source enterprise solutions for cloud, developer, IoT and AI. Ubuntu is the fastest growing Linux distribution and ranks as the number #1 OS in the cloud. In partnership…",
+      "source": "jobicy",
+      "id": "5ea6979da210fb1f2d31d8e304901b657b605feb",
+      "track": "tech-sales",
+      "firstSeenAt": "2026-10-24T13:42:05.182Z",
+      "score": 65,
+      "flags": [],
+      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
     },
     {
       "title": "Ferry Deckhand",
@@ -569,7 +574,24 @@
       "flags": [
         "live-aboard"
       ],
-      "linkCheckedAt": "2026-10-27T02:01:16.772Z"
+      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
+    },
+    {
+      "title": "Parking Valet Attendant",
+      "company": "Propark Mobility",
+      "location": "Saint Andrews, Charleston County",
+      "remote": false,
+      "pay": "$12.00 - $22.00 per hour",
+      "url": "https://www.adzuna.com/details/5935508922?utm_medium=api&utm_source=ea9765bf",
+      "postedAt": "2026-10-20T10:58:11.000Z",
+      "snippet": "Parking Valet Attendants Pay Rate: $12.00 - $22.00 per hour plus cash tip$! Job Type: Part-time Location: Charleston, South Carolina Shift & Schedule: All shifts available Must Have: 2 Years Drivers License Applications will be accepted un…",
+      "source": "adzuna",
+      "id": "fe042e4b1cdb90fc747b87ce725440f7876c9742",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-24T13:42:05.182Z",
+      "score": 65,
+      "flags": [],
+      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
     },
     {
       "title": "College Event Staff",
@@ -587,7 +609,27 @@
       "score": 65,
       "flags": [],
       "otherLocations": [],
-      "linkCheckedAt": "2026-10-26T17:19:32.335Z"
+      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
+    },
+    {
+      "title": "Business Development Representative - US, Remote",
+      "company": "Granicus",
+      "location": "Remote — United States",
+      "remote": true,
+      "pay": "$50,000/annual",
+      "url": "https://himalayas.app/companies/granicus/jobs/business-development-representative-us-remote?utm_source=api",
+      "postedAt": "2026-10-20T15:08:12.000Z",
+      "snippet": "The Company Serving the People Who Serve the People Granicus is driven by the excitement of building, implementing, and maintaining technology that is transforming the Govtech industry by bringing governments and its constituents together.…",
+      "source": "himalayas",
+      "closesAt": "2026-12-19T15:08:10.000Z",
+      "id": "cd8e9e7904813bdf25d099f9528f309e27fa7f52",
+      "track": "tech-sales",
+      "firstSeenAt": "2026-10-20T15:38:35.355Z",
+      "score": 65,
+      "flags": [
+        "high-pay"
+      ],
+      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
     },
     {
       "title": "Fleet Deckhand — Inland Barges (7/7 Schedule)",
@@ -627,7 +669,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-27T02:01:16.772Z"
+      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
     },
     {
       "title": "Marine Construction Crew Member",
@@ -647,7 +689,7 @@
         "live-aboard",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-27T02:01:16.772Z"
+      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
     },
     {
       "title": "Data Annotation Specialist - Computer Vision",
@@ -666,7 +708,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-27T02:01:16.772Z"
+      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
     },
     {
       "title": "MARINE DECKHAND - TRAVEL REQUIRED",
@@ -687,7 +729,28 @@
         "live-aboard",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-26T17:19:32.335Z"
+      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
+    },
+    {
+      "title": "Deckhand - 35m Private Motor Yacht",
+      "company": "Bluewater Yachting",
+      "location": "",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.bluewateryachting.com/yacht-crew-job/deckhand-159368",
+      "postedAt": null,
+      "snippet": "New link on careers page",
+      "source": "pagewatch",
+      "flags": [
+        "page-changed",
+        "far-away",
+        "live-aboard"
+      ],
+      "id": "50a7c992df2f470893663955edf134cf2d413c33",
+      "track": "marine-national",
+      "firstSeenAt": "2026-10-27T16:33:36.212Z",
+      "score": 60,
+      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
     },
     {
       "title": "2nd Steward(ess) - 43m Private Motor Yacht",
@@ -708,25 +771,7 @@
       "track": "marine-national",
       "firstSeenAt": "2026-10-26T17:19:32.335Z",
       "score": 60,
-      "linkCheckedAt": "2026-10-26T17:19:32.335Z"
-    },
-    {
-      "title": "Part-Time Trunk Show Brand Ambassador",
-      "company": "HART SHAPED ROCKS LLC",
-      "location": "Charleston, Charleston County",
-      "remote": false,
-      "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5932310448?se=tHUiamHR8RGh_oyDYnSS7w&utm_medium=api&utm_source=ea9765bf&v=EF5248369AAD202496B75497CE4197774D935CC4",
-      "postedAt": "2026-10-17T11:05:28.000Z",
-      "snippet": "Job Description Job Description PART-TIME TRUNK SHOW BRAND AMBASSADOR HART is a personalized, soulful jewelry brand headquartered in Charleston, South Carolina. Built around the belief that what you wear should mean something, HART offers …",
-      "source": "adzuna",
-      "id": "db7a7d1dcd6f1e426e298329b898134ea18f0641",
-      "track": "quick-cash",
-      "firstSeenAt": "2026-10-26T17:19:32.335Z",
-      "score": 60,
-      "flags": [],
-      "linkCheckedAt": "2026-10-26T17:19:32.335Z",
-      "otherLocations": []
+      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
     },
     {
       "title": "Deckhand",
@@ -746,7 +791,7 @@
         "far-away",
         "live-aboard"
       ],
-      "linkCheckedAt": "2026-10-26T17:19:32.335Z"
+      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
     },
     {
       "title": "Sales Development Representative, Hospital Solutions",
@@ -814,7 +859,7 @@
       "firstSeenAt": "2026-10-18T14:32:37.273Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-10-27T02:01:16.772Z"
+      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
     },
     {
       "title": "Business Development Representative - Healthcare",
@@ -832,7 +877,7 @@
       "firstSeenAt": "2026-10-17T19:20:03.287Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-10-26T17:19:32.335Z"
+      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
     },
     {
       "title": "Sales Development Representative",
@@ -866,7 +911,7 @@
       "firstSeenAt": "2026-10-16T18:23:40.794Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-10-27T02:01:16.772Z"
+      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
     },
     {
       "title": "Ferry Mate - Full Time",
@@ -886,7 +931,7 @@
         "drug-test",
         "live-aboard"
       ],
-      "linkCheckedAt": "2026-10-27T02:01:16.772Z"
+      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
     },
     {
       "title": "Deckhand",
@@ -906,7 +951,7 @@
         "far-away",
         "live-aboard"
       ],
-      "linkCheckedAt": "2026-10-27T02:01:16.772Z"
+      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
     },
     {
       "title": "Assistant Dockmaster - Deep Point Marina",
@@ -923,7 +968,7 @@
       "firstSeenAt": "2026-10-15T22:25:32.969Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-10-27T02:01:16.772Z"
+      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
     },
     {
       "title": "Event Staff Team Member - John T. Rhodes Myrtle Beach Sports Center",
@@ -940,7 +985,7 @@
       "firstSeenAt": "2026-10-15T21:40:27.290Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-10-27T02:01:16.772Z"
+      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
     },
     {
       "title": "Retail Sales Associate",
@@ -957,7 +1002,7 @@
       "firstSeenAt": "2026-10-15T21:40:27.290Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-10-26T17:19:32.335Z"
+      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
     },
     {
       "title": "SDR (Sales Development Representative)",
@@ -1012,7 +1057,7 @@
         "far-away",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-27T02:01:16.772Z"
+      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
     },
     {
       "title": "PERFECT PART TIME JOB-WEEKEND SALES-Weekly PAY !",
@@ -1035,7 +1080,7 @@
       "otherLocations": [
         "Charleston, Charleston County"
       ],
-      "linkCheckedAt": "2026-10-26T17:19:32.335Z"
+      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
     },
     {
       "title": "In-Store Sales Lead Generator",
@@ -1054,7 +1099,7 @@
       "flags": [
         "starts-fast"
       ],
-      "linkCheckedAt": "2026-10-27T02:01:16.772Z"
+      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
     },
     {
       "title": "Light Show Attendant (Temporary)",
@@ -1073,7 +1118,41 @@
       "flags": [
         "starts-fast"
       ],
-      "linkCheckedAt": "2026-10-26T17:19:32.335Z"
+      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
+    },
+    {
+      "title": "Pandora Jewelry Sales Specialist, Coastal Grand Mall",
+      "company": "REEDS Jewelers",
+      "location": "Myrtle Beach, Horry County",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/details/5943504120?utm_medium=api&utm_source=ea9765bf",
+      "postedAt": "2026-10-27T10:51:47.000Z",
+      "snippet": "Join us today at our Pandora Boutique! This location is exclusively Pandora-branded owned and operated by REEDS Jewelers , a family-run company celebrating excellence since 1946. REEDS is known for its high standards of quality, personaliz…",
+      "source": "adzuna",
+      "id": "98d9d7795b07b0687787e82aed8c203df4a8d95e",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-27T16:33:36.212Z",
+      "score": 50,
+      "flags": [],
+      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
+    },
+    {
+      "title": "Data Labeling Specialist — Remote Contract Work ($18-$22 per hour)",
+      "company": "WFHQuillen",
+      "location": "",
+      "remote": true,
+      "pay": "$18- $22 an hour",
+      "url": "https://wfhquillen.r5f.talk4fun.net/remote-jobs/data-labeling-specialist-remote-contract-work-18-22-per-hour-3",
+      "postedAt": "2026-10-24T00:00:00.000Z",
+      "snippet": "via WFHQuillen. Who We Are Workada creates high-quality labeled data for advanced technology systems. Our team reviews, organizes, categorizes, evaluates, and quality-checks digital content so those systems can better understand informatio…",
+      "source": "jsearch",
+      "id": "92e97f34e4cb09e9a59cfb56007213562a84a6cd",
+      "track": "ai-web",
+      "firstSeenAt": "2026-10-27T16:33:36.212Z",
+      "score": 50,
+      "flags": [],
+      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
     },
     {
       "title": "Business Development Representative, Auto Retail",
@@ -1093,7 +1172,7 @@
       "otherLocations": [
         "Remote — USA"
       ],
-      "linkCheckedAt": "2026-10-27T02:01:16.772Z"
+      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
     },
     {
       "title": "Refractory Sales Representative",
@@ -1109,7 +1188,8 @@
       "track": "quick-cash",
       "firstSeenAt": "2026-10-25T19:34:58.130Z",
       "score": 50,
-      "flags": []
+      "flags": [],
+      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
     },
     {
       "title": "Marketing Agent",
@@ -1126,57 +1206,8 @@
       "firstSeenAt": "2026-10-25T14:56:13.466Z",
       "score": 50,
       "flags": [],
-      "linkCheckedAt": "2026-10-26T17:19:32.335Z",
+      "linkCheckedAt": "2026-10-27T16:33:36.212Z",
       "otherLocations": []
-    },
-    {
-      "title": "Retail Customer Account & Sales Representative",
-      "company": "Rent A Center",
-      "location": "Conway, Horry County",
-      "remote": false,
-      "pay": "$42,000–$50,000/year",
-      "url": "https://www.adzuna.com/land/ad/5935408238?se=yPMxUZzM8RGz3-dAyi5M2w&utm_medium=api&utm_source=ea9765bf&v=7D1CAFE52BA63BDAABFAD8EF28925C16D675D940",
-      "postedAt": "2026-10-20T08:17:51.000Z",
-      "snippet": "Rent-A-Center seeks a Customer Account Representative to deliver friendly, knowledgeable service in a fast-paced retail environment. You will assist customers with product selection, explain rent-to-own options, and open and manage account…",
-      "source": "adzuna",
-      "id": "7ebd8feff0b4f9566e6a681e7e3b497abfb39701",
-      "track": "quick-cash",
-      "firstSeenAt": "2026-10-20T15:38:35.355Z",
-      "score": 50,
-      "flags": [
-        "high-pay"
-      ],
-      "linkCheckedAt": "2026-10-26T17:19:32.335Z",
-      "otherLocations": []
-    },
-    {
-      "title": "Product Demonstrator",
-      "company": "Advantage Solutions",
-      "location": "James Island, Charleston County (+11 more)",
-      "remote": false,
-      "pay": "$37,440–$49,400/year",
-      "url": "https://www.adzuna.com/land/ad/5935317213?se=sM8sUZzM8RGxOcn8vDO86g&utm_medium=api&utm_source=ea9765bf&v=8D1B7BCFF73972567CF6A51DE5AD97A70F966D5C",
-      "postedAt": "2026-10-20T06:35:45.000Z",
-      "snippet": "Join Advantage Solutions, a globally recognized leader in sales and marketing solutions, as a Part Time Product Demonstrator. In this role, you will play a pivotal part in enhancing our brand impact and engagement by directly interacting w…",
-      "source": "adzuna",
-      "id": "06bd0bd4ff7bdb3bff8726d183099cbacecc308a",
-      "track": "quick-cash",
-      "firstSeenAt": "2026-10-20T15:38:35.355Z",
-      "score": 50,
-      "flags": [],
-      "otherLocations": [
-        "Goose Creek, Berkeley County",
-        "Awendaw, Charleston County",
-        "Daniel Island, Berkeley County",
-        "Cottageville, Colleton County",
-        "Ravenel, Charleston County",
-        "Ridgeville, Dorchester County",
-        "Ladson, Berkeley County",
-        "Moncks Corner, Berkeley County",
-        "Mount Pleasant, Charleston County",
-        "Rantowels, Charleston County"
-      ],
-      "linkCheckedAt": "2026-10-26T17:19:32.335Z"
     },
     {
       "title": "Firefighter Recruit, Georgetown County Fire and EMS",
@@ -1195,25 +1226,7 @@
       "flags": [
         "starts-fast"
       ],
-      "linkCheckedAt": "2026-10-27T02:01:16.772Z"
-    },
-    {
-      "title": "Sales Representative - Off Premise",
-      "company": "Breakthru Beverage Group",
-      "location": "Charleston, Charleston County",
-      "remote": false,
-      "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5939557929?se=GjKVv7TP8RG17O__M5KguQ&utm_medium=api&utm_source=ea9765bf&v=4F94A5EFB2877CFD141F9F54140DC7CF1FE68855",
-      "postedAt": "2026-10-23T13:22:18.000Z",
-      "snippet": "Are you a current Associate? To be considered, you must submit your application through the internal Career Portal (Jobs Hub). Click here to access. Time Type: Full time Remote Type: Job Family Group: Sales Job Description Summary: We are …",
-      "source": "adzuna",
-      "id": "ee22996e64266b253bdadf9885eaa553df68763d",
-      "track": "quick-cash",
-      "firstSeenAt": "2026-10-24T14:11:01.410Z",
-      "score": 45,
-      "flags": [],
-      "linkCheckedAt": "2026-10-26T17:19:32.335Z",
-      "otherLocations": []
+      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
     },
     {
       "title": "Leasing Ambassador (Build to Rent) (Part Time)",
@@ -1230,7 +1243,7 @@
       "firstSeenAt": "2026-10-24T13:42:05.182Z",
       "score": 45,
       "flags": [],
-      "linkCheckedAt": "2026-10-27T02:01:16.772Z"
+      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
     },
     {
       "title": "Become a Luxury Brand Evaluator in Charleston, US",
@@ -1247,7 +1260,7 @@
       "firstSeenAt": "2026-10-24T13:42:05.182Z",
       "score": 45,
       "flags": [],
-      "linkCheckedAt": "2026-10-27T02:01:16.772Z"
+      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
     },
     {
       "title": "Field Sales and Marketing Representative- Myrtle Beach, SC",
@@ -1266,7 +1279,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-27T02:01:16.772Z"
+      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
     },
     {
       "title": "Marketing Events Specialist",
@@ -1283,7 +1296,7 @@
       "firstSeenAt": "2026-10-16T18:23:40.794Z",
       "score": 45,
       "flags": [],
-      "linkCheckedAt": "2026-10-27T02:01:16.772Z"
+      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
     },
     {
       "title": "Field Sales and Marketing Representative- North Myrtle Beach, SC",
@@ -1302,7 +1315,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-26T01:07:15.700Z",
+      "linkCheckedAt": "2026-10-27T16:33:36.212Z",
       "otherLocations": [
         "North Myrtle Beach, Horry County"
       ]
@@ -1326,7 +1339,7 @@
         "far-away",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-27T02:01:16.772Z"
+      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
     },
     {
       "title": "HP Retail Sales Representative",
@@ -1343,7 +1356,7 @@
       "firstSeenAt": "2026-10-15T21:29:28.105Z",
       "score": 45,
       "flags": [],
-      "linkCheckedAt": "2026-10-27T02:01:16.772Z"
+      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
     },
     {
       "title": "Part-time Nabisco Merchandiser",
@@ -1367,7 +1380,7 @@
         "Tabor City, Columbus County",
         "Whiteville, Columbus County"
       ],
-      "linkCheckedAt": "2026-10-26T17:19:32.335Z"
+      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
     },
     {
       "title": "Sales and Content Lead (Charleston County)",
@@ -1404,7 +1417,7 @@
       "firstSeenAt": "2026-10-24T19:28:12.186Z",
       "score": 40,
       "flags": [],
-      "linkCheckedAt": "2026-10-26T17:19:32.335Z",
+      "linkCheckedAt": "2026-10-27T16:33:36.212Z",
       "otherLocations": []
     },
     {
@@ -1422,7 +1435,7 @@
       "firstSeenAt": "2026-10-23T20:24:32.631Z",
       "score": 40,
       "flags": [],
-      "linkCheckedAt": "2026-10-26T17:19:32.335Z",
+      "linkCheckedAt": "2026-10-27T16:33:36.212Z",
       "otherLocations": []
     },
     {
@@ -1460,7 +1473,7 @@
       "firstSeenAt": "2026-10-15T22:25:32.969Z",
       "score": 40,
       "flags": [],
-      "linkCheckedAt": "2026-10-27T02:01:16.772Z"
+      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
     },
     {
       "title": "Marketing Agent",
@@ -1477,7 +1490,7 @@
       "firstSeenAt": "2026-10-15T21:40:27.290Z",
       "score": 40,
       "flags": [],
-      "linkCheckedAt": "2026-10-26T17:19:32.335Z"
+      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
     },
     {
       "title": "Vacation Sales Ambassador",
@@ -1494,7 +1507,7 @@
       "firstSeenAt": "2026-10-15T21:40:27.290Z",
       "score": 40,
       "flags": [],
-      "linkCheckedAt": "2026-10-26T17:19:32.335Z"
+      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
     },
     {
       "title": "Retail Display Installer - Technology",
