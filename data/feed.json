@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T16:33:36.212Z",
+  "generatedAt": "2026-10-27T21:17:06.084Z",
   "sources": [
     {
       "name": "adzuna",
@@ -16,7 +16,7 @@
     {
       "name": "jsearch",
       "ok": true,
-      "count": 11,
+      "count": 10,
       "error": null
     },
     {
@@ -34,13 +34,13 @@
     {
       "name": "jobicy",
       "ok": true,
-      "count": 65,
+      "count": 63,
       "error": null
     },
     {
       "name": "himalayas",
       "ok": true,
-      "count": 4,
+      "count": 5,
       "error": null
     },
     {
@@ -52,13 +52,13 @@
     {
       "name": "ats",
       "ok": true,
-      "count": 32,
+      "count": 31,
       "error": null
     },
     {
       "name": "pagewatch",
       "ok": true,
-      "count": 7,
+      "count": 0,
       "error": null
     },
     {
@@ -114,7 +114,7 @@
         "entry-level",
         "starts-fast"
       ],
-      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
+      "linkCheckedAt": "2026-10-27T21:17:06.084Z"
     },
     {
       "title": "Commercial Business Development Representative",
@@ -134,7 +134,7 @@
         "entry-level"
       ],
       "otherLocations": [],
-      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
+      "linkCheckedAt": "2026-10-27T21:17:06.084Z"
     },
     {
       "title": "Video Data Annotation Specialist",
@@ -154,7 +154,26 @@
         "entry-level",
         "starts-fast"
       ],
-      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
+      "linkCheckedAt": "2026-10-27T21:17:06.084Z"
+    },
+    {
+      "title": "Remote Junior Web Developer — HTML5/CSS3 & WordPress",
+      "company": "Tested Recruits",
+      "location": "",
+      "remote": true,
+      "pay": "",
+      "url": "https://jobmesh.io/job/1d516997-260e-4fe4-ae90-3388d5c274af",
+      "postedAt": "2026-10-24T00:00:00.000Z",
+      "snippet": "via JobMESH. CT Marketing Agency is seeking a motivated Remote Junior Web Developer to support website development, responsive design, front-end work, and web production tasks. This entry-level role is ideal for recent graduates with basic…",
+      "source": "jsearch",
+      "id": "e924ec515b2f634ebc11fdaf6c5c9e3b7272d0da",
+      "track": "ai-web",
+      "firstSeenAt": "2026-10-27T21:17:06.084Z",
+      "score": 75,
+      "flags": [
+        "entry-level"
+      ],
+      "linkCheckedAt": "2026-10-27T21:17:06.084Z"
     },
     {
       "title": "Parking Valet Attendant - Hotel",
@@ -191,7 +210,8 @@
       "firstSeenAt": "2026-10-27T16:33:36.212Z",
       "score": 75,
       "flags": [],
-      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
+      "linkCheckedAt": "2026-10-27T16:33:36.212Z",
+      "otherLocations": []
     },
     {
       "title": "Marketing and Event Coordinator",
@@ -214,7 +234,7 @@
       "otherLocations": [
         "Murrells Inlet, Horry County"
       ],
-      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
+      "linkCheckedAt": "2026-10-27T21:17:06.084Z"
     },
     {
       "title": "Business Development Representative",
@@ -291,26 +311,7 @@
       "firstSeenAt": "2026-10-25T14:56:13.466Z",
       "score": 75,
       "flags": [],
-      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
-    },
-    {
-      "title": "Junior Sales Development Representative",
-      "company": "Eventbrite",
-      "location": "Remote — USA",
-      "remote": true,
-      "pay": "",
-      "url": "https://jobicy.com/jobs/156046-junior-sales-development-representative",
-      "postedAt": "2026-10-20T19:01:16.000Z",
-      "snippet": "Eventbrite is disrupting a huge industry in desperate need of a shakeup. We're looking for a talented, driven and collaborative Business development manager to be the first point of contact for our sales efforts, generating demand and buil…",
-      "source": "jobicy",
-      "id": "6ddcdd3782da09b2da089e90171eefc19ee6f888",
-      "track": "tech-sales",
-      "firstSeenAt": "2026-10-21T01:31:18.270Z",
-      "score": 75,
-      "flags": [
-        "entry-level"
-      ],
-      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
+      "linkCheckedAt": "2026-10-27T21:17:06.084Z"
     },
     {
       "title": "Special Operations AI Scenario Evaluator",
@@ -346,7 +347,7 @@
       "firstSeenAt": "2026-10-27T02:01:16.772Z",
       "score": 70,
       "flags": [],
-      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
+      "linkCheckedAt": "2026-10-27T21:17:06.084Z"
     },
     {
       "title": "Business Development Representative",
@@ -364,7 +365,7 @@
       "score": 70,
       "flags": [],
       "otherLocations": [],
-      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
+      "linkCheckedAt": "2026-10-27T21:17:06.084Z"
     },
     {
       "title": "Event Coordinator",
@@ -381,7 +382,7 @@
       "firstSeenAt": "2026-10-25T14:56:13.466Z",
       "score": 70,
       "flags": [],
-      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
+      "linkCheckedAt": "2026-10-27T21:17:06.084Z"
     },
     {
       "title": "Account Executive Officer, Ocean Marine Luxury Yacht",
@@ -401,7 +402,7 @@
         "far-away",
         "pay-unknown"
       ],
-      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
+      "linkCheckedAt": "2026-10-27T21:17:06.084Z"
     },
     {
       "title": "Business Development Representative",
@@ -418,7 +419,7 @@
       "firstSeenAt": "2026-10-25T14:56:13.466Z",
       "score": 70,
       "flags": [],
-      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
+      "linkCheckedAt": "2026-10-27T21:17:06.084Z"
     },
     {
       "title": "Valet Attendant - $20 Per Hour Plus Tips",
@@ -437,7 +438,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
+      "linkCheckedAt": "2026-10-27T21:17:06.084Z"
     },
     {
       "title": "Overnight Valet Attendant",
@@ -456,7 +457,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
+      "linkCheckedAt": "2026-10-27T21:17:06.084Z"
     },
     {
       "title": "AI Trainer - Video Annotation",
@@ -476,7 +477,7 @@
         "high-pay"
       ],
       "otherLocations": [],
-      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
+      "linkCheckedAt": "2026-10-27T21:17:06.084Z"
     },
     {
       "title": "PT Sales Associate - Seasonal",
@@ -521,6 +522,25 @@
       "otherLocations": [
         "Saint Louis, Missouri"
       ],
+      "linkCheckedAt": "2026-10-27T21:17:06.084Z"
+    },
+    {
+      "title": "Junior Sales Development Representative",
+      "company": "Eventbrite",
+      "location": "Remote — USA",
+      "remote": true,
+      "pay": "",
+      "url": "https://jobicy.com/jobs/156046-junior-sales-development-representative",
+      "postedAt": "2026-10-20T19:01:16.000Z",
+      "snippet": "Eventbrite is disrupting a huge industry in desperate need of a shakeup. We're looking for a talented, driven and collaborative Business development manager to be the first point of contact for our sales efforts, generating demand and buil…",
+      "source": "jobicy",
+      "id": "6ddcdd3782da09b2da089e90171eefc19ee6f888",
+      "track": "tech-sales",
+      "firstSeenAt": "2026-10-21T01:31:18.270Z",
+      "score": 70,
+      "flags": [
+        "entry-level"
+      ],
       "linkCheckedAt": "2026-10-27T16:33:36.212Z"
     },
     {
@@ -538,7 +558,7 @@
       "firstSeenAt": "2026-10-24T19:28:12.186Z",
       "score": 65,
       "flags": [],
-      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
+      "linkCheckedAt": "2026-10-27T21:17:06.084Z"
     },
     {
       "title": "Graduate Sales Development Representative",
@@ -555,7 +575,7 @@
       "firstSeenAt": "2026-10-24T13:42:05.182Z",
       "score": 65,
       "flags": [],
-      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
+      "linkCheckedAt": "2026-10-27T21:17:06.084Z"
     },
     {
       "title": "Ferry Deckhand",
@@ -574,7 +594,7 @@
       "flags": [
         "live-aboard"
       ],
-      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
+      "linkCheckedAt": "2026-10-27T21:17:06.084Z"
     },
     {
       "title": "Parking Valet Attendant",
@@ -591,7 +611,7 @@
       "firstSeenAt": "2026-10-24T13:42:05.182Z",
       "score": 65,
       "flags": [],
-      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
+      "linkCheckedAt": "2026-10-27T21:17:06.084Z"
     },
     {
       "title": "College Event Staff",
@@ -669,7 +689,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
+      "linkCheckedAt": "2026-10-27T21:17:06.084Z"
     },
     {
       "title": "Marine Construction Crew Member",
@@ -689,7 +709,7 @@
         "live-aboard",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
+      "linkCheckedAt": "2026-10-27T21:17:06.084Z"
     },
     {
       "title": "Data Annotation Specialist - Computer Vision",
@@ -708,7 +728,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
+      "linkCheckedAt": "2026-10-27T21:17:06.084Z"
     },
     {
       "title": "MARINE DECKHAND - TRAVEL REQUIRED",
@@ -859,7 +879,7 @@
       "firstSeenAt": "2026-10-18T14:32:37.273Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
+      "linkCheckedAt": "2026-10-27T21:17:06.084Z"
     },
     {
       "title": "Business Development Representative - Healthcare",
@@ -911,7 +931,7 @@
       "firstSeenAt": "2026-10-16T18:23:40.794Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
+      "linkCheckedAt": "2026-10-27T21:17:06.084Z"
     },
     {
       "title": "Ferry Mate - Full Time",
@@ -931,7 +951,7 @@
         "drug-test",
         "live-aboard"
       ],
-      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
+      "linkCheckedAt": "2026-10-27T21:17:06.084Z"
     },
     {
       "title": "Deckhand",
@@ -951,7 +971,7 @@
         "far-away",
         "live-aboard"
       ],
-      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
+      "linkCheckedAt": "2026-10-27T21:17:06.084Z"
     },
     {
       "title": "Assistant Dockmaster - Deep Point Marina",
@@ -968,7 +988,7 @@
       "firstSeenAt": "2026-10-15T22:25:32.969Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
+      "linkCheckedAt": "2026-10-27T21:17:06.084Z"
     },
     {
       "title": "Event Staff Team Member - John T. Rhodes Myrtle Beach Sports Center",
@@ -985,7 +1005,7 @@
       "firstSeenAt": "2026-10-15T21:40:27.290Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
+      "linkCheckedAt": "2026-10-27T21:17:06.084Z"
     },
     {
       "title": "Retail Sales Associate",
@@ -1057,7 +1077,7 @@
         "far-away",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
+      "linkCheckedAt": "2026-10-27T21:17:06.084Z"
     },
     {
       "title": "PERFECT PART TIME JOB-WEEKEND SALES-Weekly PAY !",
@@ -1080,7 +1100,7 @@
       "otherLocations": [
         "Charleston, Charleston County"
       ],
-      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
+      "linkCheckedAt": "2026-10-27T21:17:06.084Z"
     },
     {
       "title": "In-Store Sales Lead Generator",
@@ -1099,7 +1119,7 @@
       "flags": [
         "starts-fast"
       ],
-      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
+      "linkCheckedAt": "2026-10-27T21:17:06.084Z"
     },
     {
       "title": "Light Show Attendant (Temporary)",
@@ -1135,7 +1155,7 @@
       "firstSeenAt": "2026-10-27T16:33:36.212Z",
       "score": 50,
       "flags": [],
-      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
+      "linkCheckedAt": "2026-10-27T21:17:06.084Z"
     },
     {
       "title": "Data Labeling Specialist — Remote Contract Work ($18-$22 per hour)",
@@ -1172,7 +1192,7 @@
       "otherLocations": [
         "Remote — USA"
       ],
-      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
+      "linkCheckedAt": "2026-10-27T21:17:06.084Z"
     },
     {
       "title": "Refractory Sales Representative",
@@ -1189,7 +1209,7 @@
       "firstSeenAt": "2026-10-25T19:34:58.130Z",
       "score": 50,
       "flags": [],
-      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
+      "linkCheckedAt": "2026-10-27T21:17:06.084Z"
     },
     {
       "title": "Marketing Agent",
@@ -1226,7 +1246,7 @@
       "flags": [
         "starts-fast"
       ],
-      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
+      "linkCheckedAt": "2026-10-27T21:17:06.084Z"
     },
     {
       "title": "Leasing Ambassador (Build to Rent) (Part Time)",
@@ -1243,7 +1263,7 @@
       "firstSeenAt": "2026-10-24T13:42:05.182Z",
       "score": 45,
       "flags": [],
-      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
+      "linkCheckedAt": "2026-10-27T21:17:06.084Z"
     },
     {
       "title": "Become a Luxury Brand Evaluator in Charleston, US",
@@ -1260,7 +1280,7 @@
       "firstSeenAt": "2026-10-24T13:42:05.182Z",
       "score": 45,
       "flags": [],
-      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
+      "linkCheckedAt": "2026-10-27T21:17:06.084Z"
     },
     {
       "title": "Field Sales and Marketing Representative- Myrtle Beach, SC",
@@ -1279,7 +1299,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
+      "linkCheckedAt": "2026-10-27T21:17:06.084Z"
     },
     {
       "title": "Marketing Events Specialist",
@@ -1296,7 +1316,7 @@
       "firstSeenAt": "2026-10-16T18:23:40.794Z",
       "score": 45,
       "flags": [],
-      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
+      "linkCheckedAt": "2026-10-27T21:17:06.084Z"
     },
     {
       "title": "Field Sales and Marketing Representative- North Myrtle Beach, SC",
@@ -1339,7 +1359,7 @@
         "far-away",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
+      "linkCheckedAt": "2026-10-27T21:17:06.084Z"
     },
     {
       "title": "HP Retail Sales Representative",
@@ -1473,7 +1493,7 @@
       "firstSeenAt": "2026-10-15T22:25:32.969Z",
       "score": 40,
       "flags": [],
-      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
+      "linkCheckedAt": "2026-10-27T21:17:06.084Z"
     },
     {
       "title": "Marketing Agent",
