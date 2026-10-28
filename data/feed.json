@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T02:10:45.471Z",
+  "generatedAt": "2026-10-28T17:09:06.638Z",
   "sources": [
     {
       "name": "adzuna",
@@ -10,13 +10,13 @@
     {
       "name": "usajobs",
       "ok": true,
-      "count": 17,
+      "count": 19,
       "error": null
     },
     {
       "name": "jsearch",
       "ok": true,
-      "count": 10,
+      "count": 2,
       "error": null
     },
     {
@@ -34,19 +34,19 @@
     {
       "name": "jobicy",
       "ok": true,
-      "count": 61,
+      "count": 57,
       "error": null
     },
     {
       "name": "himalayas",
       "ok": true,
-      "count": 2,
+      "count": 5,
       "error": null
     },
     {
       "name": "wwr",
       "ok": true,
-      "count": 88,
+      "count": 90,
       "error": null
     },
     {
@@ -58,7 +58,7 @@
     {
       "name": "pagewatch",
       "ok": true,
-      "count": 6,
+      "count": 5,
       "error": null
     },
     {
@@ -114,7 +114,7 @@
         "entry-level",
         "starts-fast"
       ],
-      "linkCheckedAt": "2026-10-28T02:10:45.471Z"
+      "linkCheckedAt": "2026-10-28T17:09:06.638Z"
     },
     {
       "title": "Commercial Business Development Representative",
@@ -134,7 +134,7 @@
         "entry-level"
       ],
       "otherLocations": [],
-      "linkCheckedAt": "2026-10-28T02:10:45.471Z"
+      "linkCheckedAt": "2026-10-28T17:09:06.638Z"
     },
     {
       "title": "Video Data Annotation Specialist",
@@ -154,7 +154,81 @@
         "entry-level",
         "starts-fast"
       ],
-      "linkCheckedAt": "2026-10-28T02:10:45.471Z"
+      "linkCheckedAt": "2026-10-28T17:09:06.638Z"
+    },
+    {
+      "title": "Valet Parking Attendant MUSC ( Afternoon Shift )",
+      "company": "Reimagined Parking",
+      "location": "Saint Andrews, Charleston County",
+      "remote": false,
+      "pay": "$22,880–$41,600/year",
+      "url": "https://www.adzuna.com/land/ad/5944535306?se=fkOkSvLS8RGmy51G9FAheA&utm_medium=api&utm_source=ea9765bf&v=CCC5C0625A7FA1316D2905DA9C1F59E81BECDD82",
+      "postedAt": "2026-10-28T08:58:04.000Z",
+      "snippet": "Position: Valet Parking Attendant Location: MUSC Rutledge Tower Adress: 135 Rutledge Ave Shift: Mon-Fri 12pm-6pm Pay rate: $11 - $20/hr plus tips At Reimagined Parking, we believe great people drive great results. That’s why we prioritize …",
+      "source": "adzuna",
+      "id": "4e457fae1650524cb1e3154cb760a83b39c29644",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-28T17:09:06.638Z",
+      "score": 75,
+      "flags": [],
+      "linkCheckedAt": "2026-10-28T17:09:06.638Z"
+    },
+    {
+      "title": "Valet Attendant - Myrtle Beach, SC",
+      "company": "Parking Management",
+      "location": "Myrtle Beach, Horry County",
+      "remote": false,
+      "pay": "$27,040–$41,600/year",
+      "url": "https://www.adzuna.com/details/5944378597?utm_medium=api&utm_source=ea9765bf",
+      "postedAt": "2026-10-28T06:12:55.000Z",
+      "snippet": "Job Title: Hospitality Valet Attendant – Luxury Hotels, Resorts & EventsDepartment: Valet Parking OperationsReports directly to: Guest Service CoordinatorSchedule: Full Time / Part-TimeStatus: Non-ExemptCompensation: Valets can average $13…",
+      "source": "adzuna",
+      "id": "a71731ee3dac51d9e08ba36382508ec9594e3028",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-28T17:09:06.638Z",
+      "score": 75,
+      "flags": [],
+      "linkCheckedAt": "2026-10-28T17:09:06.638Z"
+    },
+    {
+      "title": "Part – Time Lead Service Valet – Truck Required – Evening Shift",
+      "company": "Valet Living",
+      "location": "Charleston, Charleston County",
+      "remote": false,
+      "pay": "$49,920/year",
+      "url": "https://www.adzuna.com/details/5944168230?utm_medium=api&utm_source=ea9765bf",
+      "postedAt": "2026-10-28T02:45:24.000Z",
+      "snippet": "Make an Impact. Support the Team. Grow Your Career. We’re hiring a Lead Service Valet to help deliver high-quality, consistent trash collection service at apartment communities. Reporting to the Operations Manager, this hands-on role suppo…",
+      "source": "adzuna",
+      "id": "eaaaae142e1e53bbd93ba34269ed217e0b4a80d5",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-28T17:09:06.638Z",
+      "score": 75,
+      "flags": [
+        "high-pay"
+      ],
+      "linkCheckedAt": "2026-10-28T17:09:06.638Z"
+    },
+    {
+      "title": "Yacht StarShip Deckhand at Manthey Hospitality Tampa, FL",
+      "company": "Manthey Hospitality",
+      "location": "Tampa, Florida",
+      "remote": false,
+      "pay": "",
+      "url": "https://webct.biz/job-library/job/yacht-starship-deckhand-at-manthey-hospitality-tampa-fl-a1N3Z296ZHp5cERMRXdQa0wwR2xwaE5qamc9PQ==",
+      "postedAt": "2026-10-22T00:00:00.000Z",
+      "snippet": "via Webct.biz. Deckhand Yacht StarShip Dining Cruises Manthey Hospitality is hiring a part-time Deckhand for Yacht StarShip Dining Cruises. This safety-sensitive role is essential to vessel operations, guest safety, and maintaining the pol…",
+      "source": "jsearch",
+      "id": "99fa34bf39b438135aa37a4e685494b37d646589",
+      "track": "marine-national",
+      "firstSeenAt": "2026-10-28T17:09:06.638Z",
+      "score": 75,
+      "flags": [
+        "entry-level",
+        "far-away",
+        "live-aboard"
+      ],
+      "linkCheckedAt": "2026-10-28T17:09:06.638Z"
     },
     {
       "title": "Remote Junior Web Developer — HTML5/CSS3 & WordPress",
@@ -174,44 +248,6 @@
         "entry-level"
       ],
       "linkCheckedAt": "2026-10-27T21:17:06.084Z"
-    },
-    {
-      "title": "Parking Valet Attendant - Hotel",
-      "company": "Propark Mobility",
-      "location": "Charleston, Charleston County (+1 more)",
-      "remote": false,
-      "pay": "$8.00 - $15.00 per hour",
-      "url": "https://www.adzuna.com/land/ad/5943557139?se=Kph_KSTS8RGUsfier4aeyQ&utm_medium=api&utm_source=ea9765bf&v=8BC9BECD2A2644718543A7CDB7A8F65559068FF2",
-      "postedAt": "2026-10-27T11:47:56.000Z",
-      "snippet": "Job Description Job Description Overview Parking Valet Attendant - Hotel Pay Rate: $8.00 - $15.00 per hour plus cash tip$! Job Type: Part-time Location: Charleston, SC Shifts Available: Mornings, Afternoons, and Overnights, Weekends & Holi…",
-      "source": "adzuna",
-      "id": "b4539292051897617cff0dc0ce1d097a482ec340",
-      "track": "quick-cash",
-      "firstSeenAt": "2026-10-27T16:33:36.212Z",
-      "score": 75,
-      "flags": [],
-      "otherLocations": [
-        "Saint Andrews, Charleston County"
-      ],
-      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
-    },
-    {
-      "title": "Valet Parking Attendant MUSC ( Morning Shift)",
-      "company": "Reimagined Parking",
-      "location": "Charleston, Charleston County",
-      "remote": false,
-      "pay": "$11 - $20/hr",
-      "url": "https://www.adzuna.com/land/ad/5943556883?se=Kph_KSTS8RGUsfier4aeyQ&utm_medium=api&utm_source=ea9765bf&v=6E3F3DE9DA14770C6CE7254DE683EBC585206581",
-      "postedAt": "2026-10-27T11:47:53.000Z",
-      "snippet": "Job Description Job Description Description Position: Valet Parking Attendant Location: MUSC Rutledge Tower Adress: 135 Rutledge Ave Shift: Mon-Fri 7am-3pm Pay rate: $11 - $20/hr plus tips At Reimagined Parking, we believe great people dri…",
-      "source": "adzuna",
-      "id": "9f33d073d4a9912570ea1a989fc3f94e9192f460",
-      "track": "quick-cash",
-      "firstSeenAt": "2026-10-27T16:33:36.212Z",
-      "score": 75,
-      "flags": [],
-      "linkCheckedAt": "2026-10-27T16:33:36.212Z",
-      "otherLocations": []
     },
     {
       "title": "Marketing and Event Coordinator",
@@ -234,7 +270,7 @@
       "otherLocations": [
         "Murrells Inlet, Horry County"
       ],
-      "linkCheckedAt": "2026-10-28T02:10:45.471Z"
+      "linkCheckedAt": "2026-10-28T17:09:06.638Z"
     },
     {
       "title": "Business Development Representative",
@@ -254,7 +290,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
+      "linkCheckedAt": "2026-10-28T17:09:06.638Z"
     },
     {
       "title": "Remote SDR: Entry-Level with Full Training & Growth",
@@ -274,7 +310,7 @@
         "entry-level",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
+      "linkCheckedAt": "2026-10-28T17:09:06.638Z"
     },
     {
       "title": "Business Development Representative",
@@ -297,21 +333,61 @@
       "linkCheckedAt": "2026-10-28T02:10:45.471Z"
     },
     {
-      "title": "Convenience Center Site Attendant - Bees Ferry",
-      "company": "Charleston County Government",
-      "location": "Adams Run, Charleston County",
+      "title": "Marketing Brand Ambassador",
+      "company": "Wyndham Hotels & Resorts",
+      "location": "Myrtle Beach, Horry County",
       "remote": false,
-      "pay": "$31,200–$35,276/year",
-      "url": "https://www.adzuna.com/details/5941447893?utm_medium=api&utm_source=ea9765bf",
-      "postedAt": "2026-10-25T08:01:34.000Z",
-      "snippet": "Description Charleston County Environmental Management is looking for a highly motivated, safety-minded individual who likes working outdoors, assisting members of the general public, providing outstanding customer service and performing a…",
+      "pay": "",
+      "url": "https://www.adzuna.com/details/5944114820?utm_medium=api&utm_source=ea9765bf",
+      "postedAt": "2026-10-28T00:52:24.000Z",
+      "snippet": "We Put the World on Vacation Travel Leisure Co. is the world’s leading vacation ownership and travel membership company, with a dynamic and growing portfolio of resort, travel club, and lifestyle travel brands. Our dedicated associates hel…",
       "source": "adzuna",
-      "id": "e87cdc934694df791963dcedaa4f464609847d71",
-      "track": "marine-chs",
-      "firstSeenAt": "2026-10-25T14:56:13.466Z",
-      "score": 75,
+      "id": "decd16c142c786a7cebc1b87458a6f5ba3786a88",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-28T17:09:06.638Z",
+      "score": 70,
       "flags": [],
-      "linkCheckedAt": "2026-10-28T02:10:45.471Z"
+      "linkCheckedAt": "2026-10-28T17:09:06.638Z"
+    },
+    {
+      "title": "Parking Valet Attendant - Overnight",
+      "company": "Propark Mobility",
+      "location": "Charleston, Charleston County (+1 more)",
+      "remote": false,
+      "pay": "$31,200–$45,760/year",
+      "url": "https://www.adzuna.com/land/ad/5940111290?se=fkOkSvLS8RGmy51G9FAheA&utm_medium=api&utm_source=ea9765bf&v=C34AD853557E268D9A7A54329A320DC9D6AB5BB0",
+      "postedAt": "2026-10-24T01:54:59.000Z",
+      "snippet": "Job Description Job Description Overview Overnight Valet Attendants Pay Rate: $15.00 - $22.00 per hour plus cash tip$! Job Type: Part-time Location: Charleston, South Carolina Shift & Schedule: Overnight - 11pm to 7am Must Have: 2 Years Dr…",
+      "source": "adzuna",
+      "id": "f89576d368fa4e4f670bfc5fdc62cb5890adeda9",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-28T17:09:06.638Z",
+      "score": 70,
+      "flags": [],
+      "otherLocations": [
+        "Saint Andrews, Charleston County"
+      ],
+      "linkCheckedAt": "2026-10-28T17:09:06.638Z"
+    },
+    {
+      "title": "Parking Valet Attendant - Hotel",
+      "company": "Propark Mobility",
+      "location": "Charleston, Charleston County (+1 more)",
+      "remote": false,
+      "pay": "$16,640–$31,200/year",
+      "url": "https://www.adzuna.com/land/ad/5939579235?se=fkOkSvLS8RGmy51G9FAheA&utm_medium=api&utm_source=ea9765bf&v=71308BD8E12AC18ED1D0A60EC549F51669694C1B",
+      "postedAt": "2026-10-23T13:54:28.000Z",
+      "snippet": "Job Description Job Description Overview Parking Valet Attendant - Hotel Pay Rate: $8.00 - $15.00 per hour plus cash tip$! Job Type: Part-time Location: Charleston, SC Shifts Available: Mornings, Afternoons, and Overnights, Weekends & Holi…",
+      "source": "adzuna",
+      "id": "a53af98abdcc51d5f5e2fa6d29eb14518ea9496c",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-28T17:09:06.638Z",
+      "score": 70,
+      "flags": [],
+      "otherLocations": [
+        "Saint Andrews, Charleston County"
+      ],
+      "linkCheckedAt": "2026-10-28T17:09:06.638Z"
     },
     {
       "title": "Remote Sales Development Representative (US Market) - Remote, US",
@@ -366,24 +442,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
-    },
-    {
-      "title": "Parking Valet Attendant - Overnight",
-      "company": "Propark Mobility",
-      "location": "Saint Andrews, Charleston County",
-      "remote": false,
-      "pay": "$15.00 - $22.00 per hour",
-      "url": "https://www.adzuna.com/details/5938036145?utm_medium=api&utm_source=ea9765bf",
-      "postedAt": "2026-10-22T10:59:01.000Z",
-      "snippet": "Overnight Valet Attendants Pay Rate: $15.00 - $22.00 per hour plus cash tip$! Job Type: Part-time Location: Charleston, South Carolina Shift & Schedule: Overnight - 11pm to 7am Must Have: 2 Years Drivers License Applications will be accept…",
-      "source": "adzuna",
-      "id": "10f8dad27f0a5b0f3d6b7b2a84582dfbb0d31c56",
-      "track": "quick-cash",
-      "firstSeenAt": "2026-10-27T02:01:16.772Z",
-      "score": 70,
-      "flags": [],
-      "linkCheckedAt": "2026-10-28T02:10:45.471Z"
+      "linkCheckedAt": "2026-10-28T17:09:06.638Z"
     },
     {
       "title": "Business Development Representative",
@@ -400,61 +459,24 @@
       "firstSeenAt": "2026-10-26T17:19:32.335Z",
       "score": 70,
       "flags": [],
-      "linkCheckedAt": "2026-10-28T02:10:45.471Z"
+      "linkCheckedAt": "2026-10-28T17:09:06.638Z"
     },
     {
-      "title": "Event Coordinator",
-      "company": "Dave & Buster's",
-      "location": "Myrtle Beach, Horry County",
+      "title": "Convenience Center Site Attendant - Bees Ferry",
+      "company": "Charleston County Government",
+      "location": "Adams Run, Charleston County",
       "remote": false,
-      "pay": "",
-      "url": "https://www.adzuna.com/details/5941474146?utm_medium=api&utm_source=ea9765bf",
-      "postedAt": "2026-10-25T08:52:40.000Z",
-      "snippet": "Job Description: POSITION SUMMARY: The Event Coordinator supports the sales department in executing the important behind-the-scenes administrative functions that keep the Store functioning efficiently. Without this critical role, our effor…",
+      "pay": "$31,200–$35,276/year",
+      "url": "https://www.adzuna.com/details/5941447893?utm_medium=api&utm_source=ea9765bf",
+      "postedAt": "2026-10-25T08:01:34.000Z",
+      "snippet": "Description Charleston County Environmental Management is looking for a highly motivated, safety-minded individual who likes working outdoors, assisting members of the general public, providing outstanding customer service and performing a…",
       "source": "adzuna",
-      "id": "ccb1c8560d0efaf709f96214ead8df8353419f82",
-      "track": "quick-cash",
+      "id": "e87cdc934694df791963dcedaa4f464609847d71",
+      "track": "marine-chs",
       "firstSeenAt": "2026-10-25T14:56:13.466Z",
       "score": 70,
       "flags": [],
-      "linkCheckedAt": "2026-10-28T02:10:45.471Z"
-    },
-    {
-      "title": "Account Executive Officer, Ocean Marine Luxury Yacht",
-      "company": "The Travelers Indemnity Company",
-      "location": "Fort Lauderdale, Broward County",
-      "remote": false,
-      "pay": "",
-      "url": "https://www.adzuna.com/details/5941302929?utm_medium=api&utm_source=ea9765bf",
-      "postedAt": "2026-10-25T06:10:24.000Z",
-      "snippet": "Who Are We? Taking care of our customers, our communities and each other. That’s the Travelers Promise. By honoring this commitment, we have maintained our reputation as one of the best property casualty insurers in the industry for over 1…",
-      "source": "adzuna",
-      "id": "154e38d6d532f787f7c1d22f696f3c65386ddf0b",
-      "track": "marine-national",
-      "firstSeenAt": "2026-10-25T14:56:13.466Z",
-      "score": 70,
-      "flags": [
-        "far-away",
-        "pay-unknown"
-      ],
-      "linkCheckedAt": "2026-10-28T02:10:45.471Z"
-    },
-    {
-      "title": "Business Development Representative",
-      "company": "Garner Health",
-      "location": "Remote — USA",
-      "remote": true,
-      "pay": "",
-      "url": "https://jobicy.com/jobs/153993-business-development-representative-16",
-      "postedAt": "2026-10-25T04:20:09.000Z",
-      "snippet": "What you’ll be part of Garner is on a mission to transform the U.S. healthcare system — and we’re the only proven player doing exactly that. We partner with employers to redesign how healthcare works: applying 550+ proprietary clinical met…",
-      "source": "jobicy",
-      "id": "e38125ca1e5d3528a56a09c2c50818988dc2018f",
-      "track": "tech-sales",
-      "firstSeenAt": "2026-10-25T14:56:13.466Z",
-      "score": 70,
-      "flags": [],
-      "linkCheckedAt": "2026-10-28T02:10:45.471Z"
+      "linkCheckedAt": "2026-10-28T17:09:06.638Z"
     },
     {
       "title": "Valet Attendant - $20 Per Hour Plus Tips",
@@ -473,7 +495,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-28T02:10:45.471Z"
+      "linkCheckedAt": "2026-10-28T17:09:06.638Z"
     },
     {
       "title": "Overnight Valet Attendant",
@@ -492,7 +514,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-28T02:10:45.471Z"
+      "linkCheckedAt": "2026-10-28T17:09:06.638Z"
     },
     {
       "title": "AI Trainer - Video Annotation",
@@ -512,7 +534,7 @@
         "high-pay"
       ],
       "otherLocations": [],
-      "linkCheckedAt": "2026-10-28T02:10:45.471Z"
+      "linkCheckedAt": "2026-10-28T17:09:06.638Z"
     },
     {
       "title": "PT Sales Associate - Seasonal",
@@ -532,7 +554,7 @@
         "entry-level",
         "starts-fast"
       ],
-      "linkCheckedAt": "2026-10-28T02:10:45.471Z"
+      "linkCheckedAt": "2026-10-28T17:09:06.638Z"
     },
     {
       "title": "Deckhand",
@@ -557,7 +579,7 @@
       "otherLocations": [
         "Saint Louis, Missouri"
       ],
-      "linkCheckedAt": "2026-10-28T02:10:45.471Z"
+      "linkCheckedAt": "2026-10-28T17:09:06.638Z"
     },
     {
       "title": "Junior Sales Development Representative",
@@ -576,7 +598,61 @@
       "flags": [
         "entry-level"
       ],
-      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
+      "linkCheckedAt": "2026-10-28T17:09:06.638Z"
+    },
+    {
+      "title": "Event Coordinator",
+      "company": "Dave & Buster's",
+      "location": "Myrtle Beach, Horry County",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/details/5941474146?utm_medium=api&utm_source=ea9765bf",
+      "postedAt": "2026-10-25T08:52:40.000Z",
+      "snippet": "Job Description: POSITION SUMMARY: The Event Coordinator supports the sales department in executing the important behind-the-scenes administrative functions that keep the Store functioning efficiently. Without this critical role, our effor…",
+      "source": "adzuna",
+      "id": "ccb1c8560d0efaf709f96214ead8df8353419f82",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-25T14:56:13.466Z",
+      "score": 65,
+      "flags": [],
+      "linkCheckedAt": "2026-10-28T17:09:06.638Z"
+    },
+    {
+      "title": "Account Executive Officer, Ocean Marine Luxury Yacht",
+      "company": "The Travelers Indemnity Company",
+      "location": "Fort Lauderdale, Broward County",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/details/5941302929?utm_medium=api&utm_source=ea9765bf",
+      "postedAt": "2026-10-25T06:10:24.000Z",
+      "snippet": "Who Are We? Taking care of our customers, our communities and each other. That’s the Travelers Promise. By honoring this commitment, we have maintained our reputation as one of the best property casualty insurers in the industry for over 1…",
+      "source": "adzuna",
+      "id": "154e38d6d532f787f7c1d22f696f3c65386ddf0b",
+      "track": "marine-national",
+      "firstSeenAt": "2026-10-25T14:56:13.466Z",
+      "score": 65,
+      "flags": [
+        "far-away",
+        "pay-unknown"
+      ],
+      "linkCheckedAt": "2026-10-28T17:09:06.638Z"
+    },
+    {
+      "title": "Business Development Representative",
+      "company": "Garner Health",
+      "location": "Remote — USA",
+      "remote": true,
+      "pay": "",
+      "url": "https://jobicy.com/jobs/153993-business-development-representative-16",
+      "postedAt": "2026-10-25T04:20:09.000Z",
+      "snippet": "What you’ll be part of Garner is on a mission to transform the U.S. healthcare system — and we’re the only proven player doing exactly that. We partner with employers to redesign how healthcare works: applying 550+ proprietary clinical met…",
+      "source": "jobicy",
+      "id": "e38125ca1e5d3528a56a09c2c50818988dc2018f",
+      "track": "tech-sales",
+      "firstSeenAt": "2026-10-25T14:56:13.466Z",
+      "score": 65,
+      "flags": [],
+      "linkCheckedAt": "2026-10-28T17:09:06.638Z"
     },
     {
       "title": "Sales Development Representative",
@@ -593,7 +669,7 @@
       "firstSeenAt": "2026-10-24T19:28:12.186Z",
       "score": 65,
       "flags": [],
-      "linkCheckedAt": "2026-10-28T02:10:45.471Z"
+      "linkCheckedAt": "2026-10-28T17:09:06.638Z"
     },
     {
       "title": "Graduate Sales Development Representative",
@@ -610,7 +686,7 @@
       "firstSeenAt": "2026-10-24T13:42:05.182Z",
       "score": 65,
       "flags": [],
-      "linkCheckedAt": "2026-10-28T02:10:45.471Z"
+      "linkCheckedAt": "2026-10-28T17:09:06.638Z"
     },
     {
       "title": "Ferry Deckhand",
@@ -629,12 +705,12 @@
       "flags": [
         "live-aboard"
       ],
-      "linkCheckedAt": "2026-10-28T02:10:45.471Z"
+      "linkCheckedAt": "2026-10-28T17:09:06.638Z"
     },
     {
       "title": "Parking Valet Attendant",
       "company": "Propark Mobility",
-      "location": "Saint Andrews, Charleston County",
+      "location": "Saint Andrews, Charleston County (+1 more)",
       "remote": false,
       "pay": "$12.00 - $22.00 per hour",
       "url": "https://www.adzuna.com/details/5935508922?utm_medium=api&utm_source=ea9765bf",
@@ -646,25 +722,10 @@
       "firstSeenAt": "2026-10-24T13:42:05.182Z",
       "score": 65,
       "flags": [],
-      "linkCheckedAt": "2026-10-28T02:10:45.471Z"
-    },
-    {
-      "title": "College Event Staff",
-      "company": "PeopleReady",
-      "location": "Conway, Horry County",
-      "remote": false,
-      "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5936614736?se=8mGD8GfN8RGy3r_NoNm5TA&utm_medium=api&utm_source=ea9765bf&v=1B4B2E67F089DE028E8736583245D4F12A3C2F5C",
-      "postedAt": "2026-10-21T07:28:08.000Z",
-      "snippet": "College Event Staff PeopleReady of Myrtle Beach, SC is getting ready for the upcoming academic year and is hiring College Event Staff Members in Conway, SC for college sports, campus events, concerts, and other special events! Whether you'…",
-      "source": "adzuna",
-      "id": "5021abf7d335d362de237d94045b59077a218b27",
-      "track": "quick-cash",
-      "firstSeenAt": "2026-10-21T15:56:10.980Z",
-      "score": 65,
-      "flags": [],
-      "otherLocations": [],
-      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
+      "otherLocations": [
+        "Charleston, Charleston County"
+      ],
+      "linkCheckedAt": "2026-10-28T17:09:06.638Z"
     },
     {
       "title": "Business Development Representative - US, Remote",
@@ -684,7 +745,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
+      "linkCheckedAt": "2026-10-28T17:09:06.638Z"
     },
     {
       "title": "Fleet Deckhand — Inland Barges (7/7 Schedule)",
@@ -724,7 +785,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-28T02:10:45.471Z"
+      "linkCheckedAt": "2026-10-28T17:09:06.638Z"
     },
     {
       "title": "Marine Construction Crew Member",
@@ -744,7 +805,7 @@
         "live-aboard",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-28T02:10:45.471Z"
+      "linkCheckedAt": "2026-10-28T17:09:06.638Z"
     },
     {
       "title": "Data Annotation Specialist - Computer Vision",
@@ -763,7 +824,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-28T02:10:45.471Z"
+      "linkCheckedAt": "2026-10-28T17:09:06.638Z"
     },
     {
       "title": "MARINE DECKHAND - TRAVEL REQUIRED",
@@ -784,7 +845,28 @@
         "live-aboard",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
+      "linkCheckedAt": "2026-10-28T17:09:06.638Z"
+    },
+    {
+      "title": "Steward(ess) - 43m Private Motor Yacht",
+      "company": "Bluewater Yachting",
+      "location": "",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.bluewateryachting.com/yacht-crew-job/steward-ess-159370",
+      "postedAt": null,
+      "snippet": "New link on careers page",
+      "source": "pagewatch",
+      "flags": [
+        "page-changed",
+        "far-away",
+        "live-aboard"
+      ],
+      "id": "e415b0b66e01f692493460b40cccf35f841016be",
+      "track": "marine-national",
+      "firstSeenAt": "2026-10-28T17:09:06.638Z",
+      "score": 60,
+      "linkCheckedAt": "2026-10-28T17:09:06.638Z"
     },
     {
       "title": "Deckhand - 35m Private Motor Yacht",
@@ -805,7 +887,7 @@
       "track": "marine-national",
       "firstSeenAt": "2026-10-27T16:33:36.212Z",
       "score": 60,
-      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
+      "linkCheckedAt": "2026-10-28T17:09:06.638Z"
     },
     {
       "title": "2nd Steward(ess) - 43m Private Motor Yacht",
@@ -826,7 +908,7 @@
       "track": "marine-national",
       "firstSeenAt": "2026-10-26T17:19:32.335Z",
       "score": 60,
-      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
+      "linkCheckedAt": "2026-10-28T17:09:06.638Z"
     },
     {
       "title": "Deckhand",
@@ -846,7 +928,25 @@
         "far-away",
         "live-aboard"
       ],
-      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
+      "linkCheckedAt": "2026-10-28T17:09:06.638Z"
+    },
+    {
+      "title": "College Event Staff",
+      "company": "PeopleReady",
+      "location": "Conway, Horry County",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/land/ad/5936614736?se=8mGD8GfN8RGy3r_NoNm5TA&utm_medium=api&utm_source=ea9765bf&v=1B4B2E67F089DE028E8736583245D4F12A3C2F5C",
+      "postedAt": "2026-10-21T07:28:08.000Z",
+      "snippet": "College Event Staff PeopleReady of Myrtle Beach, SC is getting ready for the upcoming academic year and is hiring College Event Staff Members in Conway, SC for college sports, campus events, concerts, and other special events! Whether you'…",
+      "source": "adzuna",
+      "id": "5021abf7d335d362de237d94045b59077a218b27",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-21T15:56:10.980Z",
+      "score": 60,
+      "flags": [],
+      "otherLocations": [],
+      "linkCheckedAt": "2026-10-28T17:09:06.638Z"
     },
     {
       "title": "Sales Development Representative, Hospital Solutions",
@@ -914,7 +1014,7 @@
       "firstSeenAt": "2026-10-18T14:32:37.273Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-10-28T02:10:45.471Z"
+      "linkCheckedAt": "2026-10-28T17:09:06.638Z"
     },
     {
       "title": "Business Development Representative - Healthcare",
@@ -932,7 +1032,7 @@
       "firstSeenAt": "2026-10-17T19:20:03.287Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
+      "linkCheckedAt": "2026-10-28T17:09:06.638Z"
     },
     {
       "title": "Sales Development Representative",
@@ -966,7 +1066,7 @@
       "firstSeenAt": "2026-10-16T18:23:40.794Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-10-28T02:10:45.471Z"
+      "linkCheckedAt": "2026-10-28T17:09:06.638Z"
     },
     {
       "title": "Ferry Mate - Full Time",
@@ -986,7 +1086,7 @@
         "drug-test",
         "live-aboard"
       ],
-      "linkCheckedAt": "2026-10-28T02:10:45.471Z"
+      "linkCheckedAt": "2026-10-28T17:09:06.638Z"
     },
     {
       "title": "Deckhand",
@@ -1006,7 +1106,7 @@
         "far-away",
         "live-aboard"
       ],
-      "linkCheckedAt": "2026-10-28T02:10:45.471Z"
+      "linkCheckedAt": "2026-10-28T17:09:06.638Z"
     },
     {
       "title": "Assistant Dockmaster - Deep Point Marina",
@@ -1023,7 +1123,7 @@
       "firstSeenAt": "2026-10-15T22:25:32.969Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-10-28T02:10:45.471Z"
+      "linkCheckedAt": "2026-10-28T17:09:06.638Z"
     },
     {
       "title": "Event Staff Team Member - John T. Rhodes Myrtle Beach Sports Center",
@@ -1057,7 +1157,7 @@
       "firstSeenAt": "2026-10-15T21:40:27.290Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
+      "linkCheckedAt": "2026-10-28T17:09:06.638Z"
     },
     {
       "title": "SDR (Sales Development Representative)",
@@ -1092,6 +1192,43 @@
       "score": 60,
       "flags": [],
       "linkCheckedAt": "2026-10-28T02:10:45.471Z"
+    },
+    {
+      "title": "Retail Sales Associate",
+      "company": "Harbor Freight",
+      "location": "Surfside, Horry County",
+      "remote": false,
+      "pay": "$32,760/year",
+      "url": "https://www.adzuna.com/details/5944533041?utm_medium=api&utm_source=ea9765bf",
+      "postedAt": "2026-10-28T08:53:11.000Z",
+      "snippet": "A Retail Sales Associate (part-time) is a valued member of a high performing team who is empowered & equipped to do their job. You will know why your work matters and take pride in what you do! The anticipated rate for this position is $15…",
+      "source": "adzuna",
+      "id": "aef2c860f27f0c116438457a65900d160dc29680",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-28T17:09:06.638Z",
+      "score": 55,
+      "flags": [],
+      "linkCheckedAt": "2026-10-28T17:09:06.638Z"
+    },
+    {
+      "title": "HP Retail Sales Representative",
+      "company": "2020 Companies",
+      "location": "Myrtle Beach, Horry County (+1 more)",
+      "remote": false,
+      "pay": "$35,360/year",
+      "url": "https://www.adzuna.com/details/5944159920?utm_medium=api&utm_source=ea9765bf",
+      "postedAt": "2026-10-28T02:26:22.000Z",
+      "snippet": "Job Type: Regular Work Location: Best Buy 855 - Myrtle Beach, SC 29577 Overview: Become a Part-Time HP Retail Sales Associate! Pay: $17.00 per hour Weekly Performance Bonus (Details below.) Schedule: Up to 15 hours per week. Saturday and S…",
+      "source": "adzuna",
+      "id": "4a6ed1fcc78e23c72814708338ff2eb3d0fed290",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-28T17:09:06.638Z",
+      "score": 55,
+      "flags": [],
+      "otherLocations": [
+        "Myrtle Beach, SC"
+      ],
+      "linkCheckedAt": "2026-10-28T17:09:06.638Z"
     },
     {
       "title": "Remote Sales with Career Growth Opportunity",
@@ -1131,7 +1268,7 @@
         "far-away",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-28T02:10:45.471Z"
+      "linkCheckedAt": "2026-10-28T17:09:06.638Z"
     },
     {
       "title": "PERFECT PART TIME JOB-WEEKEND SALES-Weekly PAY !",
@@ -1173,7 +1310,7 @@
       "flags": [
         "starts-fast"
       ],
-      "linkCheckedAt": "2026-10-28T02:10:45.471Z"
+      "linkCheckedAt": "2026-10-28T17:09:06.638Z"
     },
     {
       "title": "Light Show Attendant (Temporary)",
@@ -1192,30 +1329,64 @@
       "flags": [
         "starts-fast"
       ],
-      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
+      "linkCheckedAt": "2026-10-28T17:09:06.638Z"
+    },
+    {
+      "title": "Guest Services Ambassador",
+      "company": "Davidson Hospitality Group",
+      "location": "James Island, Charleston County",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/details/5944622495?utm_medium=api&utm_source=ea9765bf",
+      "postedAt": "2026-10-28T11:40:18.000Z",
+      "snippet": "The Mills House offers an exciting opportunity for job applicants looking to be a part of a historic and prestigious hospitality team. Located in the heart of Charleston, South Carolina, our hotel boasts a rich heritage and timeless elegan…",
+      "source": "adzuna",
+      "id": "ef4d90e869273e455ac2d15b701e2528ef7ea6e3",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-28T17:09:06.638Z",
+      "score": 50,
+      "flags": [],
+      "linkCheckedAt": "2026-10-28T17:09:06.638Z"
+    },
+    {
+      "title": "Merchandising Specialist",
+      "company": "Acosta Group",
+      "location": "Carolina Forest, Horry County",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/land/ad/5944445579?se=5LnmSfLS8RGmy51G9FAheA&utm_medium=api&utm_source=ea9765bf&v=0E981A7D4F10DA8E8F76D006542C1FFB95A4EE9E",
+      "postedAt": "2026-10-28T07:32:23.000Z",
+      "snippet": "Merchandising Specialist General Information Company: PRE-US Location: MYRTLE BEACH, South Carolina, 29579 Ref : 124932 Pay Rate: $ 12.00 Experience/skills and/or location may influence position wage rate Range Minimum: $ 12.00 Range Maxim…",
+      "source": "adzuna",
+      "id": "1dedfaf050f20b03a8f6da8bbb320cebb000d563",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-28T17:09:06.638Z",
+      "score": 50,
+      "flags": [],
+      "linkCheckedAt": "2026-10-28T17:09:06.638Z"
     },
     {
       "title": "Become a Luxury Brand Evaluator in Charleston, US",
       "company": "CXG",
-      "location": "James Island, Charleston County (+4 more)",
+      "location": "North Charleston, Charleston County (+4 more)",
       "remote": false,
       "pay": "",
-      "url": "https://www.adzuna.com/details/5943766728?utm_medium=api&utm_source=ea9765bf",
+      "url": "https://www.adzuna.com/details/5943766713?utm_medium=api&utm_source=ea9765bf",
       "postedAt": "2026-10-27T17:58:00.000Z",
       "snippet": "Turn your passion for luxury into a career opportunity. Explore the world of premium brands and make a lasting impact in fashion, beauty, jewelry, or automobiles. Join CXG, the global leader in customer experience, and work alongside iconi…",
       "source": "adzuna",
-      "id": "72e6c1e0c15f99b9ecb2d9db8cc2113894a1d4d5",
+      "id": "e9bea5fc03838f3c2c43917047e41cd226675c00",
       "track": "quick-cash",
-      "firstSeenAt": "2026-10-28T02:10:45.471Z",
+      "firstSeenAt": "2026-10-28T17:09:06.638Z",
       "score": 50,
       "flags": [],
       "otherLocations": [
-        "North Charleston, Charleston County",
         "Mount Pleasant, Charleston County",
         "Sullivans Island, Charleston County",
+        "James Island, Charleston County",
         "Charleston, Charleston County"
       ],
-      "linkCheckedAt": "2026-10-28T02:10:45.471Z"
+      "linkCheckedAt": "2026-10-28T17:09:06.638Z"
     },
     {
       "title": "Pandora Jewelry Sales Specialist, Coastal Grand Mall",
@@ -1232,7 +1403,7 @@
       "firstSeenAt": "2026-10-27T16:33:36.212Z",
       "score": 50,
       "flags": [],
-      "linkCheckedAt": "2026-10-28T02:10:45.471Z"
+      "linkCheckedAt": "2026-10-28T17:09:06.638Z"
     },
     {
       "title": "Data Labeling Specialist — Remote Contract Work ($18-$22 per hour)",
@@ -1249,7 +1420,7 @@
       "firstSeenAt": "2026-10-27T16:33:36.212Z",
       "score": 50,
       "flags": [],
-      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
+      "linkCheckedAt": "2026-10-28T17:09:06.638Z"
     },
     {
       "title": "Business Development Representative, Auto Retail",
@@ -1269,42 +1440,7 @@
       "otherLocations": [
         "Remote — USA"
       ],
-      "linkCheckedAt": "2026-10-28T02:10:45.471Z"
-    },
-    {
-      "title": "Refractory Sales Representative",
-      "company": "CAROLINA REFRACTORIES INC",
-      "location": "Conway, Horry County",
-      "remote": false,
-      "pay": "",
-      "url": "https://www.adzuna.com/details/5941687273?utm_medium=api&utm_source=ea9765bf",
-      "postedAt": "2026-10-25T14:39:27.000Z",
-      "snippet": "Join the Carolina Refractories Team Carolina Refractories, Inc. is a manufacturer of high-quality refractory products. With over 35 years in business, we are committed to delivering customized, cost-effective thermal solutions for industri…",
-      "source": "adzuna",
-      "id": "92e295e51ae8f5bea6f3cad83c07bd5a4321cd0e",
-      "track": "quick-cash",
-      "firstSeenAt": "2026-10-25T19:34:58.130Z",
-      "score": 50,
-      "flags": [],
-      "linkCheckedAt": "2026-10-28T02:10:45.471Z"
-    },
-    {
-      "title": "Marketing Agent",
-      "company": "Travel + Leisure Co.",
-      "location": "Carolina Forest, Horry County",
-      "remote": false,
-      "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5941407395?se=qvWrOYTQ8RGrV9qPojDs1w&utm_medium=api&utm_source=ea9765bf&v=7169CDCA38D30CCEF9E15978462222A8C99EBE75",
-      "postedAt": "2026-10-25T07:31:36.000Z",
-      "snippet": "We Put the World on Vacation Travel Leisure Co. is the world's leading vacation ownership and travel membership company, with a dynamic and growing portfolio of resort, travel club, and lifestyle travel brands. Our dedicated associates hel…",
-      "source": "adzuna",
-      "id": "b7ede3750519519a59d916c5e71ecc8f7be0f79d",
-      "track": "quick-cash",
-      "firstSeenAt": "2026-10-25T14:56:13.466Z",
-      "score": 50,
-      "flags": [],
-      "linkCheckedAt": "2026-10-27T16:33:36.212Z",
-      "otherLocations": []
+      "linkCheckedAt": "2026-10-28T17:09:06.638Z"
     },
     {
       "title": "Firefighter Recruit, Georgetown County Fire and EMS",
@@ -1323,7 +1459,24 @@
       "flags": [
         "starts-fast"
       ],
-      "linkCheckedAt": "2026-10-28T02:10:45.471Z"
+      "linkCheckedAt": "2026-10-28T17:09:06.638Z"
+    },
+    {
+      "title": "Refractory Sales Representative",
+      "company": "CAROLINA REFRACTORIES INC",
+      "location": "Conway, Horry County",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/details/5941687273?utm_medium=api&utm_source=ea9765bf",
+      "postedAt": "2026-10-25T14:39:27.000Z",
+      "snippet": "Join the Carolina Refractories Team Carolina Refractories, Inc. is a manufacturer of high-quality refractory products. With over 35 years in business, we are committed to delivering customized, cost-effective thermal solutions for industri…",
+      "source": "adzuna",
+      "id": "92e295e51ae8f5bea6f3cad83c07bd5a4321cd0e",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-25T19:34:58.130Z",
+      "score": 45,
+      "flags": [],
+      "linkCheckedAt": "2026-10-28T17:09:06.638Z"
     },
     {
       "title": "Leasing Ambassador (Build to Rent) (Part Time)",
@@ -1340,7 +1493,7 @@
       "firstSeenAt": "2026-10-24T13:42:05.182Z",
       "score": 45,
       "flags": [],
-      "linkCheckedAt": "2026-10-28T02:10:45.471Z"
+      "linkCheckedAt": "2026-10-28T17:09:06.638Z"
     },
     {
       "title": "Field Sales and Marketing Representative- Myrtle Beach, SC",
@@ -1359,7 +1512,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-28T02:10:45.471Z"
+      "linkCheckedAt": "2026-10-28T17:09:06.638Z"
     },
     {
       "title": "Marketing Events Specialist",
@@ -1376,7 +1529,7 @@
       "firstSeenAt": "2026-10-16T18:23:40.794Z",
       "score": 45,
       "flags": [],
-      "linkCheckedAt": "2026-10-28T02:10:45.471Z"
+      "linkCheckedAt": "2026-10-28T17:09:06.638Z"
     },
     {
       "title": "Field Sales and Marketing Representative- North Myrtle Beach, SC",
@@ -1395,7 +1548,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-27T16:33:36.212Z",
+      "linkCheckedAt": "2026-10-28T17:09:06.638Z",
       "otherLocations": [
         "North Myrtle Beach, Horry County"
       ]
@@ -1419,24 +1572,7 @@
         "far-away",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-28T02:10:45.471Z"
-    },
-    {
-      "title": "HP Retail Sales Representative",
-      "company": "2020 Companies",
-      "location": "Myrtle Beach, SC",
-      "remote": false,
-      "pay": "$17.00 per hour",
-      "url": "https://2020companies.wd1.myworkdayjobs.com/en-US/External_Careers/job/Myrtle-Beach-SC/HP-Retail-Sales-Representative_REQ_114309",
-      "postedAt": "2026-10-07T00:00:00.000Z",
-      "snippet": "Part time Job Type: Regular Work Location: Best Buy 855 - Myrtle Beach, SC 29577 Overview: Become a Part-Time HP Retail Sales Associate! Pay: $17.00 per hour + Weekly Performance Bonus (Details below.) Schedule: Up to 15 hours per week. Sa…",
-      "source": "ats",
-      "id": "c376fe48b541034caf0b78036a91184604647ad0",
-      "track": "quick-cash",
-      "firstSeenAt": "2026-10-15T21:29:28.105Z",
-      "score": 45,
-      "flags": [],
-      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
+      "linkCheckedAt": "2026-10-28T17:09:06.638Z"
     },
     {
       "title": "Part-time Nabisco Merchandiser",
@@ -1460,7 +1596,7 @@
         "Tabor City, Columbus County",
         "Whiteville, Columbus County"
       ],
-      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
+      "linkCheckedAt": "2026-10-28T17:09:06.638Z"
     },
     {
       "title": "Sales and Content Lead (Charleston County)",
@@ -1497,7 +1633,7 @@
       "firstSeenAt": "2026-10-24T19:28:12.186Z",
       "score": 40,
       "flags": [],
-      "linkCheckedAt": "2026-10-27T16:33:36.212Z",
+      "linkCheckedAt": "2026-10-28T17:09:06.638Z",
       "otherLocations": []
     },
     {
@@ -1515,7 +1651,7 @@
       "firstSeenAt": "2026-10-23T20:24:32.631Z",
       "score": 40,
       "flags": [],
-      "linkCheckedAt": "2026-10-27T16:33:36.212Z",
+      "linkCheckedAt": "2026-10-28T17:09:06.638Z",
       "otherLocations": []
     },
     {
@@ -1533,7 +1669,7 @@
       "firstSeenAt": "2026-10-15T22:25:32.969Z",
       "score": 40,
       "flags": [],
-      "linkCheckedAt": "2026-10-28T02:10:45.471Z"
+      "linkCheckedAt": "2026-10-28T17:09:06.638Z"
     },
     {
       "title": "Marketing Agent",
@@ -1550,7 +1686,7 @@
       "firstSeenAt": "2026-10-15T21:40:27.290Z",
       "score": 40,
       "flags": [],
-      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
+      "linkCheckedAt": "2026-10-28T17:09:06.638Z"
     },
     {
       "title": "Vacation Sales Ambassador",
@@ -1567,7 +1703,7 @@
       "firstSeenAt": "2026-10-15T21:40:27.290Z",
       "score": 40,
       "flags": [],
-      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
+      "linkCheckedAt": "2026-10-28T17:09:06.638Z"
     },
     {
       "title": "Retail Display Installer - Technology",
