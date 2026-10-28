@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T21:17:06.084Z",
+  "generatedAt": "2026-10-28T02:10:45.471Z",
   "sources": [
     {
       "name": "adzuna",
@@ -34,13 +34,13 @@
     {
       "name": "jobicy",
       "ok": true,
-      "count": 63,
+      "count": 61,
       "error": null
     },
     {
       "name": "himalayas",
       "ok": true,
-      "count": 5,
+      "count": 2,
       "error": null
     },
     {
@@ -58,7 +58,7 @@
     {
       "name": "pagewatch",
       "ok": true,
-      "count": 0,
+      "count": 6,
       "error": null
     },
     {
@@ -94,7 +94,7 @@
         "entry-level",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-27T02:01:16.772Z"
+      "linkCheckedAt": "2026-10-28T02:10:45.471Z"
     },
     {
       "title": "Zipfizz Brand Ambassador - Weekend Demo",
@@ -114,7 +114,7 @@
         "entry-level",
         "starts-fast"
       ],
-      "linkCheckedAt": "2026-10-27T21:17:06.084Z"
+      "linkCheckedAt": "2026-10-28T02:10:45.471Z"
     },
     {
       "title": "Commercial Business Development Representative",
@@ -134,7 +134,7 @@
         "entry-level"
       ],
       "otherLocations": [],
-      "linkCheckedAt": "2026-10-27T21:17:06.084Z"
+      "linkCheckedAt": "2026-10-28T02:10:45.471Z"
     },
     {
       "title": "Video Data Annotation Specialist",
@@ -154,7 +154,7 @@
         "entry-level",
         "starts-fast"
       ],
-      "linkCheckedAt": "2026-10-27T21:17:06.084Z"
+      "linkCheckedAt": "2026-10-28T02:10:45.471Z"
     },
     {
       "title": "Remote Junior Web Developer — HTML5/CSS3 & WordPress",
@@ -234,7 +234,7 @@
       "otherLocations": [
         "Murrells Inlet, Horry County"
       ],
-      "linkCheckedAt": "2026-10-27T21:17:06.084Z"
+      "linkCheckedAt": "2026-10-28T02:10:45.471Z"
     },
     {
       "title": "Business Development Representative",
@@ -294,7 +294,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-27T02:01:16.772Z"
+      "linkCheckedAt": "2026-10-28T02:10:45.471Z"
     },
     {
       "title": "Convenience Center Site Attendant - Bees Ferry",
@@ -311,7 +311,43 @@
       "firstSeenAt": "2026-10-25T14:56:13.466Z",
       "score": 75,
       "flags": [],
-      "linkCheckedAt": "2026-10-27T21:17:06.084Z"
+      "linkCheckedAt": "2026-10-28T02:10:45.471Z"
+    },
+    {
+      "title": "Remote Sales Development Representative (US Market) - Remote, US",
+      "company": "Oak's Lab",
+      "location": "",
+      "remote": true,
+      "pay": "",
+      "url": "https://www.talent.com/view?id=643142684895549306",
+      "postedAt": "2026-10-26T00:00:00.000Z",
+      "snippet": "via Talent.com. * This is remote position open to US-based candidates * This is a long-term B2B contract engagement ABOUT US We are a leading product development partner specializing in custom software development. With Silicon Valley foun…",
+      "source": "jsearch",
+      "id": "de03d3d630004d8f97744270eec1c4f4ec4ffdb5",
+      "track": "tech-sales",
+      "firstSeenAt": "2026-10-28T02:10:45.471Z",
+      "score": 70,
+      "flags": [],
+      "linkCheckedAt": "2026-10-28T02:10:45.471Z"
+    },
+    {
+      "title": "AI Recruiting SDR — US-Based, Visa Sponsorship",
+      "company": "Not Disclosed",
+      "location": "",
+      "remote": true,
+      "pay": "$50,000–$80,000/year",
+      "url": "https://www.jobleads.com/us/job/ai-recruiting-sdr-us-based-visa-sponsorship--united-states--ef661633c8f0a734d3e1d032a3bb9a62a",
+      "postedAt": "2026-10-23T00:00:00.000Z",
+      "snippet": "via JobLeads. Not Disclosed is an early-stage AI recruiting technology company looking for a client acquisition specialist. You will connect with founders and hiring leaders to generate qualified meetings and drive pipeline growth. Respond…",
+      "source": "jsearch",
+      "id": "10f143b6a11d3554ea89b098bfe26f7b979f9429",
+      "track": "tech-sales",
+      "firstSeenAt": "2026-10-28T02:10:45.471Z",
+      "score": 70,
+      "flags": [
+        "high-pay"
+      ],
+      "linkCheckedAt": "2026-10-28T02:10:45.471Z"
     },
     {
       "title": "Special Operations AI Scenario Evaluator",
@@ -347,7 +383,7 @@
       "firstSeenAt": "2026-10-27T02:01:16.772Z",
       "score": 70,
       "flags": [],
-      "linkCheckedAt": "2026-10-27T21:17:06.084Z"
+      "linkCheckedAt": "2026-10-28T02:10:45.471Z"
     },
     {
       "title": "Business Development Representative",
@@ -364,8 +400,7 @@
       "firstSeenAt": "2026-10-26T17:19:32.335Z",
       "score": 70,
       "flags": [],
-      "otherLocations": [],
-      "linkCheckedAt": "2026-10-27T21:17:06.084Z"
+      "linkCheckedAt": "2026-10-28T02:10:45.471Z"
     },
     {
       "title": "Event Coordinator",
@@ -382,7 +417,7 @@
       "firstSeenAt": "2026-10-25T14:56:13.466Z",
       "score": 70,
       "flags": [],
-      "linkCheckedAt": "2026-10-27T21:17:06.084Z"
+      "linkCheckedAt": "2026-10-28T02:10:45.471Z"
     },
     {
       "title": "Account Executive Officer, Ocean Marine Luxury Yacht",
@@ -402,7 +437,7 @@
         "far-away",
         "pay-unknown"
       ],
-      "linkCheckedAt": "2026-10-27T21:17:06.084Z"
+      "linkCheckedAt": "2026-10-28T02:10:45.471Z"
     },
     {
       "title": "Business Development Representative",
@@ -419,7 +454,7 @@
       "firstSeenAt": "2026-10-25T14:56:13.466Z",
       "score": 70,
       "flags": [],
-      "linkCheckedAt": "2026-10-27T21:17:06.084Z"
+      "linkCheckedAt": "2026-10-28T02:10:45.471Z"
     },
     {
       "title": "Valet Attendant - $20 Per Hour Plus Tips",
@@ -438,7 +473,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-27T21:17:06.084Z"
+      "linkCheckedAt": "2026-10-28T02:10:45.471Z"
     },
     {
       "title": "Overnight Valet Attendant",
@@ -457,7 +492,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-27T21:17:06.084Z"
+      "linkCheckedAt": "2026-10-28T02:10:45.471Z"
     },
     {
       "title": "AI Trainer - Video Annotation",
@@ -477,7 +512,7 @@
         "high-pay"
       ],
       "otherLocations": [],
-      "linkCheckedAt": "2026-10-27T21:17:06.084Z"
+      "linkCheckedAt": "2026-10-28T02:10:45.471Z"
     },
     {
       "title": "PT Sales Associate - Seasonal",
@@ -497,7 +532,7 @@
         "entry-level",
         "starts-fast"
       ],
-      "linkCheckedAt": "2026-10-27T16:33:36.212Z"
+      "linkCheckedAt": "2026-10-28T02:10:45.471Z"
     },
     {
       "title": "Deckhand",
@@ -522,7 +557,7 @@
       "otherLocations": [
         "Saint Louis, Missouri"
       ],
-      "linkCheckedAt": "2026-10-27T21:17:06.084Z"
+      "linkCheckedAt": "2026-10-28T02:10:45.471Z"
     },
     {
       "title": "Junior Sales Development Representative",
@@ -558,7 +593,7 @@
       "firstSeenAt": "2026-10-24T19:28:12.186Z",
       "score": 65,
       "flags": [],
-      "linkCheckedAt": "2026-10-27T21:17:06.084Z"
+      "linkCheckedAt": "2026-10-28T02:10:45.471Z"
     },
     {
       "title": "Graduate Sales Development Representative",
@@ -575,7 +610,7 @@
       "firstSeenAt": "2026-10-24T13:42:05.182Z",
       "score": 65,
       "flags": [],
-      "linkCheckedAt": "2026-10-27T21:17:06.084Z"
+      "linkCheckedAt": "2026-10-28T02:10:45.471Z"
     },
     {
       "title": "Ferry Deckhand",
@@ -594,7 +629,7 @@
       "flags": [
         "live-aboard"
       ],
-      "linkCheckedAt": "2026-10-27T21:17:06.084Z"
+      "linkCheckedAt": "2026-10-28T02:10:45.471Z"
     },
     {
       "title": "Parking Valet Attendant",
@@ -611,7 +646,7 @@
       "firstSeenAt": "2026-10-24T13:42:05.182Z",
       "score": 65,
       "flags": [],
-      "linkCheckedAt": "2026-10-27T21:17:06.084Z"
+      "linkCheckedAt": "2026-10-28T02:10:45.471Z"
     },
     {
       "title": "College Event Staff",
@@ -670,7 +705,7 @@
         "live-aboard",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-27T02:01:16.772Z"
+      "linkCheckedAt": "2026-10-28T02:10:45.471Z"
     },
     {
       "title": "Sales Development Representative",
@@ -689,7 +724,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-27T21:17:06.084Z"
+      "linkCheckedAt": "2026-10-28T02:10:45.471Z"
     },
     {
       "title": "Marine Construction Crew Member",
@@ -709,7 +744,7 @@
         "live-aboard",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-27T21:17:06.084Z"
+      "linkCheckedAt": "2026-10-28T02:10:45.471Z"
     },
     {
       "title": "Data Annotation Specialist - Computer Vision",
@@ -728,7 +763,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-27T21:17:06.084Z"
+      "linkCheckedAt": "2026-10-28T02:10:45.471Z"
     },
     {
       "title": "MARINE DECKHAND - TRAVEL REQUIRED",
@@ -828,7 +863,7 @@
       "firstSeenAt": "2026-10-20T01:46:20.408Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-10-27T02:01:16.772Z"
+      "linkCheckedAt": "2026-10-28T02:10:45.471Z"
     },
     {
       "title": "Sales Development Representative, Clinical Search",
@@ -845,7 +880,7 @@
       "firstSeenAt": "2026-10-20T01:46:20.408Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-10-27T02:01:16.772Z"
+      "linkCheckedAt": "2026-10-28T02:10:45.471Z"
     },
     {
       "title": "Business Development Representative, Provider",
@@ -862,7 +897,7 @@
       "firstSeenAt": "2026-10-19T17:27:01.917Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-10-27T02:01:16.772Z"
+      "linkCheckedAt": "2026-10-28T02:10:45.471Z"
     },
     {
       "title": "Sales Development Representative",
@@ -879,7 +914,7 @@
       "firstSeenAt": "2026-10-18T14:32:37.273Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-10-27T21:17:06.084Z"
+      "linkCheckedAt": "2026-10-28T02:10:45.471Z"
     },
     {
       "title": "Business Development Representative - Healthcare",
@@ -914,7 +949,7 @@
       "firstSeenAt": "2026-10-17T14:11:06.587Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-10-27T02:01:16.772Z"
+      "linkCheckedAt": "2026-10-28T02:10:45.471Z"
     },
     {
       "title": "Bellperson & Valet (Part-time)",
@@ -931,7 +966,7 @@
       "firstSeenAt": "2026-10-16T18:23:40.794Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-10-27T21:17:06.084Z"
+      "linkCheckedAt": "2026-10-28T02:10:45.471Z"
     },
     {
       "title": "Ferry Mate - Full Time",
@@ -951,7 +986,7 @@
         "drug-test",
         "live-aboard"
       ],
-      "linkCheckedAt": "2026-10-27T21:17:06.084Z"
+      "linkCheckedAt": "2026-10-28T02:10:45.471Z"
     },
     {
       "title": "Deckhand",
@@ -971,7 +1006,7 @@
         "far-away",
         "live-aboard"
       ],
-      "linkCheckedAt": "2026-10-27T21:17:06.084Z"
+      "linkCheckedAt": "2026-10-28T02:10:45.471Z"
     },
     {
       "title": "Assistant Dockmaster - Deep Point Marina",
@@ -988,7 +1023,7 @@
       "firstSeenAt": "2026-10-15T22:25:32.969Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-10-27T21:17:06.084Z"
+      "linkCheckedAt": "2026-10-28T02:10:45.471Z"
     },
     {
       "title": "Event Staff Team Member - John T. Rhodes Myrtle Beach Sports Center",
@@ -1039,7 +1074,7 @@
       "firstSeenAt": "2026-10-15T20:32:31.715Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-10-27T02:01:16.772Z"
+      "linkCheckedAt": "2026-10-28T02:10:45.471Z"
     },
     {
       "title": "Sales Development Representative, Outbound",
@@ -1056,7 +1091,26 @@
       "firstSeenAt": "2026-10-15T20:32:31.715Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-10-27T02:01:16.772Z"
+      "linkCheckedAt": "2026-10-28T02:10:45.471Z"
+    },
+    {
+      "title": "Remote Sales with Career Growth Opportunity",
+      "company": "Eaton Insurance Group",
+      "location": "",
+      "remote": true,
+      "pay": "$80,000–$120,000/year",
+      "url": "https://www.linkedin.com/jobs/view/remote-sales-with-career-growth-opportunity-at-eaton-insurance-group-4482908638",
+      "postedAt": "2026-10-26T00:00:00.000Z",
+      "snippet": "via LinkedIn. About the job Build Your Career Before You Graduate Eaton Insurance Group is expanding its nationwide sales organization and seeking motivated college students who want more than a traditional internship. This opportunity pro…",
+      "source": "jsearch",
+      "id": "64eba28b4e92532e0bfb9ae2b254cd87819a23ea",
+      "track": "tech-sales",
+      "firstSeenAt": "2026-10-28T02:10:45.471Z",
+      "score": 55,
+      "flags": [
+        "high-pay"
+      ],
+      "linkCheckedAt": "2026-10-28T02:10:45.471Z"
     },
     {
       "title": "LOCK AND DAM OPERATOR",
@@ -1077,7 +1131,7 @@
         "far-away",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-27T21:17:06.084Z"
+      "linkCheckedAt": "2026-10-28T02:10:45.471Z"
     },
     {
       "title": "PERFECT PART TIME JOB-WEEKEND SALES-Weekly PAY !",
@@ -1100,7 +1154,7 @@
       "otherLocations": [
         "Charleston, Charleston County"
       ],
-      "linkCheckedAt": "2026-10-27T21:17:06.084Z"
+      "linkCheckedAt": "2026-10-28T02:10:45.471Z"
     },
     {
       "title": "In-Store Sales Lead Generator",
@@ -1119,7 +1173,7 @@
       "flags": [
         "starts-fast"
       ],
-      "linkCheckedAt": "2026-10-27T21:17:06.084Z"
+      "linkCheckedAt": "2026-10-28T02:10:45.471Z"
     },
     {
       "title": "Light Show Attendant (Temporary)",
@@ -1141,6 +1195,29 @@
       "linkCheckedAt": "2026-10-27T16:33:36.212Z"
     },
     {
+      "title": "Become a Luxury Brand Evaluator in Charleston, US",
+      "company": "CXG",
+      "location": "James Island, Charleston County (+4 more)",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/details/5943766728?utm_medium=api&utm_source=ea9765bf",
+      "postedAt": "2026-10-27T17:58:00.000Z",
+      "snippet": "Turn your passion for luxury into a career opportunity. Explore the world of premium brands and make a lasting impact in fashion, beauty, jewelry, or automobiles. Join CXG, the global leader in customer experience, and work alongside iconi…",
+      "source": "adzuna",
+      "id": "72e6c1e0c15f99b9ecb2d9db8cc2113894a1d4d5",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-28T02:10:45.471Z",
+      "score": 50,
+      "flags": [],
+      "otherLocations": [
+        "North Charleston, Charleston County",
+        "Mount Pleasant, Charleston County",
+        "Sullivans Island, Charleston County",
+        "Charleston, Charleston County"
+      ],
+      "linkCheckedAt": "2026-10-28T02:10:45.471Z"
+    },
+    {
       "title": "Pandora Jewelry Sales Specialist, Coastal Grand Mall",
       "company": "REEDS Jewelers",
       "location": "Myrtle Beach, Horry County",
@@ -1155,7 +1232,7 @@
       "firstSeenAt": "2026-10-27T16:33:36.212Z",
       "score": 50,
       "flags": [],
-      "linkCheckedAt": "2026-10-27T21:17:06.084Z"
+      "linkCheckedAt": "2026-10-28T02:10:45.471Z"
     },
     {
       "title": "Data Labeling Specialist — Remote Contract Work ($18-$22 per hour)",
@@ -1192,7 +1269,7 @@
       "otherLocations": [
         "Remote — USA"
       ],
-      "linkCheckedAt": "2026-10-27T21:17:06.084Z"
+      "linkCheckedAt": "2026-10-28T02:10:45.471Z"
     },
     {
       "title": "Refractory Sales Representative",
@@ -1209,7 +1286,7 @@
       "firstSeenAt": "2026-10-25T19:34:58.130Z",
       "score": 50,
       "flags": [],
-      "linkCheckedAt": "2026-10-27T21:17:06.084Z"
+      "linkCheckedAt": "2026-10-28T02:10:45.471Z"
     },
     {
       "title": "Marketing Agent",
@@ -1246,7 +1323,7 @@
       "flags": [
         "starts-fast"
       ],
-      "linkCheckedAt": "2026-10-27T21:17:06.084Z"
+      "linkCheckedAt": "2026-10-28T02:10:45.471Z"
     },
     {
       "title": "Leasing Ambassador (Build to Rent) (Part Time)",
@@ -1263,24 +1340,7 @@
       "firstSeenAt": "2026-10-24T13:42:05.182Z",
       "score": 45,
       "flags": [],
-      "linkCheckedAt": "2026-10-27T21:17:06.084Z"
-    },
-    {
-      "title": "Become a Luxury Brand Evaluator in Charleston, US",
-      "company": "CXG",
-      "location": "Charleston, Charleston County",
-      "remote": false,
-      "pay": "",
-      "url": "https://www.adzuna.com/details/5938337611?utm_medium=api&utm_source=ea9765bf",
-      "postedAt": "2026-10-22T16:55:35.000Z",
-      "snippet": "Turn your passion for luxury into a career opportunity. Explore the world of premium brands and make a lasting impact in fashion, beauty, jewelry, or automobiles. Join CXG, the global leader in customer experience, and work alongside iconi…",
-      "source": "adzuna",
-      "id": "41dac7c6560238327e428dec1760d31d9927bd9a",
-      "track": "quick-cash",
-      "firstSeenAt": "2026-10-24T13:42:05.182Z",
-      "score": 45,
-      "flags": [],
-      "linkCheckedAt": "2026-10-27T21:17:06.084Z"
+      "linkCheckedAt": "2026-10-28T02:10:45.471Z"
     },
     {
       "title": "Field Sales and Marketing Representative- Myrtle Beach, SC",
@@ -1299,7 +1359,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-27T21:17:06.084Z"
+      "linkCheckedAt": "2026-10-28T02:10:45.471Z"
     },
     {
       "title": "Marketing Events Specialist",
@@ -1316,7 +1376,7 @@
       "firstSeenAt": "2026-10-16T18:23:40.794Z",
       "score": 45,
       "flags": [],
-      "linkCheckedAt": "2026-10-27T21:17:06.084Z"
+      "linkCheckedAt": "2026-10-28T02:10:45.471Z"
     },
     {
       "title": "Field Sales and Marketing Representative- North Myrtle Beach, SC",
@@ -1359,7 +1419,7 @@
         "far-away",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-27T21:17:06.084Z"
+      "linkCheckedAt": "2026-10-28T02:10:45.471Z"
     },
     {
       "title": "HP Retail Sales Representative",
@@ -1417,7 +1477,7 @@
       "firstSeenAt": "2026-10-25T01:05:33.233Z",
       "score": 40,
       "flags": [],
-      "linkCheckedAt": "2026-10-27T02:01:16.772Z",
+      "linkCheckedAt": "2026-10-28T02:10:45.471Z",
       "otherLocations": [
         "Charleston County, South Carolina"
       ]
@@ -1459,26 +1519,6 @@
       "otherLocations": []
     },
     {
-      "title": "Part Time Product Demonstrator in Costco",
-      "company": "CDS",
-      "location": "Daniel Island, Berkeley County (+1 more)",
-      "remote": false,
-      "pay": "",
-      "url": "https://www.adzuna.com/details/5932190169?utm_medium=api&utm_source=ea9765bf",
-      "postedAt": "2026-10-17T08:43:00.000Z",
-      "snippet": "We want you to help us shape the future of shopping experiences and deliver on our purpose of connecting people with the products and experiences that enrich their lives. Joining Advantage Solutions means joining a network of 65,000 teamma…",
-      "source": "adzuna",
-      "id": "78777ffdb459161b935943a6fc641e3e8d582213",
-      "track": "quick-cash",
-      "firstSeenAt": "2026-10-17T19:20:03.287Z",
-      "score": 40,
-      "flags": [],
-      "otherLocations": [
-        "James Island, Charleston County"
-      ],
-      "linkCheckedAt": "2026-10-27T02:01:16.772Z"
-    },
-    {
       "title": "Detailer",
       "company": "CarMax",
       "location": "Myrtle Beach, SC",
@@ -1493,7 +1533,7 @@
       "firstSeenAt": "2026-10-15T22:25:32.969Z",
       "score": 40,
       "flags": [],
-      "linkCheckedAt": "2026-10-27T21:17:06.084Z"
+      "linkCheckedAt": "2026-10-28T02:10:45.471Z"
     },
     {
       "title": "Marketing Agent",
@@ -1544,7 +1584,7 @@
       "firstSeenAt": "2026-10-15T21:29:28.105Z",
       "score": 40,
       "flags": [],
-      "linkCheckedAt": "2026-10-27T02:01:16.772Z"
+      "linkCheckedAt": "2026-10-28T02:10:45.471Z"
     }
   ]
 }
