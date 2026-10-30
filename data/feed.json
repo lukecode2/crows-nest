@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T17:24:38.740Z",
+  "generatedAt": "2026-10-30T02:34:17.693Z",
   "sources": [
     {
       "name": "adzuna",
@@ -10,13 +10,13 @@
     {
       "name": "usajobs",
       "ok": true,
-      "count": 20,
+      "count": 21,
       "error": null
     },
     {
       "name": "jsearch",
       "ok": true,
-      "count": 11,
+      "count": 2,
       "error": null
     },
     {
@@ -34,25 +34,25 @@
     {
       "name": "jobicy",
       "ok": true,
-      "count": 64,
+      "count": 60,
       "error": null
     },
     {
       "name": "himalayas",
       "ok": true,
-      "count": 2,
+      "count": 3,
       "error": null
     },
     {
       "name": "wwr",
       "ok": true,
-      "count": 89,
+      "count": 88,
       "error": null
     },
     {
       "name": "ats",
       "ok": true,
-      "count": 32,
+      "count": 31,
       "error": null
     },
     {
@@ -76,27 +76,6 @@
   ],
   "jobs": [
     {
-      "title": "Application Programmer Analyst/Developer (Entry Level) / Remote",
-      "company": "RAM Health",
-      "location": "Remote — United States",
-      "remote": true,
-      "pay": "$60,000/annual",
-      "url": "https://himalayas.app/companies/ram-health/jobs/application-programmer-analyst-developer-entry-level-remote?utm_source=api",
-      "postedAt": "2026-10-27T01:47:08.000Z",
-      "snippet": "At RAM Health , our mission is to simplify the complexities of healthcare administration through innovative, technology-driven solutions. With a focus on changing the industry one plan at a time, we drive continuous innovation to help gove…",
-      "source": "himalayas",
-      "closesAt": "2026-12-26T01:47:07.000Z",
-      "id": "ac3bd90332d8b07a120908be9f4fbd11f0800ca7",
-      "track": "ai-web",
-      "firstSeenAt": "2026-10-27T02:01:16.772Z",
-      "score": 85,
-      "flags": [
-        "entry-level",
-        "high-pay"
-      ],
-      "linkCheckedAt": "2026-10-29T02:23:30.839Z"
-    },
-    {
       "title": "Zipfizz Brand Ambassador - Weekend Demo",
       "company": "Zipfizz Corporation",
       "location": "Myrtle Beach, SC",
@@ -114,7 +93,7 @@
         "entry-level",
         "starts-fast"
       ],
-      "linkCheckedAt": "2026-10-29T17:24:38.740Z"
+      "linkCheckedAt": "2026-10-30T02:34:17.693Z"
     },
     {
       "title": "Commercial Business Development Representative",
@@ -133,7 +112,28 @@
       "flags": [
         "entry-level"
       ],
-      "linkCheckedAt": "2026-10-29T17:24:38.740Z"
+      "linkCheckedAt": "2026-10-30T02:34:17.693Z"
+    },
+    {
+      "title": "Application Programmer Analyst/Developer (Entry Level) / Remote",
+      "company": "RAM Health",
+      "location": "Remote — United States",
+      "remote": true,
+      "pay": "$60,000/annual",
+      "url": "https://himalayas.app/companies/ram-health/jobs/application-programmer-analyst-developer-entry-level-remote?utm_source=api",
+      "postedAt": "2026-10-27T01:47:08.000Z",
+      "snippet": "At RAM Health , our mission is to simplify the complexities of healthcare administration through innovative, technology-driven solutions. With a focus on changing the industry one plan at a time, we drive continuous innovation to help gove…",
+      "source": "himalayas",
+      "closesAt": "2026-12-26T01:47:07.000Z",
+      "id": "ac3bd90332d8b07a120908be9f4fbd11f0800ca7",
+      "track": "ai-web",
+      "firstSeenAt": "2026-10-27T02:01:16.772Z",
+      "score": 80,
+      "flags": [
+        "entry-level",
+        "high-pay"
+      ],
+      "linkCheckedAt": "2026-10-30T02:34:17.693Z"
     },
     {
       "title": "Video Data Annotation Specialist",
@@ -153,7 +153,29 @@
         "entry-level",
         "starts-fast"
       ],
-      "linkCheckedAt": "2026-10-29T17:24:38.740Z"
+      "linkCheckedAt": "2026-10-30T02:34:17.693Z"
+    },
+    {
+      "title": "Deckhand",
+      "company": "J.F. Brennan Company",
+      "location": "Bloomsdale, Missouri",
+      "remote": false,
+      "pay": "",
+      "url": "https://jobmesh.io/job/521bc9fa-f499-4d2a-9f2b-54073b06199a",
+      "postedAt": "2026-10-27T00:00:00.000Z",
+      "snippet": "via JobMESH. Deckhand Position at Brennan Marine Inc Deckhands are the cornerstone of all the work we do at Brennan Marine Inc, and the demand for our work is growing. Our deckhands are vital to the operation and maintenance of Brennan's t…",
+      "source": "jsearch",
+      "id": "173ae28adce0a4da7e39d61e99ef88dc2816b7ec",
+      "track": "marine-national",
+      "firstSeenAt": "2026-10-30T02:34:17.693Z",
+      "score": 75,
+      "flags": [
+        "entry-level",
+        "drug-test",
+        "far-away",
+        "live-aboard"
+      ],
+      "linkCheckedAt": "2026-10-30T02:34:17.693Z"
     },
     {
       "title": "Parking Valet Attendant",
@@ -171,7 +193,7 @@
       "score": 75,
       "flags": [],
       "otherLocations": [],
-      "linkCheckedAt": "2026-10-29T17:24:38.740Z"
+      "linkCheckedAt": "2026-10-30T02:34:17.693Z"
     },
     {
       "title": "Entry Level AI Trainer - Remote, No Experience Necessary",
@@ -225,7 +247,7 @@
       "firstSeenAt": "2026-10-28T17:09:06.638Z",
       "score": 75,
       "flags": [],
-      "linkCheckedAt": "2026-10-29T17:24:38.740Z"
+      "linkCheckedAt": "2026-10-30T02:34:17.693Z"
     },
     {
       "title": "Part – Time Lead Service Valet – Truck Required – Evening Shift",
@@ -244,7 +266,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-29T17:24:38.740Z"
+      "linkCheckedAt": "2026-10-30T02:34:17.693Z"
     },
     {
       "title": "Remote Junior Web Developer — HTML5/CSS3 & WordPress",
@@ -263,7 +285,7 @@
       "flags": [
         "entry-level"
       ],
-      "linkCheckedAt": "2026-10-29T02:23:30.839Z"
+      "linkCheckedAt": "2026-10-30T02:34:17.693Z"
     },
     {
       "title": "Marketing and Event Coordinator",
@@ -286,7 +308,7 @@
       "otherLocations": [
         "Murrells Inlet, Horry County"
       ],
-      "linkCheckedAt": "2026-10-29T17:24:38.740Z"
+      "linkCheckedAt": "2026-10-30T02:34:17.693Z"
     },
     {
       "title": "Remote SDR: Entry-Level with Full Training & Growth",
@@ -324,7 +346,7 @@
       "score": 70,
       "flags": [],
       "otherLocations": [],
-      "linkCheckedAt": "2026-10-29T17:24:38.740Z"
+      "linkCheckedAt": "2026-10-30T02:34:17.693Z"
     },
     {
       "title": "Marketing Brand Ambassador",
@@ -341,7 +363,8 @@
       "firstSeenAt": "2026-10-29T17:24:38.740Z",
       "score": 70,
       "flags": [],
-      "linkCheckedAt": "2026-10-29T17:24:38.740Z"
+      "linkCheckedAt": "2026-10-29T17:24:38.740Z",
+      "otherLocations": []
     },
     {
       "title": "Parking Valet Attendant - Hotel",
@@ -358,7 +381,7 @@
       "firstSeenAt": "2026-10-29T17:24:38.740Z",
       "score": 70,
       "flags": [],
-      "linkCheckedAt": "2026-10-29T17:24:38.740Z"
+      "linkCheckedAt": "2026-10-30T02:34:17.693Z"
     },
     {
       "title": "Marketing Brand Ambassador",
@@ -375,26 +398,7 @@
       "firstSeenAt": "2026-10-28T17:09:06.638Z",
       "score": 70,
       "flags": [],
-      "linkCheckedAt": "2026-10-29T17:24:38.740Z"
-    },
-    {
-      "title": "AI Recruiting SDR — US-Based, Visa Sponsorship",
-      "company": "Not Disclosed",
-      "location": "",
-      "remote": true,
-      "pay": "$50,000–$80,000/year",
-      "url": "https://www.jobleads.com/us/job/ai-recruiting-sdr-us-based-visa-sponsorship--united-states--ef661633c8f0a734d3e1d032a3bb9a62a",
-      "postedAt": "2026-10-23T00:00:00.000Z",
-      "snippet": "via JobLeads. Not Disclosed is an early-stage AI recruiting technology company looking for a client acquisition specialist. You will connect with founders and hiring leaders to generate qualified meetings and drive pipeline growth. Respond…",
-      "source": "jsearch",
-      "id": "10f143b6a11d3554ea89b098bfe26f7b979f9429",
-      "track": "tech-sales",
-      "firstSeenAt": "2026-10-28T02:10:45.471Z",
-      "score": 70,
-      "flags": [
-        "high-pay"
-      ],
-      "linkCheckedAt": "2026-10-29T02:23:30.839Z"
+      "linkCheckedAt": "2026-10-30T02:34:17.693Z"
     },
     {
       "title": "Special Operations AI Scenario Evaluator",
@@ -453,7 +457,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-29T02:23:30.839Z"
+      "linkCheckedAt": "2026-10-30T02:34:17.693Z"
     },
     {
       "title": "Convenience Center Site Attendant - Bees Ferry",
@@ -470,7 +474,7 @@
       "firstSeenAt": "2026-10-25T14:56:13.466Z",
       "score": 70,
       "flags": [],
-      "linkCheckedAt": "2026-10-29T17:24:38.740Z"
+      "linkCheckedAt": "2026-10-30T02:34:17.693Z"
     },
     {
       "title": "Valet Attendant - $20 Per Hour Plus Tips",
@@ -489,7 +493,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-29T17:24:38.740Z"
+      "linkCheckedAt": "2026-10-30T02:34:17.693Z"
     },
     {
       "title": "Overnight Valet Attendant",
@@ -508,52 +512,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-29T17:24:38.740Z"
-    },
-    {
-      "title": "AI Trainer - Video Annotation",
-      "company": "iMerit Technology",
-      "location": "Remote — Worldwide",
-      "remote": true,
-      "pay": "70K-80K",
-      "url": "https://remotive.com/remote-jobs/artificial-intelligence/ai-trainer-video-annotation-2091161",
-      "postedAt": "2026-10-22T18:40:19.000Z",
-      "snippet": "AI Trainer - Video Annotation Remote | Independent Contractor Prove your skills. Get certified. Robotics AI is advancing rapidly, and high-quality video data helps intelligent systems better understand the world around them. We are invitin…",
-      "source": "remotive",
-      "id": "de2b0fb2b913928b8633b40f95890c8205b96c07",
-      "track": "ai-web",
-      "firstSeenAt": "2026-10-24T13:42:05.182Z",
-      "score": 70,
-      "flags": [
-        "high-pay"
-      ],
-      "otherLocations": [],
-      "linkCheckedAt": "2026-10-29T17:24:38.740Z"
-    },
-    {
-      "title": "Deckhand",
-      "company": "U.S. Army Corps of Engineers",
-      "location": "Omaha, Nebraska (+1 more)",
-      "remote": false,
-      "pay": "$24.68–$28.79/Per Hour",
-      "url": "https://www.usajobs.gov:443/job/889884000",
-      "postedAt": "2026-10-23T00:00:00.000Z",
-      "snippet": "This is a Direct Hire Authority (DHA) solicitation utilizing the DHA for Certain Personnel of the DoD Workforce to recruit and appoint qualified candidates to positions in the competitive service. About the Position: The Missouri River Pro…",
-      "source": "usajobs",
-      "closesAt": "2026-11-02T23:59:59.997Z",
-      "id": "b9f4db782b25d4848bdd118b6bf89eaa8ba1d9e4",
-      "track": "marine-national",
-      "firstSeenAt": "2026-10-23T15:43:44.939Z",
-      "score": 70,
-      "flags": [
-        "far-away",
-        "live-aboard",
-        "high-pay"
-      ],
-      "otherLocations": [
-        "Saint Louis, Missouri"
-      ],
-      "linkCheckedAt": "2026-10-29T17:24:38.740Z"
+      "linkCheckedAt": "2026-10-30T02:34:17.693Z"
     },
     {
       "title": "Junior Sales Development Representative",
@@ -606,7 +565,7 @@
       "firstSeenAt": "2026-10-29T17:24:38.740Z",
       "score": 65,
       "flags": [],
-      "linkCheckedAt": "2026-10-29T17:24:38.740Z"
+      "linkCheckedAt": "2026-10-30T02:34:17.693Z"
     },
     {
       "title": "Remote Sales Development Representative (US Market) - Remote, US",
@@ -623,7 +582,26 @@
       "firstSeenAt": "2026-10-28T02:10:45.471Z",
       "score": 65,
       "flags": [],
-      "linkCheckedAt": "2026-10-29T02:23:30.839Z"
+      "linkCheckedAt": "2026-10-30T02:34:17.693Z"
+    },
+    {
+      "title": "AI Recruiting SDR — US-Based, Visa Sponsorship",
+      "company": "Not Disclosed",
+      "location": "",
+      "remote": true,
+      "pay": "$50,000–$80,000/year",
+      "url": "https://www.jobleads.com/us/job/ai-recruiting-sdr-us-based-visa-sponsorship--united-states--ef661633c8f0a734d3e1d032a3bb9a62a",
+      "postedAt": "2026-10-23T00:00:00.000Z",
+      "snippet": "via JobLeads. Not Disclosed is an early-stage AI recruiting technology company looking for a client acquisition specialist. You will connect with founders and hiring leaders to generate qualified meetings and drive pipeline growth. Respond…",
+      "source": "jsearch",
+      "id": "10f143b6a11d3554ea89b098bfe26f7b979f9429",
+      "track": "tech-sales",
+      "firstSeenAt": "2026-10-28T02:10:45.471Z",
+      "score": 65,
+      "flags": [
+        "high-pay"
+      ],
+      "linkCheckedAt": "2026-10-30T02:34:17.693Z"
     },
     {
       "title": "Business Development Representative",
@@ -640,7 +618,7 @@
       "firstSeenAt": "2026-10-26T17:19:32.335Z",
       "score": 65,
       "flags": [],
-      "linkCheckedAt": "2026-10-29T17:24:38.740Z"
+      "linkCheckedAt": "2026-10-30T02:34:17.693Z"
     },
     {
       "title": "Event Coordinator",
@@ -657,27 +635,7 @@
       "firstSeenAt": "2026-10-25T14:56:13.466Z",
       "score": 65,
       "flags": [],
-      "linkCheckedAt": "2026-10-29T17:24:38.740Z"
-    },
-    {
-      "title": "Account Executive Officer, Ocean Marine Luxury Yacht",
-      "company": "The Travelers Indemnity Company",
-      "location": "Fort Lauderdale, Broward County",
-      "remote": false,
-      "pay": "",
-      "url": "https://www.adzuna.com/details/5941302929?utm_medium=api&utm_source=ea9765bf",
-      "postedAt": "2026-10-25T06:10:24.000Z",
-      "snippet": "Who Are We? Taking care of our customers, our communities and each other. That’s the Travelers Promise. By honoring this commitment, we have maintained our reputation as one of the best property casualty insurers in the industry for over 1…",
-      "source": "adzuna",
-      "id": "154e38d6d532f787f7c1d22f696f3c65386ddf0b",
-      "track": "marine-national",
-      "firstSeenAt": "2026-10-25T14:56:13.466Z",
-      "score": 65,
-      "flags": [
-        "far-away",
-        "pay-unknown"
-      ],
-      "linkCheckedAt": "2026-10-29T02:23:30.839Z"
+      "linkCheckedAt": "2026-10-30T02:34:17.693Z"
     },
     {
       "title": "Business Development Representative",
@@ -694,7 +652,7 @@
       "firstSeenAt": "2026-10-25T14:56:13.466Z",
       "score": 65,
       "flags": [],
-      "linkCheckedAt": "2026-10-29T17:24:38.740Z"
+      "linkCheckedAt": "2026-10-30T02:34:17.693Z"
     },
     {
       "title": "Sales Development Representative",
@@ -711,7 +669,7 @@
       "firstSeenAt": "2026-10-24T19:28:12.186Z",
       "score": 65,
       "flags": [],
-      "linkCheckedAt": "2026-10-29T17:24:38.740Z"
+      "linkCheckedAt": "2026-10-30T02:34:17.693Z"
     },
     {
       "title": "Graduate Sales Development Representative",
@@ -728,7 +686,7 @@
       "firstSeenAt": "2026-10-24T13:42:05.182Z",
       "score": 65,
       "flags": [],
-      "linkCheckedAt": "2026-10-29T17:24:38.740Z"
+      "linkCheckedAt": "2026-10-30T02:34:17.693Z"
     },
     {
       "title": "Ferry Deckhand",
@@ -747,7 +705,27 @@
       "flags": [
         "live-aboard"
       ],
-      "linkCheckedAt": "2026-10-29T17:24:38.740Z"
+      "linkCheckedAt": "2026-10-30T02:34:17.693Z"
+    },
+    {
+      "title": "AI Trainer - Video Annotation",
+      "company": "iMerit Technology",
+      "location": "Remote — Worldwide",
+      "remote": true,
+      "pay": "70K-80K",
+      "url": "https://remotive.com/remote-jobs/artificial-intelligence/ai-trainer-video-annotation-2091161",
+      "postedAt": "2026-10-22T18:40:19.000Z",
+      "snippet": "AI Trainer - Video Annotation Remote | Independent Contractor Prove your skills. Get certified. Robotics AI is advancing rapidly, and high-quality video data helps intelligent systems better understand the world around them. We are invitin…",
+      "source": "remotive",
+      "id": "de2b0fb2b913928b8633b40f95890c8205b96c07",
+      "track": "ai-web",
+      "firstSeenAt": "2026-10-24T13:42:05.182Z",
+      "score": 65,
+      "flags": [
+        "high-pay"
+      ],
+      "otherLocations": [],
+      "linkCheckedAt": "2026-10-30T02:34:17.693Z"
     },
     {
       "title": "PT Sales Associate - Seasonal",
@@ -768,6 +746,31 @@
         "starts-fast"
       ],
       "linkCheckedAt": "2026-10-29T17:24:38.740Z"
+    },
+    {
+      "title": "Deckhand",
+      "company": "U.S. Army Corps of Engineers",
+      "location": "Omaha, Nebraska (+1 more)",
+      "remote": false,
+      "pay": "$24.68–$28.79/Per Hour",
+      "url": "https://www.usajobs.gov:443/job/889884000",
+      "postedAt": "2026-10-23T00:00:00.000Z",
+      "snippet": "This is a Direct Hire Authority (DHA) solicitation utilizing the DHA for Certain Personnel of the DoD Workforce to recruit and appoint qualified candidates to positions in the competitive service. About the Position: The Missouri River Pro…",
+      "source": "usajobs",
+      "closesAt": "2026-11-02T23:59:59.997Z",
+      "id": "b9f4db782b25d4848bdd118b6bf89eaa8ba1d9e4",
+      "track": "marine-national",
+      "firstSeenAt": "2026-10-23T15:43:44.939Z",
+      "score": 65,
+      "flags": [
+        "far-away",
+        "live-aboard",
+        "high-pay"
+      ],
+      "otherLocations": [
+        "Saint Louis, Missouri"
+      ],
+      "linkCheckedAt": "2026-10-30T02:34:17.693Z"
     },
     {
       "title": "Business Development Representative - US, Remote",
@@ -808,7 +811,7 @@
         "live-aboard",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-29T02:23:30.839Z"
+      "linkCheckedAt": "2026-10-30T02:34:17.693Z"
     },
     {
       "title": "Sales Development Representative",
@@ -827,7 +830,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-29T17:24:38.740Z"
+      "linkCheckedAt": "2026-10-30T02:34:17.693Z"
     },
     {
       "title": "Marine Construction Crew Member",
@@ -847,7 +850,7 @@
         "live-aboard",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-29T17:24:38.740Z"
+      "linkCheckedAt": "2026-10-30T02:34:17.693Z"
     },
     {
       "title": "Data Annotation Specialist - Computer Vision",
@@ -866,7 +869,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-29T17:24:38.740Z"
+      "linkCheckedAt": "2026-10-30T02:34:17.693Z"
     },
     {
       "title": "MARINE DECKHAND - TRAVEL REQUIRED",
@@ -890,6 +893,23 @@
       "linkCheckedAt": "2026-10-29T17:24:38.740Z"
     },
     {
+      "title": "Brand Ambassador",
+      "company": "Peak Point",
+      "location": "Saint Andrews, Charleston County",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/details/5930163265?utm_medium=api&utm_source=ea9765bf",
+      "postedAt": "2026-10-16T02:16:29.000Z",
+      "snippet": "About Us We partner with nonprofit organizations to raise awareness and support for important community programs. Our team is passionate about creating real impact, and we’re looking for energetic individuals who want to grow their careers…",
+      "source": "adzuna",
+      "id": "48df842aa6906543e49359fe08b6cf00a7750ae1",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-30T02:34:17.693Z",
+      "score": 60,
+      "flags": [],
+      "linkCheckedAt": "2026-10-30T02:34:17.693Z"
+    },
+    {
       "title": "Bartender (Events)",
       "company": "Jobletics Pro Inc.",
       "location": "Conway, Horry County",
@@ -906,7 +926,8 @@
       "flags": [
         "starts-fast"
       ],
-      "linkCheckedAt": "2026-10-29T17:24:38.740Z"
+      "linkCheckedAt": "2026-10-29T17:24:38.740Z",
+      "otherLocations": []
     },
     {
       "title": "Executive Steward",
@@ -946,7 +967,7 @@
         "far-away",
         "pay-unknown"
       ],
-      "linkCheckedAt": "2026-10-29T17:24:38.740Z"
+      "linkCheckedAt": "2026-10-30T02:34:17.693Z"
     },
     {
       "title": "Steward(ess) - 43m Private Motor Yacht",
@@ -987,7 +1008,7 @@
         "far-away",
         "live-aboard"
       ],
-      "linkCheckedAt": "2026-10-28T21:38:29.219Z"
+      "linkCheckedAt": "2026-10-30T02:34:17.693Z"
     },
     {
       "title": "Deckhand - 35m Private Motor Yacht",
@@ -1070,23 +1091,6 @@
       "linkCheckedAt": "2026-10-29T17:24:38.740Z"
     },
     {
-      "title": "Sales Development Representative, Hospital Solutions",
-      "company": "Doximity",
-      "location": "Remote — USA",
-      "remote": true,
-      "pay": "",
-      "url": "https://jobicy.com/jobs/155862-sales-development-representative-hospital-solutions",
-      "postedAt": "2026-10-19T16:11:04.000Z",
-      "snippet": "Hospital Solutions, Sales Development Representative Location: Remote About Doximity Doximity is the leading clinical AI company with the largest network of U.S. clinicians. Doximity’s AI-powered workflow platform is trusted by over 85% of…",
-      "source": "jobicy",
-      "id": "84e7472ac48269ef57dcff5f4a1272e46cc088f1",
-      "track": "tech-sales",
-      "firstSeenAt": "2026-10-20T01:46:20.408Z",
-      "score": 60,
-      "flags": [],
-      "linkCheckedAt": "2026-10-29T02:23:30.839Z"
-    },
-    {
       "title": "Sales Development Representative, Clinical Search",
       "company": "Doximity",
       "location": "Remote — USA",
@@ -1101,7 +1105,7 @@
       "firstSeenAt": "2026-10-20T01:46:20.408Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-10-29T02:23:30.839Z"
+      "linkCheckedAt": "2026-10-30T02:34:17.693Z"
     },
     {
       "title": "Business Development Representative, Provider",
@@ -1118,7 +1122,7 @@
       "firstSeenAt": "2026-10-19T17:27:01.917Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-10-29T02:23:30.839Z"
+      "linkCheckedAt": "2026-10-30T02:34:17.693Z"
     },
     {
       "title": "Sales Development Representative",
@@ -1135,7 +1139,7 @@
       "firstSeenAt": "2026-10-18T14:32:37.273Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-10-29T17:24:38.740Z"
+      "linkCheckedAt": "2026-10-30T02:34:17.693Z"
     },
     {
       "title": "Business Development Representative - Healthcare",
@@ -1170,7 +1174,7 @@
       "firstSeenAt": "2026-10-17T14:11:06.587Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-10-29T02:23:30.839Z"
+      "linkCheckedAt": "2026-10-30T02:34:17.693Z"
     },
     {
       "title": "Bellperson & Valet (Part-time)",
@@ -1207,7 +1211,7 @@
         "drug-test",
         "live-aboard"
       ],
-      "linkCheckedAt": "2026-10-29T17:24:38.740Z"
+      "linkCheckedAt": "2026-10-30T02:34:17.693Z"
     },
     {
       "title": "Deckhand",
@@ -1227,7 +1231,7 @@
         "far-away",
         "live-aboard"
       ],
-      "linkCheckedAt": "2026-10-29T17:24:38.740Z"
+      "linkCheckedAt": "2026-10-30T02:34:17.693Z"
     },
     {
       "title": "Assistant Dockmaster - Deep Point Marina",
@@ -1244,7 +1248,7 @@
       "firstSeenAt": "2026-10-15T22:25:32.969Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-10-29T17:24:38.740Z"
+      "linkCheckedAt": "2026-10-30T02:34:17.693Z"
     },
     {
       "title": "Event Staff Team Member - John T. Rhodes Myrtle Beach Sports Center",
@@ -1261,7 +1265,7 @@
       "firstSeenAt": "2026-10-15T21:40:27.290Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-10-28T21:38:29.219Z"
+      "linkCheckedAt": "2026-10-30T02:34:17.693Z"
     },
     {
       "title": "Retail Sales Associate",
@@ -1295,7 +1299,7 @@
       "firstSeenAt": "2026-10-15T20:32:31.715Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-10-29T02:23:30.839Z"
+      "linkCheckedAt": "2026-10-30T02:34:17.693Z"
     },
     {
       "title": "Sales Development Representative, Outbound",
@@ -1312,7 +1316,7 @@
       "firstSeenAt": "2026-10-15T20:32:31.715Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-10-29T02:23:30.839Z"
+      "linkCheckedAt": "2026-10-30T02:34:17.693Z"
     },
     {
       "title": "Retail Sales Associate",
@@ -1329,7 +1333,7 @@
       "firstSeenAt": "2026-10-28T17:09:06.638Z",
       "score": 55,
       "flags": [],
-      "linkCheckedAt": "2026-10-29T17:24:38.740Z"
+      "linkCheckedAt": "2026-10-30T02:34:17.693Z"
     },
     {
       "title": "HP Retail Sales Representative",
@@ -1369,7 +1373,7 @@
       "otherLocations": [
         "Charleston, Charleston County"
       ],
-      "linkCheckedAt": "2026-10-29T02:23:30.839Z"
+      "linkCheckedAt": "2026-10-30T02:34:17.693Z"
     },
     {
       "title": "In-Store Sales Lead Generator",
@@ -1388,7 +1392,7 @@
       "flags": [
         "starts-fast"
       ],
-      "linkCheckedAt": "2026-10-28T21:38:29.219Z"
+      "linkCheckedAt": "2026-10-30T02:34:17.693Z"
     },
     {
       "title": "Light Show Attendant (Temporary)",
@@ -1427,7 +1431,7 @@
       "otherLocations": [
         "James Island, Charleston County"
       ],
-      "linkCheckedAt": "2026-10-29T17:24:38.740Z"
+      "linkCheckedAt": "2026-10-30T02:34:17.693Z"
     },
     {
       "title": "Become a Luxury Brand Evaluator in Charleston, US",
@@ -1450,7 +1454,7 @@
         "James Island, Charleston County",
         "Charleston, Charleston County"
       ],
-      "linkCheckedAt": "2026-10-29T17:24:38.740Z"
+      "linkCheckedAt": "2026-10-30T02:34:17.693Z"
     },
     {
       "title": "Remote Sales with Career Growth Opportunity",
@@ -1469,7 +1473,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-29T02:23:30.839Z"
+      "linkCheckedAt": "2026-10-30T02:34:17.693Z"
     },
     {
       "title": "Pandora Jewelry Sales Specialist, Coastal Grand Mall",
@@ -1486,7 +1490,7 @@
       "firstSeenAt": "2026-10-27T16:33:36.212Z",
       "score": 50,
       "flags": [],
-      "linkCheckedAt": "2026-10-29T17:24:38.740Z"
+      "linkCheckedAt": "2026-10-30T02:34:17.693Z"
     },
     {
       "title": "Data Labeling Specialist — Remote Contract Work ($18-$22 per hour)",
@@ -1524,7 +1528,7 @@
         "far-away",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-29T17:24:38.740Z"
+      "linkCheckedAt": "2026-10-30T02:34:17.693Z"
     },
     {
       "title": "Firefighter Recruit, Georgetown County Fire and EMS",
@@ -1543,7 +1547,7 @@
       "flags": [
         "starts-fast"
       ],
-      "linkCheckedAt": "2026-10-29T17:24:38.740Z"
+      "linkCheckedAt": "2026-10-30T02:34:17.693Z"
     },
     {
       "title": "Business Development Representative, Auto Retail",
@@ -1563,7 +1567,7 @@
       "otherLocations": [
         "Remote — USA"
       ],
-      "linkCheckedAt": "2026-10-29T17:24:38.740Z"
+      "linkCheckedAt": "2026-10-30T02:34:17.693Z"
     },
     {
       "title": "Refractory Sales Representative",
@@ -1580,24 +1584,7 @@
       "firstSeenAt": "2026-10-25T19:34:58.130Z",
       "score": 45,
       "flags": [],
-      "linkCheckedAt": "2026-10-29T17:24:38.740Z"
-    },
-    {
-      "title": "Leasing Ambassador (Build to Rent) (Part Time)",
-      "company": "Brookfield Properties",
-      "location": "Charleston, Charleston County",
-      "remote": false,
-      "pay": "",
-      "url": "https://www.adzuna.com/details/5938889156?utm_medium=api&utm_source=ea9765bf",
-      "postedAt": "2026-10-23T01:44:36.000Z",
-      "snippet": "Location Charleston - 997 Morrison Drive, Suite 402 Business Our Growth, Your Opportunity At Maymont Homes, our success starts with people, our residents and our team. We are transforming the single-family rental experience through innovat…",
-      "source": "adzuna",
-      "id": "fe0e938f4e392307cfcd8bed1dae9881f52d11af",
-      "track": "quick-cash",
-      "firstSeenAt": "2026-10-24T13:42:05.182Z",
-      "score": 45,
-      "flags": [],
-      "linkCheckedAt": "2026-10-29T17:24:38.740Z"
+      "linkCheckedAt": "2026-10-30T02:34:17.693Z"
     },
     {
       "title": "Field Sales and Marketing Representative- Myrtle Beach, SC",
@@ -1616,7 +1603,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-29T17:24:38.740Z"
+      "linkCheckedAt": "2026-10-30T02:34:17.693Z"
     },
     {
       "title": "Marketing Events Specialist",
@@ -1633,7 +1620,7 @@
       "firstSeenAt": "2026-10-16T18:23:40.794Z",
       "score": 45,
       "flags": [],
-      "linkCheckedAt": "2026-10-29T17:24:38.740Z"
+      "linkCheckedAt": "2026-10-30T02:34:17.693Z"
     },
     {
       "title": "Field Sales and Marketing Representative- North Myrtle Beach, SC",
@@ -1676,7 +1663,24 @@
         "far-away",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-29T17:24:38.740Z"
+      "linkCheckedAt": "2026-10-30T02:34:17.693Z"
+    },
+    {
+      "title": "Sales and Content Lead",
+      "company": "Estelle Colored Glass",
+      "location": "Charleston County, South Carolina",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/land/ad/5932253428?se=Cs7naArU8RGxC_FOA5FJtw&utm_medium=api&utm_source=ea9765bf&v=0A80DB9C71013A3BDDB96CA5F9363EB019A60EE5",
+      "postedAt": "2026-10-17T10:16:23.000Z",
+      "snippet": "TITLE: SALES AND CONTENT LEAD REPORTS TO: STORE MANAGER JOB DESCRIPTION: Estelle Colored Glass’ Sales and Content Lead is whip-smart, go-getting, proactive and organized person who is passionate about delivering an exceptional retail and c…",
+      "source": "adzuna",
+      "id": "1893d51506cba4b841c7eaf4c9325dfc5e35dbcf",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-30T02:34:17.693Z",
+      "score": 40,
+      "flags": [],
+      "linkCheckedAt": "2026-10-30T02:34:17.693Z"
     },
     {
       "title": "Part Time Product Demonstrator in Costco",
@@ -1696,7 +1700,7 @@
       "otherLocations": [
         "James Island, Charleston County"
       ],
-      "linkCheckedAt": "2026-10-29T17:24:38.740Z"
+      "linkCheckedAt": "2026-10-30T02:34:17.693Z"
     },
     {
       "title": "Part-time Nabisco Merchandiser",
@@ -1723,26 +1727,6 @@
       "linkCheckedAt": "2026-10-29T17:24:38.740Z"
     },
     {
-      "title": "Sales and Content Lead (Charleston County)",
-      "company": "Estelle Colored Glass",
-      "location": "Charleston, Charleston County (+1 more)",
-      "remote": false,
-      "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5932530386?se=lGmAMBDQ8RG17O__M5KguQ&utm_medium=api&utm_source=ea9765bf&v=7E94E563551D999C532F126F253F83BB614A51DD",
-      "postedAt": "2026-10-17T13:43:31.000Z",
-      "snippet": "TITLE: SALES AND CONTENT LEAD REPORTS TO: STORE MANAGER JOB DESCRIPTION: Estelle Colored Glass’ Sales and Content Lead is whip-smart, go-getting, proactive and organized person who is passionate about delivering an exceptional retail and c…",
-      "source": "adzuna",
-      "id": "fe0b59d0b7472d8b4c3bcf321bcb68d25c4eb679",
-      "track": "quick-cash",
-      "firstSeenAt": "2026-10-25T01:05:33.233Z",
-      "score": 40,
-      "flags": [],
-      "linkCheckedAt": "2026-10-29T02:23:30.839Z",
-      "otherLocations": [
-        "Charleston County, South Carolina"
-      ]
-    },
-    {
       "title": "Part Time Product Demonstrator",
       "company": "Advantage Solutions",
       "location": "Johns Island, Charleston County",
@@ -1759,6 +1743,23 @@
       "flags": [],
       "linkCheckedAt": "2026-10-29T17:24:38.740Z",
       "otherLocations": []
+    },
+    {
+      "title": "Leasing Ambassador (Build to Rent) (Part Time)",
+      "company": "Brookfield Properties",
+      "location": "Charleston, Charleston County",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/details/5938889156?utm_medium=api&utm_source=ea9765bf",
+      "postedAt": "2026-10-23T01:44:36.000Z",
+      "snippet": "Location Charleston - 997 Morrison Drive, Suite 402 Business Our Growth, Your Opportunity At Maymont Homes, our success starts with people, our residents and our team. We are transforming the single-family rental experience through innovat…",
+      "source": "adzuna",
+      "id": "fe0e938f4e392307cfcd8bed1dae9881f52d11af",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-10-24T13:42:05.182Z",
+      "score": 40,
+      "flags": [],
+      "linkCheckedAt": "2026-10-30T02:34:17.693Z"
     },
     {
       "title": "Sales Representative - Uniform",
@@ -1793,7 +1794,7 @@
       "firstSeenAt": "2026-10-15T22:25:32.969Z",
       "score": 40,
       "flags": [],
-      "linkCheckedAt": "2026-10-29T17:24:38.740Z"
+      "linkCheckedAt": "2026-10-30T02:34:17.693Z"
     },
     {
       "title": "Marketing Agent",
@@ -1844,7 +1845,7 @@
       "firstSeenAt": "2026-10-15T21:29:28.105Z",
       "score": 40,
       "flags": [],
-      "linkCheckedAt": "2026-10-29T02:23:30.839Z"
+      "linkCheckedAt": "2026-10-30T02:34:17.693Z"
     }
   ]
 }
