@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T16:03:41.517Z",
+  "generatedAt": "2026-10-31T20:26:56.764Z",
   "sources": [
     {
       "name": "adzuna",
@@ -16,7 +16,7 @@
     {
       "name": "jsearch",
       "ok": true,
-      "count": 10,
+      "count": 1,
       "error": null
     },
     {
@@ -34,13 +34,13 @@
     {
       "name": "jobicy",
       "ok": true,
-      "count": 12,
+      "count": 11,
       "error": null
     },
     {
       "name": "himalayas",
       "ok": true,
-      "count": 3,
+      "count": 5,
       "error": null
     },
     {
@@ -58,7 +58,7 @@
     {
       "name": "pagewatch",
       "ok": true,
-      "count": 3,
+      "count": 0,
       "error": null
     },
     {
@@ -93,7 +93,7 @@
         "entry-level",
         "starts-fast"
       ],
-      "linkCheckedAt": "2026-10-31T16:03:41.517Z"
+      "linkCheckedAt": "2026-10-31T20:26:56.764Z"
     },
     {
       "title": "Healthcare Outbound SDR — Remote & AI-Powered Outreach",
@@ -153,7 +153,7 @@
         "entry-level",
         "starts-fast"
       ],
-      "linkCheckedAt": "2026-10-31T16:03:41.517Z"
+      "linkCheckedAt": "2026-10-31T20:26:56.764Z"
     },
     {
       "title": "Parking Valet Attendant",
@@ -171,7 +171,7 @@
       "score": 75,
       "flags": [],
       "otherLocations": [],
-      "linkCheckedAt": "2026-10-31T16:03:41.517Z"
+      "linkCheckedAt": "2026-10-31T20:26:56.764Z"
     },
     {
       "title": "Entry Level AI Trainer - Remote, No Experience Necessary",
@@ -232,7 +232,7 @@
       "otherLocations": [
         "Murrells Inlet, Horry County"
       ],
-      "linkCheckedAt": "2026-10-31T16:03:41.517Z"
+      "linkCheckedAt": "2026-10-31T20:26:56.764Z"
     },
     {
       "title": "Remote SDR: Entry-Level with Full Training & Growth",
@@ -269,7 +269,7 @@
       "firstSeenAt": "2026-10-31T16:03:41.517Z",
       "score": 70,
       "flags": [],
-      "linkCheckedAt": "2026-10-31T16:03:41.517Z"
+      "linkCheckedAt": "2026-10-31T20:26:56.764Z"
     },
     {
       "title": "AI Photo Evaluation Rater",
@@ -307,7 +307,7 @@
         "live-aboard",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-30T21:28:11.592Z"
+      "linkCheckedAt": "2026-10-31T20:26:56.764Z"
     },
     {
       "title": "Sales Development Representative",
@@ -324,7 +324,7 @@
       "firstSeenAt": "2026-10-29T17:24:38.740Z",
       "score": 70,
       "flags": [],
-      "linkCheckedAt": "2026-10-31T16:03:41.517Z"
+      "linkCheckedAt": "2026-10-31T20:26:56.764Z"
     },
     {
       "title": "Valet Attendant - Myrtle Beach, SC",
@@ -341,7 +341,7 @@
       "firstSeenAt": "2026-10-28T17:09:06.638Z",
       "score": 70,
       "flags": [],
-      "linkCheckedAt": "2026-10-31T16:03:41.517Z"
+      "linkCheckedAt": "2026-10-31T20:26:56.764Z"
     },
     {
       "title": "Part – Time Lead Service Valet – Truck Required – Evening Shift",
@@ -417,7 +417,7 @@
       "firstSeenAt": "2026-10-25T14:56:13.466Z",
       "score": 70,
       "flags": [],
-      "linkCheckedAt": "2026-10-31T16:03:41.517Z"
+      "linkCheckedAt": "2026-10-31T20:26:56.764Z"
     },
     {
       "title": "Junior Sales Development Representative",
@@ -437,6 +437,25 @@
         "entry-level"
       ],
       "linkCheckedAt": "2026-10-31T16:03:41.517Z"
+    },
+    {
+      "title": "Deck Hand/Tug Captain/Ops Safety",
+      "company": "Black Water Dredging LLC",
+      "location": "Myrtle Beach, South Carolina",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.skillbridgesearch.com/opportunity/22694",
+      "postedAt": "2026-10-28T00:00:00.000Z",
+      "snippet": "via SkillBridge Search. Blackwater Dredging offers transitioning military service members hands-on training and experience in the dredging and marine construction industry. Participants will gain practical knowledge of dredging operations,…",
+      "source": "jsearch",
+      "id": "9b833b3fd71546ff2a8104737edc8565f79a3acf",
+      "track": "marine-local",
+      "firstSeenAt": "2026-10-31T20:26:56.764Z",
+      "score": 65,
+      "flags": [
+        "live-aboard"
+      ],
+      "linkCheckedAt": "2026-10-31T20:26:56.764Z"
     },
     {
       "title": "Remote Sales with Entry Level Leadership",
@@ -477,7 +496,7 @@
         "live-aboard",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-30T21:28:11.592Z"
+      "linkCheckedAt": "2026-10-31T20:26:56.764Z"
     },
     {
       "title": "Deckhand",
@@ -549,7 +568,7 @@
       "firstSeenAt": "2026-10-29T17:24:38.740Z",
       "score": 65,
       "flags": [],
-      "linkCheckedAt": "2026-10-31T16:03:41.517Z"
+      "linkCheckedAt": "2026-10-31T20:26:56.764Z"
     },
     {
       "title": "Parking Valet Attendant - Overnight",
@@ -566,7 +585,7 @@
       "firstSeenAt": "2026-10-29T17:24:38.740Z",
       "score": 65,
       "flags": [],
-      "linkCheckedAt": "2026-10-31T16:03:41.517Z"
+      "linkCheckedAt": "2026-10-31T20:26:56.764Z"
     },
     {
       "title": "Marketing Brand Ambassador",
@@ -583,7 +602,7 @@
       "firstSeenAt": "2026-10-28T17:09:06.638Z",
       "score": 65,
       "flags": [],
-      "linkCheckedAt": "2026-10-31T16:03:41.517Z"
+      "linkCheckedAt": "2026-10-31T20:26:56.764Z"
     },
     {
       "title": "Remote Sales Development Representative (US Market) - Remote, US",
@@ -689,7 +708,7 @@
       "firstSeenAt": "2026-10-25T14:56:13.466Z",
       "score": 65,
       "flags": [],
-      "linkCheckedAt": "2026-10-31T16:03:41.517Z"
+      "linkCheckedAt": "2026-10-31T20:26:56.764Z"
     },
     {
       "title": "Business Development Representative",
@@ -725,24 +744,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-31T16:03:41.517Z"
-    },
-    {
-      "title": "Sales Development Representative",
-      "company": "Socket",
-      "location": "Remote — USA",
-      "remote": true,
-      "pay": "",
-      "url": "https://jobicy.com/jobs/156766-sales-development-representative-13",
-      "postedAt": "2026-10-24T16:13:45.000Z",
-      "snippet": "About Us Socket helps devs and security teams ship faster by cutting out security busywork. Thousands of orgs use Socket to safely find, audit, and manage open source code. Our customers - from Anthropic to xAI, and Figma to Vercel - love …",
-      "source": "jobicy",
-      "id": "c678da94f6ee62a151964bbdad9fe211170bae09",
-      "track": "tech-sales",
-      "firstSeenAt": "2026-10-24T19:28:12.186Z",
-      "score": 65,
-      "flags": [],
-      "linkCheckedAt": "2026-10-31T16:03:41.517Z"
+      "linkCheckedAt": "2026-10-31T20:26:56.764Z"
     },
     {
       "title": "Overnight Valet Attendant",
@@ -761,7 +763,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-31T16:03:41.517Z"
+      "linkCheckedAt": "2026-10-31T20:26:56.764Z"
     },
     {
       "title": "AI Trainer - Video Annotation",
@@ -781,7 +783,7 @@
         "high-pay"
       ],
       "otherLocations": [],
-      "linkCheckedAt": "2026-10-31T16:03:41.517Z"
+      "linkCheckedAt": "2026-10-31T20:26:56.764Z"
     },
     {
       "title": "PT Sales Associate - Seasonal",
@@ -801,7 +803,7 @@
         "entry-level",
         "starts-fast"
       ],
-      "linkCheckedAt": "2026-10-31T16:03:41.517Z"
+      "linkCheckedAt": "2026-10-31T20:26:56.764Z"
     },
     {
       "title": "Deckhand",
@@ -826,7 +828,7 @@
       "otherLocations": [
         "Saint Louis, Missouri"
       ],
-      "linkCheckedAt": "2026-10-31T16:03:41.517Z"
+      "linkCheckedAt": "2026-10-31T20:26:56.764Z"
     },
     {
       "title": "Business Development Representative - US, Remote",
@@ -886,7 +888,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-31T16:03:41.517Z"
+      "linkCheckedAt": "2026-10-31T20:26:56.764Z"
     },
     {
       "title": "Marine Construction Crew Member",
@@ -906,7 +908,7 @@
         "live-aboard",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-31T16:03:41.517Z"
+      "linkCheckedAt": "2026-10-31T20:26:56.764Z"
     },
     {
       "title": "Data Annotation Specialist - Computer Vision",
@@ -925,7 +927,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-31T16:03:41.517Z"
+      "linkCheckedAt": "2026-10-31T20:26:56.764Z"
     },
     {
       "title": "MARINE DECKHAND - TRAVEL REQUIRED",
@@ -963,7 +965,7 @@
       "firstSeenAt": "2026-10-30T16:59:58.647Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-10-30T21:28:11.592Z"
+      "linkCheckedAt": "2026-10-31T20:26:56.764Z"
     },
     {
       "title": "Brand Ambassador",
@@ -980,7 +982,7 @@
       "firstSeenAt": "2026-10-30T02:34:17.693Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-10-30T21:28:11.592Z"
+      "linkCheckedAt": "2026-10-31T20:26:56.764Z"
     },
     {
       "title": "Executive Steward",
@@ -1001,26 +1003,6 @@
         "live-aboard"
       ],
       "linkCheckedAt": "2026-10-31T16:03:41.517Z"
-    },
-    {
-      "title": "Marine Forklift Driver",
-      "company": "Equity LifeStyle Properties",
-      "location": "Deerfield Beach, Broward County",
-      "remote": false,
-      "pay": "",
-      "url": "https://www.adzuna.com/details/5930785499?utm_medium=api&utm_source=ea9765bf",
-      "postedAt": "2026-10-16T11:21:19.000Z",
-      "snippet": "With a culture of recognition and reputation for excellence, ELS is the ideal organization in which to develop a long and successful career! ELS is hiring for the position of Marine Forklift Driver in Pompano Beach, Florida. What you’ll do…",
-      "source": "adzuna",
-      "id": "e67206c6115801a9848b9a4e34bf0a4bc8dc7edf",
-      "track": "marine-national",
-      "firstSeenAt": "2026-10-29T02:23:30.839Z",
-      "score": 60,
-      "flags": [
-        "far-away",
-        "pay-unknown"
-      ],
-      "linkCheckedAt": "2026-10-30T21:28:11.592Z"
     },
     {
       "title": "Steward(ess) - 43m Private Motor Yacht",
@@ -1106,6 +1088,23 @@
       "linkCheckedAt": "2026-10-31T16:03:41.517Z"
     },
     {
+      "title": "Sales Development Representative",
+      "company": "Socket",
+      "location": "Remote — USA",
+      "remote": true,
+      "pay": "",
+      "url": "https://jobicy.com/jobs/156766-sales-development-representative-13",
+      "postedAt": "2026-10-24T16:13:45.000Z",
+      "snippet": "About Us Socket helps devs and security teams ship faster by cutting out security busywork. Thousands of orgs use Socket to safely find, audit, and manage open source code. Our customers - from Anthropic to xAI, and Figma to Vercel - love …",
+      "source": "jobicy",
+      "id": "c678da94f6ee62a151964bbdad9fe211170bae09",
+      "track": "tech-sales",
+      "firstSeenAt": "2026-10-24T19:28:12.186Z",
+      "score": 60,
+      "flags": [],
+      "linkCheckedAt": "2026-10-31T16:03:41.517Z"
+    },
+    {
       "title": "Graduate Sales Development Representative",
       "company": "Canonical",
       "location": "Remote — Anywhere",
@@ -1139,7 +1138,7 @@
       "flags": [
         "live-aboard"
       ],
-      "linkCheckedAt": "2026-10-31T16:03:41.517Z"
+      "linkCheckedAt": "2026-10-31T20:26:56.764Z"
     },
     {
       "title": "Deckhand",
@@ -1228,7 +1227,7 @@
       "firstSeenAt": "2026-10-18T14:32:37.273Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-10-31T16:03:41.517Z"
+      "linkCheckedAt": "2026-10-31T20:26:56.764Z"
     },
     {
       "title": "Business Development Representative - Healthcare",
@@ -1283,7 +1282,7 @@
         "drug-test",
         "live-aboard"
       ],
-      "linkCheckedAt": "2026-10-31T16:03:41.517Z"
+      "linkCheckedAt": "2026-10-31T20:26:56.764Z"
     },
     {
       "title": "Deckhand",
@@ -1303,7 +1302,7 @@
         "far-away",
         "live-aboard"
       ],
-      "linkCheckedAt": "2026-10-31T16:03:41.517Z"
+      "linkCheckedAt": "2026-10-31T20:26:56.764Z"
     },
     {
       "title": "Assistant Dockmaster - Deep Point Marina",
@@ -1320,7 +1319,7 @@
       "firstSeenAt": "2026-10-15T22:25:32.969Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-10-31T16:03:41.517Z"
+      "linkCheckedAt": "2026-10-31T20:26:56.764Z"
     },
     {
       "title": "Event Staff Team Member - John T. Rhodes Myrtle Beach Sports Center",
@@ -1390,7 +1389,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-31T16:03:41.517Z"
+      "linkCheckedAt": "2026-10-31T20:26:56.764Z"
     },
     {
       "title": "Entry Level Outside Sales Trainee",
@@ -1427,7 +1426,7 @@
       "score": 55,
       "flags": [],
       "otherLocations": [],
-      "linkCheckedAt": "2026-10-31T16:03:41.517Z"
+      "linkCheckedAt": "2026-10-31T20:26:56.764Z"
     },
     {
       "title": "PERFECT PART TIME JOB-WEEKEND SALES-Weekly PAY !",
@@ -1504,7 +1503,7 @@
       "otherLocations": [
         "James Island, Charleston County"
       ],
-      "linkCheckedAt": "2026-10-31T16:03:41.517Z"
+      "linkCheckedAt": "2026-10-31T20:26:56.764Z"
     },
     {
       "title": "Retail Sales Associate",
@@ -1521,7 +1520,7 @@
       "firstSeenAt": "2026-10-28T17:09:06.638Z",
       "score": 50,
       "flags": [],
-      "linkCheckedAt": "2026-10-31T16:03:41.517Z"
+      "linkCheckedAt": "2026-10-31T20:26:56.764Z"
     },
     {
       "title": "Remote Sales with Career Growth Opportunity",
@@ -1561,7 +1560,7 @@
         "far-away",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-31T16:03:41.517Z"
+      "linkCheckedAt": "2026-10-31T20:26:56.764Z"
     },
     {
       "title": "Firefighter Recruit, Georgetown County Fire and EMS",
@@ -1580,7 +1579,7 @@
       "flags": [
         "starts-fast"
       ],
-      "linkCheckedAt": "2026-10-31T16:03:41.517Z"
+      "linkCheckedAt": "2026-10-31T20:26:56.764Z"
     },
     {
       "title": "Product Demonstrator",
@@ -1632,7 +1631,7 @@
         "James Island, Charleston County",
         "Charleston, Charleston County"
       ],
-      "linkCheckedAt": "2026-10-31T16:03:41.517Z"
+      "linkCheckedAt": "2026-10-31T20:26:56.764Z"
     },
     {
       "title": "Pandora Jewelry Sales Specialist, Coastal Grand Mall",
@@ -1649,7 +1648,7 @@
       "firstSeenAt": "2026-10-27T16:33:36.212Z",
       "score": 45,
       "flags": [],
-      "linkCheckedAt": "2026-10-31T16:03:41.517Z"
+      "linkCheckedAt": "2026-10-31T20:26:56.764Z"
     },
     {
       "title": "Business Development Representative, Auto Retail",
@@ -1666,7 +1665,7 @@
       "firstSeenAt": "2026-10-26T17:19:32.335Z",
       "score": 45,
       "flags": [],
-      "linkCheckedAt": "2026-10-31T16:03:41.517Z"
+      "linkCheckedAt": "2026-10-31T20:26:56.764Z"
     },
     {
       "title": "Refractory Sales Representative",
@@ -1683,7 +1682,7 @@
       "firstSeenAt": "2026-10-25T19:34:58.130Z",
       "score": 45,
       "flags": [],
-      "linkCheckedAt": "2026-10-31T16:03:41.517Z"
+      "linkCheckedAt": "2026-10-31T20:26:56.764Z"
     },
     {
       "title": "Field Sales and Marketing Representative- Myrtle Beach, SC",
@@ -1702,7 +1701,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-31T16:03:41.517Z"
+      "linkCheckedAt": "2026-10-31T20:26:56.764Z"
     },
     {
       "title": "Marketing Events Specialist",
@@ -1719,7 +1718,7 @@
       "firstSeenAt": "2026-10-16T18:23:40.794Z",
       "score": 45,
       "flags": [],
-      "linkCheckedAt": "2026-10-30T21:28:11.592Z"
+      "linkCheckedAt": "2026-10-31T20:26:56.764Z"
     },
     {
       "title": "Field Sales and Marketing Representative- North Myrtle Beach, SC",
@@ -1762,7 +1761,7 @@
         "far-away",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-10-31T16:03:41.517Z"
+      "linkCheckedAt": "2026-10-31T20:26:56.764Z"
     },
     {
       "title": "Part Time Product Demonstrator in Costco",
@@ -1782,7 +1781,7 @@
       "otherLocations": [
         "James Island, Charleston County"
       ],
-      "linkCheckedAt": "2026-10-31T16:03:41.517Z"
+      "linkCheckedAt": "2026-10-31T20:26:56.764Z"
     },
     {
       "title": "Luxury Jewelry and Timepiece Sales Professional, Market Commons",
@@ -1816,7 +1815,7 @@
       "firstSeenAt": "2026-10-30T16:59:58.647Z",
       "score": 40,
       "flags": [],
-      "linkCheckedAt": "2026-10-31T02:18:14.271Z"
+      "linkCheckedAt": "2026-10-31T20:26:56.764Z"
     },
     {
       "title": "Sales and Content Lead",
@@ -1869,7 +1868,7 @@
       "firstSeenAt": "2026-10-24T13:42:05.182Z",
       "score": 40,
       "flags": [],
-      "linkCheckedAt": "2026-10-31T16:03:41.517Z"
+      "linkCheckedAt": "2026-10-31T20:26:56.764Z"
     },
     {
       "title": "Sales Representative - Uniform",
@@ -1904,7 +1903,7 @@
       "firstSeenAt": "2026-10-15T22:25:32.969Z",
       "score": 40,
       "flags": [],
-      "linkCheckedAt": "2026-10-31T16:03:41.517Z"
+      "linkCheckedAt": "2026-10-31T20:26:56.764Z"
     },
     {
       "title": "Retail Display Installer - Technology",
