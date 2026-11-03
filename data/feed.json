@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T20:44:18.352Z",
+  "generatedAt": "2026-11-03T03:54:58.693Z",
   "sources": [
     {
       "name": "adzuna",
@@ -16,7 +16,7 @@
     {
       "name": "jsearch",
       "ok": true,
-      "count": 12,
+      "count": 0,
       "error": null
     },
     {
@@ -33,14 +33,14 @@
     },
     {
       "name": "jobicy",
-      "ok": true,
-      "count": 15,
-      "error": null
+      "ok": false,
+      "count": 0,
+      "error": "Source timeout after 60000ms"
     },
     {
       "name": "himalayas",
       "ok": true,
-      "count": 2,
+      "count": 7,
       "error": null
     },
     {
@@ -58,7 +58,7 @@
     {
       "name": "pagewatch",
       "ok": true,
-      "count": 12,
+      "count": 0,
       "error": null
     },
     {
@@ -93,66 +93,7 @@
         "entry-level",
         "starts-fast"
       ],
-      "linkCheckedAt": "2026-11-02T20:44:18.352Z"
-    },
-    {
-      "title": "Sales Development Representative",
-      "company": "Deepgram",
-      "location": "Remote — USA",
-      "remote": true,
-      "pay": "",
-      "url": "https://jobicy.com/jobs/152222-sales-development-representative-9",
-      "postedAt": "2026-11-02T03:05:19.000Z",
-      "snippet": "Company Overview Deepgram is the leading platform underpinning the emerging trillion-dollar Voice AI economy, providing real-time APIs for speech-to-text (STT), text-to-speech (TTS), and building production-grade voice agents at scale. Mor…",
-      "source": "jobicy",
-      "id": "d48fef79075599272a1a554cd7fe0347f05ac59e",
-      "track": "tech-sales",
-      "firstSeenAt": "2026-11-02T20:44:18.352Z",
-      "score": 80,
-      "flags": [
-        "starts-fast"
-      ],
-      "linkCheckedAt": "2026-11-02T20:44:18.352Z"
-    },
-    {
-      "title": "Remote SDR: Paid Training + Fast-Track B2B Sales",
-      "company": "Darby Dental Supply Llc",
-      "location": "",
-      "remote": true,
-      "pay": "",
-      "url": "https://jobmesh.io/job/ce8ccb14-3c70-4403-b664-4b846a013e46",
-      "postedAt": "2026-10-31T00:00:00.000Z",
-      "snippet": "via JobMESH. Darby Dental Supply, LLC. is seeking motivated individuals to join our team as a Sales Development Representative (SDR). This fully remote, entry-level sales position operates Monday through Friday and offers a base salary plu…",
-      "source": "jsearch",
-      "id": "3dc5e67fad0e8feec0ed5b9695ea130798180d8f",
-      "track": "tech-sales",
-      "firstSeenAt": "2026-11-02T20:44:18.352Z",
-      "score": 80,
-      "flags": [
-        "entry-level"
-      ],
-      "linkCheckedAt": "2026-11-02T20:44:18.352Z"
-    },
-    {
-      "title": "Application Programmer Analyst/Developer (Entry Level) / Remote",
-      "company": "RAM Health",
-      "location": "Remote — United States",
-      "remote": true,
-      "pay": "$60,000/annual",
-      "url": "https://himalayas.app/companies/ram-health/jobs/application-programmer-analyst-developer-entry-level-remote?utm_source=api",
-      "postedAt": "2026-10-27T01:47:08.000Z",
-      "snippet": "At RAM Health , our mission is to simplify the complexities of healthcare administration through innovative, technology-driven solutions. With a focus on changing the industry one plan at a time, we drive continuous innovation to help gove…",
-      "source": "himalayas",
-      "closesAt": "2026-12-26T01:47:07.000Z",
-      "id": "ac3bd90332d8b07a120908be9f4fbd11f0800ca7",
-      "track": "ai-web",
-      "firstSeenAt": "2026-10-27T02:01:16.772Z",
-      "score": 80,
-      "flags": [
-        "entry-level",
-        "high-pay"
-      ],
-      "linkCheckedAt": "2026-11-02T02:26:51.615Z"
+      "linkCheckedAt": "2026-11-03T03:54:58.693Z"
     },
     {
       "title": "Video Data Annotation Specialist",
@@ -171,6 +112,25 @@
       "flags": [
         "entry-level",
         "starts-fast"
+      ],
+      "linkCheckedAt": "2026-11-03T03:54:58.693Z"
+    },
+    {
+      "title": "Remote SDR: Paid Training + Fast-Track B2B Sales",
+      "company": "Darby Dental Supply Llc",
+      "location": "",
+      "remote": true,
+      "pay": "",
+      "url": "https://jobmesh.io/job/ce8ccb14-3c70-4403-b664-4b846a013e46",
+      "postedAt": "2026-10-31T00:00:00.000Z",
+      "snippet": "via JobMESH. Darby Dental Supply, LLC. is seeking motivated individuals to join our team as a Sales Development Representative (SDR). This fully remote, entry-level sales position operates Monday through Friday and offers a base salary plu…",
+      "source": "jsearch",
+      "id": "3dc5e67fad0e8feec0ed5b9695ea130798180d8f",
+      "track": "tech-sales",
+      "firstSeenAt": "2026-11-02T20:44:18.352Z",
+      "score": 75,
+      "flags": [
+        "entry-level"
       ],
       "linkCheckedAt": "2026-11-02T20:44:18.352Z"
     },
@@ -217,6 +177,27 @@
       "linkCheckedAt": "2026-11-02T20:44:18.352Z"
     },
     {
+      "title": "Application Programmer Analyst/Developer (Entry Level) / Remote",
+      "company": "RAM Health",
+      "location": "Remote — United States",
+      "remote": true,
+      "pay": "$60,000/annual",
+      "url": "https://himalayas.app/companies/ram-health/jobs/application-programmer-analyst-developer-entry-level-remote?utm_source=api",
+      "postedAt": "2026-10-27T01:47:08.000Z",
+      "snippet": "At RAM Health , our mission is to simplify the complexities of healthcare administration through innovative, technology-driven solutions. With a focus on changing the industry one plan at a time, we drive continuous innovation to help gove…",
+      "source": "himalayas",
+      "closesAt": "2026-12-26T01:47:07.000Z",
+      "id": "ac3bd90332d8b07a120908be9f4fbd11f0800ca7",
+      "track": "ai-web",
+      "firstSeenAt": "2026-10-27T02:01:16.772Z",
+      "score": 75,
+      "flags": [
+        "entry-level",
+        "high-pay"
+      ],
+      "linkCheckedAt": "2026-11-03T03:54:58.693Z"
+    },
+    {
       "title": "Marketing and Event Coordinator",
       "company": "Grand Strand Health and Wellness",
       "location": "Murrells Inlet, SC (+1 more)",
@@ -237,7 +218,7 @@
       "otherLocations": [
         "Murrells Inlet, Horry County"
       ],
-      "linkCheckedAt": "2026-11-02T20:44:18.352Z"
+      "linkCheckedAt": "2026-11-03T03:54:58.693Z"
     },
     {
       "title": "Remote SDR: Entry-Level with Full Training & Growth",
@@ -260,6 +241,57 @@
       "linkCheckedAt": "2026-11-02T20:44:18.352Z"
     },
     {
+      "title": "Boat Manufacturer - Refinisher/Patcher",
+      "company": "Sea Fox Boat Company Inc.",
+      "location": "Moncks Corner, Berkeley County",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/details/5950966650?utm_medium=api&utm_source=ea9765bf",
+      "postedAt": "2026-11-02T17:26:50.000Z",
+      "snippet": "Job Summary Sea Fox Boat Company is an industry leading, saltwater fishing boat manufacturer who is looking for someone in the Finishing department. Finishers help prepare the boat for final delivery to the dealers. To qualify for this job…",
+      "source": "adzuna",
+      "id": "a7675eb4b8bf4173b875bf59f7cc4575fb45810c",
+      "track": "marine-chs",
+      "firstSeenAt": "2026-11-03T03:54:58.693Z",
+      "score": 70,
+      "flags": [],
+      "linkCheckedAt": "2026-11-03T03:54:58.693Z"
+    },
+    {
+      "title": "Boat Caulker",
+      "company": "Sea Fox Boat Company Inc.",
+      "location": "Moncks Corner, Berkeley County",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/details/5950966621?utm_medium=api&utm_source=ea9765bf",
+      "postedAt": "2026-11-02T17:26:49.000Z",
+      "snippet": "Job Title: Boat Caulker Department: Assembly/Shipping Reports To: Production Supervisor / Shipping Supervisor Location: Sea Fox Boat Company Job Type: Full-time Position Summary: The Boat Caulker is responsible for applying marine-grade se…",
+      "source": "adzuna",
+      "id": "5c7e78ac9d770e21adf9ce7fe57124ea61f039a1",
+      "track": "marine-chs",
+      "firstSeenAt": "2026-11-03T03:54:58.693Z",
+      "score": 70,
+      "flags": [],
+      "linkCheckedAt": "2026-11-03T03:54:58.693Z"
+    },
+    {
+      "title": "Sales Development Representative",
+      "company": "Deepgram",
+      "location": "Remote — USA",
+      "remote": true,
+      "pay": "",
+      "url": "https://jobicy.com/jobs/152222-sales-development-representative-9",
+      "postedAt": "2026-11-02T03:05:19.000Z",
+      "snippet": "Company Overview Deepgram is the leading platform underpinning the emerging trillion-dollar Voice AI economy, providing real-time APIs for speech-to-text (STT), text-to-speech (TTS), and building production-grade voice agents at scale. Mor…",
+      "source": "jobicy",
+      "id": "d48fef79075599272a1a554cd7fe0347f05ac59e",
+      "track": "tech-sales",
+      "firstSeenAt": "2026-11-02T20:44:18.352Z",
+      "score": 70,
+      "flags": [],
+      "linkCheckedAt": "2026-11-02T20:44:18.352Z"
+    },
+    {
       "title": "Bellperson & Valet",
       "company": "Hilton Grand Vacations",
       "location": "Carolina Forest, Horry County",
@@ -274,7 +306,7 @@
       "firstSeenAt": "2026-11-01T17:06:03.613Z",
       "score": 70,
       "flags": [],
-      "linkCheckedAt": "2026-11-02T20:44:18.352Z"
+      "linkCheckedAt": "2026-11-03T03:54:58.693Z"
     },
     {
       "title": "Sales Development Representative, Clinical Search",
@@ -291,7 +323,7 @@
       "firstSeenAt": "2026-11-01T17:06:03.613Z",
       "score": 70,
       "flags": [],
-      "linkCheckedAt": "2026-11-02T20:44:18.352Z"
+      "linkCheckedAt": "2026-11-03T03:54:58.693Z"
     },
     {
       "title": "Deckhand, Marine",
@@ -312,7 +344,7 @@
         "live-aboard",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-02T02:26:51.615Z"
+      "linkCheckedAt": "2026-11-03T03:54:58.693Z"
     },
     {
       "title": "Private 37m Yacht Deckhand — US Citizens/Green Card",
@@ -332,24 +364,7 @@
         "far-away",
         "live-aboard"
       ],
-      "linkCheckedAt": "2026-11-02T02:26:51.615Z"
-    },
-    {
-      "title": "Activation Sales Development Representative I",
-      "company": "Instacart",
-      "location": "Remote — USA",
-      "remote": true,
-      "pay": "",
-      "url": "https://jobicy.com/jobs/152088-activation-sales-development-representative-i",
-      "postedAt": "2026-10-31T03:35:20.000Z",
-      "snippet": "We're transforming the grocery industry At Instacart , we invite the world to share love through food because we believe everyone should have access to the food they love and more time to enjoy it together. Where others see a simple need f…",
-      "source": "jobicy",
-      "id": "0d52444ef2d3714cab5c8f000d3646f385ae8102",
-      "track": "tech-sales",
-      "firstSeenAt": "2026-10-31T16:03:41.517Z",
-      "score": 70,
-      "flags": [],
-      "linkCheckedAt": "2026-11-02T20:44:18.352Z"
+      "linkCheckedAt": "2026-11-03T03:54:58.693Z"
     },
     {
       "title": "Parking Valet Attendant",
@@ -367,7 +382,7 @@
       "score": 70,
       "flags": [],
       "otherLocations": [],
-      "linkCheckedAt": "2026-11-02T20:44:18.352Z"
+      "linkCheckedAt": "2026-11-03T03:54:58.693Z"
     },
     {
       "title": "Entry Level AI Trainer - Remote, No Experience Necessary",
@@ -403,7 +418,7 @@
       "firstSeenAt": "2026-10-28T17:09:06.638Z",
       "score": 70,
       "flags": [],
-      "linkCheckedAt": "2026-11-02T20:44:18.352Z"
+      "linkCheckedAt": "2026-11-03T03:54:58.693Z"
     },
     {
       "title": "Part – Time Lead Service Valet – Truck Required – Evening Shift",
@@ -441,7 +456,7 @@
       "flags": [
         "entry-level"
       ],
-      "linkCheckedAt": "2026-11-02T02:26:51.615Z"
+      "linkCheckedAt": "2026-11-03T03:54:58.693Z"
     },
     {
       "title": "Junior Sales Development Representative",
@@ -461,6 +476,29 @@
         "entry-level"
       ],
       "linkCheckedAt": "2026-11-02T20:44:18.352Z"
+    },
+    {
+      "title": "Deckhand",
+      "company": "U.S. Army Corps of Engineers",
+      "location": "Saint Louis, Missouri",
+      "remote": false,
+      "pay": "$26.71–$31.16/Per Hour",
+      "url": "https://www.usajobs.gov:443/job/889357800",
+      "postedAt": "2026-10-19T16:27:41.970Z",
+      "snippet": "This is a Direct Hire Authority (DHA) solicitation utilizing the DHA for Certain Personnel of the DoD Workforce to recruit and appoint qualified candidates to positions in the competitive service. About the Position: Works as a Deckhand, p…",
+      "source": "usajobs",
+      "closesAt": "2026-11-09T23:59:59.997Z",
+      "id": "8adc1394dba9181aac383d481b878dc727a7d8b5",
+      "track": "marine-national",
+      "firstSeenAt": "2026-11-03T03:54:58.693Z",
+      "score": 65,
+      "flags": [
+        "far-away",
+        "live-aboard",
+        "high-pay"
+      ],
+      "otherLocations": [],
+      "linkCheckedAt": "2026-11-03T03:54:58.693Z"
     },
     {
       "title": "Retail Sales Associate",
@@ -506,23 +544,20 @@
       "linkCheckedAt": "2026-11-02T20:44:18.352Z"
     },
     {
-      "title": "Remote Sales with Entry Level Leadership",
-      "company": "Globe Life American Income Division: Fisher Organization",
-      "location": "",
+      "title": "Activation Sales Development Representative I",
+      "company": "Instacart",
+      "location": "Remote — USA",
       "remote": true,
-      "pay": "$65,000–$125,000/year",
-      "url": "https://www.linkedin.com/jobs/view/remote-sales-with-entry-level-leadership-at-globe-life-american-income-division-fisher-organization-4485620365",
-      "postedAt": "2026-10-30T21:00:00.000Z",
-      "snippet": "via LinkedIn. **Remote Benefits & Client Support Representative (Entry-Level)** • Location:** Remote (U.S.) • Schedule:** Full-Time | Flexible Hours **About the Opportunity** We're growing our remote team and seeking motivated individuals …",
-      "source": "jsearch",
-      "id": "59c2798f173f4f7f4fb7b0185a18fee29bfad7e4",
+      "pay": "",
+      "url": "https://jobicy.com/jobs/152088-activation-sales-development-representative-i",
+      "postedAt": "2026-10-31T03:35:20.000Z",
+      "snippet": "We're transforming the grocery industry At Instacart , we invite the world to share love through food because we believe everyone should have access to the food they love and more time to enjoy it together. Where others see a simple need f…",
+      "source": "jobicy",
+      "id": "0d52444ef2d3714cab5c8f000d3646f385ae8102",
       "track": "tech-sales",
       "firstSeenAt": "2026-10-31T16:03:41.517Z",
       "score": 65,
-      "flags": [
-        "entry-level",
-        "high-pay"
-      ],
+      "flags": [],
       "linkCheckedAt": "2026-11-02T20:44:18.352Z"
     },
     {
@@ -540,7 +575,7 @@
       "firstSeenAt": "2026-10-31T02:18:14.271Z",
       "score": 65,
       "flags": [],
-      "linkCheckedAt": "2026-11-02T02:26:51.615Z"
+      "linkCheckedAt": "2026-11-03T03:54:58.693Z"
     },
     {
       "title": "Deck/Stew 70ft Vanquish",
@@ -583,26 +618,6 @@
         "high-pay"
       ],
       "linkCheckedAt": "2026-11-02T20:44:18.352Z"
-    },
-    {
-      "title": "Deckhand",
-      "company": "J.F. Brennan Company",
-      "location": "Bloomsdale, Missouri",
-      "remote": false,
-      "pay": "",
-      "url": "https://jobmesh.io/job/521bc9fa-f499-4d2a-9f2b-54073b06199a",
-      "postedAt": "2026-10-27T00:00:00.000Z",
-      "snippet": "via JobMESH. Deckhand Position at Brennan Marine Inc Deckhands are the cornerstone of all the work we do at Brennan Marine Inc, and the demand for our work is growing. Our deckhands are vital to the operation and maintenance of Brennan's t…",
-      "source": "jsearch",
-      "id": "173ae28adce0a4da7e39d61e99ef88dc2816b7ec",
-      "track": "marine-national",
-      "firstSeenAt": "2026-10-30T02:34:17.693Z",
-      "score": 65,
-      "flags": [
-        "far-away",
-        "live-aboard"
-      ],
-      "linkCheckedAt": "2026-11-02T02:26:51.615Z"
     },
     {
       "title": "Sales Development Representative",
@@ -688,7 +703,7 @@
       "firstSeenAt": "2026-10-28T17:09:06.638Z",
       "score": 65,
       "flags": [],
-      "linkCheckedAt": "2026-11-02T20:44:18.352Z"
+      "linkCheckedAt": "2026-11-03T03:54:58.693Z"
     },
     {
       "title": "AI Recruiting SDR — US-Based, Visa Sponsorship",
@@ -707,7 +722,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-02T02:26:51.615Z"
+      "linkCheckedAt": "2026-11-03T03:54:58.693Z"
     },
     {
       "title": "Commercial Business Development Representative",
@@ -724,7 +739,7 @@
       "firstSeenAt": "2026-10-27T16:33:36.212Z",
       "score": 65,
       "flags": [],
-      "linkCheckedAt": "2026-11-02T02:26:51.615Z"
+      "linkCheckedAt": "2026-11-03T03:54:58.693Z"
     },
     {
       "title": "Special Operations AI Scenario Evaluator",
@@ -783,7 +798,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-02T02:26:51.615Z"
+      "linkCheckedAt": "2026-11-03T03:54:58.693Z"
     },
     {
       "title": "Convenience Center Site Attendant - Bees Ferry",
@@ -800,7 +815,7 @@
       "firstSeenAt": "2026-10-25T14:56:13.466Z",
       "score": 65,
       "flags": [],
-      "linkCheckedAt": "2026-11-02T20:44:18.352Z"
+      "linkCheckedAt": "2026-11-03T03:54:58.693Z"
     },
     {
       "title": "Valet Attendant - $20 Per Hour Plus Tips",
@@ -838,7 +853,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-02T20:44:18.352Z"
+      "linkCheckedAt": "2026-11-03T03:54:58.693Z"
     },
     {
       "title": "AI Trainer - Video Annotation",
@@ -858,7 +873,7 @@
         "high-pay"
       ],
       "otherLocations": [],
-      "linkCheckedAt": "2026-11-02T20:44:18.352Z"
+      "linkCheckedAt": "2026-11-03T03:54:58.693Z"
     },
     {
       "title": "PT Sales Associate - Seasonal",
@@ -878,32 +893,7 @@
         "entry-level",
         "starts-fast"
       ],
-      "linkCheckedAt": "2026-11-02T02:26:51.615Z"
-    },
-    {
-      "title": "Deckhand",
-      "company": "U.S. Army Corps of Engineers",
-      "location": "Omaha, Nebraska (+1 more)",
-      "remote": false,
-      "pay": "$24.68–$28.79/Per Hour",
-      "url": "https://www.usajobs.gov:443/job/889884000",
-      "postedAt": "2026-10-23T00:00:00.000Z",
-      "snippet": "This is a Direct Hire Authority (DHA) solicitation utilizing the DHA for Certain Personnel of the DoD Workforce to recruit and appoint qualified candidates to positions in the competitive service. About the Position: The Missouri River Pro…",
-      "source": "usajobs",
-      "closesAt": "2026-11-02T23:59:59.997Z",
-      "id": "b9f4db782b25d4848bdd118b6bf89eaa8ba1d9e4",
-      "track": "marine-national",
-      "firstSeenAt": "2026-10-23T15:43:44.939Z",
-      "score": 65,
-      "flags": [
-        "far-away",
-        "live-aboard",
-        "high-pay"
-      ],
-      "otherLocations": [
-        "Saint Louis, Missouri"
-      ],
-      "linkCheckedAt": "2026-11-02T20:44:18.352Z"
+      "linkCheckedAt": "2026-11-03T03:54:58.693Z"
     },
     {
       "title": "Business Development Representative - US, Remote",
@@ -944,7 +934,7 @@
         "live-aboard",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-02T02:26:51.615Z"
+      "linkCheckedAt": "2026-11-03T03:54:58.693Z"
     },
     {
       "title": "Sales Development Representative",
@@ -963,7 +953,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-02T20:44:18.352Z"
+      "linkCheckedAt": "2026-11-03T03:54:58.693Z"
     },
     {
       "title": "Marine Construction Crew Member",
@@ -983,7 +973,7 @@
         "live-aboard",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-02T20:44:18.352Z"
+      "linkCheckedAt": "2026-11-03T03:54:58.693Z"
     },
     {
       "title": "Data Annotation Specialist - Computer Vision",
@@ -1002,7 +992,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-02T20:44:18.352Z"
+      "linkCheckedAt": "2026-11-03T03:54:58.693Z"
     },
     {
       "title": "MARINE DECKHAND - TRAVEL REQUIRED",
@@ -1066,6 +1056,46 @@
       "firstSeenAt": "2026-11-02T20:44:18.352Z",
       "score": 60,
       "linkCheckedAt": "2026-11-02T20:44:18.352Z"
+    },
+    {
+      "title": "Remote Sales with Entry Level Leadership",
+      "company": "Globe Life American Income Division: Fisher Organization",
+      "location": "",
+      "remote": true,
+      "pay": "$65,000–$125,000/year",
+      "url": "https://www.linkedin.com/jobs/view/remote-sales-with-entry-level-leadership-at-globe-life-american-income-division-fisher-organization-4485620365",
+      "postedAt": "2026-10-30T21:00:00.000Z",
+      "snippet": "via LinkedIn. **Remote Benefits & Client Support Representative (Entry-Level)** • Location:** Remote (U.S.) • Schedule:** Full-Time | Flexible Hours **About the Opportunity** We're growing our remote team and seeking motivated individuals …",
+      "source": "jsearch",
+      "id": "59c2798f173f4f7f4fb7b0185a18fee29bfad7e4",
+      "track": "tech-sales",
+      "firstSeenAt": "2026-10-31T16:03:41.517Z",
+      "score": 60,
+      "flags": [
+        "entry-level",
+        "high-pay"
+      ],
+      "linkCheckedAt": "2026-11-02T20:44:18.352Z"
+    },
+    {
+      "title": "Deckhand",
+      "company": "J.F. Brennan Company",
+      "location": "Bloomsdale, Missouri",
+      "remote": false,
+      "pay": "",
+      "url": "https://jobmesh.io/job/521bc9fa-f499-4d2a-9f2b-54073b06199a",
+      "postedAt": "2026-10-27T00:00:00.000Z",
+      "snippet": "via JobMESH. Deckhand Position at Brennan Marine Inc Deckhands are the cornerstone of all the work we do at Brennan Marine Inc, and the demand for our work is growing. Our deckhands are vital to the operation and maintenance of Brennan's t…",
+      "source": "jsearch",
+      "id": "173ae28adce0a4da7e39d61e99ef88dc2816b7ec",
+      "track": "marine-national",
+      "firstSeenAt": "2026-10-30T02:34:17.693Z",
+      "score": 60,
+      "flags": [
+        "far-away",
+        "live-aboard"
+      ],
+      "linkCheckedAt": "2026-11-03T03:54:58.693Z"
     },
     {
       "title": "Brand Ambassador",
@@ -1160,7 +1190,7 @@
         "far-away",
         "live-aboard"
       ],
-      "linkCheckedAt": "2026-11-02T02:26:51.615Z"
+      "linkCheckedAt": "2026-11-03T03:54:58.693Z"
     },
     {
       "title": "Remote Sales Development Representative (US Market) - Remote, US",
@@ -1177,7 +1207,7 @@
       "firstSeenAt": "2026-10-28T02:10:45.471Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-11-02T02:26:51.615Z"
+      "linkCheckedAt": "2026-11-03T03:54:58.693Z"
     },
     {
       "title": "Deckhand - 35m Private Motor Yacht",
@@ -1236,7 +1266,7 @@
       "firstSeenAt": "2026-10-25T14:56:13.466Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-11-02T20:44:18.352Z"
+      "linkCheckedAt": "2026-11-03T03:54:58.693Z"
     },
     {
       "title": "Business Development Representative",
@@ -1253,7 +1283,7 @@
       "firstSeenAt": "2026-10-25T14:56:13.466Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-11-02T02:26:51.615Z"
+      "linkCheckedAt": "2026-11-03T03:54:58.693Z"
     },
     {
       "title": "Sales Development Representative",
@@ -1287,7 +1317,7 @@
       "firstSeenAt": "2026-10-24T13:42:05.182Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-11-02T02:26:51.615Z"
+      "linkCheckedAt": "2026-11-03T03:54:58.693Z"
     },
     {
       "title": "Ferry Deckhand",
@@ -1306,7 +1336,7 @@
       "flags": [
         "live-aboard"
       ],
-      "linkCheckedAt": "2026-11-02T20:44:18.352Z"
+      "linkCheckedAt": "2026-11-03T03:54:58.693Z"
     },
     {
       "title": "Deckhand",
@@ -1361,7 +1391,7 @@
       "firstSeenAt": "2026-10-19T17:27:01.917Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-11-02T02:26:51.615Z"
+      "linkCheckedAt": "2026-11-03T03:54:58.693Z"
     },
     {
       "title": "Sales Development Representative",
@@ -1378,7 +1408,7 @@
       "firstSeenAt": "2026-10-18T14:32:37.273Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-11-02T20:44:18.352Z"
+      "linkCheckedAt": "2026-11-03T03:54:58.693Z"
     },
     {
       "title": "Business Development Representative - Healthcare",
@@ -1413,7 +1443,7 @@
       "firstSeenAt": "2026-10-17T14:11:06.587Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-11-02T02:26:51.615Z"
+      "linkCheckedAt": "2026-11-03T03:54:58.693Z"
     },
     {
       "title": "Ferry Mate - Full Time",
@@ -1433,7 +1463,7 @@
         "drug-test",
         "live-aboard"
       ],
-      "linkCheckedAt": "2026-11-02T20:44:18.352Z"
+      "linkCheckedAt": "2026-11-03T03:54:58.693Z"
     },
     {
       "title": "Deckhand",
@@ -1453,7 +1483,7 @@
         "far-away",
         "live-aboard"
       ],
-      "linkCheckedAt": "2026-11-02T20:44:18.352Z"
+      "linkCheckedAt": "2026-11-03T03:54:58.693Z"
     },
     {
       "title": "Assistant Dockmaster - Deep Point Marina",
@@ -1470,7 +1500,7 @@
       "firstSeenAt": "2026-10-15T22:25:32.969Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-11-02T20:44:18.352Z"
+      "linkCheckedAt": "2026-11-03T03:54:58.693Z"
     },
     {
       "title": "SDR (Sales Development Representative)",
@@ -1487,7 +1517,7 @@
       "firstSeenAt": "2026-10-15T20:32:31.715Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-11-02T02:26:51.615Z"
+      "linkCheckedAt": "2026-11-03T03:54:58.693Z"
     },
     {
       "title": "Sales Development Representative, Outbound",
@@ -1504,7 +1534,7 @@
       "firstSeenAt": "2026-10-15T20:32:31.715Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-11-02T02:26:51.615Z"
+      "linkCheckedAt": "2026-11-03T03:54:58.693Z"
     },
     {
       "title": "Retail Sales Associate – Paints & Coatings",
@@ -1562,27 +1592,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-02T20:44:18.352Z"
-    },
-    {
-      "title": "Entry Level Outside Sales Trainee",
-      "company": "The Reynolds and Reynolds Company",
-      "location": "",
-      "remote": true,
-      "pay": "",
-      "url": "https://www.linkedin.com/jobs/view/entry-level-outside-sales-trainee-at-the-reynolds-and-reynolds-company-4474691184",
-      "postedAt": "2026-10-27T00:00:00.000Z",
-      "snippet": "via LinkedIn. Position Description Reynolds and Reynolds is seeking motivated and hard-working Entry Level Outside Sales Trainees to join our growing team. As an Entry Level Outside Sales Trainee, you will enroll in our 12 month sales trai…",
-      "source": "jsearch",
-      "id": "9b09d7895e538b8aeba7852d0b3f434f763185a0",
-      "track": "tech-sales",
-      "firstSeenAt": "2026-10-31T16:03:41.517Z",
-      "score": 55,
-      "flags": [
-        "entry-level"
-      ],
-      "linkCheckedAt": "2026-11-02T20:44:18.352Z",
-      "otherLocations": []
+      "linkCheckedAt": "2026-11-03T03:54:58.693Z"
     },
     {
       "title": "PERFECT PART TIME JOB-WEEKEND SALES-Weekly PAY !",
@@ -1602,7 +1612,7 @@
         "starts-fast",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-02T02:26:51.615Z"
+      "linkCheckedAt": "2026-11-03T03:54:58.693Z"
     },
     {
       "title": "In-Store Sales Lead Generator",
@@ -1621,7 +1631,7 @@
       "flags": [
         "starts-fast"
       ],
-      "linkCheckedAt": "2026-11-02T02:26:51.615Z"
+      "linkCheckedAt": "2026-11-03T03:54:58.693Z"
     },
     {
       "title": "Merchandiser",
@@ -1655,7 +1665,8 @@
       "firstSeenAt": "2026-11-02T20:44:18.352Z",
       "score": 50,
       "flags": [],
-      "linkCheckedAt": "2026-11-02T20:44:18.352Z"
+      "linkCheckedAt": "2026-11-02T20:44:18.352Z",
+      "otherLocations": []
     },
     {
       "title": "Wireless Sales Pro",
@@ -1668,11 +1679,12 @@
       "snippet": "Wireless Sales Pro General Information Company: PRE-US Location: MURRELLS INLET, South Carolina, 29576 Ref : 88087 Pay Rate: $ 14.00 Experience/skills and/or location may influence position wage rate Function: Brand Advocacy & Sales Employ…",
       "source": "adzuna",
       "id": "6f8deb96c2c33b8d16eeb503a62a609ffb9acc0b",
-      "track": "quick-cash",
+      "track": "tech-sales",
       "firstSeenAt": "2026-11-02T20:44:18.352Z",
       "score": 50,
       "flags": [],
-      "linkCheckedAt": "2026-11-02T20:44:18.352Z"
+      "linkCheckedAt": "2026-11-02T20:44:18.352Z",
+      "otherLocations": []
     },
     {
       "title": "Field Sales Professional",
@@ -1711,7 +1723,7 @@
       "flags": [
         "starts-fast"
       ],
-      "linkCheckedAt": "2026-11-02T20:44:18.352Z"
+      "linkCheckedAt": "2026-11-03T03:54:58.693Z"
     },
     {
       "title": "Administrative Assistant - Sales and Marketing",
@@ -1732,6 +1744,26 @@
       "otherLocations": []
     },
     {
+      "title": "Entry Level Outside Sales Trainee",
+      "company": "The Reynolds and Reynolds Company",
+      "location": "",
+      "remote": true,
+      "pay": "",
+      "url": "https://www.linkedin.com/jobs/view/entry-level-outside-sales-trainee-at-the-reynolds-and-reynolds-company-4474691184",
+      "postedAt": "2026-10-27T00:00:00.000Z",
+      "snippet": "via LinkedIn. Position Description Reynolds and Reynolds is seeking motivated and hard-working Entry Level Outside Sales Trainees to join our growing team. As an Entry Level Outside Sales Trainee, you will enroll in our 12 month sales trai…",
+      "source": "jsearch",
+      "id": "9b09d7895e538b8aeba7852d0b3f434f763185a0",
+      "track": "tech-sales",
+      "firstSeenAt": "2026-10-31T16:03:41.517Z",
+      "score": 50,
+      "flags": [
+        "entry-level"
+      ],
+      "linkCheckedAt": "2026-11-02T20:44:18.352Z",
+      "otherLocations": []
+    },
+    {
       "title": "Equipment Operator/Special Events",
       "company": "City of Myrtle Beach",
       "location": "Carolina Forest, Horry County",
@@ -1746,7 +1778,7 @@
       "firstSeenAt": "2026-10-30T16:59:58.647Z",
       "score": 50,
       "flags": [],
-      "linkCheckedAt": "2026-11-02T20:44:18.352Z"
+      "linkCheckedAt": "2026-11-03T03:54:58.693Z"
     },
     {
       "title": "Sales Executive, Promotional Products",
@@ -1812,7 +1844,7 @@
       "otherLocations": [
         "James Island, Charleston County"
       ],
-      "linkCheckedAt": "2026-11-02T20:44:18.352Z"
+      "linkCheckedAt": "2026-11-03T03:54:58.693Z"
     },
     {
       "title": "Become a Luxury Brand Evaluator in Charleston, US",
@@ -1854,7 +1886,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-02T02:26:51.615Z"
+      "linkCheckedAt": "2026-11-03T03:54:58.693Z"
     },
     {
       "title": "Pandora Jewelry Sales Specialist, Coastal Grand Mall",
@@ -1871,27 +1903,6 @@
       "firstSeenAt": "2026-10-27T16:33:36.212Z",
       "score": 45,
       "flags": [],
-      "linkCheckedAt": "2026-11-02T20:44:18.352Z"
-    },
-    {
-      "title": "LOCK AND DAM OPERATOR",
-      "company": "U.S. Army Corps of Engineers",
-      "location": "Minneapolis, Minnesota",
-      "remote": false,
-      "pay": "$32.9–$38.41/Per Hour",
-      "url": "https://www.usajobs.gov:443/job/889695100",
-      "postedAt": "2026-10-26T00:00:00.000Z",
-      "snippet": "This is a Direct Hire Authority (DHA) solicitation utilizing the DHA to recruit and appoint qualified candidates to positions in the competitive service. About the Position: The position is for a Permanent, Full-time shift Head Lock and Da…",
-      "source": "usajobs",
-      "closesAt": "2026-11-02T23:59:59.997Z",
-      "id": "77596ee9f642b269c45bcbad2e77441f74615d53",
-      "track": "marine-national",
-      "firstSeenAt": "2026-10-26T17:19:32.335Z",
-      "score": 45,
-      "flags": [
-        "far-away",
-        "high-pay"
-      ],
       "linkCheckedAt": "2026-11-02T20:44:18.352Z"
     },
     {
@@ -1971,7 +1982,7 @@
         "far-away",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-02T20:44:18.352Z"
+      "linkCheckedAt": "2026-11-03T03:54:58.693Z"
     },
     {
       "title": "Luxury Jewelry and Timepiece Sales Professional, Market Commons",
@@ -1988,7 +1999,7 @@
       "firstSeenAt": "2026-10-31T02:18:14.271Z",
       "score": 40,
       "flags": [],
-      "linkCheckedAt": "2026-11-02T02:26:51.615Z"
+      "linkCheckedAt": "2026-11-03T03:54:58.693Z"
     },
     {
       "title": "Luxury Jewelry and Timepiece Sales Professional, Coastal Grand Mall",
@@ -2005,7 +2016,7 @@
       "firstSeenAt": "2026-10-30T16:59:58.647Z",
       "score": 40,
       "flags": [],
-      "linkCheckedAt": "2026-11-02T02:26:51.615Z"
+      "linkCheckedAt": "2026-11-03T03:54:58.693Z"
     },
     {
       "title": "Sales and Content Lead",
@@ -2022,7 +2033,7 @@
       "firstSeenAt": "2026-10-30T02:34:17.693Z",
       "score": 40,
       "flags": [],
-      "linkCheckedAt": "2026-11-02T02:26:51.615Z",
+      "linkCheckedAt": "2026-11-03T03:54:58.693Z",
       "otherLocations": []
     },
     {
@@ -2040,7 +2051,7 @@
       "firstSeenAt": "2026-10-26T17:19:32.335Z",
       "score": 40,
       "flags": [],
-      "linkCheckedAt": "2026-11-02T20:44:18.352Z"
+      "linkCheckedAt": "2026-11-03T03:54:58.693Z"
     },
     {
       "title": "Refractory Sales Representative",
@@ -2109,7 +2120,7 @@
       "firstSeenAt": "2026-10-15T22:25:32.969Z",
       "score": 40,
       "flags": [],
-      "linkCheckedAt": "2026-11-02T20:44:18.352Z"
+      "linkCheckedAt": "2026-11-03T03:54:58.693Z"
     },
     {
       "title": "Retail Display Installer - Technology",
@@ -2126,7 +2137,7 @@
       "firstSeenAt": "2026-10-15T21:29:28.105Z",
       "score": 40,
       "flags": [],
-      "linkCheckedAt": "2026-11-02T02:26:51.615Z"
+      "linkCheckedAt": "2026-11-03T03:54:58.693Z"
     }
   ]
 }
