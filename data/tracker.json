@@ -1,7 +1,7 @@
 {
   "version": 1,
   "directory": {},
-  "updatedAt": "2026-10-24T13:27:29.566Z",
+  "updatedAt": "2026-11-05T19:33:29.162Z",
   "settings": {
     "weeklyGoal": 10,
     "followUpDays": 7
@@ -902,6 +902,36 @@
         {
           "stage": "dockside",
           "at": "2026-10-19T19:34:01.055Z"
+        }
+      ]
+    },
+    {
+      "id": "t_carbliss_mb_20261105",
+      "feedId": "cd6b47a4b52d48a44717a6e6b7157107e57983dd",
+      "company": "Carbliss (SNFood & Beverage)",
+      "role": "Brand Ambassador - Myrtle Beach, SC (1099 contract)",
+      "track": "quick-cash",
+      "location": "Myrtle Beach, SC",
+      "link": "https://drinkcarbliss.applicantpro.com/jobs/4263326",
+      "pay": "$31.50/hr + mileage",
+      "stage": "castoff",
+      "dateApplied": "2026-11-05",
+      "lastFollowUp": null,
+      "contact": {
+        "name": "",
+        "email": "",
+        "phone": ""
+      },
+      "notes": "Applied via ApplicantPro (app #4263326-146975423) with tailored resume + cover letter PDF. Files: ~/Documents/Luke Job Folder/3 Applications/Carbliss - Brand Ambassador Myrtle Beach. Pick-your-own events; 21+; ask about events/month and pay schedule.",
+      "reqs": [],
+      "nextAction": "Follow up if no reply",
+      "nextDue": "2026-11-12",
+      "createdAt": "2026-11-05T19:33:29.162Z",
+      "updatedAt": "2026-11-05T19:33:29.162Z",
+      "history": [
+        {
+          "stage": "castoff",
+          "at": "2026-11-05T19:33:29.162Z"
         }
       ]
     }
