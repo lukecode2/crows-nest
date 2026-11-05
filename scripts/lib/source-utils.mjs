@@ -11,9 +11,16 @@ export function iso(value) {
   const date = new Date(typeof value === 'number' && value < 1e12 ? value * 1000 : value);
   return Number.isNaN(date.getTime()) ? null : date.toISOString();
 }
+// Adzuna turns hourly postings into a 2,080-hour "salary" ($31.50/hr -> $65,520). An annual figure that divides
+// back into an even quarter-dollar rate under $100 was an hourly rate, so show it as one.
+export function adzunaPay(min, max) {
+  const values = [min, max].filter(v => v != null && v !== '').map(Number);
+  const hourly = values.length && values.every(v => v / 2080 <= 100 && Math.abs(v / 2080 * 4 - Math.round(v / 2080 * 4)) < 1e-6);
+  return hourly ? pay(min == null ? min : Number(min) / 2080, max == null ? max : Number(max) / 2080, 'hour') : pay(min, max);
+}
 export function pay(min, max, interval = '') {
   if (min == null && max == null) return '';
-  const number = n => Number(n).toLocaleString('en-US', { maximumFractionDigits: 2 });
+  const number = n => Number(n).toLocaleString('en-US', Number(n) % 1 ? { minimumFractionDigits: 2, maximumFractionDigits: 2 } : { maximumFractionDigits: 0 });
   const amount = min != null && max != null && Number(min) !== Number(max) ? `$${number(min)}–$${number(max)}` : `$${number(min ?? max)}`;
   return `${amount}/${interval || (Number(max ?? min) < 200 ? 'hour' : 'year')}`;
 }

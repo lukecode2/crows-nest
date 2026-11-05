@@ -176,3 +176,11 @@ test('Dorchester County SC towns count as home and long remote country lists kee
   assert.match(j.location, /^Remote — USA, Australia/);
   assert.equal(remoteAbroad(j), false);
 });
+
+test('Adzuna hourly rates stretched to a 2,080-hour salary show as hourly again', async () => {
+  const { adzunaPay } = await import('../../scripts/lib/source-utils.mjs');
+  assert.equal(adzunaPay(65520, 65520), '$31.50/hour');
+  assert.equal(adzunaPay(41600, 83200), '$20–$40/hour');
+  assert.equal(adzunaPay(35000, 55000), '$35,000–$55,000/year');
+  assert.equal(adzunaPay(50000, 50000), '$50,000/year');
+});
