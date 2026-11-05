@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T18:41:39.055Z",
+  "generatedAt": "2026-11-05T19:08:37.136Z",
   "sources": [
     {
       "name": "adzuna",
@@ -40,7 +40,7 @@
     {
       "name": "himalayas",
       "ok": true,
-      "count": 2,
+      "count": 0,
       "error": null
     },
     {
@@ -52,13 +52,13 @@
     {
       "name": "ats",
       "ok": true,
-      "count": 32,
+      "count": 33,
       "error": null
     },
     {
       "name": "pagewatch",
       "ok": true,
-      "count": 17,
+      "count": 0,
       "error": null
     },
     {
@@ -113,27 +113,7 @@
         "entry-level",
         "starts-fast"
       ],
-      "linkCheckedAt": "2026-11-05T18:41:39.055Z"
-    },
-    {
-      "title": "Business Development Representative (Net Driven)",
-      "company": "Net Driven",
-      "location": "Remote — United States",
-      "remote": true,
-      "pay": "",
-      "url": "https://himalayas.app/companies/net-driven/jobs/business-development-representative-net-driven?utm_source=api",
-      "postedAt": "2026-11-05T16:45:21.000Z",
-      "snippet": "LeadVenture is hiring Business Development Representatives (BDRs) to help drive growth by creating conversations with prospective customers, building interest in our solutions, and generating qualified pipeline opportunities for our sales …",
-      "source": "himalayas",
-      "closesAt": "2027-01-04T16:45:20.000Z",
-      "id": "808baf0c69ab3e6ae4a21bb33df3a59f210c4969",
-      "track": "tech-sales",
-      "firstSeenAt": "2026-11-05T18:41:39.055Z",
-      "score": 80,
-      "flags": [
-        "entry-level"
-      ],
-      "linkCheckedAt": "2026-11-05T18:41:39.055Z"
+      "linkCheckedAt": "2026-11-05T19:08:37.136Z"
     },
     {
       "title": "Video Data Annotation Specialist",
@@ -153,7 +133,7 @@
         "entry-level",
         "starts-fast"
       ],
-      "linkCheckedAt": "2026-11-05T18:41:39.055Z"
+      "linkCheckedAt": "2026-11-05T19:08:37.136Z"
     },
     {
       "title": "Brand Ambassador",
@@ -175,7 +155,7 @@
       "otherLocations": [
         "James Island, Charleston County"
       ],
-      "linkCheckedAt": "2026-11-05T18:41:39.055Z"
+      "linkCheckedAt": "2026-11-05T19:08:37.136Z"
     },
     {
       "title": "Enterprise Sales Development Representative",
@@ -236,7 +216,7 @@
       "otherLocations": [
         "Saint Louis, Missouri"
       ],
-      "linkCheckedAt": "2026-11-05T18:41:39.055Z"
+      "linkCheckedAt": "2026-11-05T19:08:37.136Z"
     },
     {
       "title": "Remote SDR: Paid Training + Fast-Track B2B Sales",
@@ -256,25 +236,6 @@
         "entry-level"
       ],
       "linkCheckedAt": "2026-11-05T18:41:39.055Z"
-    },
-    {
-      "title": "Healthcare Outbound SDR — Remote & AI-Powered Outreach",
-      "company": "present of AI",
-      "location": "",
-      "remote": true,
-      "pay": "",
-      "url": "https://jobmesh.io/job/036636bc-0bdb-43e3-b948-1a080d120310",
-      "postedAt": "2026-10-30T00:00:00.000Z",
-      "snippet": "via JobMESH. present of AI is seeking an upbeat, entry-level Sales professional in San Francisco with remote work options in the US. You will start conversations with pharmacies and healthcare providers, then schedule meetings for Account …",
-      "source": "jsearch",
-      "id": "0b62f88a1a57cf3a940b0ad5bf1ff486fc5b318c",
-      "track": "tech-sales",
-      "firstSeenAt": "2026-10-31T16:03:41.517Z",
-      "score": 75,
-      "flags": [
-        "entry-level"
-      ],
-      "linkCheckedAt": "2026-11-05T03:27:57.320Z"
     },
     {
       "title": "Application Programmer Analyst/Developer (Entry Level) / Remote",
@@ -318,26 +279,47 @@
       "otherLocations": [
         "Murrells Inlet, Horry County"
       ],
-      "linkCheckedAt": "2026-11-05T18:41:39.055Z"
+      "linkCheckedAt": "2026-11-05T19:08:37.136Z"
     },
     {
-      "title": "Remote SDR: Entry-Level with Full Training & Growth",
-      "company": "AO Globe Life",
-      "location": "",
-      "remote": true,
-      "pay": "$36,000–$60,000/year",
-      "url": "https://www.jobleads.com/us/job/remote-sdr-entry-level-with-full-training-growth--united-states--e1c676570519af85b3ced2a7e7f22e402",
-      "postedAt": "2026-10-20T00:00:00.000Z",
-      "snippet": "via JobLeads. AO Globe Life is seeking a Remote Sales Development Representative to join our entry-level team. You will support customer engagement, handle sales-related tasks, and help create positive client experiences from home. No expe…",
-      "source": "jsearch",
-      "id": "18b1ca2efc2b25291b3e4224f6122211aa03d02e",
-      "track": "tech-sales",
-      "firstSeenAt": "2026-10-26T17:19:32.335Z",
-      "score": 75,
+      "title": "Yacht Sales",
+      "company": "Southpaw Yacht Sales",
+      "location": "West Delray Beach, Palm Beach County (+1 more)",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/land/ad/5954649216?se=nDW8TkzZ8RGiyLcWFRyVsw&utm_medium=api&utm_source=ea9765bf&v=F96E807F2687ABB8DEAFD87974A926F4A14B9F81",
+      "postedAt": "2026-11-05T14:00:44.000Z",
+      "snippet": "Job Description Southpaw Yacht Sales is a leading yacht brokerage firm serving high end clients looking to purchase or sell their next boat. We provide a full-service brokerage experience for our clients. The company has a 17-year history …",
+      "source": "adzuna",
+      "id": "6a0f368dcb8f87a18fc178d884a7068f391b9445",
+      "track": "marine-national",
+      "firstSeenAt": "2026-11-05T19:08:37.136Z",
+      "score": 70,
       "flags": [
-        "entry-level",
-        "high-pay"
+        "far-away",
+        "pay-unknown"
       ],
+      "otherLocations": [
+        "Delray Beach, Palm Beach County"
+      ],
+      "linkCheckedAt": "2026-11-05T19:08:37.136Z"
+    },
+    {
+      "title": "Business Development Representative (Net Driven)",
+      "company": "Net Driven",
+      "location": "Remote — United States",
+      "remote": true,
+      "pay": "",
+      "url": "https://himalayas.app/companies/net-driven/jobs/business-development-representative-net-driven?utm_source=api",
+      "postedAt": "2026-11-05T16:45:21.000Z",
+      "snippet": "LeadVenture is hiring Business Development Representatives (BDRs) to help drive growth by creating conversations with prospective customers, building interest in our solutions, and generating qualified pipeline opportunities for our sales …",
+      "source": "himalayas",
+      "closesAt": "2027-01-04T16:45:20.000Z",
+      "id": "808baf0c69ab3e6ae4a21bb33df3a59f210c4969",
+      "track": "tech-sales",
+      "firstSeenAt": "2026-11-05T18:41:39.055Z",
+      "score": 70,
+      "flags": [],
       "linkCheckedAt": "2026-11-05T18:41:39.055Z"
     },
     {
@@ -381,7 +363,7 @@
         "far-away",
         "pay-unknown"
       ],
-      "linkCheckedAt": "2026-11-05T18:41:39.055Z"
+      "linkCheckedAt": "2026-11-05T19:08:37.136Z"
     },
     {
       "title": "Business Development Representative - USMC",
@@ -437,44 +419,6 @@
         "far-away",
         "live-aboard",
         "high-pay"
-      ],
-      "linkCheckedAt": "2026-11-05T03:27:57.320Z"
-    },
-    {
-      "title": "Entry Level AI Trainer - Remote, No Experience Necessary",
-      "company": "Remote Writer Global",
-      "location": "",
-      "remote": true,
-      "pay": "",
-      "url": "https://www.remotewriterglobal.com/entry-level-ai-trainer-remote-no-experience-necessary/",
-      "postedAt": "2026-10-26T00:00:00.000Z",
-      "snippet": "via Remote Writer Global. We are looking for beginner-friendly candidates to help train AI chatbots as part of a fully remote role. This is a great entry-level opportunity with full training provided — no prior experience required. Roles •…",
-      "source": "jsearch",
-      "id": "f7e7c49634485427f3e8270ce9bcf73f9bb3bb69",
-      "track": "ai-web",
-      "firstSeenAt": "2026-10-29T17:24:38.740Z",
-      "score": 70,
-      "flags": [
-        "entry-level"
-      ],
-      "linkCheckedAt": "2026-11-05T18:41:39.055Z"
-    },
-    {
-      "title": "Remote Junior Web Developer — HTML5/CSS3 & WordPress",
-      "company": "Tested Recruits",
-      "location": "",
-      "remote": true,
-      "pay": "",
-      "url": "https://jobmesh.io/job/1d516997-260e-4fe4-ae90-3388d5c274af",
-      "postedAt": "2026-10-25T00:00:00.000Z",
-      "snippet": "via JobMESH. CT Marketing Agency is seeking a motivated Remote Junior Web Developer to support website development, responsive design, front-end work, and web production tasks. This entry-level role is ideal for recent graduates with basic…",
-      "source": "jsearch",
-      "id": "e924ec515b2f634ebc11fdaf6c5c9e3b7272d0da",
-      "track": "ai-web",
-      "firstSeenAt": "2026-10-27T21:17:06.084Z",
-      "score": 70,
-      "flags": [
-        "entry-level"
       ],
       "linkCheckedAt": "2026-11-05T03:27:57.320Z"
     },
@@ -547,7 +491,7 @@
       "firstSeenAt": "2026-11-03T03:54:58.693Z",
       "score": 65,
       "flags": [],
-      "linkCheckedAt": "2026-11-05T18:41:39.055Z"
+      "linkCheckedAt": "2026-11-05T19:08:37.136Z"
     },
     {
       "title": "Boat Caulker",
@@ -564,7 +508,7 @@
       "firstSeenAt": "2026-11-03T03:54:58.693Z",
       "score": 65,
       "flags": [],
-      "linkCheckedAt": "2026-11-05T18:41:39.055Z"
+      "linkCheckedAt": "2026-11-05T19:08:37.136Z"
     },
     {
       "title": "Sales Development Representative",
@@ -598,7 +542,7 @@
       "firstSeenAt": "2026-11-01T17:06:03.613Z",
       "score": 65,
       "flags": [],
-      "linkCheckedAt": "2026-11-05T18:41:39.055Z"
+      "linkCheckedAt": "2026-11-05T19:08:37.136Z"
     },
     {
       "title": "Sales Development Representative, Clinical Search",
@@ -615,7 +559,7 @@
       "firstSeenAt": "2026-11-01T17:06:03.613Z",
       "score": 65,
       "flags": [],
-      "linkCheckedAt": "2026-11-05T18:41:39.055Z"
+      "linkCheckedAt": "2026-11-05T19:08:37.136Z"
     },
     {
       "title": "Private 37m Yacht Deckhand — US Citizens/Green Card",
@@ -711,7 +655,7 @@
       "firstSeenAt": "2026-10-29T17:24:38.740Z",
       "score": 65,
       "flags": [],
-      "linkCheckedAt": "2026-11-05T18:41:39.055Z"
+      "linkCheckedAt": "2026-11-05T19:08:37.136Z"
     },
     {
       "title": "Parking Valet Attendant - Hotel",
@@ -728,7 +672,7 @@
       "firstSeenAt": "2026-10-29T17:24:38.740Z",
       "score": 65,
       "flags": [],
-      "linkCheckedAt": "2026-11-05T18:41:39.055Z"
+      "linkCheckedAt": "2026-11-05T19:08:37.136Z"
     },
     {
       "title": "Parking Valet Attendant - Overnight",
@@ -745,7 +689,7 @@
       "firstSeenAt": "2026-10-29T17:24:38.740Z",
       "score": 65,
       "flags": [],
-      "linkCheckedAt": "2026-11-05T18:41:39.055Z"
+      "linkCheckedAt": "2026-11-05T19:08:37.136Z"
     },
     {
       "title": "Valet Attendant - Myrtle Beach, SC",
@@ -762,7 +706,7 @@
       "firstSeenAt": "2026-10-28T17:09:06.638Z",
       "score": 65,
       "flags": [],
-      "linkCheckedAt": "2026-11-05T18:41:39.055Z"
+      "linkCheckedAt": "2026-11-05T19:08:37.136Z"
     },
     {
       "title": "Part – Time Lead Service Valet – Truck Required – Evening Shift",
@@ -781,26 +725,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-05T18:41:39.055Z"
-    },
-    {
-      "title": "AI Recruiting SDR — US-Based, Visa Sponsorship",
-      "company": "Not Disclosed",
-      "location": "",
-      "remote": true,
-      "pay": "$50,000–$80,000/year",
-      "url": "https://www.jobleads.com/us/job/ai-recruiting-sdr-us-based-visa-sponsorship--united-states--ef661633c8f0a734d3e1d032a3bb9a62a",
-      "postedAt": "2026-10-23T00:00:00.000Z",
-      "snippet": "via JobLeads. Not Disclosed is an early-stage AI recruiting technology company looking for a client acquisition specialist. You will connect with founders and hiring leaders to generate qualified meetings and drive pipeline growth. Respond…",
-      "source": "jsearch",
-      "id": "10f143b6a11d3554ea89b098bfe26f7b979f9429",
-      "track": "tech-sales",
-      "firstSeenAt": "2026-10-28T02:10:45.471Z",
-      "score": 65,
-      "flags": [
-        "high-pay"
-      ],
-      "linkCheckedAt": "2026-11-05T03:27:57.320Z"
+      "linkCheckedAt": "2026-11-05T19:08:37.136Z"
     },
     {
       "title": "Special Operations AI Scenario Evaluator",
@@ -862,23 +787,6 @@
       "linkCheckedAt": "2026-11-05T03:27:57.320Z"
     },
     {
-      "title": "Convenience Center Site Attendant - Bees Ferry",
-      "company": "Charleston County Government",
-      "location": "Adams Run, Charleston County",
-      "remote": false,
-      "pay": "$31,200–$35,276/year",
-      "url": "https://www.adzuna.com/details/5941447893?utm_medium=api&utm_source=ea9765bf",
-      "postedAt": "2026-10-25T08:01:34.000Z",
-      "snippet": "Description Charleston County Environmental Management is looking for a highly motivated, safety-minded individual who likes working outdoors, assisting members of the general public, providing outstanding customer service and performing a…",
-      "source": "adzuna",
-      "id": "e87cdc934694df791963dcedaa4f464609847d71",
-      "track": "marine-chs",
-      "firstSeenAt": "2026-10-25T14:56:13.466Z",
-      "score": 65,
-      "flags": [],
-      "linkCheckedAt": "2026-11-05T18:41:39.055Z"
-    },
-    {
       "title": "Valet Attendant - $20 Per Hour Plus Tips",
       "company": "Evolution Parking & Guest Services",
       "location": "James Island, Charleston County",
@@ -895,7 +803,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-05T18:41:39.055Z"
+      "linkCheckedAt": "2026-11-05T19:08:37.136Z"
     },
     {
       "title": "Overnight Valet Attendant",
@@ -914,7 +822,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-05T18:41:39.055Z"
+      "linkCheckedAt": "2026-11-05T19:08:37.136Z"
     },
     {
       "title": "AI Trainer - Video Annotation",
@@ -934,7 +842,7 @@
         "high-pay"
       ],
       "otherLocations": [],
-      "linkCheckedAt": "2026-11-05T18:41:39.055Z"
+      "linkCheckedAt": "2026-11-05T19:08:37.136Z"
     },
     {
       "title": "PT Sales Associate - Seasonal",
@@ -1014,7 +922,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-05T18:41:39.055Z"
+      "linkCheckedAt": "2026-11-05T19:08:37.136Z"
     },
     {
       "title": "Marine Construction Crew Member",
@@ -1034,7 +942,7 @@
         "live-aboard",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-05T18:41:39.055Z"
+      "linkCheckedAt": "2026-11-05T19:08:37.136Z"
     },
     {
       "title": "Data Annotation Specialist - Computer Vision",
@@ -1053,7 +961,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-05T18:41:39.055Z"
+      "linkCheckedAt": "2026-11-05T19:08:37.136Z"
     },
     {
       "title": "MARINE DECKHAND - TRAVEL REQUIRED",
@@ -1223,26 +1131,6 @@
       "linkCheckedAt": "2026-11-05T18:41:39.055Z"
     },
     {
-      "title": "Remote Sales with Entry Level Leadership",
-      "company": "Globe Life American Income Division: Fisher Organization",
-      "location": "",
-      "remote": true,
-      "pay": "$65,000–$125,000/year",
-      "url": "https://www.linkedin.com/jobs/view/remote-sales-with-entry-level-leadership-at-globe-life-american-income-division-fisher-organization-4485620365",
-      "postedAt": "2026-10-30T21:00:00.000Z",
-      "snippet": "via LinkedIn. **Remote Benefits & Client Support Representative (Entry-Level)** • Location:** Remote (U.S.) • Schedule:** Full-Time | Flexible Hours **About the Opportunity** We're growing our remote team and seeking motivated individuals …",
-      "source": "jsearch",
-      "id": "59c2798f173f4f7f4fb7b0185a18fee29bfad7e4",
-      "track": "tech-sales",
-      "firstSeenAt": "2026-10-31T16:03:41.517Z",
-      "score": 60,
-      "flags": [
-        "entry-level",
-        "high-pay"
-      ],
-      "linkCheckedAt": "2026-11-05T18:41:39.055Z"
-    },
-    {
       "title": "AI Photo Evaluation Rater",
       "company": "OpenTrain AI",
       "location": "",
@@ -1349,26 +1237,6 @@
       "linkCheckedAt": "2026-11-05T18:41:39.055Z"
     },
     {
-      "title": "Executive Steward",
-      "company": "CoralTree Hospitality",
-      "location": "Port Everglades, Broward County",
-      "remote": false,
-      "pay": "",
-      "url": "https://www.adzuna.com/details/5929146401?utm_medium=api&utm_source=ea9765bf",
-      "postedAt": "2026-10-15T11:28:43.000Z",
-      "snippet": "South Florida’s beacon of hospitality, Pier Sixty-Six Resort returned to Fort Lauderdale. From the famed superyacht marina to the iconic spires of the rotating Pier-Top lounge, a new world of elevated experiences is set to unfold around it…",
-      "source": "adzuna",
-      "id": "bfcb808dd0822e2e23ac3ccc14b73722e609b68f",
-      "track": "marine-national",
-      "firstSeenAt": "2026-10-29T17:24:38.740Z",
-      "score": 60,
-      "flags": [
-        "far-away",
-        "live-aboard"
-      ],
-      "linkCheckedAt": "2026-11-05T18:41:39.055Z"
-    },
-    {
       "title": "Steward(ess) - 43m Private Motor Yacht",
       "company": "Bluewater Yachting",
       "location": "",
@@ -1404,7 +1272,7 @@
       "firstSeenAt": "2026-10-28T17:09:06.638Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-11-05T18:41:39.055Z"
+      "linkCheckedAt": "2026-11-05T19:08:37.136Z"
     },
     {
       "title": "Yacht StarShip Deckhand at Manthey Hospitality Tampa, FL",
@@ -1517,7 +1385,7 @@
       "firstSeenAt": "2026-10-25T14:56:13.466Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-11-05T18:41:39.055Z"
+      "linkCheckedAt": "2026-11-05T19:08:37.136Z"
     },
     {
       "title": "Graduate Sales Development Representative",
@@ -1553,7 +1421,7 @@
       "flags": [
         "live-aboard"
       ],
-      "linkCheckedAt": "2026-11-05T18:41:39.055Z"
+      "linkCheckedAt": "2026-11-05T19:08:37.136Z"
     },
     {
       "title": "Deckhand",
@@ -1625,7 +1493,7 @@
       "firstSeenAt": "2026-10-18T14:32:37.273Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-11-05T18:41:39.055Z"
+      "linkCheckedAt": "2026-11-05T19:08:37.136Z"
     },
     {
       "title": "Business Development Representative - Healthcare",
@@ -1680,7 +1548,7 @@
         "drug-test",
         "live-aboard"
       ],
-      "linkCheckedAt": "2026-11-05T18:41:39.055Z"
+      "linkCheckedAt": "2026-11-05T19:08:37.136Z"
     },
     {
       "title": "Deckhand",
@@ -1700,7 +1568,7 @@
         "far-away",
         "live-aboard"
       ],
-      "linkCheckedAt": "2026-11-05T18:41:39.055Z"
+      "linkCheckedAt": "2026-11-05T19:08:37.136Z"
     },
     {
       "title": "Assistant Dockmaster - Deep Point Marina",
@@ -1717,7 +1585,7 @@
       "firstSeenAt": "2026-10-15T22:25:32.969Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-11-05T18:41:39.055Z"
+      "linkCheckedAt": "2026-11-05T19:08:37.136Z"
     },
     {
       "title": "SDR (Sales Development Representative)",
@@ -1754,6 +1622,23 @@
       "linkCheckedAt": "2026-11-05T03:27:57.320Z"
     },
     {
+      "title": "Community Ambassador",
+      "company": "CCMC",
+      "location": "Lincolnville, Dorchester County",
+      "remote": false,
+      "pay": "$41,600–$45,760/year",
+      "url": "https://www.adzuna.com/details/5953890485?utm_medium=api&utm_source=ea9765bf",
+      "postedAt": "2026-11-05T01:16:02.000Z",
+      "snippet": "We’re CCMC, a community management company specializing in master-planned communities. Our vision of inspiring a resident-centric focus is brought to life by our core values: Integrity, Respect, Service and Community. About the Community: …",
+      "source": "adzuna",
+      "id": "b5580e3b06e28e28da073c30802a948cf016b493",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-11-05T19:08:37.136Z",
+      "score": 55,
+      "flags": [],
+      "linkCheckedAt": "2026-11-05T19:08:37.136Z"
+    },
+    {
       "title": "Ambassador",
       "company": "PCI Municipal Services",
       "location": "Folly Beach, Charleston County",
@@ -1768,7 +1653,8 @@
       "firstSeenAt": "2026-11-05T18:41:39.055Z",
       "score": 55,
       "flags": [],
-      "linkCheckedAt": "2026-11-05T18:41:39.055Z"
+      "linkCheckedAt": "2026-11-05T18:41:39.055Z",
+      "otherLocations": []
     },
     {
       "title": "LOCK AND DAM OPERATOR",
@@ -1789,7 +1675,7 @@
         "far-away",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-05T18:41:39.055Z"
+      "linkCheckedAt": "2026-11-05T19:08:37.136Z"
     },
     {
       "title": "Ambassador",
@@ -1823,7 +1709,7 @@
       "firstSeenAt": "2026-11-04T18:36:58.377Z",
       "score": 55,
       "flags": [],
-      "linkCheckedAt": "2026-11-05T18:41:39.055Z"
+      "linkCheckedAt": "2026-11-05T19:08:37.136Z"
     },
     {
       "title": "CUSTOMER AMBASSADOR (FULL TIME)",
@@ -1918,7 +1804,7 @@
       "flags": [
         "starts-fast"
       ],
-      "linkCheckedAt": "2026-11-05T18:41:39.055Z"
+      "linkCheckedAt": "2026-11-05T19:08:37.136Z"
     },
     {
       "title": "Special Events Coordinator",
@@ -1937,7 +1823,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-05T18:41:39.055Z"
+      "linkCheckedAt": "2026-11-05T19:08:37.136Z"
     },
     {
       "title": "Entry Level Outside Sales Trainee",
@@ -1974,7 +1860,7 @@
       "firstSeenAt": "2026-11-04T18:36:58.377Z",
       "score": 45,
       "flags": [],
-      "linkCheckedAt": "2026-11-05T18:41:39.055Z"
+      "linkCheckedAt": "2026-11-05T19:08:37.136Z"
     },
     {
       "title": "Product Demonstrator",
@@ -2039,26 +1925,7 @@
       "score": 45,
       "flags": [],
       "otherLocations": [],
-      "linkCheckedAt": "2026-11-05T18:41:39.055Z"
-    },
-    {
-      "title": "Remote Sales with Career Growth Opportunity",
-      "company": "Eaton Insurance Group",
-      "location": "",
-      "remote": true,
-      "pay": "$80,000–$120,000/year",
-      "url": "https://www.linkedin.com/jobs/view/remote-sales-with-career-growth-opportunity-at-eaton-insurance-group-4482908638",
-      "postedAt": "2026-10-26T00:00:00.000Z",
-      "snippet": "via LinkedIn. About the job Build Your Career Before You Graduate Eaton Insurance Group is expanding its nationwide sales organization and seeking motivated college students who want more than a traditional internship. This opportunity pro…",
-      "source": "jsearch",
-      "id": "64eba28b4e92532e0bfb9ae2b254cd87819a23ea",
-      "track": "tech-sales",
-      "firstSeenAt": "2026-10-28T02:10:45.471Z",
-      "score": 45,
-      "flags": [
-        "high-pay"
-      ],
-      "linkCheckedAt": "2026-11-05T03:27:57.320Z"
+      "linkCheckedAt": "2026-11-05T19:08:37.136Z"
     },
     {
       "title": "Field Sales and Marketing Representative- Myrtle Beach, SC",
@@ -2137,7 +2004,7 @@
         "far-away",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-05T18:41:39.055Z"
+      "linkCheckedAt": "2026-11-05T19:08:37.136Z"
     },
     {
       "title": "Guest Services Ambassador",
@@ -2154,7 +2021,7 @@
       "firstSeenAt": "2026-11-05T18:41:39.055Z",
       "score": 40,
       "flags": [],
-      "linkCheckedAt": "2026-11-05T18:41:39.055Z"
+      "linkCheckedAt": "2026-11-05T19:08:37.136Z"
     },
     {
       "title": "Sales Executive, Promotional Products",
@@ -2228,7 +2095,7 @@
         "James Island, Charleston County",
         "Charleston, Charleston County"
       ],
-      "linkCheckedAt": "2026-11-05T18:41:39.055Z"
+      "linkCheckedAt": "2026-11-05T19:08:37.136Z"
     },
     {
       "title": "Pandora Jewelry Sales Specialist, Coastal Grand Mall",
@@ -2262,7 +2129,7 @@
       "firstSeenAt": "2026-10-26T17:19:32.335Z",
       "score": 40,
       "flags": [],
-      "linkCheckedAt": "2026-11-05T18:41:39.055Z"
+      "linkCheckedAt": "2026-11-05T19:08:37.136Z"
     },
     {
       "title": "Refractory Sales Representative",
@@ -2279,7 +2146,7 @@
       "firstSeenAt": "2026-10-25T19:34:58.130Z",
       "score": 40,
       "flags": [],
-      "linkCheckedAt": "2026-11-05T18:41:39.055Z"
+      "linkCheckedAt": "2026-11-05T19:08:37.136Z"
     },
     {
       "title": "Leasing Ambassador (Build to Rent) (Part Time)",
@@ -2296,7 +2163,7 @@
       "firstSeenAt": "2026-10-24T13:42:05.182Z",
       "score": 40,
       "flags": [],
-      "linkCheckedAt": "2026-11-05T18:41:39.055Z"
+      "linkCheckedAt": "2026-11-05T19:08:37.136Z"
     },
     {
       "title": "Sales Representative - Uniform",
@@ -2331,7 +2198,7 @@
       "firstSeenAt": "2026-10-15T22:25:32.969Z",
       "score": 40,
       "flags": [],
-      "linkCheckedAt": "2026-11-05T18:41:39.055Z"
+      "linkCheckedAt": "2026-11-05T19:08:37.136Z"
     },
     {
       "title": "Retail Display Installer - Technology",
