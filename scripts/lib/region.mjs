@@ -12,7 +12,7 @@ export function inHomeRegion(location) {
   return text.split(';').some(part => {
     const state = part.match(/(?:,|\s)\s*(South Carolina|North Carolina|SC|NC|[A-Z]{2}|Alabama|Alaska|Arizona|Arkansas|California|Colorado|Connecticut|Delaware|Florida|Georgia|Hawaii|Idaho|Illinois|Indiana|Iowa|Kansas|Kentucky|Louisiana|Maine|Maryland|Massachusetts|Michigan|Minnesota|Mississippi|Missouri|Montana|Nebraska|Nevada|New Hampshire|New Jersey|New Mexico|New York|North Dakota|Ohio|Oklahoma|Oregon|Pennsylvania|Rhode Island|South Dakota|Tennessee|Texas|Utah|Vermont|Virginia|Washington|West Virginia|Wisconsin|Wyoming)(?:\s+\d{5})?\s*$/i)?.[1]?.toLowerCase();
     if (!state && /,/.test(part) && /\b(?:Marion|Florence|Berkeley|Dorchester|Brunswick) County\b/i.test(part) &&
-      !bound([...SC_CITIES, ...NC_CITIES, 'Marion', 'Florence', 'Mullins', 'Lake City', 'Johnsonville', 'Pamplico', 'Timmonsville', 'Bonneau', 'St. Stephen', 'Ridgeville', 'St. George']).test(part.split(',')[0])) return false;
+      !bound([...SC_CITIES, ...NC_CITIES, 'Marion', 'Florence', 'Mullins', 'Lake City', 'Johnsonville', 'Pamplico', 'Timmonsville', 'Bonneau', 'St. Stephen', 'Ridgeville', 'St. George', 'Lincolnville', 'Harleyville', 'Reevesville']).test(part.split(',')[0])) return false;
     if (state && !['sc', 'nc', 'south carolina', 'north carolina'].includes(state)) return false;
     return (!state || state === 'sc' || state === 'south carolina') && sc.test(part) ||
       (!state || state === 'nc' || state === 'north carolina') && nc.test(part);

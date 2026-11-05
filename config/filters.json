@@ -41,13 +41,36 @@
     "66ghz.com",
     "hireloom",
     "firstremote",
-    "allboardsolutions"
+    "allboardsolutions",
+    "remotewriterglobal",
+    "tested recruits",
+    "present of ai"
   ],
   "skipCompanies": [
     {
       "name": "Beauty Barrage",
       "reason": "needs-experience",
       "why": "Every Brand Market Specialist posting requires prior beauty-retail experience (checked 2026-10-16)."
+    },
+    {
+      "name": "Globe Life",
+      "reason": "commission-insurance",
+      "why": "Globe Life / American Income / AO agencies post insurance-agent recruiting as \"SDR\" or \"entry level leadership\"; pay is commission on policies sold (checked 2026-11-05)."
+    },
+    {
+      "name": "American Income Life",
+      "reason": "commission-insurance",
+      "why": "Same Globe Life insurance-agent recruiting (checked 2026-11-05)."
+    },
+    {
+      "name": "Eaton Insurance Group",
+      "reason": "commission-insurance",
+      "why": "\"Remote sales with career growth\" is insurance-agent recruiting with commission pay (checked 2026-11-05)."
+    },
+    {
+      "name": "Not Disclosed",
+      "reason": "hidden-employer",
+      "why": "Repost with the employer hidden; cannot verify or apply directly (checked 2026-11-05)."
     }
   ],
   "excludeJobs": [

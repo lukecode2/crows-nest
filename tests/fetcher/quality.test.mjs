@@ -159,3 +159,20 @@ test('hotel restaurant steward is not a live-aboard job', () => {
   assert.equal(isLiveAboard('Steward, Olive & Sea - Hilton Fort Lauderdale Marina'), false);
   assert.equal(isLiveAboard('Yacht Stewardess'), true);
 });
+
+test('road names and hotel stewards are not marine titles', () => {
+  for (const title of ['Convenience Center Site Attendant - Bees Ferry', 'Executive Steward', 'Recycling Center Attendant']) {
+    assert.equal(isMarineTitle(title), false, title);
+    assert.equal(applyFilters([job(title, { company: 'Charleston County Government', track: 'marine-chs' })]).length, 0, title);
+  }
+});
+
+test('Dorchester County SC towns count as home and long remote country lists keep the US', async () => {
+  const { inHomeRegion, remoteAbroad } = await import('../../scripts/lib/region.mjs');
+  const { remoteJobs } = await import('../../scripts/lib/source-utils.mjs');
+  assert.equal(inHomeRegion('Lincolnville, Dorchester County'), true);
+  const countries = 'Australia, Austria, Belgium, Canada, Czechia, Denmark, Finland, France, Germany, Ireland, Netherlands, Norway, Singapore, Spain, Sweden, Switzerland, UK, USA';
+  const [j] = remoteJobs([{ title: 'AI Content Reviewer', company: 'iMerit', eligible: countries, snippet: '' }]);
+  assert.match(j.location, /^Remote — USA, Australia/);
+  assert.equal(remoteAbroad(j), false);
+});

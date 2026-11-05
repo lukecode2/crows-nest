@@ -18,8 +18,14 @@ export function pay(min, max, interval = '') {
   return `${amount}/${interval || (Number(max ?? min) < 200 ? 'hour' : 'year')}`;
 }
 // `eligible` is the board's own "who can apply" text (e.g. "USA, Canada"), kept so remoteAbroad() can read it.
+// Long country lists get cut to 120 characters; put the US first so remoteAbroad() still sees it.
+const usFirst = eligible => {
+  const text = cleanText(eligible, Infinity);
+  const us = /\b(?:USA|US|U\.S\.A?\.?|United States(?: of America)?)\b/.exec(text);
+  return cleanText(us && us.index > 0 ? `${us[0]}, ${text.slice(0, us.index)}${text.slice(us.index + us[0].length)}`.replace(/,\s*,/g, ',').replace(/,\s*$/, '') : text, 120);
+};
 export function remoteJobs(jobs) {
-  return jobs.filter(j => SALES.test(j.title) || WEB.test(j.title)).map(({ eligible, ...j }) => ({ ...j, remote: true, location: eligible ? `Remote — ${cleanText(eligible, 120)}` : 'Remote', trackHint: SALES.test(j.title) ? (TEMP.test(`${j.title} ${j.snippet}`) ? 'quick-cash' : 'tech-sales') : 'ai-web' }));
+  return jobs.filter(j => SALES.test(j.title) || WEB.test(j.title)).map(({ eligible, ...j }) => ({ ...j, remote: true, location: eligible ? `Remote — ${usFirst(eligible)}` : 'Remote', trackHint: SALES.test(j.title) ? (TEMP.test(`${j.title} ${j.snippet}`) ? 'quick-cash' : 'tech-sales') : 'ai-web' }));
 }
 // A broken company/query must not discard other successful results. All failing is a source error.
 export async function collect(entries, worker, ctx, concurrency = 3) {

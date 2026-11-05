@@ -5,7 +5,7 @@ const lower = value => String(value || '').trim().toLowerCase();
 const escaped = value => value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 export const MARINE_TITLE = /\b(?:deck ?hands?|dock ?hands?|deck crew|boats?|boating|marina|marine|maritime|yachts?|yachting|vessel|seaman|mariner|ferry|tug(?:boat)?|barge|ship(?:yard)?|sailing|sailor|charter|harbou?r|able seaman|AB|OS|wiper|oiler|stew(?:ard|ardess)?|day ?worker|ocean rescue|lifeguard)\b/i;
 export function isMarineTitle(title) {
-  if (/banker|landfill|physician|surgeon|nurse|architect|banquet|catering/i.test(title || '')) return false;
+  if (/banker|landfill|convenience center|recycling|transfer station|executive steward|stewarding|physician|surgeon|nurse|architect|banquet|catering/i.test(title || '')) return false;
   return MARINE_TITLE.test(title || '') || /\bcaptain\b/i.test(title || '') && /\b(?:boat|marine|vessel|charter|tug|ferry|yacht|fishing)\b/i.test(title || '');
 }
 export function isCruise(job, filters = {}) {
