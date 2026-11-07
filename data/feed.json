@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T16:49:43.945Z",
+  "generatedAt": "2026-11-07T20:51:09.580Z",
   "sources": [
     {
       "name": "adzuna",
@@ -16,7 +16,7 @@
     {
       "name": "jsearch",
       "ok": true,
-      "count": 10,
+      "count": 7,
       "error": null
     },
     {
@@ -34,13 +34,13 @@
     {
       "name": "jobicy",
       "ok": true,
-      "count": 123,
+      "count": 115,
       "error": null
     },
     {
       "name": "himalayas",
       "ok": true,
-      "count": 2,
+      "count": 1,
       "error": null
     },
     {
@@ -93,7 +93,7 @@
         "entry-level",
         "starts-fast"
       ],
-      "linkCheckedAt": "2026-11-07T16:49:43.945Z"
+      "linkCheckedAt": "2026-11-07T20:51:09.580Z"
     },
     {
       "title": "Spa Stew",
@@ -135,7 +135,7 @@
         "entry-level",
         "starts-fast"
       ],
-      "linkCheckedAt": "2026-11-07T16:49:43.945Z"
+      "linkCheckedAt": "2026-11-07T20:51:09.580Z"
     },
     {
       "title": "Sole Yacht Stewardess for FLIBS 2026 — Fort Lauderdale",
@@ -177,7 +177,7 @@
         "entry-level",
         "starts-fast"
       ],
-      "linkCheckedAt": "2026-11-07T16:49:43.945Z"
+      "linkCheckedAt": "2026-11-07T20:51:09.580Z"
     },
     {
       "title": "AI Content Reviewer Video Annotation",
@@ -196,26 +196,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-07T16:49:43.945Z"
-    },
-    {
-      "title": "Brand Ambassador",
-      "company": "Carbliss",
-      "location": "James Island, Charleston County",
-      "remote": false,
-      "pay": "$31.50/hour",
-      "url": "https://www.adzuna.com/details/5953564026?utm_medium=api&utm_source=ea9765bf",
-      "postedAt": "2026-11-04T20:18:19.000Z",
-      "snippet": "Brand Ambassador A Brand Ambassador is an Independent Contractor About the Role SNFood & Beverage is seeking independent contractors to help promote our products and increase brand awareness at various events. As a Brand Ambassador, you wi…",
-      "source": "adzuna",
-      "id": "6bb8af3e99290ca652ac0638d2e8beadbb50f070",
-      "track": "quick-cash",
-      "firstSeenAt": "2026-11-06T03:24:04.088Z",
-      "score": 75,
-      "flags": [
-        "high-pay"
-      ],
-      "linkCheckedAt": "2026-11-07T16:49:43.945Z"
+      "linkCheckedAt": "2026-11-07T20:51:09.580Z"
     },
     {
       "title": "Remote B2B Sales SDR - Earn ~$67K First Year",
@@ -278,7 +259,7 @@
       "otherLocations": [
         "Murrells Inlet, Horry County"
       ],
-      "linkCheckedAt": "2026-11-07T16:49:43.945Z"
+      "linkCheckedAt": "2026-11-07T20:51:09.580Z"
     },
     {
       "title": "Event Coordinator - Myrtle Beach",
@@ -316,7 +297,8 @@
         "far-away",
         "pay-unknown"
       ],
-      "linkCheckedAt": "2026-11-07T16:49:43.945Z"
+      "linkCheckedAt": "2026-11-07T16:49:43.945Z",
+      "otherLocations": []
     },
     {
       "title": "3D & LiDAR Data Annotation Analyst",
@@ -333,7 +315,7 @@
       "firstSeenAt": "2026-11-07T02:45:24.729Z",
       "score": 70,
       "flags": [],
-      "linkCheckedAt": "2026-11-07T16:49:43.945Z"
+      "linkCheckedAt": "2026-11-07T20:51:09.580Z"
     },
     {
       "title": "Deckhand Offshore Vessel",
@@ -354,6 +336,25 @@
         "live-aboard"
       ],
       "linkCheckedAt": "2026-11-07T16:49:43.945Z"
+    },
+    {
+      "title": "Brand Ambassador",
+      "company": "Carbliss",
+      "location": "James Island, Charleston County",
+      "remote": false,
+      "pay": "$31.50/hour",
+      "url": "https://www.adzuna.com/details/5953564026?utm_medium=api&utm_source=ea9765bf",
+      "postedAt": "2026-11-04T20:18:19.000Z",
+      "snippet": "Brand Ambassador A Brand Ambassador is an Independent Contractor About the Role SNFood & Beverage is seeking independent contractors to help promote our products and increase brand awareness at various events. As a Brand Ambassador, you wi…",
+      "source": "adzuna",
+      "id": "6bb8af3e99290ca652ac0638d2e8beadbb50f070",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-11-06T03:24:04.088Z",
+      "score": 70,
+      "flags": [
+        "high-pay"
+      ],
+      "linkCheckedAt": "2026-11-07T20:51:09.580Z"
     },
     {
       "title": "Business Development Representative (Net Driven)",
@@ -413,7 +414,7 @@
       "otherLocations": [
         "Saint Louis, Missouri"
       ],
-      "linkCheckedAt": "2026-11-07T16:49:43.945Z"
+      "linkCheckedAt": "2026-11-07T20:51:09.580Z"
     },
     {
       "title": "Remote SDR: Paid Training + Fast-Track B2B Sales",
@@ -566,7 +567,7 @@
         "far-away",
         "pay-unknown"
       ],
-      "linkCheckedAt": "2026-11-07T16:49:43.945Z"
+      "linkCheckedAt": "2026-11-07T20:51:09.580Z"
     },
     {
       "title": "Business Development Representative - USMC",
@@ -619,7 +620,7 @@
       "firstSeenAt": "2026-11-03T03:54:58.693Z",
       "score": 65,
       "flags": [],
-      "linkCheckedAt": "2026-11-07T16:49:43.945Z"
+      "linkCheckedAt": "2026-11-07T20:51:09.580Z"
     },
     {
       "title": "Boat Caulker",
@@ -636,7 +637,7 @@
       "firstSeenAt": "2026-11-03T03:54:58.693Z",
       "score": 65,
       "flags": [],
-      "linkCheckedAt": "2026-11-07T16:49:43.945Z"
+      "linkCheckedAt": "2026-11-07T20:51:09.580Z"
     },
     {
       "title": "Sales Development Representative",
@@ -670,7 +671,7 @@
       "firstSeenAt": "2026-11-01T17:06:03.613Z",
       "score": 65,
       "flags": [],
-      "linkCheckedAt": "2026-11-07T16:49:43.945Z"
+      "linkCheckedAt": "2026-11-07T20:51:09.580Z"
     },
     {
       "title": "Sales Development Representative, Clinical Search",
@@ -687,7 +688,7 @@
       "firstSeenAt": "2026-11-01T17:06:03.613Z",
       "score": 65,
       "flags": [],
-      "linkCheckedAt": "2026-11-07T16:49:43.945Z"
+      "linkCheckedAt": "2026-11-07T20:51:09.580Z"
     },
     {
       "title": "Deckhand, Marine",
@@ -787,7 +788,7 @@
       "firstSeenAt": "2026-10-29T17:24:38.740Z",
       "score": 65,
       "flags": [],
-      "linkCheckedAt": "2026-11-07T16:49:43.945Z"
+      "linkCheckedAt": "2026-11-07T20:51:09.580Z"
     },
     {
       "title": "Parking Valet Attendant - Hotel",
@@ -838,7 +839,7 @@
       "firstSeenAt": "2026-10-28T17:09:06.638Z",
       "score": 65,
       "flags": [],
-      "linkCheckedAt": "2026-11-07T16:49:43.945Z"
+      "linkCheckedAt": "2026-11-07T20:51:09.580Z"
     },
     {
       "title": "Part – Time Lead Service Valet – Truck Required – Evening Shift",
@@ -857,7 +858,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-07T16:49:43.945Z"
+      "linkCheckedAt": "2026-11-07T20:51:09.580Z"
     },
     {
       "title": "Special Operations AI Scenario Evaluator",
@@ -935,7 +936,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-07T16:49:43.945Z"
+      "linkCheckedAt": "2026-11-07T20:51:09.580Z"
     },
     {
       "title": "Overnight Valet Attendant",
@@ -954,7 +955,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-07T16:49:43.945Z"
+      "linkCheckedAt": "2026-11-07T20:51:09.580Z"
     },
     {
       "title": "AI Trainer - Video Annotation",
@@ -974,7 +975,7 @@
         "high-pay"
       ],
       "otherLocations": [],
-      "linkCheckedAt": "2026-11-07T16:49:43.945Z"
+      "linkCheckedAt": "2026-11-07T20:51:09.580Z"
     },
     {
       "title": "PT Sales Associate - Seasonal",
@@ -1054,7 +1055,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-07T16:49:43.945Z"
+      "linkCheckedAt": "2026-11-07T20:51:09.580Z"
     },
     {
       "title": "Marine Construction Crew Member",
@@ -1074,7 +1075,7 @@
         "live-aboard",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-07T16:49:43.945Z"
+      "linkCheckedAt": "2026-11-07T20:51:09.580Z"
     },
     {
       "title": "Data Annotation Specialist - Computer Vision",
@@ -1093,7 +1094,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-07T16:49:43.945Z"
+      "linkCheckedAt": "2026-11-07T20:51:09.580Z"
     },
     {
       "title": "MARINE DECKHAND - TRAVEL REQUIRED",
@@ -1482,7 +1483,7 @@
       "firstSeenAt": "2026-10-28T17:09:06.638Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-11-07T16:49:43.945Z"
+      "linkCheckedAt": "2026-11-07T20:51:09.580Z"
     },
     {
       "title": "Yacht StarShip Deckhand at Manthey Hospitality Tampa, FL",
@@ -1595,7 +1596,7 @@
       "firstSeenAt": "2026-10-25T14:56:13.466Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-11-07T16:49:43.945Z"
+      "linkCheckedAt": "2026-11-07T20:51:09.580Z"
     },
     {
       "title": "Graduate Sales Development Representative",
@@ -1631,7 +1632,7 @@
       "flags": [
         "live-aboard"
       ],
-      "linkCheckedAt": "2026-11-07T16:49:43.945Z"
+      "linkCheckedAt": "2026-11-07T20:51:09.580Z"
     },
     {
       "title": "Deckhand",
@@ -1685,7 +1686,7 @@
       "firstSeenAt": "2026-10-18T14:32:37.273Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-11-07T16:49:43.945Z"
+      "linkCheckedAt": "2026-11-07T20:51:09.580Z"
     },
     {
       "title": "Business Development Representative - Healthcare",
@@ -1740,7 +1741,7 @@
         "drug-test",
         "live-aboard"
       ],
-      "linkCheckedAt": "2026-11-07T16:49:43.945Z"
+      "linkCheckedAt": "2026-11-07T20:51:09.580Z"
     },
     {
       "title": "Deckhand",
@@ -1760,7 +1761,7 @@
         "far-away",
         "live-aboard"
       ],
-      "linkCheckedAt": "2026-11-07T16:49:43.945Z"
+      "linkCheckedAt": "2026-11-07T20:51:09.580Z"
     },
     {
       "title": "Assistant Dockmaster - Deep Point Marina",
@@ -1777,7 +1778,7 @@
       "firstSeenAt": "2026-10-15T22:25:32.969Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-11-07T16:49:43.945Z"
+      "linkCheckedAt": "2026-11-07T20:51:09.580Z"
     },
     {
       "title": "SDR (Sales Development Representative)",
@@ -1828,7 +1829,7 @@
       "firstSeenAt": "2026-11-07T16:49:43.945Z",
       "score": 55,
       "flags": [],
-      "linkCheckedAt": "2026-11-07T16:49:43.945Z"
+      "linkCheckedAt": "2026-11-07T20:51:09.580Z"
     },
     {
       "title": "Ambassador",
@@ -1845,7 +1846,8 @@
       "firstSeenAt": "2026-11-07T16:49:43.945Z",
       "score": 55,
       "flags": [],
-      "linkCheckedAt": "2026-11-07T16:49:43.945Z"
+      "linkCheckedAt": "2026-11-07T16:49:43.945Z",
+      "otherLocations": []
     },
     {
       "title": "Temporary Sales Associate",
@@ -1881,7 +1883,7 @@
       "firstSeenAt": "2026-11-05T19:08:37.136Z",
       "score": 55,
       "flags": [],
-      "linkCheckedAt": "2026-11-07T16:49:43.945Z"
+      "linkCheckedAt": "2026-11-07T20:51:09.580Z"
     },
     {
       "title": "LOCK AND DAM OPERATOR",
@@ -1902,7 +1904,7 @@
         "far-away",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-07T16:49:43.945Z"
+      "linkCheckedAt": "2026-11-07T20:51:09.580Z"
     },
     {
       "title": "PERFECT PART TIME JOB-WEEKEND SALES-Weekly PAY !",
@@ -1958,7 +1960,7 @@
       "firstSeenAt": "2026-11-07T16:49:43.945Z",
       "score": 50,
       "flags": [],
-      "linkCheckedAt": "2026-11-07T16:49:43.945Z"
+      "linkCheckedAt": "2026-11-07T20:51:09.580Z"
     },
     {
       "title": "Frontline Sales - OW",
@@ -1975,7 +1977,8 @@
       "firstSeenAt": "2026-11-07T16:49:43.945Z",
       "score": 50,
       "flags": [],
-      "linkCheckedAt": "2026-11-07T16:49:43.945Z"
+      "linkCheckedAt": "2026-11-07T16:49:43.945Z",
+      "otherLocations": []
     },
     {
       "title": "Firefighter Recruit, Georgetown County Fire and EMS",
@@ -1994,7 +1997,7 @@
       "flags": [
         "starts-fast"
       ],
-      "linkCheckedAt": "2026-11-07T16:49:43.945Z"
+      "linkCheckedAt": "2026-11-07T20:51:09.580Z"
     },
     {
       "title": "Retail Sales Associate – Paints & Coatings",
@@ -2031,7 +2034,7 @@
       "firstSeenAt": "2026-11-06T17:55:33.838Z",
       "score": 50,
       "flags": [],
-      "linkCheckedAt": "2026-11-07T16:49:43.945Z"
+      "linkCheckedAt": "2026-11-07T20:51:09.580Z"
     },
     {
       "title": "Retail Sales Associate",
@@ -2048,7 +2051,7 @@
       "firstSeenAt": "2026-11-04T18:36:58.377Z",
       "score": 50,
       "flags": [],
-      "linkCheckedAt": "2026-11-07T16:49:43.945Z"
+      "linkCheckedAt": "2026-11-07T20:51:09.580Z"
     },
     {
       "title": "CUSTOMER AMBASSADOR (FULL TIME)",
@@ -2123,7 +2126,7 @@
       "firstSeenAt": "2026-11-04T18:36:58.377Z",
       "score": 45,
       "flags": [],
-      "linkCheckedAt": "2026-11-07T16:49:43.945Z"
+      "linkCheckedAt": "2026-11-07T20:51:09.580Z"
     },
     {
       "title": "Pre-Sales Solution Consultant, Big Tech/AI",
@@ -2206,7 +2209,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-07T16:49:43.945Z"
+      "linkCheckedAt": "2026-11-07T20:51:09.580Z"
     },
     {
       "title": "Equipment Operator/Special Events",
@@ -2224,7 +2227,7 @@
       "score": 45,
       "flags": [],
       "otherLocations": [],
-      "linkCheckedAt": "2026-11-07T16:49:43.945Z"
+      "linkCheckedAt": "2026-11-07T20:51:09.580Z"
     },
     {
       "title": "Field Sales and Marketing Representative- Myrtle Beach, SC",
@@ -2316,7 +2319,7 @@
       "firstSeenAt": "2026-11-05T18:41:39.055Z",
       "score": 40,
       "flags": [],
-      "linkCheckedAt": "2026-11-07T16:49:43.945Z"
+      "linkCheckedAt": "2026-11-07T20:51:09.580Z"
     },
     {
       "title": "Sales Executive, Promotional Products",
@@ -2389,7 +2392,7 @@
         "Sullivans Island, Charleston County",
         "James Island, Charleston County"
       ],
-      "linkCheckedAt": "2026-11-07T16:49:43.945Z"
+      "linkCheckedAt": "2026-11-07T20:51:09.580Z"
     },
     {
       "title": "Pandora Jewelry Sales Specialist, Coastal Grand Mall",
@@ -2406,7 +2409,7 @@
       "firstSeenAt": "2026-10-27T16:33:36.212Z",
       "score": 40,
       "flags": [],
-      "linkCheckedAt": "2026-11-07T16:49:43.945Z"
+      "linkCheckedAt": "2026-11-07T20:51:09.580Z"
     },
     {
       "title": "Business Development Representative, Auto Retail",
@@ -2423,7 +2426,7 @@
       "firstSeenAt": "2026-10-26T17:19:32.335Z",
       "score": 40,
       "flags": [],
-      "linkCheckedAt": "2026-11-07T16:49:43.945Z"
+      "linkCheckedAt": "2026-11-07T20:51:09.580Z"
     },
     {
       "title": "Refractory Sales Representative",
@@ -2440,7 +2443,7 @@
       "firstSeenAt": "2026-10-25T19:34:58.130Z",
       "score": 40,
       "flags": [],
-      "linkCheckedAt": "2026-11-07T16:49:43.945Z"
+      "linkCheckedAt": "2026-11-07T20:51:09.580Z"
     },
     {
       "title": "Leasing Ambassador (Build to Rent) (Part Time)",
@@ -2492,7 +2495,7 @@
       "firstSeenAt": "2026-10-15T22:25:32.969Z",
       "score": 40,
       "flags": [],
-      "linkCheckedAt": "2026-11-07T16:49:43.945Z"
+      "linkCheckedAt": "2026-11-07T20:51:09.580Z"
     },
     {
       "title": "Retail Display Installer - Technology",
