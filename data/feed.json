@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T21:24:57.497Z",
+  "generatedAt": "2026-11-10T04:36:14.832Z",
   "sources": [
     {
       "name": "adzuna",
@@ -16,7 +16,7 @@
     {
       "name": "jsearch",
       "ok": true,
-      "count": 12,
+      "count": 2,
       "error": null
     },
     {
@@ -34,13 +34,13 @@
     {
       "name": "jobicy",
       "ok": true,
-      "count": 125,
+      "count": 123,
       "error": null
     },
     {
       "name": "himalayas",
       "ok": true,
-      "count": 1,
+      "count": 6,
       "error": null
     },
     {
@@ -58,7 +58,7 @@
     {
       "name": "pagewatch",
       "ok": true,
-      "count": 1,
+      "count": 4,
       "error": null
     },
     {
@@ -97,7 +97,7 @@
         "live-aboard",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-09T21:24:57.497Z"
+      "linkCheckedAt": "2026-11-10T04:36:14.832Z"
     },
     {
       "title": "Bell/Valet Attendant - Seasonal Holiday Position",
@@ -117,29 +117,7 @@
         "entry-level",
         "starts-fast"
       ],
-      "linkCheckedAt": "2026-11-09T21:24:57.497Z"
-    },
-    {
-      "title": "Spa Stew",
-      "company": "N&G Recruitment",
-      "location": "",
-      "remote": false,
-      "pay": "",
-      "url": "https://yacht.ee/jobs/7SJG3Q/seasonal-spa-stew-50m-private-charter-my-fort-lauderdale",
-      "postedAt": "2026-11-03T00:00:00.000Z",
-      "snippet": "via Yachtee. Spa Stew yacht crew role on Yachtee. 50m yacht · Motor yacht · Private & Charter · Seasonal · Fort Lauderdale · ASAP start · Salary DOE We are currently looking for an experienced Stewardess with Massage Therapist qualificatio…",
-      "source": "jsearch",
-      "id": "35f27048f9f0f52337bfc0c4730cc8d04b434c22",
-      "track": "marine-national",
-      "firstSeenAt": "2026-11-06T17:55:33.838Z",
-      "score": 85,
-      "flags": [
-        "entry-level",
-        "starts-fast",
-        "far-away",
-        "live-aboard"
-      ],
-      "linkCheckedAt": "2026-11-09T02:37:31.243Z"
+      "linkCheckedAt": "2026-11-10T04:36:14.832Z"
     },
     {
       "title": "Zipfizz Brand Ambassador - Weekend Demo",
@@ -159,7 +137,29 @@
         "entry-level",
         "starts-fast"
       ],
-      "linkCheckedAt": "2026-11-09T21:24:57.497Z"
+      "linkCheckedAt": "2026-11-10T04:36:14.832Z"
+    },
+    {
+      "title": "Spa Stew",
+      "company": "N&G Recruitment",
+      "location": "",
+      "remote": false,
+      "pay": "",
+      "url": "https://yacht.ee/jobs/7SJG3Q/seasonal-spa-stew-50m-private-charter-my-fort-lauderdale",
+      "postedAt": "2026-11-03T00:00:00.000Z",
+      "snippet": "via Yachtee. Spa Stew yacht crew role on Yachtee. 50m yacht · Motor yacht · Private & Charter · Seasonal · Fort Lauderdale · ASAP start · Salary DOE We are currently looking for an experienced Stewardess with Massage Therapist qualificatio…",
+      "source": "jsearch",
+      "id": "35f27048f9f0f52337bfc0c4730cc8d04b434c22",
+      "track": "marine-national",
+      "firstSeenAt": "2026-11-06T17:55:33.838Z",
+      "score": 80,
+      "flags": [
+        "entry-level",
+        "starts-fast",
+        "far-away",
+        "live-aboard"
+      ],
+      "linkCheckedAt": "2026-11-10T04:36:14.832Z"
     },
     {
       "title": "Video Data Annotation Specialist",
@@ -179,7 +179,7 @@
         "entry-level",
         "starts-fast"
       ],
-      "linkCheckedAt": "2026-11-09T21:24:57.497Z"
+      "linkCheckedAt": "2026-11-10T04:36:14.832Z"
     },
     {
       "title": "T-Mobile Retail Sales Associate SUMMERVILLE | Dorchester Rd",
@@ -198,7 +198,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-09T21:24:57.497Z"
+      "linkCheckedAt": "2026-11-10T04:36:14.832Z"
     },
     {
       "title": "T-Mobile Retail Sales Associate",
@@ -217,7 +217,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-09T21:24:57.497Z"
+      "linkCheckedAt": "2026-11-10T04:36:14.832Z"
     },
     {
       "title": "Sole Yacht Stewardess for FLIBS 2026 — Fort Lauderdale",
@@ -260,7 +260,7 @@
         "entry-level",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-09T02:37:31.243Z"
+      "linkCheckedAt": "2026-11-10T04:36:14.832Z"
     },
     {
       "title": "Marketing and Event Coordinator",
@@ -280,7 +280,7 @@
         "entry-level",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-09T21:24:57.497Z"
+      "linkCheckedAt": "2026-11-10T04:36:14.832Z"
     },
     {
       "title": "Marine Interdiction Agent",
@@ -316,49 +316,6 @@
       "linkCheckedAt": "2026-11-09T21:24:57.497Z"
     },
     {
-      "title": "Event Coordinator - Myrtle Beach",
-      "company": "Marriott Vacations Worldwide",
-      "location": "Carolina Forest, Horry County",
-      "remote": false,
-      "pay": "",
-      "url": "https://www.adzuna.com/details/5958618371?utm_medium=api&utm_source=ea9765bf",
-      "postedAt": "2026-11-08T20:21:18.000Z",
-      "snippet": "Are you looking for a place where meaningful moments are made together? We make vacation dreams come true for travelers around the world in a supportive, friendly, and beautiful work environment. As a Coordinator Event MS, you will assist …",
-      "source": "adzuna",
-      "id": "c986e54f7fcf18624ddf35c162e1e6ea2d3e83d0",
-      "track": "quick-cash",
-      "firstSeenAt": "2026-11-09T02:37:31.243Z",
-      "score": 70,
-      "flags": [],
-      "otherLocations": [],
-      "linkCheckedAt": "2026-11-09T02:37:31.243Z"
-    },
-    {
-      "title": "Retail Sales Associate – Sporting Goods",
-      "company": "DICK'S Sporting Goods",
-      "location": "Mount Pleasant, Charleston County (+3 more)",
-      "remote": false,
-      "pay": "$34,000–$40,000/year",
-      "url": "https://www.adzuna.com/land/ad/5951511664?se=nhzlQbjb8RGJ_5m-0JeM1g&utm_medium=api&utm_source=ea9765bf&v=87F6DC6DA1D43F1DF6172E4E8FDF02DEDC0B3FDB",
-      "postedAt": "2026-11-03T02:46:01.000Z",
-      "snippet": "DICK’S Sporting Goods seeks Seasonal Retail Sales Associates to deliver outstanding service in a fast-paced, sports-focused environment. You’ll greet and assist customers, recommend gear, apparel, and footwear, and operate POS systems accu…",
-      "source": "adzuna",
-      "id": "eaf6e21b088b47ea4fd8085a2c172e1b2901fbc8",
-      "track": "quick-cash",
-      "firstSeenAt": "2026-11-08T21:06:22.681Z",
-      "score": 70,
-      "flags": [
-        "entry-level",
-        "starts-fast"
-      ],
-      "otherLocations": [
-        "North Myrtle Beach, Horry County",
-        "Carolina Forest, Horry County",
-        "Adams Run, Charleston County"
-      ],
-      "linkCheckedAt": "2026-11-09T21:24:57.497Z"
-    },
-    {
       "title": "Business Development Representative",
       "company": "Flex",
       "location": "Remote — USA",
@@ -373,7 +330,7 @@
       "firstSeenAt": "2026-11-08T17:01:36.028Z",
       "score": 70,
       "flags": [],
-      "linkCheckedAt": "2026-11-09T02:37:31.243Z"
+      "linkCheckedAt": "2026-11-10T04:36:14.832Z"
     },
     {
       "title": "Charter Broker: FGI",
@@ -393,7 +350,7 @@
         "far-away",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-09T02:37:31.243Z"
+      "linkCheckedAt": "2026-11-10T04:36:14.832Z"
     },
     {
       "title": "Deckhand Offshore Vessel",
@@ -413,7 +370,7 @@
         "far-away",
         "live-aboard"
       ],
-      "linkCheckedAt": "2026-11-09T02:37:31.243Z"
+      "linkCheckedAt": "2026-11-10T04:36:14.832Z"
     },
     {
       "title": "AI Content Reviewer Video Annotation",
@@ -432,7 +389,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-09T21:24:57.497Z"
+      "linkCheckedAt": "2026-11-10T04:36:14.832Z"
     },
     {
       "title": "Brand Ambassador",
@@ -451,24 +408,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-09T21:24:57.497Z"
-    },
-    {
-      "title": "Enterprise Sales Development Representative",
-      "company": "ZipRecruiter",
-      "location": "",
-      "remote": true,
-      "pay": "$21.64 per hour",
-      "url": "https://www.ziprecruiter.com/c/ZipRecruiter/Job/Enterprise-Sales-Development-Representative/-in-Phoenix,AZ?jid=adfe4779016e9723",
-      "postedAt": "2026-11-03T00:00:00.000Z",
-      "snippet": "via ZipRecruiter. We offer a hybrid work environment. Most US-based positions can also be performed remotely (any exceptions will be noted in the Minimum Qualifications below.) Our Mission: To actively connect people to their next great op…",
-      "source": "jsearch",
-      "id": "e6da4ce64c96de65b2d5eb66807160c3602e1709",
-      "track": "tech-sales",
-      "firstSeenAt": "2026-11-04T02:59:35.097Z",
-      "score": 70,
-      "flags": [],
-      "linkCheckedAt": "2026-11-09T21:24:57.497Z"
+      "linkCheckedAt": "2026-11-10T04:36:14.832Z"
     },
     {
       "title": "Remote B2B Sales SDR - Earn ~$67K First Year",
@@ -487,32 +427,7 @@
       "flags": [
         "entry-level"
       ],
-      "linkCheckedAt": "2026-11-09T02:37:31.243Z"
-    },
-    {
-      "title": "DECKHAND",
-      "company": "U.S. Army Corps of Engineers",
-      "location": "Fountain City, Wisconsin (+1 more)",
-      "remote": false,
-      "pay": "$28.39–$33.09/Per Hour",
-      "url": "https://www.usajobs.gov:443/job/891062500",
-      "postedAt": "2026-11-03T00:00:00.000Z",
-      "snippet": "This is a Direct Hire Authority (DHA) solicitation utilizing the DHA for Certain Personnel within the DoD to recruit and appoint qualified candidates to positions in the competitive service. About the Position: Incumbent will support the M…",
-      "source": "usajobs",
-      "closesAt": "2026-11-18T23:59:59.997Z",
-      "id": "053a3620998c16486230a9d497f8ee4ea853f0fb",
-      "track": "marine-national",
-      "firstSeenAt": "2026-11-03T18:24:34.069Z",
-      "score": 70,
-      "flags": [
-        "far-away",
-        "live-aboard",
-        "high-pay"
-      ],
-      "otherLocations": [
-        "Saint Louis, Missouri"
-      ],
-      "linkCheckedAt": "2026-11-09T21:24:57.497Z"
+      "linkCheckedAt": "2026-11-10T04:36:14.832Z"
     },
     {
       "title": "Remote SDR: Paid Training + Fast-Track B2B Sales",
@@ -549,6 +464,31 @@
       "score": 65,
       "flags": [
         "starts-fast"
+      ],
+      "linkCheckedAt": "2026-11-10T04:36:14.832Z"
+    },
+    {
+      "title": "Retail Sales Associate – Sporting Goods",
+      "company": "DICK'S Sporting Goods",
+      "location": "Mount Pleasant, Charleston County (+3 more)",
+      "remote": false,
+      "pay": "$34,000–$40,000/year",
+      "url": "https://www.adzuna.com/land/ad/5951511664?se=nhzlQbjb8RGJ_5m-0JeM1g&utm_medium=api&utm_source=ea9765bf&v=87F6DC6DA1D43F1DF6172E4E8FDF02DEDC0B3FDB",
+      "postedAt": "2026-11-03T02:46:01.000Z",
+      "snippet": "DICK’S Sporting Goods seeks Seasonal Retail Sales Associates to deliver outstanding service in a fast-paced, sports-focused environment. You’ll greet and assist customers, recommend gear, apparel, and footwear, and operate POS systems accu…",
+      "source": "adzuna",
+      "id": "eaf6e21b088b47ea4fd8085a2c172e1b2901fbc8",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-11-08T21:06:22.681Z",
+      "score": 65,
+      "flags": [
+        "entry-level",
+        "starts-fast"
+      ],
+      "otherLocations": [
+        "North Myrtle Beach, Horry County",
+        "Carolina Forest, Horry County",
+        "Adams Run, Charleston County"
       ],
       "linkCheckedAt": "2026-11-09T21:24:57.497Z"
     },
@@ -607,7 +547,7 @@
       "firstSeenAt": "2026-11-07T02:45:24.729Z",
       "score": 65,
       "flags": [],
-      "linkCheckedAt": "2026-11-09T21:24:57.497Z"
+      "linkCheckedAt": "2026-11-10T04:36:14.832Z"
     },
     {
       "title": "Yacht Sales Assistant",
@@ -627,7 +567,7 @@
         "far-away",
         "pay-unknown"
       ],
-      "linkCheckedAt": "2026-11-09T02:37:31.243Z",
+      "linkCheckedAt": "2026-11-10T04:36:14.832Z",
       "otherLocations": []
     },
     {
@@ -648,7 +588,7 @@
         "far-away",
         "live-aboard"
       ],
-      "linkCheckedAt": "2026-11-09T02:37:31.243Z"
+      "linkCheckedAt": "2026-11-10T04:36:14.832Z"
     },
     {
       "title": "Business Development Representative (Net Driven)",
@@ -686,7 +626,7 @@
         "far-away",
         "pay-unknown"
       ],
-      "linkCheckedAt": "2026-11-09T21:24:57.497Z"
+      "linkCheckedAt": "2026-11-10T04:36:14.832Z"
     },
     {
       "title": "Business Development Representative - USMC",
@@ -704,7 +644,7 @@
       "score": 65,
       "flags": [],
       "otherLocations": [],
-      "linkCheckedAt": "2026-11-09T02:37:31.243Z"
+      "linkCheckedAt": "2026-11-10T04:36:14.832Z"
     },
     {
       "title": "Business Development Representative - Autonomous Systems",
@@ -722,7 +662,46 @@
       "score": 65,
       "flags": [],
       "otherLocations": [],
-      "linkCheckedAt": "2026-11-09T02:37:31.243Z"
+      "linkCheckedAt": "2026-11-10T04:36:14.832Z"
+    },
+    {
+      "title": "Enterprise Sales Development Representative",
+      "company": "ZipRecruiter",
+      "location": "",
+      "remote": true,
+      "pay": "$21.64 per hour",
+      "url": "https://www.ziprecruiter.com/c/ZipRecruiter/Job/Enterprise-Sales-Development-Representative/-in-Phoenix,AZ?jid=adfe4779016e9723",
+      "postedAt": "2026-11-03T00:00:00.000Z",
+      "snippet": "via ZipRecruiter. We offer a hybrid work environment. Most US-based positions can also be performed remotely (any exceptions will be noted in the Minimum Qualifications below.) Our Mission: To actively connect people to their next great op…",
+      "source": "jsearch",
+      "id": "e6da4ce64c96de65b2d5eb66807160c3602e1709",
+      "track": "tech-sales",
+      "firstSeenAt": "2026-11-04T02:59:35.097Z",
+      "score": 65,
+      "flags": [],
+      "linkCheckedAt": "2026-11-09T21:24:57.497Z"
+    },
+    {
+      "title": "DECKHAND",
+      "company": "U.S. Army Corps of Engineers",
+      "location": "Fountain City, Wisconsin",
+      "remote": false,
+      "pay": "$28.39–$33.09/Per Hour",
+      "url": "https://www.usajobs.gov:443/job/891062500",
+      "postedAt": "2026-11-03T00:00:00.000Z",
+      "snippet": "This is a Direct Hire Authority (DHA) solicitation utilizing the DHA for Certain Personnel within the DoD to recruit and appoint qualified candidates to positions in the competitive service. About the Position: Incumbent will support the M…",
+      "source": "usajobs",
+      "closesAt": "2026-11-18T23:59:59.997Z",
+      "id": "053a3620998c16486230a9d497f8ee4ea853f0fb",
+      "track": "marine-national",
+      "firstSeenAt": "2026-11-03T18:24:34.069Z",
+      "score": 65,
+      "flags": [
+        "far-away",
+        "live-aboard",
+        "high-pay"
+      ],
+      "linkCheckedAt": "2026-11-10T04:36:14.832Z"
     },
     {
       "title": "Deckhand, Marine",
@@ -743,7 +722,7 @@
         "live-aboard",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-09T02:37:31.243Z"
+      "linkCheckedAt": "2026-11-10T04:36:14.832Z"
     },
     {
       "title": "Private 37m Yacht Deckhand — US Citizens/Green Card",
@@ -763,7 +742,7 @@
         "far-away",
         "live-aboard"
       ],
-      "linkCheckedAt": "2026-11-09T02:37:31.243Z"
+      "linkCheckedAt": "2026-11-10T04:36:14.832Z"
     },
     {
       "title": "Dual-Role Yacht Deck & Stew on 47m Private/Charter",
@@ -822,7 +801,7 @@
       "firstSeenAt": "2026-10-29T17:24:38.740Z",
       "score": 65,
       "flags": [],
-      "linkCheckedAt": "2026-11-09T21:24:57.497Z"
+      "linkCheckedAt": "2026-11-10T04:36:14.832Z"
     },
     {
       "title": "Parking Valet Attendant - Hotel",
@@ -873,7 +852,7 @@
       "firstSeenAt": "2026-10-28T17:09:06.638Z",
       "score": 65,
       "flags": [],
-      "linkCheckedAt": "2026-11-09T21:24:57.497Z"
+      "linkCheckedAt": "2026-11-10T04:36:14.832Z"
     },
     {
       "title": "Part – Time Lead Service Valet – Truck Required – Evening Shift",
@@ -892,7 +871,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-09T21:24:57.497Z"
+      "linkCheckedAt": "2026-11-10T04:36:14.832Z"
     },
     {
       "title": "Special Operations AI Scenario Evaluator",
@@ -951,7 +930,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-09T02:37:31.243Z"
+      "linkCheckedAt": "2026-11-10T04:36:14.832Z"
     },
     {
       "title": "Valet Attendant - $20 Per Hour Plus Tips",
@@ -1009,7 +988,7 @@
         "high-pay"
       ],
       "otherLocations": [],
-      "linkCheckedAt": "2026-11-09T21:24:57.497Z"
+      "linkCheckedAt": "2026-11-10T04:36:14.832Z"
     },
     {
       "title": "PT Sales Associate - Seasonal",
@@ -1029,7 +1008,7 @@
         "entry-level",
         "starts-fast"
       ],
-      "linkCheckedAt": "2026-11-09T02:37:31.243Z"
+      "linkCheckedAt": "2026-11-10T04:36:14.832Z"
     },
     {
       "title": "Business Development Representative - US, Remote",
@@ -1070,7 +1049,7 @@
         "live-aboard",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-09T02:37:31.243Z"
+      "linkCheckedAt": "2026-11-10T04:36:14.832Z"
     },
     {
       "title": "Sales Development Representative",
@@ -1089,7 +1068,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-09T21:24:57.497Z"
+      "linkCheckedAt": "2026-11-10T04:36:14.832Z"
     },
     {
       "title": "Marine Construction Crew Member",
@@ -1109,7 +1088,7 @@
         "live-aboard",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-09T21:24:57.497Z"
+      "linkCheckedAt": "2026-11-10T04:36:14.832Z"
     },
     {
       "title": "Data Annotation Specialist - Computer Vision",
@@ -1128,7 +1107,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-09T21:24:57.497Z"
+      "linkCheckedAt": "2026-11-10T04:36:14.832Z"
     },
     {
       "title": "MARINE DECKHAND - TRAVEL REQUIRED",
@@ -1210,7 +1189,7 @@
         "far-away",
         "live-aboard"
       ],
-      "linkCheckedAt": "2026-11-09T02:37:31.243Z"
+      "linkCheckedAt": "2026-11-10T04:36:14.832Z"
     },
     {
       "title": "Deckhand - 50m+ Private Motor Yacht",
@@ -1248,24 +1227,7 @@
       "firstSeenAt": "2026-11-05T03:27:57.320Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-11-09T02:37:31.243Z"
-    },
-    {
-      "title": "Service Valet | Shuttle Driver",
-      "company": "Hanania Automotive Group",
-      "location": "Little River, South Carolina",
-      "remote": false,
-      "pay": "",
-      "url": "https://us.trabajo.org/job-28652-d9d092e6fb074ce1614eb4ed174b8bcb",
-      "postedAt": "2026-11-01T00:00:00.000Z",
-      "snippet": "via Trabajo.org. Service Valet | Shuttle Driver - North Shore CDJRNorth Shore Chrysler Dodge Jeep Ram - Little River, SC 29566Drive the Experience. Be the First and Last Impression.Myrtle Beach, SC | Brand-New Dealership | Opening October …",
-      "source": "jsearch",
-      "id": "bcac1cceb8771c6eb981c193fe4373d3a03246e5",
-      "track": "quick-cash",
-      "firstSeenAt": "2026-11-05T03:27:57.320Z",
-      "score": 60,
-      "flags": [],
-      "linkCheckedAt": "2026-11-09T02:37:31.243Z"
+      "linkCheckedAt": "2026-11-10T04:36:14.832Z"
     },
     {
       "title": "3rd Steward(ess) - 50m Private/Charter Motor Yacht",
@@ -1365,7 +1327,7 @@
       "firstSeenAt": "2026-11-03T03:54:58.693Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-11-09T21:24:57.497Z"
+      "linkCheckedAt": "2026-11-10T04:36:14.832Z"
     },
     {
       "title": "Boat Caulker",
@@ -1382,7 +1344,7 @@
       "firstSeenAt": "2026-11-03T03:54:58.693Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-11-09T21:24:57.497Z"
+      "linkCheckedAt": "2026-11-10T04:36:14.832Z"
     },
     {
       "title": "Deckhand - 40m Private Motor Yacht",
@@ -1458,7 +1420,7 @@
       "firstSeenAt": "2026-11-01T17:06:03.613Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-11-09T21:24:57.497Z"
+      "linkCheckedAt": "2026-11-10T04:36:14.832Z"
     },
     {
       "title": "Sales Development Representative, Clinical Search",
@@ -1475,7 +1437,7 @@
       "firstSeenAt": "2026-11-01T17:06:03.613Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-11-09T21:24:57.497Z"
+      "linkCheckedAt": "2026-11-10T04:36:14.832Z"
     },
     {
       "title": "Deck Hand/Tug Captain/Ops Safety",
@@ -1529,7 +1491,7 @@
       "firstSeenAt": "2026-10-31T02:18:14.271Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-11-09T02:37:31.243Z"
+      "linkCheckedAt": "2026-11-10T04:36:14.832Z"
     },
     {
       "title": "Deckhand",
@@ -1549,7 +1511,7 @@
         "far-away",
         "live-aboard"
       ],
-      "linkCheckedAt": "2026-11-09T02:37:31.243Z"
+      "linkCheckedAt": "2026-11-10T04:36:14.832Z"
     },
     {
       "title": "Brand Ambassador",
@@ -1656,7 +1618,7 @@
       "firstSeenAt": "2026-10-28T17:09:06.638Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-11-09T21:24:57.497Z"
+      "linkCheckedAt": "2026-11-10T04:36:14.832Z"
     },
     {
       "title": "Yacht StarShip Deckhand at Manthey Hospitality Tampa, FL",
@@ -1676,7 +1638,7 @@
         "far-away",
         "live-aboard"
       ],
-      "linkCheckedAt": "2026-11-09T02:37:31.243Z"
+      "linkCheckedAt": "2026-11-10T04:36:14.832Z"
     },
     {
       "title": "Remote Sales Development Representative (US Market) - Remote, US",
@@ -1693,7 +1655,7 @@
       "firstSeenAt": "2026-10-28T02:10:45.471Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-11-09T02:37:31.243Z"
+      "linkCheckedAt": "2026-11-10T04:36:14.832Z"
     },
     {
       "title": "Deckhand - 35m Private Motor Yacht",
@@ -1731,7 +1693,7 @@
       "firstSeenAt": "2026-10-27T16:33:36.212Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-11-09T02:37:31.243Z"
+      "linkCheckedAt": "2026-11-10T04:36:14.832Z"
     },
     {
       "title": "2nd Steward(ess) - 43m Private Motor Yacht",
@@ -1786,7 +1748,7 @@
       "firstSeenAt": "2026-10-24T13:42:05.182Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-11-09T02:37:31.243Z"
+      "linkCheckedAt": "2026-11-10T04:36:14.832Z"
     },
     {
       "title": "Ferry Deckhand",
@@ -1842,7 +1804,7 @@
       "firstSeenAt": "2026-10-19T17:27:01.917Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-11-09T02:37:31.243Z"
+      "linkCheckedAt": "2026-11-10T04:36:14.832Z"
     },
     {
       "title": "Sales Development Representative",
@@ -1859,7 +1821,7 @@
       "firstSeenAt": "2026-10-18T14:32:37.273Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-11-09T21:24:57.497Z"
+      "linkCheckedAt": "2026-11-10T04:36:14.832Z"
     },
     {
       "title": "Business Development Representative - Healthcare",
@@ -1894,7 +1856,7 @@
       "firstSeenAt": "2026-10-17T14:11:06.587Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-11-09T02:37:31.243Z"
+      "linkCheckedAt": "2026-11-10T04:36:14.832Z"
     },
     {
       "title": "Ferry Mate - Full Time",
@@ -1914,7 +1876,7 @@
         "drug-test",
         "live-aboard"
       ],
-      "linkCheckedAt": "2026-11-09T21:24:57.497Z"
+      "linkCheckedAt": "2026-11-10T04:36:14.832Z"
     },
     {
       "title": "Deckhand",
@@ -1934,7 +1896,7 @@
         "far-away",
         "live-aboard"
       ],
-      "linkCheckedAt": "2026-11-09T21:24:57.497Z"
+      "linkCheckedAt": "2026-11-10T04:36:14.832Z"
     },
     {
       "title": "SDR (Sales Development Representative)",
@@ -1951,7 +1913,7 @@
       "firstSeenAt": "2026-10-15T20:32:31.715Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-11-09T02:37:31.243Z"
+      "linkCheckedAt": "2026-11-10T04:36:14.832Z"
     },
     {
       "title": "Sales Development Representative, Outbound",
@@ -1968,24 +1930,7 @@
       "firstSeenAt": "2026-10-15T20:32:31.715Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-11-09T02:37:31.243Z"
-    },
-    {
-      "title": "Sales Specialist, Charleston",
-      "company": "Greyson Clothiers",
-      "location": "Saint Andrews, Charleston County",
-      "remote": false,
-      "pay": "$18–$20/hour",
-      "url": "https://www.adzuna.com/details/5958277554?utm_medium=api&utm_source=ea9765bf",
-      "postedAt": "2026-11-08T10:33:04.000Z",
-      "snippet": "Position Overview: The Sales Specialist is an integral part of the Greyson Clothiers team. This position goes beyond typical retail responsibilities; it is centered on building genuine connections with our customers and engaging with the c…",
-      "source": "adzuna",
-      "id": "af1af5550c690bb33e544d9e8af036985af2f7d6",
-      "track": "quick-cash",
-      "firstSeenAt": "2026-11-08T17:01:36.028Z",
-      "score": 55,
-      "flags": [],
-      "linkCheckedAt": "2026-11-09T02:37:31.243Z"
+      "linkCheckedAt": "2026-11-10T04:36:14.832Z"
     },
     {
       "title": "Sales Associate",
@@ -2002,7 +1947,7 @@
       "firstSeenAt": "2026-11-07T16:49:43.945Z",
       "score": 55,
       "flags": [],
-      "linkCheckedAt": "2026-11-09T21:24:57.497Z"
+      "linkCheckedAt": "2026-11-10T04:36:14.832Z"
     },
     {
       "title": "Temporary Sales Associate",
@@ -2021,7 +1966,7 @@
       "flags": [
         "starts-fast"
       ],
-      "linkCheckedAt": "2026-11-09T21:24:57.497Z"
+      "linkCheckedAt": "2026-11-10T04:36:14.832Z"
     },
     {
       "title": "PERFECT PART TIME JOB-WEEKEND SALES-Weekly PAY !",
@@ -2041,7 +1986,7 @@
         "starts-fast",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-09T02:37:31.243Z"
+      "linkCheckedAt": "2026-11-10T04:36:14.832Z"
     },
     {
       "title": "In-Store Sales Lead Generator",
@@ -2060,7 +2005,24 @@
       "flags": [
         "starts-fast"
       ],
-      "linkCheckedAt": "2026-11-09T02:37:31.243Z"
+      "linkCheckedAt": "2026-11-10T04:36:14.832Z"
+    },
+    {
+      "title": "Merchandising Specialist",
+      "company": "Acosta Group",
+      "location": "Crescent Beach, Horry County",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/land/ad/5959159688?se=3JZJRMDc8RGUW4qGiiMrqA&utm_medium=api&utm_source=ea9765bf&v=261911E78187365C82D578D4B23979026B5624AB",
+      "postedAt": "2026-11-09T08:11:08.000Z",
+      "snippet": "Merchandising Specialist General Information Company: PRE-US Location: NORTH MYRTLE BEACH, South Carolina, 29582 Ref : 118667 Pay Rate: $ 12.00 Experience/skills and/or location may influence position wage rate Range Minimum: $ 12.00 Range…",
+      "source": "adzuna",
+      "id": "a2872bc85a3bc32ba34ddea68b2d3053aa4305c4",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-11-10T04:36:14.832Z",
+      "score": 50,
+      "flags": [],
+      "linkCheckedAt": "2026-11-10T04:36:14.832Z"
     },
     {
       "title": "Wireless Sales Pro",
@@ -2073,11 +2035,12 @@
       "snippet": "Wireless Sales Pro General Information Company: PRE-US Location: MULLINS, South Carolina, 29574 Ref : 86597 Pay Rate: $ 14.00 Experience/skills and/or location may influence position wage rate Function: Brand Advocacy & Sales Employment Du…",
       "source": "adzuna",
       "id": "12c8b348af3aad60ed2f80ecaba9f775d0982a31",
-      "track": "quick-cash",
+      "track": "tech-sales",
       "firstSeenAt": "2026-11-09T21:24:57.497Z",
       "score": 50,
       "flags": [],
-      "linkCheckedAt": "2026-11-09T21:24:57.497Z"
+      "linkCheckedAt": "2026-11-09T21:24:57.497Z",
+      "otherLocations": []
     },
     {
       "title": "Ambassador",
@@ -2094,7 +2057,8 @@
       "firstSeenAt": "2026-11-09T21:24:57.497Z",
       "score": 50,
       "flags": [],
-      "linkCheckedAt": "2026-11-09T21:24:57.497Z"
+      "linkCheckedAt": "2026-11-09T21:24:57.497Z",
+      "otherLocations": []
     },
     {
       "title": "Sales Development Representative (SDR)",
@@ -2112,7 +2076,7 @@
       "score": 50,
       "flags": [],
       "otherLocations": [],
-      "linkCheckedAt": "2026-11-09T02:37:31.243Z"
+      "linkCheckedAt": "2026-11-10T04:36:14.832Z"
     },
     {
       "title": "Community Ambassador",
@@ -2129,7 +2093,7 @@
       "firstSeenAt": "2026-11-05T19:08:37.136Z",
       "score": 50,
       "flags": [],
-      "linkCheckedAt": "2026-11-09T21:24:57.497Z"
+      "linkCheckedAt": "2026-11-10T04:36:14.832Z"
     },
     {
       "title": "LOCK AND DAM OPERATOR",
@@ -2150,7 +2114,7 @@
         "far-away",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-09T21:24:57.497Z"
+      "linkCheckedAt": "2026-11-10T04:36:14.832Z"
     },
     {
       "title": "CUSTOMER AMBASSADOR (FULL TIME)",
@@ -2227,27 +2191,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-09T02:37:31.243Z",
-      "otherLocations": []
-    },
-    {
-      "title": "Retail Sales Associate – Paints & Coatings",
-      "company": "Sherwin Williams",
-      "location": "North Myrtle Beach, Horry County",
-      "remote": false,
-      "pay": "$40,000–$50,000/year",
-      "url": "https://www.adzuna.com/land/ad/5950772280?se=5JHMSVXa8RG3DZY5R5YuJQ&utm_medium=api&utm_source=ea9765bf&v=17C3ECB4C0D67148CA1FDFF957BFF40D3A0A6E82",
-      "postedAt": "2026-11-02T11:23:27.000Z",
-      "snippet": "Sherwin-Williams is seeking a Customer Service Specialist for our Retail Customer Service & Support team. In this onsite role, you will engage directly with customers, provide product and color guidance, process sales transactions, resolve…",
-      "source": "adzuna",
-      "id": "f7510358331da48becc82f31ffcaf8a070b5c164",
-      "track": "quick-cash",
-      "firstSeenAt": "2026-11-07T02:45:24.729Z",
-      "score": 45,
-      "flags": [
-        "high-pay"
-      ],
-      "linkCheckedAt": "2026-11-09T02:37:31.243Z",
+      "linkCheckedAt": "2026-11-10T04:36:14.832Z",
       "otherLocations": []
     },
     {
@@ -2265,24 +2209,7 @@
       "firstSeenAt": "2026-11-06T17:55:33.838Z",
       "score": 45,
       "flags": [],
-      "linkCheckedAt": "2026-11-09T21:24:57.497Z"
-    },
-    {
-      "title": "Pre-Sales Solution Consultant, Big Tech/AI",
-      "company": "Socure",
-      "location": "Remote — USA",
-      "remote": true,
-      "pay": "",
-      "url": "https://jobicy.com/jobs/154441-pre-sales-solution-consultant-big-tech-ai",
-      "postedAt": "2026-11-03T03:35:27.000Z",
-      "snippet": "Why Socure ? Socure is building the identity trust infrastructure for the digital economy — verifying 100% of good identities in real time and stopping fraud before it starts. The mission is big, the problems are complex, and the impact is…",
-      "source": "jobicy",
-      "id": "9a7a1f381fc1df63d485de10f6e1cb1b28a851d0",
-      "track": "tech-sales",
-      "firstSeenAt": "2026-11-03T18:24:34.069Z",
-      "score": 45,
-      "flags": [],
-      "linkCheckedAt": "2026-11-09T02:37:31.243Z"
+      "linkCheckedAt": "2026-11-10T04:36:14.832Z"
     },
     {
       "title": "Product Demonstrator",
@@ -2330,7 +2257,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-09T21:24:57.497Z"
+      "linkCheckedAt": "2026-11-10T04:36:14.832Z"
     },
     {
       "title": "Field Sales and Marketing Representative- Myrtle Beach, SC",
@@ -2405,7 +2332,7 @@
       "firstSeenAt": "2026-11-09T02:37:31.243Z",
       "score": 40,
       "flags": [],
-      "linkCheckedAt": "2026-11-09T02:37:31.243Z"
+      "linkCheckedAt": "2026-11-10T04:36:14.832Z"
     },
     {
       "title": "Erie Home - Outside Sales Representative",
@@ -2422,7 +2349,7 @@
       "firstSeenAt": "2026-11-09T02:37:31.243Z",
       "score": 40,
       "flags": [],
-      "linkCheckedAt": "2026-11-09T02:37:31.243Z"
+      "linkCheckedAt": "2026-11-10T04:36:14.832Z"
     },
     {
       "title": "Construction Sales Representative",
@@ -2439,7 +2366,7 @@
       "firstSeenAt": "2026-11-08T17:01:36.028Z",
       "score": 40,
       "flags": [],
-      "linkCheckedAt": "2026-11-09T02:37:31.243Z"
+      "linkCheckedAt": "2026-11-10T04:36:14.832Z"
     },
     {
       "title": "Residential Sales Consultant",
@@ -2456,7 +2383,7 @@
       "firstSeenAt": "2026-11-08T17:01:36.028Z",
       "score": 40,
       "flags": [],
-      "linkCheckedAt": "2026-11-09T02:37:31.243Z"
+      "linkCheckedAt": "2026-11-10T04:36:14.832Z"
     },
     {
       "title": "Guest Services Ambassador",
@@ -2473,24 +2400,24 @@
       "firstSeenAt": "2026-11-05T18:41:39.055Z",
       "score": 40,
       "flags": [],
-      "linkCheckedAt": "2026-11-09T21:24:57.497Z"
+      "linkCheckedAt": "2026-11-10T04:36:14.832Z"
     },
     {
-      "title": "Sales Representative - Grocery| SC",
-      "company": "Bunzl",
-      "location": "Ladson, Berkeley County",
-      "remote": false,
+      "title": "Pre-Sales Solution Consultant, Big Tech/AI",
+      "company": "Socure",
+      "location": "Remote — USA",
+      "remote": true,
       "pay": "",
-      "url": "https://www.adzuna.com/details/5948776149?utm_medium=api&utm_source=ea9765bf",
-      "postedAt": "2026-11-01T02:07:50.000Z",
-      "snippet": "As an outside Sales Representative for Bunzl Distribution’s Grocery organization, you will be accountable for meeting and exceeding sales targets across the South Carolina geography . This is a field-based, customer-facing territory sales …",
-      "source": "adzuna",
-      "id": "1c684b62251551624015bcdf836eb00db8e74f2d",
-      "track": "quick-cash",
-      "firstSeenAt": "2026-11-04T18:36:58.377Z",
+      "url": "https://jobicy.com/jobs/154441-pre-sales-solution-consultant-big-tech-ai",
+      "postedAt": "2026-11-03T03:35:27.000Z",
+      "snippet": "Why Socure ? Socure is building the identity trust infrastructure for the digital economy — verifying 100% of good identities in real time and stopping fraud before it starts. The mission is big, the problems are complex, and the impact is…",
+      "source": "jobicy",
+      "id": "9a7a1f381fc1df63d485de10f6e1cb1b28a851d0",
+      "track": "tech-sales",
+      "firstSeenAt": "2026-11-03T18:24:34.069Z",
       "score": 40,
       "flags": [],
-      "linkCheckedAt": "2026-11-09T02:37:31.243Z"
+      "linkCheckedAt": "2026-11-10T04:36:14.832Z"
     },
     {
       "title": "Sales Executive, Promotional Products",
@@ -2542,7 +2469,7 @@
       "firstSeenAt": "2026-10-31T02:18:14.271Z",
       "score": 40,
       "flags": [],
-      "linkCheckedAt": "2026-11-09T02:37:31.243Z"
+      "linkCheckedAt": "2026-11-10T04:36:14.832Z"
     },
     {
       "title": "Luxury Jewelry and Timepiece Sales Professional, Coastal Grand Mall",
@@ -2559,7 +2486,7 @@
       "firstSeenAt": "2026-10-30T16:59:58.647Z",
       "score": 40,
       "flags": [],
-      "linkCheckedAt": "2026-11-09T02:37:31.243Z"
+      "linkCheckedAt": "2026-11-10T04:36:14.832Z"
     },
     {
       "title": "Become a Luxury Brand Evaluator in Charleston, US",
@@ -2581,7 +2508,7 @@
         "Sullivans Island, Charleston County",
         "James Island, Charleston County"
       ],
-      "linkCheckedAt": "2026-11-09T21:24:57.497Z"
+      "linkCheckedAt": "2026-11-10T04:36:14.832Z"
     },
     {
       "title": "Pandora Jewelry Sales Specialist, Coastal Grand Mall",
@@ -2598,7 +2525,7 @@
       "firstSeenAt": "2026-10-27T16:33:36.212Z",
       "score": 40,
       "flags": [],
-      "linkCheckedAt": "2026-11-09T21:24:57.497Z"
+      "linkCheckedAt": "2026-11-10T04:36:14.832Z"
     },
     {
       "title": "Business Development Representative, Auto Retail",
@@ -2615,7 +2542,7 @@
       "firstSeenAt": "2026-10-26T17:19:32.335Z",
       "score": 40,
       "flags": [],
-      "linkCheckedAt": "2026-11-09T21:24:57.497Z"
+      "linkCheckedAt": "2026-11-10T04:36:14.832Z"
     },
     {
       "title": "Refractory Sales Representative",
@@ -2684,7 +2611,7 @@
       "firstSeenAt": "2026-10-15T22:25:32.969Z",
       "score": 40,
       "flags": [],
-      "linkCheckedAt": "2026-11-09T21:24:57.497Z"
+      "linkCheckedAt": "2026-11-10T04:36:14.832Z"
     },
     {
       "title": "Retail Display Installer - Technology",
@@ -2701,7 +2628,7 @@
       "firstSeenAt": "2026-10-15T21:29:28.105Z",
       "score": 40,
       "flags": [],
-      "linkCheckedAt": "2026-11-09T02:37:31.243Z"
+      "linkCheckedAt": "2026-11-10T04:36:14.832Z"
     }
   ]
 }
