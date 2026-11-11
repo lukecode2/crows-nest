@@ -34,7 +34,7 @@ test('new company endpoints have reviewed live verification and workflow persist
   const { companies } = await json('config/companies.json');
   for (const company of companies) {
     assert.equal(company.verification.status, 200, company.name);
-    assert.ok(['page', 'greenhouse', 'lever', 'ashby', 'workday', 'smartrecruiters', 'bamboohr', 'icims', 'jibe', 'oracle', 'jobsyn', 'smartrecruiters-html', 'advantage', 'alignerr', 'mercor', 'tallships'].includes(company.ats));
+    assert.ok(['page', 'greenhouse', 'lever', 'ashby', 'workday', 'smartrecruiters', 'bamboohr', 'icims', 'jibe', 'oracle', 'jobsyn', 'phenom', 'smartrecruiters-html', 'advantage', 'alignerr', 'mercor', 'tallships'].includes(company.ats));
     assert.ok(!/American Cruise Lines|Viking Crew/i.test(company.name));
   }
   for (const name of ['Express Watersports / Express Dive Center', 'Longshore Boats', 'Canal Barge Company', 'Crewfinders', 'City of Charleston']) assert.ok(companies.some(c => c.name === name), name);

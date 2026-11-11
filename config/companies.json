@@ -3333,6 +3333,60 @@
         "jobCount": 326
       },
       "note": "Full public Next.js listing data includes status, application availability, slots, remote eligibility, US exclusions, pay frequency and qualifications. Standing evergreen talent pools are excluded. No account needed to read listings."
+    },
+    {
+      "name": "Hibu",
+      "ats": "phenom",
+      "url": "https://careers.hibu.com/us/en/",
+      "queries": [
+        "Myrtle Beach",
+        "Conway",
+        "Charleston",
+        "Wilmington"
+      ],
+      "keywords": [
+        "sales"
+      ],
+      "states": [
+        "SC",
+        "NC"
+      ],
+      "track": "tech-sales",
+      "verifiedAt": "2026-11-11",
+      "verification": {
+        "status": 200,
+        "url": "https://careers.hibu.com/us/en/search-results?keywords=myrtle",
+        "source": "https://careers.hibu.com/us/en"
+      },
+      "note": "Entry-level outside sales (digital marketing for small businesses), base + commission, posts per city."
+    },
+    {
+      "name": "White Cap",
+      "ats": "workday",
+      "host": "whitecap.wd1.myworkdayjobs.com",
+      "tenant": "whitecap",
+      "site": "Careers",
+      "keywords": [
+        "sales",
+        "account manager"
+      ],
+      "track": "tech-sales",
+      "verifiedAt": "2026-11-11",
+      "verification": {
+        "status": 200,
+        "method": "POST",
+        "url": "https://whitecap.wd1.myworkdayjobs.com/wday/cxs/whitecap/Careers/jobs",
+        "source": "https://whitecap.dejobs.org/accelerated-sales-program/"
+      },
+      "note": "Accelerated Sales Program: paid 6-12 month outside-sales trainee track (Conway, Charleston, Columbia). Searched per city because locations read 'City_ZIP' with no state.",
+      "searchTexts": [
+        "Conway",
+        "Myrtle Beach",
+        "Murrells Inlet",
+        "Georgetown",
+        "Charleston",
+        "Wilmington"
+      ]
     }
   ]
 }

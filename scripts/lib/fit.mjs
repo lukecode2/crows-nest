@@ -45,7 +45,7 @@ export function needsCredentialHeLacks(job, profile = {}) {
 }
 
 // People-facing sales, promo and cash work: the tech-sales and quick-cash tracks share one list.
-const SALES_OR_CASH = /\b(?:SDR|BDR|sales|business development rep\w*|account executive|brand|ambassadors?|valet|parking|events?|demo|demonstrat\w*|promot\w*|sampl\w*|detail(?:er|ing)?|car ?wash|bell(?:person|man|hop|staff)|box office|ticket\w*|ushers?|light show|day ?work\w*|merchandis\w*|install\w*|stagehand|festival|marketing (?:agent|rep\w*)|customer success|wireless|mobile (?:associate|expert))\b/i;
+const SALES_OR_CASH = /\b(?:SDR|BDR|sales|business development rep\w*|account executive|brand|ambassadors?|valet|parking|events?|demo|demonstrat\w*|promot\w*|sampl\w*|detail(?:er|ing)?|car ?wash|bell(?:person|man|hop|staff)|box office|ticket\w*|ushers?|light show|day ?work\w*|merchandis\w*|install\w*|stagehand|festival|marketing (?:agent|rep\w*)|customer success|wireless|mobile (?:associate|expert)|couriers?)\b/i;
 // A promo representative may work inside a store without being store staff.
 export const PROMO_ROLE = /\b(?:brand (?:ambassadors?|reps?|representatives?)|promotional? (?:staff|reps?|representatives?|ambassadors?)|product demo(?:nstrat\w*)?|demonstrators?|event marketing|field sales and marketing|(?:in[- ]store|retail) (?:sales )?lead generat\w*)\b/i;
 export const STORE_RETAIL = /\b(?:sales associates?|retail sales|retail associates?|store (?:associates?|team members?|clerks?|staff)|merchandis\w*|cashiers?|stock(?:ers?|ing)|key ?holders?|sales leads?|wireless specialists?|mobile (?:associates?|experts?)|(?:jewelry|timepiece) sales (?:professional|specialist)s?)\b/i;

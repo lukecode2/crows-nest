@@ -10,6 +10,8 @@ const STATES = 'South Carolina|North Carolina|SC|NC|[A-Z]{2}|Alabama|Alaska|Ariz
 const stateAtEnd = new RegExp(`(?:,|\\s)\\s*(${STATES})(?:\\s+\\d{5})?\\s*$`, 'i');
 function matchesRegion(location, scCities, ncCities, scCounties, ncCounties) {
   return String(location || '').replace(/\s*\(\+\d+ more\)$/, '').split(';').some(part => {
+    // "Myrtle Beach, SC, US": a trailing country code is not the state.
+    part = part.replace(/,\s*(?:US|USA|U\.S\.A?\.?|United States(?: of America)?)\s*$/i, '');
     const state = part.match(stateAtEnd)?.[1]?.toLowerCase();
     if (state && !['sc', 'nc', 'south carolina', 'north carolina'].includes(state)) return false;
     // Ambiguous counties without a state need a known city (Cambridge, Dorchester is Maryland).
