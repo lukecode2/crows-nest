@@ -10,7 +10,7 @@ import { scoreJob } from './lib/score.mjs';
 import { mergeFeed } from './lib/merge.mjs';
 import { checkLinks } from './lib/linkcheck.mjs';
 import { rawJob, iso } from './lib/source-utils.mjs';
-import { hotJobs, sendAlert } from './lib/alert.mjs';
+import { hotJobs, alertLog } from './lib/alert.mjs';
 import * as adzuna from './sources/adzuna.mjs';
 import * as usajobs from './sources/usajobs.mjs';
 import * as jsearch from './sources/jsearch.mjs';
@@ -148,12 +148,13 @@ export async function main(argv = process.argv.slice(2)) {
   for (const r of report) console.log(`${r.name}: ${r.ok ? `${r.count} jobs` : `FAILED (${r.error})`}`);
   console.log(`${argv.includes('--dry') ? 'Dry run' : 'Feed'}: ${jobs.length} jobs after filtering and merge (${raw.length} fetched)`);
   if (!argv.includes('--dry')) {
-    await writeJson(resolve(root, 'data/feed.json'), { generatedAt: now.toISOString(), sources: report, jobs });
+    // The phone ping is sent later by scripts/send-alert.mjs, once this feed is live on the site.
+    const hot = hotJobs(prev.jobs || [], jobs);
+    const alerts = alertLog(prev.alerts, hot, now.toISOString());
+    if (hot.length) console.log(`Phone alert queued: ${hot.length} new hot jobs`);
+    await writeJson(resolve(root, 'data/feed.json'), { generatedAt: now.toISOString(), sources: report, jobs, alerts });
     await writeJson(resolve(root, 'data/pagewatch.json'), state);
     await writeJson(resolve(root, 'data/all-jobs.json'), catchLog);
-    const hot = hotJobs(prev.jobs || [], jobs);
-    try { if (await sendAlert(hot, { topic: process.env.NTFY_TOPIC })) console.log(`Phone alert: ${hot.length} new hot jobs`); }
-    catch (error) { console.warn(`Phone alert failed: ${error.message}`); }
   }
   printRunSummary({ jobs, catchLog, companies, govfeeds });
   return { jobs, report, catchLog };

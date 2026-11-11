@@ -42,7 +42,7 @@ export function parsePay(pay, snippet = '') {
 }
 export function isHighPay(pay) {
   const parsed = parsePay(pay);
-  return Boolean(parsed && (parsed.hourlyMax >= 24 || parsed.annualMax >= 50000));
+  return Boolean(parsed && (parsed.hourlyMax >= 20 || parsed.annualMax >= 41600));
 }
 export function isLiveAboard(title) {
   return /\b(?:deck ?hands?|AB|OS|able seaman|ordinary seaman|wiper|oiler|mate|yacht crew|stew\w*|tug\w*|barge\w*|offshore|vessels?|ships?|shipyard|mariner|seaman|delivery crew|day ?workers?|crew member)\b/i.test(title || '') &&

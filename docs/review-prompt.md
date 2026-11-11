@@ -12,7 +12,7 @@ Use these distance rules:
 
 - Home region: SC counties Horry, Georgetown, Charleston, Berkeley, Dorchester, Colleton, Williamsburg, Marion, Florence; NC counties Brunswick, Columbus, New Hanover, Pender, including their towns. Remote work is in region. City/state and city/county formats both occur.
 - Far-away quick-cash work is not worthwhile.
-- Far-away marine work must be live-aboard/working-vessel crew work, or pay at least $24/hour or $50,000/year at the top of its stated range. Convert hourly/annual pay using 2,080 hours/year. Deckhand, OS/AB, wiper/oiler, mate, yacht deck/stew, tug/barge, offshore, and vessel crew can qualify. Shore-side dockhand, fueler, boatcierge, instructor, mechanic, technician, dealership, sales, club, valet, and front-desk jobs do not qualify as live aboard based on their titles.
+- Far-away marine work must be live-aboard/working-vessel crew work, or pay at least $20/hour or $41,600/year at the top of its stated range. Convert hourly/annual pay using 2,080 hours/year. Deckhand, OS/AB, wiper/oiler, mate, yacht deck/stew, tug/barge, offshore, and vessel crew can qualify. Shore-side dockhand, fueler, boatcierge, instructor, mechanic, technician, dealership, sales, club, valet, and front-desk jobs do not qualify as live aboard based on their titles.
 - Unknown pay can justify investigating a far-away role only when it is not clearly low-wage shore work. Do not recommend distant low-paid dock/retail/attendant jobs. Treat sales-development/SDR, business-development-rep/BDR, and retail titles as low-wage shore work for this rule.
 - Far-away nonremote AI/web or tech-sales work needs the same high-pay threshold; unknown pay is worth checking only for roles outside those low-wage categories.
 

@@ -3,6 +3,17 @@ import { safeUrl, pitchFor } from '../logic.js';
 import { h, button, trackChip, pageHeading, empty, ago, toast, field } from '../ui.js';
 export function nest(store, ui) {
   const all = store.visibleFeed();
+  // Phone alerts link here as #nest?job=<id> (one job) or #nest?alerts=1 (several).
+  const params = new URLSearchParams(location.hash.split('?')[1] || '');
+  const focusId = params.get('job');
+  const showAlerts = params.get('alerts') === '1';
+  if ((focusId || showAlerts) && ui.from !== location.hash) { Object.assign(ui, { track: 'all', search: '', newOnly: false, fastOnly: false, from: location.hash }); }
+  const alerts = store.state.feed.alerts || [];
+  const alerted = new Set(alerts.map(a => a.id));
+  const savedIds = new Set(store.state.tracker.jobs.map(j => j.feedId).filter(Boolean));
+  const visibleIds = new Set(all.map(j => j.id));
+  const feedIds = new Set(store.state.feed.jobs.map(j => j.id));
+  const alertStatus = id => visibleIds.has(id) ? 'listed' : savedIds.has(id) ? 'saved' : feedIds.has(id) ? 'dismissed' : 'gone';
   const isNew = job => !store.state.lastVisit || Date.parse(job.firstSeenAt) > Date.parse(store.state.lastVisit);
   const list = h('div', { class: 'feed-grid' });
   const count = h('span', { class: 'results-count muted small', role: 'status' });
@@ -15,7 +26,7 @@ export function nest(store, ui) {
     const query = ui.search.toLowerCase().trim();
     const jobs = all.filter(j => (ui.track === 'all' || j.track === ui.track) && (!ui.newOnly || isNew(j)) && (!ui.fastOnly || (j.flags || []).includes('starts-fast')) &&
       (!query || [j.title, j.company, j.location, j.snippet].join(' ').toLowerCase().includes(query)))
-      .sort((a, b) => ui.sort === 'newest' ? (b.postedAt || b.firstSeenAt || '').localeCompare(a.postedAt || a.firstSeenAt || '') : (b.score || 0) - (a.score || 0));
+      .sort((a, b) => (b.id === focusId) - (a.id === focusId) || (ui.sort === 'newest' ? (b.postedAt || b.firstSeenAt || '').localeCompare(a.postedAt || a.firstSeenAt || '') : (b.score || 0) - (a.score || 0)));
     count.textContent = `${jobs.length} ${jobs.length === 1 ? 'opportunity' : 'opportunities'} on the horizon`;
     list.replaceChildren(...jobs.map(job => jobCard(job)));
     if (!jobs.length) list.append(empty('⚑', all.length ? 'Clear waters for these filters.' : store.state.feed.jobs.length ? 'This catch is safely sorted.' : 'The lookout hasn’t reported yet',
@@ -24,7 +35,7 @@ export function nest(store, ui) {
   function jobCard(job) {
     const score = Math.max(0, Math.min(100, Number(job.score) || 0));
     const title = safeUrl(job.url) ? h('a', { href: job.url, target: '_blank', rel: 'noopener noreferrer' }, job.title, h('span', { class: 'external-arrow', 'aria-hidden': 'true' }, '↗')) : h('span', {}, job.title);
-    const card = h('article', { class: 'job-card' }, h('div', { class: 'section-top card-top' }, trackChip(job.track), isNew(job) && h('span', { class: 'new-badge' }, 'NEW')),
+    const card = h('article', { class: 'job-card' + (job.id === focusId ? ' focused' : ''), 'data-id': job.id }, h('div', { class: 'section-top card-top' }, trackChip(job.track), h('span', { class: 'card-badges' }, alerted.has(job.id) && h('span', { class: 'new-badge alert-badge' }, 'ALERTED'), isNew(job) && h('span', { class: 'new-badge' }, 'NEW'))),
       h('h2', {}, title), h('p', { class: 'job-company' }, job.company), h('p', { class: 'muted small' }, [job.location, job.remote ? 'Remote' : null].filter(Boolean).join(' · ')),
       job.pay && h('p', { class: 'job-pay' }, job.pay), job.snippet && h('p', { class: 'job-snippet' }, job.snippet),
       h('div', { class: 'job-flags' }, ...(job.flags || []).map(flag => {
@@ -83,9 +94,32 @@ export function nest(store, ui) {
   const refreshMessages = { waiting: 'Lookout running; checking for its report…', timeout: 'Still running—try Reload feed later.', ready: 'Fresh report aboard.' };
   const health = h('footer', { class: 'source-health panel' }, h('div', { class: 'section-top' }, h('details', {}, h('summary', {}, `${store.state.feed.generatedAt ? 'Updated ' + ago(store.state.feed.generatedAt) : 'Awaiting first report'} · ${healthy}/${sources.length} sources OK`),
     h('ul', { class: 'source-list' }, ...sources.map(source => h('li', {}, h('span', { class: source.ok ? 'foam-text' : 'flare-text' }, source.ok ? '●' : '○'), h('strong', {}, source.name), h('span', { class: 'muted' }, source.ok ? `${source.count} jobs` : source.error || 'Unavailable'))))), h('div', { class: 'button-row' }, refresh, reload)), store.state.feedRefresh && h('p', { class: 'small', role: 'status' }, refreshMessages[store.state.feedRefresh]), store.state.feedError && h('p', { class: 'flare-text small' }, store.state.feedError));
+  function focusNote() {
+    if (!focusId || visibleIds.has(focusId)) return null;
+    const alert = alerts.find(a => a.id === focusId) || store.state.feed.jobs.find(j => j.id === focusId);
+    const status = alertStatus(focusId);
+    const message = !store.state.feed.generatedAt ? 'Loading the latest jobs…'
+      : status === 'saved' ? 'You already saved this job. It’s in The Voyage.'
+      : status === 'dismissed' ? 'You dismissed this job earlier, so it’s hidden here.'
+      : alert ? 'This job was in a phone alert but has left the list since, usually because it filled or closed.'
+      : 'This job isn’t on the site yet. The site may still be updating, so tap Reload feed in a minute.';
+    return h('p', { class: 'banner alert-note', role: 'status' }, message, alert && alert.url && safeUrl(alert.url) && h('a', { href: alert.url, target: '_blank', rel: 'noopener noreferrer' }, ' Open posting ↗'));
+  }
+  function alertsPanel() {
+    if (!alerts.length) return null;
+    const labels = { listed: 'On the list', saved: 'Saved', dismissed: 'Dismissed', gone: 'Filled or removed' };
+    return h('details', { class: 'panel alerts-panel', open: showAlerts }, h('summary', {}, `Recent phone alerts (${alerts.length})`),
+      h('ul', { class: 'alert-list' }, ...alerts.map(a => {
+        const status = alertStatus(a.id);
+        return h('li', {}, h('div', {}, status === 'listed' ? h('a', { route: 'nest?job=' + encodeURIComponent(a.id) }, a.title) : h('strong', {}, a.title),
+          h('span', { class: 'muted small' }, ` · ${[a.company, a.location, a.pay].filter(Boolean).join(' · ')}`)),
+          h('div', { class: 'small' }, h('span', { class: 'alert-status status-' + status }, labels[status]), h('span', { class: 'muted' }, ' · ' + ago(a.alertedAt)),
+            status !== 'listed' && a.url && safeUrl(a.url) && h('a', { href: a.url, target: '_blank', rel: 'noopener noreferrer' }, ' · Open posting ↗')));
+      })));
+  }
   draw();
   return h('div', { class: 'view nest-view' }, pageHeading('THE LOOKOUT', 'Crow’s Nest', 'Six waters to explore. Your next opportunity is out there.'),
     h('section', { class: 'feed-controls', 'aria-label': 'Feed filters' }, chips, h('div', { class: 'search-row' }, field('Search the horizon', search, 'search-field'), field('Sort by', sort), h('label', { class: 'check-label new-toggle' }, h('input', { type: 'checkbox', checked: ui.newOnly, onChange: e => { ui.newOnly = e.target.checked; draw(); } }), 'New only'),
       h('label', { class: 'check-label new-toggle' }, h('input', { type: 'checkbox', checked: ui.fastOnly, onChange: e => { ui.fastOnly = e.target.checked; draw(); } }), 'Starts fast'))),
-    count, list, health);
+    focusNote(), alertsPanel(), count, list, health);
 }

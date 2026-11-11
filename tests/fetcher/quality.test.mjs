@@ -36,8 +36,8 @@ test('home region supports cities, county formats and full state names without s
 test('pay parsing converts hourly and annual maximums and applies inclusive thresholds', () => {
   for (const [pay, hourlyMax, annualMax] of [['$28.86–$33.62/Per Hour', 33.62, 33.62 * 2080], ['$40,000–$55,000/year', 55000 / 2080, 55000], ['$18–$25/hour', 25, 52000], ['$13/hr', 13, 27040], ['$55,602–$72,285/Per Year', 72285 / 2080, 72285]]) assert.deepEqual(parsePay(pay), { hourlyMax, annualMax });
   for (const pay of ['', 'Competitive', '$150/day']) assert.equal(parsePay(pay), null);
-  for (const pay of ['$24/hr', '$50,000/year', '$18–$25/hour']) assert.equal(isHighPay(pay), true);
-  for (const pay of ['$23.99/hr', '$49,000/year', '', 'Competitive']) assert.equal(isHighPay(pay), false);
+  for (const pay of ['$20/hr', '$41,600/year', '$18–$25/hour']) assert.equal(isHighPay(pay), true);
+  for (const pay of ['$19.99/hr', '$41,000/year', '', 'Competitive']) assert.equal(isHighPay(pay), false);
 });
 test('live aboard signals and shore exclusions, including SDR and BDR', () => {
   for (const title of ['Deck Hand', 'AB', 'OS', 'Able Seaman', 'Ordinary Seaman', 'Wiper', 'Oiler', 'Mate', 'Yacht crew', 'Stewardess', 'Tug crew', 'Barge crew', 'Offshore crew', 'Vessel crew', 'Ship crew', 'Mariner', 'Seaman', 'Delivery crew', 'Day Worker', 'Crew Member']) assert.equal(isLiveAboard(title), true, title);
