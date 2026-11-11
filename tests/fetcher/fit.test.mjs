@@ -19,15 +19,15 @@ test('other careers never reach Quick Cash or Tech Sales', () => {
     for (const track of ['quick-cash', 'tech-sales']) assert.ok(reason(title, { track }), `${track}: ${title}`);
   }
   for (const title of ['Valet Parking Attendant MUSC', 'Event Staff Team Member', 'Bellperson & Valet', 'Part Time Weekend Product Demonstrator in Costco', 'Light Show Attendant (Temporary)', 'Detailer',
-    'Vacation Sales Ambassador', 'Marketing Agent', 'Field Sales and Marketing Representative', 'Chromebook Sales Specialist', 'Retail Display Installer - Technology', 'Part-time Nabisco Merchandiser']) assert.equal(reason(title), null, title);
+    'Vacation Sales Ambassador', 'Marketing Agent', 'Field Sales and Marketing Representative', 'Chromebook Sales Specialist', 'Retail Display Installer - Technology']) assert.equal(reason(title), null, title);
 });
 
-test('store retail only counts at a tech retailer or at $15/hr and up', () => {
-  assert.equal(reason('AE - Brand Ambassador (Sales Associate)', { company: 'American Eagle Outfitters' }), 'generic-retail');
+test('store staff is rejected at every pay while brand representatives qualify', () => {
+  assert.equal(reason('AE - Brand Ambassador (Sales Associate)', { company: 'American Eagle Outfitters' }), null);
   assert.equal(reason('Seasonal Retail Sales Associate', { company: "DICK'S Sporting Goods", track: 'tech-sales' }), 'generic-retail');
-  assert.equal(reason('Retail Sales Associate', { company: 'Best Buy', track: 'tech-sales' }), null);
+  assert.equal(reason('Retail Sales Associate', { company: 'Best Buy', track: 'tech-sales' }), 'generic-retail');
   assert.equal(reason('HP Retail Sales Representative', { company: '2020 Companies' }), null);
-  assert.equal(reason('Retail Sales Associate', { company: 'Journeys', pay: '$30,000–$34,000/year', track: 'tech-sales' }), null);
+  assert.equal(reason('Retail Sales Associate', { company: 'Journeys', pay: '$30,000–$34,000/year', track: 'tech-sales' }), 'generic-retail');
   // Luke dismissed this one as pay-too-low; anything topping out under $15/hr is out.
   assert.equal(reason('Retail Sales Associate (Seasonal)-HWY 17-$13/hr', { company: 'New Balance', pay: '$24,752–$30,888/year', track: 'tech-sales' }), 'generic-retail');
   assert.equal(reason('Box Office Attendant Part Time/Full Time', { pay: '$24,960/year' }), 'pay-too-low');
@@ -74,9 +74,9 @@ test('cruise brands, junk aggregators and page-watch articles are dropped', () =
 });
 
 test('marine jobs that need a licence or rating he does not hold are dropped', () => {
-  const marine = (title, extra = {}) => reason(title, { track: 'marine-chs', location: 'Charleston, SC', ...extra });
+  const marine = (title, extra = {}) => reason(title, { track: 'marine-chs', location: 'Charleston, SC', pay: '$20/hr', ...extra });
   for (const title of ['Captain - Marine | $5k SIGN ON BONUS', 'Boat Captain', 'MOTOR VESSEL CAPTAIN', 'Marine Surveyor', 'Vessel Pilot', 'Experienced AB Tugboat Deckhand', 'Barge Tankerman']) assert.equal(marine(title), 'needs-licence', title);
-  assert.equal(dropReason(job('Boat Captain', { track: 'marine-chs', location: 'Charleston, SC' }), { filters: { profile: { captainLicense: true } } }), null);
+  assert.equal(dropReason(job('Boat Captain', { track: 'marine-chs', location: 'Charleston, SC', pay: '$20/hr' }), { filters: { profile: { captainLicense: true } } }), null);
   for (const title of ['Boat Captain Trainee', 'Deckhand', 'Lead Dockhand', 'First Mate - Fishing Charter']) assert.equal(marine(title), null, title);
   assert.equal(marine('Deckhand (Dual Rate)', { snippet: 'Minimum Qualifications. You must possess a current United States Coast Guard Merchant Mariner Credential (MMC), Seafarer Unlimited (AB Unlimited) Endorsement or higher AND a current TWIC.' }), 'needs-licence');
   assert.equal(marine('Deckhand – Inland Barge Fleet', { snippet: 'Must have Drivers Licenses and a Valid TWIC card. Must obtain MMC (Merchant Mariner Credential).' }), null);
@@ -88,11 +88,11 @@ test('real boat work with plain titles is rescued; far marina desk jobs are not'
   const national = (title, location, pay = '') => reason(title, { track: 'marine-national', location, pay });
   // Both USACE small craft postings seen (Oct 2026) need a Coast Guard operator licence he doesn't hold yet.
   assert.equal(national('Small Craft Operator', 'Aberdeen, Washington', '$33.36–$40.63/Per Hour'), 'needs-licence');
-  assert.equal(national('LOCK AND DAM OPERATOR', 'Multiple Locations', '$23.65–$35.4/Per Hour'), null);
-  assert.equal(national('Trades Helper Linehandler (Relief Pool)', 'Massena, New York', '$27.57–$32.85/Per Hour'), null);
+  assert.equal(national('LOCK AND DAM OPERATOR', 'Multiple Locations', '$23.65–$35.4/Per Hour'), 'far-shore-job');
+  assert.equal(national('Trades Helper Linehandler (Relief Pool)', 'Massena, New York', '$27.57–$32.85/Per Hour'), 'far-shore-job');
   assert.equal(national('Maintenance Worker (DR)', 'Wilmington, North Carolina', '$26.96–$31.41/Per Hour'), null);
   assert.equal(reason('Firefighter Recruit, Georgetown County Fire and EMS', { track: 'marine-local', location: 'Georgetown County, SC' }), null);
-  assert.equal(reason('Guest Services Attendant', { company: 'Suntex Marina Investors', track: 'marine-chs', location: 'Mount Pleasant, Charleston County', pay: '$35,360/year' }), null);
+  assert.equal(reason('Guest Services Attendant', { company: 'Suntex Marina Investors', track: 'marine-chs', location: 'Mount Pleasant, Charleston County', pay: '$35,360/year' }), 'band-low-pay');
   assert.equal(reason('Guest Services Coordinator (Miami)', { company: 'IGY Marinas', track: 'marine-national', location: 'Miami, Miami-Dade County' }), 'not-marine');
   assert.equal(reason('Bartender', { company: 'Suntex Marina Investors', track: 'marine-chs', location: 'Mount Pleasant, Charleston County' }), 'not-marine');
 });
@@ -108,7 +108,7 @@ test('closed postings and jobs a full-list source stopped returning disappear', 
   const base = { company: 'U.S. Army Corps of Engineers', location: 'Multiple Locations', track: 'marine-national', pay: '$30/hr', firstSeenAt: '2026-10-15T00:00:00Z', score: 50, flags: [] };
   const prev = [{ ...base, id: 'closed', title: 'Lock and Dam Operator', source: 'usajobs', closesAt: '2026-10-15T00:00:00Z' }, { ...base, id: 'gone', title: 'Trades Helper Linehandler', source: 'sweep' }, { ...base, id: 'search', title: 'Deckhand', source: 'adzuna' }];
   const settings = { nowIso, filters: {}, dismissed: { items: [] }, trackedIds: new Set() };
-  assert.deepEqual(buildFeed(prev, [], settings).map(j => j.id).sort(), ['gone', 'search']);
+  assert.deepEqual(buildFeed(prev, [], settings).map(j => j.id).sort(), ['search']);
   assert.deepEqual(buildFeed(prev, [], { ...settings, refreshed: new Set(['sweep', 'usajobs']) }).map(j => j.id), ['search']);
 });
 
@@ -117,10 +117,10 @@ test('link check drops 404/410 and "filled" pages but never bot blocks or errors
   const pages = { 'https://x/gone': [410, ''], 'https://x/missing': [404, ''], 'https://x/filled': [200, '<p>Sorry, the job you are trying to apply for has been filled.</p>'], 'https://x/closed': [200, 'This job announcement has closed'],
     'https://x/open': [200, '<h1>Deckhand</h1> Apply now'], 'https://x/blocked': [403, 'Access denied'] };
   const fetchImpl = async url => { if (url === 'https://x/error') throw new Error('timeout'); const [status, body] = pages[url]; return new Response(body, { status }); };
-  const jobs = [...Object.keys(pages), 'https://x/error'].map(url => ({ id: url.split('/').pop(), url })).concat({ id: 'recent', url: 'https://x/gone', linkCheckedAt: '2026-10-16T06:00:00Z' });
+  const jobs = [...Object.keys(pages), 'https://x/error'].map(url => ({ id: url.split('/').pop(), url })).concat({ id: 'recent', url: 'https://x/gone', linkCheckedAt: '2026-10-16T11:00:00Z' });
   const { dead, checked } = await checkLinks(jobs, { nowIso: '2026-10-16T12:00:00Z', fetchImpl });
   assert.deepEqual([...dead].sort(), ['closed', 'filled', 'gone', 'missing']);
-  assert.ok(!checked.has('recent') && !checked.has('error') && checked.has('blocked'));
+  assert.ok(!checked.has('recent') && !checked.has('error') && !checked.has('blocked'));
   assert.equal(dropReason({ id: 'gone', title: 'Deckhand', track: 'marine-local', location: 'Myrtle Beach, SC' }, { deadIds: dead }), 'dead-link');
 });
 
@@ -137,7 +137,7 @@ test('description-level language, commission-only and 2+ year sales requirements
 
 test('second-audit gates: ramp captains, store brand reps, consultant trainers, licences by title, excluded jobs', () => {
   assert.equal(reason('Valet Ramp Captain', { company: 'Evolution Parking & Guest Services' }), 'senior');
-  assert.equal(reason('Brand Representative - King Street, Abercrombie & Fitch', { company: 'Abercrombie & Fitch', location: 'Charleston, SC' }), 'generic-retail');
+  assert.equal(reason('Brand Representative - King Street, Abercrombie & Fitch', { company: 'Abercrombie & Fitch', location: 'Charleston, SC', pay: '$20/hr' }), null);
   assert.equal(reason('Business Transformation Consultant - AI Trainer', { track: 'ai-web', remote: true, location: 'Remote' }), 'off-track');
   assert.equal(reason('Freedom Boat Club - Boating Instructor at Clemson Marina', { track: 'marine-national', location: 'Seneca, SC', pay: '$30/hr' }), 'needs-licence');
   const filters = { excludeJobs: [{ id: 'x1', reason: 'residency' }] };

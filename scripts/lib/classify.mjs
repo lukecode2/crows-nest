@@ -1,5 +1,5 @@
 import { MARINE_TITLE } from './filter.mjs';
-import { STORE_RETAIL, TECH_RETAILER, APPAREL_STORE } from './fit.mjs';
+import { isStoreRetail, TECH_RETAILER } from './fit.mjs';
 // Shared title-fit lists: every alternative is bounded to avoid mate/automate matches.
 const LEGACY_MARINE = /\b(?:deckhand|dockhand|deck hand|mate|boat|marina|yacht|vessel|captain|seaman|mariner|ferry|tug|harbor|crew)\b/i;
 export const MARINE = new RegExp(`${MARINE_TITLE.source}|${LEGACY_MARINE.source}`, 'i');
@@ -15,7 +15,7 @@ export const TRACK_KEYWORDS = {
 export function classifyTrack(job) {
   const title = job.title || '', role = `${title} ${job.snippet || ''}`;
   if (job.trackHint?.startsWith('marine-')) return /\bmcclellanville\b/i.test(job.location || '') ? 'marine-chs' : job.trackHint;
-  const retail = STORE_RETAIL.test(title) || /\bretail\b.*\bsales\b/i.test(title) || /\bbrand ambassador\b/i.test(title) && APPAREL_STORE.test(job.company);
+  const retail = isStoreRetail(job);
   if (retail && !TECH_RETAILER.test(`${job.company} ${title}`)) return 'quick-cash';
   const temporary = TEMP.test(title) || /\b(?:part[- ]time|temporary|weekends? only|on[- ]demand|per required need)\b/i.test(job.snippet || '') || /\b(?:demo(?:nstrat\w*)?|install\w*|on[- ]demand)\b/i.test(title);
   if (temporary && /\b(?:sales|brand|retail|demo(?:nstrat\w*)?|install\w*)\b/i.test(title)) return 'quick-cash';

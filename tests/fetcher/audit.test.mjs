@@ -5,7 +5,7 @@ import { dropReason, isSenior, roleKey, applyFilters, requiredYears } from '../.
 import { classifyTrack } from '../../scripts/lib/classify.mjs';
 import { checkLinks, checkUrl, DEAD_TEXT } from '../../scripts/lib/linkcheck.mjs';
 import { needsCredentialHeLacks } from '../../scripts/lib/fit.mjs';
-import { parsePay, inHomeRegion } from '../../scripts/lib/region.mjs';
+import { parsePay, inHomeRegion, inCharlestonBand } from '../../scripts/lib/region.mjs';
 import { buildFeed, checkFeedLinks, dailyRunSlot, sources } from '../../scripts/fetch-feed.mjs';
 import { sendAlert } from '../../scripts/lib/alert.mjs';
 const nowIso = '2026-10-24T12:00:00Z';
@@ -111,19 +111,18 @@ test('explicit hourly snippet pay fills only blank structured pay and tips canno
   assert.equal(kept.pay, '$18/hr');
 });
 
-test('plural sales associates and direct apparel/store ambassadors use the retail pay exception', () => {
-  for (const [title, company] of [['Sales Associates', 'Smoke House'], ['Brand Ambassador', 'Ralph Lauren'], ['Seasonal Brand Ambassador', "Macy's"]]) {
-    assert.equal(reason(title, { company }), 'generic-retail');
-    assert.equal(reason(title, { company, pay: '$15/hr' }), null);
-    assert.equal(reason(title, { company, snippet: '$16 per hour' }), null);
+test('sales associates never qualify; apparel brand ambassadors do', () => {
+  for (const pay of ['', '$15/hr', '$100/hr']) assert.equal(reason('Sales Associates', { company: 'Smoke House', pay }), 'generic-retail');
+  for (const [title, company] of [['Brand Ambassador', 'Ralph Lauren'], ['Seasonal Brand Ambassador', "Macy's"]]) {
+    for (const pay of ['', '$15/hr', '$20/hr']) assert.equal(reason(title, { company, pay }), null);
   }
   assert.equal(reason('Brand Ambassador', { company: '2020 Companies' }), null);
-  assert.equal(reason('Retail Sales Associate', { company: 'Best Buy' }), null);
+  assert.equal(reason('Retail Sales Associate', { company: 'Best Buy', pay: '$30/hr' }), 'generic-retail');
 });
 
 test('licensed real estate, insurance sales, makeup and food service are other careers', () => {
   for (const title of ['Licensed Real Estate Sales Agent', 'Insurance Producer', 'Insurance Agent', 'Beauty Advisor']) assert.equal(reason(title), 'off-track');
-  for (const snippet of ['Sell supplemental insurance', 'No prior insurance experience needed', 'You will be selling insurance']) assert.equal(reason('Sales Representative', { snippet }), 'off-track');
+  for (const snippet of ['Sell supplemental insurance', 'No prior insurance experience needed', 'You will be selling insurance']) assert.equal(reason('Sales Representative', { snippet }), 'commission-insurance');
   assert.equal(reason('Brand Expert', { snippet: 'Exceptional makeup artistry' }), 'off-track');
   for (const snippet of ['Food service experience required', 'Food Service & Customer Service experience required', 'Serving food to customers']) assert.equal(reason('Customer Ambassador', { snippet }), 'off-track');
   for (const title of ['Sales Development Representative, Hospital Solutions', 'Business Development Representative - Healthcare']) assert.equal(reason(title, { track: 'tech-sales', snippet: 'Benefits include health and supplemental insurance' }), null);
@@ -174,14 +173,15 @@ test('tracker matches normalized URLs and company/role even when repost ids diff
   assert.equal(applyFilters([job('Field Sales Representative - Myrtle Beach, SC', { company: 'TTI' }), job('Field Sales Representative - North Myrtle Beach, SC', { company: b.company })]).length, 2);
 });
 
-test('McClellanville is in the home region and the Charleston marine track', () => {
-  assert.ok(inHomeRegion('McClellanville, SC'));
+test('McClellanville is in the Charleston-distance band and the Charleston marine track', () => {
+  assert.equal(inHomeRegion('McClellanville, SC'), false);
+  assert.ok(inCharlestonBand('McClellanville, SC'));
   assert.equal(inHomeRegion('McClellanville, FL'), false);
   assert.equal(classifyTrack(job('Marine Construction Crew Member', { location: 'McClellanville, SC', trackHint: 'marine-national' })), 'marine-chs');
 });
 
 test('retail, field sales, telecom, tech brands and full-time ambassadors override stale hints', () => {
-  for (const [title, company] of [['Retail Sales Associate', "DICK'S Sporting Goods"], ['Retail Sales Associate', 'Journeys'], ['Retail Paint Sales Associate', 'Sherwin Williams'], ['Retail Customer Account & Sales Representative', 'Rent A Center'], ['Seasonal Brand Ambassador', 'Ralph Lauren']]) assert.equal(classifyTrack(job(title, { company, trackHint: 'tech-sales' })), 'quick-cash');
+  for (const [title, company] of [['Retail Sales Associate', "DICK'S Sporting Goods"], ['Retail Sales Associate', 'Journeys'], ['Retail Paint Sales Associate', 'Sherwin Williams'], ['Retail Customer Account & Sales Representative', 'Rent A Center']]) assert.equal(classifyTrack(job(title, { company, trackHint: 'tech-sales' })), 'quick-cash');
   for (const [title, company, snippet] of [['Field Sales and Marketing Representative', 'TTI', ''], ['Xfinity Retail Sales Consultant', 'Comcast', ''], ['Chromebook Sales Specialist', '2020 Companies', 'Full time'], ['Brand Ambassador', 'Service Pros', 'Full-Time'], ['Brand Ambassador', 'Staffing Co', 'Full-time. Host event marketing programmes on weekends.']]) assert.equal(classifyTrack(job(title, { company, snippet, trackHint: 'quick-cash' })), 'tech-sales');
   for (const [title, snippet] of [['HP Retail Sales Representative', 'Part time'], ['Product Demonstrator', 'Full time'], ['Retail Display Installer - Technology', 'Part time'], ['Field Sales / Brand Ambassador', 'Part-time'], ['Brand Ambassador - Weekend Demo', '']]) assert.equal(classifyTrack(job(title, { company: '2020 Companies', snippet, trackHint: 'tech-sales' })), 'quick-cash');
 });
@@ -190,8 +190,8 @@ test('stored and incoming jobs are classified before experience and distance gat
   const raw = job('Chromebook Sales Specialist', { trackHint: 'quick-cash', company: '2020 Companies', snippet: 'Full time. Minimum of 2 years of sales experience.', url: 'https://tech.test/job' });
   assert.deepEqual(buildFeed([], [raw], { nowIso }), []);
   assert.deepEqual(buildFeed([{ ...raw, id: 'old', trackHint: undefined, track: 'quick-cash', firstSeenAt: nowIso }], [], { nowIso }), []);
-  const [retail] = buildFeed([job('Retail Sales Associate', { company: 'Journeys', track: 'tech-sales', pay: '$18/hr', firstSeenAt: nowIso })], [], { nowIso });
-  assert.equal(retail.track, 'quick-cash');
+  const retail = buildFeed([job('Retail Sales Associate', { company: 'Journeys', track: 'tech-sales', pay: '$18/hr', firstSeenAt: nowIso })], [], { nowIso });
+  assert.deepEqual(retail, []);
 });
 
 test('the three scheduled UTC runs have different JSearch rotation slots', () => {

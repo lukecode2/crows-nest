@@ -1,7 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { applyFilters, isSenior, isMarineTitle } from '../../scripts/lib/filter.mjs';
-import { inHomeRegion, parsePay, isHighPay, isLiveAboard, lowWageShore } from '../../scripts/lib/region.mjs';
+import { inHomeRegion, inCharlestonBand, parsePay, isHighPay, isLiveAboard, lowWageShore } from '../../scripts/lib/region.mjs';
 import { buildFeed, buildCatchLog } from '../../scripts/fetch-feed.mjs';
 const job = (title, extra = {}) => ({ id: title, title, company: 'Boats', location: 'Myrtle Beach, SC', track: 'marine-local', pay: '', flags: [], ...extra });
 const options = { nowIso: '2026-10-15T12:00:00Z' };
@@ -24,15 +24,17 @@ test('all-track seniority, assistant exception, technical plurals and roman leve
     for (const title of ['AI Trainer', 'Web Developer (Fresh graduate welcome, WFH policy)', 'Junior Engineers', 'Entry-level Engineer', 'Associate Engineer', 'Engineer Intern', 'Apprentice Engineer', 'Trainee Engineer', 'Engineer Trainer']) assert.equal(isSenior(job(title, { track })), false, title);
   }
 });
-test('home region supports cities, county formats and full state names without same-name distant cities', () => {
-  const cities = 'Myrtle Beach|North Myrtle Beach|Conway|Carolina Forest|Surfside|Garden City|Murrells Inlet|Pawleys Island|Georgetown|Little River|Loris|Aynor|Charleston|North Charleston|Mount Pleasant|Summerville|James Island|Johns Island|Daniel Island|Isle of Palms|Folly Beach|Kiawah|Goose Creek|Moncks Corner|Hanahan|Ladson'.split('|');
-  for (const city of cities) assert.equal(inHomeRegion(`${city}, South Carolina`), true, city);
-  for (const city of ['Wilmington', 'Shallotte', 'Calabash', 'Southport', 'Leland', 'Whiteville', 'Tabor City']) assert.equal(inHomeRegion(`${city}, North Carolina`), true, city);
-  for (const county of ['Horry', 'Georgetown', 'Charleston', 'Berkeley', 'Dorchester', 'Colleton', 'Williamsburg', 'Marion', 'Florence']) assert.equal(inHomeRegion(`${county} County, SC`), true, county);
-  for (const county of ['Brunswick', 'Columbus', 'New Hanover', 'Pender']) assert.equal(inHomeRegion(`${county} County, NC`), true, county);
-  for (const location of ['Remote', 'Carolina Forest, Horry County', 'Wilmington, North Carolina', 'Charleston, South Carolina']) assert.equal(inHomeRegion(location), true);
-  for (const location of ['Lighthouse Point, FL', 'Portland, Oregon', 'Wilmington, Delaware', 'Charleston, WV', 'Conway, AR', 'Florence County, Wisconsin', '', 'United States']) assert.equal(inHomeRegion(location), false, location);
+test('home and Charleston band support towns and county formats without distant namesakes', () => {
+  for (const location of ['Myrtle Beach, SC', 'Marion County, SC', 'Mullins, Marion County', 'Georgetown, SC', 'Southport, NC', 'Whiteville, Columbus County', 'Brunswick County, NC', 'Remote']) assert.ok(inHomeRegion(location), location);
+  for (const location of ['Charleston, SC', 'McClellanville, SC', 'Lincolnville, Dorchester County', 'Walterboro, SC', 'Colleton County, SC', 'Florence, SC', 'Williamsburg County, SC', 'Wilmington, NC', 'Hampstead, NC', 'New Hanover County, NC', 'Pender County, NC']) {
+    assert.equal(inHomeRegion(location), false, location);
+    assert.ok(inCharlestonBand(location), location);
+  }
+  for (const location of ['Wilmington, Delaware', 'Charleston, WV', 'Conway, AR', 'Florence County, Wisconsin', 'Indianapolis, Marion County', 'Cambridge, Dorchester County', 'Martinsburg, Berkeley County', '', 'United States']) {
+    assert.equal(inHomeRegion(location), false, location); assert.equal(inCharlestonBand(location), false, location);
+  }
 });
+
 test('pay parsing converts hourly and annual maximums and applies inclusive thresholds', () => {
   for (const [pay, hourlyMax, annualMax] of [['$28.86–$33.62/Per Hour', 33.62, 33.62 * 2080], ['$40,000–$55,000/year', 55000 / 2080, 55000], ['$18–$25/hour', 25, 52000], ['$13/hr', 13, 27040], ['$55,602–$72,285/Per Year', 72285 / 2080, 72285]]) assert.deepEqual(parsePay(pay), { hourlyMax, annualMax });
   for (const pay of ['', 'Competitive', '$150/day']) assert.equal(parsePay(pay), null);
@@ -40,16 +42,17 @@ test('pay parsing converts hourly and annual maximums and applies inclusive thre
   for (const pay of ['$19.99/hr', '$41,000/year', '', 'Competitive']) assert.equal(isHighPay(pay), false);
 });
 test('live aboard signals and shore exclusions, including SDR and BDR', () => {
-  for (const title of ['Deck Hand', 'AB', 'OS', 'Able Seaman', 'Ordinary Seaman', 'Wiper', 'Oiler', 'Mate', 'Yacht crew', 'Stewardess', 'Tug crew', 'Barge crew', 'Offshore crew', 'Vessel crew', 'Ship crew', 'Mariner', 'Seaman', 'Delivery crew', 'Day Worker', 'Crew Member']) assert.equal(isLiveAboard(title), true, title);
-  for (const title of ['Dock Hand', 'Deckhand Fueler', 'Deckhand Boatcierge', 'Boating Instructor', 'Vessel Technician', 'Vessel Mechanic', 'Yacht Sales', 'Freedom Boat Club Deckhand', 'Ship Dealership', 'Yacht Service Writer', 'Vessel Valet', 'Vessel Front Desk', 'Vessel Call Center']) assert.equal(isLiveAboard(title), false, title);
+  for (const title of ['Deck Hand', 'AB', 'OS', 'Able Seaman', 'Ordinary Seaman', 'Wiper', 'Oiler', 'Mate', 'Yacht crew', 'Stewardess', 'Tug crew', 'Barge crew', 'Offshore crew', 'Vessel crew', 'Ship crew', 'Mariner', 'Seaman', 'Delivery crew']) assert.equal(isLiveAboard(title), true, title);
+  for (const title of ['Dock Hand', 'Deckhand Fueler', 'Deckhand Boatcierge', 'Boating Instructor', 'Vessel Technician', 'Vessel Mechanic', 'Yacht Sales', 'Freedom Boat Club Deckhand', 'Ship Dealership', 'Yacht Service Writer', 'Vessel Valet', 'Vessel Front Desk', 'Vessel Call Center', 'Shipyard', 'Day Worker', 'Crew Member']) assert.equal(isLiveAboard(title), false, title);
   for (const title of ['Dockhand', 'Fueler', 'Boatcierge', 'Attendant', 'Associate', 'Cashier', 'Valet', 'Cleaner', 'Porter', 'Detailer', 'Instructor', 'Host', 'Server', 'Clerk', 'Merchandiser', 'Ambassador', 'Technician', 'Sales Development Representative', 'Business Development Rep', 'SDR', 'BDR', 'Retail']) assert.equal(lowWageShore(title), true, title);
 });
 test('distance rule drops far shore work and preserves local work, live aboard and high pay with flags', () => {
   for (const [title, location] of [['Freedom Boat Club - Dock Hand at Lighthouse Point', 'Lighthouse Point, FL'], ['Freedom Boat Club - Part-Time Boat Fueler at Venice', 'Venice, FL'], ['Freedom Boat Club - Boating Instructor at Bald Ridge', 'Cumming, GA'], ['Freedom Boat Club - Part-Time Boatcierge at Marco', 'Marco Island, FL']]) assert.equal(applyFilters([job(title, { location })]).length, 0, title);
-  for (const [title, location, pay, flag] of [['Deckhand – Inland Barge Fleet', 'Illinois', '', 'live-aboard'], ['Deckhand (Dual Rate)', 'Portland, Oregon', '$30.14–$46.16/hr', 'high-pay'], ['Yacht Deckhand', 'Fort Lauderdale, FL', '', 'live-aboard'], ['Dockhand', 'Miami, FL', '$24/hr', 'high-pay']]) {
+  for (const [title, location, pay, flag] of [['Deckhand – Inland Barge Fleet', 'Illinois', '', 'live-aboard'], ['Deckhand (Dual Rate)', 'Portland, Oregon', '$30.14–$46.16/hr', 'high-pay'], ['Yacht Deckhand', 'Fort Lauderdale, FL', '', 'live-aboard']]) {
     const [kept] = applyFilters([job(title, { location, pay })]);
     assert.ok(kept, title); assert.equal(kept.track, 'marine-national'); assert.ok(kept.flags.includes('far-away')); assert.ok(kept.flags.includes(flag));
   }
+  assert.equal(applyFilters([job('Dockhand', { location: 'Miami, FL', pay: '$100/hr' })]).length, 0);
   assert.equal(applyFilters([job('Freedom Boat Club - Dock Hand')]).length, 1);
   assert.equal(applyFilters([job('Marina Receptionist', { location: 'Miami, FL', pay: '' })]).length, 0); // far shore marina job, no pay: Luke only moves for boat or high-pay work
   assert.equal(applyFilters([job('Marina Receptionist', { location: 'Miami, FL', pay: '$18/hr' })]).length, 0);
@@ -58,14 +61,14 @@ test('distance rule drops far shore work and preserves local work, live aboard a
   for (const [track, title, onsite] of [['tech-sales', 'Sales Development Representative', 'Solutions Sales Specialist'], ['ai-web', 'AI Trainer', 'Junior Web Developer']]) {
     assert.equal(applyFilters([job('Sales Development Representative', { track: 'tech-sales', location: 'Mundelein, Lake County' })]).length, 0);
     assert.equal(applyFilters([job(onsite, { track, location: 'Chicago, IL', pay: '$18/hr' })]).length, 0);
-    assert.ok(applyFilters([job(onsite, { track, location: 'Chicago, IL' })])[0].flags.includes('pay-unknown'));
-    assert.ok(applyFilters([job(onsite, { track, location: 'Chicago, IL', pay: '$55,000/year' })])[0].flags.includes('high-pay'));
+    assert.equal(applyFilters([job(onsite, { track, location: 'Chicago, IL' })]).length, 0);
+    assert.equal(applyFilters([job(onsite, { track, location: 'Chicago, IL', pay: '$55,000/year' })]).length, 0);
     assert.equal(applyFilters([job(title, { track, location: 'Remote' })]).length, 1);
     assert.equal(applyFilters([job(title, { track, remote: true, location: 'Chicago, IL' })]).length, 1);
   }
 });
 test('duplicates collapse punctuation and location suffixes, keep best then newest, preserve up to ten locations', () => {
-  const jobs = ['Myrtle Beach', 'Conway', 'Charleston', 'Wilmington', 'Loris'].map((location, i) => job('AE - Brand Ambassador (Sales Associate)' + (i === 1 ? ' - Conway' : i === 2 ? ' (Charleston)' : i === 3 ? ' at Wilmington' : ''), { id: `${i}`, company: i % 2 ? 'Best Buy!' : 'Best Buy', track: 'tech-sales', location, score: i === 2 || i === 4 ? 90 : 30, postedAt: `2026-10-${10 + i}T00:00:00Z` }));
+  const jobs = ['Myrtle Beach', 'Conway', 'Charleston', 'Wilmington', 'Loris'].map((location, i) => job('AE - Brand Ambassador (Sales Associate)' + (i === 1 ? ' - Conway' : i === 2 ? ' (Charleston)' : i === 3 ? ' at Wilmington' : ''), { id: `${i}`, company: i % 2 ? 'Best Buy!' : 'Best Buy', track: 'tech-sales', location, pay: '$20/hr', score: i === 2 || i === 4 ? 90 : 30, postedAt: `2026-10-${10 + i}T00:00:00Z` }));
   const [kept] = applyFilters(jobs);
   assert.equal(applyFilters(jobs).length, 1); assert.equal(kept.id, '4'); assert.equal(kept.location, 'Loris (+4 more)'); assert.equal(kept.otherLocations.length, 4);
   assert.equal(applyFilters([kept])[0].location, kept.location);
@@ -125,7 +128,8 @@ test('bare annual amounts from persisted feeds retain high-pay eligibility', () 
 });
 test('county names shared with distant states need a local city or explicit home state', () => {
   for (const location of ['Indianapolis, Marion County', 'Cambridge, Dorchester County', 'Martinsburg, Berkeley County']) assert.equal(inHomeRegion(location), false, location);
-  for (const location of ['Marion County', 'Florence, Florence County', 'Mullins, Marion County', 'Lake City, Florence County', 'Ladson, Dorchester County', 'Any town, Berkeley County, South Carolina']) assert.equal(inHomeRegion(location), true, location);
+  for (const location of ['Marion County', 'Mullins, Marion County']) assert.equal(inHomeRegion(location), true, location);
+  for (const location of ['Florence, Florence County', 'Lake City, Florence County', 'Ladson, Dorchester County', 'Any town, Berkeley County, South Carolina']) assert.equal(inCharlestonBand(location), true, location);
 });
 
 test('round 3: senior on all tracks, language gigs, far club listings, predicted Adzuna pay', async () => {
@@ -148,7 +152,7 @@ test('round 3: senior on all tracks, language gigs, far club listings, predicted
 
 test('a re-fetched job replaces its stored copy (stale predicted pay cannot survive)', () => {
   const nowIso = '2026-10-15T22:00:00.000Z';
-  const raw = { title: 'Host, Olive and Sea - Hilton Fort Lauderdale Marina', company: 'Hilton', location: 'Sunrise, Broward County', url: 'https://example.com/host', pay: '', source: 'adzuna', trackHint: 'marine-national', snippet: '' };
+  const raw = { title: 'Dockhand', company: 'Local Marina', location: 'Wilmington, NC', url: 'https://example.com/host', pay: '', source: 'adzuna', trackHint: 'marine-national', snippet: '' };
   const first = buildFeed([], [{ ...raw, pay: '$57,198.54/year' }], { nowIso, filters: {}, dismissed: { items: [] }, trackedIds: new Set() });
   assert.equal(first.length, 1);
   const second = buildFeed(first, [raw], { nowIso, filters: {}, dismissed: { items: [] }, trackedIds: new Set() });
@@ -170,7 +174,7 @@ test('road names and hotel stewards are not marine titles', () => {
 test('Dorchester County SC towns count as home and long remote country lists keep the US', async () => {
   const { inHomeRegion, remoteAbroad } = await import('../../scripts/lib/region.mjs');
   const { remoteJobs } = await import('../../scripts/lib/source-utils.mjs');
-  assert.equal(inHomeRegion('Lincolnville, Dorchester County'), true);
+  assert.equal(inCharlestonBand('Lincolnville, Dorchester County'), true);
   const countries = 'Australia, Austria, Belgium, Canada, Czechia, Denmark, Finland, France, Germany, Ireland, Netherlands, Norway, Singapore, Spain, Sweden, Switzerland, UK, USA';
   const [j] = remoteJobs([{ title: 'AI Content Reviewer', company: 'iMerit', eligible: countries, snippet: '' }]);
   assert.match(j.location, /^Remote — USA, Australia/);
