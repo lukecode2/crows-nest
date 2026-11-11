@@ -28,14 +28,21 @@ export async function fetchJobs(ctx) {
       }
       case 'workday': {
         const base = `https://${entry.host}/wday/cxs/${encodeURIComponent(entry.tenant)}/${encodeURIComponent(entry.site)}`;
-        const postings = [];
-        for (let page = 0; page < (entry.maxPages || 1); page++) {
-          const data = await api.getJson(`${base}/jobs`, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ appliedFacets: {}, limit: 20, offset: page * 20, searchText: entry.searchText || '' }) });
-          const batch = data.jobPostings || [];
-          postings.push(...batch);
-          if (batch.length < 20 || postings.length >= data.total) break;
+        const found = new Map();
+        // `searchTexts` runs one search per city for employers that post the same role nationwide.
+        for (const searchText of entry.searchTexts || [entry.searchText || '']) {
+          const postings = [];
+          for (let page = 0; page < (entry.maxPages || 1); page++) {
+            const data = await api.getJson(`${base}/jobs`, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ appliedFacets: {}, limit: 20, offset: page * 20, searchText }) });
+            const batch = data.jobPostings || [];
+            postings.push(...batch);
+            if (batch.length < 20 || postings.length >= data.total) break;
+          }
+          for (const j of postings) found.set(j.externalPath, j);
         }
-        jobs = postings.map(j => ({ title: j.title, location: j.locationsText || '', url: `https://${entry.host}/en-US/${entry.site}${j.externalPath}`, snippet: [j.timeType, ...(j.bulletFields || [])].filter(Boolean).join(' '), postedAt: null, _path: j.externalPath }));
+        // Some tenants label locations "City_ZIP" (e.g. "Conway_29526").
+        const place = value => String(value || '').replace(/^([^_]+)_(\d{5})$/, '$1, $2');
+        jobs = [...found.values()].map(j => ({ title: j.title, location: place(j.locationsText), url: `https://${entry.host}/en-US/${entry.site}${j.externalPath}`, snippet: [j.timeType, ...(j.bulletFields || [])].filter(Boolean).join(' '), postedAt: null, _path: j.externalPath }));
         // Search results omit descriptions and sometimes locations. Details carry eligibility and pay.
         jobs = jobs.filter(j => entryMatches(j, { ...entry, states: undefined }) && (!ctx.acceptJob || ctx.acceptJob(j)));
         jobs = await collect(jobs, async job => {
@@ -43,7 +50,7 @@ export async function fetchJobs(ctx) {
           try { detail = (await api.getJson(`${base}${job._path}`)).jobPostingInfo; }
           catch (error) { ctx.log?.(`${entry.name} details: ${error.message}`); }
           const { _path, ...mapped } = job;
-          return [{ ...mapped, location: [detail?.location || mapped.location, ...(detail?.additionalLocations || [])].filter(Boolean).join('; '), snippet: [detail?.timeType, detail?.jobDescription || mapped.snippet].filter(Boolean).join(' '), postedAt: iso(detail?.startDate), pay: detail?.payRange || '' }];
+          return [{ ...mapped, location: [place(detail?.location) || mapped.location, ...(detail?.additionalLocations || []).map(place)].filter(Boolean).join('; '), snippet: [detail?.timeType, detail?.jobDescription || mapped.snippet].filter(Boolean).join(' '), postedAt: iso(detail?.startDate), pay: detail?.payRange || '' }];
         }, ctx, 3);
         break;
       }

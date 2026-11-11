@@ -3,7 +3,7 @@ import { cleanText } from '../lib/normalize.mjs';
 
 export const name = 'direct';
 export const timeoutMs = 240000;
-export const types = ['bamboohr', 'icims', 'jibe', 'oracle', 'jobsyn', 'smartrecruiters-html', 'advantage', 'alignerr', 'mercor', 'tallships'];
+export const types = ['bamboohr', 'icims', 'jibe', 'oracle', 'jobsyn', 'phenom', 'smartrecruiters-html', 'advantage', 'alignerr', 'mercor', 'tallships'];
 const text = value => cleanText(value, Infinity);
 const list = value => value == null ? [] : Array.isArray(value) ? value : [value];
 const location = address => [address?.addressLocality, address?.addressRegion, typeof address?.addressCountry === 'object' ? address.addressCountry.name : address?.addressCountry].filter(Boolean).join(', ');
@@ -151,6 +151,27 @@ async function jobsyn(entry, ctx, api) {
   }
   return [...jobs.values()];
 }
+// Phenom career sites (careers.<company>.com/us/en) server-render search results as a JSON data
+// object; each job page carries a schema.org JobPosting with the full description.
+async function phenom(entry, ctx, api) {
+  const rows = new Map();
+  for (const query of entry.queries || ['']) {
+    const url = new URL('search-results', entry.url);
+    url.search = new URLSearchParams({ keywords: query });
+    const data = (await api.getText(url.href)).match(/phApp\.ddo\s*=\s*(\{[\s\S]*?\});\s*phApp/)?.[1];
+    const jobs = data && JSON.parse(data).eagerLoadRefineSearch?.data?.jobs;
+    if (!Array.isArray(jobs)) throw new Error('Invalid Phenom search page');
+    for (const j of jobs) {
+      if (!j.jobSeqNo) continue;
+      rows.set(j.jobSeqNo, { title: j.title, location: j.location || [j.city, j.state].filter(Boolean).join(', '),
+        url: absolute(`job/${encodeURIComponent(j.jobSeqNo)}`, entry.url), snippet: [j.type, j.descriptionTeaser].filter(Boolean).join(' '), postedAt: iso(j.postedDate) });
+    }
+  }
+  return details([...rows.values()], entry, ctx, api, async row => {
+    const posting = jobPostings(await api.getText(row.url))[0];
+    return posting ? structured(posting, row.url, ctx) : row;
+  });
+}
 async function smartrecruitersHtml(entry, ctx, api) {
   const html = await api.getText(entry.url), rows = [];
   if (!/opening-jobs|noOpeningsFound/.test(html)) throw new Error('Invalid SmartRecruiters public career page');
@@ -268,7 +289,7 @@ async function mercor(entry, ctx, api) {
     company: j.companyBrandVisible && j.companyName ? `${j.companyName} (via Mercor)` : entry.name,
     snippet: [j.commitment, j.description].filter(Boolean).join(' '), pay: pay(j.rateMin, j.rateMax, j.payRateFrequency === 'hourly' ? 'hour' : j.payRateFrequency), postedAt: iso(j.postedAt || j.createdAt) }));
 }
-const adapters = { bamboohr, jibe, icims, oracle, jobsyn, 'smartrecruiters-html': smartrecruitersHtml, advantage, alignerr, mercor, tallships };
+const adapters = { bamboohr, jibe, icims, oracle, jobsyn, phenom, 'smartrecruiters-html': smartrecruitersHtml, advantage, alignerr, mercor, tallships };
 export async function fetchJobs(ctx) {
   const api = publicClient(ctx);
   return collect(companyEntries(ctx).filter(e => types.includes(e.ats)), async entry => {

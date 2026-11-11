@@ -20,7 +20,7 @@ const NUMBER_WORDS = { one: 1, two: 2, three: 3, four: 4, five: 5, six: 6, seven
 // Largest "N years of/required/experience" in the text (ranges count from their low end), ignoring company bragging.
 export function requiredYears(snippet) {
   const required = String(snippet || '').split(/[.,;!?•\n]+|\b(?:but|and)\s+(?=(?:a |an |valid |current |must |at least |minimum |\d))/i).filter(s => !/\b(?:preferred|a plus|nice to have)\b/i.test(s) && !/driver'?s? licen[cs]e|driving (?:experience|record|history)|licen[cs]e tenure/i.test(s)).join('; ');
-  const found = [...required.matchAll(/(?:\b|\()(\d{1,2}|one|two|three|four|five|six|seven|eight|nine|ten)\)?\s*(?:\(\d+\)\s*)?(?:\+|plus)?\s*(?:(?:-|–|to)\s*\d{1,2}\s*)?(?:\+\s*)?years?['’]?\s+(?!of (?:history|excellence|service|growth|innovation|tradition|serving|business|operation|success|combined))(?:of|in|experience|exp|required|working|professional|related|relevant|selling|sales|closing|b2b|saas|quota)\b/gi)]
+  const found = [...required.matchAll(/(?:\b|\()(\d{1,2}|one|two|three|four|five|six|seven|eight|nine|ten)\)?\s*(?:\(\d+\)\s*)?(?:\+|plus)?\s*(?:(?:-|–|to)\s*(?:\d{1,2}|one|two|three|four|five|six|seven|eight|nine|ten)\s*)?(?:\+\s*)?years?['’]?\s+(?!of (?:history|excellence|service|growth|innovation|tradition|serving|business|operation|success|combined))(?:of|in|experience|exp|required|working|professional|related|relevant|selling|sales|closing|b2b|saas|quota)\b/gi)]
     .map(m => NUMBER_WORDS[m[1].toLowerCase()] ?? Number(m[1])).filter(n => n <= 15);
   return found.length ? Math.max(...found) : 0;
 }
@@ -32,11 +32,13 @@ function requiresDegree(snippet) {
 export function isSenior(job, filters = {}) {
   const title = job.title || '';
   const assistant = /\bassistant\b/i.test(title);
+  // "Account Manager - Accelerated Sales Program" and similar are entry-level trainee tracks.
+  const trainee = /\b(?:trainee|apprentice|in[- ]training|accelerated sales|(?:sales|management|leadership|career) (?:development|training) program)\b/i.test(title);
   if (/\b(?:leader|supervisor|(?:ramp|valet|bell|shift) captain)\b/i.test(title) || /\b(?:head|chief)[- ]+(?:stew(?:ard(?:ess)?)?|deckhand|chef|engineer)\b/i.test(title)) return true;
   const snippet = String(job.snippet || '');
   if (/\b(?:sales|SDR|BDR|account executive|business development|brand (?:ambassador|specialist))\b/i.test(title) && requiredYears(snippet) >= 2) return true;
   if (requiresDegree(snippet)) return true;
-  if (!assistant && /\b(?:senior|sr|vp|vice president|director|general manager|head of|chief|president|owner|partner|managers?)\b/i.test(title)) return true;
+  if (!assistant && !trainee && /\b(?:senior|sr|vp|vice president|director|general manager|head of|chief|president|owner|partner|managers?)\b/i.test(title)) return true;
   if (!['ai-web', 'tech-sales'].includes(job.track)) return requiredYears(job.snippet) >= 4;
   if (/\b(?:II|III|IV)\b/i.test(title)) return true;
   if ((/\bengineers?\b/i.test(title) || job.track === 'ai-web' && /\b(?:architect|scientist|researcher)\b/i.test(title)) &&

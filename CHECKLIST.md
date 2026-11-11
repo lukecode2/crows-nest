@@ -29,7 +29,7 @@ push fails, the job never shows up at all.
 ## 4. Find jobs that aren't on the big boards
 - [ ] ★ Local employer career pages (marinas, charters, SpiritLine, Barefoot Landing, resorts, event companies) watched for changes — extend `config/local-employers.json`
 - [x] ★ Brand-ambassador agency job feeds (Advantage, CROSSMARK, Mosaic, Prestige, Push, BDS, 2020 Companies) via their ATS (Workday/iCIMS/Greenhouse)
-- [~] ★ More ATS types for small local firms: BambooHR, Paylocity, Paycom, Breezy, Workable, JazzHR (BambooHR, iCIMS, Oracle, SmartRecruiters done 2026-11-11; Paylocity/Paycom/Breezy/Workable/JazzHR not yet)
+- [~] ★ More ATS types for small local firms: BambooHR, Paylocity, Paycom, Breezy, Workable, JazzHR (BambooHR, iCIMS, Oracle, SmartRecruiters, Phenom done 2026-11-11; Paylocity/Paycom/Breezy/Workable/JazzHR not yet. Zipfizz posts on JazzHR at zipfizzcorporation.applytojob.com)
 - [~] ★ City/county/state jobs: Horry County, Myrtle Beach, North Myrtle Beach, SC state jobs, SCPA, Coastal Carolina University staff jobs (some gov feeds added 2026-11-11; check which landed)
 - [ ] ★ Myrtle Beach Area Chamber + SC Works job boards
 - [ ] ★ Craigslist RSS (Myrtle Beach + Charleston) with strict spam filter
@@ -62,3 +62,11 @@ Palette status (2026-11-11): all CSS colours use shared tokens; track chips, bro
 - New location rules: near home = Horry, Georgetown, Marion, Brunswick NC, Columbus NC, remote. Charleston/Wilmington band only with $20+/hr or housing. Farther only with housing or live-aboard.
 - New "direct" source reads employer career sites (Acosta, Advantage, Alignerr, Mercor, Tall Ships billet bank, McAllister, Ingram, Curtin…): +24 jobs in the trial run.
 - Sources Codex job was stopped early (out of Codex quota), so it never wrote its report or its 15-job shortlist; its code was tested and merged.
+
+## Missed-jobs check 2026-11-11 (hand search vs. robot)
+Found by hand, not on the site: Hibu entry-level outside sales (Myrtle Beach), White Cap Accelerated Sales Program (Conway), FedEx seasonal courier (Myrtle Beach, $21.05/hr).
+- Hibu: new `phenom` direct adapter (careers.hibu.com) + config entry. Verified live: 2 Myrtle Beach jobs kept.
+- White Cap: Workday entry with per-city `searchTexts`; "City_ZIP" locations made readable; "Accelerated Sales Program" titles no longer count as senior; "one to two years" now reads as 1 year. Verified live: Conway job kept.
+- FedEx: careers.fedex.com blocks bots (403). "courier" now counts as quick cash; Adzuna valet search also asks for courier; JSearch has a courier query. Not verified live (keys only in GitHub secrets).
+- Bug fixed: locations ending ", US" (e.g. "Myrtle Beach, SC, US") were treated as far away.
+- Dead ends: Sandpiper Productions (Workable, 0 open jobs), Beauty Barrage (needs beauty retail), Tidal Creek Brewhouse (needs 3-5 yrs beer sales), Big M Casino deckhand (listing gone).
