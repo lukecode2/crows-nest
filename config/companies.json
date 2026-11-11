@@ -1,6 +1,6 @@
 {
-  "_verifiedAt": "2026-10-15",
-  "_notes": "Endpoints researched with web search and verified using live HTTP requests. Page-watch checks robots.txt on each run, establishes a baseline without emitting jobs, and cannot execute JavaScript. Agency track is null so classifier decides tech-sales vs quick-cash; states apply when an ATS supplies a location. Round 2: research employers retained in local-employers.json; reachable career pages added only after live requests and robots checks. Advice-only/dead/blocked pages are listed in _skipped. Paycom and other unverified APIs use page-watch.",
+  "_verifiedAt": "2026-11-11",
+  "_notes": "Endpoints researched with web search and verified using live HTTP requests. Page-watch checks robots.txt on each run, establishes a baseline without emitting jobs, and cannot execute JavaScript. Agency track is null so classifier decides tech-sales vs quick-cash; states apply when an ATS supplies a location. Round 2: research employers retained in local-employers.json; reachable career pages added only after live requests and robots checks. Advice-only/dead/blocked pages are listed in _skipped. Paycom and other unverified APIs use page-watch. November 11 expansion: direct adapters fetch full postings rather than baseline-only links. New hosts check robots at runtime and honor crawl delays. Per-entry verification.jobCount is the live endpoint total before title/fit filtering, not a promise of eligible jobs.",
   "_skipped": [
     {
       "name": "Sea Tow",
@@ -1508,6 +1508,88 @@
     {
       "name": "Viking Crew",
       "reason": "Excluded by existing Viking company exclusion; not added."
+    },
+    {
+      "name": "Founders Group International",
+      "checkedAt": "2026-11-11",
+      "checked": [
+        "https://www.paycomonline.net/v4/ats/web.php/jobs?clientkey=AD46F70FADAF4B37115135F3BCB1DFF2&fromClientSide=true"
+      ],
+      "reason": "Official careers iframe confirmed, but Paycom robots.txt disallows the listings path."
+    },
+    {
+      "name": "Coastal Carolina University staff",
+      "checkedAt": "2026-11-11",
+      "checked": [
+        "https://jobs.coastal.edu/postings/search"
+      ],
+      "reason": "PeopleAdmin robots.txt disallows public posting search for this bot."
+    },
+    {
+      "name": "Craigslist Myrtle Beach jobs / Charleston gigs",
+      "checkedAt": "2026-11-11",
+      "checked": [
+        "https://myrtlebeach.craigslist.org/search/jjj?format=rss"
+      ],
+      "reason": "Both local jobs and Charleston gigs RSS requests return HTTP 403 blocked; no bypass."
+    },
+    {
+      "name": "Outlier public listings",
+      "checkedAt": "2026-11-11",
+      "checked": [
+        "https://outlier.ai/opportunities"
+      ],
+      "reason": "Current public opportunities path and both historical Greenhouse boards return 404; no stable listing endpoint verified."
+    },
+    {
+      "name": "DataAnnotation",
+      "checkedAt": "2026-11-11",
+      "checked": [
+        "https://www.dataannotation.tech/job-board/generalist"
+      ],
+      "reason": "Stable public Generalist hiring page found, but no explicit US eligibility or machine-readable vacancy feed verified. Not treated as an available project."
+    },
+    {
+      "name": "MarketSource",
+      "checkedAt": "2026-11-11",
+      "checked": [
+        "https://www.marketsource.com/careers/"
+      ],
+      "reason": "robots.txt request returns 403; fail closed."
+    },
+    {
+      "name": "Hilton Grand Vacations",
+      "checkedAt": "2026-11-11",
+      "checked": [
+        "https://hgv.wd1.myworkdayjobs.com/wday/cxs/hgv/HGVCareers/jobs"
+      ],
+      "reason": "robots.txt request returns 422; endpoint not enabled."
+    },
+    {
+      "name": "Brunswick Corporation - Myrtle Beach/Wilmington targeted searches",
+      "checkedAt": "2026-11-11",
+      "checked": [
+        "https://brunswick.wd1.myworkdayjobs.com/wday/cxs/brunswick/search/jobs"
+      ],
+      "reason": "Both live targeted Workday searches return total: 0. Existing nationwide Freedom Boat Club source remains."
+    },
+    {
+      "name": "SC Ports current public board",
+      "checkedAt": "2026-11-11",
+      "checked": [
+        "https://careers.smartrecruiters.com/SouthCarolinaPortsAuthority"
+      ],
+      "reason": "Official HTML board currently says no job postings; API robots.txt disallows this bot. Existing page watcher retained."
+    },
+    {
+      "name": "The Sports Facilities Companies",
+      "checkedAt": "2026-11-11",
+      "checked": [
+        "https://sportadvisory.applicantpro.com/jobs/",
+        "https://sportadvisory.applicantpro.com/core/jobs/4689",
+        "https://sportadvisory.applicantpro.com/jobs/4240466.html"
+      ],
+      "reason": "Public ApplicantPro board/API verified 187 jobs in a normal browser-style request, but requests identifying as CrowsNestJobBot return a 200 Service Unavailable/Request Rejected page. Adapter not enabled; no user-agent spoofing."
     }
   ],
   "companies": [
@@ -1767,36 +1849,55 @@
     },
     {
       "name": "BDS Connected Solutions",
-      "track": null,
-      "ats": "page",
-      "url": "https://careers-channelpartners.icims.com/jobs/search",
-      "verifiedAt": "2026-10-15",
+      "ats": "icims",
+      "url": "https://careers-channelpartners.icims.com/jobs/search?ss=1&searchLocation=12781-12824",
+      "keywords": [
+        "product",
+        "brand",
+        "sales",
+        "merchandis",
+        "fixture",
+        "installer"
+      ],
+      "states": [
+        "SC"
+      ],
       "verification": {
         "status": 200,
-        "source": "https://channelpartners.com/careers/"
+        "url": "https://careers-channelpartners.icims.com/jobs/search?ss=1&in_iframe=1&searchLocation=12781-12824",
+        "source": "https://channelpartners.com/careers/",
+        "jobCount": 11
       },
-      "note": "BDS now redirects to Channel Partners. Old careers-bdssolutions.icims.com also responds but lists only one role; current board lists multiple tech/demo roles.",
-      "states": [
-        "SC",
-        "NC",
-        "Remote"
-      ]
+      "note": "Full public iCIMS listings and JobPosting details replace baseline-only pagewatch.",
+      "verifiedAt": "2026-11-11"
     },
     {
       "name": "Advantage Solutions",
-      "track": null,
-      "ats": "page",
+      "ats": "advantage",
       "url": "https://careers.youradv.com/",
-      "verifiedAt": "2026-10-15",
-      "verification": {
-        "status": 200,
-        "source": "https://youradv.com/careers/"
-      },
+      "cities": [
+        "Myrtle Beach",
+        "Charleston",
+        "Wilmington"
+      ],
+      "keywords": [
+        "product demonstrator",
+        "brand ambassador",
+        "event",
+        "demo"
+      ],
       "states": [
         "SC",
-        "NC",
-        "Remote"
-      ]
+        "NC"
+      ],
+      "verification": {
+        "status": 200,
+        "url": "https://careers.youradv.com/?location=Myrtle%20Beach",
+        "source": "https://youradv.com/careers/",
+        "jobCount": 2
+      },
+      "note": "Public employer search and full JobPosting descriptions. City search deliberately omits the state because the search treats city,state as a literal string. Includes in-store sampling.",
+      "verifiedAt": "2026-11-11"
     },
     {
       "name": "CROSSMARK",
@@ -2012,16 +2113,22 @@
     {
       "name": "Ingram Barge Company",
       "track": "marine-national",
-      "ats": "page",
+      "ats": "smartrecruiters-html",
       "url": "https://careers.smartrecruiters.com/IngramBargeCompany",
       "location": "Nationwide",
-      "verifiedAt": "2026-10-15",
+      "verifiedAt": "2026-11-11",
       "verification": {
         "status": 200,
-        "source": "https://careers.smartrecruiters.com/IngramBargeCompany"
+        "url": "https://careers.smartrecruiters.com/IngramBargeCompany",
+        "source": "https://careers.smartrecruiters.com/IngramBargeCompany",
+        "jobCount": 42
       },
-      "note": "Official SmartRecruiters careers page verified. The API robots.txt disallows this bot, so use only the allowed HTML careers page.",
-      "researchRegion": "national"
+      "note": "Public server-rendered HTML board and JobPosting microdata provide current jobs without the disallowed api.smartrecruiters.com host. Current Columbus, KY fleet deckhand role accepts entry-level applicants, requires obtaining TWIC, and has 21/21, 14/7 and 7/7 vessel hitches.",
+      "researchRegion": "national",
+      "keywords": [
+        "deckhand",
+        "linehaul"
+      ]
     },
     {
       "name": "Canal Barge Company",
@@ -3001,6 +3108,231 @@
       },
       "note": "Research careers page verified by live HTTP request; robots checked. No public ATS API verified; HTML page-watch only.",
       "researchRegion": "grand-strand"
+    },
+    {
+      "name": "BDS Connected Solutions (NC)",
+      "ats": "icims",
+      "url": "https://careers-channelpartners.icims.com/jobs/search?ss=1&searchLocation=12781-12817",
+      "keywords": [
+        "product",
+        "brand",
+        "sales",
+        "merchandis"
+      ],
+      "states": [
+        "NC"
+      ],
+      "verification": {
+        "status": 200,
+        "url": "https://careers-channelpartners.icims.com/jobs/search?ss=1&in_iframe=1&searchLocation=12781-12817",
+        "source": "https://channelpartners.com/careers/",
+        "jobCount": 5
+      },
+      "verifiedAt": "2026-11-11"
+    },
+    {
+      "name": "Brittain Resorts & Hotels",
+      "ats": "jibe",
+      "url": "https://careers.brittainresorts.com/",
+      "keywords": [
+        "pool attendant",
+        "beach",
+        "recreation",
+        "activities",
+        "valet",
+        "bell",
+        "event",
+        "golf"
+      ],
+      "states": [
+        "SC"
+      ],
+      "track": "quick-cash",
+      "verification": {
+        "status": 200,
+        "url": "https://careers.brittainresorts.com/api/jobs?page=1&limit=100",
+        "source": "https://www.brittainresorts.com/careers/",
+        "jobCount": 50
+      },
+      "note": "Public iCIMS/Jibe feed includes full qualifications and pay. Keeps outdoor, recreation and guest-service roles; excludes housekeeping/kitchen by title selection.",
+      "verifiedAt": "2026-11-11"
+    },
+    {
+      "name": "Curtin Maritime",
+      "ats": "bamboohr",
+      "slug": "curtinmaritime",
+      "url": "https://curtinmaritime.bamboohr.com/careers",
+      "keywords": [
+        "deckhand",
+        "maritime training",
+        "mate",
+        "seaman"
+      ],
+      "track": "marine-national",
+      "verification": {
+        "status": 200,
+        "url": "https://curtinmaritime.bamboohr.com/careers/list",
+        "source": "https://curtinmaritime.com/maritime-jobs/",
+        "jobCount": 42
+      },
+      "note": "Open status and compensation read from each job detail; required credentials remain visible to the fit filter.",
+      "verifiedAt": "2026-11-11"
+    },
+    {
+      "name": "McAllister Towing",
+      "ats": "oracle",
+      "host": "fa-evhj-saasfaprod1.fa.ocs.oraclecloud.com",
+      "site": "CX_1",
+      "url": "https://www.mcallistertowing.com/careers",
+      "keywords": [
+        "ordinary seaman",
+        "deckhand",
+        "oiler",
+        "mate"
+      ],
+      "track": "marine-national",
+      "verification": {
+        "status": 200,
+        "url": "https://fa-evhj-saasfaprod1.fa.ocs.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList&finder=findReqs;siteNumber=CX_1,limit=100,offset=0",
+        "source": "https://www.mcallistertowing.com/careers",
+        "jobCount": 32
+      },
+      "note": "Public Oracle Candidate Experience endpoints; full credential requirements fetched. Current OS listings require MMC/TWIC and should be filtered.",
+      "verifiedAt": "2026-11-11"
+    },
+    {
+      "name": "Tall Ships America Billet Bank",
+      "ats": "tallships",
+      "url": "https://tallshipsamerica.org/billet-bank/available-jobs/",
+      "keywords": [
+        "deckhand",
+        "deck hand",
+        "mate",
+        "bosun",
+        "boatswain"
+      ],
+      "track": "marine-national",
+      "verification": {
+        "status": 200,
+        "url": "https://tallshipsamerica.org/billet-bank/available-jobs/",
+        "source": "https://tallshipsamerica.org/billet-bank/",
+        "jobCount": 49
+      },
+      "note": "Public vacancy table and full detail pages; skip expired deadlines and completed seasons. Preserve vessel employer, room/board, certification requirements, and actual pay period.",
+      "verifiedAt": "2026-11-11"
+    },
+    {
+      "name": "Alignerr",
+      "ats": "alignerr",
+      "url": "https://www.alignerr.com/",
+      "searches": [
+        "English",
+        "AI evaluator",
+        "AI trainer",
+        "data annotation"
+      ],
+      "maxPages": 3,
+      "keywords": [
+        "English writing generalist",
+        "English audio transcription",
+        "AI evaluator",
+        "AI trainer",
+        "data annotation"
+      ],
+      "track": "ai-web",
+      "verification": {
+        "status": 200,
+        "url": "https://www.alignerr.com/api/jobs?search=English&limit=60&offset=0",
+        "source": "https://www.alignerr.com/jobs",
+        "jobCount": 140
+      },
+      "note": "Search cards mislabel foreign jobs as Remote. Full Next.js JSON supplies isActive, country, city, pay and descriptions. Only active US roles without a city restriction are accepted.",
+      "verifiedAt": "2026-11-11"
+    },
+    {
+      "name": "2020 Companies (Charleston)",
+      "track": null,
+      "ats": "workday",
+      "host": "2020companies.wd1.myworkdayjobs.com",
+      "tenant": "2020companies",
+      "site": "External_Careers",
+      "searchText": "Charleston",
+      "verifiedAt": "2026-11-11",
+      "verification": {
+        "status": 200,
+        "url": "https://2020companies.wd1.myworkdayjobs.com/wday/cxs/2020companies/External_Careers/jobs",
+        "source": "https://www.2020companies.com/careers/",
+        "jobCount": 6
+      },
+      "note": "Charleston search includes WV too; existing SC/NC state restriction removes those. Full detail pay and eligibility fetched.",
+      "states": [
+        "SC",
+        "NC",
+        "Remote"
+      ],
+      "maxPages": 3
+    },
+    {
+      "name": "Acosta Group (ActionLink, CROSSMARK, Mosaic, Premium, Product Connections)",
+      "ats": "jobsyn",
+      "slug": "acosta-jobs",
+      "url": "https://acosta.jobs/",
+      "cities": [
+        "Myrtle Beach, SC",
+        "North Myrtle Beach, SC",
+        "Conway, SC",
+        "Murrells Inlet, SC",
+        "Charleston, SC",
+        "Wilmington, NC"
+      ],
+      "maxPages": 5,
+      "states": [
+        "SC",
+        "NC"
+      ],
+      "keywords": [
+        "brand ambassador",
+        "product demonstrator",
+        "product demo",
+        "event",
+        "audio",
+        "electronics",
+        "technology",
+        "sales advisor"
+      ],
+      "verifiedAt": "2026-11-11",
+      "verification": {
+        "status": 200,
+        "url": "https://prod-search-api.jobsyn.org/api/v1/google-talent/search?location=Myrtle%20Beach%2C%20SC&job-folder=acosta-jobs",
+        "source": "https://acosta.jobs/",
+        "jobCount": 8
+      },
+      "note": "Current public API used by official Acosta careers frontend. Full job descriptions, US addresses, expiry timestamps and stable employer job URLs. Multiple agencies in one request; duplicate URLs merged across nearby searches."
+    },
+    {
+      "name": "Mercor",
+      "ats": "mercor",
+      "url": "https://work.mercor.com/explore",
+      "keywords": [
+        "video caption",
+        "search generalist",
+        "generalist",
+        "AI trainer",
+        "annotat",
+        "data label",
+        "junior web",
+        "application users - visual studio code",
+        "application users - word on macos"
+      ],
+      "track": "ai-web",
+      "verifiedAt": "2026-11-11",
+      "verification": {
+        "status": 200,
+        "url": "https://work.mercor.com/explore",
+        "source": "https://work.mercor.com/explore",
+        "jobCount": 326
+      },
+      "note": "Full public Next.js listing data includes status, application availability, slots, remote eligibility, US exclusions, pay frequency and qualifications. Standing evergreen talent pools are excluded. No account needed to read listings."
     }
   ]
 }

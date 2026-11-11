@@ -32,6 +32,25 @@
         "total": 85,
         "robots": "https://charlestonsc.wd5.myworkdayjobs.com/robots.txt"
       }
+    },
+    {
+      "name": "North Carolina Ferry Division",
+      "type": "workday",
+      "host": "nc.wd108.myworkdayjobs.com",
+      "tenant": "nc",
+      "site": "NC_Careers",
+      "searchText": "Ferry",
+      "maxPages": 5,
+      "location": "North Carolina",
+      "verifiedAt": "2026-11-11",
+      "verification": {
+        "status": 200,
+        "method": "POST",
+        "url": "https://nc.wd108.myworkdayjobs.com/wday/cxs/nc/NC_Careers/jobs",
+        "source": "https://www.ncdot.gov/news/press-releases/Pages/2026/2026-10-13-ncdot-ferry-division-career-fair.aspx",
+        "jobCount": 3
+      },
+      "note": "NC has moved from NEOGOV to Workday. Live search currently returns three DOT postings; no eligible vessel-crew title today. Do not claim temporary terminal roles are live-aboard."
     }
   ],
   "_skipped": [
@@ -160,6 +179,30 @@
       },
       "reason": "Official SmartRecruiters careers page verified, but api.smartrecruiters.com robots.txt disallows this bot. HTML page-watch configured in companies.json; no JSON feed enabled.",
       "robots": "https://api.smartrecruiters.com/robots.txt"
+    },
+    {
+      "name": "Surfside Beach",
+      "checkedAt": "2026-11-11",
+      "checked": [
+        "https://www.surfsidebeach.org/RSSFeed.aspx?ModID=66&CID=All-0&CommunityJobs=False"
+      ],
+      "reason": "RSS is reachable but contains zero job items today; no active feed added."
+    },
+    {
+      "name": "Brunswick County NC",
+      "checkedAt": "2026-11-11",
+      "checked": [
+        "https://www.brunswickcountync.gov/RSSFeed.aspx?ModID=66&CID=All-0&CommunityJobs=False"
+      ],
+      "reason": "RSS is reachable but contains zero job items today. Public Jobs.aspx also has no vacancy links."
+    },
+    {
+      "name": "SC Works",
+      "checkedAt": "2026-11-11",
+      "checked": [
+        "https://jobs.scworks.org/"
+      ],
+      "reason": "robots.txt disallows the public job search."
     }
   ]
 }

@@ -59,3 +59,63 @@ export function entryMatches(job, entry) {
   })) return false;
   return true;
 }
+
+export function robotsAllowed(text, url) {
+  let agents = [], rules = [], inRules = false;
+  const groups = [];
+  const flush = () => { if (agents.length) groups.push({ agents, rules }); agents = []; rules = []; inRules = false; };
+  for (const line of text.replace(/\\r\\n/g, '\n').split(/\r?\n/)) {
+    const match = line.replace(/#.*$/, '').trim().match(/^([\w-]+)\s*:\s*(.*)$/);
+    if (!match) continue;
+    const [, directive, value] = match;
+    if (directive.toLowerCase() === 'user-agent') { if (inRules) flush(); agents.push(value.toLowerCase()); }
+    else if (/^(allow|disallow)$/i.test(directive)) { inRules = true; if (value) rules.push({ allow: directive.toLowerCase() === 'allow', path: value }); }
+  }
+  flush();
+  const specific = groups.filter(g => g.agents.some(a => a !== '*' && 'crowsnestjobbot'.includes(a)));
+  const applicable = specific.length ? specific : groups.filter(g => g.agents.includes('*'));
+  const path = new URL(url).pathname + new URL(url).search;
+  const matches = applicable.flatMap(g => g.rules).filter(r => {
+    const end = r.path.endsWith('$');
+    const pattern = (end ? r.path.slice(0, -1) : r.path).split('*').map(part => part.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('.*');
+    return new RegExp('^' + pattern + (end ? '$' : '')).test(path);
+  }).sort((a, b) => b.path.length - a.path.length || Number(b.allow) - Number(a.allow));
+  return matches[0]?.allow ?? true;
+}
+
+// Cache robots per run and serialize requests on hosts that publish a crawl delay.
+// Unknown robots failures fail closed; a missing robots.txt (404) means no rules.
+const guardedClients = new WeakMap();
+export function publicClient(ctx) {
+  if (guardedClients.has(ctx)) return guardedClients.get(ctx);
+  const api = client(ctx), origins = new Map();
+  async function request(method, url, options) {
+    const origin = new URL(url).origin;
+    if (!origins.has(origin)) origins.set(origin, (async () => {
+      let robots;
+      try { robots = await api.getText(`${origin}/robots.txt`); }
+      catch (error) { if (error.status !== 404) throw error; robots = ''; }
+      const delays = [...robots.matchAll(/^crawl-delay:\s*([\d.]+)/gim)].map(m => Number(m[1]) * 1000);
+      return { robots, delay: Math.max(0, ...delays), next: 0, queue: Promise.resolve() };
+    })());
+    const host = await origins.get(origin);
+    if (!robotsAllowed(host.robots, url)) throw new Error(`robots.txt disallows ${url}`);
+    const turn = host.queue.then(async () => {
+      const wait = Math.max(0, host.next - Date.now());
+      if (wait) await new Promise((resolve, reject) => {
+        const abort = () => { clearTimeout(timer); reject(ctx.signal.reason); };
+        const timer = setTimeout(() => { ctx.signal?.removeEventListener('abort', abort); resolve(); }, wait);
+        ctx.signal?.addEventListener('abort', abort, { once: true });
+        if (ctx.signal?.aborted) abort();
+      });
+      ctx.signal?.throwIfAborted();
+      host.next = Date.now() + host.delay;
+    });
+    host.queue = turn.catch(() => {});
+    await turn;
+    return api[method](url, options);
+  }
+  const guarded = Object.fromEntries(['getJson', 'getText'].map(method => [method, (url, options) => request(method, url, options)]));
+  guardedClients.set(ctx, guarded);
+  return guarded;
+}

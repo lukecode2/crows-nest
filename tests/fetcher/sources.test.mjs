@@ -11,7 +11,7 @@ import * as remotive from '../../scripts/sources/remotive.mjs';
 import * as sweep from '../../scripts/sources/sweep.mjs';
 import { buildFeed, runSources, sources } from '../../scripts/fetch-feed.mjs';
 
-const context = extra => ({ env: {}, companies: [], searches: { remote: [] }, state: {}, now: new Date('2026-10-15T12:00:00Z'), log: () => {}, ...extra });
+const context = extra => ({ env: {}, companies: [], searches: { remote: [] }, state: {}, now: new Date('2026-10-15T12:00:00Z'), log: () => {}, ...extra, ...(extra?.http ? { http: { getText: async () => '', ...extra.http } } : {}) });
 
 test('HTTP retries non-JSON, sends user agent, times out and accepts POST', async t => {
   let attempts = 0, timeouts = 0;

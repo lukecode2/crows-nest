@@ -22,7 +22,7 @@ test('every enabled government feed has live verification; every requested agenc
   const config = await json('config/govfeeds.json');
   assert.ok(config.feeds.length > 0);
   for (const feed of config.feeds) {
-    assert.equal(feed.verification.status, 200); assert.equal(feed.verifiedAt, '2026-10-15');
+    assert.equal(feed.verification.status, 200); assert.match(feed.verifiedAt, /^\d{4}-\d{2}-\d{2}$/);
     assert.ok(!feed.trackHint && !feed.track); assert.ok(feed.verification.source);
   }
   const names = new Set([...config.feeds, ...config._skipped].map(e => e.name));
@@ -34,7 +34,7 @@ test('new company endpoints have reviewed live verification and workflow persist
   const { companies } = await json('config/companies.json');
   for (const company of companies) {
     assert.equal(company.verification.status, 200, company.name);
-    assert.ok(['page', 'greenhouse', 'lever', 'ashby', 'workday', 'smartrecruiters'].includes(company.ats));
+    assert.ok(['page', 'greenhouse', 'lever', 'ashby', 'workday', 'smartrecruiters', 'bamboohr', 'icims', 'jibe', 'oracle', 'jobsyn', 'smartrecruiters-html', 'advantage', 'alignerr', 'mercor', 'tallships'].includes(company.ats));
     assert.ok(!/American Cruise Lines|Viking Crew/i.test(company.name));
   }
   for (const name of ['Express Watersports / Express Dive Center', 'Longshore Boats', 'Canal Barge Company', 'Crewfinders', 'City of Charleston']) assert.ok(companies.some(c => c.name === name), name);

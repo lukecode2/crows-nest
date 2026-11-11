@@ -1,8 +1,9 @@
-import { client, collect, companyEntries, rawJob, iso, pay, entryMatches } from '../lib/source-utils.mjs';
+import { publicClient, collect, companyEntries, rawJob, iso, pay, entryMatches } from '../lib/source-utils.mjs';
+import { types as directTypes } from './direct.mjs';
 export const name = 'ats';
 export async function fetchJobs(ctx) {
-  return collect(companyEntries(ctx).filter(e => e.ats !== 'page'), async entry => {
-    const api = client(ctx), slug = encodeURIComponent(entry.slug || '');
+  return collect(companyEntries(ctx).filter(e => e.ats !== 'page' && !directTypes.includes(e.ats)), async entry => {
+    const api = publicClient(ctx), slug = encodeURIComponent(entry.slug || '');
     let jobs;
     switch (entry.ats) {
       case 'greenhouse': {
