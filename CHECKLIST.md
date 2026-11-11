@@ -13,12 +13,12 @@ push fails, the job never shows up at all.
 - [x] ★ Keep a small "Recent alerts" list on the site so every ping can be found later, even if the job was dropped
 
 ## 2. Relevance: location and job rules
-- [ ] Home area = Myrtle Beach / Grand Strand (Horry, Georgetown, Brunswick NC). Charleston only if high pay **or** housing/live-aboard included
+- [x] Home area = Myrtle Beach / Grand Strand (Horry, Georgetown, Brunswick NC). Charleston only if high pay **or** housing/live-aboard included
 - [x] "High pay" lowered to $20/hr or $41,600/yr (Luke, 2026-11-11)
-- [ ] Block retail store jobs (cashier, sales associate, stocker, merchandiser) **except** brand ambassador / promo / demo roles inside stores
-- [ ] Re-check the far-region rule (Florida, Wilmington, etc.) still matches "Charleston max unless housing"
-- [ ] ★ Add "housing included" detection (housing provided, live-in, room and board, crew quarters) as a flag and a score boost
-- [ ] Run the review prompt on `data/all-jobs.json` to catch good jobs being wrongly dropped
+- [x] Block retail store jobs (cashier, sales associate, stocker, merchandiser) **except** brand ambassador / promo / demo roles inside stores
+- [x] Re-check the far-region rule (Florida, Wilmington, etc.) still matches "Charleston max unless housing"
+- [x] ★ Add "housing included" detection (housing provided, live-in, room and board, crew quarters) as a flag and a score boost
+- [x] Run the review prompt on `data/all-jobs.json` to catch good jobs being wrongly dropped
 
 ## 3. More tailored to Luke
 - [ ] Re-weight the match score toward: marine/boat work, brand ambassador, local quick-start cash, AI training, web work
@@ -28,9 +28,9 @@ push fails, the job never shows up at all.
 
 ## 4. Find jobs that aren't on the big boards
 - [ ] ★ Local employer career pages (marinas, charters, SpiritLine, Barefoot Landing, resorts, event companies) watched for changes — extend `config/local-employers.json`
-- [ ] ★ Brand-ambassador agency job feeds (Advantage, CROSSMARK, Mosaic, Prestige, Push, BDS, 2020 Companies) via their ATS (Workday/iCIMS/Greenhouse)
-- [ ] ★ More ATS types for small local firms: BambooHR, Paylocity, Paycom, Breezy, Workable, JazzHR
-- [ ] ★ City/county/state jobs: Horry County, Myrtle Beach, North Myrtle Beach, SC state jobs, SCPA, Coastal Carolina University staff jobs
+- [x] ★ Brand-ambassador agency job feeds (Advantage, CROSSMARK, Mosaic, Prestige, Push, BDS, 2020 Companies) via their ATS (Workday/iCIMS/Greenhouse)
+- [~] ★ More ATS types for small local firms: BambooHR, Paylocity, Paycom, Breezy, Workable, JazzHR (BambooHR, iCIMS, Oracle, SmartRecruiters done 2026-11-11; Paylocity/Paycom/Breezy/Workable/JazzHR not yet)
+- [~] ★ City/county/state jobs: Horry County, Myrtle Beach, North Myrtle Beach, SC state jobs, SCPA, Coastal Carolina University staff jobs (some gov feeds added 2026-11-11; check which landed)
 - [ ] ★ Myrtle Beach Area Chamber + SC Works job boards
 - [ ] ★ Craigslist RSS (Myrtle Beach + Charleston) with strict spam filter
 - [ ] ★ Yacht crew agencies and Dockwalk/crew boards for live-aboard roles
@@ -56,3 +56,9 @@ Palette status (2026-11-11): all CSS colours use shared tokens; track chips, bro
 - [ ] ★ Fix open items from last audit: pagewatch yacht jobs without qualifications text; Adzuna hourly fix check
 - [ ] ★ Weekly sweep is overdue (last 2026-10-16)
 - [ ] `npm test` passes, then live check on phone after each push
+
+## Done 2026-11-11 (session notes)
+- Fake/expired audit of all 148 site jobs: 7 expired, 14 junk/commission-only. Fixed with general rules (SEO repost hosts, hidden/defunct employers, paid-review schemes, commission-only in full description, insurance recruiting) and a stronger link check.
+- New location rules: near home = Horry, Georgetown, Marion, Brunswick NC, Columbus NC, remote. Charleston/Wilmington band only with $20+/hr or housing. Farther only with housing or live-aboard.
+- New "direct" source reads employer career sites (Acosta, Advantage, Alignerr, Mercor, Tall Ships billet bank, McAllister, Ingram, Curtin…): +24 jobs in the trial run.
+- Sources Codex job was stopped early (out of Codex quota), so it never wrote its report or its 15-job shortlist; its code was tested and merged.
