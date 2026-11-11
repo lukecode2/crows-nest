@@ -1,11 +1,11 @@
 export const REPO = { owner: 'lukecode2', repo: 'crows-nest', branch: 'master', workflow: 'feed.yml' };
 export const TRACKS = [
-  { id: 'marine-local', label: 'Home Waters', short: 'Home', color: '#7fd1c1' },
-  { id: 'marine-chs', label: 'Charleston Harbor', short: 'Charleston', color: '#80bbed' },
-  { id: 'marine-national', label: 'Blue Water', short: 'Blue Water', color: '#a7a5f2' },
-  { id: 'ai-web', label: 'AI & Web', short: 'AI & Web', color: '#e7a8d6' },
-  { id: 'tech-sales', label: 'Tech Sales', short: 'Sales', color: '#d4a94f' },
-  { id: 'quick-cash', label: 'Quick Cash', short: 'Quick Cash', color: '#f0a180' }
+  { id: 'marine-local', label: 'Home Waters', short: 'Home', color: '#0C655C' },
+  { id: 'marine-chs', label: 'Charleston Harbor', short: 'Charleston', color: '#1D4ED8' },
+  { id: 'marine-national', label: 'Blue Water', short: 'Blue Water', color: '#5940A5' },
+  { id: 'ai-web', label: 'AI & Web', short: 'AI & Web', color: '#962C7C' },
+  { id: 'tech-sales', label: 'Tech Sales', short: 'Sales', color: '#805A00' },
+  { id: 'quick-cash', label: 'Quick Cash', short: 'Quick Cash', color: '#A33B16' }
 ];
 export const STAGES = [
   { id: 'dockside', label: 'Dockside', hint: 'Lead' },

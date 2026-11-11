@@ -87,6 +87,6 @@ export function waves() {
   for (const [d, opacity] of [
     ['M0 32 Q90 8 180 32 T360 32 T540 32 T720 32 T900 32 T1080 32 T1260 32 T1440 32 V60 H0 Z', '0.17'],
     ['M0 42 Q90 18 180 42 T360 42 T540 42 T720 42 T900 42 T1080 42 T1260 42 T1440 42 V60 H0 Z', '0.15']
-  ]) { const path = document.createElementNS(ns, 'path'); path.setAttribute('d', d); path.setAttribute('fill', '#7fd1c1'); path.setAttribute('opacity', opacity); svg.appendChild(path); }
+  ]) { const path = document.createElementNS(ns, 'path'); path.setAttribute('d', d); path.setAttribute('fill', 'var(--primary)'); path.setAttribute('opacity', opacity); svg.appendChild(path); }
   return svg;
 }
