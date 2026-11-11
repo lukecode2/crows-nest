@@ -1,21 +1,43 @@
-// Locations arrive as city/state, city/county, or semicolon-separated ATS locations.
-export const SC_CITIES = 'Myrtle Beach|North Myrtle Beach|Conway|Carolina Forest|Surfside|Surfside Beach|Garden City|Murrells Inlet|Pawleys Island|Georgetown|Little River|Loris|Aynor|Charleston|North Charleston|McClellanville|Mount Pleasant|Summerville|James Island|Johns Island|Daniel Island|Isle of Palms|Folly Beach|Kiawah|Kiawah Island|Goose Creek|Moncks Corner|Hanahan|Ladson'.split('|');
-export const NC_CITIES = 'Wilmington|Shallotte|Calabash|Southport|Leland|Whiteville|Tabor City'.split('|');
-const SC_COUNTIES = 'Horry|Georgetown|Charleston|Berkeley|Dorchester|Colleton|Williamsburg|Marion|Florence'.split('|');
-const NC_COUNTIES = 'Brunswick|Columbus|New Hanover|Pender'.split('|');
-const bound = names => new RegExp(`\\b(?:${names.join('|')})\\b`, 'i');
-const sc = bound([...SC_CITIES, ...SC_COUNTIES.map(c => `${c} County`)]);
-const nc = bound([...NC_CITIES, ...NC_COUNTIES.map(c => `${c} County`)]);
-export function inHomeRegion(location) {
-  const text = String(location || '').replace(/\s*\(\+\d+ more\)$/, '');
-  if (/\bremote\b/i.test(text)) return true;
-  return text.split(';').some(part => {
-    const state = part.match(/(?:,|\s)\s*(South Carolina|North Carolina|SC|NC|[A-Z]{2}|Alabama|Alaska|Arizona|Arkansas|California|Colorado|Connecticut|Delaware|Florida|Georgia|Hawaii|Idaho|Illinois|Indiana|Iowa|Kansas|Kentucky|Louisiana|Maine|Maryland|Massachusetts|Michigan|Minnesota|Mississippi|Missouri|Montana|Nebraska|Nevada|New Hampshire|New Jersey|New Mexico|New York|North Dakota|Ohio|Oklahoma|Oregon|Pennsylvania|Rhode Island|South Dakota|Tennessee|Texas|Utah|Vermont|Virginia|Washington|West Virginia|Wisconsin|Wyoming)(?:\s+\d{5})?\s*$/i)?.[1]?.toLowerCase();
-    if (!state && /,/.test(part) && /\b(?:Marion|Florence|Berkeley|Dorchester|Brunswick) County\b/i.test(part) &&
-      !bound([...SC_CITIES, ...NC_CITIES, 'Marion', 'Florence', 'Mullins', 'Lake City', 'Johnsonville', 'Pamplico', 'Timmonsville', 'Bonneau', 'St. Stephen', 'Ridgeville', 'St. George', 'Lincolnville', 'Harleyville', 'Reevesville']).test(part.split(',')[0])) return false;
+// City/state, city/county and semicolon-separated ATS locations are all used.
+const HOME_SC = 'Myrtle Beach|North Myrtle Beach|Conway|Carolina Forest|Surfside|Surfside Beach|Garden City|Murrells Inlet|Pawleys Island|Georgetown|Little River|Loris|Aynor|Marion|Mullins|Longs|Bucksport|Socastee|Atlantic Beach'.split('|');
+const BAND_SC = 'Charleston|North Charleston|McClellanville|Mount Pleasant|Summerville|James Island|Johns Island|Daniel Island|Isle of Palms|Folly Beach|Kiawah|Kiawah Island|Goose Creek|Moncks Corner|Hanahan|Ladson|Bonneau|St. Stephen|Ridgeville|St. George|Lincolnville|Harleyville|Reevesville|Walterboro|Edisto Beach|Adams Run|Saint Andrews|St. Andrews|Florence|Lake City|Johnsonville|Pamplico|Timmonsville|Kingstree|Hemingway'.split('|');
+const HOME_NC = 'Shallotte|Calabash|Southport|Leland|Whiteville|Tabor City|Ocean Isle Beach|Sunset Beach|Holden Beach|Oak Island|Bald Head Island|Boiling Spring Lakes|Bolivia|Carolina Shores|Chadbourn|Fair Bluff|Lake Waccamaw'.split('|');
+const BAND_NC = 'Wilmington|Wrightsville Beach|Carolina Beach|Kure Beach|Burgaw|Hampstead|Surf City|Topsail Beach|Rocky Point'.split('|');
+export const SC_CITIES = [...HOME_SC, ...BAND_SC];
+export const NC_CITIES = [...HOME_NC, ...BAND_NC];
+const bound = names => new RegExp(`\\b(?:${names.map(n => n.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|')})\\b`, 'i');
+const STATES = 'South Carolina|North Carolina|SC|NC|[A-Z]{2}|Alabama|Alaska|Arizona|Arkansas|California|Colorado|Connecticut|Delaware|Florida|Georgia|Hawaii|Idaho|Illinois|Indiana|Iowa|Kansas|Kentucky|Louisiana|Maine|Maryland|Massachusetts|Michigan|Minnesota|Mississippi|Missouri|Montana|Nebraska|Nevada|New Hampshire|New Jersey|New Mexico|New York|North Dakota|Ohio|Oklahoma|Oregon|Pennsylvania|Rhode Island|South Dakota|Tennessee|Texas|Utah|Vermont|Virginia|Washington|West Virginia|Wisconsin|Wyoming';
+const stateAtEnd = new RegExp(`(?:,|\\s)\\s*(${STATES})(?:\\s+\\d{5})?\\s*$`, 'i');
+function matchesRegion(location, scCities, ncCities, scCounties, ncCounties) {
+  return String(location || '').replace(/\s*\(\+\d+ more\)$/, '').split(';').some(part => {
+    const state = part.match(stateAtEnd)?.[1]?.toLowerCase();
     if (state && !['sc', 'nc', 'south carolina', 'north carolina'].includes(state)) return false;
-    return (!state || state === 'sc' || state === 'south carolina') && sc.test(part) ||
-      (!state || state === 'nc' || state === 'north carolina') && nc.test(part);
+    // Ambiguous counties without a state need a known city (Cambridge, Dorchester is Maryland).
+    if (!state && /,/.test(part) && /\b(?:Marion|Florence|Berkeley|Dorchester|Brunswick) County\b/i.test(part) &&
+      !bound([...SC_CITIES, ...NC_CITIES]).test(part.split(',')[0])) return false;
+    // Explicit county takes priority over a same-named town in the other region.
+    const county = part.match(/\b([A-Za-z]+(?: [A-Za-z]+)?) County\b/i)?.[1]?.toLowerCase();
+    const matches = (cities, counties) => county ? counties.some(c => c.toLowerCase() === county) : bound(cities).test(part);
+    return (!state || state === 'sc' || state === 'south carolina') && matches(scCities, scCounties) ||
+      (!state || state === 'nc' || state === 'north carolina') && matches(ncCities, ncCounties);
+  });
+}
+export function inHomeRegion(location) {
+  // Foreign-only remote eligibility is rejected by remoteAbroad at the filter gate.
+  return /^\s*remote\b/i.test(location || '') || matchesRegion(location, HOME_SC, HOME_NC, ['Horry', 'Georgetown', 'Marion'], ['Brunswick', 'Columbus']);
+}
+export function inCharlestonBand(location) {
+  return matchesRegion(location, BAND_SC, BAND_NC, ['Charleston', 'Berkeley', 'Dorchester', 'Colleton', 'Florence', 'Williamsburg'], ['New Hanover', 'Pender']);
+}
+// Only affirmative lodging benefits qualify; relocation help or nearby hotels do not.
+const NO_HOUSING = /\b(?:no|without)\s+(?:(?:staff|employee|crew|on[- ]site|free|provided)\s+)?(?:housing|accommodations?|lodging|room|quarters)\b|\b(?:housing|accommodations?|lodging|room|quarters)\s+(?:(?:is|are|will be)\s+)?(?:not|unavailable|excluded)\b|\b(?:find|arrange|provide) (?:your |their )?own (?:housing|accommodations?|lodging)\b/i;
+export function hasHousing(job) {
+  const text = `${job.title || ''}. ${job.description || job.snippet || ''}`;
+  if (job.flags?.includes('housing') && !NO_HOUSING.test(text)) return true;
+  return text.split(/[.;!\n]+/).some(sentence => {
+    if (NO_HOUSING.test(sentence)) return false;
+    if (/\b(?:reasonable accommodations?|disabilit\w*|nearby (?:housing|lodging)|relocation assistance)\b/i.test(sentence) && !/\b(?:staff housing|housing provided|room and board|crew quarters)\b/i.test(sentence)) return false;
+    return /\b(?:(?:staff|employee|crew|provided|free|included|on[- ]site) housing|(?:housing|accommodations?|lodging) (?:is |are )?(?:provided|included|free)|room (?:and|&) board|live-in|live[- ]aboard|crew quarters|(?:onboard|on[- ]board) accommodations?)\b/i.test(sentence);
   });
 }
 // Only explicit base hourly rates can fill a missing structured pay field.
@@ -45,7 +67,7 @@ export function isHighPay(pay) {
   return Boolean(parsed && (parsed.hourlyMax >= 20 || parsed.annualMax >= 41600));
 }
 export function isLiveAboard(title) {
-  return /\b(?:deck ?hands?|AB|OS|able seaman|ordinary seaman|wiper|oiler|mate|yacht crew|stew\w*|tug\w*|barge\w*|offshore|vessels?|ships?|shipyard|mariner|seaman|delivery crew|day ?workers?|crew member)\b/i.test(title || '') &&
+  return /\b(?:deck ?hands?|deck crew|AB|OS|able seaman|ordinary seaman|wiper|oiler|mate|yacht crew|stew\w*|tug\w*|barge\w*|offshore|vessels?|ships?|mariner|seaman|delivery crew)\b/i.test(title || '') &&
     !/\b(?:dock ?hands?|fueler|boatcierge|instructor|technician|mechanic|sales|club|dealership|service writer|valet|front desk|call center|hilton|marriott|hyatt|hotel|resort|restaurant|kitchen|bar)\b/i.test(title || '');
 }
 export function lowWageShore(title) {

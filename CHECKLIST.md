@@ -39,9 +39,11 @@ push fails, the job never shows up at all.
 - [ ] Use the outside-the-box skill for one brainstorm pass on extra sources
 
 ## 5. Brighter look, new colour palette
-- [ ] Pick a new palette (bright coastal: sand, sea-glass, sunset coral, navy text) — show Luke 2–3 options first
-- [ ] Add a light theme as default, keep dark as an option
+- [x] Apply Luke's chosen Signal Flags palette: light background, white cards, navy text, royal blue actions and yellow alerts (2026-11-11)
+- [x] Make the site light throughout, preserving the existing layout, fonts and behaviour
 - [ ] Bigger, clearer job cards on phone; less nautical jargon in labels
+
+Palette status (2026-11-11): all CSS colours use shared tokens; track chips, browser chrome, favicon and decorative waves match the light theme. All 163 tests pass. Text/track contrast is at least 4.5:1, with control edges above 3:1 and navy on yellow at 8.77:1. Next: visually review Nest, Helm, Voyage, Harbor and Settings at 390px and 1280px with `?sample=1`; screenshots could not be captured here because Chrome, Chromium and WebKit crash at launch, including the local HTTP server fallback. No open palette decisions. Changes left uncommitted as requested.
 
 ## 6. Simpler to use
 - [ ] Rename tabs to plain words (Jobs, Saved, Applied, Directory, Settings)

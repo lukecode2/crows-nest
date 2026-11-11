@@ -10,19 +10,22 @@ He wants entry-level marine work, yacht crew/day work, AI training/annotation, j
 
 Use these distance rules:
 
-- Home region: SC counties Horry, Georgetown, Charleston, Berkeley, Dorchester, Colleton, Williamsburg, Marion, Florence; NC counties Brunswick, Columbus, New Hanover, Pender, including their towns. Remote work is in region. City/state and city/county formats both occur.
-- Far-away quick-cash work is not worthwhile.
-- Far-away marine work must be live-aboard/working-vessel crew work, or pay at least $20/hour or $41,600/year at the top of its stated range. Convert hourly/annual pay using 2,080 hours/year. Deckhand, OS/AB, wiper/oiler, mate, yacht deck/stew, tug/barge, offshore, and vessel crew can qualify. Shore-side dockhand, fueler, boatcierge, instructor, mechanic, technician, dealership, sales, club, valet, and front-desk jobs do not qualify as live aboard based on their titles.
-- Unknown pay can justify investigating a far-away role only when it is not clearly low-wage shore work. Do not recommend distant low-paid dock/retail/attendant jobs. Treat sales-development/SDR, business-development-rep/BDR, and retail titles as low-wage shore work for this rule.
-- Far-away nonremote AI/web or tech-sales work needs the same high-pay threshold; unknown pay is worth checking only for roles outside those low-wage categories.
+- Near home: SC counties Horry, Georgetown and Marion; NC counties Brunswick and Columbus, including their towns. Remote jobs open to US residents are also eligible. City/state and city/county formats both occur.
+- Charleston-distance band: Charleston, Berkeley, Dorchester and Colleton counties SC, plus Florence and Williamsburg SC and New Hanover (Wilmington) and Pender NC. Keep ONLY when the stated top rate is at least $20/hour or $41,600/year, or housing is included, or it is live-aboard/working-vessel crew work. Unknown pay in this band is rejected unless housing or vessel crew qualifies it.
+- Anywhere farther: keep ONLY with included housing or live-aboard/working-vessel crew work. High pay alone and unknown pay do not qualify, on any track.
+- Housing means affirmative staff housing, housing provided, room and board, live-in accommodation, crew quarters or accommodation included. It adds a `housing` flag and a score boost. Relocation assistance, housing not provided, and nearby lodging do not qualify.
+- Working-vessel crew can include deckhand, OS/AB, wiper/oiler, mate, yacht deck/stew, tug/barge and offshore vessel crew. Shore-side dockhand, fueler, boatcierge, instructor, mechanic, technician, dealership, sales, club, valet, front-desk, shipyard and generic non-vessel crew titles do not imply live-aboard work.
+- Convert hourly/annual pay using 2,080 hours/year. All distance exceptions still must pass entry-level fit, credentials and the $15/hour minimum.
+- Phone alerts use the same geography: Charleston-band jobs alert only for high pay or housing. Near-home marine work and other near-home jobs paying at least $18/hour can alert. Remote and farther jobs do not send local phone alerts.
 
 The feed also rejects these on purpose (see `scripts/lib/fit.mjs`), so only recommend one when the posting shows the gate was wrong:
 
-- A listed top rate under $15/hour. Generic store retail unless it pays $15+/hour or is a tech/marine retailer or brand agency.
+- A listed top rate under $15/hour. Retail store staff at ANY pay, including sales associates, cashiers, stockers, merchandisers, store team members and keyholders. Brand ambassador, brand representative, promo, product demonstration and event marketing roles are allowed even inside stores or at apparel retailers. Agency brand reps such as BDS, 2020 Companies and ActionLink fit Luke’s background; store employment alone at a tech retailer does not qualify.
 - Commission-only pay, postings that need another language, and account-executive roles not marked associate/junior/entry.
 - Remote jobs open only outside the US.
 - Marine jobs that need a captain's licence, MMC rating or other credential he must already hold. "Must obtain", "preferred" and "will train" are fine.
-- Other careers (medical, legal, trades, CDL, kitchen, cleaning, warehouse, cashier) and repost-farm aggregators.
+- Other careers (medical, legal, trades, CDL, kitchen, cleaning, warehouse, cashier), insurance-agent recruiting, hidden-employer posts, paid-review schemes and repost-farm aggregators.
+- Open every actual posting URL and follow redirects. Explicit closure text, 404/410, expired JobPosting dates and redirects from a vacancy to a search/list page mean expired. A bot block, login page or empty JavaScript shell means unverified, not live or expired. The link checker also reads the full job description when supplied as JobPosting data (or the Adzuna description section) for commission-only, insurance recruiting and junk signals that short snippets can hide.
 
 Return a short, ranked shortlist table:
 

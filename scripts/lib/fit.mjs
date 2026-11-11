@@ -1,6 +1,6 @@
 // Who Luke is, as rules: what a job must look like to be worth his time.
 // Every gate here came from a real listing that slipped through (see tests/fetcher/fit.test.mjs).
-import { parsePay, inHomeRegion } from './region.mjs';
+import { parsePay, inHomeRegion, inCharlestonBand } from './region.mjs';
 const text = value => String(value || '');
 
 // Other careers: licences, degrees or trades Luke doesn't have, or work nowhere near his tracks.
@@ -18,7 +18,7 @@ export function marineFit(job, isMarineTitle) {
   if (MARINE_TRADE.test(title)) {
     if (!TRAINING.test(`${title} ${job.snippet || ''}`)) return false;
   } else if (OTHER_CAREER.test(title)) return false;
-  return isMarineTitle(title) || MARINE_EXTRA.test(title) || MARINE_COMPANY.test(job.company) && MARINE_FRONTLINE.test(title) && inHomeRegion(job.location);
+  return isMarineTitle(title) || MARINE_EXTRA.test(title) || MARINE_COMPANY.test(job.company) && MARINE_FRONTLINE.test(title) && (inHomeRegion(job.location) || inCharlestonBand(job.location));
 }
 
 // Luke has no captain's licence, MMC engineering rating or survey ticket yet (config/filters.json "profile").
@@ -46,21 +46,24 @@ export function needsCredentialHeLacks(job, profile = {}) {
 
 // People-facing sales, promo and cash work: the tech-sales and quick-cash tracks share one list.
 const SALES_OR_CASH = /\b(?:SDR|BDR|sales|business development rep\w*|account executive|brand|ambassadors?|valet|parking|events?|demo|demonstrat\w*|promot\w*|sampl\w*|detail(?:er|ing)?|car ?wash|bell(?:person|man|hop|staff)|box office|ticket\w*|ushers?|light show|day ?work\w*|merchandis\w*|install\w*|stagehand|festival|marketing (?:agent|rep\w*)|customer success|wireless|mobile (?:associate|expert))\b/i;
-// Store retail is only worth it at a tech/marine retailer or brand agency (his résumé), or when it pays $15+/hr.
-export const STORE_RETAIL = /\b(?:sales associates?|retail sales|retail associates?|store associate|merchandise associate|sales lead)\b/i;
+// A promo representative may work inside a store without being store staff.
+export const PROMO_ROLE = /\b(?:brand (?:ambassadors?|reps?|representatives?)|promotional? (?:staff|reps?|representatives?|ambassadors?)|product demo(?:nstrat\w*)?|demonstrators?|event marketing|field sales and marketing|(?:in[- ]store|retail) (?:sales )?lead generat\w*)\b/i;
+export const STORE_RETAIL = /\b(?:sales associates?|retail sales|retail associates?|store (?:associates?|team members?|clerks?|staff)|merchandis\w*|cashiers?|stock(?:ers?|ing)|key ?holders?|sales leads?|wireless specialists?|mobile (?:associates?|experts?)|(?:jewelry|timepiece) sales (?:professional|specialist)s?)\b/i;
+export function isStoreRetail(job) {
+  if (/\b(?:2020 companies|actionlink|bds|advantage solutions|crossmark|mosaic|premium retail|acosta)\b/i.test(job.company || '') && /\b(?:sales representatives?|sales specialists?|brand specialists?)\b/i.test(job.title || '')) return false;
+  return (STORE_RETAIL.test(job.title || '') || /\bretail\b.*\b(?:sales|customer|team)\b/i.test(job.title || '')) && !PROMO_ROLE.test(job.title || '') &&
+    !/\b(?:display installer|business development|sales development)\b/i.test(job.title || '');
+}
 export const TECH_RETAILER = /\b(?:best buy|2020 companies|actionlink|bds|advantage solutions|cds|crossmark|mosaic|premium retail|spar|acosta|t-mobile|verizon|at&t|cricket|boost|spectrum|xfinity|comcast|apple|samsung|gamestop|simplisafe|vivint|adt|west marine|bass pro|marinemax|techtronic|tti)\b/i;
-// Direct store employment differs from representing a brand through a staffing agency.
-export const APPAREL_STORE = /\b(?:ralph lauren|tapestry|coach|kate spade|michael kors|tommy hilfiger|calvin klein|gap|old navy|banana republic|hollister|abercrombie|american eagle|aeropostale|h&m|zara|uniqlo|nordstrom|macy'?s|dillard'?s|belk|kohl'?s|bloomingdale'?s|saks|jcpenn(?:ey|y)|burlington)\b/i;
 export function salesFit(job) {
   const title = text(job.title);
-  if (OTHER_CAREER.test(title) || /\b(?:restaurant|kitchen)\b/i.test(title) || !SALES_OR_CASH.test(title)) return 'off-track';
-  const duties = text(job.snippet).split(/[.;!?\n]+/).filter(s => !/\b(?:benefits?|coverage|401k)\b/i.test(s)).join('; ');
-  if (/\b(?:sales|agent|producer)\b/i.test(title) && /\b(?:supplemental insurance|no prior insurance experience|sell(?:ing)? insurance|insurance (?:sales|producer|agent))\b/i.test(duties)) return 'off-track';
+  if (isStoreRetail(job)) return 'generic-retail';
+  if (OTHER_CAREER.test(title) || /\b(?:restaurant|kitchen)\b/i.test(title) || !SALES_OR_CASH.test(title) && !PROMO_ROLE.test(title)) return 'off-track';
+  if (insuranceRecruiting(job)) return 'commission-insurance';
   if (/\b(?:brand|beauty|makeup|ambassador)\b/i.test(title) && /\b(?:makeup artistry|beauty advis(?:or|er)|food[- ]service experience|food service\s*&\s*customer service experience|serv(?:e|es|ing) (?:and (?:present|presenting) )?food)\b/i.test(job.snippet || '')) return 'off-track';
   if (/\b(?:AGM|assistant (?:general |store )?manager|supervisor|team lead|store lead|key ?holder)\b/i.test(title)) return 'senior';
   // He dismissed an "entry-level" Services AE as needing experience: closing roles need a track record.
   if (/\baccount executive\b/i.test(title) && !/\b(?:associate|junior|entry)\b/i.test(title)) return 'needs-experience';
-  if ((STORE_RETAIL.test(title) || /\bbrand (?:ambassador|representative)\b/i.test(title) && APPAREL_STORE.test(job.company)) && !TECH_RETAILER.test(`${job.company} ${title}`) && !(parsePay(job.pay, job.snippet)?.hourlyMax >= 15)) return 'generic-retail';
   return null;
 }
 
@@ -80,11 +83,32 @@ export function payTooLow(pay, snippet = '') {
   return Boolean(parsed && parsed.hourlyMax > 0 && parsed.hourlyMax < 15);
 }
 
+// Commission plus a guaranteed base is fine; compensation solely from results is not.
+export function commissionOnly(job) {
+  const value = `${job.pay || ''} ${job.snippet || ''}`;
+  const explicit = /\b(?:100% commission|commission[- ]only|straight commission|no (?:guaranteed )?base (?:salary|pay|or draw))\b/i.test(value);
+  const perSale = /\buncapped commissions\b/i.test(value) && /\$[\d,]+(?:\.\d+)?\s+per sale\b/i.test(value) && !/\b(?:base|guaranteed|hourly) (?:salary|pay|wage|rate)\b/i.test(value);
+  const performanceOnly = /\bperformance[- ]based pay structure\b/i.test(value) && !/\b(?:base|guaranteed|hourly) (?:salary|pay|wage|rate)\b|\$[\d.]+\s*\/(?:hr|hour)\b/i.test(value);
+  return explicit || perSale || performanceOnly;
+}
+export function insuranceRecruiting(job) {
+  const salesRole = /\b(?:agent|producer|account executive|sales|SDR|BDR)\b/i.test(job.title || '');
+  const duties = text(job.snippet).split(/[.;!?\n]+/).filter(s => !/\b(?:benefits?|coverage|401k)\b/i.test(s)).join('; ');
+  return salesRole && (/\binsurance\b/i.test(job.company || '') ||
+    /\b(?:supplemental insurance|no prior insurance experience|sell(?:ing)? insurance|insurance (?:sales|producer|agent))\b/i.test(duties));
+}
+
 // Repost farms and fake-job aggregators that turned up with placeholder text ("reputed company").
 export const JUNK = /\breputed company\b|\b(?:remote quest jobs|remotical|wfpro|workdock|arenaflex|brighthush|barbarosbarberia|the elite job)\b/i;
 export function isJunk(job, filters = {}) {
+  if (/^(?:all jobs|not disclosed|confidential|undisclosed|company confidential|(?:an? )?(?:(?:ai|recruiting|technology) )*startup)$/i.test(text(job.company).trim()) || /\bdefunct\b/i.test(job.company || '')) return true;
+  try {
+    const url = new URL(job.url);
+    // SEO repost templates on unrelated sites use a copied title and an encoded tracking tail.
+    if (/\/(?:work|vacancy|job-library)\/job\/[^/]+-at-[^/]+-[A-Za-z0-9_=-]{30,}\/?$/.test(url.pathname)) return true;
+  } catch { /* malformed URLs are handled separately */ }
   const haystack = `${job.title} ${job.company} ${job.url} ${text(job.snippet)}`;
-  return /\bremotehive\b|https?:\/\/frontendnode(?:-[a-z0-9]+)?\.onrender\.com(?:\/|$)/i.test(haystack) || JUNK.test(haystack) || (filters.junkSources || []).some(s => haystack.toLowerCase().includes(String(s).toLowerCase()));
+  return /\b(?:earn|make)\s+\$[\d,]+[^.]{0,50}from home|\b(?:paid (?:app|product|consumer) reviews?|review pays|MLM|multi[- ]level marketing|pay (?:a fee |us )?to (?:apply|start|work))\b/i.test(haystack) || /\bremotehive\b|https?:\/\/frontendnode(?:-[a-z0-9]+)?\.onrender\.com(?:\/|$)/i.test(haystack) || JUNK.test(haystack) || (filters.junkSources || []).some(s => haystack.toLowerCase().includes(String(s).toLowerCase()));
 }
 
 // Page-watch emits every new link on a careers page: menus, magazine articles and category pages included.
