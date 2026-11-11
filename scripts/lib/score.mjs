@@ -1,9 +1,11 @@
 import { TRACK_KEYWORDS } from './classify.mjs';
+import { hasHousing } from './region.mjs';
 import { STARTS_FAST } from './fit.mjs';
 export function scoreJob(job) {
   const text = `${job.title || ''} ${job.snippet || ''}`;
   let score = 40;
   const flags = (job.flags || []).filter(f => ['page-changed', 'far-away', 'live-aboard', 'high-pay', 'pay-unknown'].includes(f));
+  if (hasHousing(job)) { score += 10; flags.push('housing'); }
   if (TRACK_KEYWORDS[job.track]?.test(job.title || '')) score += 20;
   if (/\b(?:entry|no experience|will train|trainee|junior|apprentice|seasonal)\b/i.test(text)) { score += 10; flags.push('entry-level'); }
   if (String(job.pay || '').trim()) score += 5;

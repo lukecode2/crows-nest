@@ -20,7 +20,7 @@ test('hotJobs: new local marine jobs and $18+/hr jobs near home', () => {
   const remote = J({ pay: '$25/hr', remote: true, location: 'Remote' });
   const national = J({ track: 'marine-national', location: 'Saint Louis, Missouri' });
   const hot = hotJobs([old, J({ id: 'x' })], [old, marine, chs, paid, salary, cheap, unknown, far, remote, national]);
-  assert.deepEqual(new Set(hot), new Set([marine, chs, paid, salary]));
+  assert.deepEqual(new Set(hot), new Set([marine, paid, salary]));
 });
 
 test('hotJobs stays quiet on the first run so it never pings the whole feed', () => {

@@ -1,6 +1,6 @@
 import { normalizeUrl } from './normalize.mjs';
-import { statedPay, inHomeRegion, isHighPay, isLiveAboard, lowWageShore, remoteAbroad, foreignPlace, SC_CITIES, NC_CITIES } from './region.mjs';
-import { OTHER_CAREER, marineFit, needsLicence, needsCredentialHeLacks, salesFit, aiWebFit, payTooLow, isJunk, notAJobLink } from './fit.mjs';
+import { statedPay, inHomeRegion, inCharlestonBand, hasHousing, isHighPay, isLiveAboard, remoteAbroad, foreignPlace, SC_CITIES, NC_CITIES } from './region.mjs';
+import { OTHER_CAREER, marineFit, needsLicence, needsCredentialHeLacks, salesFit, aiWebFit, payTooLow, commissionOnly, insuranceRecruiting, isStoreRetail, isJunk, notAJobLink } from './fit.mjs';
 const lower = value => String(value || '').trim().toLowerCase();
 const escaped = value => value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 export const MARINE_TITLE = /\b(?:deck ?hands?|dock ?hands?|deck crew|boats?|boating|marina|marine|maritime|yachts?|yachting|vessel|seaman|mariner|ferry|tug(?:boat)?|barge|ship(?:yard)?|sailing|sailor|charter|harbou?r|able seaman|AB|OS|wiper|oiler|stew(?:ard|ardess)?|day ?worker|ocean rescue|lifeguard)\b/i;
@@ -64,10 +64,12 @@ export function dropReason(job, { filters = {}, dismissed = {}, trackedIds = new
   if (excluded) return excluded.reason || 'excluded-job';
   if (notAJobLink(job)) return 'not-a-job';
   if (job.closesAt && nowIso && Date.parse(job.closesAt) < Date.parse(nowIso)) return 'closed';
+  if (insuranceRecruiting(job)) return 'commission-insurance';
+  if (commissionOnly(job)) return 'commission-only';
+  if (isStoreRetail(job)) return 'generic-retail';
   if (isSenior(job, filters)) return 'senior';
   if (!inHomeRegion(job.location) && /\bmust (?:reside in the commuting area|live within \d+[- ]?(?:mile|miles)\b)/i.test(job.snippet || '')) return 'residency';
   if (needsOtherLanguage(job.title) || /\b(?:bilingual|spanish|french|portuguese|mandarin)\b[^.]{0,40}\brequired\b|\bfluen(?:t|cy) in (?:spanish|french|portuguese|mandarin|german)\b/i.test(job.snippet || '')) return 'language';
-  if (['quick-cash', 'tech-sales'].includes(job.track) && /\b(?:100% commission|commission[- ]only|straight commission|no base salary or draw)\b/i.test(job.snippet || '')) return 'commission-only';
   if ((filters.excludeKeywords || []).some(k => lower(job.title).includes(lower(k)))) return 'excluded-keyword';
   const remote = job.remote || /^\s*remote\b/i.test(job.location || '');
   if (remote && remoteAbroad(job)) return 'remote-abroad';
@@ -82,14 +84,12 @@ export function dropReason(job, { filters = {}, dismissed = {}, trackedIds = new
     if (reason) return reason;
   }
   if (payTooLow(job.pay)) return 'pay-too-low';
-  if (inHomeRegion(job.location) || job.remote) return null;
+  if (inHomeRegion(job.location) || remote) return null;
+  const housing = hasHousing(job), aboard = job.track?.startsWith('marine-') && isLiveAboard(job.title);
+  if (inCharlestonBand(job.location)) return isHighPay(job.pay) || housing || aboard ? null : 'band-low-pay';
+  if (housing || aboard) return null;
   if (job.track === 'quick-cash') return 'far-quick-cash';
-  if (job.track?.startsWith('marine-')) {
-    if (isLiveAboard(job.title) || isHighPay(job.pay) || !String(job.pay || '').trim() && !lowWageShore(job.title)) return null;
-    return 'far-shore-job';
-  }
-  if (['tech-sales', 'ai-web'].includes(job.track) && !isHighPay(job.pay) && (String(job.pay || '').trim() || lowWageShore(job.title))) return 'far-low-pay';
-  return null;
+  return job.track?.startsWith('marine-') ? 'far-shore-job' : 'far-low-pay';
 }
 const normalized = value => lower(value).replace(/[^\p{L}\p{N}]+/gu, ' ').trim();
 const primaryLocation = job => String(job.location || '').replace(/\s*\(\+\d+ more\)$/, '');
@@ -105,15 +105,16 @@ export function applyFilters(jobs, options = {}) {
   const cities = [...new Set(jobs.flatMap(j => [primaryLocation(j), ...(j.otherLocations || [])].map(l => l.split(',')[0])))];
   const sorted = jobs.map(j => ({ ...j, pay: statedPay(j) })).filter(j => !dropReason(j, options)).map(j => {
     const far = !j.remote && !inHomeRegion(j.location);
-    const aboard = isLiveAboard(j.title), high = isHighPay(j.pay);
-    const flags = (j.flags || []).filter(f => !['far-away', 'live-aboard', 'high-pay', 'pay-unknown'].includes(f));
+    const aboard = j.track?.startsWith('marine-') && isLiveAboard(j.title), high = isHighPay(j.pay), housing = hasHousing(j);
+    const flags = (j.flags || []).filter(f => !['far-away', 'live-aboard', 'high-pay', 'pay-unknown', 'housing'].includes(f));
     if (far) {
       flags.push('far-away');
       if (!aboard && !high && !String(j.pay || '').trim()) flags.push('pay-unknown');
     }
     if (aboard) flags.push('live-aboard');
     if (high) flags.push('high-pay');
-    return { ...j, track: far && j.track?.startsWith('marine-') ? 'marine-national' : j.track, flags: [...new Set(flags)] };
+    if (housing) flags.push('housing');
+    return { ...j, track: far && !inCharlestonBand(j.location) && j.track?.startsWith('marine-') ? 'marine-national' : j.track, flags: [...new Set(flags)] };
   }).sort((a, b) => (b.score || 0) - (a.score || 0) || newest(b) - newest(a));
   const ids = new Map(), roles = new Map(), result = [];
   for (const job of sorted) {

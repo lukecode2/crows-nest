@@ -1,13 +1,17 @@
-import { inHomeRegion, parsePay } from './region.mjs';
+import { inHomeRegion, inCharlestonBand, hasHousing, isHighPay, statedPay, parsePay } from './region.mjs';
 
 export const SITE_URL = 'https://lukecode2.github.io/crows-nest/';
 const HOT_HOURLY = 18;
 
 // Local marine jobs and well-paid work near home fill within days, so they ping Luke's phone.
 function isHot(job) {
-  if (['marine-local', 'marine-chs'].includes(job.track)) return true;
-  if (job.remote || !inHomeRegion(job.location)) return false;
-  return (parsePay(job.pay)?.hourlyMax || 0) >= HOT_HOURLY;
+  if (job.remote || /^\s*remote\b/i.test(job.location || '')) return false;
+  if (inCharlestonBand(job.location) && !inHomeRegion(job.location)) {
+    return isHighPay(statedPay(job)) || hasHousing(job);
+  }
+  if (!inHomeRegion(job.location)) return false;
+  if (job.track?.startsWith('marine-')) return true;
+  return (parsePay(statedPay(job))?.hourlyMax || 0) >= HOT_HOURLY;
 }
 export function hotJobs(prev, jobs) {
   // With no earlier feed every job looks new; one ping per job would be noise.
