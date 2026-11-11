@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T18:38:44.563Z",
+  "generatedAt": "2026-11-11T18:59:34.104Z",
   "sources": [
     {
       "name": "adzuna",
@@ -16,13 +16,13 @@
     {
       "name": "jsearch",
       "ok": true,
-      "count": 7,
+      "count": 6,
       "error": null
     },
     {
       "name": "remotive",
       "ok": true,
-      "count": 47,
+      "count": 40,
       "error": null
     },
     {
@@ -97,7 +97,7 @@
         "live-aboard",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-11T18:38:44.563Z"
+      "linkCheckedAt": "2026-11-11T18:59:34.104Z"
     },
     {
       "title": "Bell/Valet Attendant - Seasonal Holiday Position",
@@ -115,9 +115,10 @@
       "score": 90,
       "flags": [
         "entry-level",
-        "starts-fast"
+        "starts-fast",
+        "high-pay"
       ],
-      "linkCheckedAt": "2026-11-11T18:38:44.563Z"
+      "linkCheckedAt": "2026-11-11T18:59:34.104Z"
     },
     {
       "title": "Deckhand",
@@ -138,9 +139,10 @@
         "needs-twic",
         "drug-test",
         "far-away",
-        "live-aboard"
+        "live-aboard",
+        "high-pay"
       ],
-      "linkCheckedAt": "2026-11-11T18:38:44.563Z"
+      "linkCheckedAt": "2026-11-11T18:59:34.104Z"
     },
     {
       "title": "Zipfizz Brand Ambassador - Weekend Demo",
@@ -158,9 +160,10 @@
       "score": 85,
       "flags": [
         "entry-level",
-        "starts-fast"
+        "starts-fast",
+        "high-pay"
       ],
-      "linkCheckedAt": "2026-11-11T18:38:44.563Z"
+      "linkCheckedAt": "2026-11-11T18:59:34.104Z"
     },
     {
       "title": "Sales Development Representative",
@@ -180,7 +183,7 @@
         "starts-fast"
       ],
       "otherLocations": [],
-      "linkCheckedAt": "2026-11-11T18:38:44.563Z"
+      "linkCheckedAt": "2026-11-11T18:59:34.104Z"
     },
     {
       "title": "Entry-Level Deckhand-Ordinary Seaman at Mormac Marine Group Inc Defunct Cleveland, OH",
@@ -205,7 +208,7 @@
         "far-away",
         "live-aboard"
       ],
-      "linkCheckedAt": "2026-11-11T18:38:44.563Z"
+      "linkCheckedAt": "2026-11-11T18:59:34.104Z"
     },
     {
       "title": "Entry-Level Tech SDR: Hybrid, Remote + Growth",
@@ -285,7 +288,7 @@
         "entry-level",
         "starts-fast"
       ],
-      "linkCheckedAt": "2026-11-11T18:38:44.563Z"
+      "linkCheckedAt": "2026-11-11T18:59:34.104Z"
     },
     {
       "title": "Account Executive - Heritage Harbor Agency",
@@ -304,7 +307,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-11T18:38:44.563Z"
+      "linkCheckedAt": "2026-11-11T18:59:34.104Z"
     },
     {
       "title": "Brand Ambassador - Qui Tequila",
@@ -323,7 +326,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-11T18:38:44.563Z"
+      "linkCheckedAt": "2026-11-11T18:59:34.104Z"
     },
     {
       "title": "Fish Tender Deckhand at All Jobs Shelton, WA",
@@ -344,7 +347,7 @@
         "far-away",
         "live-aboard"
       ],
-      "linkCheckedAt": "2026-11-11T18:38:44.563Z"
+      "linkCheckedAt": "2026-11-11T18:59:34.104Z"
     },
     {
       "title": "Entry-Level Java Developer - Contract (Remote)",
@@ -426,7 +429,7 @@
         "entry-level",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-11T18:38:44.563Z"
+      "linkCheckedAt": "2026-11-11T18:59:34.104Z"
     },
     {
       "title": "Marine Wiring / Rigging / Installation Associate",
@@ -443,7 +446,8 @@
       "firstSeenAt": "2026-11-11T18:38:44.563Z",
       "score": 70,
       "flags": [],
-      "linkCheckedAt": "2026-11-11T18:38:44.563Z"
+      "linkCheckedAt": "2026-11-11T18:38:44.563Z",
+      "otherLocations": []
     },
     {
       "title": "Deckhand: Dredge & Towboat Ops Pro",
@@ -461,7 +465,8 @@
       "score": 70,
       "flags": [
         "far-away",
-        "live-aboard"
+        "live-aboard",
+        "high-pay"
       ],
       "linkCheckedAt": "2026-11-11T18:38:44.563Z"
     },
@@ -486,7 +491,7 @@
         "live-aboard",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-11T18:38:44.563Z"
+      "linkCheckedAt": "2026-11-11T18:59:34.104Z"
     },
     {
       "title": "Dockhand Marina",
@@ -503,7 +508,7 @@
       "firstSeenAt": "2026-11-11T02:45:12.832Z",
       "score": 70,
       "flags": [],
-      "linkCheckedAt": "2026-11-11T18:38:44.563Z"
+      "linkCheckedAt": "2026-11-11T18:59:34.104Z"
     },
     {
       "title": "Sales Development Representative",
@@ -521,7 +526,7 @@
       "score": 70,
       "flags": [],
       "otherLocations": [],
-      "linkCheckedAt": "2026-11-11T18:38:44.563Z"
+      "linkCheckedAt": "2026-11-11T18:59:34.104Z"
     },
     {
       "title": "T-Mobile Retail Sales Associate SUMMERVILLE | Dorchester Rd",
@@ -540,7 +545,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-11T18:38:44.563Z"
+      "linkCheckedAt": "2026-11-11T18:59:34.104Z"
     },
     {
       "title": "T-Mobile Retail Sales Associate",
@@ -559,7 +564,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-11T18:38:44.563Z"
+      "linkCheckedAt": "2026-11-11T18:59:34.104Z"
     },
     {
       "title": "Charter Broker: FGI",
@@ -598,7 +603,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-11T18:38:44.563Z"
+      "linkCheckedAt": "2026-11-11T18:59:34.104Z"
     },
     {
       "title": "Brand Ambassador",
@@ -617,7 +622,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-11T18:38:44.563Z"
+      "linkCheckedAt": "2026-11-11T18:59:34.104Z"
     },
     {
       "title": "Remote B2B Sales SDR - Earn ~$67K First Year",
@@ -672,7 +677,7 @@
       "firstSeenAt": "2026-10-15T20:32:31.715Z",
       "score": 70,
       "flags": [],
-      "linkCheckedAt": "2026-11-11T18:38:44.563Z"
+      "linkCheckedAt": "2026-11-11T18:59:34.104Z"
     },
     {
       "title": "Sales Development Representative, Outbound",
@@ -690,12 +695,12 @@
       "score": 70,
       "flags": [],
       "otherLocations": [],
-      "linkCheckedAt": "2026-11-11T18:38:44.563Z"
+      "linkCheckedAt": "2026-11-11T18:59:34.104Z"
     },
     {
       "title": "In-Store Sales Lead Generator",
       "company": "ARS",
-      "location": "North Myrtle Beach, Horry County (+1 more)",
+      "location": "North Myrtle Beach, Horry County",
       "remote": false,
       "pay": "$17 per hour",
       "url": "https://www.adzuna.com/details/5961819713?utm_medium=api&utm_source=ea9765bf",
@@ -709,10 +714,7 @@
       "flags": [
         "starts-fast"
       ],
-      "otherLocations": [
-        "Carolina Forest, Horry County"
-      ],
-      "linkCheckedAt": "2026-11-11T18:38:44.563Z"
+      "linkCheckedAt": "2026-11-11T18:59:34.104Z"
     },
     {
       "title": "Retail Sales Associate – Sporting Goods",
@@ -811,7 +813,7 @@
       "firstSeenAt": "2026-11-07T02:45:24.729Z",
       "score": 65,
       "flags": [],
-      "linkCheckedAt": "2026-11-11T18:38:44.563Z"
+      "linkCheckedAt": "2026-11-11T18:59:34.104Z"
     },
     {
       "title": "Deckhand Offshore Vessel",
@@ -829,7 +831,8 @@
       "score": 65,
       "flags": [
         "far-away",
-        "live-aboard"
+        "live-aboard",
+        "high-pay"
       ],
       "linkCheckedAt": "2026-11-11T02:45:12.832Z"
     },
@@ -865,7 +868,9 @@
       "track": "tech-sales",
       "firstSeenAt": "2026-11-04T02:59:35.097Z",
       "score": 65,
-      "flags": [],
+      "flags": [
+        "high-pay"
+      ],
       "linkCheckedAt": "2026-11-11T18:38:44.563Z"
     },
     {
@@ -888,7 +893,7 @@
         "live-aboard",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-11T18:38:44.563Z"
+      "linkCheckedAt": "2026-11-11T18:59:34.104Z"
     },
     {
       "title": "Deckhand, Marine",
@@ -927,7 +932,8 @@
       "score": 65,
       "flags": [
         "far-away",
-        "live-aboard"
+        "live-aboard",
+        "high-pay"
       ],
       "linkCheckedAt": "2026-11-11T02:45:12.832Z"
     },
@@ -988,7 +994,7 @@
       "firstSeenAt": "2026-10-29T17:24:38.740Z",
       "score": 65,
       "flags": [],
-      "linkCheckedAt": "2026-11-11T18:38:44.563Z"
+      "linkCheckedAt": "2026-11-11T18:59:34.104Z"
     },
     {
       "title": "Parking Valet Attendant - Hotel",
@@ -1021,7 +1027,9 @@
       "track": "quick-cash",
       "firstSeenAt": "2026-10-29T17:24:38.740Z",
       "score": 65,
-      "flags": [],
+      "flags": [
+        "high-pay"
+      ],
       "linkCheckedAt": "2026-11-11T18:38:44.563Z"
     },
     {
@@ -1038,8 +1046,10 @@
       "track": "quick-cash",
       "firstSeenAt": "2026-10-28T17:09:06.638Z",
       "score": 65,
-      "flags": [],
-      "linkCheckedAt": "2026-11-11T18:38:44.563Z"
+      "flags": [
+        "high-pay"
+      ],
+      "linkCheckedAt": "2026-11-11T18:59:34.104Z"
     },
     {
       "title": "Part – Time Lead Service Valet – Truck Required – Evening Shift",
@@ -1058,7 +1068,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-11T18:38:44.563Z"
+      "linkCheckedAt": "2026-11-11T18:59:34.104Z"
     },
     {
       "title": "Special Operations AI Scenario Evaluator",
@@ -1175,7 +1185,7 @@
         "high-pay"
       ],
       "otherLocations": [],
-      "linkCheckedAt": "2026-11-11T18:38:44.563Z"
+      "linkCheckedAt": "2026-11-11T18:59:34.104Z"
     },
     {
       "title": "PT Sales Associate - Seasonal",
@@ -1255,7 +1265,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-11T18:38:44.563Z"
+      "linkCheckedAt": "2026-11-11T18:59:34.104Z"
     },
     {
       "title": "Marine Construction Crew Member",
@@ -1275,7 +1285,7 @@
         "live-aboard",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-11T18:38:44.563Z"
+      "linkCheckedAt": "2026-11-11T18:59:34.104Z"
     },
     {
       "title": "Data Annotation Specialist - Computer Vision",
@@ -1294,7 +1304,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-11T18:38:44.563Z"
+      "linkCheckedAt": "2026-11-11T18:59:34.104Z"
     },
     {
       "title": "MARINE DECKHAND - TRAVEL REQUIRED",
@@ -1356,7 +1366,7 @@
         "far-away",
         "pay-unknown"
       ],
-      "linkCheckedAt": "2026-11-11T18:38:44.563Z"
+      "linkCheckedAt": "2026-11-11T18:59:34.104Z"
     },
     {
       "title": "Junior Software Tester; Virtual); Reviews",
@@ -1590,7 +1600,7 @@
       "firstSeenAt": "2026-11-03T03:54:58.693Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-11-11T18:38:44.563Z"
+      "linkCheckedAt": "2026-11-11T18:59:34.104Z"
     },
     {
       "title": "Boat Caulker",
@@ -1607,7 +1617,7 @@
       "firstSeenAt": "2026-11-03T03:54:58.693Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-11-11T18:38:44.563Z"
+      "linkCheckedAt": "2026-11-11T18:59:34.104Z"
     },
     {
       "title": "Deckhand - 40m Private Motor Yacht",
@@ -1683,7 +1693,7 @@
       "firstSeenAt": "2026-11-01T17:06:03.613Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-11-11T18:38:44.563Z"
+      "linkCheckedAt": "2026-11-11T18:59:34.104Z"
     },
     {
       "title": "Sales Development Representative, Clinical Search",
@@ -1700,7 +1710,7 @@
       "firstSeenAt": "2026-11-01T17:06:03.613Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-11-11T18:38:44.563Z"
+      "linkCheckedAt": "2026-11-11T18:59:34.104Z"
     },
     {
       "title": "Deck Hand/Tug Captain/Ops Safety",
@@ -1881,7 +1891,7 @@
       "firstSeenAt": "2026-10-28T17:09:06.638Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-11-11T18:38:44.563Z"
+      "linkCheckedAt": "2026-11-11T18:59:34.104Z"
     },
     {
       "title": "Yacht StarShip Deckhand at Manthey Hospitality Tampa, FL",
@@ -2084,7 +2094,7 @@
       "firstSeenAt": "2026-10-18T14:32:37.273Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-11-11T18:38:44.563Z"
+      "linkCheckedAt": "2026-11-11T18:59:34.104Z"
     },
     {
       "title": "Business Development Representative - Healthcare",
@@ -2139,7 +2149,7 @@
         "drug-test",
         "live-aboard"
       ],
-      "linkCheckedAt": "2026-11-11T18:38:44.563Z"
+      "linkCheckedAt": "2026-11-11T18:59:34.104Z"
     },
     {
       "title": "Deckhand",
@@ -2159,7 +2169,7 @@
         "far-away",
         "live-aboard"
       ],
-      "linkCheckedAt": "2026-11-11T18:38:44.563Z"
+      "linkCheckedAt": "2026-11-11T18:59:34.104Z"
     },
     {
       "title": "Retail Sales Associate",
@@ -2176,7 +2186,7 @@
       "firstSeenAt": "2026-11-11T18:38:44.563Z",
       "score": 55,
       "flags": [],
-      "linkCheckedAt": "2026-11-11T18:38:44.563Z"
+      "linkCheckedAt": "2026-11-11T18:59:34.104Z"
     },
     {
       "title": "Product Demonstrator",
@@ -2192,7 +2202,9 @@
       "track": "quick-cash",
       "firstSeenAt": "2026-11-11T18:38:44.563Z",
       "score": 55,
-      "flags": [],
+      "flags": [
+        "high-pay"
+      ],
       "otherLocations": [
         "Cottageville, Colleton County",
         "Moncks Corner, Berkeley County",
@@ -2229,7 +2241,7 @@
       "otherLocations": [
         "Troy, New York"
       ],
-      "linkCheckedAt": "2026-11-11T18:38:44.563Z"
+      "linkCheckedAt": "2026-11-11T18:59:34.104Z"
     },
     {
       "title": "Temporary Sales Associate",
@@ -2285,7 +2297,7 @@
       "firstSeenAt": "2026-11-11T18:38:44.563Z",
       "score": 50,
       "flags": [],
-      "linkCheckedAt": "2026-11-11T18:38:44.563Z"
+      "linkCheckedAt": "2026-11-11T18:59:34.104Z"
     },
     {
       "title": "Outside Sales Representative",
@@ -2304,7 +2316,8 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-11T18:38:44.563Z"
+      "linkCheckedAt": "2026-11-11T18:38:44.563Z",
+      "otherLocations": []
     },
     {
       "title": "Inside Sales Representative",
@@ -2356,7 +2369,7 @@
       "firstSeenAt": "2026-11-07T16:49:43.945Z",
       "score": 50,
       "flags": [],
-      "linkCheckedAt": "2026-11-11T18:38:44.563Z"
+      "linkCheckedAt": "2026-11-11T18:59:34.104Z"
     },
     {
       "title": "Community Ambassador",
@@ -2372,8 +2385,10 @@
       "track": "quick-cash",
       "firstSeenAt": "2026-11-05T19:08:37.136Z",
       "score": 50,
-      "flags": [],
-      "linkCheckedAt": "2026-11-11T18:38:44.563Z"
+      "flags": [
+        "high-pay"
+      ],
+      "linkCheckedAt": "2026-11-11T18:59:34.104Z"
     },
     {
       "title": "CUSTOMER AMBASSADOR (FULL TIME)",
@@ -2503,7 +2518,7 @@
       "firstSeenAt": "2026-11-06T17:55:33.838Z",
       "score": 45,
       "flags": [],
-      "linkCheckedAt": "2026-11-11T18:38:44.563Z"
+      "linkCheckedAt": "2026-11-11T18:59:34.104Z"
     },
     {
       "title": "Special Events Coordinator",
@@ -2557,7 +2572,9 @@
       "track": "quick-cash",
       "firstSeenAt": "2026-10-16T18:23:40.794Z",
       "score": 45,
-      "flags": [],
+      "flags": [
+        "high-pay"
+      ],
       "linkCheckedAt": "2026-11-11T18:38:44.563Z"
     },
     {
@@ -2665,7 +2682,7 @@
       "firstSeenAt": "2026-11-05T18:41:39.055Z",
       "score": 40,
       "flags": [],
-      "linkCheckedAt": "2026-11-11T18:38:44.563Z"
+      "linkCheckedAt": "2026-11-11T18:59:34.104Z"
     },
     {
       "title": "Pre-Sales Solution Consultant, Big Tech/AI",
@@ -2807,7 +2824,7 @@
       "firstSeenAt": "2026-10-26T17:19:32.335Z",
       "score": 40,
       "flags": [],
-      "linkCheckedAt": "2026-11-11T18:38:44.563Z"
+      "linkCheckedAt": "2026-11-11T18:59:34.104Z"
     },
     {
       "title": "Refractory Sales Representative",
@@ -2876,7 +2893,7 @@
       "firstSeenAt": "2026-10-15T22:25:32.969Z",
       "score": 40,
       "flags": [],
-      "linkCheckedAt": "2026-11-11T18:38:44.563Z"
+      "linkCheckedAt": "2026-11-11T18:59:34.104Z"
     },
     {
       "title": "Retail Display Installer - Technology",
@@ -2895,5 +2912,6 @@
       "flags": [],
       "linkCheckedAt": "2026-11-11T02:45:12.832Z"
     }
-  ]
+  ],
+  "alerts": []
 }
