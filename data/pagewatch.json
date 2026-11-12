@@ -34,7 +34,20 @@
   "https://careers.crowley.com/jobs": [
     "https://careers.crowley.com/careers-home"
   ],
-  "https://www.dockwalk.com/jobs": [],
+  "https://www.dockwalk.com/jobs": [
+    "https://www.dockwalk.com/crewlife",
+    "https://www.dockwalk.com/crewlife/captains",
+    "https://www.dockwalk.com/crewlife/deckhands",
+    "https://www.dockwalk.com/jobs",
+    "https://www.dockwalk.com/jobs/career-advice",
+    "https://www.dockwalk.com/dockwalk-presents",
+    "https://www.dockwalk.com/digital-dockwalk",
+    "https://www.dockwalk.com/crewlife/interior-dual-roles",
+    "https://www.dockwalk.com/crewlife/power-of-letting-go-as-a-chef",
+    "https://www.dockwalk.com/crewlife/senior-yacht-crew-cv-essentials",
+    "https://www.dockwalk.com/jobs/training/yacht-engineer-skills-you-should-have",
+    "https://www.dockwalk.com/jobs/training/when-and-where-to-be-for-yacht-crew-jobs"
+  ],
   "https://www.cottoncrews.com/crew-jobs/": [
     "https://www.cottoncrews.com/luxury-yacht-crew-agency/",
     "https://www.cottoncrews.com/app-guide/",
@@ -69,6 +82,9 @@
     "https://www.bluewateryachting.com/crew-placement/contacts",
     "https://www.bluewateryachting.com/yacht-management/contacts",
     "https://www.bluewateryachting.com/crew-placement/looking-for-work",
+    "https://www.bluewateryachting.com/yacht-crew-job/mate-159404",
+    "https://www.bluewateryachting.com/yacht-crew-job/sole-chef-159403",
+    "https://www.bluewateryachting.com/yacht-crew-job/captain-159402",
     "https://www.bluewateryachting.com/yacht-crew-job/3rd-steward-ess-159401",
     "https://www.bluewateryachting.com/yacht-crew-job/stew-cook-159400",
     "https://www.bluewateryachting.com/yacht-crew-job/2nd-engineer-159339",
@@ -76,9 +92,6 @@
     "https://www.bluewateryachting.com/yacht-crew-job/chief-officer-159398",
     "https://www.bluewateryachting.com/yacht-crew-job/deckhand-159397",
     "https://www.bluewateryachting.com/yacht-crew-job/deckhand-159379",
-    "https://www.bluewateryachting.com/yacht-crew-job/chief-steward-ess-159341",
-    "https://www.bluewateryachting.com/yacht-crew-job/chief-officer-159363",
-    "https://www.bluewateryachting.com/yacht-crew-job/chief-engineer-159263",
     "https://www.bluewateryachting.com/yacht-charter"
   ],
   "https://marinerhiring.noaa.gov/Jobs/Openings": [],
@@ -89,8 +102,8 @@
     "https://sealiftcommand.com/departments/engine/deck-engineer-machinist---mixed-work-schedule/0f0191ca-d05c-4c8b-a7ae-126b7ccae654",
     "https://sealiftcommand.com/departments/engine/deck-engineer-machinist---trainee/01a0c925-1559-77b9-bb09-37116d5616b8",
     "https://sealiftcommand.com/career-fair/f5e812826ac59584e8b4a3590b7119da601667c487ee10e3675e0876d9e910c2",
-    "https://sealiftcommand.com/career-fair/7dfe073fe90efee25201bdd8b01ea4016a74decf011402eb41ff12e67a030413",
     "https://sealiftcommand.com/career-fair/de760195ee2b35619b7152a881cefc288e578a6c3b3d58f015078868fae80a80",
+    "https://sealiftcommand.com/career-fair/7dfe073fe90efee25201bdd8b01ea4016a74decf011402eb41ff12e67a030413",
     "https://sealiftcommand.com/career-fair/ef7d38dabfc0683c2048c64e4bb3fcf5554e5a63a14a653dcfce0677cfbb7e16",
     "https://sealiftcommand.com/career-fair/3b66501231ad905b6161551a8a9d1db9b83b71fa1dd097550df6f5c64e508be2"
   ],
@@ -269,8 +282,8 @@
     "https://broussardbrothers.com/marine-construction/",
     "https://broussardbrothers.com/marine-fleet/",
     "https://broussardbrothers.com/dock-crane-services/",
-    "https://recruiting.paylocity.com/recruiting/jobs/Details/3498389/Broussard-Brothers-Inc/Barge-Crewman",
     "https://recruiting.paylocity.com/recruiting/jobs/Details/3498402/Broussard-Brothers-Inc/Tug-Boat-Captain",
+    "https://recruiting.paylocity.com/recruiting/jobs/Details/3498389/Broussard-Brothers-Inc/Barge-Crewman",
     "https://recruiting.paylocity.com/recruiting/jobs/Details/3498362/Broussard-Brothers-Inc/Deckhand"
   ],
   "https://www.oriongroupholdingsinc.com/careers": [
@@ -509,8 +522,8 @@
     "https://www.gulfstreamboatclub.com/careers/"
   ],
   "https://www.shorelinewatersports.com/careers/": [
-    "https://www.shorelinewatersports.com/join-us/",
-    "https://www.shorelinewatersports.com/careers/"
+    "https://shorelinewatersports.com/join-us/",
+    "https://shorelinewatersports.com/careers/"
   ],
   "https://careers.saltchuk.com/": [
     "https://careers.saltchuk.com/jobs/",
