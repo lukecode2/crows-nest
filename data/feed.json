@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-12T18:52:39.655Z",
+  "generatedAt": "2026-11-13T03:23:31.931Z",
   "sources": [
     {
       "name": "adzuna",
       "ok": true,
-      "count": 400,
+      "count": 329,
       "error": null
     },
     {
@@ -16,7 +16,7 @@
     {
       "name": "jsearch",
       "ok": true,
-      "count": 3,
+      "count": 7,
       "error": null
     },
     {
@@ -34,13 +34,13 @@
     {
       "name": "jobicy",
       "ok": true,
-      "count": 57,
+      "count": 56,
       "error": null
     },
     {
       "name": "himalayas",
       "ok": true,
-      "count": 2,
+      "count": 1,
       "error": null
     },
     {
@@ -52,13 +52,13 @@
     {
       "name": "ats",
       "ok": true,
-      "count": 39,
+      "count": 40,
       "error": null
     },
     {
       "name": "pagewatch",
       "ok": true,
-      "count": 17,
+      "count": 3,
       "error": null
     },
     {
@@ -76,7 +76,7 @@
     {
       "name": "direct",
       "ok": true,
-      "count": 113,
+      "count": 111,
       "error": null
     }
   ],
@@ -94,7 +94,7 @@
       "id": "7604851b7e31b547a3052ef4e3bf7ceb6e027cb4",
       "track": "marine-national",
       "firstSeenAt": "2026-11-11T19:44:01.332Z",
-      "score": 100,
+      "score": 95,
       "flags": [
         "entry-level",
         "starts-fast",
@@ -103,7 +103,7 @@
         "live-aboard",
         "housing"
       ],
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z"
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z"
     },
     {
       "title": "Lead Deckhand",
@@ -128,7 +128,7 @@
         "live-aboard",
         "housing"
       ],
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z"
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z"
     },
     {
       "title": "Deckhand/Educator",
@@ -151,7 +151,7 @@
         "live-aboard",
         "housing"
       ],
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z"
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z"
     },
     {
       "title": "Freedom Boat Club - Seasonal Boatcierge at Mt SC;",
@@ -169,8 +169,7 @@
       "score": 90,
       "flags": [
         "entry-level",
-        "starts-fast",
-        "drug-test"
+        "starts-fast"
       ]
     },
     {
@@ -195,7 +194,7 @@
         "live-aboard",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z"
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z"
     },
     {
       "title": "Bell/Valet Attendant - Seasonal Holiday Position",
@@ -210,14 +209,14 @@
       "id": "96dfe8c6c3eaa7414bde94478e332f7a95a17a9b",
       "track": "quick-cash",
       "firstSeenAt": "2026-11-06T17:55:33.838Z",
-      "score": 90,
+      "score": 85,
       "flags": [
         "entry-level",
         "starts-fast",
         "far-away",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z"
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z"
     },
     {
       "title": "Zipfizz Brand Ambassador - Weekend Demo",
@@ -237,8 +236,28 @@
         "entry-level",
         "starts-fast",
         "high-pay"
-      ],
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z"
+      ]
+    },
+    {
+      "title": "Deckhand — Start Your Maritime Career & Growth",
+      "company": "Nashville Riverboats",
+      "location": "Nashville, Tennessee",
+      "remote": false,
+      "pay": "$32,000–$42,000/year",
+      "url": "https://www.jobleads.com/us/job/deckhand-start-your-maritime-career-growth--nashville--e2eefe291e30740a47a792dabe6d95761",
+      "postedAt": "2026-11-08T00:00:00.000Z",
+      "snippet": "via JobLeads. Manthey Hospitality is seeking motivated, safety-minded Deckhands to join our Nashville Riverboats team. This entry-level opportunity offers a path to senior deck positions, vessel operations, and Captain roles for dedicated …",
+      "source": "jsearch",
+      "id": "4dfd56e4f20d182aa081a347b48ffb7913be7eee",
+      "track": "marine-national",
+      "firstSeenAt": "2026-11-13T03:23:31.931Z",
+      "score": 80,
+      "flags": [
+        "entry-level",
+        "far-away",
+        "live-aboard",
+        "high-pay"
+      ]
     },
     {
       "title": "Seasonal Brand Ambassador",
@@ -257,25 +276,6 @@
       "flags": [
         "entry-level",
         "starts-fast"
-      ]
-    },
-    {
-      "title": "Business Development Representative; BDR; Firearms Industry SaaS",
-      "company": "Argosight",
-      "location": "",
-      "remote": true,
-      "pay": "$70,000–$75,000/year",
-      "url": "https://www.learn4good.com/jobs/online_remote/sales/5602856665/e/",
-      "postedAt": "2026-11-06T00:00:00.000Z",
-      "snippet": "via Learn4Good. Position: Business Development Representative (BDR) - Firearms Industry SaaS Overview Business Development Representative (BDR) – Firearms Industry SaaS | Remote | Entry-Level | No Experience Required Base pay range: $45,00…",
-      "source": "jsearch",
-      "id": "b0a1372725ba68eedcf1bf0b90a5dac9daa24e2c",
-      "track": "tech-sales",
-      "firstSeenAt": "2026-11-11T19:44:01.332Z",
-      "score": 80,
-      "flags": [
-        "entry-level",
-        "high-pay"
       ]
     },
     {
@@ -301,7 +301,7 @@
         "live-aboard",
         "housing"
       ],
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z"
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z"
     },
     {
       "title": "Fleet Deckhand (Columbus, KY)",
@@ -325,7 +325,7 @@
         "far-away",
         "live-aboard"
       ],
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z"
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z"
     },
     {
       "title": "Sales Development Representative",
@@ -344,8 +344,7 @@
       "flags": [
         "starts-fast"
       ],
-      "otherLocations": [],
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z"
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z"
     },
     {
       "title": "Deckhand",
@@ -354,7 +353,7 @@
       "remote": false,
       "pay": "$37,440–$47,840/year",
       "url": "https://bebee.com/us/jobs/deckhand-amo-towing-inc-negley-oh--jooble--4127803569665039360",
-      "postedAt": "2026-11-09T00:00:00.000Z",
+      "postedAt": "2026-11-10T00:00:00.000Z",
       "snippet": "via BeBee. AM&O Towing is hiring a deckhand. This is an entry-level position with training included. Candidates must be at least 18 years of age, hold a valid driver's license, and have reliable transportation. Must be able to lift 50lbs. …",
       "source": "jsearch",
       "id": "e3e412129c21463e1ff4bd77d75970eaf24d11d1",
@@ -363,11 +362,13 @@
       "score": 80,
       "flags": [
         "entry-level",
+        "needs-twic",
+        "drug-test",
         "far-away",
         "live-aboard",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z"
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z"
     },
     {
       "title": "Spa Stew",
@@ -389,7 +390,7 @@
         "far-away",
         "live-aboard"
       ],
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z"
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z"
     },
     {
       "title": "Video Data Annotation Specialist",
@@ -428,7 +429,8 @@
         "far-away",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z"
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z",
+      "otherLocations": []
     },
     {
       "title": "Brand Ambassador - Moncks Corner 1",
@@ -448,7 +450,8 @@
         "far-away",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z"
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z",
+      "otherLocations": []
     },
     {
       "title": "Brand Ambassador - Goose Creek 1",
@@ -468,7 +471,8 @@
         "far-away",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z"
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z",
+      "otherLocations": []
     },
     {
       "title": "Steward/Stewardess",
@@ -489,7 +493,26 @@
         "live-aboard",
         "housing"
       ],
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z"
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z"
+    },
+    {
+      "title": "Brand Ambassador SC– Consumer Electronics Retailer Continuity Program",
+      "company": "Acosta Group (ActionLink, CROSSMARK, Mosaic, Premium, Product Connections)",
+      "location": "Myrtle Beach, SC 29577, USA",
+      "remote": false,
+      "pay": "$24.00/hr",
+      "url": "https://acosta.jobs/myrtle-beach-sc/brand-ambassador-sc-consumer-electronics-retailer-continuity-program/C5B449EED757433593EDD061FAC17FD0/job/",
+      "postedAt": "2026-11-13T01:28:21.272Z",
+      "snippet": "DESCRIPTION Mosaic Flex Staffing – Acosta Group is hiring Brand Ambassadors to represent a leading consumer electronics & storage brand inside top-selling national big-box consumer electronics retailer locations across the country. This is…",
+      "source": "direct",
+      "id": "4509d9b56a9094566487fe2d951736336cbf3b2b",
+      "track": "quick-cash",
+      "firstSeenAt": "2026-11-11T19:44:01.332Z",
+      "score": 75,
+      "flags": [
+        "high-pay"
+      ],
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z"
     },
     {
       "title": "Brand Ambassador NC – Consumer Electronics Retailer Continuity Program",
@@ -498,7 +521,7 @@
       "remote": false,
       "pay": "$24.00/hr",
       "url": "https://acosta.jobs/wilmington-nc/brand-ambassador-nc-consumer-electronics-retailer-continuity-program/80C41221F33842A4AFFEB20AB2777D09/job/",
-      "postedAt": "2026-11-12T16:53:34.435Z",
+      "postedAt": "2026-11-13T01:27:58.753Z",
       "snippet": "DESCRIPTION Mosaic Flex Staffing – Acosta Group is hiring Brand Ambassadors to represent a leading consumer electronics & storage brand inside top-selling national big-box consumer electronics retailer locations across the country. This is…",
       "source": "direct",
       "id": "f08c1ac287b4de139f197427c9e157ef4e51ae70",
@@ -509,26 +532,7 @@
         "far-away",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z"
-    },
-    {
-      "title": "Brand Ambassador SC– Consumer Electronics Retailer Continuity Program",
-      "company": "Acosta Group (ActionLink, CROSSMARK, Mosaic, Premium, Product Connections)",
-      "location": "Myrtle Beach, SC 29577, USA",
-      "remote": false,
-      "pay": "$24.00/hr",
-      "url": "https://acosta.jobs/myrtle-beach-sc/brand-ambassador-sc-consumer-electronics-retailer-continuity-program/C5B449EED757433593EDD061FAC17FD0/job/",
-      "postedAt": "2026-11-12T16:51:42.774Z",
-      "snippet": "DESCRIPTION Mosaic Flex Staffing – Acosta Group is hiring Brand Ambassadors to represent a leading consumer electronics & storage brand inside top-selling national big-box consumer electronics retailer locations across the country. This is…",
-      "source": "direct",
-      "id": "4509d9b56a9094566487fe2d951736336cbf3b2b",
-      "track": "quick-cash",
-      "firstSeenAt": "2026-11-11T19:44:01.332Z",
-      "score": 75,
-      "flags": [
-        "high-pay"
-      ],
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z"
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z"
     },
     {
       "title": "Hybrid SDR — Tech Sales Prospector (Remote Options)",
@@ -546,6 +550,25 @@
       "score": 75,
       "flags": [
         "entry-level"
+      ]
+    },
+    {
+      "title": "Business Development Representative; BDR; Firearms Industry SaaS",
+      "company": "Argosight",
+      "location": "",
+      "remote": true,
+      "pay": "$70,000–$75,000/year",
+      "url": "https://www.learn4good.com/jobs/online_remote/sales/5602856665/e/",
+      "postedAt": "2026-11-06T00:00:00.000Z",
+      "snippet": "via Learn4Good. Position: Business Development Representative (BDR) - Firearms Industry SaaS Overview Business Development Representative (BDR) – Firearms Industry SaaS | Remote | Entry-Level | No Experience Required Base pay range: $45,00…",
+      "source": "jsearch",
+      "id": "b0a1372725ba68eedcf1bf0b90a5dac9daa24e2c",
+      "track": "tech-sales",
+      "firstSeenAt": "2026-11-11T19:44:01.332Z",
+      "score": 75,
+      "flags": [
+        "entry-level",
+        "high-pay"
       ]
     },
     {
@@ -567,7 +590,7 @@
         "far-away",
         "live-aboard"
       ],
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z"
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z"
     },
     {
       "title": "Deck Hand",
@@ -588,7 +611,7 @@
         "far-away",
         "live-aboard"
       ],
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z"
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z"
     },
     {
       "title": "Maritime Training Program (Deckhand, Mate, Captain)",
@@ -609,7 +632,7 @@
         "far-away",
         "live-aboard"
       ],
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z"
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z"
     },
     {
       "title": "Deckhand Trainee",
@@ -630,7 +653,7 @@
         "far-away",
         "live-aboard"
       ],
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z"
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z"
     },
     {
       "title": "Brand Ambassador - Qui Tequila",
@@ -650,7 +673,7 @@
         "far-away",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z"
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z"
     },
     {
       "title": "Entry-Level Tech SDR: Hybrid, Remote + Growth",
@@ -669,25 +692,6 @@
       "flags": [
         "entry-level"
       ]
-    },
-    {
-      "title": "Entry-Level Java Developer - Contract (Remote)",
-      "company": "LuxGuard Solutions",
-      "location": "",
-      "remote": true,
-      "pay": "",
-      "url": "https://jooble.org/jdp/-4853074284386925716",
-      "postedAt": "2026-11-06T00:00:00.000Z",
-      "snippet": "via Jooble. LuxGuard Solutions in Los Angeles is hiring an entry-level contract JAVA Developer. This position offers remote or on-site work and a chance to kickstart your career in tech, with training provided. You will develop and impleme…",
-      "source": "jsearch",
-      "id": "a767a978942be1a15444754f311d20e3df9a610a",
-      "track": "ai-web",
-      "firstSeenAt": "2026-11-10T18:39:18.097Z",
-      "score": 75,
-      "flags": [
-        "entry-level"
-      ],
-      "linkCheckedAt": "2026-11-11T18:38:44.563Z"
     },
     {
       "title": "Sole Yacht Stewardess for FLIBS 2026 — Fort Lauderdale",
@@ -749,8 +753,61 @@
       "flags": [
         "entry-level",
         "high-pay"
-      ],
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z"
+      ]
+    },
+    {
+      "title": "Business Development Representative - West",
+      "company": "GitLab",
+      "location": "Remote — USA, Canada",
+      "remote": true,
+      "pay": "",
+      "url": "https://jobicy.com/jobs/161659-business-development-representative-west",
+      "postedAt": "2026-11-12T16:50:38.000Z",
+      "snippet": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. Mo…",
+      "source": "jobicy",
+      "id": "289ce44a6dfa814739c9e0cf7ae84ac4fd089823",
+      "track": "tech-sales",
+      "firstSeenAt": "2026-11-13T03:23:31.931Z",
+      "score": 70,
+      "flags": [],
+      "otherLocations": [],
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z"
+    },
+    {
+      "title": "Business Development Representative, SLED - West",
+      "company": "GitLab",
+      "location": "Remote — USA",
+      "remote": true,
+      "pay": "",
+      "url": "https://jobicy.com/jobs/161654-business-development-representative-sled-west",
+      "postedAt": "2026-11-12T16:49:55.000Z",
+      "snippet": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. Mo…",
+      "source": "jobicy",
+      "id": "d592d0cf5ce4fd0de61508c4283fd96e576a7a7f",
+      "track": "tech-sales",
+      "firstSeenAt": "2026-11-13T03:23:31.931Z",
+      "score": 70,
+      "flags": [],
+      "otherLocations": [],
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z"
+    },
+    {
+      "title": "Business Development Representative, Financial Services",
+      "company": "GitLab",
+      "location": "Remote — USA, Canada",
+      "remote": true,
+      "pay": "",
+      "url": "https://jobicy.com/jobs/161647-business-development-representative-financial-services",
+      "postedAt": "2026-11-12T16:49:47.000Z",
+      "snippet": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. Mo…",
+      "source": "jobicy",
+      "id": "8fb4004caf94110b3da309b3e4652acc06701699",
+      "track": "tech-sales",
+      "firstSeenAt": "2026-11-13T03:23:31.931Z",
+      "score": 70,
+      "flags": [],
+      "otherLocations": [],
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z"
     },
     {
       "title": "Stewardess",
@@ -770,7 +827,8 @@
         "far-away",
         "live-aboard"
       ],
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z"
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z",
+      "otherLocations": []
     },
     {
       "title": "Inbound Sales Development Representative (SDR) - CCaaS/UCaaS",
@@ -787,7 +845,7 @@
       "firstSeenAt": "2026-11-12T18:52:39.655Z",
       "score": 70,
       "flags": [],
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z"
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z"
     },
     {
       "title": "Service Valet | Shuttle Driver - North Shore CDJR",
@@ -804,7 +862,7 @@
       "firstSeenAt": "2026-11-12T18:52:39.655Z",
       "score": 70,
       "flags": [],
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z"
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z"
     },
     {
       "title": "Blood Drive Event Planner",
@@ -821,7 +879,7 @@
       "firstSeenAt": "2026-11-12T18:52:39.655Z",
       "score": 70,
       "flags": [],
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z"
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z"
     },
     {
       "title": "Ordinary Seaman",
@@ -844,7 +902,7 @@
       "otherLocations": [
         "New York, NY, United States"
       ],
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z"
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z"
     },
     {
       "title": "ATB Ordinary Seaman",
@@ -867,7 +925,7 @@
         "far-away",
         "live-aboard"
       ],
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z"
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z"
     },
     {
       "title": "Oiler",
@@ -891,7 +949,7 @@
         "far-away",
         "live-aboard"
       ],
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z"
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z"
     },
     {
       "title": "Fleet Deckhand",
@@ -920,7 +978,7 @@
         "East Carondelet, IL",
         "Granite City, IL"
       ],
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z"
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z"
     },
     {
       "title": "Deckhand: Dredge & Towboat Ops Pro",
@@ -929,7 +987,7 @@
       "remote": false,
       "pay": "$39,000–$46,000/year",
       "url": "https://www.jobleads.com/us/job/deckhand-dredge-towboat-ops-pro--town-of-fountain--ed40a6285b3f03a3afc0a09522978d051",
-      "postedAt": "2026-11-08T00:00:00.000Z",
+      "postedAt": "2026-11-09T00:00:00.000Z",
       "snippet": "via JobLeads. U.S. Army Corps of Engineers (DOA) in Fountain City, WI seeks a deckhand to support the St. Paul District's Maintenance & Repair Section. You will work on floating plan units, including pipeline and dredge vessels, performing…",
       "source": "jsearch",
       "id": "d38a5e01227218690f8cb8df01e8625c00960a20",
@@ -940,8 +998,7 @@
         "far-away",
         "live-aboard",
         "high-pay"
-      ],
-      "linkCheckedAt": "2026-11-11T18:38:44.563Z"
+      ]
     },
     {
       "title": "Sales Development Representative",
@@ -958,7 +1015,26 @@
       "firstSeenAt": "2026-11-11T02:45:12.832Z",
       "score": 70,
       "flags": [],
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z"
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z"
+    },
+    {
+      "title": "Entry-Level Java Developer - Contract (Remote)",
+      "company": "LuxGuard Solutions",
+      "location": "",
+      "remote": true,
+      "pay": "",
+      "url": "https://jooble.org/jdp/-4853074284386925716",
+      "postedAt": "2026-11-06T00:00:00.000Z",
+      "snippet": "via Jooble. LuxGuard Solutions in Los Angeles is hiring an entry-level contract JAVA Developer. This position offers remote or on-site work and a chance to kickstart your career in tech, with training provided. You will develop and impleme…",
+      "source": "jsearch",
+      "id": "a767a978942be1a15444754f311d20e3df9a610a",
+      "track": "ai-web",
+      "firstSeenAt": "2026-11-10T18:39:18.097Z",
+      "score": 70,
+      "flags": [
+        "entry-level"
+      ],
+      "linkCheckedAt": "2026-11-11T18:38:44.563Z"
     },
     {
       "title": "Remote B2B Sales SDR - Earn ~$67K First Year",
@@ -1033,7 +1109,7 @@
       "firstSeenAt": "2026-10-15T20:32:31.715Z",
       "score": 70,
       "flags": [],
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z"
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z"
     },
     {
       "title": "Sales Development Representative, Outbound",
@@ -1050,7 +1126,7 @@
       "firstSeenAt": "2026-10-15T20:32:31.715Z",
       "score": 70,
       "flags": [],
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z"
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z"
     },
     {
       "title": "Deckhand/AB",
@@ -1073,7 +1149,7 @@
         "far-away",
         "live-aboard"
       ],
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z"
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z"
     },
     {
       "title": "English Audio Transcription Specialist (AI Training)",
@@ -1092,7 +1168,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z"
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z"
     },
     {
       "title": "AI Trainer Specialist",
@@ -1111,7 +1187,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z"
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z"
     },
     {
       "title": "Backend Developer - Data Annotation Systems",
@@ -1130,7 +1206,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z"
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z"
     },
     {
       "title": "In-Store Sales Lead Generator",
@@ -1149,7 +1225,7 @@
       "flags": [
         "starts-fast"
       ],
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z"
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z"
     },
     {
       "title": "Deckhand Seaman – 28‑Day Tours, Solid Benefits",
@@ -1173,23 +1249,6 @@
       "linkCheckedAt": "2026-11-11T18:59:34.104Z"
     },
     {
-      "title": "Business Development Representative",
-      "company": "Flex",
-      "location": "Remote — USA",
-      "remote": true,
-      "pay": "",
-      "url": "https://jobicy.com/jobs/152658-business-development-representative-13",
-      "postedAt": "2026-11-08T02:50:26.000Z",
-      "snippet": "Flex is building the AI-native private bank for business owners . We’re re-architecting the entire financial system for entrepreneurs—from the first dollar a business earns to how that value compounds, moves, and is ultimately spent in rea…",
-      "source": "jobicy",
-      "id": "de0657b04800fe89b9f15a498454516cc1b8c005",
-      "track": "tech-sales",
-      "firstSeenAt": "2026-11-08T17:01:36.028Z",
-      "score": 65,
-      "flags": [],
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z"
-    },
-    {
       "title": "3D & LiDAR Data Annotation Analyst",
       "company": "Appen",
       "location": "Remote — USA",
@@ -1204,7 +1263,7 @@
       "firstSeenAt": "2026-11-07T02:45:24.729Z",
       "score": 65,
       "flags": [],
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z"
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z"
     },
     {
       "title": "Deckhand Offshore Vessel",
@@ -1244,7 +1303,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z"
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z"
     },
     {
       "title": "Brand Ambassador",
@@ -1264,7 +1323,7 @@
         "far-away",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z"
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z"
     },
     {
       "title": "Enterprise Sales Development Representative",
@@ -1305,7 +1364,7 @@
         "live-aboard",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z"
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z"
     },
     {
       "title": "Deckhand, Marine",
@@ -1409,7 +1468,7 @@
         "far-away",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z"
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z"
     },
     {
       "title": "Valet Attendant - Myrtle Beach, SC",
@@ -1428,7 +1487,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z"
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z"
     },
     {
       "title": "Part – Time Lead Service Valet – Truck Required – Evening Shift",
@@ -1448,7 +1507,7 @@
         "far-away",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z"
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z"
     },
     {
       "title": "Special Operations AI Scenario Evaluator",
@@ -1467,7 +1526,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z"
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z"
     },
     {
       "title": "Business Development Representative",
@@ -1527,7 +1586,7 @@
         "far-away",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z"
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z"
     },
     {
       "title": "Overnight Valet Attendant",
@@ -1547,7 +1606,7 @@
         "far-away",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z"
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z"
     },
     {
       "title": "AI Trainer - Video Annotation",
@@ -1567,7 +1626,7 @@
         "high-pay"
       ],
       "otherLocations": [],
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z"
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z"
     },
     {
       "title": "Business Development Representative - US, Remote",
@@ -1626,8 +1685,7 @@
       "score": 65,
       "flags": [
         "high-pay"
-      ],
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z"
+      ]
     },
     {
       "title": "Marine Construction Crew Member",
@@ -1706,7 +1764,7 @@
       "track": "marine-national",
       "firstSeenAt": "2026-11-12T18:52:39.655Z",
       "score": 60,
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z"
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z"
     },
     {
       "title": "2027 Maritime School Graduates (Mate Trainees and Third Assistant Enginners) - Apply Here",
@@ -1726,7 +1784,7 @@
         "far-away",
         "live-aboard"
       ],
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z"
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z"
     },
     {
       "title": "3rd Steward(ess) - 53m Private/Charter Motor Yacht",
@@ -1747,7 +1805,7 @@
       "track": "marine-national",
       "firstSeenAt": "2026-11-11T18:38:44.563Z",
       "score": 60,
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z"
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z"
     },
     {
       "title": "Deckhand - 57m Private Sailing Yacht",
@@ -1768,7 +1826,7 @@
       "track": "marine-national",
       "firstSeenAt": "2026-11-06T17:55:33.838Z",
       "score": 60,
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z"
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z"
     },
     {
       "title": "Private Yacht Deckhand",
@@ -1864,7 +1922,7 @@
       "track": "marine-national",
       "firstSeenAt": "2026-11-04T18:36:58.377Z",
       "score": 60,
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z"
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z"
     },
     {
       "title": "Business Development Representative - USMC",
@@ -1882,7 +1940,7 @@
       "score": 60,
       "flags": [],
       "otherLocations": [],
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z"
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z"
     },
     {
       "title": "Business Development Representative - Autonomous Systems",
@@ -1900,7 +1958,7 @@
       "score": 60,
       "flags": [],
       "otherLocations": [],
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z"
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z"
     },
     {
       "title": "Steward(ess) - 70m Private Motor Yacht",
@@ -1921,7 +1979,7 @@
       "track": "marine-national",
       "firstSeenAt": "2026-11-03T18:24:34.069Z",
       "score": 60,
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z"
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z"
     },
     {
       "title": "Deckhand - 40m Private Motor Yacht",
@@ -1942,7 +2000,7 @@
       "track": "marine-national",
       "firstSeenAt": "2026-11-02T20:44:18.352Z",
       "score": 60,
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z"
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z"
     },
     {
       "title": "Deckhand - 70m+ Private Motor Yacht",
@@ -1963,7 +2021,7 @@
       "track": "marine-national",
       "firstSeenAt": "2026-11-02T20:44:18.352Z",
       "score": 60,
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z"
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z"
     },
     {
       "title": "Sales Development Representative",
@@ -1980,7 +2038,7 @@
       "firstSeenAt": "2026-11-02T20:44:18.352Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z"
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z"
     },
     {
       "title": "Bellperson & Valet",
@@ -1997,7 +2055,7 @@
       "firstSeenAt": "2026-11-01T17:06:03.613Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z"
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z"
     },
     {
       "title": "Sales Development Representative, Clinical Search",
@@ -2033,7 +2091,7 @@
         "far-away",
         "live-aboard"
       ],
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z"
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z"
     },
     {
       "title": "Activation Sales Development Representative I",
@@ -2050,7 +2108,7 @@
       "firstSeenAt": "2026-10-31T16:03:41.517Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z"
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z"
     },
     {
       "title": "AI Photo Evaluation Rater",
@@ -2067,7 +2125,7 @@
       "firstSeenAt": "2026-10-31T02:18:14.271Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z"
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z"
     },
     {
       "title": "Deckhand",
@@ -2104,7 +2162,7 @@
       "firstSeenAt": "2026-10-29T17:24:38.740Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z"
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z"
     },
     {
       "title": "Marketing Brand Ambassador",
@@ -2121,7 +2179,7 @@
       "firstSeenAt": "2026-10-29T17:24:38.740Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z",
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z",
       "otherLocations": []
     },
     {
@@ -2160,7 +2218,7 @@
       "track": "marine-national",
       "firstSeenAt": "2026-10-28T17:09:06.638Z",
       "score": 60,
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z"
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z"
     },
     {
       "title": "Marketing Brand Ambassador",
@@ -2177,7 +2235,7 @@
       "firstSeenAt": "2026-10-28T17:09:06.638Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z"
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z"
     },
     {
       "title": "Remote Sales Development Representative (US Market) - Remote, US",
@@ -2194,7 +2252,7 @@
       "firstSeenAt": "2026-10-28T02:10:45.471Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z"
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z"
     },
     {
       "title": "Deckhand - 35m Private Motor Yacht",
@@ -2215,7 +2273,7 @@
       "track": "marine-national",
       "firstSeenAt": "2026-10-27T16:33:36.212Z",
       "score": 60,
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z"
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z"
     },
     {
       "title": "Commercial Business Development Representative",
@@ -2232,7 +2290,7 @@
       "firstSeenAt": "2026-10-27T16:33:36.212Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z"
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z"
     },
     {
       "title": "2nd Steward(ess) - 43m Private Motor Yacht",
@@ -2253,7 +2311,7 @@
       "track": "marine-national",
       "firstSeenAt": "2026-10-26T17:19:32.335Z",
       "score": 60,
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z"
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z"
     },
     {
       "title": "Event Coordinator",
@@ -2270,7 +2328,7 @@
       "firstSeenAt": "2026-10-25T14:56:13.466Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z"
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z"
     },
     {
       "title": "Graduate Sales Development Representative",
@@ -2287,7 +2345,7 @@
       "firstSeenAt": "2026-10-24T13:42:05.182Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z"
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z"
     },
     {
       "title": "Ferry Deckhand",
@@ -2307,7 +2365,7 @@
         "far-away",
         "live-aboard"
       ],
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z"
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z"
     },
     {
       "title": "Deckhand",
@@ -2344,7 +2402,7 @@
       "firstSeenAt": "2026-10-19T17:27:01.917Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z"
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z"
     },
     {
       "title": "Sales Development Representative",
@@ -2395,7 +2453,7 @@
       "firstSeenAt": "2026-10-17T14:11:06.587Z",
       "score": 60,
       "flags": [],
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z"
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z"
     },
     {
       "title": "Ferry Mate - Full Time",
@@ -2433,7 +2491,7 @@
       "flags": [
         "starts-fast"
       ],
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z"
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z"
     },
     {
       "title": "LG Home Appliance Area Sales Specialist - Part Time",
@@ -2454,7 +2512,7 @@
         "far-away",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z"
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z"
     },
     {
       "title": "Retail Lead Generation Representative – Home Services",
@@ -2478,7 +2536,7 @@
         "Carolina Forest, Horry County",
         "Myrtle Beach, Horry County"
       ],
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z"
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z"
     },
     {
       "title": "Product Demonstrator",
@@ -2510,7 +2568,7 @@
         "Lincolnville, Dorchester County",
         "James Island, Charleston County"
       ],
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z"
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z"
     },
     {
       "title": "PERFECT PART TIME JOB-WEEKEND SALES-Weekly PAY !",
@@ -2531,7 +2589,7 @@
         "far-away",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z"
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z"
     },
     {
       "title": "Outside Sales Representative",
@@ -2548,7 +2606,8 @@
       "firstSeenAt": "2026-11-12T18:52:39.655Z",
       "score": 50,
       "flags": [],
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z"
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z",
+      "otherLocations": []
     },
     {
       "title": "Weekend Sign Installer - Ocean Isle Beach, NC",
@@ -2567,7 +2626,7 @@
       "flags": [
         "starts-fast"
       ],
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z"
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z"
     },
     {
       "title": "Entry Level Outside Sales Trainee",
@@ -2586,8 +2645,25 @@
       "flags": [
         "entry-level"
       ],
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z",
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z",
       "otherLocations": []
+    },
+    {
+      "title": "Medicare Field Sales- Myrtle Beach",
+      "company": "Humana",
+      "location": "Carolina Forest, Horry County",
+      "remote": false,
+      "pay": "",
+      "url": "https://www.adzuna.com/land/ad/5958192728?se=4OZ3mxHf8RGLpZ7LU6z74w&utm_medium=api&utm_source=ea9765bf&v=185B7DD19C9364C2B6DD294DAAF270DFD96C9696",
+      "postedAt": "2026-11-08T08:43:59.000Z",
+      "snippet": "Become a part of our caring community With over 10 million sales interactions annually, Humana understands that while great products are important, it's the quality of our service that defines us. We know that when our members and prospect…",
+      "source": "adzuna",
+      "id": "884d786c530b5e253c9add2329d7c22952a82c17",
+      "track": "tech-sales",
+      "firstSeenAt": "2026-11-13T03:23:31.931Z",
+      "score": 45,
+      "flags": [],
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z"
     },
     {
       "title": "Ambassador",
@@ -2607,24 +2683,7 @@
         "far-away",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z"
-    },
-    {
-      "title": "Home Sales Consultant",
-      "company": "Palm Harbor Villages, Inc",
-      "location": "Georgetown, Georgetown County",
-      "remote": false,
-      "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5957477599?se=Rm2WxUve8RG-3tonMCyHnw&utm_medium=api&utm_source=ea9765bf&v=FEDDE66EA8FA3FD688E5AFCD60D56FAFA17B580A",
-      "postedAt": "2026-11-07T16:41:25.000Z",
-      "snippet": "Job Description Job Description OVERVIEW At Cavco Industries, Inc., we ignite opportunity delivery a huge impact on people's lives through the delivery of affordable housing. We exist for our employees, our communities and our stakeholders…",
-      "source": "adzuna",
-      "id": "c4c41cf9604a60e43cfffbe897fc2da8c8fab53d",
-      "track": "tech-sales",
-      "firstSeenAt": "2026-11-12T03:47:20.502Z",
-      "score": 45,
-      "flags": [],
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z",
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z",
       "otherLocations": []
     },
     {
@@ -2645,7 +2704,7 @@
         "far-away",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z"
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z"
     },
     {
       "title": "Part Time Product Demonstrator in Costco",
@@ -2662,7 +2721,7 @@
       "firstSeenAt": "2026-11-11T19:44:01.332Z",
       "score": 45,
       "flags": [],
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z"
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z"
     },
     {
       "title": "Car Wash Wash Attendant",
@@ -2679,7 +2738,7 @@
       "firstSeenAt": "2026-11-06T17:55:33.838Z",
       "score": 45,
       "flags": [],
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z"
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z"
     },
     {
       "title": "Community Ambassador",
@@ -2699,7 +2758,7 @@
         "far-away",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z"
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z"
     },
     {
       "title": "Field Sales and Marketing Representative- Myrtle Beach, SC",
@@ -2718,7 +2777,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z"
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z"
     },
     {
       "title": "Marketing Events Specialist",
@@ -2737,7 +2796,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z"
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z"
     },
     {
       "title": "Field Sales and Marketing Representative- North Myrtle Beach, SC",
@@ -2756,7 +2815,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z",
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z",
       "otherLocations": [
         "North Myrtle Beach, Horry County"
       ]
@@ -2776,7 +2835,7 @@
       "firstSeenAt": "2026-11-03T18:24:34.069Z",
       "score": 40,
       "flags": [],
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z"
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z"
     },
     {
       "title": "Sales Executive, Promotional Products",
@@ -2793,7 +2852,7 @@
       "firstSeenAt": "2026-11-02T20:44:18.352Z",
       "score": 40,
       "flags": [],
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z"
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z"
     },
     {
       "title": "Administrative Assistant - Sales and Marketing",
@@ -2810,7 +2869,7 @@
       "firstSeenAt": "2026-11-01T17:06:03.613Z",
       "score": 40,
       "flags": [],
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z",
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z",
       "otherLocations": []
     },
     {
@@ -2844,7 +2903,7 @@
       "firstSeenAt": "2026-10-25T19:34:58.130Z",
       "score": 40,
       "flags": [],
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z"
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z"
     },
     {
       "title": "Sales Representative - Uniform",
@@ -2861,7 +2920,7 @@
       "firstSeenAt": "2026-10-23T20:24:32.631Z",
       "score": 40,
       "flags": [],
-      "linkCheckedAt": "2026-11-12T18:52:39.655Z",
+      "linkCheckedAt": "2026-11-13T03:23:31.931Z",
       "otherLocations": []
     },
     {
