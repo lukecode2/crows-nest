@@ -15,6 +15,7 @@ sites and government feeds, filters them to what fits Luke, and publishes them t
 - Filters / fit rules: `scripts/lib/filter.mjs`, `fit.mjs`, `region.mjs`, `classify.mjs`.
 - Tracks: marine-local, marine-chs, marine-national, ai-web, tech-sales, office, quick-cash
   (site labels in `js/config.js`).
+- Experience: sales/office jobs dropped only at 4+ years required (AI/web at 2+). Degree-required jobs stay, flagged "Degree asked" (Luke, 2026-11-13).
 - Location rule: near home (Horry, Georgetown, Marion, Brunswick/Columbus NC) or remote. Charleston/Wilmington
   only with $20+/hr or housing. Farther only with housing or live-aboard.
 - Office & Gov Sales watchlist: companies with `"watch": "office"`. Each run writes `data/office-watch.json`

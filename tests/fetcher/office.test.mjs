@@ -42,7 +42,7 @@ test('office jobs are kept remote or near home, dropped when far and on-site', (
   assert.equal(judge({ title: 'Government Account Representative', location: 'Remote', remote: true, snippet: 'Entry-level.' }).reason, null);
   assert.equal(judge({ title: 'Inside Account Representative', location: 'Myrtle Beach, SC', snippet: '' }).reason, null);
   assert.equal(judge({ title: 'Digital Media Coordinator', location: 'Reston, VA', snippet: 'Create landing pages.' }).reason, 'far-not-remote');
-  assert.equal(judge({ title: 'Marketing Coordinator', location: 'Remote', remote: true, snippet: '3+ years of marketing experience required.' }).reason, 'senior');
+  assert.equal(judge({ title: 'Marketing Coordinator', location: 'Remote', remote: true, snippet: '4+ years of marketing experience required.' }).reason, 'senior');
 });
 
 test('description that says remote makes a far job remote; hybrid does not', () => {

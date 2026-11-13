@@ -152,10 +152,10 @@ test('commuting-area residency gates apply outside the home region regardless of
   assert.equal(reason('Deckhand', { track: 'marine-national', location: 'Florida', snippet: 'Relocation available; living nearby is preferred.' }), null);
 });
 
-test('sales experience and required degrees gate every sales track without preferred or licence tenure', () => {
-  for (const track of ['quick-cash', 'tech-sales']) {
-    for (const snippet of ['Minimum of 2+ years of proven successful sales experience', 'At least 3 years of sales background is requested', 'Minimum of three (3) years of proven sales experience', 'Minimum of (3) years of sales experience', 'Minimum of 2 years of sales experience, valid driver’s license preferred', "Qualifications Required: Bachelor's degree", 'Qualifications Required: Bachelor’s degree', 'Qualifications Required:\n• Strong communication skills\n• Bachelor’s degree']) assert.equal(reason('Sales Representative', { track, snippet }), 'senior', snippet);
-    for (const snippet of ['3 years of sales experience preferred', "Must have 2 years of driver's licence tenure", 'Two years driving experience preferred', '3 years of driving experience required', 'Qualifications Required: Bachelor’s degree or equivalent experience', 'Qualifications Preferred: Bachelor’s degree', 'One year of customer-facing experience required.']) assert.equal(reason('Sales Representative', { track, snippet }), null, snippet);
+test('sales experience over 3 years gates every sales track; degrees and preferred experience do not', () => {
+  for (const track of ['quick-cash', 'tech-sales', 'office']) {
+    for (const snippet of ['Minimum of 4+ years of proven successful sales experience', 'At least 5 years of sales background is requested', 'Minimum of four (4) years of proven sales experience']) assert.equal(reason('Sales Representative', { track, snippet }), 'senior', snippet);
+    for (const snippet of ['Minimum of 2+ years of proven successful sales experience', 'Minimum of three (3) years of proven sales experience', "Qualifications Required: Bachelor's degree", 'Qualifications Required:\n• Strong communication skills\n• Bachelor’s degree', '3 years of sales experience preferred', "Must have 2 years of driver's licence tenure", 'Two years driving experience preferred', '3 years of driving experience required', 'Qualifications Required: Bachelor’s degree or equivalent experience', 'Qualifications Preferred: Bachelor’s degree', 'One year of customer-facing experience required.']) assert.equal(reason('Sales Representative', { track, snippet }), null, snippet);
   }
   assert.equal(requiredYears('Minimum of (3) years of sales experience'), 3);
 });
@@ -187,7 +187,7 @@ test('retail, field sales, telecom, tech brands and full-time ambassadors overri
 });
 
 test('stored and incoming jobs are classified before experience and distance gates', () => {
-  const raw = job('Chromebook Sales Specialist', { trackHint: 'quick-cash', company: '2020 Companies', snippet: 'Full time. Minimum of 2 years of sales experience.', url: 'https://tech.test/job' });
+  const raw = job('Chromebook Sales Specialist', { trackHint: 'quick-cash', company: '2020 Companies', snippet: 'Full time. Minimum of 4 years of sales experience.', url: 'https://tech.test/job' });
   assert.deepEqual(buildFeed([], [raw], { nowIso }), []);
   assert.deepEqual(buildFeed([{ ...raw, id: 'old', trackHint: undefined, track: 'quick-cash', firstSeenAt: nowIso }], [], { nowIso }), []);
   const retail = buildFeed([job('Retail Sales Associate', { company: 'Journeys', track: 'tech-sales', pay: '$18/hr', firstSeenAt: nowIso })], [], { nowIso });

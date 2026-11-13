@@ -25,7 +25,7 @@ export function requiredYears(snippet) {
     .map(m => NUMBER_WORDS[m[1].toLowerCase()] ?? Number(m[1])).filter(n => n <= 15);
   return found.length ? Math.max(...found) : 0;
 }
-function requiresDegree(snippet) {
+export function requiresDegree(snippet) {
   const headed = snippet.match(/(?:qualifications?\s+required|required\s+qualifications?)\s*:?\s*([\s\S]{0,260}?bachelor[’']?s(?:\s+degree)?[^.;\n]{0,100})/i)?.[1];
   return Boolean(headed && !/preferred|or equivalent/i.test(headed)) || snippet.split(/[.;!?•\n]+/).some(s =>
     /(bachelor[’']?s|degree)\s+(is\s+)?required/i.test(s) && !/preferred|or equivalent/i.test(s));
@@ -37,8 +37,8 @@ export function isSenior(job, filters = {}) {
   const trainee = /\b(?:trainee|apprentice|in[- ]training|accelerated sales|(?:sales|management|leadership|career) (?:development|training) program)\b/i.test(title);
   if (/\b(?:leader|supervisor|(?:ramp|valet|bell|shift) captain)\b/i.test(title) || /\b(?:head|chief)[- ]+(?:stew(?:ard(?:ess)?)?|deckhand|chef|engineer)\b/i.test(title)) return true;
   const snippet = String(job.snippet || '');
-  if (/\b(?:sales|SDR|BDR|account executive|business development|brand (?:ambassador|specialist))\b/i.test(title) && requiredYears(snippet) >= 2) return true;
-  if (requiresDegree(snippet)) return true;
+  if (/\b(?:sales|SDR|BDR|account executive|business development|brand (?:ambassador|specialist))\b/i.test(title) && requiredYears(snippet) >= 4) return true;
+  // Luke wants degree-required jobs shown (2026-11-13); they get a "Degree asked" flag instead.
   if (!assistant && !trainee && /\b(?:senior|sr|vp|vice president|director|general manager|head of|chief|president|owner|partner|managers?)\b/i.test(title)) return true;
   if (!['ai-web', 'tech-sales', 'office'].includes(job.track)) return requiredYears(job.snippet) >= 4;
   if (/\b(?:II|III|IV)\b/i.test(title)) return true;
@@ -46,7 +46,8 @@ export function isSenior(job, filters = {}) {
     !/\b(?:junior|entry|associate|intern|apprentice|trainee|trainer)\b/i.test(title)) return true;
   const leadershipTitle = title.replace(/\blead (?:brand ambassador|generation)\b/gi, '');
   return /\b(?:senior|sr\.?|lead|principal|staff)\b/i.test(leadershipTitle) ||
-    requiredYears(job.snippet) >= 2 ||
+    // Luke: sales and office jobs asking up to 3 years are fine (2026-11-13); AI/web stays at 2.
+    requiredYears(job.snippet) >= (job.track === 'ai-web' ? 2 : 4) ||
     (filters.seniorKeywords || []).some(k => new RegExp(`\\b${escaped(k)}\\b`, 'i').test(`${title} ${job.snippet}`));
 }
 // Kept separate from deduplication so the catch log uses exactly the same gates.
@@ -113,7 +114,7 @@ export function applyFilters(jobs, options = {}) {
   const sorted = jobs.map(j => ({ ...j, pay: statedPay(j) })).filter(j => !dropReason(j, options)).map(j => {
     const far = !j.remote && !inHomeRegion(j.location);
     const aboard = j.track?.startsWith('marine-') && isLiveAboard(j.title), high = isHighPay(j.pay), housing = hasHousing(j);
-    const flags = (j.flags || []).filter(f => !['far-away', 'live-aboard', 'high-pay', 'pay-unknown', 'housing'].includes(f));
+    const flags = (j.flags || []).filter(f => !['far-away', 'live-aboard', 'high-pay', 'pay-unknown', 'housing', 'degree-asked'].includes(f));
     if (far) {
       flags.push('far-away');
       if (!aboard && !high && !String(j.pay || '').trim()) flags.push('pay-unknown');
@@ -121,6 +122,7 @@ export function applyFilters(jobs, options = {}) {
     if (aboard) flags.push('live-aboard');
     if (high) flags.push('high-pay');
     if (housing) flags.push('housing');
+    if (requiresDegree(String(j.snippet || ''))) flags.push('degree-asked');
     return { ...j, track: far && !inCharlestonBand(j.location) && j.track?.startsWith('marine-') ? 'marine-national' : j.track, flags: [...new Set(flags)] };
   }).sort((a, b) => (b.score || 0) - (a.score || 0) || newest(b) - newest(a));
   const ids = new Map(), roles = new Map(), result = [];
