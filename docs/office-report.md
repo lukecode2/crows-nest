@@ -1,8 +1,8 @@
 # Office & Gov Sales report
 
-Rebuilt automatically every feed run. Last run: 2026-11-13 05:17 UTC.
+Rebuilt automatically every feed run. Last run: 2026-11-13 05:23 UTC.
 
-## Worth a look (7)
+## Worth a look (9)
 
 Jobs on the site, plus Carahsoft jobs (they list Reston, VA but also hire remote: ask).
 
@@ -13,7 +13,9 @@ Jobs on the site, plus Carahsoft jobs (they list Reston, VA but also hire remote
 | [Digital Media Coordinator](https://www.carahsoft.com/careers/Digital-Media) | Carahsoft | Reston, VA | $40,000–$50,000/year | Ask if remote (listed far away) |
 | [Proposal Coordinator](https://www.carahsoft.com/careers/proposal-coordinator-opportunities) | Carahsoft | Reston, VA | $40,000–$50,000/year | Ask if remote (listed far away) |
 | [Contracts Coordinator](https://www.carahsoft.com/careers/contracts-coordinator) | Carahsoft | Reston, VA | $40,000–$50,000/year | Ask if remote (listed far away) |
+| [Inside Sales Support Representative](https://vizi.vizirecruiter.com/CONNECTION-3063/417788/index.html) | Connection (GovConnection) | Remote, MA | — | On the site |
 | [Inside Sales Representative](https://jobicy.com/jobs/152775-inside-sales-representative-2) | Beyond Finance | Remote — USA | — | On the site |
+| [Technology Sales Representative (Entry Level) – SMB IT Solutions](https://vizi.vizirecruiter.com/CONNECTION-3063/389764/index.html) | Connection (GovConnection) | Remote, NC | — | On the site |
 | [Marketing Assistant](https://weworkremotely.com/remote-jobs/teamswell-marketing-assistant) | Teamswell | Remote | — | On the site |
 
 ## Companies watched
@@ -27,28 +29,28 @@ Jobs on the site, plus Carahsoft jobs (they list Reston, VA but also hire remote
 | Trace3 | greenhouse | 14 |
 | OpenGov | ashby | 0 |
 | Axon | greenhouse | 87 |
+| SHI International | workday | 76 |
+| Connection (GovConnection) | vizi | 37 |
+| Iron Bow Technologies | greenhouse | 2 |
 
 ## Checked but not watchable
 
-- SHI International: careers site shows no readable job system
-- CDW / CDW-G: careers site shows no readable job system
-- Connection (GovConnection): careers site shows no readable job system
-- Iron Bow: careers site shows no readable job system
-- ThunderCat Technology: careers site shows no readable job system
 - DLT Solutions: now part of TD SYNNEX (covered)
 - immixGroup: part of Arrow (covered)
 - CivicPlus: Greenhouse board has 0 jobs
 - Mark43, Accela, Shift5: no entry-level sales or marketing roles today
+- CDW / CDW-G: Jobvite search sits behind a Cloudflare bot check (checked in Chrome 2026-11-13); JSearch may still catch its jobs
+- ThunderCat Technology: posts jobs as Word documents, apply by email to HR (Account Manager open 2026-11-13); check by hand
 
 ## Filtered out this run
 
-- Needs more experience: 152
-- Not an office/sales role: 44
-- abroad: 24
+- Needs more experience: 203
+- Not an office/sales role: 92
+- abroad: 27
+- Far away, not remote: 20
 - commission-only: 16
-- Far away, not remote: 10
 - generic-retail: 6
 - language: 5
 - far-quick-cash: 3
-- remote-abroad: 1
+- remote-abroad: 2
 - far-low-pay: 1
