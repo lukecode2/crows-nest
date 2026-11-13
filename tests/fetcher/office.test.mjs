@@ -51,6 +51,7 @@ test('description that says remote makes a far job remote; hybrid does not', () 
   assert.equal(saysRemote({ location: 'Boston, MA', snippet: 'Hybrid: 3 days in office, remote-friendly culture.' }), false);
   assert.equal(saysRemote({ location: 'Tulsa, OK', snippet: 'Remote monitoring of pipelines.' }), false);
   assert.equal(saysRemote({ location: 'US-OR-Oregon (Remote Employees)', snippet: '' }), true);
+  assert.equal(saysRemote({ location: 'US - Remote', snippet: '' }), true);
 });
 
 test('office report lists kept jobs and far jobs at watched companies', () => {

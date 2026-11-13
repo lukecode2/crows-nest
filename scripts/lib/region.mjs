@@ -102,5 +102,5 @@ const NOT_REMOTE = /\b(?:not (?:a )?remote|non-remote|no remote|hybrid|on-?site 
 const SAYS_REMOTE = /\b(?:fully remote|100% remote|remote[- ](?:first|eligible|friendly|position|role|opportunity|job)|(?:position|role|job) is (?:fully )?remote|work (?:from|at) home|work-from-home|WFH|telework(?:ing)? (?:eligible|available|position)|telecommut\w*|location:\s*remote|remote,? (?:US|USA|United States)|(?:US|U\.S\.|United States)[- ]remote)\b/i;
 export function saysRemote(job) {
   const value = `${job.title || ''}. ${job.location || ''}. ${job.snippet || ''}`;
-  return !NOT_REMOTE.test(value) && (SAYS_REMOTE.test(value) || /\(remote(?: employees?)?\)/i.test(job.location || ''));
+  return !NOT_REMOTE.test(value) && (SAYS_REMOTE.test(value) || /\(remote(?: employees?)?\)|^(?:US|USA|United States)\s*[-–,]\s*remote\b/i.test(job.location || ''));
 }

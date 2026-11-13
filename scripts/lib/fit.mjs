@@ -135,7 +135,9 @@ export const STARTS_FAST = /\b(?:immediate(?:ly)?|start (?:asap|immediately|righ
 export const OFFICE_TITLE = /\b(?:(?:government|public sector|federal|inside|channel)\s+(?:sales|account)\w*|account (?:rep(?:resentative)?|coordinator|associate)s?|(?:sales|marketing|digital media|social media|digital marketing|content|proposal|contracts?|media|communications) (?:coordinator|assistant)s?|marketing (?:associate|specialist)s?|(?:digital|social) media (?:specialist|associate)s?|digital media\b|digital marketing (?:specialist|associate)s?)\b/i;
 export function officeFit(job) {
   const title = text(job.title);
-  if (OTHER_CAREER.test(title) || !OFFICE_TITLE.test(title)) return 'off-track';
+  if (OTHER_CAREER.test(title)) return 'off-track';
+  // Plain sales titles at watched companies ("Sales & Marketing Representative") follow the sales rules.
+  if (!OFFICE_TITLE.test(title)) return salesFit(job);
   if (insuranceRecruiting(job)) return 'commission-insurance';
   return null;
 }
