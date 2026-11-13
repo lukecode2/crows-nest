@@ -52,7 +52,7 @@ Palette status (2026-11-11): all CSS colours use shared tokens; track chips, bro
 - [ ] ★ Plain-English empty states and counts
 
 ## 7. Housekeeping
-- [ ] ★ Add CLAUDE.md + STATUS.md (project has neither)
+- [x] ★ Add CLAUDE.md + STATUS.md + AGENTS.md (2026-11-13)
 - [ ] ★ Fix open items from last audit: pagewatch yacht jobs without qualifications text; Adzuna hourly fix check
 - [ ] ★ Weekly sweep is overdue (last 2026-10-16)
 - [ ] `npm test` passes, then live check on phone after each push
