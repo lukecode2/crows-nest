@@ -1592,31 +1592,6 @@
       "reason": "Public ApplicantPro board/API verified 187 jobs in a normal browser-style request, but requests identifying as CrowsNestJobBot return a 200 Service Unavailable/Request Rejected page. Adapter not enabled; no user-agent spoofing."
     },
     {
-      "name": "SHI International",
-      "reason": "careers site shows no readable job system",
-      "watch": "office"
-    },
-    {
-      "name": "CDW / CDW-G",
-      "reason": "careers site shows no readable job system",
-      "watch": "office"
-    },
-    {
-      "name": "Connection (GovConnection)",
-      "reason": "careers site shows no readable job system",
-      "watch": "office"
-    },
-    {
-      "name": "Iron Bow",
-      "reason": "careers site shows no readable job system",
-      "watch": "office"
-    },
-    {
-      "name": "ThunderCat Technology",
-      "reason": "careers site shows no readable job system",
-      "watch": "office"
-    },
-    {
       "name": "DLT Solutions",
       "reason": "now part of TD SYNNEX (covered)",
       "watch": "office"
@@ -1634,6 +1609,16 @@
     {
       "name": "Mark43, Accela, Shift5",
       "reason": "no entry-level sales or marketing roles today",
+      "watch": "office"
+    },
+    {
+      "name": "CDW / CDW-G",
+      "reason": "Jobvite search sits behind a Cloudflare bot check (checked in Chrome 2026-11-13); JSearch may still catch its jobs",
+      "watch": "office"
+    },
+    {
+      "name": "ThunderCat Technology",
+      "reason": "posts jobs as Word documents, apply by email to HR (Account Manager open 2026-11-13); check by hand",
       "watch": "office"
     }
   ],
@@ -3628,6 +3613,101 @@
         "status": 200,
         "method": "GET",
         "url": "https://boards-api.greenhouse.io/v1/boards/axon/jobs"
+      }
+    },
+    {
+      "name": "SHI International",
+      "track": "office",
+      "watch": "office",
+      "ats": "workday",
+      "host": "shi.wd12.myworkdayjobs.com",
+      "tenant": "shi",
+      "site": "shicareers",
+      "searchTexts": [
+        "inside sales",
+        "account",
+        "public sector",
+        "marketing",
+        "sales development"
+      ],
+      "maxPages": 2,
+      "keywords": [
+        "account",
+        "inside sales",
+        "sales development",
+        "business development",
+        "coordinator",
+        "marketing",
+        "digital",
+        "social media",
+        "representative",
+        "associate",
+        "SDR",
+        "BDR"
+      ],
+      "verifiedAt": "2026-11-13",
+      "verification": {
+        "status": 200,
+        "method": "POST",
+        "url": "https://shi.wd12.myworkdayjobs.com/wday/cxs/shi/shicareers/jobs",
+        "source": "Found in Chrome on https://www.shi.com/careers"
+      }
+    },
+    {
+      "name": "Connection (GovConnection)",
+      "track": "office",
+      "watch": "office",
+      "ats": "vizi",
+      "url": "https://vizi.vizirecruiter.com/CONNECTION-3063/vizis.json",
+      "keywords": [
+        "account",
+        "inside sales",
+        "sales development",
+        "business development",
+        "coordinator",
+        "marketing",
+        "digital",
+        "social media",
+        "representative",
+        "associate",
+        "SDR",
+        "BDR",
+        "sales representative"
+      ],
+      "verifiedAt": "2026-11-13",
+      "verification": {
+        "status": 200,
+        "method": "GET",
+        "url": "https://vizi.vizirecruiter.com/CONNECTION-3063/vizis.json",
+        "source": "Found in Chrome on https://www.connection.com/content/careers (ViziRecruiter board)"
+      }
+    },
+    {
+      "name": "Iron Bow Technologies",
+      "track": "office",
+      "watch": "office",
+      "ats": "greenhouse",
+      "slug": "ironbowtechnologies",
+      "keywords": [
+        "account",
+        "inside sales",
+        "sales development",
+        "business development",
+        "coordinator",
+        "marketing",
+        "digital",
+        "social media",
+        "representative",
+        "associate",
+        "SDR",
+        "BDR"
+      ],
+      "verifiedAt": "2026-11-13",
+      "verification": {
+        "status": 200,
+        "method": "GET",
+        "url": "https://boards-api.greenhouse.io/v1/boards/ironbowtechnologies/jobs",
+        "source": "Found in Chrome: ironbow.com/all-jobs links to gh_jid"
       }
     }
   ]

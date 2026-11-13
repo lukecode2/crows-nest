@@ -65,7 +65,7 @@ Why missed: Carahsoft runs its own careers site (no job system), its job pages l
 - [x] Watchlist (`"watch": "office"` in config/companies.json): Carahsoft (new `carahsoft` reader), TD SYNNEX/DLT, Arrow/immixGroup, GuidePoint, Trace3, OpenGov, Axon. Skipped ones listed in `_skipped`.
 - [x] Own report: every run writes `data/office-watch.json` + `docs/office-report.md` (Carahsoft far jobs shown as "ask if remote").
 - [x] Bug: cruise block "ncl" matched "incl." in company names; now whole words only.
-- [ ] More watchlist companies: SHI, CDW-G, Connection, Iron Bow, ThunderCat have no readable job system (page-watch or skip).
+- [x] Chrome check 2026-11-13: SHI (Workday), Connection (ViziRecruiter JSON, new `vizi` reader), Iron Bow (Greenhouse) added. CDW blocked by Cloudflare; ThunderCat posts Word docs + email (check by hand).
 
 ## Done 2026-11-11 (session notes)
 - Fake/expired audit of all 148 site jobs: 7 expired, 14 junk/commission-only. Fixed with general rules (SEO repost hosts, hidden/defunct employers, paid-review schemes, commission-only in full description, insurance recruiting) and a stronger link check.

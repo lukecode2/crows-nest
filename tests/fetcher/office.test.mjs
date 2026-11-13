@@ -69,3 +69,13 @@ test('office report lists kept jobs and far jobs at watched companies', () => {
   assert.match(md, /SHI: no job system/);
   assert.match(md, /Not an office\/sales role: 1/);
 });
+
+test('Connection ViziRecruiter list reads remote-state locations as remote', async () => {
+  const jobs = await direct.fetchJobs({ companies: [{ name: 'Connection (GovConnection)', ats: 'vizi', track: 'office', url: 'https://vizi.vizirecruiter.com/CONNECTION-3063/vizis.json', keywords: ['sales representative'] }], now, log() {},
+    http: { getText: async () => 'User-agent: *\nDisallow:', getJson: async () => [
+      { title: 'Technology Sales Representative (Entry Level) – SMB IT Solutions', location: 'Remote, NC', link: 'https://vizi.vizirecruiter.com/CONNECTION-3063/389764/index.html', issueDate: '2026-11-01' },
+      { title: 'Order Selector Forklift', location: 'Wilmington, OH', link: 'https://vizi.vizirecruiter.com/CONNECTION-3063/1/index.html' }] } });
+  assert.equal(jobs.length, 1);
+  assert.equal(jobs[0].remote, true);
+  assert.equal(judge(jobs[0]).reason, null);
+});

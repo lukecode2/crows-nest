@@ -3,7 +3,7 @@ import { cleanText } from '../lib/normalize.mjs';
 
 export const name = 'direct';
 export const timeoutMs = 240000;
-export const types = ['bamboohr', 'icims', 'jibe', 'oracle', 'jobsyn', 'phenom', 'smartrecruiters-html', 'advantage', 'alignerr', 'mercor', 'tallships', 'carahsoft'];
+export const types = ['bamboohr', 'icims', 'jibe', 'oracle', 'jobsyn', 'phenom', 'smartrecruiters-html', 'advantage', 'alignerr', 'mercor', 'tallships', 'carahsoft', 'vizi'];
 const text = value => cleanText(value, Infinity);
 const list = value => value == null ? [] : Array.isArray(value) ? value : [value];
 const location = address => [address?.addressLocality, address?.addressRegion, typeof address?.addressCountry === 'object' ? address.addressCountry.name : address?.addressCountry].filter(Boolean).join(', ');
@@ -305,7 +305,14 @@ async function carahsoft(entry, ctx, api) {
     return title ? [{ title: clean, location: entry.location || 'Reston, VA', url, snippet, pay: range ? `${range[1].replace(/\s*[-–]\s*/, '–')}/${range[2].toLowerCase()}` : '' }] : [];
   }, ctx, 2);
 }
-const adapters = { bamboohr, jibe, icims, oracle, jobsyn, phenom, 'smartrecruiters-html': smartrecruitersHtml, advantage, alignerr, mercor, tallships, carahsoft };
+// ViziRecruiter (Connection) publishes the whole board as one JSON file the page itself loads.
+async function vizi(entry, ctx, api) {
+  const rows = await api.getJson(entry.url);
+  if (!Array.isArray(rows)) throw new Error('Invalid ViziRecruiter list');
+  return rows.filter(j => j.title && j.link).map(j => ({ title: j.title, location: j.location || '', remote: /\bremote\b/i.test(j.location || ''),
+    url: absolute(j.link, entry.url), snippet: text(String(j.introduction || '').replace(/<[^>]+>/g, ' ')), postedAt: iso(j.issueDate) }));
+}
+const adapters = { bamboohr, jibe, icims, oracle, jobsyn, phenom, 'smartrecruiters-html': smartrecruitersHtml, advantage, alignerr, mercor, tallships, carahsoft, vizi };
 export async function fetchJobs(ctx) {
   const api = publicClient(ctx);
   return collect(companyEntries(ctx).filter(e => types.includes(e.ats)), async entry => {
