@@ -1,8 +1,8 @@
 # Office & Gov Sales report
 
-Rebuilt automatically every feed run. Last run: 2026-11-13 05:23 UTC.
+Rebuilt automatically every feed run. Last run: 2026-11-13 18:29 UTC.
 
-## Worth a look (9)
+## Worth a look (12)
 
 Jobs on the site, plus Carahsoft jobs (they list Reston, VA but also hire remote: ask).
 
@@ -13,10 +13,13 @@ Jobs on the site, plus Carahsoft jobs (they list Reston, VA but also hire remote
 | [Digital Media Coordinator](https://www.carahsoft.com/careers/Digital-Media) | Carahsoft | Reston, VA | $40,000–$50,000/year | Ask if remote (listed far away) |
 | [Proposal Coordinator](https://www.carahsoft.com/careers/proposal-coordinator-opportunities) | Carahsoft | Reston, VA | $40,000–$50,000/year | Ask if remote (listed far away) |
 | [Contracts Coordinator](https://www.carahsoft.com/careers/contracts-coordinator) | Carahsoft | Reston, VA | $40,000–$50,000/year | Ask if remote (listed far away) |
+| [Technology Sales Representative (Entry Level) – SMB IT Solutions](https://vizi.vizirecruiter.com/CONNECTION-3063/389764/index.html) | Connection (GovConnection) | Remote, NC | — | On the site |
 | [Inside Sales Support Representative](https://vizi.vizirecruiter.com/CONNECTION-3063/417788/index.html) | Connection (GovConnection) | Remote, MA | — | On the site |
 | [Inside Sales Representative](https://jobicy.com/jobs/152775-inside-sales-representative-2) | Beyond Finance | Remote — USA | — | On the site |
-| [Technology Sales Representative (Entry Level) – SMB IT Solutions](https://vizi.vizirecruiter.com/CONNECTION-3063/389764/index.html) | Connection (GovConnection) | Remote, NC | — | On the site |
 | [Marketing Assistant](https://weworkremotely.com/remote-jobs/teamswell-marketing-assistant) | Teamswell | Remote | — | On the site |
+| [Inside Sales Representative](https://arrow.wd1.myworkdayjobs.com/en-US/AC/job/US-NY-New-York-Remote-Employees/Inside-Sales-Representative_R249253) | Arrow (immixGroup) | US-NY-New York (Remote Employees) | — | On the site |
+| [Marketing Specialist (Chicagoland Area)](https://boards.greenhouse.io/guidepointsecurity/jobs/6126855004?gh_jid=6126855004) | GuidePoint Security | Remote - Chicagoland Area | — | On the site |
+| [PubSec Field Inside Account Executive](https://shi.wd12.myworkdayjobs.com/en-US/shicareers/job/US---Remote/PubSec-Field-Inside-Account-Executive_JR3558) | SHI International | US - Remote | — | On the site |
 
 ## Companies watched
 
@@ -28,9 +31,9 @@ Jobs on the site, plus Carahsoft jobs (they list Reston, VA but also hire remote
 | GuidePoint Security | greenhouse | 12 |
 | Trace3 | greenhouse | 14 |
 | OpenGov | ashby | 0 |
-| Axon | greenhouse | 87 |
+| Axon | greenhouse | 90 |
 | SHI International | workday | 76 |
-| Connection (GovConnection) | vizi | 37 |
+| Connection (GovConnection) | vizi | 36 |
 | Iron Bow Technologies | greenhouse | 2 |
 
 ## Checked but not watchable
@@ -44,13 +47,14 @@ Jobs on the site, plus Carahsoft jobs (they list Reston, VA but also hire remote
 
 ## Filtered out this run
 
-- Needs more experience: 203
-- Not an office/sales role: 92
-- abroad: 27
-- Far away, not remote: 20
+- Needs more experience: 166
+- Needs closing experience: 66
+- Far away, not remote: 38
+- abroad: 34
+- Not an office/sales role: 32
 - commission-only: 16
+- language: 8
 - generic-retail: 6
-- language: 5
-- far-quick-cash: 3
-- remote-abroad: 2
+- remote-abroad: 4
+- far-quick-cash: 4
 - far-low-pay: 1
