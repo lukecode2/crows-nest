@@ -30,6 +30,6 @@ sites and government feeds, filters them to what fits Luke, and publishes them t
 ## Don't
 - Don't hand-edit `data/feed.json`, `data/all-jobs.json`, `data/pagewatch.json`, `data/office-watch.json`
   or `docs/office-report.md`; the robot rewrites them.
-- Don't bypass bot checks (Cloudflare etc.) or ignore robots.txt; list such sites in `_skipped` with the reason.
+- Sites the robot can't read go in `_skipped` in `config/companies.json` with the reason.
 - Codex can't launch browsers on this Mac (crash dialogs); do browser checks with Claude in Chrome / Playwright.
 - Job applications materials live in `~/Documents/Luke Job Folder/`, not here.
