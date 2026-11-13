@@ -4,13 +4,14 @@ import { resolve, dirname } from 'node:path';
 import * as http from './lib/http.mjs';
 import { cleanText, makeId } from './lib/normalize.mjs';
 import { classifyTrack } from './lib/classify.mjs';
-import { statedPay } from './lib/region.mjs';
+import { statedPay, saysRemote } from './lib/region.mjs';
 import { applyFilters, dropReason, roleKey } from './lib/filter.mjs';
 import { scoreJob } from './lib/score.mjs';
 import { mergeFeed } from './lib/merge.mjs';
 import { checkLinks } from './lib/linkcheck.mjs';
 import { rawJob, iso } from './lib/source-utils.mjs';
 import { hotJobs, alertLog } from './lib/alert.mjs';
+import { officeWatch, officeMarkdown } from './lib/office-report.mjs';
 import * as adzuna from './sources/adzuna.mjs';
 import * as usajobs from './sources/usajobs.mjs';
 import * as jsearch from './sources/jsearch.mjs';
@@ -49,7 +50,7 @@ export async function runSources(list, ctx) {
 function normalizeJob(raw, previous = false) {
   const job = rawJob(raw);
   const { trackHint, ...rest } = job;
-  const normalized = { ...rest, title: cleanText(job.title, Infinity), company: cleanText(job.company, Infinity), location: cleanText(job.location, Infinity), url: String(job.url || ''), pay: cleanText(statedPay(job), Infinity), remote: Boolean(job.remote), postedAt: iso(job.postedAt), snippet: cleanText(job.snippet, Infinity) };
+  const normalized = { ...rest, title: cleanText(job.title, Infinity), company: cleanText(job.company, Infinity), location: cleanText(job.location, Infinity), url: String(job.url || ''), pay: cleanText(statedPay(job), Infinity), remote: Boolean(job.remote) || saysRemote(job), postedAt: iso(job.postedAt), snippet: cleanText(job.snippet, Infinity) };
   return { ...normalized, id: previous && job.id ? job.id : makeId(normalized), track: classifyTrack({ ...normalized, trackHint: trackHint || (previous ? job.track : undefined) }) };
 }
 // Sources that return their whole current list every run: a stored job they no longer return was filled or pulled.
@@ -96,7 +97,7 @@ export function buildCatchLog(prev, incoming, kept, options) {
 }
 
 export function printRunSummary({ jobs, catchLog, companies, govfeeds }, log = console.log) {
-  for (const track of ['marine-local', 'marine-chs', 'marine-national', 'ai-web', 'tech-sales', 'quick-cash']) {
+  for (const track of ['marine-local', 'marine-chs', 'marine-national', 'ai-web', 'tech-sales', 'office', 'quick-cash']) {
     const list = jobs.filter(j => j.track === track);
     log(`${track}: ${list.length}`);
     for (const job of list.slice(0, 8)) log(`  ${job.title} | ${job.company}`);
@@ -156,6 +157,9 @@ export async function main(argv = process.argv.slice(2)) {
     await writeJson(resolve(root, 'data/feed.json'), { generatedAt: now.toISOString(), sources: report, jobs, alerts });
     await writeJson(resolve(root, 'data/pagewatch.json'), state);
     await writeJson(resolve(root, 'data/all-jobs.json'), catchLog);
+    const office = officeWatch(catchLog, companies, now.toISOString());
+    await writeJson(resolve(root, 'data/office-watch.json'), office);
+    await writeFile(resolve(root, 'docs/office-report.md'), officeMarkdown(office));
   }
   printRunSummary({ jobs, catchLog, companies, govfeeds });
   return { jobs, report, catchLog };

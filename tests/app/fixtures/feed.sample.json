@@ -235,6 +235,24 @@
         "entry-level"
       ],
       "snippet": "Immediate day work washing and detailing boats. Supplies provided; get paid weekly for work outdoors."
+    },
+    {
+      "id": "sample-13",
+      "track": "office",
+      "title": "Government account representative — remote",
+      "company": "Bluegate Public Software (fictional)",
+      "location": "Remote",
+      "remote": true,
+      "pay": "$45,000 base + commission",
+      "url": "https://example.com/fictional-jobs/9",
+      "source": "sample",
+      "postedAt": "2026-10-14T09:00:00Z",
+      "firstSeenAt": "2026-10-15T12:00:00Z",
+      "score": 87,
+      "flags": [
+        "entry-level"
+      ],
+      "snippet": "Learn outbound outreach, book product demos, and work with a supportive sales team. No prior SDR role needed."
     }
   ]
 }

@@ -1590,6 +1590,51 @@
         "https://sportadvisory.applicantpro.com/jobs/4240466.html"
       ],
       "reason": "Public ApplicantPro board/API verified 187 jobs in a normal browser-style request, but requests identifying as CrowsNestJobBot return a 200 Service Unavailable/Request Rejected page. Adapter not enabled; no user-agent spoofing."
+    },
+    {
+      "name": "SHI International",
+      "reason": "careers site shows no readable job system",
+      "watch": "office"
+    },
+    {
+      "name": "CDW / CDW-G",
+      "reason": "careers site shows no readable job system",
+      "watch": "office"
+    },
+    {
+      "name": "Connection (GovConnection)",
+      "reason": "careers site shows no readable job system",
+      "watch": "office"
+    },
+    {
+      "name": "Iron Bow",
+      "reason": "careers site shows no readable job system",
+      "watch": "office"
+    },
+    {
+      "name": "ThunderCat Technology",
+      "reason": "careers site shows no readable job system",
+      "watch": "office"
+    },
+    {
+      "name": "DLT Solutions",
+      "reason": "now part of TD SYNNEX (covered)",
+      "watch": "office"
+    },
+    {
+      "name": "immixGroup",
+      "reason": "part of Arrow (covered)",
+      "watch": "office"
+    },
+    {
+      "name": "CivicPlus",
+      "reason": "Greenhouse board has 0 jobs",
+      "watch": "office"
+    },
+    {
+      "name": "Mark43, Accela, Shift5",
+      "reason": "no entry-level sales or marketing roles today",
+      "watch": "office"
     }
   ],
   "companies": [
@@ -3387,6 +3432,203 @@
         "Charleston",
         "Wilmington"
       ]
+    },
+    {
+      "name": "Carahsoft",
+      "track": "office",
+      "watch": "office",
+      "ats": "carahsoft",
+      "url": "https://www.carahsoft.com/careers",
+      "location": "Reston, VA",
+      "verifiedAt": "2026-11-12",
+      "note": "Own careers site, one page per opening. Careers home says Reston HQ plus some remote positions; job pages name no city. Far-away jobs here are listed in the office report as 'ask if remote'.",
+      "verification": {
+        "status": 200,
+        "method": "GET",
+        "url": "https://www.carahsoft.com/careers"
+      },
+      "askRemote": true
+    },
+    {
+      "name": "TD SYNNEX (DLT public sector)",
+      "track": "office",
+      "watch": "office",
+      "ats": "workday",
+      "host": "synnex.wd5.myworkdayjobs.com",
+      "tenant": "synnex",
+      "site": "tdsynnexcareers",
+      "searchTexts": [
+        "inside account representative",
+        "account representative",
+        "public sector",
+        "marketing coordinator",
+        "remote"
+      ],
+      "maxPages": 2,
+      "keywords": [
+        "account",
+        "inside sales",
+        "sales development",
+        "business development",
+        "coordinator",
+        "marketing",
+        "digital",
+        "social media",
+        "representative",
+        "associate",
+        "SDR",
+        "BDR"
+      ],
+      "verifiedAt": "2026-11-12",
+      "note": "Has Inside Account Representative jobs in Greenville, SC.",
+      "verification": {
+        "status": 200,
+        "method": "POST",
+        "url": "https://synnex.wd5.myworkdayjobs.com/wday/cxs/synnex/tdsynnexcareers/jobs"
+      }
+    },
+    {
+      "name": "Arrow (immixGroup)",
+      "track": "office",
+      "watch": "office",
+      "ats": "workday",
+      "host": "arrow.wd1.myworkdayjobs.com",
+      "tenant": "arrow",
+      "site": "AC",
+      "searchTexts": [
+        "immixGroup",
+        "public sector",
+        "inside sales"
+      ],
+      "maxPages": 2,
+      "keywords": [
+        "account",
+        "inside sales",
+        "sales development",
+        "business development",
+        "coordinator",
+        "marketing",
+        "digital",
+        "social media",
+        "representative",
+        "associate",
+        "SDR",
+        "BDR"
+      ],
+      "verifiedAt": "2026-11-12",
+      "verification": {
+        "status": 200,
+        "method": "POST",
+        "url": "https://arrow.wd1.myworkdayjobs.com/wday/cxs/arrow/AC/jobs"
+      }
+    },
+    {
+      "name": "GuidePoint Security",
+      "track": "office",
+      "watch": "office",
+      "ats": "greenhouse",
+      "slug": "guidepointsecurity",
+      "keywords": [
+        "account",
+        "inside sales",
+        "sales development",
+        "business development",
+        "coordinator",
+        "marketing",
+        "digital",
+        "social media",
+        "representative",
+        "associate",
+        "SDR",
+        "BDR"
+      ],
+      "verifiedAt": "2026-11-12",
+      "verification": {
+        "status": 200,
+        "method": "GET",
+        "url": "https://boards-api.greenhouse.io/v1/boards/guidepointsecurity/jobs"
+      }
+    },
+    {
+      "name": "Trace3",
+      "track": "office",
+      "watch": "office",
+      "ats": "greenhouse",
+      "slug": "trace3",
+      "keywords": [
+        "account",
+        "inside sales",
+        "sales development",
+        "business development",
+        "coordinator",
+        "marketing",
+        "digital",
+        "social media",
+        "representative",
+        "associate",
+        "SDR",
+        "BDR"
+      ],
+      "verifiedAt": "2026-11-12",
+      "verification": {
+        "status": 200,
+        "method": "GET",
+        "url": "https://boards-api.greenhouse.io/v1/boards/trace3/jobs"
+      }
+    },
+    {
+      "name": "OpenGov",
+      "track": "office",
+      "watch": "office",
+      "ats": "ashby",
+      "slug": "opengov",
+      "keywords": [
+        "account",
+        "inside sales",
+        "sales development",
+        "business development",
+        "coordinator",
+        "marketing",
+        "digital",
+        "social media",
+        "representative",
+        "associate",
+        "SDR",
+        "BDR"
+      ],
+      "verifiedAt": "2026-11-12",
+      "verification": {
+        "status": 200,
+        "method": "GET",
+        "url": "https://api.ashbyhq.com/posting-api/job-board/opengov"
+      }
+    },
+    {
+      "name": "Axon",
+      "track": "office",
+      "watch": "office",
+      "ats": "greenhouse",
+      "slug": "axon",
+      "keywords": [
+        "account",
+        "inside sales",
+        "sales development",
+        "business development",
+        "coordinator",
+        "marketing",
+        "digital",
+        "social media",
+        "representative",
+        "associate",
+        "SDR",
+        "BDR"
+      ],
+      "verifiedAt": "2026-11-12",
+      "verification": {
+        "status": 200,
+        "method": "GET",
+        "url": "https://boards-api.greenhouse.io/v1/boards/axon/jobs"
+      }
     }
   ]
 }

@@ -106,7 +106,7 @@ const shortTitle = title => String(title || '').replace(/^\([A-Z]{2,3}\)\s*/, ''
 export function pitchFor(job) {
   const lead = String(job.title || '').match(/^freelance lead:\s*(.+?)\s*[—–-]\s*(.+)$/i);
   if (lead) return `Hi, I'm Luke Smith, a web developer here in Myrtle Beach. I came across ${job.company || lead[1]} and had an idea: ${lead[2].replace(/[.\s]+$/, '')}. I recently built a full real-estate website for a local agent, with property search, lead capture and an admin dashboard. I'd be glad to put together a quick mockup for you, no strings attached.`;
-  const kind = String(job.track || '').startsWith('marine-') ? 'marine' : job.track === 'tech-sales' ? 'sales' : job.track === 'ai-web' ? 'aiweb' : PROMO.test(job.title || '') ? 'sales' : 'cash';
+  const kind = String(job.track || '').startsWith('marine-') ? 'marine' : ['tech-sales', 'office'].includes(job.track) ? 'sales' : job.track === 'ai-web' ? 'aiweb' : PROMO.test(job.title || '') ? 'sales' : 'cash';
   const title = shortTitle(job.title);
   return `Hi, I'm Luke Smith and I'd like to apply for ${title ? `the ${title} role` : 'this role'}${job.company ? ` at ${job.company}` : ''}. ${PITCHES[kind]} I'd welcome the chance to talk. Thank you!`;
 }

@@ -57,6 +57,16 @@ Palette status (2026-11-11): all CSS colours use shared tokens; track chips, bro
 - [ ] ★ Weekly sweep is overdue (last 2026-10-16)
 - [ ] `npm test` passes, then live check on phone after each push
 
+## Office & Gov Sales track 2026-11-12 (after the missed Carahsoft jobs)
+Why missed: Carahsoft runs its own careers site (no job system), its job pages list no city (home page says Reston HQ + some remote), and the feed had no track for account rep / marketing / digital media coordinator jobs.
+- [x] New `office` track ("Office & Gov Sales" chip): gov/inside sales, account rep/coordinator, marketing, digital media, proposal/contracts coordinator. Kept only near home or remote.
+- [x] Remote fix: a job whose description says remote (fully remote, work from home, telework eligible, "(Remote)" location) counts as remote; hybrid/on-site wording wins.
+- [x] Searches: 5 JSearch + 4 remote-board queries for office jobs.
+- [x] Watchlist (`"watch": "office"` in config/companies.json): Carahsoft (new `carahsoft` reader), TD SYNNEX/DLT, Arrow/immixGroup, GuidePoint, Trace3, OpenGov, Axon. Skipped ones listed in `_skipped`.
+- [x] Own report: every run writes `data/office-watch.json` + `docs/office-report.md` (Carahsoft far jobs shown as "ask if remote").
+- [x] Bug: cruise block "ncl" matched "incl." in company names; now whole words only.
+- [ ] More watchlist companies: SHI, CDW-G, Connection, Iron Bow, ThunderCat have no readable job system (page-watch or skip).
+
 ## Done 2026-11-11 (session notes)
 - Fake/expired audit of all 148 site jobs: 7 expired, 14 junk/commission-only. Fixed with general rules (SEO repost hosts, hidden/defunct employers, paid-review schemes, commission-only in full description, insurance recruiting) and a stronger link check.
 - New location rules: near home = Horry, Georgetown, Marion, Brunswick NC, Columbus NC, remote. Charleston/Wilmington band only with $20+/hr or housing. Farther only with housing or live-aboard.

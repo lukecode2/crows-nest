@@ -11,11 +11,11 @@ test('live tracker stays valid and keeps every paper', async () => {
   assert.equal(validateTracker(tracker), true);
   for (const id of ['doctor', 'eng1', 'mmc', 'twic', 'drug', 'seaservice', 'resume-marine', 'resume-sales', 'resume-ai']) assert.ok(tracker.reqs.some(r => r.id === id), id);
 });
-test('sample feed has twelve clearly fictional jobs and covers all six tracks', async () => {
+test('sample feed has thirteen clearly fictional jobs and covers all seven tracks', async () => {
   const feed = await json('./fixtures/feed.sample.json');
-  assert.equal(feed.jobs.length, 12);
+  assert.equal(feed.jobs.length, 13);
   assert.deepEqual([...new Set(feed.jobs.map(j => j.track))].sort(), TRACKS.map(t => t.id).sort());
-  assert.equal(new Set(feed.jobs.map(j => j.id)).size, 12);
+  assert.equal(new Set(feed.jobs.map(j => j.id)).size, 13);
   assert.ok(feed.jobs.every(j => /fictional/i.test(j.company) && j.source === 'sample'));
   assert.equal(STAGES.length, 6);
 });

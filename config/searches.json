@@ -137,6 +137,26 @@
     {
       "query": "seasonal courier delivery jobs Myrtle Beach, SC",
       "track": "quick-cash"
+    },
+    {
+      "query": "government account representative entry level remote",
+      "track": "office"
+    },
+    {
+      "query": "inside sales representative entry level remote",
+      "track": "office"
+    },
+    {
+      "query": "marketing coordinator entry level remote",
+      "track": "office"
+    },
+    {
+      "query": "digital media coordinator remote",
+      "track": "office"
+    },
+    {
+      "query": "account coordinator entry level remote",
+      "track": "office"
     }
   ],
   "remote": [
@@ -179,6 +199,22 @@
     {
       "q": "customer success",
       "track": "tech-sales"
+    },
+    {
+      "q": "account representative",
+      "track": "office"
+    },
+    {
+      "q": "inside sales",
+      "track": "office"
+    },
+    {
+      "q": "marketing coordinator",
+      "track": "office"
+    },
+    {
+      "q": "digital media",
+      "track": "office"
     }
   ]
 }

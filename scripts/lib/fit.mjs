@@ -129,3 +129,13 @@ export function notAJobLink(job) {
 
 // Listings that tell you how fast you could start, so "start within a week" is visible on the card.
 export const STARTS_FAST = /\b(?:immediate(?:ly)?|start (?:asap|immediately|right away|this week|tomorrow)|as soon as possible|hiring (?:now|immediately|this week)|now hiring|urgent(?:ly)?(?: hiring)?|same[- ]day|on[- ]the[- ]spot|walk[- ]?ins?|open interviews?|hiring event|seasonal|temporary|temp|holiday (?:help|season|hiring)|day ?work\w*|gig|per diem|on[- ]call|weekend)\b/i;
+
+// Office track (added 2026-11-12 after the Carahsoft jobs were missed): entry-level account rep, inside and
+// government sales, and marketing / digital media coordinator jobs. They count only near home or remote.
+export const OFFICE_TITLE = /\b(?:(?:government|public sector|federal|inside|channel)\s+(?:sales|account)\w*|account (?:rep(?:resentative)?|coordinator|associate)s?|(?:sales|marketing|digital media|social media|digital marketing|content|proposal|contracts?|media|communications) (?:coordinator|assistant)s?|marketing (?:associate|specialist)s?|(?:digital|social) media (?:specialist|associate)s?|digital media\b|digital marketing (?:specialist|associate)s?)\b/i;
+export function officeFit(job) {
+  const title = text(job.title);
+  if (OTHER_CAREER.test(title) || !OFFICE_TITLE.test(title)) return 'off-track';
+  if (insuranceRecruiting(job)) return 'commission-insurance';
+  return null;
+}

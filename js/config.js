@@ -5,6 +5,7 @@ export const TRACKS = [
   { id: 'marine-national', label: 'Blue Water', short: 'Blue Water', color: '#5940A5' },
   { id: 'ai-web', label: 'AI & Web', short: 'AI & Web', color: '#962C7C' },
   { id: 'tech-sales', label: 'Tech Sales', short: 'Sales', color: '#805A00' },
+  { id: 'office', label: 'Office & Gov Sales', short: 'Office', color: '#36597A' },
   { id: 'quick-cash', label: 'Quick Cash', short: 'Quick Cash', color: '#A33B16' }
 ];
 export const STAGES = [

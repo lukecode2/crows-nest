@@ -95,3 +95,12 @@ export function remoteAbroad(job) {
   if (foreignPlace(hq) && !US_MARKER.test(hq)) return true;
   return ABROAD_PHRASE.test(snippet.slice(0, 1500));
 }
+
+// A posting whose description says it is remote counts as remote even when its listed city is far away
+// (Carahsoft lists Reston, VA on jobs that can be remote). Hybrid and on-site wording wins.
+const NOT_REMOTE = /\b(?:not (?:a )?remote|non-remote|no remote|hybrid|on-?site (?:only|required|position|role)|in[- ]office (?:position|role|required)|must (?:work|report) (?:on-?site|in (?:the|our) office)|telework(?:ing)?(?: eligible)?:?\s*no)\b/i;
+const SAYS_REMOTE = /\b(?:fully remote|100% remote|remote[- ](?:first|eligible|friendly|position|role|opportunity|job)|(?:position|role|job) is (?:fully )?remote|work (?:from|at) home|work-from-home|WFH|telework(?:ing)? (?:eligible|available|position)|telecommut\w*|location:\s*remote|remote,? (?:US|USA|United States)|(?:US|U\.S\.|United States)[- ]remote)\b/i;
+export function saysRemote(job) {
+  const value = `${job.title || ''}. ${job.location || ''}. ${job.snippet || ''}`;
+  return !NOT_REMOTE.test(value) && (SAYS_REMOTE.test(value) || /\(remote(?: employees?)?\)/i.test(job.location || ''));
+}

@@ -1,6 +1,6 @@
 import { normalizeUrl } from './normalize.mjs';
 import { statedPay, inHomeRegion, inCharlestonBand, hasHousing, isHighPay, isLiveAboard, remoteAbroad, foreignPlace, SC_CITIES, NC_CITIES } from './region.mjs';
-import { OTHER_CAREER, marineFit, needsLicence, needsCredentialHeLacks, salesFit, aiWebFit, payTooLow, commissionOnly, insuranceRecruiting, isStoreRetail, isJunk, notAJobLink } from './fit.mjs';
+import { OTHER_CAREER, marineFit, needsLicence, needsCredentialHeLacks, salesFit, aiWebFit, officeFit, payTooLow, commissionOnly, insuranceRecruiting, isStoreRetail, isJunk, notAJobLink } from './fit.mjs';
 const lower = value => String(value || '').trim().toLowerCase();
 const escaped = value => value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 export const MARINE_TITLE = /\b(?:deck ?hands?|dock ?hands?|deck crew|boats?|boating|marina|marine|maritime|yachts?|yachting|vessel|seaman|mariner|ferry|tug(?:boat)?|barge|ship(?:yard)?|sailing|sailor|charter|harbou?r|able seaman|AB|OS|wiper|oiler|stew(?:ard|ardess)?|day ?worker|ocean rescue|lifeguard)\b/i;
@@ -11,7 +11,8 @@ export function isMarineTitle(title) {
 export function isCruise(job, filters = {}) {
   const company = lower(job.company);
   if ((filters.allowCompanies || []).some(c => company.includes(lower(c)))) return false;
-  return (filters.excludeCompanies || []).some(c => company.includes(lower(c))) || /cruise\s*(ship|line)s?/i.test(`${job.title} ${job.snippet}`) ||
+  // Whole words only: "ncl" must not match "incl.".
+  return (filters.excludeCompanies || []).some(c => new RegExp(`\\b${escaped(lower(c))}\\b`).test(company)) || /cruise\s*(ship|line)s?/i.test(`${job.title} ${job.snippet}`) ||
     CRUISE_BRANDS.test(`${job.title} ${job.snippet}`);
 }
 // Crewing agencies post cruise jobs under their own name ("ISMIRA ... DECKHAND for Virgin Voyages").
@@ -39,7 +40,7 @@ export function isSenior(job, filters = {}) {
   if (/\b(?:sales|SDR|BDR|account executive|business development|brand (?:ambassador|specialist))\b/i.test(title) && requiredYears(snippet) >= 2) return true;
   if (requiresDegree(snippet)) return true;
   if (!assistant && !trainee && /\b(?:senior|sr|vp|vice president|director|general manager|head of|chief|president|owner|partner|managers?)\b/i.test(title)) return true;
-  if (!['ai-web', 'tech-sales'].includes(job.track)) return requiredYears(job.snippet) >= 4;
+  if (!['ai-web', 'tech-sales', 'office'].includes(job.track)) return requiredYears(job.snippet) >= 4;
   if (/\b(?:II|III|IV)\b/i.test(title)) return true;
   if ((/\bengineers?\b/i.test(title) || job.track === 'ai-web' && /\b(?:architect|scientist|researcher)\b/i.test(title)) &&
     !/\b(?:junior|entry|associate|intern|apprentice|trainee|trainer)\b/i.test(title)) return true;
@@ -79,6 +80,9 @@ export function dropReason(job, { filters = {}, dismissed = {}, trackedIds = new
   if (job.track?.startsWith('marine-')) {
     if (!marineFit(job, isMarineTitle)) return 'not-marine';
     if (needsLicence(job, filters.profile) || needsCredentialHeLacks(job, filters.profile)) return 'needs-licence';
+  } else if (job.track === 'office') {
+    const reason = officeFit(job);
+    if (reason) return reason;
   } else if (job.track === 'ai-web') {
     if (OTHER_CAREER.test(job.title || '') || !aiWebFit(job)) return 'off-track';
   } else {
@@ -91,6 +95,7 @@ export function dropReason(job, { filters = {}, dismissed = {}, trackedIds = new
   if (inCharlestonBand(job.location)) return isHighPay(job.pay) || housing || aboard ? null : 'band-low-pay';
   if (housing || aboard) return null;
   if (job.track === 'quick-cash') return 'far-quick-cash';
+  if (job.track === 'office') return 'far-not-remote';
   return job.track?.startsWith('marine-') ? 'far-shore-job' : 'far-low-pay';
 }
 const normalized = value => lower(value).replace(/[^\p{L}\p{N}]+/gu, ' ').trim();

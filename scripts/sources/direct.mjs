@@ -3,7 +3,7 @@ import { cleanText } from '../lib/normalize.mjs';
 
 export const name = 'direct';
 export const timeoutMs = 240000;
-export const types = ['bamboohr', 'icims', 'jibe', 'oracle', 'jobsyn', 'phenom', 'smartrecruiters-html', 'advantage', 'alignerr', 'mercor', 'tallships'];
+export const types = ['bamboohr', 'icims', 'jibe', 'oracle', 'jobsyn', 'phenom', 'smartrecruiters-html', 'advantage', 'alignerr', 'mercor', 'tallships', 'carahsoft'];
 const text = value => cleanText(value, Infinity);
 const list = value => value == null ? [] : Array.isArray(value) ? value : [value];
 const location = address => [address?.addressLocality, address?.addressRegion, typeof address?.addressCountry === 'object' ? address.addressCountry.name : address?.addressCountry].filter(Boolean).join(', ');
@@ -289,7 +289,23 @@ async function mercor(entry, ctx, api) {
     company: j.companyBrandVisible && j.companyName ? `${j.companyName} (via Mercor)` : entry.name,
     snippet: [j.commitment, j.description].filter(Boolean).join(' '), pay: pay(j.rateMin, j.rateMax, j.payRateFrequency === 'hourly' ? 'hour' : j.payRateFrequency), postedAt: iso(j.postedAt || j.createdAt) }));
 }
-const adapters = { bamboohr, jibe, icims, oracle, jobsyn, phenom, 'smartrecruiters-html': smartrecruitersHtml, advantage, alignerr, mercor, tallships };
+// Carahsoft runs its own careers site (no job system): one page per opening under /careers/<slug>.
+// The pages name no city; the careers home says openings are in Reston, VA "as well as remote positions".
+async function carahsoft(entry, ctx, api) {
+  const home = await api.getText(entry.url);
+  const links = [...new Set([...home.matchAll(/href="((?:https:\/\/www\.carahsoft\.com)?\/careers\/[A-Za-z0-9-]+)"/g)].map(m => absolute(m[1], entry.url)))]
+    .filter(url => !/\/careers\/apply-now$/i.test(url));
+  return collect(links, async url => {
+    const html = (await api.getText(url)).replace(/<(script|style)\b[^>]*>[\s\S]*?<\/\1>/gi, '');
+    const body = html.split(/Career Opportunities<\/h2>/i)[1] || '';
+    const title = text(body.match(/<h2[^>]*>([\s\S]*?)<\/h2>/i)?.[1] || html.match(/<title>([^<|]*)/i)?.[1]);
+    const snippet = text(body.replace(/<[^>]+>/g, ' ')).replace(/^\s*\S.*?(?=Overall|Responsibilities|We currently|$)/s, '').slice(0, 4000) || text(html.match(/<meta name="description" content="([^"]*)"/i)?.[1]);
+    const range = snippet.match(/compensation range:\s*(\$[\d,]+\s*[-–]\s*\$[\d,]+)\s*per (year|hour)/i);
+    const clean = title.replace(/&mdash;/g, '—').replace(/&ndash;/g, '–').replace(/&amp;/g, '&');
+    return title ? [{ title: clean, location: entry.location || 'Reston, VA', url, snippet, pay: range ? `${range[1].replace(/\s*[-–]\s*/, '–')}/${range[2].toLowerCase()}` : '' }] : [];
+  }, ctx, 2);
+}
+const adapters = { bamboohr, jibe, icims, oracle, jobsyn, phenom, 'smartrecruiters-html': smartrecruitersHtml, advantage, alignerr, mercor, tallships, carahsoft };
 export async function fetchJobs(ctx) {
   const api = publicClient(ctx);
   return collect(companyEntries(ctx).filter(e => types.includes(e.ats)), async entry => {

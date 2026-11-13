@@ -12,7 +12,7 @@ export async function fetchJobs(ctx) {
   return collect(selected, async (entry, index) => {
     if (index > 0) await new Promise(resolve => setTimeout(resolve, 1500)); // free plan rate limit
     const params = new URLSearchParams({ query: entry.query, page: '1', num_pages: '1', date_posted: 'week', country: 'us' });
-    if (['ai-web', 'tech-sales'].includes(entry.track)) params.set('job_requirements', 'no_experience,under_3_years_experience');
+    if (['ai-web', 'tech-sales', 'office'].includes(entry.track)) params.set('job_requirements', 'no_experience,under_3_years_experience');
     const data = await client(ctx).getJson(`https://jsearch.p.rapidapi.com/search-v2?${params}`, { headers: { 'x-rapidapi-key': ctx.env.RAPIDAPI_KEY, 'x-rapidapi-host': 'jsearch.p.rapidapi.com' } });
     const list = Array.isArray(data.data) ? data.data : (data.data?.jobs || []);
     return list.map(j => rawJob({ title: j.job_title, company: j.employer_name || '', location: [j.job_city, j.job_state].filter(Boolean).join(', '), remote: Boolean(j.job_is_remote), url: j.job_apply_link, postedAt: iso(j.job_posted_at_datetime_utc), snippet: `${j.job_publisher ? `via ${j.job_publisher}. ` : ''}${j.job_description || ''}`, pay: pay(j.job_min_salary, j.job_max_salary, j.job_salary_period?.toLowerCase()), source: name, trackHint: entry.track }));
