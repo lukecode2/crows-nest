@@ -1,6 +1,6 @@
 # Office & Gov Sales report
 
-Rebuilt automatically every feed run. Last run: 2026-11-14 17:01 UTC.
+Rebuilt automatically every feed run. Last run: 2026-11-14 21:25 UTC.
 
 ## Worth a look (13)
 
@@ -13,7 +13,7 @@ Jobs on the site, plus Carahsoft jobs (they list Reston, VA but also hire remote
 | [Digital Media Coordinator](https://www.carahsoft.com/careers/Digital-Media) | Carahsoft | Reston, VA | $40,000–$50,000/year | Ask if remote (listed far away) |
 | [Proposal Coordinator](https://www.carahsoft.com/careers/proposal-coordinator-opportunities) | Carahsoft | Reston, VA | $40,000–$50,000/year | Ask if remote (listed far away) |
 | [Contracts Coordinator](https://www.carahsoft.com/careers/contracts-coordinator) | Carahsoft | Reston, VA | $40,000–$50,000/year | Ask if remote (listed far away) |
-| [Brand Marketing Specialist](https://www.adzuna.com/land/ad/5965850799?se=kPBLEk3g8RGDtoxXJCvQRQ&utm_medium=api&utm_source=ea9765bf&v=6678EFAC61C4E854887896A887B6D3CA9DD7B22E) | Peace Sotheby's International Realty | Pawleys Island, Georgetown County | — | On the site |
+| [Brand Marketing Specialist](https://www.adzuna.com/details/5966184603?utm_medium=api&utm_source=ea9765bf) | Peace Sotheby's International Realty | Pawleys Island, Georgetown County | — | On the site |
 | [Inside Sales Support Representative](https://vizi.vizirecruiter.com/CONNECTION-3063/417788/index.html) | Connection (GovConnection) | Remote, MA | — | On the site |
 | [Technology Sales Representative (Entry Level) – SMB IT Solutions](https://vizi.vizirecruiter.com/CONNECTION-3063/389764/index.html) | Connection (GovConnection) | Remote, NC | — | On the site |
 | [Inside Sales Representative](https://jobicy.com/jobs/152775-inside-sales-representative-2) | Beyond Finance | Remote — USA | — | On the site |
@@ -28,7 +28,7 @@ Jobs on the site, plus Carahsoft jobs (they list Reston, VA but also hire remote
 |---|---|---|
 | Carahsoft | carahsoft | 15 |
 | TD SYNNEX (DLT public sector) | workday | 68 |
-| Arrow (immixGroup) | workday | 47 |
+| Arrow (immixGroup) | workday | 46 |
 | GuidePoint Security | greenhouse | 12 |
 | Trace3 | greenhouse | 14 |
 | OpenGov | ashby | 0 |
@@ -51,12 +51,12 @@ Jobs on the site, plus Carahsoft jobs (they list Reston, VA but also hire remote
 - Needs more experience: 165
 - Needs closing experience: 66
 - Far away, not remote: 38
-- abroad: 35
+- abroad: 34
 - Not an office/sales role: 32
 - commission-only: 16
 - language: 8
 - generic-retail: 6
 - remote-abroad: 5
 - far-quick-cash: 4
-- dead-link: 1
+- Duplicate: 1
 - far-low-pay: 1

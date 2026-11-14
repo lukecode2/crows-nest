@@ -1,170 +1,53 @@
 {
-  "generatedAt": "2026-11-14T17:01:38.773Z",
+  "generatedAt": "2026-11-14T21:25:40.703Z",
   "about": "Every job the robot saw this run, kept or not. Give this file plus docs/review-prompt.md to any AI to find good jobs the filters missed.",
   "jobs": [
     {
-      "id": "4a602362caf37f4e6f51a5f5416cabf7ad67481c",
-      "title": "Crew Life",
-      "company": "Dockwalk",
+      "id": "69b76c60b58047e9546544b581af885eb27a6134",
+      "title": "Browse Jobs .",
+      "company": "Premium Retail Services",
       "location": "",
       "pay": "",
-      "url": "https://www.dockwalk.com/crewlife",
+      "url": "https://premium.avature.net/en_US/jobs/SearchJobsMaps",
       "source": "pagewatch",
-      "track": "marine-national",
+      "track": "quick-cash",
       "kept": false,
       "dropReason": "not-a-job",
       "snippet": "New link on careers page"
     },
     {
-      "id": "565a0d2930606168091e5a805c6fb3ba2313d1c6",
-      "title": "Captains",
-      "company": "Dockwalk",
+      "id": "7fec2637798e3083dad673ffbf9e7cd3c48633b3",
+      "title": "Career Resources .",
+      "company": "Premium Retail Services",
       "location": "",
       "pay": "",
-      "url": "https://www.dockwalk.com/crewlife/captains",
+      "url": "https://premiumretail.com/category/career-resources/",
       "source": "pagewatch",
-      "track": "marine-national",
+      "track": "quick-cash",
       "kept": false,
       "dropReason": "not-a-job",
       "snippet": "New link on careers page"
     },
     {
-      "id": "39bf97a0c1e24f9c4619fd09d0dc968b7d8616a2",
-      "title": "Deckhands",
-      "company": "Dockwalk",
+      "id": "70fea1f308b838a968ea29a6ddceff698007bf8e",
+      "title": "Career FAQs .",
+      "company": "Premium Retail Services",
       "location": "",
       "pay": "",
-      "url": "https://www.dockwalk.com/crewlife/deckhands",
+      "url": "https://premiumretail.com/careers/faqs/",
       "source": "pagewatch",
-      "track": "marine-national",
+      "track": "quick-cash",
       "kept": false,
       "dropReason": "not-a-job",
       "snippet": "New link on careers page"
     },
     {
-      "id": "e8b815878bb22b4ccbc3caee1914755b5d66de60",
-      "title": "Jobs",
-      "company": "Dockwalk",
-      "location": "",
-      "pay": "",
-      "url": "https://www.dockwalk.com/jobs",
-      "source": "pagewatch",
-      "track": "marine-national",
-      "kept": false,
-      "dropReason": "not-a-job",
-      "snippet": "New link on careers page"
-    },
-    {
-      "id": "d63160fab2192bf01c24f27828ab59e6a426d808",
-      "title": "Career Advice",
-      "company": "Dockwalk",
-      "location": "",
-      "pay": "",
-      "url": "https://www.dockwalk.com/jobs/career-advice",
-      "source": "pagewatch",
-      "track": "marine-national",
-      "kept": false,
-      "dropReason": "not-a-job",
-      "snippet": "New link on careers page"
-    },
-    {
-      "id": "3ac6ec2c82ed53a6479cb906f7d6719bd6bfc074",
-      "title": "Dockwalk Presents",
-      "company": "Dockwalk",
-      "location": "",
-      "pay": "",
-      "url": "https://www.dockwalk.com/dockwalk-presents",
-      "source": "pagewatch",
-      "track": "marine-national",
-      "kept": false,
-      "dropReason": "not-a-job",
-      "snippet": "New link on careers page"
-    },
-    {
-      "id": "71c387c91dc3ea2d539996653f471e99c08aab9b",
-      "title": "Digital Dockwalk",
-      "company": "Dockwalk",
-      "location": "",
-      "pay": "",
-      "url": "https://www.dockwalk.com/digital-dockwalk",
-      "source": "pagewatch",
-      "track": "marine-national",
-      "kept": false,
-      "dropReason": "not-a-job",
-      "snippet": "New link on careers page"
-    },
-    {
-      "id": "640ef9b4d6cca728c22df5c57e91e0d2ef121bb3",
-      "title": "When one job becomes two: Navigating dual roles on board",
-      "company": "Dockwalk",
-      "location": "",
-      "pay": "",
-      "url": "https://www.dockwalk.com/crewlife/interior-dual-roles",
-      "source": "pagewatch",
-      "track": "marine-national",
-      "kept": false,
-      "dropReason": "not-a-job",
-      "snippet": "New link on careers page"
-    },
-    {
-      "id": "09e41cd31d53a156f1b0a698d9cd6f26c7279ce4",
-      "title": "The Importance of Letting Go as a Yacht Chef",
-      "company": "Dockwalk",
-      "location": "",
-      "pay": "",
-      "url": "https://www.dockwalk.com/crewlife/power-of-letting-go-as-a-chef",
-      "source": "pagewatch",
-      "track": "marine-national",
-      "kept": false,
-      "dropReason": "not-a-job",
-      "snippet": "New link on careers page"
-    },
-    {
-      "id": "fa2c83bbc930556770303b569817402c8b4c826d",
-      "title": "Essentials for a Senior Crew CV",
-      "company": "Dockwalk",
-      "location": "",
-      "pay": "",
-      "url": "https://www.dockwalk.com/crewlife/senior-yacht-crew-cv-essentials",
-      "source": "pagewatch",
-      "track": "marine-national",
-      "kept": false,
-      "dropReason": "not-a-job",
-      "snippet": "New link on careers page"
-    },
-    {
-      "id": "c1af2a5d64b895e3657a62354e31c92a9416e7dd",
-      "title": "The Skills to Have Starting as a Yacht Engineer Today",
-      "company": "Dockwalk",
-      "location": "",
-      "pay": "",
-      "url": "https://www.dockwalk.com/jobs/training/yacht-engineer-skills-you-should-have",
-      "source": "pagewatch",
-      "track": "marine-national",
-      "kept": false,
-      "dropReason": "not-a-job",
-      "snippet": "New link on careers page"
-    },
-    {
-      "id": "b39ae9d13b3c9f173ed836301a81852fb3a5bd6a",
-      "title": "When and Where to Be for Job Opportunities",
-      "company": "Dockwalk",
-      "location": "",
-      "pay": "",
-      "url": "https://www.dockwalk.com/jobs/training/when-and-where-to-be-for-yacht-crew-jobs",
-      "source": "pagewatch",
-      "track": "marine-national",
-      "kept": false,
-      "dropReason": "not-a-job",
-      "snippet": "New link on careers page"
-    },
-    {
-      "id": "cc1d083264bb549e00b02e0162a3966d11d2d3b5",
-      "title": "Scott Harwood Crew Placement Coordinator Palma Crew Coordinator with firsthand onboard experience, connecting exceptional crew with owners and captains through trusted relationships and industry expertise. View profile",
+      "id": "956c448a53e16cf524eda6baad5e1432b6a8b144",
+      "title": "Candice Keen Crew Placement Coordinator London Crew Placement Coordinator drawing on firsthand onboard experience to connect exceptional crew with outstanding opportunities. View profile",
       "company": "Luxury Yacht Group",
       "location": "Fort Lauderdale, FL",
       "pay": "",
-      "url": "https://www.luxyachts.com/about/team/scott-harwood",
+      "url": "https://www.luxyachts.com/about/team/candice-keen",
       "source": "pagewatch",
       "track": "marine-national",
       "kept": false,
@@ -172,25 +55,12 @@
       "snippet": "New link on careers page"
     },
     {
-      "id": "7e81dc8054046e505bc88de32e661a27fff84230",
-      "title": "Madison Smith Senior Crew Placement Coordinator Fort Lauderdale Crew Coordinator helping captains and owners build high-performing teams through thoughtful crew placement. View profile",
+      "id": "f28ef8b96f7b0d88c1a8b66abfa7e201cbe621d8",
+      "title": "Karine Lautru Crew Coordinator Palma Crew Coordinator with 27 years of yachting experience, bringing extensive onboard knowledge and a passion for connecting exceptional crew with the right opportunities. View profile",
       "company": "Luxury Yacht Group",
       "location": "Fort Lauderdale, FL",
       "pay": "",
-      "url": "https://www.luxyachts.com/about/team/madison-smith",
-      "source": "pagewatch",
-      "track": "marine-national",
-      "kept": false,
-      "dropReason": "not-a-job",
-      "snippet": "New link on careers page"
-    },
-    {
-      "id": "53b48c999441e418cf663e8855a8701ba4fb7c17",
-      "title": "Hannah Ross-Taylor Crew Placement Coordinator Auckland Crew Coordinator with over 12 years of onboard experience, connecting exceptional crew with the right opportunities across the yachting industry. View profile",
-      "company": "Luxury Yacht Group",
-      "location": "Fort Lauderdale, FL",
-      "pay": "",
-      "url": "https://www.luxyachts.com/about/team/hannah-ross-taylor",
+      "url": "https://www.luxyachts.com/about/team/karine-lautru",
       "source": "pagewatch",
       "track": "marine-national",
       "kept": false,
@@ -458,6 +328,32 @@
       "snippet": ""
     },
     {
+      "id": "981100be973c2c381b8b1b262a0fe9225a3c4cd3",
+      "title": "AI Engineer",
+      "company": "CACI International Inc",
+      "location": "Remote — United States",
+      "pay": "$82,100–$172,400/annual",
+      "url": "https://himalayas.app/companies/caci-international-inc/jobs/ai-engineer-4482773152?utm_source=api",
+      "source": "himalayas",
+      "track": "ai-web",
+      "kept": false,
+      "dropReason": "senior",
+      "snippet": "Job Title: AI EngineerJob Category: Information TechnologyTime Type: Full timeMinimum Clearance Required to Start: SecretEmployee Type: RegularPercentage of Tr…"
+    },
+    {
+      "id": "f1dd3fd8bbef2416d63b8bc3d2fbd3c5ea098892",
+      "title": "Technical Account Manager",
+      "company": "Axon",
+      "location": "Canada; Canada, Ontario - Remote",
+      "pay": "",
+      "url": "https://job-boards.greenhouse.io/axon/jobs/8042296003",
+      "source": "ats",
+      "track": "office",
+      "kept": false,
+      "dropReason": "senior",
+      "snippet": "Join Axon and be a Force for Good. At Axon, we’re on a mission to Protect Life. We’re explorers, pursuing society’s most critical safety and justice issues wit…"
+    },
+    {
       "id": "2308989081b9d77fbeed5920d7e93c03f748b940",
       "title": "Senior Software Engineer, Verticals (AI Native)",
       "company": "Life360",
@@ -484,56 +380,69 @@
       "snippet": "Headquarters: United States URL: https://truetalentsolutionspartners.com About the Role Join an early enterprise sales team at a B2B SaaS company serving go-to…"
     },
     {
-      "id": "f1dd3fd8bbef2416d63b8bc3d2fbd3c5ea098892",
-      "title": "Technical Account Manager",
-      "company": "Axon",
-      "location": "Canada; Canada, Ontario - Remote",
+      "id": "544acd343bc6bab2cf8b11d08153118137611381",
+      "title": "AI Solutions Engineer, Public Sector",
+      "company": "Domino Data Lab",
+      "location": "Remote — USA",
       "pay": "",
-      "url": "https://job-boards.greenhouse.io/axon/jobs/8042296003",
-      "source": "ats",
+      "url": "https://jobicy.com/jobs/162230-ai-solutions-engineer-public-sector",
+      "source": "jobicy",
+      "track": "ai-web",
+      "kept": false,
+      "dropReason": "senior",
+      "snippet": "Who we are At Domino, we build solutions that help the largest, highly regulated organizations adopt AI to accelerate mission-critical use cases. Our platform …"
+    },
+    {
+      "id": "544acd343bc6bab2cf8b11d08153118137611381",
+      "title": "AI Solutions Engineer, Public Sector",
+      "company": "Domino Data Lab",
+      "location": "Remote — USA",
+      "pay": "",
+      "url": "https://jobicy.com/jobs/162230-ai-solutions-engineer-public-sector",
+      "source": "jobicy",
+      "track": "ai-web",
+      "kept": false,
+      "dropReason": "senior",
+      "snippet": "Who we are At Domino, we build solutions that help the largest, highly regulated organizations adopt AI to accelerate mission-critical use cases. Our platform …"
+    },
+    {
+      "id": "8cafdef794a0cf083c7470a593d548fd7dbf30fe",
+      "title": "Yacht Services Manager",
+      "company": "Flagship Group",
+      "location": "Cooper City, Broward County",
+      "pay": "",
+      "url": "https://www.adzuna.com/land/ad/5966187503?se=ltaw8XHg8RGYoYBThUdMLw&utm_medium=api&utm_source=ea9765bf&v=F4395825090E09BE9AF4FB6BF0809FECF08CA4EE",
+      "source": "adzuna",
+      "track": "marine-national",
+      "kept": false,
+      "dropReason": "senior",
+      "snippet": "Job Description Company Description Flagship Group is a specialized staffing firm dedicated to serving the marine industry, partnering with brokerages, service…"
+    },
+    {
+      "id": "b43da439d7ec877c28d312e80fab57669b3eb4ab",
+      "title": "Brand Marketing Specialist",
+      "company": "Peace Sotheby's International Realty",
+      "location": "Pawleys Island, Georgetown County",
+      "pay": "",
+      "url": "https://www.adzuna.com/details/5966184603?utm_medium=api&utm_source=ea9765bf",
+      "source": "adzuna",
       "track": "office",
+      "kept": true,
+      "dropReason": null,
+      "snippet": "Job Description About the Opportunity\\n We are seeking a creative, organized, and motivated Marketing & Brand Specialist to join our marketing team. This is an…"
+    },
+    {
+      "id": "0c9333ce89daccb44177d60390293a4af4cb6269",
+      "title": "Outbound B2B Sales Supervisor - FinTech",
+      "company": "Provalus",
+      "location": "Whiteville, Columbus County",
+      "pay": "",
+      "url": "https://www.adzuna.com/land/ad/5966183595?se=hkdF8nHg8RGNl561rfNY_A&utm_medium=api&utm_source=ea9765bf&v=7C14B706BAD7B7A6B9C30AA68F7D97555CD6C07D",
+      "source": "adzuna",
+      "track": "tech-sales",
       "kept": false,
       "dropReason": "senior",
-      "snippet": "Join Axon and be a Force for Good. At Axon, we’re on a mission to Protect Life. We’re explorers, pursuing society’s most critical safety and justice issues wit…"
-    },
-    {
-      "id": "1a2035186c7f43bea5a63e042d131673419f71f4",
-      "title": "Finance Close Automation Solution Designer, Croatia",
-      "company": "Yadimen Consulting Limited",
-      "location": "Remote — Croatia",
-      "pay": "",
-      "url": "https://himalayas.app/companies/yadimen-consulting-limited/jobs/finance-close-automation-solution-designer-croatia?utm_source=api",
-      "source": "himalayas",
-      "track": "ai-web",
-      "kept": false,
-      "dropReason": "senior",
-      "snippet": "Finance Close Automation Solution Designer, Croatia Contract: 6 Months , extension highly likely. Start: 15 November 2026. Location: Remote, for consultants ba…"
-    },
-    {
-      "id": "5ebd53694f1e9909f93764de8da1d27af3824944",
-      "title": "Business Intelligence Developer - Lumicera",
-      "company": "Navitus Health Solutions",
-      "location": "Remote — United States",
-      "pay": "$74,997–$92,021/annual",
-      "url": "https://himalayas.app/companies/navitus-health-solutions/jobs/business-intelligence-developer-lumicera?utm_source=api",
-      "source": "himalayas",
-      "track": "ai-web",
-      "kept": false,
-      "dropReason": "off-track",
-      "snippet": "Company Lumicera About Us Lumicera - Lumicera Health Services Powered by Navitus - Innovative Specialty Pharmacy Solutions- Lumicera Health Services is definin…"
-    },
-    {
-      "id": "b2ccaa4f4981e965cc4cfca57949274e9feaf095",
-      "title": "Python Finance Developer (100% Remote)",
-      "company": "UBQ Group",
-      "location": "Remote — Argentina",
-      "pay": "",
-      "url": "https://himalayas.app/companies/ubq-group/jobs/python-finance-developer-100-remote-4656485859?utm_source=api",
-      "source": "himalayas",
-      "track": "ai-web",
-      "kept": false,
-      "dropReason": "remote-abroad",
-      "snippet": "About UBQ.io UBQ.io is a global technology service provider dedicated to building a more sustainable, independent, and equitable future. We partner with global…"
+      "snippet": "Job Description Provalus is seeking an Outbound Sales Supervisor, with 5 years of relevant experience, including 2 years in leadership, to oversee the day-to-d…"
     },
     {
       "id": "f8a1965188778087132c0f4a7bc5289ecae31459",
@@ -731,12 +640,12 @@
       "snippet": "As a Senior Sales Engineer on Datadog 's AI Accounts team, you'll serve as the technical lead for a small portfolio of the world's leading AI labs — accounts t…"
     },
     {
-      "id": "ed09fd07cbe23d80e5bc12eb2a001c9e48bd76cf",
+      "id": "a8ed7c77105a4e29abcb0e65ec3b33f98971f4e9",
       "title": "Travel Nurse RN - Cardiovascular Operating Room - $2,436 per week in Charleston, SC",
       "company": "TravelNurseSource",
       "location": "Saint Andrews, Charleston County",
       "pay": "$0–$126,672/year",
-      "url": "https://www.adzuna.com/land/ad/5966055861?se=zMdFD03g8RG9p9ob_RTtsA&utm_medium=api&utm_source=ea9765bf&v=AF823F31C270ED3CF85658DACC91650362E2E05D",
+      "url": "https://www.adzuna.com/land/ad/5966055861?se=_shl8XHg8RGYoYBThUdMLw&utm_medium=api&utm_source=ea9765bf&v=AF823F31C270ED3CF85658DACC91650362E2E05D",
       "source": "adzuna",
       "track": "marine-chs",
       "kept": false,
@@ -744,30 +653,17 @@
       "snippet": "Registered Nurse (RN) | Cardiovascular Operating Room Location: Charleston, SC Agency: TGL MedStaff Pay: $2,436 per week Shift Information: Nights - 3 days x 1…"
     },
     {
-      "id": "3a99fe214919a230c1544ea4a87601a9379f3bec",
+      "id": "e6b02e835f1a86f7c658f48d70390bf597d65137",
       "title": "Travel Nurse RN - Operating Room - $1,946 per week in Charleston, SC",
       "company": "TravelNurseSource",
       "location": "Saint Andrews, Charleston County",
       "pay": "$0–$101,192/year",
-      "url": "https://www.adzuna.com/land/ad/5966055051?se=zMdFD03g8RG9p9ob_RTtsA&utm_medium=api&utm_source=ea9765bf&v=1EF30EAB402B89F5C5E09106D0C66669C23B50B1",
+      "url": "https://www.adzuna.com/land/ad/5966055051?se=_shl8XHg8RGYoYBThUdMLw&utm_medium=api&utm_source=ea9765bf&v=1EF30EAB402B89F5C5E09106D0C66669C23B50B1",
       "source": "adzuna",
       "track": "marine-chs",
       "kept": false,
       "dropReason": "not-marine",
       "snippet": "Registered Nurse (RN) | Operating Room Location: Charleston, SC Agency: TGL MedStaff Pay: $1,946 per week Shift Information: Days - 3 days x 12 hours Contract …"
-    },
-    {
-      "id": "cf6e103c57401e56986ab3d8874ce7c6a1d4f485",
-      "title": "Hazmat - CDL-A Company Driver - 2yrs EXP Required - Regional - H/T Endorsements Required - Badlands Tank Lines",
-      "company": "Badlands Tank Lines",
-      "location": "Carolina Forest, Horry County",
-      "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5966041829?se=kPBLEk3g8RGDtoxXJCvQRQ&utm_medium=api&utm_source=ea9765bf&v=06E40580D881EEA9438C4AEF59CF1F6FE5943544",
-      "source": "adzuna",
-      "track": "quick-cash",
-      "kept": false,
-      "dropReason": "off-track",
-      "snippet": "CDL-A Hazmat Tanker | Company Provided Housing. H - Hazardous Materials Endorsement. T - Doubles or Triples Endorsement. Job Overview Pay : $450 - $700 a day J…"
     },
     {
       "id": "e0276345d426fa3b7831b444bbcd70f910048e80",
@@ -822,12 +718,12 @@
       "snippet": "Compensation Amount: 18.00 USD Hourly Job Summary: Boat Naturalists are expected to educate, inform and monitor all passengers during our 90 minute boat tours.…"
     },
     {
-      "id": "adbffb604e82948c2412195915303f50a4ea2f96",
+      "id": "446b50beff57212a67c9a1e307511215e1df1f17",
       "title": "Part-time Nabisco Merchandiser",
       "company": "Mondelez International",
       "location": "Carolina Forest, Horry County",
       "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5965929692?se=kPBLEk3g8RGDtoxXJCvQRQ&utm_medium=api&utm_source=ea9765bf&v=579289C249DC7E21063DE5F0F409122B86F34D64",
+      "url": "https://www.adzuna.com/land/ad/5965929692?se=Turk8XHg8RG3UKJUaLg__w&utm_medium=api&utm_source=ea9765bf&v=579289C249DC7E21063DE5F0F409122B86F34D64",
       "source": "adzuna",
       "track": "quick-cash",
       "kept": false,
@@ -835,12 +731,25 @@
       "snippet": "Conway, South Carolina, United States Myrtle Beach, South Carolina, United States Part time R-181597 Job Description Join our Mission to Lead the Future of Sna…"
     },
     {
-      "id": "f6b497390be45a00796aafd3440642558ec7ec97",
+      "id": "6a16d5349a4c3ed2df9d9f7458076c39b244ba33",
       "title": "Retail Personal Banker Associate II - Forest Square",
       "company": "Fifth Third Bank, N.A.",
       "location": "Carolina Forest, Horry County",
       "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5965917161?se=ZqsYFE3g8RG2_dMaX_9hbQ&utm_medium=api&utm_source=ea9765bf&v=9A670A5D73389DC302DF50D5888020E4DEA5B85D",
+      "url": "https://www.adzuna.com/land/ad/5965917161?se=Turk8XHg8RG3UKJUaLg__w&utm_medium=api&utm_source=ea9765bf&v=9A670A5D73389DC302DF50D5888020E4DEA5B85D",
+      "source": "adzuna",
+      "track": "quick-cash",
+      "kept": false,
+      "dropReason": "off-track",
+      "snippet": "Myrtle Beach, SC Full time R74849 Make banking a Fifth Third better®We connect great people to great opportunities. Are you ready to take the next step? Discov…"
+    },
+    {
+      "id": "6ef1f3a9247506bcbe2b192d3f60ebd514b5d8de",
+      "title": "Retail Personal Banker Associate II - Forest Square",
+      "company": "Fifth Third Bank, N.A.",
+      "location": "Carolina Forest, Horry County",
+      "pay": "",
+      "url": "https://www.adzuna.com/land/ad/5965917161?se=hkdF8nHg8RGNl561rfNY_A&utm_medium=api&utm_source=ea9765bf&v=9A670A5D73389DC302DF50D5888020E4DEA5B85D",
       "source": "adzuna",
       "track": "tech-sales",
       "kept": false,
@@ -848,12 +757,12 @@
       "snippet": "Myrtle Beach, SC Full time R74849 Make banking a Fifth Third better®We connect great people to great opportunities. Are you ready to take the next step? Discov…"
     },
     {
-      "id": "2299362f548a6ddc7e7d457f4a4467e34cb79488",
+      "id": "42fb9428c2287d62e58acf7bb34e0ff254411c79",
       "title": "Retail Personal Banker Associate I - Forest Square",
       "company": "Fifth Third Bank, N.A.",
       "location": "Carolina Forest, Horry County",
       "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5965917158?se=ZqsYFE3g8RG2_dMaX_9hbQ&utm_medium=api&utm_source=ea9765bf&v=997D94467620AAD32CD114F546FFDBBF6D004A65",
+      "url": "https://www.adzuna.com/land/ad/5965917158?se=hkdF8nHg8RGNl561rfNY_A&utm_medium=api&utm_source=ea9765bf&v=997D94467620AAD32CD114F546FFDBBF6D004A65",
       "source": "adzuna",
       "track": "tech-sales",
       "kept": false,
@@ -874,12 +783,12 @@
       "snippet": "Lighthouse Point, FL Part time JR-051838 _Are you ready for what's next?_ _Come explore opportunities within Brunswick, a global marine leader (https://youtube…"
     },
     {
-      "id": "b40cde4381fdffd9973086663341e5f481c0d5e7",
+      "id": "ed702096f4c03f9cf83c618111770b11310ed4d6",
       "title": "Yacht Services Manager",
       "company": "Flagship Group",
       "location": "Fort Lauderdale, Broward County",
       "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5965851285?se=nCVTEE3g8RG3UKJUaLg__w&utm_medium=api&utm_source=ea9765bf&v=F98BDDB32D9EB9FF5F179D4376779A31ED89CA3B",
+      "url": "https://www.adzuna.com/land/ad/5965851285?se=ltaw8XHg8RGYoYBThUdMLw&utm_medium=api&utm_source=ea9765bf&v=F98BDDB32D9EB9FF5F179D4376779A31ED89CA3B",
       "source": "adzuna",
       "track": "marine-national",
       "kept": false,
@@ -895,8 +804,8 @@
       "url": "https://www.adzuna.com/land/ad/5965850799?se=kPBLEk3g8RGDtoxXJCvQRQ&utm_medium=api&utm_source=ea9765bf&v=6678EFAC61C4E854887896A887B6D3CA9DD7B22E",
       "source": "adzuna",
       "track": "office",
-      "kept": true,
-      "dropReason": null,
+      "kept": false,
+      "dropReason": "duplicate",
       "snippet": "About the Opportunity We are seeking a creative, organized, and motivated Marketing & Brand Specialist to join our marketing team. This is an opportunity for s…"
     },
     {
@@ -952,17 +861,17 @@
       "snippet": "Radiation Therapist Location: Little River, SC Agency: Jackson HealthPros Pay: $2,100 to $2,300 per week Shift Information: Days - 3 days x 12 hours Contract D…"
     },
     {
-      "id": "1d6a291f1eb5b3423c6d360fd09ed10ae6e78ba2",
-      "title": "Travel CT Tech - $1,876 to $2,076 per week in Charleston, SC",
+      "id": "8189ac337b13a49d97babd55520efd12780d7bc8",
+      "title": "Travel CT Tech - $1,868 to $2,068 per week in Myrtle Beach, SC",
       "company": "AlliedTravelCareers",
-      "location": "Charleston, Charleston County",
-      "pay": "$90,059–$99,659/year",
-      "url": "https://www.adzuna.com/details/5965771144?utm_medium=api&utm_source=ea9765bf",
+      "location": "Myrtle Beach, Horry County",
+      "pay": "$89,660–$99,260/year",
+      "url": "https://www.adzuna.com/details/5965770134?utm_medium=api&utm_source=ea9765bf",
       "source": "adzuna",
-      "track": "marine-chs",
+      "track": "quick-cash",
       "kept": false,
-      "dropReason": "not-marine",
-      "snippet": "CT Tech Location: Charleston, SC Agency: Jackson HealthPros Pay: $1,876 to $2,076 per week Shift Information: Evenings - 3 days x 12 hours Contract Duration: 1…"
+      "dropReason": "off-track",
+      "snippet": "CT Tech Location: Myrtle Beach, SC Agency: Jackson HealthPros Pay: $1,868 to $2,068 per week Shift Information: Days - 3 days x 12 hours Contract Duration: 13 …"
     },
     {
       "id": "88f57def932fa1c0355c81ef1eddc9787e29370f",
@@ -976,6 +885,19 @@
       "kept": false,
       "dropReason": "not-marine",
       "snippet": "Cath Lab Tech Location: Charleston, SC Agency: Jackson HealthPros Pay: $2,293 to $2,493 per week Shift Information: Days - 9 hours Contract Duration: 25 Weeks …"
+    },
+    {
+      "id": "5cead66b2f3623958a9b390d8b7c7d409d038d0a",
+      "title": "Travel MRI Tech - $1,811 to $2,011 per week in Myrtle Beach, SC",
+      "company": "AlliedTravelCareers",
+      "location": "Myrtle Beach, Horry County",
+      "pay": "$86,918–$96,518/year",
+      "url": "https://www.adzuna.com/details/5965766928?utm_medium=api&utm_source=ea9765bf",
+      "source": "adzuna",
+      "track": "quick-cash",
+      "kept": false,
+      "dropReason": "off-track",
+      "snippet": "MRI Tech Location: Myrtle Beach, SC Agency: Jackson HealthPros Pay: $1,811 to $2,011 per week Shift Information: Nights - 14 hours Contract Duration: 12 Weeks …"
     },
     {
       "id": "e6f1a349f1d47d8481e8d29015dfad0e6880823d",
@@ -1015,6 +937,19 @@
       "kept": false,
       "dropReason": "not-marine",
       "snippet": "CT Tech Location: Myrtle Beach, SC Agency: Medical Solutions Pay: $1,728 per week Shift Information: Days Start Date: ASAP About the Position AlliedTravelCaree…"
+    },
+    {
+      "id": "0840759e9524fef0225f74e7e6a1e5837ce11b99",
+      "title": "Travel Physical Therapist (PT) - $2,390 per week in Loris, SC",
+      "company": "AlliedTravelCareers",
+      "location": "Loris, Horry County",
+      "pay": "$114,720/year",
+      "url": "https://www.adzuna.com/details/5965737781?utm_medium=api&utm_source=ea9765bf",
+      "source": "adzuna",
+      "track": "marine-local",
+      "kept": false,
+      "dropReason": "not-marine",
+      "snippet": "Physical Therapist Location: Loris, SC Agency: Medical Solutions Pay: $2,390 per week Shift Information: Days Start Date: ASAP About the Position AlliedTravelC…"
     },
     {
       "id": "45abe386cf4545be91f7d7081b7538be071dac0e",
@@ -1212,45 +1147,6 @@
       "snippet": "At PointClickCare our mission is simple: to help providers deliver exceptional care. And that starts with our people. As a leading health tech company that’s f…"
     },
     {
-      "id": "ba05040002af8a9ac9ca2ca5c72474c2ac5fe7db",
-      "title": "(US) Sales Development Representative",
-      "company": "PointClickCare",
-      "location": "Remote — USA",
-      "pay": "",
-      "url": "https://jobicy.com/jobs/155279-us-sales-development-representative",
-      "source": "jobicy",
-      "track": "tech-sales",
-      "kept": false,
-      "dropReason": "tracked",
-      "snippet": "At PointClickCare our mission is simple: to help providers deliver exceptional care. And that starts with our people. As a leading health tech company that’s f…"
-    },
-    {
-      "id": "f5c218a724f6e2b21375ae49991a9094dcb0ff62",
-      "title": "Senior Gen AI Software Engineer",
-      "company": "Liftoff",
-      "location": "Remote — USA",
-      "pay": "",
-      "url": "https://jobicy.com/jobs/153108-senior-gen-ai-software-engineer",
-      "source": "jobicy",
-      "track": "ai-web",
-      "kept": false,
-      "dropReason": "senior",
-      "snippet": "Liftoff is a leading AI-powered performance marketing platform for the mobile app economy. Our end-to-end technology stack helps app marketers acquire and reta…"
-    },
-    {
-      "id": "05311710ea3c21cb4ef6e689fc5035e4bbde64e7",
-      "title": "Account Executive, Mid Market",
-      "company": "Zapier",
-      "location": "Remote — USA",
-      "pay": "",
-      "url": "https://jobicy.com/jobs/153092-account-executive-mid-market-3",
-      "source": "jobicy",
-      "track": "tech-sales",
-      "kept": false,
-      "dropReason": "needs-experience",
-      "snippet": "AI at Zapier At Zapier , we build and use automation every day to make work more efficient, creative, and human. So if you’re using AI tools while applying her…"
-    },
-    {
       "id": "05311710ea3c21cb4ef6e689fc5035e4bbde64e7",
       "title": "Account Executive, Mid Market",
       "company": "Zapier",
@@ -1316,6 +1212,19 @@
       "snippet": "Make banking a Fifth Third better® We connect great people to great opportunities. Are you ready to take the next step? Discover a career in banking at Fifth T…"
     },
     {
+      "id": "13855a8d9928a6b4e00440df6fc75ea7727ca225",
+      "title": "Facility Manager/Building Engineer",
+      "company": "Dunes Golf & Beach Club",
+      "location": "Myrtle Beach, Horry County",
+      "pay": "",
+      "url": "https://www.adzuna.com/details/5965277169?utm_medium=api&utm_source=ea9765bf",
+      "source": "adzuna",
+      "track": "quick-cash",
+      "kept": false,
+      "dropReason": "senior",
+      "snippet": "Position Summary : The Facility Manager & Building Engineer is responsible for the comprehensive maintenance, operation, and reliability of all physical assets…"
+    },
+    {
       "id": "2d48a7c33efbfb5682ba4a0a8b80925a2d442835",
       "title": "Freedom Boat Club - Dock Hand at Lighthouse Point Marina, FL",
       "company": "Brunswick Boat Group",
@@ -1342,12 +1251,12 @@
       "snippet": "FULL_TIME Job Requirements Are you looking for an Outside Sales position with unlimited earning potential in a flourishing industry? Are you looking for an opp…"
     },
     {
-      "id": "710c5316c9bac0990f0aea4428bc983bf6acd972",
+      "id": "c3396fc5ab23ed5e87691062f161c5688960a950",
       "title": "Recruitment Consultant",
       "company": "Hill Robinson",
       "location": "Fort Lauderdale, Broward County",
       "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5965239172?se=nCVTEE3g8RG3UKJUaLg__w&utm_medium=api&utm_source=ea9765bf&v=DAFA65E1ED9BCB70E911BD76C60C5FB2F290B040",
+      "url": "https://www.adzuna.com/land/ad/5965239172?se=ltaw8XHg8RGYoYBThUdMLw&utm_medium=api&utm_source=ea9765bf&v=DAFA65E1ED9BCB70E911BD76C60C5FB2F290B040",
       "source": "adzuna",
       "track": "marine-national",
       "kept": false,
@@ -1498,19 +1407,6 @@
       "snippet": "Regional Service Manager Industrial Machinery - Conway, SC Field Service Manager Supervisor Director Manufacturing Production Line Machinery Automation Automat…"
     },
     {
-      "id": "4a245b2698eca34421931e415173c3fdfca0e67f",
-      "title": "Marketing Coordinator",
-      "company": "Marriott Vacations Worldwide",
-      "location": "Carolina Forest, Horry County",
-      "pay": "",
-      "url": "https://www.adzuna.com/details/5965114054?utm_medium=api&utm_source=ea9765bf",
-      "source": "adzuna",
-      "track": "office",
-      "kept": false,
-      "dropReason": "dead-link",
-      "snippet": "Are you looking for a place where meaningful moments are made together? We make vacation dreams come true for travelers around the world in a supportive, frien…"
-    },
-    {
       "id": "9f7a193cad3c58e35d80a7209398934a68b9cb7e",
       "title": "Generator Service Technician",
       "company": "Synerfac Technical Staffing",
@@ -1535,19 +1431,6 @@
       "kept": false,
       "dropReason": "off-track",
       "snippet": "Hourly Rate: $22.40 Regular Full-time position Shift:1st/2nd: Must be available weekends and holidays Hourly Wage: $22.40 Certifications: EPA certified Are you…"
-    },
-    {
-      "id": "60ffa9030fdf961e74e0d9573c20f84a12d33870",
-      "title": "Forward Deployed AI Solutions Architect",
-      "company": "Qventus",
-      "location": "Remote — USA",
-      "pay": "",
-      "url": "https://jobicy.com/jobs/162075-forward-deployed-ai-solutions-architect",
-      "source": "jobicy",
-      "track": "ai-web",
-      "kept": false,
-      "dropReason": "senior",
-      "snippet": "On this journey for over 12 years, Qventus is leading the transformation of healthcare. We enable hospitals to focus on what matters most: patient care. Our in…"
     },
     {
       "id": "60ffa9030fdf961e74e0d9573c20f84a12d33870",
@@ -2837,25 +2720,12 @@
       "snippet": "You understand your audience. You live and breathe strategy. And you&rsquo;ve got the data to back up every one of your amazing ideas. Join a team where you&rs…"
     },
     {
-      "id": "1219355c62199bc77a1740e61f3ac794981a26e4",
-      "title": "Emergency Medicine Locum Tenens Opportunity in Eastern SC - Level II Trauma",
-      "company": "Medicus Healthcare Solutions",
-      "location": "Carolina Forest, Horry County",
-      "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5964729346?se=CLjWEE3g8RGNl561rfNY_A&utm_medium=api&utm_source=ea9765bf&v=3799EF524A130BB96507E188E320E1C800AA9BA7",
-      "source": "adzuna",
-      "track": "quick-cash",
-      "kept": false,
-      "dropReason": "off-track",
-      "snippet": "Opportunity Details Medicus has partnered with a hospital in eastern South Carolina that has an opportunity for a skilled Emergency Medicine physician to provi…"
-    },
-    {
-      "id": "e030338ff713f89f50df969f8bfd8c060abfc346",
+      "id": "8aa0e7d697c84aece986d35ed8c074101823dbf9",
       "title": "Orthopedic Trauma Surgery NP Locum in Myrtle Beach, SC",
       "company": "Medicus Healthcare Solutions",
       "location": "Surfside, Horry County",
       "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5964728692?se=CLjWEE3g8RGNl561rfNY_A&utm_medium=api&utm_source=ea9765bf&v=2D41D5B0C9C7BE144D8D0946BF705CF6C1986607",
+      "url": "https://www.adzuna.com/land/ad/5964728692?se=Eizf8XHg8RGrnN7Doq5RxQ&utm_medium=api&utm_source=ea9765bf&v=2D41D5B0C9C7BE144D8D0946BF705CF6C1986607",
       "source": "adzuna",
       "track": "quick-cash",
       "kept": false,
@@ -2941,12 +2811,12 @@
       "snippet": "We want you to help us shape the future of shopping experiences and deliver on our purpose of connecting people with the products and experiences that enrich t…"
     },
     {
-      "id": "d9c2adea1b520a5c1515c8083e7c4f4ccfdc7e69",
+      "id": "560e0506051da393bd9cc4cdecae7b7134e30f2e",
       "title": "Cart Attendant",
       "company": "Walmart",
       "location": "Murrells Inlet, Horry County",
       "pay": "$0.35 per hour",
-      "url": "https://www.adzuna.com/land/ad/5964575232?se=CLjWEE3g8RGNl561rfNY_A&utm_medium=api&utm_source=ea9765bf&v=74A4942742830C3AC0A0396CF80CE1843BB95E1C",
+      "url": "https://www.adzuna.com/land/ad/5964575232?se=Eizf8XHg8RGrnN7Doq5RxQ&utm_medium=api&utm_source=ea9765bf&v=74A4942742830C3AC0A0396CF80CE1843BB95E1C",
       "source": "adzuna",
       "track": "quick-cash",
       "kept": false,
@@ -2954,12 +2824,12 @@
       "snippet": "Hourly Wage: $14 - $27 per/hour *The actual hourly rate will equal or exceed the required minimum wage applicable to the job location. Additional compensation …"
     },
     {
-      "id": "591dd324537b10d4461cef579ce47a040b0eec80",
+      "id": "014f91214a1fd2daf7fe5b177089bfc68cb52084",
       "title": "Sales Keyholder, PT",
       "company": "Under Armour, Inc.",
       "location": "Carolina Forest, Horry County",
       "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5964574945?se=ZqsYFE3g8RG2_dMaX_9hbQ&utm_medium=api&utm_source=ea9765bf&v=22338C48622E4E6B83F25C8864E1F6DF574FA139",
+      "url": "https://www.adzuna.com/land/ad/5964574945?se=hkdF8nHg8RGNl561rfNY_A&utm_medium=api&utm_source=ea9765bf&v=22338C48622E4E6B83F25C8864E1F6DF574FA139",
       "source": "adzuna",
       "track": "quick-cash",
       "kept": false,
@@ -2993,12 +2863,12 @@
       "snippet": "Brand Ambassador / Service Pros Auto Glass $750 - $2000 | Weekly Pay | Full-Time Service Pros Auto Glass is hiring Brand Ambassadors to represent our company i…"
     },
     {
-      "id": "7c5578967bb4a3a9d9c0cb7b2143b4ae2eacb7ba",
+      "id": "d225926942b444902d0f756c27cab21c6d58c95a",
       "title": "Brand Ambassador - Charleston 1",
       "company": "Service Pros Auto Glass",
       "location": "Daniel Island, Berkeley County",
       "pay": "$18.75–$50/hour",
-      "url": "https://www.adzuna.com/land/ad/5964483992?se=WECsEk3g8RG3UKJUaLg__w&utm_medium=api&utm_source=ea9765bf&v=2FFEBA999BA720845AB68E8F12DCA3FA0BC7DA37",
+      "url": "https://www.adzuna.com/land/ad/5964483992?se=tuY58nHg8RG3UKJUaLg__w&utm_medium=api&utm_source=ea9765bf&v=2FFEBA999BA720845AB68E8F12DCA3FA0BC7DA37",
       "source": "adzuna",
       "track": "tech-sales",
       "kept": false,
@@ -3084,19 +2954,6 @@
       "snippet": "Description Do you love the outdoors and enjoy helping others plan their next great adventure? Join Hilton Grand Vacations as a Vacation Sales Ambassador insid…"
     },
     {
-      "id": "eb4166788b70c5deff8f048ade3ca117ae620cf4",
-      "title": "Senior GTM Systems & AI Specialist",
-      "company": "Cobalt",
-      "location": "Remote — USA",
-      "pay": "",
-      "url": "https://jobicy.com/jobs/155196-senior-gtm-systems-ai-specialist",
-      "source": "jobicy",
-      "track": "ai-web",
-      "kept": false,
-      "dropReason": "senior",
-      "snippet": "Who We Are Cobalt was founded on the belief of a fundamental human aspiration: the desire to live better and safer. It all started in 2013, when our founders r…"
-    },
-    {
       "id": "ff2c5fc8c1376f0a53fa7055c14e88bb694bed2a",
       "title": "Medical Surgical Technician - Coast - Medical Surgical",
       "company": "McLeod Health",
@@ -3110,38 +2967,12 @@
       "snippet": "Description Description Position: CF1603931357 Job: 60631357 - Medical Surgical Technician - Coast Description: Responsibilities: Maintains a professional imag…"
     },
     {
-      "id": "7f11209fe928c94ac310d6b099d6af104be073e2",
-      "title": "Local OR (Operating Room) RN (Registered Nurse) in Charleston, SC - 1163984L",
-      "company": "Medical Solutions",
-      "location": "Charleston, Charleston County",
-      "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5964250488?se=zMdFD03g8RG9p9ob_RTtsA&utm_medium=api&utm_source=ea9765bf&v=961152B751E50AA26C6A3DBD753597D63C4043C8",
-      "source": "adzuna",
-      "track": "marine-chs",
-      "kept": false,
-      "dropReason": "not-marine",
-      "snippet": "Job Description Job Description Schedule Shift: Days (12hr) 36 hours/week A facility in Charleston, SC is looking for an exceptional RN (Registered Nurse) for …"
-    },
-    {
-      "id": "cdae46576fcb1dacdaa0e5b1038a282f83d31534",
-      "title": "New Travel Nursing Assignment - Med-Surg Registered Nurse",
-      "company": "Medical Solutions",
-      "location": "Charleston, Charleston County",
-      "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5964244307?se=zMdFD03g8RG9p9ob_RTtsA&utm_medium=api&utm_source=ea9765bf&v=AEE1CBA6F0FBDD11D94AAC0D6F5754168B66DC91",
-      "source": "adzuna",
-      "track": "marine-chs",
-      "kept": false,
-      "dropReason": "not-marine",
-      "snippet": "Job Description Job Description Schedule Shift: Days (12hr) 36 hours/week A facility in Berlin, MD is seeking its next amazing RN (Registered Nurse) to work in…"
-    },
-    {
-      "id": "75c1df65ad1857ba5167047036a4357d2b351297",
+      "id": "a61ac794d19b09ba7d95022922f76cb9c551ee3d",
       "title": "Patient Financial & Insurance Coordinator - Fertility Practice",
       "company": "Coastal Fertility Specialist",
       "location": "Mount Pleasant, Charleston County",
       "pay": "$23.50/hour",
-      "url": "https://www.adzuna.com/land/ad/5964185179?se=zMdFD03g8RG9p9ob_RTtsA&utm_medium=api&utm_source=ea9765bf&v=9C62802822660DBDF7EDAAA109855FE6F088F0D8",
+      "url": "https://www.adzuna.com/land/ad/5964185179?se=_shl8XHg8RGYoYBThUdMLw&utm_medium=api&utm_source=ea9765bf&v=9C62802822660DBDF7EDAAA109855FE6F088F0D8",
       "source": "adzuna",
       "track": "marine-chs",
       "kept": false,
@@ -3186,19 +3017,6 @@
       "kept": true,
       "dropReason": null,
       "snippet": "DESCRIPTION Mosaic Flex Staffing – Acosta Group is hiring Brand Ambassadors to represent a leading consumer electronics & storage brand inside top-selling nati…"
-    },
-    {
-      "id": "8c364975b82b52785a2f40191440151485a865b3",
-      "title": "CERTIFIED NURSING ASSISTANT - LIBERTY COMMONS OF COLUMBUS COUNTY (Hiring Immediately)",
-      "company": "Liberty Health",
-      "location": "Whiteville, Columbus County",
-      "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5964152702?se=CLjWEE3g8RGNl561rfNY_A&utm_medium=api&utm_source=ea9765bf&v=F45D60DCECE5615EDA39E951068CE00A8BB76154",
-      "source": "adzuna",
-      "track": "quick-cash",
-      "kept": false,
-      "dropReason": "off-track",
-      "snippet": "CERTIFIED NURSING ASSISTANT - LIBERTY COMMONS OF COLUMBUS COUNTY Liberty Cares With Compassion $5,000 Sign on Bonus At Liberty Healthcare and Rehabilitation Se…"
     },
     {
       "id": "09aed8410e1e7f05ec5d76c535de380b22fe0bbf",
@@ -3253,12 +3071,12 @@
       "snippet": "Brand Ambassador / Service Pros Auto Glass $750 - $2000 | Weekly Pay | Full-Time Service Pros Auto Glass is hiring Brand Ambassadors to represent our company i…"
     },
     {
-      "id": "becf0d666b75e5e40677a87aeb8332c43c0ff543",
+      "id": "3d5cf2c4828b630cc05fe7d6a5915cd651b0571d",
       "title": "Brand Ambassador - Summerville 1",
       "company": "Service Pros Auto Glass",
       "location": "Lincolnville, Dorchester County",
       "pay": "$18.75–$50/hour",
-      "url": "https://www.adzuna.com/land/ad/5964052689?se=WECsEk3g8RG3UKJUaLg__w&utm_medium=api&utm_source=ea9765bf&v=AB8BACE3535A05DB015167361F56151D56E72D27",
+      "url": "https://www.adzuna.com/land/ad/5964052689?se=tuY58nHg8RG3UKJUaLg__w&utm_medium=api&utm_source=ea9765bf&v=AB8BACE3535A05DB015167361F56151D56E72D27",
       "source": "adzuna",
       "track": "tech-sales",
       "kept": false,
@@ -3422,19 +3240,6 @@
       "snippet": "Property Description The Mills House offers an exciting opportunity for job applicants looking to be a part of a historic and prestigious hospitality team. Loc…"
     },
     {
-      "id": "46053b00c9f18a4c3777ab763fbe957745b8f792",
-      "title": "Travel Registered Nurse - Stepdown - Apply Now",
-      "company": "Medical Solutions",
-      "location": "Georgetown, Georgetown County",
-      "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5963845059?se=1PkQD03g8RGNl561rfNY_A&utm_medium=api&utm_source=ea9765bf&v=1D64E54151A8AF23E269E15A864729E7D6BEB604",
-      "source": "adzuna",
-      "track": "marine-local",
-      "kept": false,
-      "dropReason": "not-marine",
-      "snippet": "Job Description Job Description Schedule Shift: Nights 36 hours/week A facility in Louisville, KY is seeking its next amazing RN (Registered Nurse) to work in …"
-    },
-    {
       "id": "2fd8f42346a91f71340358067c8e33567df2645b",
       "title": "Fitness Coach",
       "company": "Torch Fitness by Valet Living",
@@ -3552,12 +3357,51 @@
       "snippet": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency…"
     },
     {
-      "id": "ff67b25bf945e20400b644cba9c1cb53f7d58ce8",
+      "id": "75a335317a615eaf0dedfcde4379579b6e0d20e7",
+      "title": "Project Manager",
+      "company": "Coast And Harbor Associates, Inc.",
+      "location": "James Island, Charleston County",
+      "pay": "",
+      "url": "https://www.adzuna.com/land/ad/5963674451?se=_shl8XHg8RGYoYBThUdMLw&utm_medium=api&utm_source=ea9765bf&v=E2705C76A7F28C93BEAB93840DEEAFEAC642AAE8",
+      "source": "adzuna",
+      "track": "marine-chs",
+      "kept": false,
+      "dropReason": "senior",
+      "snippet": "Coast and Harbor Associates (Coast and Harbor) assists public, private, and institutional owners and users of real estate to manage the design and construction…"
+    },
+    {
+      "id": "b1aa8cfd3c72d9b035037d4e4bc4686222f20736",
+      "title": "General Manager – Luxury Resort Operations Leader",
+      "company": "Charleston Harbor Resort",
+      "location": "Cainhoy, Berkeley County",
+      "pay": "",
+      "url": "https://www.adzuna.com/land/ad/5963672043?se=_shl8XHg8RGYoYBThUdMLw&utm_medium=api&utm_source=ea9765bf&v=C6B1E607CD461DCABC1C8A1065ACED5E70F855B7",
+      "source": "adzuna",
+      "track": "marine-chs",
+      "kept": false,
+      "dropReason": "senior",
+      "snippet": "TPG Hotels and Resorts in Charleston, SC, seeks a seasoned General Manager to lead Charleston Harbor Resort. You will drive guest satisfaction, revenue growth,…"
+    },
+    {
+      "id": "a7be7c6e460e2388c9698cde416a553baa996ba5",
+      "title": "Chief Digital Platforms & Customer Experience",
+      "company": "Cruise Yacht OpCo Ltd",
+      "location": "Lazy Lake, Broward County",
+      "pay": "",
+      "url": "https://www.adzuna.com/land/ad/5963653638?se=ltaw8XHg8RGYoYBThUdMLw&utm_medium=api&utm_source=ea9765bf&v=C4A4533870A38FA44234A8FFA9650B778E5725E4",
+      "source": "adzuna",
+      "track": "marine-national",
+      "kept": false,
+      "dropReason": "senior",
+      "snippet": "The Ritz-Carlton Yacht Collection seeks a seasoned technology leader to drive digital transformation across guest-facing platforms, CRM, and booking systems. Y…"
+    },
+    {
+      "id": "d5bc3c3fee99ae2ad75489bbc4b9f2cfeda5595b",
       "title": "Family Medicine Residency Program Director",
       "company": "Grand Strand Medical Center",
       "location": "Myrtle Beach, Horry County",
       "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5963614055?se=1PkQD03g8RGNl561rfNY_A&utm_medium=api&utm_source=ea9765bf&v=51C92199D868B2EE9506A37F4D0BF9649FEBAFFE",
+      "url": "https://www.adzuna.com/land/ad/5963614055?se=YJ1m8XHg8RGDtoxXJCvQRQ&utm_medium=api&utm_source=ea9765bf&v=51C92199D868B2EE9506A37F4D0BF9649FEBAFFE",
       "source": "adzuna",
       "track": "marine-local",
       "kept": false,
@@ -3565,12 +3409,12 @@
       "snippet": "Description Specialization: Family Medicine without OB Job Summary: Grand Strand Medical Center in Myrtle Beach, South Carolina is seeking a Family Medicine Re…"
     },
     {
-      "id": "4d74f51b71b1b192c3afc7a2c9afa8cb73dd6165",
+      "id": "8cb10569e81a86240bdfb61fe03baa40c0c571d7",
       "title": "Family Medicine Residency Program Director",
       "company": "Grand Strand Medical Center",
       "location": "Myrtle Beach, Horry County",
       "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5963614055?se=pOoOD03g8RGDtoxXJCvQRQ&utm_medium=api&utm_source=ea9765bf&v=51C92199D868B2EE9506A37F4D0BF9649FEBAFFE",
+      "url": "https://www.adzuna.com/land/ad/5963614055?se=AKis8XHg8RGDtoxXJCvQRQ&utm_medium=api&utm_source=ea9765bf&v=51C92199D868B2EE9506A37F4D0BF9649FEBAFFE",
       "source": "adzuna",
       "track": "marine-local",
       "kept": false,
@@ -3604,12 +3448,12 @@
       "snippet": "Carolinas Staffing is looking for a Showroom Sales Associate in Shallotte, NC! In this role, you will be the face of our plumbing and lighting showroom. You wi…"
     },
     {
-      "id": "efdacb27d9e5191db5cbf8b3620d177e61c78214",
+      "id": "b05f211669a33d7c7bf67dce18f22982b4c178ea",
       "title": "Part-Time Doorstep Trash Collection Specialist - Nights and Weekends",
       "company": "Valet Living",
       "location": "North Charleston, Charleston County",
       "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5963403247?se=WECsEk3g8RG3UKJUaLg__w&utm_medium=api&utm_source=ea9765bf&v=4A918DBAB0EAC091422D96E11F69B166B3015591",
+      "url": "https://www.adzuna.com/land/ad/5963403247?se=tuY58nHg8RG3UKJUaLg__w&utm_medium=api&utm_source=ea9765bf&v=4A918DBAB0EAC091422D96E11F69B166B3015591",
       "source": "adzuna",
       "track": "quick-cash",
       "kept": false,
@@ -3656,12 +3500,12 @@
       "snippet": "We are a team of engineers that translate our real-world experience to help our user communities solve problems. With a focus on AI-accelerated workflows and n…"
     },
     {
-      "id": "c24aeaeb1bcb15bc262aba31adf38b80c7894d75",
+      "id": "294321a42bd94c1ec9eaa1cd5e7400d2eef7acd5",
       "title": "Janitorial Associate",
       "company": "Walmart",
       "location": "Murrells Inlet, Horry County",
       "pay": "$0.35 per hour",
-      "url": "https://www.adzuna.com/land/ad/5963181601?se=CLjWEE3g8RGNl561rfNY_A&utm_medium=api&utm_source=ea9765bf&v=AF4799CC9DFFC32F100FA6ED83558B797FC17CFA",
+      "url": "https://www.adzuna.com/land/ad/5963181601?se=Eizf8XHg8RGrnN7Doq5RxQ&utm_medium=api&utm_source=ea9765bf&v=AF4799CC9DFFC32F100FA6ED83558B797FC17CFA",
       "source": "adzuna",
       "track": "quick-cash",
       "kept": false,
@@ -3682,12 +3526,12 @@
       "snippet": "REPORTS TO: General Manager CLASSIFICATION: Exempt / Salaried EMPLOYMENT: Full-Time TRAVEL: Required as directed; including overnight travel POSITION SUMMARY T…"
     },
     {
-      "id": "bd2e72d153ad8409c0614b40efe6953c33dda896",
+      "id": "6742adf2f5a48c1ed94f36fcdd2b7abfacb17b7e",
       "title": "Account Executive Hospice",
       "company": "UnitedHealth Group",
       "location": "Carolina Forest, Horry County",
       "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5963169073?se=kPBLEk3g8RGDtoxXJCvQRQ&utm_medium=api&utm_source=ea9765bf&v=2C4EDF1B013DEEEFC77F9D200F1E3D22CCC412E6",
+      "url": "https://www.adzuna.com/land/ad/5963169073?se=Turk8XHg8RG3UKJUaLg__w&utm_medium=api&utm_source=ea9765bf&v=2C4EDF1B013DEEEFC77F9D200F1E3D22CCC412E6",
       "source": "adzuna",
       "track": "quick-cash",
       "kept": false,
@@ -3708,12 +3552,12 @@
       "snippet": "Description Service Valet / Shuttle Driver – North Shore CDJR Drive the Experience. Be the First and Last Impression. Myrtle Beach, SC | Brand-New Dealership |…"
     },
     {
-      "id": "4ee37a2da063ccd580aa725ea1b7074a02275f06",
+      "id": "9e8d4ef6ef09aa4a8a0c672b1a6ec9071e2d3093",
       "title": "Part-time Nabisco Merchandiser",
       "company": "Mondelez International",
       "location": "Conway, Horry County",
       "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5963149508?se=kPBLEk3g8RGDtoxXJCvQRQ&utm_medium=api&utm_source=ea9765bf&v=EAB985828568C596A2CE4C2615B9A698CD777306",
+      "url": "https://www.adzuna.com/land/ad/5963149508?se=Turk8XHg8RG3UKJUaLg__w&utm_medium=api&utm_source=ea9765bf&v=EAB985828568C596A2CE4C2615B9A698CD777306",
       "source": "adzuna",
       "track": "quick-cash",
       "kept": false,
@@ -3721,17 +3565,30 @@
       "snippet": "Conway, South Carolina, United States Myrtle Beach, South Carolina, United States Part time R-181597 Job Description Join our Mission to Lead the Future of Sna…"
     },
     {
-      "id": "c57ea406127f06c90676b24c2542f9f2248c10e6",
+      "id": "5fe963c64ebee9cf50cf9f9f43d0d69020905bc9",
       "title": "Breakfast Cook (Part Time) - Embassy Suites Mt. Pleasant Charleston Harbor",
       "company": "Hilton",
       "location": "Mount Pleasant, Charleston County",
       "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5963147244?se=zMdFD03g8RG9p9ob_RTtsA&utm_medium=api&utm_source=ea9765bf&v=73F2F9CC1281387D6FB315926A3A150E702884A7",
+      "url": "https://www.adzuna.com/land/ad/5963147244?se=_shl8XHg8RGYoYBThUdMLw&utm_medium=api&utm_source=ea9765bf&v=73F2F9CC1281387D6FB315926A3A150E702884A7",
       "source": "adzuna",
       "track": "marine-chs",
       "kept": false,
       "dropReason": "not-marine",
       "snippet": "Job Identification: 230986 Job Category: Culinary Job Schedule: Part time Equal Opportunity Employer EOE, including disability/vets Exceptional Hospitality Sta…"
+    },
+    {
+      "id": "ca8046a96f4f7c9a2c04328d20d84e3333e680a9",
+      "title": "Float Receptionist",
+      "company": "CenterWell",
+      "location": "Carolina Forest, Horry County",
+      "pay": "",
+      "url": "https://www.adzuna.com/land/ad/5963106805?se=Eizf8XHg8RGrnN7Doq5RxQ&utm_medium=api&utm_source=ea9765bf&v=ABBCE9DF9744CD55C5D11B30F9D4BE352530A68B",
+      "source": "adzuna",
+      "track": "quick-cash",
+      "kept": false,
+      "dropReason": "off-track",
+      "snippet": "Become a part of our caring community You will work as a Float Receptionist in our Clinics in the Myrtle Beach area. You will report to the Assistant Operation…"
     },
     {
       "id": "2b0c5c19d3a68e6d189498f0ffdbbb0cf5b2aedf",
@@ -3799,12 +3656,12 @@
       "snippet": "Brand Ambassador / Service Pros Auto Glass $750 - $2000 | Weekly Pay | Full-Time Service Pros Auto Glass is hiring Brand Ambassadors to represent our company i…"
     },
     {
-      "id": "cb8c8d0ce4b7679e7355fe4a3fd052f0f8bd9601",
+      "id": "2042f380aa0e74ae81927d669f7d95377a3d9c57",
       "title": "Brand Ambassador - N. Charleston 1",
       "company": "Service Pros Auto Glass",
       "location": "Pinehaven, Charleston County",
       "pay": "$18.75–$50/hour",
-      "url": "https://www.adzuna.com/land/ad/5963055002?se=WECsEk3g8RG3UKJUaLg__w&utm_medium=api&utm_source=ea9765bf&v=2473618916F93B246AEF7B67373FD51F194DB31E",
+      "url": "https://www.adzuna.com/land/ad/5963055002?se=tuY58nHg8RG3UKJUaLg__w&utm_medium=api&utm_source=ea9765bf&v=2473618916F93B246AEF7B67373FD51F194DB31E",
       "source": "adzuna",
       "track": "tech-sales",
       "kept": false,
@@ -4007,12 +3864,12 @@
       "snippet": "TPG Hotels and Resorts is looking for a seasoned General Manager for Charleston Harbor Resort, Charleston, SC. Become Part of the TPG Hotels, Resorts & Marinas…"
     },
     {
-      "id": "5661f08e5822bf26dc01f2f775fd177bec9e00bc",
+      "id": "4c1edc99672b5f74c6f751215eb2b20a8df0ae3d",
       "title": "Seasonal: Guest Advocate (Cashier), General Merchandise, Fulfillment, Food and Beverage, Front of Store Attendant (Cart Attendant), Style, Tech, Inbound (Stocking) (T2742)",
       "company": "Target",
       "location": "Surfside, Horry County",
       "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5962745486?se=CLjWEE3g8RGNl561rfNY_A&utm_medium=api&utm_source=ea9765bf&v=6903E28CE606F8FED7EC163BEB38D7CB51384A1D",
+      "url": "https://www.adzuna.com/land/ad/5962745486?se=Eizf8XHg8RGrnN7Doq5RxQ&utm_medium=api&utm_source=ea9765bf&v=6903E28CE606F8FED7EC163BEB38D7CB51384A1D",
       "source": "adzuna",
       "track": "quick-cash",
       "kept": false,
@@ -4111,12 +3968,12 @@
       "snippet": "Brand Ambassador / Service Pros Auto Glass $750 - $2000 | Weekly Pay | Full-Time Service Pros Auto Glass is hiring Brand Ambassadors to represent our company i…"
     },
     {
-      "id": "f515fa7198252ec5d76de844406acfb62c6db599",
+      "id": "af1c02015846c54d826ae379728ceceb9573fbca",
       "title": "Brand Ambassador - Moncks Corner 1",
       "company": "Service Pros Auto Glass",
       "location": "Mount Pleasant, Charleston County",
       "pay": "$18.75–$50/hour",
-      "url": "https://www.adzuna.com/land/ad/5962618894?se=WECsEk3g8RG3UKJUaLg__w&utm_medium=api&utm_source=ea9765bf&v=8DC047EE038C637D5F74AAD31D43EC774A612BC0",
+      "url": "https://www.adzuna.com/land/ad/5962618894?se=tuY58nHg8RG3UKJUaLg__w&utm_medium=api&utm_source=ea9765bf&v=8DC047EE038C637D5F74AAD31D43EC774A612BC0",
       "source": "adzuna",
       "track": "tech-sales",
       "kept": false,
@@ -4176,12 +4033,12 @@
       "snippet": "Brand Ambassador / Service Pros Auto Glass $750 - $2000 | Weekly Pay | Full-Time Service Pros Auto Glass is hiring Brand Ambassadors to represent our company i…"
     },
     {
-      "id": "e41e7d7e278928ae78e5ccaac7cacd4e21a45045",
+      "id": "78cbb5a3b88c2f36d6244c9f70413829d7b80b73",
       "title": "Brand Ambassador - Goose Creek 1",
       "company": "Service Pros Auto Glass",
       "location": "Goose Creek, Berkeley County",
       "pay": "$18.75–$50/hour",
-      "url": "https://www.adzuna.com/land/ad/5962581095?se=WECsEk3g8RG3UKJUaLg__w&utm_medium=api&utm_source=ea9765bf&v=80CD0A404A1F63A7F9CFD536EB61F4D2D25BBC67",
+      "url": "https://www.adzuna.com/land/ad/5962581095?se=tuY58nHg8RG3UKJUaLg__w&utm_medium=api&utm_source=ea9765bf&v=80CD0A404A1F63A7F9CFD536EB61F4D2D25BBC67",
       "source": "adzuna",
       "track": "tech-sales",
       "kept": false,
@@ -4215,12 +4072,12 @@
       "snippet": "Brand Ambassador / Service Pros Auto Glass $750 - $2000 | Weekly Pay | Full-Time Service Pros Auto Glass is hiring Brand Ambassadors to represent our company i…"
     },
     {
-      "id": "4181669dfc6bcc316de62b90ff6abac370c49832",
+      "id": "fb0aad67a4dff644522b4bb2dca8afdb37aa875c",
       "title": "Brand Ambassador - Hanahan 1",
       "company": "Service Pros Auto Glass",
       "location": "Charleston, Charleston County",
       "pay": "$18.75–$50/hour",
-      "url": "https://www.adzuna.com/land/ad/5962574743?se=WECsEk3g8RG3UKJUaLg__w&utm_medium=api&utm_source=ea9765bf&v=940142313683B8C2FC44AF57AB19DABC8824F82C",
+      "url": "https://www.adzuna.com/land/ad/5962574743?se=tuY58nHg8RG3UKJUaLg__w&utm_medium=api&utm_source=ea9765bf&v=940142313683B8C2FC44AF57AB19DABC8824F82C",
       "source": "adzuna",
       "track": "tech-sales",
       "kept": false,
@@ -4369,19 +4226,6 @@
       "kept": false,
       "dropReason": "senior",
       "snippet": "Full time Position: Account Manager, Inside Sales (m/w/d) Job Description: Die Arrow ECS ist ein Value-Add IT Distributor, der sich auf die Bereitstellung von …"
-    },
-    {
-      "id": "22d11cde30d75389cca5f819e2656e1ed30b1970",
-      "title": "Inside Sales Representative Automotive IP&E (m/f/d)",
-      "company": "Arrow (immixGroup)",
-      "location": "DE-Neu Isenburg, Germany (Frankfurter Straße); DE-Bietigheim, Germany (Höpfigheimer Straße)",
-      "pay": "",
-      "url": "https://arrow.wd1.myworkdayjobs.com/en-US/AC/job/DE-Neu-Isenburg-Germany-Frankfurter-Strae/Inside-Sales-Representative-Automotive-IP-E--m-f-d-_R248678-1",
-      "source": "ats",
-      "track": "office",
-      "kept": false,
-      "dropReason": "abroad",
-      "snippet": "Full time Position: Inside Sales Representative Automotive IP&E (m/f/d) Job Description: Job Description Arrow Components is part of Arrow Electronics, a globa…"
     },
     {
       "id": "db94e2c4dae3688a395892fe2f55aa89ebe1ec26",
@@ -4553,12 +4397,12 @@
       "snippet": "Headquarters: Australia URL: https://www.huntress.com/demo What We Do: Cybercrime is growing, and more businesses are getting hit by threats that used to targe…"
     },
     {
-      "id": "e6e1018376da414090621ada9b91aeb1ae9e0cf0",
+      "id": "60cde6804835777e1a05939bf11077e3716009fd",
       "title": "Pediatric Neurology Nurse Practitioner (NP)",
       "company": "AMN Healthcare",
       "location": "Charleston, Charleston County",
       "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5962207876?se=zMdFD03g8RG9p9ob_RTtsA&utm_medium=api&utm_source=ea9765bf&v=DE07B854A5131D1C56D2628F0A976012E506542A",
+      "url": "https://www.adzuna.com/land/ad/5962207876?se=_shl8XHg8RGYoYBThUdMLw&utm_medium=api&utm_source=ea9765bf&v=DE07B854A5131D1C56D2628F0A976012E506542A",
       "source": "adzuna",
       "track": "marine-chs",
       "kept": false,
@@ -4566,12 +4410,12 @@
       "snippet": "*Job Description & Requirements* Pediatric Neurology Nurse Practitioner or Physician Assistant(NP) StartDate: ASAP Pay Rate: $125000.00 - $135000.00 The Medica…"
     },
     {
-      "id": "d623ace193f6d8818d58bdc34b6597e4892709d7",
+      "id": "b1147e2cf78250ccabc56129bb1a1bf9629ec638",
       "title": "Division Chief, Pediatric Neurology",
       "company": "AMN Healthcare",
       "location": "Charleston, Charleston County",
       "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5962207885?se=zMdFD03g8RG9p9ob_RTtsA&utm_medium=api&utm_source=ea9765bf&v=4B1E38E58642AE83ABB021B17E60198D6C2B91F5",
+      "url": "https://www.adzuna.com/land/ad/5962207885?se=_shl8XHg8RGYoYBThUdMLw&utm_medium=api&utm_source=ea9765bf&v=4B1E38E58642AE83ABB021B17E60198D6C2B91F5",
       "source": "adzuna",
       "track": "marine-chs",
       "kept": false,
@@ -4579,12 +4423,12 @@
       "snippet": "*Job Description & Requirements* Division Chief, Pediatric Neurology StartDate: ASAP Pay Rate: $325000.00 - $350000.00 The Medical University of South Carolina…"
     },
     {
-      "id": "454c40c762170b25187db3dd907548e798668d7f",
+      "id": "582a252dfae69be45d702375c369771b27bec398",
       "title": "Orthopedic Trauma Surgery NP Locum in Myrtle Beach, SC",
       "company": "Medicus Healthcare Solutions",
       "location": "Myrtle Beach, Horry County",
       "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5962207096?se=CLjWEE3g8RGNl561rfNY_A&utm_medium=api&utm_source=ea9765bf&v=904739BCADCC0640A1BA1FD78A621E1299E8A037",
+      "url": "https://www.adzuna.com/land/ad/5962207096?se=Eizf8XHg8RGrnN7Doq5RxQ&utm_medium=api&utm_source=ea9765bf&v=904739BCADCC0640A1BA1FD78A621E1299E8A037",
       "source": "adzuna",
       "track": "quick-cash",
       "kept": false,
@@ -4592,12 +4436,12 @@
       "snippet": "*Opportunity Details* A medical center in Myrtle Beach, South Carolina, is seeking a Nurse Practitioner to provide Orthopedic Trauma Surgery coverage. *Opportu…"
     },
     {
-      "id": "ba25e7f7b25e8a8818b87173ddcd8f85ec2750ce",
+      "id": "af6214d61ba040d3cc6b858852624de632103468",
       "title": "Family Medicine Locum Tenens Opening 1 Hour From Charleston, SC",
       "company": "Medicus Healthcare Solutions",
       "location": "Charleston, Charleston County",
       "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5962206768?se=zMdFD03g8RG9p9ob_RTtsA&utm_medium=api&utm_source=ea9765bf&v=6C3B618060125005F47365B2D9E94F2B9DC4130E",
+      "url": "https://www.adzuna.com/land/ad/5962206768?se=_shl8XHg8RGYoYBThUdMLw&utm_medium=api&utm_source=ea9765bf&v=6C3B618060125005F47365B2D9E94F2B9DC4130E",
       "source": "adzuna",
       "track": "marine-chs",
       "kept": false,
@@ -4605,12 +4449,12 @@
       "snippet": "Opportunity Details Medicus is working with a clinic one hour from Charleston, South Carolina, that has an opening for a skilled Family Medicine physician to p…"
     },
     {
-      "id": "25dd0cf86a4037eb7f29707191b454aa06efa3d5",
+      "id": "a9601c5fd96676c6537e207b3d784c20781d8bf2",
       "title": "Developmental Behavioral Pediatrician",
       "company": "AMN Healthcare",
       "location": "Charleston, Charleston County",
       "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5962205926?se=zMdFD03g8RG9p9ob_RTtsA&utm_medium=api&utm_source=ea9765bf&v=055BE4E70D8A274E11F72469F2C3A27C0348BC9F",
+      "url": "https://www.adzuna.com/land/ad/5962205926?se=_shl8XHg8RGYoYBThUdMLw&utm_medium=api&utm_source=ea9765bf&v=055BE4E70D8A274E11F72469F2C3A27C0348BC9F",
       "source": "adzuna",
       "track": "marine-chs",
       "kept": false,
@@ -4618,12 +4462,12 @@
       "snippet": "*Job Description & Requirements* Developmental Behavioral Pediatrician StartDate: ASAP *MUSC – The Medical University of South Carolina Seeks a Developmental-B…"
     },
     {
-      "id": "6795a348367db9568b273f140f260a10b9658145",
+      "id": "fa8c98904bfb18906c85720668680746c85b1da6",
       "title": "Pediatric Neurologist",
       "company": "AMN Healthcare",
       "location": "Charleston, Charleston County",
       "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5962204975?se=zMdFD03g8RG9p9ob_RTtsA&utm_medium=api&utm_source=ea9765bf&v=1544221CE91C4642073A9DD4909128E86507B697",
+      "url": "https://www.adzuna.com/land/ad/5962204975?se=_shl8XHg8RGYoYBThUdMLw&utm_medium=api&utm_source=ea9765bf&v=1544221CE91C4642073A9DD4909128E86507B697",
       "source": "adzuna",
       "track": "marine-chs",
       "kept": false,
@@ -4631,12 +4475,12 @@
       "snippet": "*Job Description & Requirements* Pediatric Neurologist StartDate: ASAP Pay Rate: $240000.00 - $270000.00 Advance your career in academic pediatric neurology wh…"
     },
     {
-      "id": "4426fb19c6951b769b80c0c0cbc0faf592e3a182",
+      "id": "e5145b03e01148ec61db7029100f5a081933a35e",
       "title": "Emergency Medicine Locum Tenens Opportunity in Eastern SC - Level II Trauma",
       "company": "Medicus Healthcare Solutions",
       "location": "Myrtle Beach, Horry County",
       "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5962204409?se=CLjWEE3g8RGNl561rfNY_A&utm_medium=api&utm_source=ea9765bf&v=CDD1DFB544F73FE4C6113AC8700A83B1DDCBE93E",
+      "url": "https://www.adzuna.com/land/ad/5962204409?se=Eizf8XHg8RGrnN7Doq5RxQ&utm_medium=api&utm_source=ea9765bf&v=CDD1DFB544F73FE4C6113AC8700A83B1DDCBE93E",
       "source": "adzuna",
       "track": "quick-cash",
       "kept": false,
@@ -4644,12 +4488,12 @@
       "snippet": "Opportunity Details Medicus has partnered with a hospital in eastern South Carolina that has an opportunity for a skilled Emergency Medicine physician to provi…"
     },
     {
-      "id": "9ac60b8dee066191f7169030ace25c6b585b8fbe",
+      "id": "9df6eddfce61cef15902d1f6f137f73869a49948",
       "title": "Automotive Mobile ADAS Technician",
       "company": "The Boyd Group",
       "location": "Lincolnville, Dorchester County",
       "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5962130307?se=WECsEk3g8RG3UKJUaLg__w&utm_medium=api&utm_source=ea9765bf&v=209DE8AC31AE3F8D8C2362854941250828424AB7",
+      "url": "https://www.adzuna.com/land/ad/5962130307?se=tuY58nHg8RG3UKJUaLg__w&utm_medium=api&utm_source=ea9765bf&v=209DE8AC31AE3F8D8C2362854941250828424AB7",
       "source": "adzuna",
       "track": "quick-cash",
       "kept": false,
@@ -4774,6 +4618,19 @@
       "snippet": "South Florida’s beacon of hospitality, Pier Sixty-Six Resort returned to Fort Lauderdale. From the famed superyacht marina to the iconic spires of the rotating…"
     },
     {
+      "id": "064374c15e718185f4210b286bf641713004724b",
+      "title": "Travel OR (Operating Room) RN (Registered Nurse) in Charleston, SC - 1163980",
+      "company": "Medical Solutions",
+      "location": "Charleston, Charleston County",
+      "pay": "",
+      "url": "https://www.adzuna.com/land/ad/5961846892?se=_shl8XHg8RGYoYBThUdMLw&utm_medium=api&utm_source=ea9765bf&v=EE2CB02FC8342F5F0F257AEE7D93DE7E8DFE28EB",
+      "source": "adzuna",
+      "track": "marine-chs",
+      "kept": false,
+      "dropReason": "not-marine",
+      "snippet": "Job Description Job Description Schedule Shift: Nights (12hr) 36 hours/week A facility in Charleston, SC is seeking its next amazing RN (Registered Nurse) to w…"
+    },
+    {
       "id": "dcb6c6c13e1a3b5a915ba2d8c65b8bb84cf62a5a",
       "title": "In-Store Sales Lead Generator",
       "company": "ARS",
@@ -4813,12 +4670,12 @@
       "snippet": "This position requires a presence in Los Angeles This position offers a salary $85,000 - $110,000 plus commission About the Job: The Real Deal is looking for a…"
     },
     {
-      "id": "c982dd5c27bad5978c10b787f6e026a94c1fca5b",
+      "id": "d4e78d8388466d69331dc15898966dd5a762c673",
       "title": "Part-time Doorstep Trash Collection Specialist - Night",
       "company": "Valet Living",
       "location": "James Island, Charleston County",
       "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5961755123?se=WECsEk3g8RG3UKJUaLg__w&utm_medium=api&utm_source=ea9765bf&v=1BE437E8E6253AA57D3D54021DDF93E7C4441C2B",
+      "url": "https://www.adzuna.com/land/ad/5961755123?se=tuY58nHg8RG3UKJUaLg__w&utm_medium=api&utm_source=ea9765bf&v=1BE437E8E6253AA57D3D54021DDF93E7C4441C2B",
       "source": "adzuna",
       "track": "quick-cash",
       "kept": false,
@@ -4826,12 +4683,12 @@
       "snippet": "Job description Earn reliable extra income close to home with a consistent evening schedule. No long-distance driving. No off-site dumping. Just local apartmen…"
     },
     {
-      "id": "2012f8d574dddbfcbacde082c04fcb4d37177a68",
+      "id": "d77bfc8334699ad7cddc3f26083f39618905499d",
       "title": "Part-time Doorstep Trash Collection Specialist - Night",
       "company": "Valet Living",
       "location": "North Charleston, Charleston County",
       "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5961755024?se=WECsEk3g8RG3UKJUaLg__w&utm_medium=api&utm_source=ea9765bf&v=69F6438A0A5D30482A0AD2B88ACEAEAFCA2BC97E",
+      "url": "https://www.adzuna.com/land/ad/5961755024?se=tuY58nHg8RG3UKJUaLg__w&utm_medium=api&utm_source=ea9765bf&v=69F6438A0A5D30482A0AD2B88ACEAEAFCA2BC97E",
       "source": "adzuna",
       "track": "quick-cash",
       "kept": false,
@@ -4878,12 +4735,12 @@
       "snippet": "Public Area Attendant Love staying active and take pride in keeping things clean? Join the team at Sun Outdoors Myrtle Beach ! As a Public Area Attendant, you'…"
     },
     {
-      "id": "a9be3105822bf25f28375742268975ee56715c58",
+      "id": "bbad818f1a2affd7749d09b26642eb48728c2a7c",
       "title": "Staff Accountant",
       "company": "BlueWater Marinas",
       "location": "Charleston, Charleston County",
       "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5961697684?se=zMdFD03g8RG9p9ob_RTtsA&utm_medium=api&utm_source=ea9765bf&v=2C541278578418084B0CEB1FB7EE26C1FB5159AE",
+      "url": "https://www.adzuna.com/land/ad/5961697684?se=_shl8XHg8RGYoYBThUdMLw&utm_medium=api&utm_source=ea9765bf&v=2C541278578418084B0CEB1FB7EE26C1FB5159AE",
       "source": "adzuna",
       "track": "marine-chs",
       "kept": false,
@@ -4891,12 +4748,12 @@
       "snippet": "Bluewater Marinas is a growing real estate investment firm specializing in the acquisition and management of high quality marinas. Bluewater is seeking a highl…"
     },
     {
-      "id": "4e80a5d1ec81dcc5029fe2e25c442320628c101c",
+      "id": "763d1a10c09ca99281b35fa5ebf69794418e046b",
       "title": "IS Technician III",
       "company": "Thompson Industrial Services",
       "location": "Charleston Air Force Base, Charleston County",
       "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5961659247?se=zMdFD03g8RG9p9ob_RTtsA&utm_medium=api&utm_source=ea9765bf&v=DADD3F3950666C40AF3A4FCC27B0BF9C2E95A472",
+      "url": "https://www.adzuna.com/land/ad/5961659247?se=_shl8XHg8RGYoYBThUdMLw&utm_medium=api&utm_source=ea9765bf&v=DADD3F3950666C40AF3A4FCC27B0BF9C2E95A472",
       "source": "adzuna",
       "track": "marine-chs",
       "kept": false,
@@ -4904,12 +4761,12 @@
       "snippet": "Thompson Industrial is looking for Hydroblaster/ Field Technicians III, This Technician will be responsible for the safe & proper execution of Thompson Industr…"
     },
     {
-      "id": "695e45ee5b19ef6da388bd901665237801c7b8f9",
+      "id": "f238515c829eb2d83cca800736da14868023285c",
       "title": "IS Technician III",
       "company": "Thompson Industrial Services",
       "location": "Saint Andrews, Charleston County",
       "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5961659246?se=zMdFD03g8RG9p9ob_RTtsA&utm_medium=api&utm_source=ea9765bf&v=8F1950A29CD5A5AF30BB017079C47F4ECBE16618",
+      "url": "https://www.adzuna.com/land/ad/5961659246?se=_shl8XHg8RGYoYBThUdMLw&utm_medium=api&utm_source=ea9765bf&v=8F1950A29CD5A5AF30BB017079C47F4ECBE16618",
       "source": "adzuna",
       "track": "marine-chs",
       "kept": false,
@@ -4917,12 +4774,12 @@
       "snippet": "Thompson Industrial is looking for Hydroblaster/ Field Technicians III, This Technician will be responsible for the safe & proper execution of Thompson Industr…"
     },
     {
-      "id": "0b900dd5eab27f8d392451a53237dba5d03368ff",
+      "id": "d5b1f0c3975e3cfed1f24a0539682b926b9f1b1a",
       "title": "Store Associate",
       "company": "CVS Health",
       "location": "South Brunswick, Brunswick County",
       "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5961646789?se=ZqsYFE3g8RG2_dMaX_9hbQ&utm_medium=api&utm_source=ea9765bf&v=8460D25E25C04C459CF99DD88E09D87F67B7CF3E",
+      "url": "https://www.adzuna.com/land/ad/5961646789?se=hkdF8nHg8RGNl561rfNY_A&utm_medium=api&utm_source=ea9765bf&v=8460D25E25C04C459CF99DD88E09D87F67B7CF3E",
       "source": "adzuna",
       "track": "quick-cash",
       "kept": false,
@@ -4943,12 +4800,12 @@
       "snippet": "Job Identification: 230749 Job Category: Food and Beverage Job Schedule: Full time Salary $17.00/USD/Hourly Equal Opportunity Employer EOE, including disabilit…"
     },
     {
-      "id": "3dc7f902708382abd69cfbec4528126ebc470f1d",
+      "id": "956d1c3609599ff4381ac550ae443066babd5a8d",
       "title": "Retail Sales Associate - Full Time",
       "company": "AutoZone, Inc.",
       "location": "Georgetown, Georgetown County",
       "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5961610498?se=ZqsYFE3g8RG2_dMaX_9hbQ&utm_medium=api&utm_source=ea9765bf&v=E3B384B8BA1809E544F97DD1C45FC0A355D9954C",
+      "url": "https://www.adzuna.com/land/ad/5961610498?se=hkdF8nHg8RGNl561rfNY_A&utm_medium=api&utm_source=ea9765bf&v=E3B384B8BA1809E544F97DD1C45FC0A355D9954C",
       "source": "adzuna",
       "track": "quick-cash",
       "kept": false,
@@ -5034,12 +4891,12 @@
       "snippet": "ARS-Rescue Rooter is seeking an energetic In-Store Sales Lead Generator to represent our residential HVAC, plumbing, and electrical services inside retail loca…"
     },
     {
-      "id": "d67c977adc9741f125e16f283243aadad4526b46",
+      "id": "f7f33631c7c8cf83843260e645bafe34b8d97999",
       "title": "Retail Lead Generation Representative – Home Services",
       "company": "ARS-Rescue Rooter",
       "location": "Murrells Inlet, Horry County",
       "pay": "$48,000–$58,000/year",
-      "url": "https://www.adzuna.com/land/ad/5961433303?se=kPBLEk3g8RGDtoxXJCvQRQ&utm_medium=api&utm_source=ea9765bf&v=F5E88A604685BCA2A52DFF940E79714652FD3BFF",
+      "url": "https://www.adzuna.com/land/ad/5961433303?se=Turk8XHg8RG3UKJUaLg__w&utm_medium=api&utm_source=ea9765bf&v=F5E88A604685BCA2A52DFF940E79714652FD3BFF",
       "source": "adzuna",
       "track": "quick-cash",
       "kept": false,
@@ -5047,12 +4904,12 @@
       "snippet": "ARS-Rescue Rooter is seeking an energetic In-Store Sales Lead Generator to represent our residential HVAC, plumbing, and electrical services inside retail loca…"
     },
     {
-      "id": "ef4307f72ac5d63458a7a0956afd550a8f9aea72",
+      "id": "174f70b26cac299900a29e67cd97d14474ca2879",
       "title": "Retail Lead Generation Representative – Home Services",
       "company": "ARS-Rescue Rooter",
       "location": "Murrells Inlet, Horry County",
       "pay": "$48,000–$58,000/year",
-      "url": "https://www.adzuna.com/land/ad/5961433303?se=ZqsYFE3g8RG2_dMaX_9hbQ&utm_medium=api&utm_source=ea9765bf&v=F5E88A604685BCA2A52DFF940E79714652FD3BFF",
+      "url": "https://www.adzuna.com/land/ad/5961433303?se=hkdF8nHg8RGNl561rfNY_A&utm_medium=api&utm_source=ea9765bf&v=F5E88A604685BCA2A52DFF940E79714652FD3BFF",
       "source": "adzuna",
       "track": "tech-sales",
       "kept": false,
@@ -5060,12 +4917,12 @@
       "snippet": "ARS-Rescue Rooter is seeking an energetic In-Store Sales Lead Generator to represent our residential HVAC, plumbing, and electrical services inside retail loca…"
     },
     {
-      "id": "f9a700e94e4e1815b3dc5bc062ed6a4e30b394b5",
+      "id": "b82ba22ccefa9e294cf719a2e702eb74367a7eae",
       "title": "Retail Lead Generation Representative – Home Services",
       "company": "ARS-Rescue Rooter",
       "location": "Myrtle Beach, Horry County",
       "pay": "$48,000–$58,000/year",
-      "url": "https://www.adzuna.com/land/ad/5961430070?se=kPBLEk3g8RGDtoxXJCvQRQ&utm_medium=api&utm_source=ea9765bf&v=659425EEBA4E7BE43C6A098767985C18482FC91B",
+      "url": "https://www.adzuna.com/land/ad/5961430070?se=Turk8XHg8RG3UKJUaLg__w&utm_medium=api&utm_source=ea9765bf&v=659425EEBA4E7BE43C6A098767985C18482FC91B",
       "source": "adzuna",
       "track": "quick-cash",
       "kept": false,
@@ -5073,12 +4930,12 @@
       "snippet": "ARS-Rescue Rooter is seeking an In-Store Lead Generation Specialist to represent our HVAC, plumbing, and electrical services inside major retail locations. You…"
     },
     {
-      "id": "e02a6f3d0580b8faeb3cb5742b0920e6cb39407e",
+      "id": "5f30017170b726c50f38f9c852464b877f25486c",
       "title": "Retail Lead Generation Representative – Home Services",
       "company": "ARS-Rescue Rooter",
       "location": "Myrtle Beach, Horry County",
       "pay": "$48,000–$58,000/year",
-      "url": "https://www.adzuna.com/land/ad/5961430070?se=ZqsYFE3g8RG2_dMaX_9hbQ&utm_medium=api&utm_source=ea9765bf&v=659425EEBA4E7BE43C6A098767985C18482FC91B",
+      "url": "https://www.adzuna.com/land/ad/5961430070?se=hkdF8nHg8RGNl561rfNY_A&utm_medium=api&utm_source=ea9765bf&v=659425EEBA4E7BE43C6A098767985C18482FC91B",
       "source": "adzuna",
       "track": "tech-sales",
       "kept": false,
@@ -5086,12 +4943,12 @@
       "snippet": "ARS-Rescue Rooter is seeking an In-Store Lead Generation Specialist to represent our HVAC, plumbing, and electrical services inside major retail locations. You…"
     },
     {
-      "id": "6979c6e1a40ed62caa3d2f6dfc7d812b3e92131b",
+      "id": "5516954e5dbdb0ba522972ae14ce103fa0b32e28",
       "title": "Retail Lead Generation Representative – Home Services",
       "company": "ARS-Rescue Rooter",
       "location": "North Myrtle Beach, Horry County",
       "pay": "$48,000–$58,000/year",
-      "url": "https://www.adzuna.com/land/ad/5961392868?se=kPBLEk3g8RGDtoxXJCvQRQ&utm_medium=api&utm_source=ea9765bf&v=2A2255FB08DF24505868AABD1C6DDA4874599478",
+      "url": "https://www.adzuna.com/land/ad/5961392868?se=Turk8XHg8RG3UKJUaLg__w&utm_medium=api&utm_source=ea9765bf&v=2A2255FB08DF24505868AABD1C6DDA4874599478",
       "source": "adzuna",
       "track": "quick-cash",
       "kept": false,
@@ -5099,12 +4956,12 @@
       "snippet": "ARS-Rescue Rooter is seeking an energetic In-Store Sales Lead Generator to represent our residential HVAC, plumbing, and electrical services inside retail loca…"
     },
     {
-      "id": "94f1fc23fc0dc789b7460d8d303e6b09fd498e80",
+      "id": "40f0d3fe54b85eaf7e11ae8bbd5291bf873047a8",
       "title": "Retail Lead Generation Representative – Home Services",
       "company": "ARS-Rescue Rooter",
       "location": "North Myrtle Beach, Horry County",
       "pay": "$48,000–$58,000/year",
-      "url": "https://www.adzuna.com/land/ad/5961392868?se=ZqsYFE3g8RG2_dMaX_9hbQ&utm_medium=api&utm_source=ea9765bf&v=2A2255FB08DF24505868AABD1C6DDA4874599478",
+      "url": "https://www.adzuna.com/land/ad/5961392868?se=hkdF8nHg8RGNl561rfNY_A&utm_medium=api&utm_source=ea9765bf&v=2A2255FB08DF24505868AABD1C6DDA4874599478",
       "source": "adzuna",
       "track": "tech-sales",
       "kept": false,
@@ -5172,7 +5029,7 @@
       "url": "https://jobicy.com/jobs/152922-sdr-sales-development-representative",
       "source": "jobicy",
       "track": "tech-sales",
-      "kept": true,
+      "kept": false,
       "dropReason": null,
       "snippet": "About Double Bookkeepers today are stuck working in excel spreadsheets and homegrown project management solutions to support their clients. Double is on a miss…"
     },
@@ -5216,12 +5073,12 @@
       "snippet": "About Four Seasons: Four Seasons is powered by our people. We are a collective of individuals who crave to become better, to push ourselves to new heights and …"
     },
     {
-      "id": "158b6b3591de54a77dfd853b171e99774dd5089c",
+      "id": "3553ee2fd3b5e108cb32f8e4b0e925be292a8255",
       "title": "Travel ICU (Intensive Care Unit) RN (Registered Nurse) in Charleston, SC - 1168421",
       "company": "Medical Solutions",
       "location": "James Island, Charleston County",
       "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5961324855?se=zMdFD03g8RG9p9ob_RTtsA&utm_medium=api&utm_source=ea9765bf&v=791D22048B7321BFCB4F55224E09AFA9536C8330",
+      "url": "https://www.adzuna.com/land/ad/5961324855?se=_shl8XHg8RGYoYBThUdMLw&utm_medium=api&utm_source=ea9765bf&v=791D22048B7321BFCB4F55224E09AFA9536C8330",
       "source": "adzuna",
       "track": "marine-chs",
       "kept": false,
@@ -5237,7 +5094,7 @@
       "url": "https://jobicy.com/jobs/152861-sales-development-representative-outbound",
       "source": "jobicy",
       "track": "tech-sales",
-      "kept": true,
+      "kept": false,
       "dropReason": null,
       "snippet": "Tremendous is the global platform built for businesses to send thousands of payouts to anyone, anywhere, for free. We're trusted by 20,000 organizations like A…"
     },
@@ -5359,12 +5216,12 @@
       "snippet": "Brand Ambassador - Qui Tequila Location: Charleston, SC State: South Carolina Job Type: Part-time Pay: $30-$50 per hour About Qui Tequila QUI Tequila is a luxu…"
     },
     {
-      "id": "2c6a31b069bba4fa009bbe16f8754ec80f6ccc15",
+      "id": "f1e54e8f0ddd7aa2753660b0880845e0b795685d",
       "title": "Travel ICU (Intensive Care Unit) RN (Registered Nurse) in Charleston, SC - 1168421",
       "company": "Medical Solutions",
       "location": "Charleston, Charleston County",
       "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5961090644?se=zMdFD03g8RG9p9ob_RTtsA&utm_medium=api&utm_source=ea9765bf&v=F3CE4D8B0033474928D2A26C711C5073F346A1E2",
+      "url": "https://www.adzuna.com/land/ad/5961090644?se=_shl8XHg8RGYoYBThUdMLw&utm_medium=api&utm_source=ea9765bf&v=F3CE4D8B0033474928D2A26C711C5073F346A1E2",
       "source": "adzuna",
       "track": "marine-chs",
       "kept": false,
@@ -5372,12 +5229,12 @@
       "snippet": "Job Description Job Description Schedule Shift: Nights 36 hours/week A facility in Charleston, SC is seeking its next amazing RN (Registered Nurse) to work in …"
     },
     {
-      "id": "0ec1f8dcb1ed3f9abc06065cb6df13f349b6eef8",
+      "id": "61bdc4e55a8dffe3139acb8481b0f03e7d445faa",
       "title": "Physician / Hospitalist - Pediatric / South Carolina / Locum or Permanent / Pediatric Hospitalist opening minutes from Myrtle Beach, SC - $25K sign-on Job",
       "company": "Britt Medical Search",
       "location": "Conway, Horry County",
       "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5961024705?se=CLjWEE3g8RGNl561rfNY_A&utm_medium=api&utm_source=ea9765bf&v=14D1B672475EFF3D9AFF7B24D8E6621531AECF0E",
+      "url": "https://www.adzuna.com/land/ad/5961024705?se=Eizf8XHg8RGrnN7Doq5RxQ&utm_medium=api&utm_source=ea9765bf&v=14D1B672475EFF3D9AFF7B24D8E6621531AECF0E",
       "source": "adzuna",
       "track": "quick-cash",
       "kept": false,
@@ -5385,12 +5242,12 @@
       "snippet": "Medical Center is now seeking a Pediatric Hospitalist to join our team in Conway, SC. This is a full-time inpatient pediatrician role, focusing on providing ca…"
     },
     {
-      "id": "85e97af820ee55af8a45711a23587d64ce9bcb02",
+      "id": "c24247bde3ed2b89c626f9865e78c69cd3a39bda",
       "title": "Community Health near Myrtle Beach",
       "company": "John L Search Partners",
       "location": "South Brunswick, Brunswick County",
       "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5961021398?se=CLjWEE3g8RGNl561rfNY_A&utm_medium=api&utm_source=ea9765bf&v=247BA9EE1E261DD9CE13ABD149FE8C901C58BA41",
+      "url": "https://www.adzuna.com/land/ad/5961021398?se=Eizf8XHg8RGrnN7Doq5RxQ&utm_medium=api&utm_source=ea9765bf&v=247BA9EE1E261DD9CE13ABD149FE8C901C58BA41",
       "source": "adzuna",
       "track": "quick-cash",
       "kept": false,
@@ -5398,12 +5255,12 @@
       "snippet": "Seeking a primary care physician for a community health center in Shallotte, North Carolina. Join an excellent organization serving Eastern North Carolina. Hig…"
     },
     {
-      "id": "fe6a27f0ef052cba226ca0b918c7d5640fc52a4d",
+      "id": "5b8fd33392167b58cc8274c53a58101661673167",
       "title": "Physician / ObGyn / South Carolina / Permanent / OBGYN - Myrtle Beach, SC - light call, sign-on Job",
       "company": "Britt Medical Search",
       "location": "Conway, Horry County",
       "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5961021108?se=CLjWEE3g8RGNl561rfNY_A&utm_medium=api&utm_source=ea9765bf&v=2DE05ED955604B240F916ACB437F7FF5E4EADB1B",
+      "url": "https://www.adzuna.com/land/ad/5961021108?se=Eizf8XHg8RGrnN7Doq5RxQ&utm_medium=api&utm_source=ea9765bf&v=2DE05ED955604B240F916ACB437F7FF5E4EADB1B",
       "source": "adzuna",
       "track": "quick-cash",
       "kept": false,
@@ -5411,12 +5268,12 @@
       "snippet": "Seeking BE/BC OBGYN to join fantastic team near Myrtle Beach, SC. This role offers a balanced blend of outpatient practice and inpatient obstetrics, supported …"
     },
     {
-      "id": "10ad3a2f5e718e465ec49a7b7e76dd4f4b5c8f68",
+      "id": "2c35d65a020ee8063394f7bd24ceaa9fe8c4a432",
       "title": "Physician / Family Practice / South Carolina / Permanent / Primary Care Physician | Charleston, SC Medicare Value-Based Care Job",
       "company": "Britt Medical Search",
       "location": "Jericho, Charleston County",
       "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5961020946?se=zMdFD03g8RG9p9ob_RTtsA&utm_medium=api&utm_source=ea9765bf&v=F8A3CEE5A8C46D97D1BC69F79B572971E87DB639",
+      "url": "https://www.adzuna.com/land/ad/5961020946?se=_shl8XHg8RGYoYBThUdMLw&utm_medium=api&utm_source=ea9765bf&v=F8A3CEE5A8C46D97D1BC69F79B572971E87DB639",
       "source": "adzuna",
       "track": "marine-chs",
       "kept": false,
@@ -5450,12 +5307,12 @@
       "snippet": "Join Advantage Solutions, a globally recognized leader in sales and marketing solutions, as a Part Time Product Demonstrator. In this role, you will play a piv…"
     },
     {
-      "id": "52f16c8167fbf0dae13480c9069f157d71f31059",
+      "id": "634f19de467ec1b83bfc5bef78e7b6d4221c32cc",
       "title": "Product Demonstrator",
       "company": "Advantage Solutions",
       "location": "Harleyville, Dorchester County",
       "pay": "$18–$23.75/hour",
-      "url": "https://www.adzuna.com/land/ad/5960919070?se=WECsEk3g8RG3UKJUaLg__w&utm_medium=api&utm_source=ea9765bf&v=ECA3E2E3ED49BB311904C9BFAEE5AD89C170ECE6",
+      "url": "https://www.adzuna.com/land/ad/5960919070?se=tuY58nHg8RG3UKJUaLg__w&utm_medium=api&utm_source=ea9765bf&v=ECA3E2E3ED49BB311904C9BFAEE5AD89C170ECE6",
       "source": "adzuna",
       "track": "quick-cash",
       "kept": false,
@@ -5528,12 +5385,12 @@
       "snippet": "Italian Language Expert: Google Workspace AI Evaluator About the Role What if the way you already use email and documents every day could help make AI tools wo…"
     },
     {
-      "id": "a450daaf47fe387d0775c6de57390bd237aa73cf",
+      "id": "802ea446dc3d1056a51113f3ed03695431eaffb9",
       "title": "Product Demonstrator",
       "company": "Advantage Solutions",
       "location": "Cottageville, Colleton County",
       "pay": "$18–$23.75/hour",
-      "url": "https://www.adzuna.com/land/ad/5960900694?se=WECsEk3g8RG3UKJUaLg__w&utm_medium=api&utm_source=ea9765bf&v=86CBA9E54522D72CBCE45CA0160909FFD90A5809",
+      "url": "https://www.adzuna.com/land/ad/5960900694?se=tuY58nHg8RG3UKJUaLg__w&utm_medium=api&utm_source=ea9765bf&v=86CBA9E54522D72CBCE45CA0160909FFD90A5809",
       "source": "adzuna",
       "track": "quick-cash",
       "kept": false,
@@ -5541,12 +5398,12 @@
       "snippet": "Join Advantage Solutions, a globally recognized leader in sales and marketing solutions, as a Part Time Product Demonstrator. In this role, you will play a piv…"
     },
     {
-      "id": "8a27aca30a9ed30cd685bd376df00820f19ee777",
+      "id": "8af383fba8345773e7f895ade8822ffd5fd89fbf",
       "title": "Product Demonstrator",
       "company": "Advantage Solutions",
       "location": "Moncks Corner, Berkeley County",
       "pay": "$18–$23.75/hour",
-      "url": "https://www.adzuna.com/land/ad/5960899058?se=WECsEk3g8RG3UKJUaLg__w&utm_medium=api&utm_source=ea9765bf&v=1C4D0800DD4191AACE10A3F05A0DA350D3335971",
+      "url": "https://www.adzuna.com/land/ad/5960899058?se=tuY58nHg8RG3UKJUaLg__w&utm_medium=api&utm_source=ea9765bf&v=1C4D0800DD4191AACE10A3F05A0DA350D3335971",
       "source": "adzuna",
       "track": "quick-cash",
       "kept": false,
@@ -5606,12 +5463,12 @@
       "snippet": "Full time About Us: Since 2021, McAllister Towing LNG Services, LLC serves as technical manager for Seaside LNG's bunkering operations in Florida. McAllister c…"
     },
     {
-      "id": "60ad864d206714d515d5e8f8d939ce9eaa8a6010",
+      "id": "104626558e850231646299f0699675e5a95f328e",
       "title": "Product Demonstrator",
       "company": "Advantage Solutions",
       "location": "Rantowels, Charleston County",
       "pay": "$18–$23.75/hour",
-      "url": "https://www.adzuna.com/land/ad/5960857370?se=WECsEk3g8RG3UKJUaLg__w&utm_medium=api&utm_source=ea9765bf&v=CDDFD360F88D5BFEEEECCBF80962C89D235A7553",
+      "url": "https://www.adzuna.com/land/ad/5960857370?se=tuY58nHg8RG3UKJUaLg__w&utm_medium=api&utm_source=ea9765bf&v=CDDFD360F88D5BFEEEECCBF80962C89D235A7553",
       "source": "adzuna",
       "track": "quick-cash",
       "kept": false,
@@ -5619,12 +5476,12 @@
       "snippet": "Join Advantage Solutions, a globally recognized leader in sales and marketing solutions, as a Part Time Product Demonstrator. In this role, you will play a piv…"
     },
     {
-      "id": "1322ee19fe76b797e7d4440ef47fe1eedbe6c999",
+      "id": "d02d050f4a97f5e554dff06b2167af379ec4a6aa",
       "title": "Product Demonstrator",
       "company": "Advantage Solutions",
       "location": "Awendaw, Charleston County",
       "pay": "$18–$23.75/hour",
-      "url": "https://www.adzuna.com/land/ad/5960853343?se=WECsEk3g8RG3UKJUaLg__w&utm_medium=api&utm_source=ea9765bf&v=BC7FC7808C5A41F39C957702DEEE53A9B88DD1D5",
+      "url": "https://www.adzuna.com/land/ad/5960853343?se=tuY58nHg8RG3UKJUaLg__w&utm_medium=api&utm_source=ea9765bf&v=BC7FC7808C5A41F39C957702DEEE53A9B88DD1D5",
       "source": "adzuna",
       "track": "quick-cash",
       "kept": false,
@@ -5671,12 +5528,12 @@
       "snippet": "You’re the heart of Connection. A people person who loves to help, listen, and learn. Join our team of experts to grow your career and work side by side with s…"
     },
     {
-      "id": "da45a579752f88448c04cf73cc79f4e036b5e0f7",
+      "id": "fb96856f582b0ce41da9102428af10b5b79b7ba8",
       "title": "Product Demonstrator",
       "company": "Advantage Solutions",
       "location": "Charleston, Charleston County",
       "pay": "$18–$23.75/hour",
-      "url": "https://www.adzuna.com/land/ad/5960812552?se=WECsEk3g8RG3UKJUaLg__w&utm_medium=api&utm_source=ea9765bf&v=15297748694CC79A96B4ECD2285AEB8C67C6D934",
+      "url": "https://www.adzuna.com/land/ad/5960812552?se=tuY58nHg8RG3UKJUaLg__w&utm_medium=api&utm_source=ea9765bf&v=15297748694CC79A96B4ECD2285AEB8C67C6D934",
       "source": "adzuna",
       "track": "quick-cash",
       "kept": false,
@@ -5684,12 +5541,12 @@
       "snippet": "Join Advantage Solutions, a globally recognized leader in sales and marketing solutions, as a Part Time Product Demonstrator. In this role, you will play a piv…"
     },
     {
-      "id": "2f6b671c32aa96d93491d6e537804b5538d402f7",
+      "id": "a7b4b3ad4e441b74c2bc249dac8e0b56942b9a79",
       "title": "Product Demonstrator",
       "company": "Advantage Solutions",
       "location": "Johns Island, Charleston County",
       "pay": "$18–$23.75/hour",
-      "url": "https://www.adzuna.com/land/ad/5960812548?se=WECsEk3g8RG3UKJUaLg__w&utm_medium=api&utm_source=ea9765bf&v=901C233295DAD8F236FC1B9AD0114DB9CE1D85CF",
+      "url": "https://www.adzuna.com/land/ad/5960812548?se=tuY58nHg8RG3UKJUaLg__w&utm_medium=api&utm_source=ea9765bf&v=901C233295DAD8F236FC1B9AD0114DB9CE1D85CF",
       "source": "adzuna",
       "track": "quick-cash",
       "kept": false,
@@ -5697,12 +5554,12 @@
       "snippet": "Join Advantage Solutions, a globally recognized leader in sales and marketing solutions, as a Part Time Product Demonstrator. In this role, you will play a piv…"
     },
     {
-      "id": "663c117fac85406ec33aa62cd718c81649a92c6b",
+      "id": "f749240272fd892ebd27967b492ad85952ca2eb3",
       "title": "Product Demonstrator",
       "company": "Advantage Solutions",
       "location": "Adams Run, Charleston County",
       "pay": "$18–$23.75/hour",
-      "url": "https://www.adzuna.com/land/ad/5960811663?se=WECsEk3g8RG3UKJUaLg__w&utm_medium=api&utm_source=ea9765bf&v=4A8CFD3203896EF5CCF7A131E76080A29B854638",
+      "url": "https://www.adzuna.com/land/ad/5960811663?se=tuY58nHg8RG3UKJUaLg__w&utm_medium=api&utm_source=ea9765bf&v=4A8CFD3203896EF5CCF7A131E76080A29B854638",
       "source": "adzuna",
       "track": "quick-cash",
       "kept": false,
@@ -5710,12 +5567,12 @@
       "snippet": "Join Advantage Solutions, a globally recognized leader in sales and marketing solutions, as a Part Time Product Demonstrator. In this role, you will play a piv…"
     },
     {
-      "id": "d28fbca722eadeef4b26b4670ed805871ff68d62",
+      "id": "6f3dbc0de61283a6fb8c0948acd0f9f3b3ed8d6a",
       "title": "Product Demonstrator",
       "company": "Advantage Solutions",
       "location": "Ladson, Berkeley County",
       "pay": "$18–$23.75/hour",
-      "url": "https://www.adzuna.com/land/ad/5960811640?se=WECsEk3g8RG3UKJUaLg__w&utm_medium=api&utm_source=ea9765bf&v=B4652C4C4F25C131ACF260603BA2A38135BF5CBB",
+      "url": "https://www.adzuna.com/land/ad/5960811640?se=tuY58nHg8RG3UKJUaLg__w&utm_medium=api&utm_source=ea9765bf&v=B4652C4C4F25C131ACF260603BA2A38135BF5CBB",
       "source": "adzuna",
       "track": "quick-cash",
       "kept": false,
@@ -5723,12 +5580,12 @@
       "snippet": "Join Advantage Solutions, a globally recognized leader in sales and marketing solutions, as a Part Time Product Demonstrator. In this role, you will play a piv…"
     },
     {
-      "id": "dce3a812c23b71a9fbc92550a8e82b7ef0d24610",
+      "id": "03b355079593a9db866ffbdf0baa857affc25428",
       "title": "Product Demonstrator",
       "company": "Advantage Solutions",
       "location": "Mount Pleasant, Charleston County",
       "pay": "$18–$23.75/hour",
-      "url": "https://www.adzuna.com/land/ad/5960811577?se=WECsEk3g8RG3UKJUaLg__w&utm_medium=api&utm_source=ea9765bf&v=99BF6EF4DA8714D0617CDFDEBD5D461EC876194A",
+      "url": "https://www.adzuna.com/land/ad/5960811577?se=tuY58nHg8RG3UKJUaLg__w&utm_medium=api&utm_source=ea9765bf&v=99BF6EF4DA8714D0617CDFDEBD5D461EC876194A",
       "source": "adzuna",
       "track": "quick-cash",
       "kept": false,
@@ -5736,12 +5593,12 @@
       "snippet": "Join Advantage Solutions, a globally recognized leader in sales and marketing solutions, as a Part Time Product Demonstrator. In this role, you will play a piv…"
     },
     {
-      "id": "c7dfe94d7a1a33a2fa5fdc0ddb6403f1b24b89d2",
+      "id": "32bcedab40af49efe4a5e7d1f9b1b5fecb54afee",
       "title": "Product Demonstrator",
       "company": "Advantage Solutions",
       "location": "Lincolnville, Dorchester County",
       "pay": "$18–$23.75/hour",
-      "url": "https://www.adzuna.com/land/ad/5960810043?se=WECsEk3g8RG3UKJUaLg__w&utm_medium=api&utm_source=ea9765bf&v=2E5F0C63AE0E09507D2C83C79CF42E802606B18C",
+      "url": "https://www.adzuna.com/land/ad/5960810043?se=tuY58nHg8RG3UKJUaLg__w&utm_medium=api&utm_source=ea9765bf&v=2E5F0C63AE0E09507D2C83C79CF42E802606B18C",
       "source": "adzuna",
       "track": "quick-cash",
       "kept": false,
@@ -5749,12 +5606,12 @@
       "snippet": "Join Advantage Solutions, a globally recognized leader in sales and marketing solutions, as a Part Time Product Demonstrator. In this role, you will play a piv…"
     },
     {
-      "id": "8a85feb099c93bc259d6e49ab2c0acfbe250c5d4",
+      "id": "1ffe9f3025335d658f7769bbb753e13a090ab93a",
       "title": "Product Demonstrator",
       "company": "Advantage Solutions",
       "location": "James Island, Charleston County",
       "pay": "$18–$23.75/hour",
-      "url": "https://www.adzuna.com/land/ad/5960809674?se=WECsEk3g8RG3UKJUaLg__w&utm_medium=api&utm_source=ea9765bf&v=D300F5DEB0AEAAEA01701932C6DDA76EC36A4F93",
+      "url": "https://www.adzuna.com/land/ad/5960809674?se=tuY58nHg8RG3UKJUaLg__w&utm_medium=api&utm_source=ea9765bf&v=D300F5DEB0AEAAEA01701932C6DDA76EC36A4F93",
       "source": "adzuna",
       "track": "quick-cash",
       "kept": false,
@@ -5762,12 +5619,12 @@
       "snippet": "Join Advantage Solutions, a globally recognized leader in sales and marketing solutions, as a Part Time Product Demonstrator. In this role, you will play a piv…"
     },
     {
-      "id": "08b1e4c025300867525b8edcedc181663092100e",
+      "id": "9ac7161d2690a371e7d6cd2b22dd6e1dab25936a",
       "title": "Product Demonstrator",
       "company": "Advantage Solutions",
       "location": "Saint Andrews, Charleston County",
       "pay": "$18–$23.75/hour",
-      "url": "https://www.adzuna.com/land/ad/5960809664?se=WECsEk3g8RG3UKJUaLg__w&utm_medium=api&utm_source=ea9765bf&v=CA3B4761DD103E045A4C2E89495631C96D7464BA",
+      "url": "https://www.adzuna.com/land/ad/5960809664?se=tuY58nHg8RG3UKJUaLg__w&utm_medium=api&utm_source=ea9765bf&v=CA3B4761DD103E045A4C2E89495631C96D7464BA",
       "source": "adzuna",
       "track": "quick-cash",
       "kept": false,
@@ -5775,12 +5632,12 @@
       "snippet": "Join Advantage Solutions, a globally recognized leader in sales and marketing solutions, as a Part Time Product Demonstrator. In this role, you will play a piv…"
     },
     {
-      "id": "37332898df7f9c05489ba8afa1a280aecef18c83",
+      "id": "52bba3f4facdbb5f40df525fb756a14db4991e32",
       "title": "Product Demonstrator",
       "company": "Advantage Solutions",
       "location": "Goose Creek, Berkeley County",
       "pay": "$18–$23.75/hour",
-      "url": "https://www.adzuna.com/land/ad/5960808656?se=WECsEk3g8RG3UKJUaLg__w&utm_medium=api&utm_source=ea9765bf&v=A22228BC4A27D17E85834FD04C5E05707EC4D7DF",
+      "url": "https://www.adzuna.com/land/ad/5960808656?se=tuY58nHg8RG3UKJUaLg__w&utm_medium=api&utm_source=ea9765bf&v=A22228BC4A27D17E85834FD04C5E05707EC4D7DF",
       "source": "adzuna",
       "track": "quick-cash",
       "kept": false,
@@ -5788,12 +5645,12 @@
       "snippet": "Join Advantage Solutions, a globally recognized leader in sales and marketing solutions, as a Part Time Product Demonstrator. In this role, you will play a piv…"
     },
     {
-      "id": "d26f47078dedbfeb8925f88b60a8ea06a7ebd45c",
+      "id": "830ecf47e7ff3757bb90bee38d6a9830257f1215",
       "title": "Product Demonstrator",
       "company": "Advantage Solutions",
       "location": "Yonges Island, Charleston County",
       "pay": "$18–$23.75/hour",
-      "url": "https://www.adzuna.com/land/ad/5960805925?se=WECsEk3g8RG3UKJUaLg__w&utm_medium=api&utm_source=ea9765bf&v=E5B80CF306687B8188FEBCADA078E3A880B623ED",
+      "url": "https://www.adzuna.com/land/ad/5960805925?se=tuY58nHg8RG3UKJUaLg__w&utm_medium=api&utm_source=ea9765bf&v=E5B80CF306687B8188FEBCADA078E3A880B623ED",
       "source": "adzuna",
       "track": "quick-cash",
       "kept": false,
@@ -5801,12 +5658,12 @@
       "snippet": "Join Advantage Solutions, a globally recognized leader in sales and marketing solutions, as a Part Time Product Demonstrator. In this role, you will play a piv…"
     },
     {
-      "id": "46c158d059ec96937ed7ed71ea54042481835dd5",
+      "id": "eb76af39b22b4978c7189818507eb78ac66b2f73",
       "title": "Product Demonstrator",
       "company": "Advantage Solutions",
       "location": "Daniel Island, Berkeley County",
       "pay": "$18–$23.75/hour",
-      "url": "https://www.adzuna.com/land/ad/5960805784?se=WECsEk3g8RG3UKJUaLg__w&utm_medium=api&utm_source=ea9765bf&v=D91C2A85F313B0E9BF929AB24E081FC1E0AAE51A",
+      "url": "https://www.adzuna.com/land/ad/5960805784?se=tuY58nHg8RG3UKJUaLg__w&utm_medium=api&utm_source=ea9765bf&v=D91C2A85F313B0E9BF929AB24E081FC1E0AAE51A",
       "source": "adzuna",
       "track": "quick-cash",
       "kept": false,
@@ -5814,12 +5671,12 @@
       "snippet": "Join Advantage Solutions, a globally recognized leader in sales and marketing solutions, as a Part Time Product Demonstrator. In this role, you will play a piv…"
     },
     {
-      "id": "4cf16f5d1268ce34fcb2a313be009bb3566b5ec0",
+      "id": "a9052879019554d50fecb43a85a3cb03d16f25f3",
       "title": "Product Demonstrator",
       "company": "Advantage Solutions",
       "location": "Ravenel, Charleston County",
       "pay": "$18–$23.75/hour",
-      "url": "https://www.adzuna.com/land/ad/5960804816?se=WECsEk3g8RG3UKJUaLg__w&utm_medium=api&utm_source=ea9765bf&v=223A711D9A2A6219B492CD029D285015FB8C56D2",
+      "url": "https://www.adzuna.com/land/ad/5960804816?se=tuY58nHg8RG3UKJUaLg__w&utm_medium=api&utm_source=ea9765bf&v=223A711D9A2A6219B492CD029D285015FB8C56D2",
       "source": "adzuna",
       "track": "quick-cash",
       "kept": false,
@@ -5827,12 +5684,12 @@
       "snippet": "Join Advantage Solutions, a globally recognized leader in sales and marketing solutions, as a Part Time Product Demonstrator. In this role, you will play a piv…"
     },
     {
-      "id": "314d7dee59be71563eb33ce2885953c4d41b118f",
+      "id": "3b4be2826ba9633f97425e61c64dd787aa4a5637",
       "title": "Product Demonstrator",
       "company": "Advantage Solutions",
       "location": "Ridgeville, Dorchester County",
       "pay": "$18–$23.75/hour",
-      "url": "https://www.adzuna.com/land/ad/5960804229?se=WECsEk3g8RG3UKJUaLg__w&utm_medium=api&utm_source=ea9765bf&v=DE240F24E04A167519EF5D51EE90AD8E83BD3B9C",
+      "url": "https://www.adzuna.com/land/ad/5960804229?se=tuY58nHg8RG3UKJUaLg__w&utm_medium=api&utm_source=ea9765bf&v=DE240F24E04A167519EF5D51EE90AD8E83BD3B9C",
       "source": "adzuna",
       "track": "quick-cash",
       "kept": false,
@@ -6100,6 +5957,19 @@
       "snippet": "Lemon.io helps companies in the US and Europe hire experienced engineers, from funded startups to teams like Klarna, Retool, and Pinterest. We’ve been doing th…"
     },
     {
+      "id": "5bc3cce6c434f6888b7fe112cf1c6fca940e200a",
+      "title": "Media Sales Representative",
+      "company": "Best Version Media",
+      "location": "Surfside, Horry County",
+      "pay": "",
+      "url": "https://www.adzuna.com/land/ad/5960617919?se=hkdF8nHg8RGNl561rfNY_A&utm_medium=api&utm_source=ea9765bf&v=762EB844C0EC4DBE8DBCF6FC22A4A7301AF6E030",
+      "source": "adzuna",
+      "track": "tech-sales",
+      "kept": false,
+      "dropReason": "dead-link",
+      "snippet": "If you love your community and want to get paid for building real relationships in it, this is the outside sales opportunity built for that — not a desk job, n…"
+    },
+    {
       "id": "a32e171c106309f649a39798df99a0051a11ee86",
       "title": "POLICE OFFICER (MILITARY WORKING DOG HANDLER)",
       "company": "U.S. Marine Corps",
@@ -6165,12 +6035,12 @@
       "snippet": "On this journey for over 12 years, Qventus is leading the transformation of healthcare. We enable hospitals to focus on what matters most: patient care. Our in…"
     },
     {
-      "id": "bd8b45ebd16f21ab4c0b03af8197980e4e08e3d3",
+      "id": "1fd6144d71b3c6d014acf8b16001cf373df245a5",
       "title": "Retail Sales Associate - Part Time",
       "company": "AutoZone, Inc.",
       "location": "Carolina Forest, Horry County",
       "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5960318798?se=ZqsYFE3g8RG2_dMaX_9hbQ&utm_medium=api&utm_source=ea9765bf&v=71D11D4B82E990976431F474176A5749529AD898",
+      "url": "https://www.adzuna.com/land/ad/5960318798?se=hkdF8nHg8RGNl561rfNY_A&utm_medium=api&utm_source=ea9765bf&v=71D11D4B82E990976431F474176A5749529AD898",
       "source": "adzuna",
       "track": "quick-cash",
       "kept": false,
@@ -6191,12 +6061,12 @@
       "snippet": "About the Position: As a Lock and Dam Operator, WY-5426-09, the incumbent will exercise primary authority over use of lock through issuance of instructions to …"
     },
     {
-      "id": "5a4466145c871f6fc313b631becb801a9d66b94a",
+      "id": "c2b58e5b7289adc6cfed62aa2fd0ae6ab6004ed6",
       "title": "Family Medicine Residency Program Director",
       "company": "HCA Healthcare",
       "location": "Myrtle Beach, Horry County",
       "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5960187289?se=1PkQD03g8RGNl561rfNY_A&utm_medium=api&utm_source=ea9765bf&v=66DAC62F39D2AD357F72BF9751BC368E83509CDA",
+      "url": "https://www.adzuna.com/land/ad/5960187289?se=YJ1m8XHg8RGDtoxXJCvQRQ&utm_medium=api&utm_source=ea9765bf&v=66DAC62F39D2AD357F72BF9751BC368E83509CDA",
       "source": "adzuna",
       "track": "marine-local",
       "kept": false,
@@ -6204,12 +6074,12 @@
       "snippet": "*Specialization:* Family Medicine without OB *Job Summary:* Grand Strand Medical Center in Myrtle Beach, South Carolina is seeking a Family Medicine Residency …"
     },
     {
-      "id": "9ee7c84b5030396fd5940ad7d911d8972acd1a5c",
+      "id": "b050bf8d218822553821ec893ee54d16bea82ae1",
       "title": "Family Medicine Residency Program Director",
       "company": "HCA Healthcare",
       "location": "Myrtle Beach, Horry County",
       "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5960187289?se=pOoOD03g8RGDtoxXJCvQRQ&utm_medium=api&utm_source=ea9765bf&v=66DAC62F39D2AD357F72BF9751BC368E83509CDA",
+      "url": "https://www.adzuna.com/land/ad/5960187289?se=AKis8XHg8RGDtoxXJCvQRQ&utm_medium=api&utm_source=ea9765bf&v=66DAC62F39D2AD357F72BF9751BC368E83509CDA",
       "source": "adzuna",
       "track": "marine-local",
       "kept": false,
@@ -6217,12 +6087,12 @@
       "snippet": "*Specialization:* Family Medicine without OB *Job Summary:* Grand Strand Medical Center in Myrtle Beach, South Carolina is seeking a Family Medicine Residency …"
     },
     {
-      "id": "3c8af9798e538cf5e03eed22a93a0dcdd6fe8dac",
+      "id": "6a95d0df4c58549a7fadf2acd46655d94301ffe2",
       "title": "Family Medicine Residency Program Director",
       "company": "HCA Healthcare",
       "location": "Myrtle Beach, Horry County",
       "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5960187289?se=CLjWEE3g8RGNl561rfNY_A&utm_medium=api&utm_source=ea9765bf&v=66DAC62F39D2AD357F72BF9751BC368E83509CDA",
+      "url": "https://www.adzuna.com/land/ad/5960187289?se=Eizf8XHg8RGrnN7Doq5RxQ&utm_medium=api&utm_source=ea9765bf&v=66DAC62F39D2AD357F72BF9751BC368E83509CDA",
       "source": "adzuna",
       "track": "quick-cash",
       "kept": false,
@@ -6230,12 +6100,12 @@
       "snippet": "*Specialization:* Family Medicine without OB *Job Summary:* Grand Strand Medical Center in Myrtle Beach, South Carolina is seeking a Family Medicine Residency …"
     },
     {
-      "id": "5fcdaabc3be6f6986f9bc644eb3d7775faef32cf",
+      "id": "e65583d5dd0a26c69a8b81d96c7159ab893c7ec2",
       "title": "Urgent Care Family Medicine Physician",
       "company": "HCA Healthcare",
       "location": "Myrtle Beach, Horry County",
       "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5960186951?se=CLjWEE3g8RGNl561rfNY_A&utm_medium=api&utm_source=ea9765bf&v=FD9AD74E1E909B8FB85BB361E20A8625B45B60D1",
+      "url": "https://www.adzuna.com/land/ad/5960186951?se=Eizf8XHg8RGrnN7Doq5RxQ&utm_medium=api&utm_source=ea9765bf&v=FD9AD74E1E909B8FB85BB361E20A8625B45B60D1",
       "source": "adzuna",
       "track": "quick-cash",
       "kept": false,
@@ -6633,25 +6503,12 @@
       "snippet": "Service Engineer (Yachting / Marine Engineering) $60,000 - up to $75,000 Sea Bonus Overtime progression opportunities, comprehensive training, 401(k) company b…"
     },
     {
-      "id": "42269f7f1569580c8b36d51ef2979f3245c461f9",
-      "title": "CRNA / Anesthesiology / South Carolina / Locum or Permanent / CRNA: Certified Registered Nurse Anesthetist Job",
-      "company": "Palm Health Resources",
-      "location": "Myrtle Beach, Horry County",
-      "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5959760194?se=CLjWEE3g8RGNl561rfNY_A&utm_medium=api&utm_source=ea9765bf&v=49A6C84D5FD65B7E386F68710A12DB27AB0D173B",
-      "source": "adzuna",
-      "track": "quick-cash",
-      "kept": false,
-      "dropReason": "off-track",
-      "snippet": "Coastal SC CRNA Position Now Available Full-time CRNA opportunity now available at a community hospital in Beautiful Coastal South Carolina. Bread & Butter cas…"
-    },
-    {
-      "id": "b71b8e992a398b43c5764ba7c985e3cb5fd37a6b",
+      "id": "be432f85cc3f71e4a93966269f13e290e5bfd84e",
       "title": "NP / Urgent Care / South Carolina / Permanent / Urgent Care NP/PA Myrtle Beach Area No Call Growth Opportunity Job",
       "company": "Britt Medical Search",
       "location": "Conway, Horry County",
       "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5959752538?se=1PkQD03g8RGNl561rfNY_A&utm_medium=api&utm_source=ea9765bf&v=86E6871DF7F234BDA014D4E4A9726075E7ECF376",
+      "url": "https://www.adzuna.com/land/ad/5959752538?se=YJ1m8XHg8RGDtoxXJCvQRQ&utm_medium=api&utm_source=ea9765bf&v=86E6871DF7F234BDA014D4E4A9726075E7ECF376",
       "source": "adzuna",
       "track": "marine-local",
       "kept": false,
@@ -6659,12 +6516,12 @@
       "snippet": "A leading, award-winning healthcare system in coastal South Carolina is seeking an experienced Urgent Care Nurse Practitioner or Physician Assistant to join a …"
     },
     {
-      "id": "5ae210938c9c8f76032215a00b3bc0cd7783b655",
+      "id": "3ca9297d58dbb3f71ba3c22331fcb322f00c0ed5",
       "title": "NP / Urgent Care / South Carolina / Permanent / Urgent Care NP/PA Myrtle Beach Area No Call Growth Opportunity Job",
       "company": "Britt Medical Search",
       "location": "Conway, Horry County",
       "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5959752538?se=pOoOD03g8RGDtoxXJCvQRQ&utm_medium=api&utm_source=ea9765bf&v=86E6871DF7F234BDA014D4E4A9726075E7ECF376",
+      "url": "https://www.adzuna.com/land/ad/5959752538?se=AKis8XHg8RGDtoxXJCvQRQ&utm_medium=api&utm_source=ea9765bf&v=86E6871DF7F234BDA014D4E4A9726075E7ECF376",
       "source": "adzuna",
       "track": "marine-local",
       "kept": false,
@@ -6867,25 +6724,12 @@
       "snippet": "About the Role The Strategic Project Lead – Speech & Audio will sit in Appen 's Operations organization and support the development of frontier AI through high…"
     },
     {
-      "id": "38950434cf048d0657f6990799113d3f2d293dcd",
-      "title": "Physical Therapist - Travel Contract",
-      "company": "Jackson Therapy Partners",
-      "location": "Surfside, Horry County",
-      "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5959268862?se=CLjWEE3g8RGNl561rfNY_A&utm_medium=api&utm_source=ea9765bf&v=C673CA19E48AC01DAC414D23AFAC08F2AAF034F4",
-      "source": "adzuna",
-      "track": "quick-cash",
-      "kept": false,
-      "dropReason": "off-track",
-      "snippet": "Looking for a change of scenery and a chance to help others? Join Jackson Therapy Partners as a traveling Physical Therapist where you’ll help patients recover…"
-    },
-    {
-      "id": "4548b0fd73f3cb8724548be468f3b030be1a025e",
+      "id": "c462230f4b6c5113b3a9a038db937fb203f41945",
       "title": "Customer Service Associate",
       "company": "Dollar Tree",
       "location": "Ocean Isle Beach, Brunswick County",
       "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5959230400?se=ZqsYFE3g8RG2_dMaX_9hbQ&utm_medium=api&utm_source=ea9765bf&v=E18FC642BA5076FA9997D6FDDAF0D137CBDB0479",
+      "url": "https://www.adzuna.com/land/ad/5959230400?se=hkdF8nHg8RGNl561rfNY_A&utm_medium=api&utm_source=ea9765bf&v=E18FC642BA5076FA9997D6FDDAF0D137CBDB0479",
       "source": "adzuna",
       "track": "tech-sales",
       "kept": false,
@@ -6893,25 +6737,12 @@
       "snippet": "We're seeking a Customer Service Associate to join our team and deliver a great shopping experience for every customer. Duties include, but are not limited to,…"
     },
     {
-      "id": "5893974f3535888238ae68bc8509f06fee06f21d",
-      "title": "Customer Service Associate",
-      "company": "Dollar Tree",
-      "location": "Crescent Beach, Horry County",
-      "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5959168645?se=ZqsYFE3g8RG2_dMaX_9hbQ&utm_medium=api&utm_source=ea9765bf&v=8E1DCD7743C70C4C5CFCF3DE4CD80AFE4780FC3A",
-      "source": "adzuna",
-      "track": "tech-sales",
-      "kept": false,
-      "dropReason": "off-track",
-      "snippet": "We're seeking a Customer Service Associate to join our team and deliver a great shopping experience for every customer. Duties include, but are not limited to,…"
-    },
-    {
-      "id": "88fe784b4fe369e0074378d76b15889d6735efe0",
+      "id": "b9b1d77a5cb480a37a7ece65da1ae610801e70fd",
       "title": "Assistant Manager - Bilingual",
       "company": "America's Best",
       "location": "Carolina Forest, Horry County",
       "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5959159763?se=kPBLEk3g8RGDtoxXJCvQRQ&utm_medium=api&utm_source=ea9765bf&v=8C913C1F4EC3FE4F7223E828F7B92FC49422C6E0",
+      "url": "https://www.adzuna.com/land/ad/5959159763?se=Turk8XHg8RG3UKJUaLg__w&utm_medium=api&utm_source=ea9765bf&v=8C913C1F4EC3FE4F7223E828F7B92FC49422C6E0",
       "source": "adzuna",
       "track": "quick-cash",
       "kept": false,
@@ -7257,12 +7088,12 @@
       "snippet": "RainFocus, one of the most innovative software companies, is in search of an exceptional Jr. UI Developer. About RainFocus RainFocus cares about its employees,…"
     },
     {
-      "id": "092d9fd8d3854cf2ab8f5de7426ef781e685f237",
+      "id": "11039baedaae701bef0922ce085457fb42ede497",
       "title": "Coffee Shop Shift Supervisor",
       "company": "Starbucks",
       "location": "Pawleys Island, Georgetown County",
       "pay": "$34,000–$42,000/year",
-      "url": "https://www.adzuna.com/land/ad/5958284128?se=kPBLEk3g8RGDtoxXJCvQRQ&utm_medium=api&utm_source=ea9765bf&v=A47E4DD421A155BC8935E4F97C3CBB882F282BE6",
+      "url": "https://www.adzuna.com/land/ad/5958284128?se=Turk8XHg8RG3UKJUaLg__w&utm_medium=api&utm_source=ea9765bf&v=A47E4DD421A155BC8935E4F97C3CBB882F282BE6",
       "source": "adzuna",
       "track": "quick-cash",
       "kept": false,
@@ -7309,12 +7140,12 @@
       "snippet": "Become a part of our caring community With over 10 million sales interactions annually, Humana understands that while great products are important, it's the qu…"
     },
     {
-      "id": "1ffc59098dc4efc5bef1dc20e93de95b0337f67b",
+      "id": "8cd8883f3f196ca8fa5b92dcc4bbe4b947bfeb8f",
       "title": "Medicare Field Sales- Myrtle Beach",
       "company": "Humana",
       "location": "Carolina Forest, Horry County",
       "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5958192728?se=ZqsYFE3g8RG2_dMaX_9hbQ&utm_medium=api&utm_source=ea9765bf&v=185B7DD19C9364C2B6DD294DAAF270DFD96C9696",
+      "url": "https://www.adzuna.com/land/ad/5958192728?se=hkdF8nHg8RGNl561rfNY_A&utm_medium=api&utm_source=ea9765bf&v=185B7DD19C9364C2B6DD294DAAF270DFD96C9696",
       "source": "adzuna",
       "track": "tech-sales",
       "kept": false,
@@ -7322,12 +7153,12 @@
       "snippet": "Become a part of our caring community With over 10 million sales interactions annually, Humana understands that while great products are important, it's the qu…"
     },
     {
-      "id": "56433333bc097c390a2092a6945815d4a2e22fd7",
+      "id": "56e3a9724deeaaf20c94aa40a55f190e5783a118",
       "title": "STORE MANAGER - CONWAY, SC STORE 10505",
       "company": "Dollar General",
       "location": "Conway, Horry County",
       "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5958177750?se=1PkQD03g8RGNl561rfNY_A&utm_medium=api&utm_source=ea9765bf&v=1F5BA6ECD0E0A773D28F0F77960C0B49BCA5E33F",
+      "url": "https://www.adzuna.com/land/ad/5958177750?se=YJ1m8XHg8RGDtoxXJCvQRQ&utm_medium=api&utm_source=ea9765bf&v=1F5BA6ECD0E0A773D28F0F77960C0B49BCA5E33F",
       "source": "adzuna",
       "track": "marine-local",
       "kept": false,
@@ -7335,12 +7166,12 @@
       "snippet": "Responsible for the management of all employees in the effective planning and implementation of all store processes, including ordering, receiving, stocking, p…"
     },
     {
-      "id": "09aea19db4bbcfe1b11ddc13c24cb985f7a82e97",
+      "id": "6bbb920c1ddaa86ea42c037443f68076e01b6808",
       "title": "STORE MANAGER - CONWAY, SC STORE 10505",
       "company": "Dollar General",
       "location": "Conway, Horry County",
       "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5958177750?se=pOoOD03g8RGDtoxXJCvQRQ&utm_medium=api&utm_source=ea9765bf&v=1F5BA6ECD0E0A773D28F0F77960C0B49BCA5E33F",
+      "url": "https://www.adzuna.com/land/ad/5958177750?se=AKis8XHg8RGDtoxXJCvQRQ&utm_medium=api&utm_source=ea9765bf&v=1F5BA6ECD0E0A773D28F0F77960C0B49BCA5E33F",
       "source": "adzuna",
       "track": "marine-local",
       "kept": false,
@@ -7556,6 +7387,19 @@
       "snippet": "Job Title: Sales Experience Specialist Location (Include Zip Code): Doral, FL - 33166 (hybrid 3 days) Duration: 12mo C2H PR: $23-25/hr (totally depends on year…"
     },
     {
+      "id": "4b3dd2437af6ddcffc9e82291875aa84f8d34626",
+      "title": "Travel Medical-Surgical RN - Explore Your Next Assignment",
+      "company": "Medical Solutions",
+      "location": "Charleston, Charleston County",
+      "pay": "",
+      "url": "https://www.adzuna.com/land/ad/5957155865?se=_shl8XHg8RGYoYBThUdMLw&utm_medium=api&utm_source=ea9765bf&v=531B9CA1ED58312E04C18E2BB450FE329ABB811E",
+      "source": "adzuna",
+      "track": "marine-chs",
+      "kept": false,
+      "dropReason": "not-marine",
+      "snippet": "Job Description Job Description Schedule Shift: Days (12hr) 36 hours/week A facility in Berlin, MD is seeking its next amazing RN (Registered Nurse) to work in…"
+    },
+    {
       "id": "cef9058c41304264677edaecaa0e5bcb3b4e92ed",
       "title": "Aluminum TIG Boat Welder",
       "company": "Sportsman Boats Mfg.",
@@ -7582,12 +7426,12 @@
       "snippet": "About Four Seasons: Four Seasons is powered by our people. We are a collective of individuals who crave to become better, to push ourselves to new heights and …"
     },
     {
-      "id": "5c05173e3ec18db30bed65667b9a3e213aa40a88",
+      "id": "ce1544d412debe3bf760c6b2ce417372eb5e002e",
       "title": "Retail Sales - Part Time (Bilingual Preferred)",
       "company": "Lowe's",
       "location": "Carolina Forest, Horry County",
       "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5957105227?se=ZqsYFE3g8RG2_dMaX_9hbQ&utm_medium=api&utm_source=ea9765bf&v=150E4B85190849ABCA73F83A82C7BF2138FA6D18",
+      "url": "https://www.adzuna.com/land/ad/5957105227?se=hkdF8nHg8RGNl561rfNY_A&utm_medium=api&utm_source=ea9765bf&v=150E4B85190849ABCA73F83A82C7BF2138FA6D18",
       "source": "adzuna",
       "track": "quick-cash",
       "kept": false,
@@ -7595,12 +7439,12 @@
       "snippet": "Your Impact at Lowe's As a Customer Service Associate, you combine top-notch customer service skills with genuine care for people to help customers feel comfor…"
     },
     {
-      "id": "8ab17a9ca894711e044c36e583c9d37a70e2ae21",
+      "id": "e9cecd311c76d3f6499a788354ca2a53fc2fec2c",
       "title": "Guest Services Manager - Hampton Inn & Suites Charleston West Ashley",
       "company": "Hilton",
       "location": "Saint Andrews, Charleston County",
       "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5957102059?se=WECsEk3g8RG3UKJUaLg__w&utm_medium=api&utm_source=ea9765bf&v=7A6A20A512321ADB93E47421E96D0A05C9B9728B",
+      "url": "https://www.adzuna.com/land/ad/5957102059?se=tuY58nHg8RG3UKJUaLg__w&utm_medium=api&utm_source=ea9765bf&v=7A6A20A512321ADB93E47421E96D0A05C9B9728B",
       "source": "adzuna",
       "track": "quick-cash",
       "kept": false,
@@ -7608,12 +7452,12 @@
       "snippet": "Job Identification: 230456 Job Category: Guest Services, Operations, and Front Office Job Schedule: Full time Equal Opportunity Employer EOE, including disabil…"
     },
     {
-      "id": "feedced9ef54aa33f1c72d34a4f88875f96cd2b2",
+      "id": "3b377ff72c1427fe68a2d2d24326431c0613a98b",
       "title": "Retail Sales Associate - Part Time",
       "company": "AutoZone, Inc.",
       "location": "Murrells Inlet, Horry County",
       "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5957048414?se=ZqsYFE3g8RG2_dMaX_9hbQ&utm_medium=api&utm_source=ea9765bf&v=A874E617A6CCEB87FD17A9F93277E43F2A3E6C0E",
+      "url": "https://www.adzuna.com/land/ad/5957048414?se=hkdF8nHg8RGNl561rfNY_A&utm_medium=api&utm_source=ea9765bf&v=A874E617A6CCEB87FD17A9F93277E43F2A3E6C0E",
       "source": "adzuna",
       "track": "quick-cash",
       "kept": false,
@@ -7699,12 +7543,12 @@
       "snippet": "JM Family is currently looking for a Steward/Stewardess to join our Marine department. Our Stewarding team works on our Gallant Lady yachts performing a variet…"
     },
     {
-      "id": "ec35032e67ea91ca6c086b5d5a5bb80a625583a5",
+      "id": "7aa1e2baec3912f3ce08e5d964a017424e8c9537",
       "title": "Structured Lending Advisor I",
       "company": "Truist Bank",
       "location": "Coral Gables, Miami-Dade County",
       "pay": "$100/hour",
-      "url": "https://www.adzuna.com/land/ad/5956497867?se=nCVTEE3g8RG3UKJUaLg__w&utm_medium=api&utm_source=ea9765bf&v=B90743280CB23BA6382A99B206A5ECEF2FFBC281",
+      "url": "https://www.adzuna.com/land/ad/5956497867?se=ltaw8XHg8RGYoYBThUdMLw&utm_medium=api&utm_source=ea9765bf&v=B90743280CB23BA6382A99B206A5ECEF2FFBC281",
       "source": "adzuna",
       "track": "marine-national",
       "kept": false,
@@ -7738,12 +7582,12 @@
       "snippet": "Job Description Part Time Evening Trash Collector – Valet Trash Porter | Myrtle Beach, SC 29575 Got a pickup truck and a free evening? Turn it into steady week…"
     },
     {
-      "id": "c2df89664f26540e48d8f3ed5aad6ba94ca1f6d8",
+      "id": "fd7ce1f22274c24dd0376068893f31445684ced8",
       "title": "Seasonal Beauty Advisor",
       "company": "Kohls Department Stores",
       "location": "Cainhoy, Berkeley County",
       "pay": "$28,496–$37,024/year",
-      "url": "https://www.adzuna.com/land/ad/5956140937?se=WECsEk3g8RG3UKJUaLg__w&utm_medium=api&utm_source=ea9765bf&v=800EAAA1C6282A66308E0D2BD926254FD633EB29",
+      "url": "https://www.adzuna.com/land/ad/5956140937?se=tuY58nHg8RG3UKJUaLg__w&utm_medium=api&utm_source=ea9765bf&v=800EAAA1C6282A66308E0D2BD926254FD633EB29",
       "source": "adzuna",
       "track": "quick-cash",
       "kept": false,
@@ -7790,12 +7634,12 @@
       "snippet": "About the Role We’re building high-quality ground-truth datasets used to train and validate perception models for autonomous and operator-assisted machines wor…"
     },
     {
-      "id": "e1cbcbbb3d0b72cf62a9d3087c49c3b697a81fe3",
+      "id": "f7083b45ad46ae8227a2049ce3579fd8f5203477",
       "title": "Travel Cardio IC (Cardiovascular Intensive Care) RN (Registered Nurse) in Charleston, SC - 1161591",
       "company": "Medical Solutions",
       "location": "Charleston, Charleston County",
       "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5956083131?se=zMdFD03g8RG9p9ob_RTtsA&utm_medium=api&utm_source=ea9765bf&v=7470133105310861632B18ECA7C92211C070837F",
+      "url": "https://www.adzuna.com/land/ad/5956083131?se=_shl8XHg8RGYoYBThUdMLw&utm_medium=api&utm_source=ea9765bf&v=7470133105310861632B18ECA7C92211C070837F",
       "source": "adzuna",
       "track": "marine-chs",
       "kept": false,
@@ -7855,12 +7699,12 @@
       "snippet": "Show off the latest technology as a Customer Relations Associate in one of our Retail Branch Offices. At HTC, the possibilities are truly endless, and one of t…"
     },
     {
-      "id": "590971d4c38179e16a6053885c5c76fb3c2d6993",
+      "id": "519b775326e6c8156b274f2b8b99cb9e522697f3",
       "title": "Hydroblasting Technician must have valid DL",
       "company": "Clean Harbors",
       "location": "Goose Creek, Berkeley County",
       "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5955670419?se=zMdFD03g8RG9p9ob_RTtsA&utm_medium=api&utm_source=ea9765bf&v=C6BECF8E9D0E198D8C8A40455A699289CD8A3CC7",
+      "url": "https://www.adzuna.com/land/ad/5955670419?se=_shl8XHg8RGYoYBThUdMLw&utm_medium=api&utm_source=ea9765bf&v=C6BECF8E9D0E198D8C8A40455A699289CD8A3CC7",
       "source": "adzuna",
       "track": "marine-chs",
       "kept": false,
@@ -7868,12 +7712,12 @@
       "snippet": "Thompson Industrial is looking for Hydroblaster/ Field Technicians, This Technician will be responsible for the safe & proper execution of Thompson Industrial …"
     },
     {
-      "id": "cfc0815c7eb3053b4285b54dafcac6e0c347291b",
+      "id": "cc5215de4c125914875e1f9ba89131db5391dbd5",
       "title": "Hydroblasting Technician must have valid DL",
       "company": "Clean Harbors",
       "location": "Mount Pleasant, Charleston County",
       "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5955670463?se=zMdFD03g8RG9p9ob_RTtsA&utm_medium=api&utm_source=ea9765bf&v=26F545A8DF30C3871E0FF7CDA698D295858B798D",
+      "url": "https://www.adzuna.com/land/ad/5955670463?se=_shl8XHg8RGYoYBThUdMLw&utm_medium=api&utm_source=ea9765bf&v=26F545A8DF30C3871E0FF7CDA698D295858B798D",
       "source": "adzuna",
       "track": "marine-chs",
       "kept": false,
@@ -7881,12 +7725,12 @@
       "snippet": "Thompson Industrial is looking for Hydroblaster/ Field Technicians, This Technician will be responsible for the safe & proper execution of Thompson Industrial …"
     },
     {
-      "id": "6a6e87ecc7154cee95b42b83855d25bb0563b0ae",
+      "id": "a6b5c6c7c38289cc8d335d34b1f0be43f841cae0",
       "title": "Hydroblasting Technician must have valid DL",
       "company": "Clean Harbors",
       "location": "Saint Andrews, Charleston County",
       "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5955670379?se=zMdFD03g8RG9p9ob_RTtsA&utm_medium=api&utm_source=ea9765bf&v=790EA2C249EBCE5D3B30A1C1603343003E40F4DC",
+      "url": "https://www.adzuna.com/land/ad/5955670379?se=_shl8XHg8RGYoYBThUdMLw&utm_medium=api&utm_source=ea9765bf&v=790EA2C249EBCE5D3B30A1C1603343003E40F4DC",
       "source": "adzuna",
       "track": "marine-chs",
       "kept": false,
@@ -8258,12 +8102,12 @@
       "snippet": "Overview We are building a benchmark that tests how well AI agents handle real expert work in a terminal. We are hiring ML inference and serving experts to tur…"
     },
     {
-      "id": "9c66478622e1fb1101620e2437ce7292aa0943e7",
+      "id": "af92f417b095caf286cdd2a8900beb6709062a6a",
       "title": "Nuclear Medicine Technologist Permanent Opportunity in South Carolina",
       "company": "KA Recruiting Inc.",
       "location": "Myrtle Beach, Horry County",
       "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5954637283?se=1PkQD03g8RGNl561rfNY_A&utm_medium=api&utm_source=ea9765bf&v=15149EEC2BBEE7104AFD38F7A1F295861F99A659",
+      "url": "https://www.adzuna.com/land/ad/5954637283?se=YJ1m8XHg8RGDtoxXJCvQRQ&utm_medium=api&utm_source=ea9765bf&v=15149EEC2BBEE7104AFD38F7A1F295861F99A659",
       "source": "adzuna",
       "track": "marine-local",
       "kept": false,
@@ -8271,12 +8115,12 @@
       "snippet": "Job Description Nuclear Medicine Technologist — Permanent Opportunity in South Carolina \\n Looking for a Nuclear Medicine Technologist opportunity in South Car…"
     },
     {
-      "id": "b7cb04793a8f2800c16d3713871c570fa89c0987",
+      "id": "8594800c71bf02e9309518c14d6606d31a7bcdaf",
       "title": "Nuclear Medicine Technologist Permanent Opportunity in South Carolina",
       "company": "KA Recruiting Inc.",
       "location": "Myrtle Beach, Horry County",
       "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5954637283?se=pOoOD03g8RGDtoxXJCvQRQ&utm_medium=api&utm_source=ea9765bf&v=15149EEC2BBEE7104AFD38F7A1F295861F99A659",
+      "url": "https://www.adzuna.com/land/ad/5954637283?se=AKis8XHg8RGDtoxXJCvQRQ&utm_medium=api&utm_source=ea9765bf&v=15149EEC2BBEE7104AFD38F7A1F295861F99A659",
       "source": "adzuna",
       "track": "marine-local",
       "kept": false,
@@ -8321,32 +8165,6 @@
       "kept": false,
       "dropReason": "senior",
       "snippet": "Headquarters: Europe (DK) URL: https://secureprivacy.ai Secure Privacy is expanding, and we’re looking for an experienced Senior Full-Stack Developer with expe…"
-    },
-    {
-      "id": "72aee6984697101f26d00afa91d64eb2170761a7",
-      "title": "Host/Hostess - Orchid Room - Fine Dining PT",
-      "company": "CoralTree Hospitality",
-      "location": "Port Everglades, Broward County",
-      "pay": "",
-      "url": "https://www.adzuna.com/details/5954445386?utm_medium=api&utm_source=ea9765bf",
-      "source": "adzuna",
-      "track": "marine-national",
-      "kept": false,
-      "dropReason": "not-marine",
-      "snippet": "South Florida’s beacon of hospitality, Pier Sixty-Six Resort has returned. From the famed superyacht marina to the iconic spires of the rotating Pier-Top loung…"
-    },
-    {
-      "id": "ef2d88743b13705d6f106b37dd24cf7a0fdaeb9b",
-      "title": "Supervisor Engineering",
-      "company": "CoralTree Hospitality",
-      "location": "Port Everglades, Broward County",
-      "pay": "",
-      "url": "https://www.adzuna.com/details/5954445397?utm_medium=api&utm_source=ea9765bf",
-      "source": "adzuna",
-      "track": "marine-national",
-      "kept": false,
-      "dropReason": "senior",
-      "snippet": "South Florida’s beacon of hospitality, Pier Sixty-Six Resort returned to Fort Lauderdale. From the famed superyacht marina to the iconic spires of the rotating…"
     },
     {
       "id": "995e94e44f52d17b4cc357e5d2b7d56aa78fd608",
@@ -8479,12 +8297,12 @@
       "snippet": "About Four Seasons: Four Seasons is powered by our people. We are a collective of individuals who crave to become better, to push ourselves to new heights and …"
     },
     {
-      "id": "8a29c05aaff3e558fa4763786642c81d56d8db39",
+      "id": "5064f7e2aa4ae63cadcc5796b1d3abe5a994178b",
       "title": "Construction Estimator",
       "company": "Jobot",
       "location": "Myrtle Beach, Horry County",
       "pay": "$85,000–$110,000/year",
-      "url": "https://www.adzuna.com/land/ad/5954072135?se=CLjWEE3g8RGNl561rfNY_A&utm_medium=api&utm_source=ea9765bf&v=B892D4041F8166F2E441D092F87073DDA3AB69F6",
+      "url": "https://www.adzuna.com/details/5954072135?utm_medium=api&utm_source=ea9765bf",
       "source": "adzuna",
       "track": "quick-cash",
       "kept": false,
@@ -8492,12 +8310,12 @@
       "snippet": "Construction Estimator – Commercial Facades & Waterproofing This Jobot Job is hosted by: Haley Lucas Are you a fit? Easy Apply now by clicking the \"Quick Apply…"
     },
     {
-      "id": "8083590ede4b261592c2da8798865f7e1d7acd5c",
+      "id": "1681a981f7383055586cf5b93fb554e8468df639",
       "title": "Retail Staff Pharmacist",
       "company": "Walmart",
       "location": "Carolina Forest, Horry County",
       "pay": "$130,000–$145,000/year",
-      "url": "https://www.adzuna.com/land/ad/5954054525?se=ZqsYFE3g8RG2_dMaX_9hbQ&utm_medium=api&utm_source=ea9765bf&v=068EF87BE8EF9F4B7FA2014F414BFC2B7F785BD7",
+      "url": "https://www.adzuna.com/land/ad/5954054525?se=hkdF8nHg8RGNl561rfNY_A&utm_medium=api&utm_source=ea9765bf&v=068EF87BE8EF9F4B7FA2014F414BFC2B7F785BD7",
       "source": "adzuna",
       "track": "tech-sales",
       "kept": false,
@@ -8505,12 +8323,12 @@
       "snippet": "As a Staff Pharmacist at Walmart, you’ll provide safe, accurate, and compassionate pharmaceutical care in a high‑volume retail setting. You’ll verify and dispe…"
     },
     {
-      "id": "24597adbfbc4649655401a5b24cfa9c4eddb6ba7",
+      "id": "17bb86badf418a68895d9b2f1a37f3dc44b0e4dd",
       "title": "Retail Pharmacist",
       "company": "Walmart",
       "location": "Carolina Forest, Horry County",
       "pay": "$110,000–$135,000/year",
-      "url": "https://www.adzuna.com/land/ad/5954012242?se=ZqsYFE3g8RG2_dMaX_9hbQ&utm_medium=api&utm_source=ea9765bf&v=44949F3236A141E5D03C010E3A492B3BE55734E7",
+      "url": "https://www.adzuna.com/land/ad/5954012242?se=hkdF8nHg8RGNl561rfNY_A&utm_medium=api&utm_source=ea9765bf&v=44949F3236A141E5D03C010E3A492B3BE55734E7",
       "source": "adzuna",
       "track": "tech-sales",
       "kept": false,
@@ -8518,12 +8336,12 @@
       "snippet": "Walmart Inc., a leading global retailer known for our comprehensive range of products including extensive healthcare and pharmaceutical services, is seeking a …"
     },
     {
-      "id": "f614ef3128a5de2c140eabd39274a5269d15900d",
+      "id": "71c4f9e014135f22144bbb91ceaee4198164b620",
       "title": "Travel Med Surg (Medical Surgical) RN (Registered Nurse) in Charleston, SC - 1158938",
       "company": "Medical Solutions",
       "location": "Charleston, Charleston County",
       "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5953992250?se=zMdFD03g8RG9p9ob_RTtsA&utm_medium=api&utm_source=ea9765bf&v=0293678CA0B73D2729C0F2636CE460946EC8546F",
+      "url": "https://www.adzuna.com/land/ad/5953992250?se=_shl8XHg8RGYoYBThUdMLw&utm_medium=api&utm_source=ea9765bf&v=0293678CA0B73D2729C0F2636CE460946EC8546F",
       "source": "adzuna",
       "track": "marine-chs",
       "kept": false,
@@ -8542,6 +8360,19 @@
       "kept": false,
       "dropReason": "needs-experience",
       "snippet": "Who is Beauty Barrage? Beauty Barrage is a full-service strategic sales management team with our Field Team servicing doors across North America. Beauty Barrag…"
+    },
+    {
+      "id": "e25e7b6ff2e05cb2d2e0e46b67cb7dd988335938",
+      "title": "Respiratory Therapist NICU Transport",
+      "company": "Baylor Scott & White Health",
+      "location": "Georgetown, Georgetown County",
+      "pay": "",
+      "url": "https://www.adzuna.com/land/ad/5953912702?se=Eizf8XHg8RGrnN7Doq5RxQ&utm_medium=api&utm_source=ea9765bf&v=5B0B97CB1E53660AFA40CCF93161AF185E6C9A9E",
+      "source": "adzuna",
+      "track": "quick-cash",
+      "kept": false,
+      "dropReason": "off-track",
+      "snippet": "Job Description Job Description NICU Transport Full Time Nights Location(s) : Scott and White Hospital Round Rock, TX. Schedule: FT Nights Position ( 12 hour s…"
     },
     {
       "id": "b5580e3b06e28e28da073c30802a948cf016b493",
@@ -8778,12 +8609,12 @@
       "snippet": "Company Description Southpaw Yacht Sales is dedicated to delivering an exceptional boat buying and selling experience, with a strong focus on customer satisfac…"
     },
     {
-      "id": "f5317c844c22923f17abab94181cc412c7ce3f2b",
+      "id": "c774140ebc276f3daf5433667cfa1914ae21fdcf",
       "title": "Cart Attendant",
       "company": "Walmart",
       "location": "Conway, Horry County",
       "pay": "$0.35 per hour",
-      "url": "https://www.adzuna.com/land/ad/5953041391?se=CLjWEE3g8RGNl561rfNY_A&utm_medium=api&utm_source=ea9765bf&v=359B56BA721717AD1E259F26185108D7A898B547",
+      "url": "https://www.adzuna.com/land/ad/5953041391?se=Eizf8XHg8RGrnN7Doq5RxQ&utm_medium=api&utm_source=ea9765bf&v=359B56BA721717AD1E259F26185108D7A898B547",
       "source": "adzuna",
       "track": "quick-cash",
       "kept": false,
@@ -8791,12 +8622,12 @@
       "snippet": "Hourly Wage: $14 - $27 per/hour *The actual hourly rate will equal or exceed the required minimum wage applicable to the job location. Additional compensation …"
     },
     {
-      "id": "5fad815a5890f39f35330c7135abfae03baa81ad",
+      "id": "609673e17e0ca905ee4643b72c2e9049be7858f9",
       "title": "Night Audit- Club Wyndham SeaWatch Resort",
       "company": "Travel + Leisure Co.",
       "location": "Carolina Forest, Horry County",
       "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5953041342?se=CLjWEE3g8RGNl561rfNY_A&utm_medium=api&utm_source=ea9765bf&v=08DEEF5AC307753668B08A6EC5F85D11EA570E8D",
+      "url": "https://www.adzuna.com/land/ad/5953041342?se=Eizf8XHg8RGrnN7Doq5RxQ&utm_medium=api&utm_source=ea9765bf&v=08DEEF5AC307753668B08A6EC5F85D11EA570E8D",
       "source": "adzuna",
       "track": "quick-cash",
       "kept": false,
@@ -8804,12 +8635,12 @@
       "snippet": "We Put the World on Vacation Travel Leisure Co. is the world's leading vacation ownership and travel membership company, with a dynamic and growing portfolio o…"
     },
     {
-      "id": "ee7e392100cac474b1d8e3468d802b828df7b7bd",
+      "id": "4bd47b95cec0503cdf1b2f30f8cb28e3cf03e6d0",
       "title": "Environmental Services Attendant",
       "company": "Sodexo",
       "location": "Murrells Inlet, Horry County",
       "pay": "$14.50 per hour",
-      "url": "https://www.adzuna.com/land/ad/5953041304?se=CLjWEE3g8RGNl561rfNY_A&utm_medium=api&utm_source=ea9765bf&v=115E33DBAE560A7979D44EF552EC8064E4A737F6",
+      "url": "https://www.adzuna.com/land/ad/5953041304?se=Eizf8XHg8RGrnN7Doq5RxQ&utm_medium=api&utm_source=ea9765bf&v=115E33DBAE560A7979D44EF552EC8064E4A737F6",
       "source": "adzuna",
       "track": "quick-cash",
       "kept": false,
@@ -8830,6 +8661,19 @@
       "snippet": "Description Position: CF1603931357 Job: 60631357 - Medical Surgical Technician - Coast Description: Responsibilities: Maintains a professional image and exhibi…"
     },
     {
+      "id": "c03dae7ce463b967f36117804b8467da74dfdcfc",
+      "title": "General Labor",
+      "company": "PeopleReady",
+      "location": "Carolina Forest, Horry County",
+      "pay": "",
+      "url": "https://www.adzuna.com/land/ad/5952987613?se=Turk8XHg8RG3UKJUaLg__w&utm_medium=api&utm_source=ea9765bf&v=13300B0A12FBAA773B229FC97CD15C004FE938F8",
+      "source": "adzuna",
+      "track": "quick-cash",
+      "kept": false,
+      "dropReason": "off-track",
+      "snippet": "General Laborer PeopleReady is looking for General Laborers to join our dynamic team across multiple sectors, including hospitality, production, warehouse work…"
+    },
+    {
       "id": "dcbeddd1461f467545b33e200ad5e532f4ee2e59",
       "title": "Sales Associate",
       "company": "Campbell Oil Company",
@@ -8843,12 +8687,12 @@
       "snippet": "Description Minuteman Food Mart - Sales Associate - Part Time Join us as we grow together personally and professionally! Four Generations of family leadership …"
     },
     {
-      "id": "93c142a4d8131c897edd678aa0ae3981bda5f369",
+      "id": "39fcb023c1384dd78ace438cd85a80fde5b50b7b",
       "title": "SALES ASSOCIATE in ANDREWS SC S04043",
       "company": "Dollar General",
       "location": "Andrews, Georgetown County",
       "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5952970249?se=pOoOD03g8RGDtoxXJCvQRQ&utm_medium=api&utm_source=ea9765bf&v=FC82D5401ADC18B6F9BF03E8CAAC7FC9AE63002E",
+      "url": "https://www.adzuna.com/land/ad/5952970249?se=AKis8XHg8RGDtoxXJCvQRQ&utm_medium=api&utm_source=ea9765bf&v=FC82D5401ADC18B6F9BF03E8CAAC7FC9AE63002E",
       "source": "adzuna",
       "track": "marine-local",
       "kept": false,
@@ -8856,12 +8700,12 @@
       "snippet": "Job Details General Summary: The Sales Associate acts as a point of contact for our customers. The duties of the Sales Associate include assisting customers in…"
     },
     {
-      "id": "f204841aa333f4ac0214b1c2c8b5bdc6c9081de8",
+      "id": "3f566df44cf2312c1dfed23b0549b77c18f32849",
       "title": "Class A or B CDL Driver Manual Transmission experience is required",
       "company": "Clean Harbors",
       "location": "Saint Andrews, Charleston County",
       "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5952943055?se=zMdFD03g8RG9p9ob_RTtsA&utm_medium=api&utm_source=ea9765bf&v=251CBE398E9C685AE0BCEA58EF371D99C55C4E54",
+      "url": "https://www.adzuna.com/land/ad/5952943055?se=_shl8XHg8RGYoYBThUdMLw&utm_medium=api&utm_source=ea9765bf&v=251CBE398E9C685AE0BCEA58EF371D99C55C4E54",
       "source": "adzuna",
       "track": "marine-chs",
       "kept": false,
@@ -8869,12 +8713,12 @@
       "snippet": "Thompson Industrial, powered by Clean Harbors, is looking for a Class A or B CDL Operator to join their safety conscious team! The CDL Operator is responsible …"
     },
     {
-      "id": "0c71381f2fa31f15a55f6e2b686a8878e860d204",
+      "id": "b3dbbc8d94caf5f938da87f0abc104a6503c7b98",
       "title": "Class A or B CDL Driver Manual Transmission experience is required",
       "company": "Clean Harbors",
       "location": "Goose Creek, Berkeley County",
       "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5952943086?se=zMdFD03g8RG9p9ob_RTtsA&utm_medium=api&utm_source=ea9765bf&v=9163D67D2D56B01A5E5DDB4230D1F0B291A0469D",
+      "url": "https://www.adzuna.com/land/ad/5952943086?se=_shl8XHg8RGYoYBThUdMLw&utm_medium=api&utm_source=ea9765bf&v=9163D67D2D56B01A5E5DDB4230D1F0B291A0469D",
       "source": "adzuna",
       "track": "marine-chs",
       "kept": false,
@@ -8882,12 +8726,12 @@
       "snippet": "Thompson Industrial, powered by Clean Harbors, is looking for a Class A or B CDL Operator to join their safety conscious team! The CDL Operator is responsible …"
     },
     {
-      "id": "344426afbcd02efc69f6d3f5151ba64df1acb31e",
+      "id": "be29e9be1f040645dae5a2e1090220e6fc4bb128",
       "title": "Class A or B CDL Driver Manual Transmission experience is required",
       "company": "Clean Harbors",
       "location": "Mount Pleasant, Charleston County",
       "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5952943119?se=zMdFD03g8RG9p9ob_RTtsA&utm_medium=api&utm_source=ea9765bf&v=9771B3A9855269A28614F11684D03156BDCB16E1",
+      "url": "https://www.adzuna.com/land/ad/5952943119?se=_shl8XHg8RGYoYBThUdMLw&utm_medium=api&utm_source=ea9765bf&v=9771B3A9855269A28614F11684D03156BDCB16E1",
       "source": "adzuna",
       "track": "marine-chs",
       "kept": false,
@@ -8895,12 +8739,12 @@
       "snippet": "Thompson Industrial, powered by Clean Harbors, is looking for a Class A or B CDL Operator to join their safety conscious team! The CDL Operator is responsible …"
     },
     {
-      "id": "c59100b1d974a4d32bfd8f6274bd43fd4fa09029",
+      "id": "bc99cd70fde70eb4eeef70f048c627e74f78f3ab",
       "title": "Retail Sales Associate - Part Time",
       "company": "AutoZone, Inc.",
       "location": "Carolina Forest, Horry County",
       "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5952938829?se=ZqsYFE3g8RG2_dMaX_9hbQ&utm_medium=api&utm_source=ea9765bf&v=F01C96C15A4247745C8626748AE8CEA9C116FAF3",
+      "url": "https://www.adzuna.com/land/ad/5952938829?se=hkdF8nHg8RGNl561rfNY_A&utm_medium=api&utm_source=ea9765bf&v=F01C96C15A4247745C8626748AE8CEA9C116FAF3",
       "source": "adzuna",
       "track": "quick-cash",
       "kept": false,
@@ -8908,12 +8752,12 @@
       "snippet": "Job Description AutoZone's store teams are the frontline of WOW! Customer Service, ensuring that customers find the right parts and solutions for their automot…"
     },
     {
-      "id": "87e633a79ce5710eb50c12b0dbfb219a8ac537a2",
+      "id": "99651ed2e9f2b4322297725ace26a957cbecc805",
       "title": "Merchandising Specialist",
       "company": "Acosta Group",
       "location": "Carolina Forest, Horry County",
       "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5952935890?se=kPBLEk3g8RGDtoxXJCvQRQ&utm_medium=api&utm_source=ea9765bf&v=B32C87187FBFC2D13FDA604F09FDA3D6FFE880C2",
+      "url": "https://www.adzuna.com/land/ad/5952935890?se=Turk8XHg8RG3UKJUaLg__w&utm_medium=api&utm_source=ea9765bf&v=B32C87187FBFC2D13FDA604F09FDA3D6FFE880C2",
       "source": "adzuna",
       "track": "quick-cash",
       "kept": false,
@@ -8921,12 +8765,12 @@
       "snippet": "Merchandising Specialist General Information Company: PRE-US Location: MYRTLE BEACH, South Carolina, 29572 Ref : 122427 Pay Rate: $ 12.00 Experience/skills and…"
     },
     {
-      "id": "f5ec5e4885b5471e32ffba5022adc96ffb0930dc",
+      "id": "9a51d5ed5adf01882707b02c0f8a9af1e0204b73",
       "title": "(Wireless) Territory Sales Manager",
       "company": "Acosta Group",
       "location": "Georgetown, Georgetown County",
       "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5952935966?se=ZqsYFE3g8RG2_dMaX_9hbQ&utm_medium=api&utm_source=ea9765bf&v=0558DD04B682CC25E68AE1A55F42083A79FC1856",
+      "url": "https://www.adzuna.com/land/ad/5952935966?se=hkdF8nHg8RGNl561rfNY_A&utm_medium=api&utm_source=ea9765bf&v=0558DD04B682CC25E68AE1A55F42083A79FC1856",
       "source": "adzuna",
       "track": "tech-sales",
       "kept": false,
@@ -9207,12 +9051,12 @@
       "snippet": "Sportsman Boats is looking for an experienced Aluminum TIG Welder to join our manufacturing team. In this role, you'll help fabricate high-quality aluminum com…"
     },
     {
-      "id": "a64cde63d605eae3dcd6ad7fca8b1f7fd0c47722",
+      "id": "36705d15fefaa8ad19d07f3ebb2418d3ec15df41",
       "title": "Retail Brand Representative",
       "company": "Abercrombie & Fitch",
       "location": "Murrells Inlet, Horry County",
       "pay": "$23,732/year",
-      "url": "https://www.adzuna.com/land/ad/5952254818?se=kPBLEk3g8RGDtoxXJCvQRQ&utm_medium=api&utm_source=ea9765bf&v=82000CD0AD43542DDE2E3F06D122C0FA9F46CCA7",
+      "url": "https://www.adzuna.com/land/ad/5952254818?se=Turk8XHg8RG3UKJUaLg__w&utm_medium=api&utm_source=ea9765bf&v=82000CD0AD43542DDE2E3F06D122C0FA9F46CCA7",
       "source": "adzuna",
       "track": "quick-cash",
       "kept": false,
@@ -9220,12 +9064,12 @@
       "snippet": "Represent the Abercrombie & Fitch brand by providing attentive customer service, product and styling guidance, and support throughout the store. Maintain sales…"
     },
     {
-      "id": "56fb8c8c09b43db7fddb35a003f0e2dd001c4d2b",
+      "id": "938a9ba70add62c3463af0f8de3681e2f6ede387",
       "title": "Retail Brand Representative",
       "company": "Abercrombie & Fitch",
       "location": "Murrells Inlet, Horry County",
       "pay": "$23,732/year",
-      "url": "https://www.adzuna.com/land/ad/5952254818?se=ZqsYFE3g8RG2_dMaX_9hbQ&utm_medium=api&utm_source=ea9765bf&v=82000CD0AD43542DDE2E3F06D122C0FA9F46CCA7",
+      "url": "https://www.adzuna.com/land/ad/5952254818?se=hkdF8nHg8RGNl561rfNY_A&utm_medium=api&utm_source=ea9765bf&v=82000CD0AD43542DDE2E3F06D122C0FA9F46CCA7",
       "source": "adzuna",
       "track": "tech-sales",
       "kept": false,
@@ -9233,12 +9077,12 @@
       "snippet": "Represent the Abercrombie & Fitch brand by providing attentive customer service, product and styling guidance, and support throughout the store. Maintain sales…"
     },
     {
-      "id": "349e8cbd56a7864eea5c318a8c4ae67fd27be890",
+      "id": "a8190ada4dd0b2604b705bc738916186151458c9",
       "title": "Retail Brand Representative",
       "company": "Abercrombie & Fitch",
       "location": "Conway, Horry County",
       "pay": "$23,732/year",
-      "url": "https://www.adzuna.com/land/ad/5952213131?se=kPBLEk3g8RGDtoxXJCvQRQ&utm_medium=api&utm_source=ea9765bf&v=100BA64E62AA4696CE2FB2ABAA8667E90FBB068D",
+      "url": "https://www.adzuna.com/land/ad/5952213131?se=Turk8XHg8RG3UKJUaLg__w&utm_medium=api&utm_source=ea9765bf&v=100BA64E62AA4696CE2FB2ABAA8667E90FBB068D",
       "source": "adzuna",
       "track": "quick-cash",
       "kept": false,
@@ -9246,12 +9090,12 @@
       "snippet": "Represent the Abercrombie & Fitch brand by providing attentive customer service, product and styling guidance, and support throughout the store. Maintain sales…"
     },
     {
-      "id": "5fd8b8f769bbba861114ff6bec13b669fd6c5c9d",
+      "id": "b575c06ea1a12f79c59e43e034550b8a7234a4a5",
       "title": "Retail Brand Representative",
       "company": "Abercrombie & Fitch",
       "location": "Conway, Horry County",
       "pay": "$23,732/year",
-      "url": "https://www.adzuna.com/land/ad/5952213131?se=ZqsYFE3g8RG2_dMaX_9hbQ&utm_medium=api&utm_source=ea9765bf&v=100BA64E62AA4696CE2FB2ABAA8667E90FBB068D",
+      "url": "https://www.adzuna.com/land/ad/5952213131?se=hkdF8nHg8RGNl561rfNY_A&utm_medium=api&utm_source=ea9765bf&v=100BA64E62AA4696CE2FB2ABAA8667E90FBB068D",
       "source": "adzuna",
       "track": "tech-sales",
       "kept": false,
@@ -9259,12 +9103,12 @@
       "snippet": "Represent the Abercrombie & Fitch brand by providing attentive customer service, product and styling guidance, and support throughout the store. Maintain sales…"
     },
     {
-      "id": "7146682104885317874744a1183a77fe7f8552e5",
+      "id": "29169eb059e0c3ac6a551d0f8c7a875b07d56e8b",
       "title": "Retail Brand Representative",
       "company": "Abercrombie & Fitch",
       "location": "North Myrtle Beach, Horry County",
       "pay": "$23,732/year",
-      "url": "https://www.adzuna.com/land/ad/5952210252?se=kPBLEk3g8RGDtoxXJCvQRQ&utm_medium=api&utm_source=ea9765bf&v=1503D15A839EF312C9677D2DB38154C22ABC9C1E",
+      "url": "https://www.adzuna.com/land/ad/5952210252?se=Turk8XHg8RG3UKJUaLg__w&utm_medium=api&utm_source=ea9765bf&v=1503D15A839EF312C9677D2DB38154C22ABC9C1E",
       "source": "adzuna",
       "track": "quick-cash",
       "kept": false,
@@ -9272,12 +9116,12 @@
       "snippet": "Represent the Abercrombie & Fitch brand by providing attentive customer service, product and styling guidance, and support throughout the store. Maintain sales…"
     },
     {
-      "id": "ac16cbd2c53eeef6e688b2e917c36be504194f48",
+      "id": "f053d99079e9bfde48a3d5d735356ab3d985c9c5",
       "title": "Retail Brand Representative",
       "company": "Abercrombie & Fitch",
       "location": "North Myrtle Beach, Horry County",
       "pay": "$23,732/year",
-      "url": "https://www.adzuna.com/land/ad/5952210252?se=ZqsYFE3g8RG2_dMaX_9hbQ&utm_medium=api&utm_source=ea9765bf&v=1503D15A839EF312C9677D2DB38154C22ABC9C1E",
+      "url": "https://www.adzuna.com/land/ad/5952210252?se=hkdF8nHg8RGNl561rfNY_A&utm_medium=api&utm_source=ea9765bf&v=1503D15A839EF312C9677D2DB38154C22ABC9C1E",
       "source": "adzuna",
       "track": "tech-sales",
       "kept": false,
@@ -9324,12 +9168,12 @@
       "snippet": "Role Overview: As a Business Development Rep at Defense Unicorns , you will play a pivotal role in the company's success by identifying, cultivating, and manag…"
     },
     {
-      "id": "66840a2f4994b822bd735cbe560eda433e77b651",
+      "id": "cb81adf3a53244266c3b459ff4aad42e0dbd9ed8",
       "title": "Retail Brand Representative",
       "company": "Abercrombie & Fitch",
       "location": "Carolina Forest, Horry County",
       "pay": "$23,732/year",
-      "url": "https://www.adzuna.com/land/ad/5952115106?se=kPBLEk3g8RGDtoxXJCvQRQ&utm_medium=api&utm_source=ea9765bf&v=E537D798847BC2FE3A5E80E46687EC7987C9D2C5",
+      "url": "https://www.adzuna.com/land/ad/5952115106?se=Turk8XHg8RG3UKJUaLg__w&utm_medium=api&utm_source=ea9765bf&v=E537D798847BC2FE3A5E80E46687EC7987C9D2C5",
       "source": "adzuna",
       "track": "quick-cash",
       "kept": false,
@@ -9337,12 +9181,12 @@
       "snippet": "Represent the Abercrombie & Fitch brand by providing attentive customer service, product and styling guidance, and support throughout the store. Maintain sales…"
     },
     {
-      "id": "ad26f36892f09a2cde19c465816eb67314707183",
+      "id": "429850eb4ea6614975f7356cc01f835316155190",
       "title": "Retail Brand Representative",
       "company": "Abercrombie & Fitch",
       "location": "Carolina Forest, Horry County",
       "pay": "$23,732/year",
-      "url": "https://www.adzuna.com/land/ad/5952115106?se=ZqsYFE3g8RG2_dMaX_9hbQ&utm_medium=api&utm_source=ea9765bf&v=E537D798847BC2FE3A5E80E46687EC7987C9D2C5",
+      "url": "https://www.adzuna.com/land/ad/5952115106?se=hkdF8nHg8RGNl561rfNY_A&utm_medium=api&utm_source=ea9765bf&v=E537D798847BC2FE3A5E80E46687EC7987C9D2C5",
       "source": "adzuna",
       "track": "tech-sales",
       "kept": false,
@@ -9350,25 +9194,12 @@
       "snippet": "Represent the Abercrombie & Fitch brand by providing attentive customer service, product and styling guidance, and support throughout the store. Maintain sales…"
     },
     {
-      "id": "e36c067ebe13338b8003aa9777bb2258cb0db940",
-      "title": "Nurse Practitioner, Paneled",
-      "company": "CenterWell Senior Primary Care",
-      "location": "Murrells Inlet, Horry County",
-      "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5951807955?se=kPBLEk3g8RGDtoxXJCvQRQ&utm_medium=api&utm_source=ea9765bf&v=52D009E3FE26B4CBAFD89FC1590D15078F464B6B",
-      "source": "adzuna",
-      "track": "quick-cash",
-      "kept": false,
-      "dropReason": "off-track",
-      "snippet": "Become a part of our caring community Humana's Primary Care Organization is a fast-growing provider of senior-focused, value-based care, with 340 centers acros…"
-    },
-    {
-      "id": "8b6801ea5664f55a4a2ced568e952224906a52d6",
+      "id": "7f71655419cfbc5ec23953a3052d9725f4fb43a9",
       "title": "Travel Physical Therapist Assistant (PTA) - $1,418 per week",
       "company": "Jackson Therapy Partners",
       "location": "Ocean Ridge, Palm Beach County",
       "pay": "$0–$73,736/year",
-      "url": "https://www.adzuna.com/land/ad/5951732688?se=nCVTEE3g8RG3UKJUaLg__w&utm_medium=api&utm_source=ea9765bf&v=131BDAA0CA3771C5B03A101D2639EC095FC3B83A",
+      "url": "https://www.adzuna.com/land/ad/5951732688?se=ltaw8XHg8RGYoYBThUdMLw&utm_medium=api&utm_source=ea9765bf&v=131BDAA0CA3771C5B03A101D2639EC095FC3B83A",
       "source": "adzuna",
       "track": "marine-national",
       "kept": false,
@@ -9558,19 +9389,6 @@
       "snippet": "You’re the heart of Connection. A people person who loves to help, listen, and learn. Join our team of experts to grow your career and work side by side with s…"
     },
     {
-      "id": "acf8f9740c6cc392fcb134135c61b42ff2bd4698",
-      "title": "Physical Therapist - Travel Contract",
-      "company": "Jackson Therapy Partners",
-      "location": "Surfside, Horry County",
-      "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5951133288?se=CLjWEE3g8RGNl561rfNY_A&utm_medium=api&utm_source=ea9765bf&v=D9B044B2082E5FD47C2AB54C8D2DCCCDABADE7A3",
-      "source": "adzuna",
-      "track": "quick-cash",
-      "kept": false,
-      "dropReason": "off-track",
-      "snippet": "Looking for a change of scenery and a chance to help others? Join Jackson Therapy Partners as a traveling Physical Therapist where you’ll help patients recover…"
-    },
-    {
       "id": "cc4f90a11a8f95002a83e7f15e338c066932eeed",
       "title": "Deckhand - 40m Private Motor Yacht",
       "company": "Bluewater Yachting",
@@ -9675,17 +9493,30 @@
       "snippet": "GuidePoint Security provides trusted cybersecurity expertise, solutions and services that help organizations make better decisions and minimize risk. By taking…"
     },
     {
-      "id": "b096e9d6078efe2042f8eabcd6739e8d98097783",
+      "id": "dcb89e368c6177b7b49b99255ca3c2ccb34c336b",
       "title": "Outpatient Radiologic Technologist",
       "company": "MUSC",
       "location": "James Island, Charleston County",
       "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5950920360?se=zMdFD03g8RG9p9ob_RTtsA&utm_medium=api&utm_source=ea9765bf&v=6F4C3DD25466877FC6A315673C02099AE66D8A2F",
+      "url": "https://www.adzuna.com/land/ad/5950920360?se=_shl8XHg8RGYoYBThUdMLw&utm_medium=api&utm_source=ea9765bf&v=6F4C3DD25466877FC6A315673C02099AE66D8A2F",
       "source": "adzuna",
       "track": "marine-chs",
       "kept": false,
       "dropReason": "not-marine",
       "snippet": "Job Description Summary $10,000 sign-on bonus up to $5,000 relocation assistance available Performs radiographic procedures at a technical level requiring soun…"
+    },
+    {
+      "id": "4430728db96f34c66d4224208da9b63565d721b9",
+      "title": "Dealership Service Porter",
+      "company": "Victory Chrysler Dodge Jeep Ram",
+      "location": "South Brunswick, Brunswick County",
+      "pay": "$13–$18/hour",
+      "url": "https://www.adzuna.com/details/5950866494?utm_medium=api&utm_source=ea9765bf",
+      "source": "adzuna",
+      "track": "quick-cash",
+      "kept": false,
+      "dropReason": "off-track",
+      "snippet": "Benefits: Competitive salary Dental insurance Employee discounts Health insurance Opportunity for advancement Paid time off Training & development Benefits/Per…"
     },
     {
       "id": "4480ac92cf350fb1bd0880305388a73234c0bfdd",
@@ -9740,12 +9571,12 @@
       "snippet": "Headquarters: Colombia Remote At Feedzai, we're building a world of safer money. A world where financial institutions move faster than criminals. Where the pay…"
     },
     {
-      "id": "d0165ce496586d967cef4f2f9a359ab290f3444d",
+      "id": "40a70d596478ebe068a19e65366e5f0d636a102f",
       "title": "Retail Store Manager 4",
       "company": "AT&T",
       "location": "Carolina Forest, Horry County",
       "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5950515603?se=ZqsYFE3g8RG2_dMaX_9hbQ&utm_medium=api&utm_source=ea9765bf&v=667F6364AB3B8B69206597E80DF59DC61562D19D",
+      "url": "https://www.adzuna.com/land/ad/5950515603?se=hkdF8nHg8RGNl561rfNY_A&utm_medium=api&utm_source=ea9765bf&v=667F6364AB3B8B69206597E80DF59DC61562D19D",
       "source": "adzuna",
       "track": "tech-sales",
       "kept": false,
@@ -9857,43 +9688,17 @@
       "snippet": "Full time About Us Since 1989, SHI International Corp. has helped organizations change the world through technology. We’ve grown every year since, and today we…"
     },
     {
-      "id": "1e5d39d579077a4ee119d104e323e32ad3b4418c",
-      "title": "Territory Sales Manager (Outside Sales - Waste Industry) (Hiring Immediately)",
-      "company": "Capital Waste Services LLC",
-      "location": "Brittons Neck, Marion County",
-      "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5950064638?se=ZqsYFE3g8RG2_dMaX_9hbQ&utm_medium=api&utm_source=ea9765bf&v=DBCBE6FAF27D5FC9CDCD64D7CB6CED57E0F9FA6A",
-      "source": "adzuna",
-      "track": "tech-sales",
-      "kept": false,
-      "dropReason": "senior",
-      "snippet": "About Capital Waste Services At Capital Waste Services (CWS) , we are committed to delivering reliable, customer-focused waste collection services across our c…"
-    },
-    {
-      "id": "ec0ea98f1dbf134c321069b073ab06f402ad0f5a",
+      "id": "cd4b7e66a7e096c4c52895509b98e725cee759dc",
       "title": "Outside Sales Representative – Waste & Recycling",
       "company": "Capital Waste Services LLC",
       "location": "Brittons Neck, Marion County",
       "pay": "$80,000–$115,000/year",
-      "url": "https://www.adzuna.com/land/ad/5949881793?se=kPBLEk3g8RGDtoxXJCvQRQ&utm_medium=api&utm_source=ea9765bf&v=7F0754072609C0251E5F960B855ACE07FDDF9159",
+      "url": "https://www.adzuna.com/land/ad/5949881793?se=Turk8XHg8RG3UKJUaLg__w&utm_medium=api&utm_source=ea9765bf&v=7F0754072609C0251E5F960B855ACE07FDDF9159",
       "source": "adzuna",
       "track": "quick-cash",
       "kept": false,
       "dropReason": "far-quick-cash",
       "snippet": "Capital Waste Services LLC is seeking a Territory Sales Manager to grow commercial and industrial waste and recycling accounts across an assigned territory. Yo…"
-    },
-    {
-      "id": "8c016aa7089c4351f803fe73783b423bc9125ae3",
-      "title": "CERTIFIED NURSING ASSISTANT - SHORELAND HEALTHCARE CENTER (Hiring Immediately)",
-      "company": "Liberty Health",
-      "location": "Whiteville, Columbus County",
-      "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5949410799?se=CLjWEE3g8RGNl561rfNY_A&utm_medium=api&utm_source=ea9765bf&v=DAD7E007D29F019589323013E13E5B9EAF8A7E98",
-      "source": "adzuna",
-      "track": "quick-cash",
-      "kept": false,
-      "dropReason": "off-track",
-      "snippet": "CERTIFIED NURSING ASSISTANT - SHORELAND HEALTHCARE CENTER Liberty Cares With Compassion At Liberty Healthcare and Rehabilitation Services , we promote a challe…"
     },
     {
       "id": "c496ef173f314221cc3e240927549100115c0898",
@@ -9909,12 +9714,12 @@
       "snippet": "The Beauty Advisor drives sales and delivers a positive customer experience by providing excellent service through building client relationships, performing pr…"
     },
     {
-      "id": "bc28d26f4981a12216eabb2e733d9f93b9f9b8d0",
+      "id": "afa287b3cacf224a72f39c23c365ce6fff7e67d4",
       "title": "Retail Lead Generation Representative – Home Services",
       "company": "ARS-Rescue Rooter",
       "location": "Carolina Forest, Horry County",
       "pay": "$48,000–$58,000/year",
-      "url": "https://www.adzuna.com/land/ad/5949346678?se=kPBLEk3g8RGDtoxXJCvQRQ&utm_medium=api&utm_source=ea9765bf&v=0C1C992F8F3F2405A936D34524B7E9065326466E",
+      "url": "https://www.adzuna.com/land/ad/5949346678?se=Turk8XHg8RG3UKJUaLg__w&utm_medium=api&utm_source=ea9765bf&v=0C1C992F8F3F2405A936D34524B7E9065326466E",
       "source": "adzuna",
       "track": "quick-cash",
       "kept": false,
@@ -9922,12 +9727,12 @@
       "snippet": "ARS-Rescue Rooter is seeking an energetic In-Store Sales Lead Generator to represent our residential HVAC, plumbing, and electrical services inside retail loca…"
     },
     {
-      "id": "64bfc6c5be70df6780b2792fcbbad49938eba69f",
+      "id": "4d6338c23dcbc7cd62f7c3a07ba0c7df581ae593",
       "title": "Retail Lead Generation Representative – Home Services",
       "company": "ARS-Rescue Rooter",
       "location": "Carolina Forest, Horry County",
       "pay": "$48,000–$58,000/year",
-      "url": "https://www.adzuna.com/land/ad/5949346678?se=ZqsYFE3g8RG2_dMaX_9hbQ&utm_medium=api&utm_source=ea9765bf&v=0C1C992F8F3F2405A936D34524B7E9065326466E",
+      "url": "https://www.adzuna.com/land/ad/5949346678?se=hkdF8nHg8RGNl561rfNY_A&utm_medium=api&utm_source=ea9765bf&v=0C1C992F8F3F2405A936D34524B7E9065326466E",
       "source": "adzuna",
       "track": "tech-sales",
       "kept": false,
@@ -9987,30 +9792,17 @@
       "snippet": "Headquarters: Remote (US) Gong harnesses the power of AI to transform how revenue teams win. The Gong Revenue AI Operating System unifies data, insights, and w…"
     },
     {
-      "id": "73a4593e400e57e1a387b23961d200c317493e56",
+      "id": "af40e4ef16a86a8f3aebe4014878970f0fe7e74b",
       "title": "Multi-Store Grocery Retail Manager",
       "company": "KJ's Market",
       "location": "Johnsonville, Florence County",
       "pay": "$51,000–$61,000/year",
-      "url": "https://www.adzuna.com/land/ad/5949228001?se=ZqsYFE3g8RG2_dMaX_9hbQ&utm_medium=api&utm_source=ea9765bf&v=17560E29E280DB7F12213E9CFAD787468FFD74A3",
+      "url": "https://www.adzuna.com/land/ad/5949228001?se=hkdF8nHg8RGNl561rfNY_A&utm_medium=api&utm_source=ea9765bf&v=17560E29E280DB7F12213E9CFAD787468FFD74A3",
       "source": "adzuna",
       "track": "tech-sales",
       "kept": false,
       "dropReason": "senior",
       "snippet": "KJ’s Market is seeking a Bench Manager to support multiple grocery locations, ensuring smooth daily operations and excellent customer service. This role fills …"
-    },
-    {
-      "id": "651b5b278a2503da11bb51532e4e1290859730d9",
-      "title": "Facility Security Officer (6349)",
-      "company": "Three Saints Bay",
-      "location": "Saint Andrews, Charleston County",
-      "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5949185313?se=zMdFD03g8RG9p9ob_RTtsA&utm_medium=api&utm_source=ea9765bf&v=7A8B20469EA0E9B994643337017DD4DA3D9D6E38",
-      "source": "adzuna",
-      "track": "marine-chs",
-      "kept": false,
-      "dropReason": "not-marine",
-      "snippet": "Facility Security Officer (6349) Location Charleston, SC Job Code 6349 \\ of Openings 1 Apply Now (https://phg.tbe.taleo.net/phg01/ats/careers/v2/applyRequisiti…"
     },
     {
       "id": "ff92e2dfaf963372cc6450a50cdbb608b3e8a2a7",
@@ -10039,12 +9831,12 @@
       "snippet": "Olsten is assisting in recruiting for a current Administrative Assistant - Sales and Marketing position for a well-established company located in Mullins, SC. …"
     },
     {
-      "id": "b7400833640f200d9890346c6efc43522947e1d4",
+      "id": "2ae82b52631d6f91728ec3fdcfb62740ed2b541b",
       "title": "Administrative Assistant - Sales and Marketing",
       "company": "Adecco US, Inc.",
       "location": "Mullins, Marion County",
       "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5949139918?se=kPBLEk3g8RGDtoxXJCvQRQ&utm_medium=api&utm_source=ea9765bf&v=04CDD980517E80D2600845CD5EF2321F287C229C",
+      "url": "https://www.adzuna.com/land/ad/5949139918?se=Turk8XHg8RG3UKJUaLg__w&utm_medium=api&utm_source=ea9765bf&v=04CDD980517E80D2600845CD5EF2321F287C229C",
       "source": "adzuna",
       "track": "quick-cash",
       "kept": false,
@@ -10130,12 +9922,12 @@
       "snippet": "via JobMESH. Darby Dental Supply, LLC is seeking motivated individuals to join our team as Sales Development Representatives (SDR). This fully remote, entry‐le…"
     },
     {
-      "id": "861da4accf837294c62f718166a2cd326486b5eb",
+      "id": "1781bfcc18932e2e7d5ccb491d3ba5876fe972f9",
       "title": "GOLF GROUND MAINTENANCE",
       "company": "Fisher Island Club",
       "location": "Miami Beach, Miami-Dade County",
       "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5948224097?se=nCVTEE3g8RG3UKJUaLg__w&utm_medium=api&utm_source=ea9765bf&v=6BBFF530FAE65A7ED621F0E7D3BC6BFD506853AF",
+      "url": "https://www.adzuna.com/land/ad/5948224097?se=ltaw8XHg8RGYoYBThUdMLw&utm_medium=api&utm_source=ea9765bf&v=6BBFF530FAE65A7ED621F0E7D3BC6BFD506853AF",
       "source": "adzuna",
       "track": "marine-national",
       "kept": false,
@@ -10195,12 +9987,12 @@
       "snippet": "Description YOUR ROLE You can't buy product if it's not on the floor, right?! As a part-time stock brand Ambassador, you're an expert at keeping product moving…"
     },
     {
-      "id": "764db9c225ab6acfd80fa67a3dea763701687a1b",
+      "id": "53b78a2ffd5c3b013ed5055bb0ada94fae3599ea",
       "title": "STORE MANAGER - CALABASH, NC STORE 16795",
       "company": "Dollar General",
       "location": "Carolina Shores, Brunswick County",
       "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5947994833?se=1PkQD03g8RGNl561rfNY_A&utm_medium=api&utm_source=ea9765bf&v=BD5371902BDF38A12EF29B437760FA0F278FDA3B",
+      "url": "https://www.adzuna.com/land/ad/5947994833?se=YJ1m8XHg8RGDtoxXJCvQRQ&utm_medium=api&utm_source=ea9765bf&v=BD5371902BDF38A12EF29B437760FA0F278FDA3B",
       "source": "adzuna",
       "track": "marine-local",
       "kept": false,
@@ -10208,12 +10000,12 @@
       "snippet": "Responsible for the management of all employees in the effective planning and implementation of all store processes, including ordering, receiving, stocking, p…"
     },
     {
-      "id": "2da31d9282508f8794754111e724b31418aa2cdf",
+      "id": "f3728e9c178239b217497c886fa959cc0f445d09",
       "title": "STORE MANAGER - CALABASH, NC STORE 16795",
       "company": "Dollar General",
       "location": "Carolina Shores, Brunswick County",
       "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5947994833?se=pOoOD03g8RGDtoxXJCvQRQ&utm_medium=api&utm_source=ea9765bf&v=BD5371902BDF38A12EF29B437760FA0F278FDA3B",
+      "url": "https://www.adzuna.com/land/ad/5947994833?se=AKis8XHg8RGDtoxXJCvQRQ&utm_medium=api&utm_source=ea9765bf&v=BD5371902BDF38A12EF29B437760FA0F278FDA3B",
       "source": "adzuna",
       "track": "marine-local",
       "kept": false,
@@ -10221,12 +10013,12 @@
       "snippet": "Responsible for the management of all employees in the effective planning and implementation of all store processes, including ordering, receiving, stocking, p…"
     },
     {
-      "id": "1ac849bdee99e5a087b33b785df4a3fee2850d85",
+      "id": "aea6da3886099f67464210a1fc76c8c433120e68",
       "title": "Senior Brand Strategist, Job Seekers",
       "company": "Indeed",
       "location": "Saint Andrews, Charleston County",
       "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5947992717?se=WECsEk3g8RG3UKJUaLg__w&utm_medium=api&utm_source=ea9765bf&v=76C76A0BD51FBBB9E680707DC50E135874642DCE",
+      "url": "https://www.adzuna.com/land/ad/5947992717?se=tuY58nHg8RG3UKJUaLg__w&utm_medium=api&utm_source=ea9765bf&v=76C76A0BD51FBBB9E680707DC50E135874642DCE",
       "source": "adzuna",
       "track": "quick-cash",
       "kept": false,
@@ -10234,12 +10026,12 @@
       "snippet": "Our Mission As the world's number 1 job site*, our mission is to help people get jobs. We strive to cultivate an inclusive and accessible workplace where all p…"
     },
     {
-      "id": "38cdbcf76d485f4150c31601ed34b88035a1b30e",
+      "id": "ec668177704c9ff40b0f8ce0847d768d0ec08bf8",
       "title": "STORE MANAGER - MYRTLE BEACH, SC STORE 12633",
       "company": "Dollar General",
       "location": "Carolina Forest, Horry County",
       "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5947979178?se=1PkQD03g8RGNl561rfNY_A&utm_medium=api&utm_source=ea9765bf&v=7BC4B57FB1E8533115FA3C4BCEDA4D8F25B0D852",
+      "url": "https://www.adzuna.com/land/ad/5947979178?se=YJ1m8XHg8RGDtoxXJCvQRQ&utm_medium=api&utm_source=ea9765bf&v=7BC4B57FB1E8533115FA3C4BCEDA4D8F25B0D852",
       "source": "adzuna",
       "track": "marine-local",
       "kept": false,
@@ -10247,12 +10039,12 @@
       "snippet": "Responsible for the management of all employees in the effective planning and implementation of all store processes, including ordering, receiving, stocking, p…"
     },
     {
-      "id": "4eae72bfce506284bdf4408fbc62222be247da1e",
+      "id": "91443190e18460b26364d31e955e7b40460b56fe",
       "title": "STORE MANAGER - MYRTLE BEACH, SC STORE 12633",
       "company": "Dollar General",
       "location": "Carolina Forest, Horry County",
       "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5947979178?se=pOoOD03g8RGDtoxXJCvQRQ&utm_medium=api&utm_source=ea9765bf&v=7BC4B57FB1E8533115FA3C4BCEDA4D8F25B0D852",
+      "url": "https://www.adzuna.com/land/ad/5947979178?se=AKis8XHg8RGDtoxXJCvQRQ&utm_medium=api&utm_source=ea9765bf&v=7BC4B57FB1E8533115FA3C4BCEDA4D8F25B0D852",
       "source": "adzuna",
       "track": "marine-local",
       "kept": false,
@@ -10351,12 +10143,12 @@
       "snippet": "We're transforming the grocery industry At Instacart , we invite the world to share love through food because we believe everyone should have access to the foo…"
     },
     {
-      "id": "e9d3e4e35594e3f94e1d2730f39733494385faaf",
+      "id": "41f47dd2b2eed65ca78c41a01e3a681e615e2747",
       "title": "Facility Security Officer (6349) with Security Clearance",
       "company": "Three Saints Bay",
       "location": "James Island, Charleston County",
       "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5947691011?se=zMdFD03g8RG9p9ob_RTtsA&utm_medium=api&utm_source=ea9765bf&v=D90CF607A680138CCCD204BEA75535FF28895EB0",
+      "url": "https://www.adzuna.com/land/ad/5947691011?se=_shl8XHg8RGYoYBThUdMLw&utm_medium=api&utm_source=ea9765bf&v=D90CF607A680138CCCD204BEA75535FF28895EB0",
       "source": "adzuna",
       "track": "marine-chs",
       "kept": false,
@@ -10804,19 +10596,6 @@
       "kept": true,
       "dropReason": null,
       "snippet": "Headquarters: Remote, United States Sales Development Representative, Strategic Accounts Remote, United States ROLE AND RESPONSIBILITY The mission of the Sales…"
-    },
-    {
-      "id": "15c435940b60ff92806e20298f3957acc6737150",
-      "title": "Sales Development Representative",
-      "company": "YipitData",
-      "location": "Remote — USA",
-      "pay": "",
-      "url": "https://jobicy.com/jobs/157744-sales-development-representative-15",
-      "source": "jobicy",
-      "track": "tech-sales",
-      "kept": false,
-      "dropReason": "dead-link",
-      "snippet": "About Us: YipitData is the leading market research and analytics firm for the disruptive economy and most recently raised $475M from The Carlyle Group at a val…"
     },
     {
       "id": "ba664bfba3105c5225d4c637f71a1cc93428ad5a",
@@ -13250,19 +13029,6 @@
       "snippet": "Vehicle detailer in Myrtle Beach with a $1,000 sign-on bonus. Steady hours; detailing skills carry over to boats. Posted in the last 7 days."
     },
     {
-      "id": "5900cda9844bc7fab578acd8a0bc6f7302ba639b",
-      "title": "Senior Python Developer (CRM - AI/LLM)",
-      "company": "Emerging Travel Group",
-      "location": "Remote",
-      "pay": "",
-      "url": "https://weworkremotely.com/remote-jobs/emerging-travel-group-senior-python-developer-crm-ai-llm",
-      "source": "wwr",
-      "track": "ai-web",
-      "kept": false,
-      "dropReason": "senior",
-      "snippet": "Headquarters: Kazakhstan URL: http://emergingtravel.com Description We are looking for a Senior Backend Engineer (Python) to join the HQ Automation division an…"
-    },
-    {
       "id": "c8a19377396fb2a029e7d4f30cd6df85fb267ff4",
       "title": "Inside Sales Account Manager",
       "company": "Connection (GovConnection)",
@@ -13557,7 +13323,7 @@
       "url": "https://www.ziprecruiter.com/c/dredgit/Job/MARINE-DECKHAND-TRAVEL-REQUIRED/-in-North-East,MD?jid=16a5d83a8d928d59",
       "source": "jsearch",
       "track": "marine-national",
-      "kept": true,
+      "kept": false,
       "dropReason": null,
       "snippet": "via ZipRecruiter. Dredgit is hiring Marine Deckhands / Boatmen to support dredging operations on active marine job sites. This is hands-on work on boats, barge…"
     },

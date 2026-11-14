@@ -35,20 +35,7 @@
   "https://careers.crowley.com/jobs": [
     "https://careers.crowley.com/careers-home"
   ],
-  "https://www.dockwalk.com/jobs": [
-    "https://www.dockwalk.com/crewlife",
-    "https://www.dockwalk.com/crewlife/captains",
-    "https://www.dockwalk.com/crewlife/deckhands",
-    "https://www.dockwalk.com/jobs",
-    "https://www.dockwalk.com/jobs/career-advice",
-    "https://www.dockwalk.com/dockwalk-presents",
-    "https://www.dockwalk.com/digital-dockwalk",
-    "https://www.dockwalk.com/crewlife/interior-dual-roles",
-    "https://www.dockwalk.com/crewlife/power-of-letting-go-as-a-chef",
-    "https://www.dockwalk.com/crewlife/senior-yacht-crew-cv-essentials",
-    "https://www.dockwalk.com/jobs/training/yacht-engineer-skills-you-should-have",
-    "https://www.dockwalk.com/jobs/training/when-and-where-to-be-for-yacht-crew-jobs"
-  ],
+  "https://www.dockwalk.com/jobs": [],
   "https://www.cottoncrews.com/crew-jobs/": [
     "https://www.cottoncrews.com/luxury-yacht-crew-agency/",
     "https://www.cottoncrews.com/app-guide/",
@@ -201,7 +188,11 @@
     "https://www.meridiango.com/yacht-mate-jobs",
     "https://www.meridiango.com/crew-register"
   ],
-  "https://premium.avature.net/en_US/jobs/": [],
+  "https://premium.avature.net/en_US/jobs/": [
+    "https://premium.avature.net/en_US/jobs/SearchJobsMaps",
+    "https://premiumretail.com/category/career-resources/",
+    "https://premiumretail.com/careers/faqs/"
+  ],
   "https://www.luxyachts.com/find-work": [
     "https://www.luxyachts.com/sales/yachts-for-sale",
     "https://www.luxyachts.com/sales/yacht-sales",
@@ -212,9 +203,9 @@
     "https://www.luxyachts.com/find-crew",
     "https://www.luxyachts.com/tools/job-descriptions",
     "https://www.luxyachts.com/find-crew/luxyachts",
+    "https://www.luxyachts.com/about/team/candice-keen",
+    "https://www.luxyachts.com/about/team/karine-lautru",
     "https://www.luxyachts.com/about/team/scott-harwood",
-    "https://www.luxyachts.com/about/team/madison-smith",
-    "https://www.luxyachts.com/about/team/hannah-ross-taylor",
     "https://www.luxyachts.com/tools/salaries"
   ],
   "https://www.magnoliamarine.com/careers": [
