@@ -1,8 +1,8 @@
 # Office & Gov Sales report
 
-Rebuilt automatically every feed run. Last run: 2026-11-15 02:37 UTC.
+Rebuilt automatically every feed run. Last run: 2026-11-15 17:41 UTC.
 
-## Worth a look (13)
+## Worth a look (14)
 
 Jobs on the site, plus Carahsoft jobs (they list Reston, VA but also hire remote: ask).
 
@@ -13,10 +13,11 @@ Jobs on the site, plus Carahsoft jobs (they list Reston, VA but also hire remote
 | [Digital Media Coordinator](https://www.carahsoft.com/careers/Digital-Media) | Carahsoft | Reston, VA | $40,000–$50,000/year | Ask if remote (listed far away) |
 | [Proposal Coordinator](https://www.carahsoft.com/careers/proposal-coordinator-opportunities) | Carahsoft | Reston, VA | $40,000–$50,000/year | Ask if remote (listed far away) |
 | [Contracts Coordinator](https://www.carahsoft.com/careers/contracts-coordinator) | Carahsoft | Reston, VA | $40,000–$50,000/year | Ask if remote (listed far away) |
-| [Brand Marketing Specialist](https://www.adzuna.com/details/5966184603?utm_medium=api&utm_source=ea9765bf) | Peace Sotheby's International Realty | Pawleys Island, Georgetown County | — | On the site |
 | [Inside Sales Support Representative](https://vizi.vizirecruiter.com/CONNECTION-3063/417788/index.html) | Connection (GovConnection) | Remote, MA | — | On the site |
 | [Technology Sales Representative (Entry Level) – SMB IT Solutions](https://vizi.vizirecruiter.com/CONNECTION-3063/389764/index.html) | Connection (GovConnection) | Remote, NC | — | On the site |
+| [Inbound Sales Representative (Entry Level - Remote)](https://www.talent.com/view?id=629808939635904368) | Stratford Davis | — | — | On the site |
 | [Inside Sales Representative](https://jobicy.com/jobs/152775-inside-sales-representative-2) | Beyond Finance | Remote — USA | — | On the site |
+| [Client Sales Representative - (Entry Level and Fully Remote)](https://www.jobleads.com/us/job/client-sales-representative-entry-level-and-fully-remote--glendale--e491d1b736d2cdd176a0f48e38e01a4c9) | Summit Sky Consulting | — | $36,000–$54,000/year | On the site |
 | [Marketing Assistant](https://weworkremotely.com/remote-jobs/teamswell-marketing-assistant) | Teamswell | Remote | — | On the site |
 | [Inside Sales Representative](https://arrow.wd1.myworkdayjobs.com/en-US/AC/job/US-NY-New-York-Remote-Employees/Inside-Sales-Representative_R249253) | Arrow (immixGroup) | US-NY-New York (Remote Employees) | — | On the site |
 | [Marketing Specialist (Chicagoland Area)](https://boards.greenhouse.io/guidepointsecurity/jobs/6126855004?gh_jid=6126855004) | GuidePoint Security | Remote - Chicagoland Area | — | On the site |
@@ -48,16 +49,16 @@ Jobs on the site, plus Carahsoft jobs (they list Reston, VA but also hire remote
 
 ## Filtered out this run
 
-- Needs more experience: 165
+- Needs more experience: 169
 - Needs closing experience: 66
 - Far away, not remote: 38
-- Not an office/sales role: 35
+- Not an office/sales role: 34
 - abroad: 34
 - commission-only: 16
 - language: 8
 - generic-retail: 6
-- junk-listing: 5
 - remote-abroad: 5
+- junk-listing: 4
 - far-quick-cash: 4
-- commission-insurance: 1
+- dead-link: 1
 - far-low-pay: 1
