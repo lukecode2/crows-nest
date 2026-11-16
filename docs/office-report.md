@@ -1,8 +1,8 @@
 # Office & Gov Sales report
 
-Rebuilt automatically every feed run. Last run: 2026-11-16 02:42 UTC.
+Rebuilt automatically every feed run. Last run: 2026-11-16 16:06 UTC.
 
-## Worth a look (14)
+## Worth a look (15)
 
 Jobs on the site, plus Carahsoft jobs (they list Reston, VA but also hire remote: ask).
 
@@ -16,6 +16,7 @@ Jobs on the site, plus Carahsoft jobs (they list Reston, VA but also hire remote
 | [Inside Sales Support Representative](https://vizi.vizirecruiter.com/CONNECTION-3063/417788/index.html) | Connection (GovConnection) | Remote, MA | — | On the site |
 | [Technology Sales Representative (Entry Level) – SMB IT Solutions](https://vizi.vizirecruiter.com/CONNECTION-3063/389764/index.html) | Connection (GovConnection) | Remote, NC | — | On the site |
 | [Inbound Sales Representative (Entry Level - Remote)](https://www.talent.com/view?id=629808939635904368) | Stratford Davis | — | — | On the site |
+| [Inside Sales Representative - Waterworks](https://www.simplyhired.com/job/uJl_mQwsxPVphy-FfDdjw0Mw_tcKessrInKwD4Wup6AOBL7WYRcSag) | Ferguson Enterprises | Myrtle Beach, SC | $16.84–$26.92/hr | On the site |
 | [Inside Sales Representative](https://jobicy.com/jobs/152775-inside-sales-representative-2) | Beyond Finance | Remote — USA | — | On the site |
 | [Client Sales Representative - (Entry Level and Fully Remote)](https://www.jobleads.com/us/job/client-sales-representative-entry-level-and-fully-remote--glendale--e491d1b736d2cdd176a0f48e38e01a4c9) | Summit Sky Consulting | — | $36,000–$54,000/year | On the site |
 | [Marketing Assistant](https://weworkremotely.com/remote-jobs/teamswell-marketing-assistant) | Teamswell | Remote | — | On the site |
@@ -28,15 +29,15 @@ Jobs on the site, plus Carahsoft jobs (they list Reston, VA but also hire remote
 | Company | Job system | Jobs seen this run |
 |---|---|---|
 | Carahsoft | carahsoft | 15 |
-| TD SYNNEX (DLT public sector) | workday | 68 |
-| Arrow (immixGroup) | workday | 46 |
+| TD SYNNEX (DLT public sector) | workday | 0 |
+| Arrow (immixGroup) | workday | 1 |
 | GuidePoint Security | greenhouse | 12 |
 | Trace3 | greenhouse | 14 |
 | OpenGov | ashby | 0 |
 | Axon | greenhouse | 90 |
 | SHI International | workday | 1 |
 | Connection (GovConnection) | vizi | 36 |
-| Iron Bow Technologies | greenhouse | 2 |
+| Iron Bow Technologies | greenhouse | 3 |
 
 ## Checked but not watchable
 
@@ -49,14 +50,12 @@ Jobs on the site, plus Carahsoft jobs (they list Reston, VA but also hire remote
 
 ## Filtered out this run
 
-- Needs more experience: 140
+- Needs more experience: 98
 - Needs closing experience: 34
-- abroad: 32
-- Not an office/sales role: 30
-- Far away, not remote: 29
+- Not an office/sales role: 27
 - commission-only: 16
-- language: 8
-- generic-retail: 6
-- remote-abroad: 5
-- far-quick-cash: 4
-- far-low-pay: 1
+- junk-listing: 9
+- Far away, not remote: 9
+- remote-abroad: 4
+- language: 2
+- abroad: 1
