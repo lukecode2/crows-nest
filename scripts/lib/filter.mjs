@@ -44,7 +44,7 @@ export function isSenior(job, filters = {}) {
   if (/\b(?:II|III|IV)\b/i.test(title)) return true;
   if ((/\bengineers?\b/i.test(title) || job.track === 'ai-web' && /\b(?:architect|scientist|researcher)\b/i.test(title)) &&
     !/\b(?:junior|entry|associate|intern|apprentice|trainee|trainer)\b/i.test(title)) return true;
-  const leadershipTitle = title.replace(/\blead (?:brand ambassador|generation)\b/gi, '');
+  const leadershipTitle = title.replace(/\blead (?:brand ambassador|generat(?:ion|ors?))\b/gi, '');
   return /\b(?:senior|sr\.?|lead|principal|staff)\b/i.test(leadershipTitle) ||
     // Luke: sales and office jobs asking up to 3 years are fine (2026-11-13); AI/web stays at 2.
     requiredYears(job.snippet) >= (job.track === 'ai-web' ? 2 : 4) ||

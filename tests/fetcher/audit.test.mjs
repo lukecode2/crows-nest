@@ -4,7 +4,7 @@ import { readFile } from 'node:fs/promises';
 import { dropReason, isSenior, roleKey, applyFilters, requiredYears } from '../../scripts/lib/filter.mjs';
 import { classifyTrack } from '../../scripts/lib/classify.mjs';
 import { checkLinks, checkUrl, DEAD_TEXT } from '../../scripts/lib/linkcheck.mjs';
-import { needsCredentialHeLacks } from '../../scripts/lib/fit.mjs';
+import { needsCredentialHeLacks, OTHER_CAREER } from '../../scripts/lib/fit.mjs';
 import { parsePay, inHomeRegion, inCharlestonBand } from '../../scripts/lib/region.mjs';
 import { buildFeed, checkFeedLinks, dailyRunSlot, sources } from '../../scripts/fetch-feed.mjs';
 import { sendAlert } from '../../scripts/lib/alert.mjs';
@@ -79,7 +79,7 @@ test('category links and talent pools are not vacancies across sources', () => {
 test('head, chief, leader and supervisor titles are senior on every track; lead exceptions survive', () => {
   for (const track of ['marine-local', 'marine-chs', 'marine-national', 'quick-cash', 'tech-sales', 'ai-web']) {
     for (const title of ['Head Stew', 'Head Stewardess', 'Chief Deckhand', 'Head Chef', 'Head Engineer', 'Deckhand Leader', 'Shift Supervisor']) assert.ok(isSenior(job(title, { track })), `${track} ${title}`);
-    for (const title of ['Lead Brand Ambassador', 'Lead Generation Representative', 'Retail Lead Generation Sales Representative']) assert.equal(isSenior(job(title, { track })), false, `${track} ${title}`);
+    for (const title of ['Lead Brand Ambassador', 'Lead Generation Representative', 'Retail Lead Generation Sales Representative', 'In-Store Sales Lead Generator']) assert.equal(isSenior(job(title, { track })), false, `${track} ${title}`);
   }
 });
 
@@ -214,4 +214,10 @@ test('workflow uses Node 24 and the package supports Node 22 or newer', async ()
   const pkg = JSON.parse(await readFile(new URL('../../package.json', import.meta.url), 'utf8'));
   assert.match(workflow, /node-version: '24'/);
   assert.equal(pkg.engines.node, '>=22');
+});
+
+test('an SDR/BDR selling to car dealers is not an automotive career', () => {
+  assert.equal(OTHER_CAREER.test('Business Development Representative (BDR/SDR), Automotive'), false);
+  assert.equal(OTHER_CAREER.test('Automotive SDR'), false);
+  assert.equal(OTHER_CAREER.test('Automotive Technician'), true);
 });
