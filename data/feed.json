@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T16:06:47.042Z",
+  "generatedAt": "2026-11-16T16:15:12.071Z",
   "sources": [
     {
       "name": "adzuna",
@@ -52,13 +52,13 @@
     {
       "name": "ats",
       "ok": true,
-      "count": 119,
+      "count": 139,
       "error": null
     },
     {
       "name": "pagewatch",
       "ok": true,
-      "count": 5,
+      "count": 1,
       "error": null
     },
     {
@@ -78,6 +78,12 @@
       "ok": true,
       "count": 157,
       "error": null
+    },
+    {
+      "name": "simplyhired",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 403 from www.simplyhired.com: <!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA; HTTP 403 from www.simplyhired.com: <!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA; HTTP 403 from www.simplyhired.com: <!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA; HTTP 403 from www.simplyhired.com: <!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA; HTTP 403 from www.simplyhired.com: <!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA; HTTP 403 from www.simplyhired.com: <!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA; HTTP 403 from www.simplyhired.com: <!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA; HTTP 403 from www.simplyhired.com: <!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA; HTTP 403 from www.simplyhired.com: <!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA; HTTP 403 from www.simplyhired.com: <!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA; HTTP 403 from www.simplyhired.com: <!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA; HTTP 403 from www.simplyhired.com: <!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA; HTTP 403 from www.simplyhired.com: <!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA; HTTP 403 from www.simplyhired.com: <!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA; HTTP 403 from www.simplyhired.com: <!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA; HTTP 403 from www.simplyhired.com: <!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA; HTTP 403 from www.simplyhired.com: <!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA; HTTP 403 from www.simplyhired.com: <!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA; HTTP 403 from www.simplyhired.com: <!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA"
     }
   ],
   "jobs": [
@@ -107,7 +113,7 @@
       "otherLocations": [
         "Ventura, California"
       ],
-      "linkCheckedAt": "2026-11-16T16:06:47.042Z"
+      "linkCheckedAt": "2026-11-16T16:15:12.071Z"
     },
     {
       "title": "Bosun/Vessel Caretetaker",
@@ -132,7 +138,7 @@
         "high-pay",
         "housing"
       ],
-      "linkCheckedAt": "2026-11-16T16:06:47.042Z"
+      "linkCheckedAt": "2026-11-16T16:15:12.071Z"
     },
     {
       "title": "Deckhand Educator",
@@ -201,7 +207,7 @@
         "live-aboard",
         "housing"
       ],
-      "linkCheckedAt": "2026-11-16T16:06:47.042Z"
+      "linkCheckedAt": "2026-11-16T16:15:12.071Z"
     },
     {
       "title": "Freedom Boat Club - Seasonal Boatcierge at Mt SC;",
@@ -242,7 +248,7 @@
         "far-away",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-16T16:06:47.042Z"
+      "linkCheckedAt": "2026-11-16T16:15:12.071Z"
     },
     {
       "title": "Associate Business Development Representative",
@@ -261,7 +267,7 @@
       "flags": [
         "entry-level"
       ],
-      "linkCheckedAt": "2026-11-16T16:06:47.042Z"
+      "linkCheckedAt": "2026-11-16T16:15:12.071Z"
     },
     {
       "title": "Marketing Specialist (Chicagoland Area)",
@@ -281,7 +287,7 @@
         "entry-level",
         "starts-fast"
       ],
-      "linkCheckedAt": "2026-11-16T16:06:47.042Z"
+      "linkCheckedAt": "2026-11-16T16:15:12.071Z"
     },
     {
       "title": "Ordinary Seaman (3 days on 3 days off)",
@@ -306,7 +312,7 @@
         "live-aboard",
         "housing"
       ],
-      "linkCheckedAt": "2026-11-16T16:06:47.042Z"
+      "linkCheckedAt": "2026-11-16T16:15:12.071Z"
     },
     {
       "title": "Fleet Deckhand (Columbus, KY)",
@@ -330,7 +336,7 @@
         "far-away",
         "live-aboard"
       ],
-      "linkCheckedAt": "2026-11-16T16:06:47.042Z"
+      "linkCheckedAt": "2026-11-16T16:15:12.071Z"
     },
     {
       "title": "Deckhand",
@@ -528,7 +534,7 @@
         "far-away",
         "live-aboard"
       ],
-      "linkCheckedAt": "2026-11-16T16:06:47.042Z"
+      "linkCheckedAt": "2026-11-16T16:15:12.071Z"
     },
     {
       "title": "Deck Hand",
@@ -549,7 +555,7 @@
         "far-away",
         "live-aboard"
       ],
-      "linkCheckedAt": "2026-11-16T16:06:47.042Z"
+      "linkCheckedAt": "2026-11-16T16:15:12.071Z"
     },
     {
       "title": "Maritime Training Program (Deckhand, Mate, Captain)",
@@ -570,7 +576,7 @@
         "far-away",
         "live-aboard"
       ],
-      "linkCheckedAt": "2026-11-16T16:06:47.042Z"
+      "linkCheckedAt": "2026-11-16T16:15:12.071Z"
     },
     {
       "title": "Deckhand Trainee",
@@ -591,7 +597,7 @@
         "far-away",
         "live-aboard"
       ],
-      "linkCheckedAt": "2026-11-16T16:06:47.042Z"
+      "linkCheckedAt": "2026-11-16T16:15:12.071Z"
     },
     {
       "title": "Sales Development Representative",
@@ -610,7 +616,7 @@
       "flags": [
         "starts-fast"
       ],
-      "linkCheckedAt": "2026-11-16T16:06:47.042Z"
+      "linkCheckedAt": "2026-11-16T16:15:12.071Z"
     },
     {
       "title": "Sole Yacht Stewardess for FLIBS 2026 — Fort Lauderdale",
@@ -670,7 +676,7 @@
       "firstSeenAt": "2026-11-16T16:06:47.042Z",
       "score": 70,
       "flags": [],
-      "linkCheckedAt": "2026-11-16T16:06:47.042Z"
+      "linkCheckedAt": "2026-11-16T16:15:12.071Z"
     },
     {
       "title": "Event Coordinator - Myrtle Beach",
@@ -687,7 +693,8 @@
       "firstSeenAt": "2026-11-16T16:06:47.042Z",
       "score": 70,
       "flags": [],
-      "linkCheckedAt": "2026-11-16T16:06:47.042Z"
+      "linkCheckedAt": "2026-11-16T16:06:47.042Z",
+      "otherLocations": []
     },
     {
       "title": "Business Development Representative (BDR/SDR), Automotive",
@@ -762,7 +769,7 @@
         "live-aboard",
         "housing"
       ],
-      "linkCheckedAt": "2026-11-16T16:06:47.042Z"
+      "linkCheckedAt": "2026-11-16T16:15:12.071Z"
     },
     {
       "title": "Luxury Yacht Steward/Stewardess: Guest Service Pro",
@@ -799,7 +806,7 @@
       "firstSeenAt": "2026-11-15T17:41:07.685Z",
       "score": 70,
       "flags": [],
-      "linkCheckedAt": "2026-11-16T16:06:47.042Z"
+      "linkCheckedAt": "2026-11-16T16:15:12.071Z"
     },
     {
       "title": "Part-Time In-Store Brand Ambassador: Tequila Tastings & Demos; SC)",
@@ -875,7 +882,7 @@
       "firstSeenAt": "2026-11-14T17:01:38.773Z",
       "score": 70,
       "flags": [],
-      "linkCheckedAt": "2026-11-16T16:06:47.042Z"
+      "linkCheckedAt": "2026-11-16T16:15:12.071Z"
     },
     {
       "title": "Bellperson & Valet (Part-time)",
@@ -892,7 +899,7 @@
       "firstSeenAt": "2026-11-14T17:01:38.773Z",
       "score": 70,
       "flags": [],
-      "linkCheckedAt": "2026-11-16T16:06:47.042Z"
+      "linkCheckedAt": "2026-11-16T16:15:12.071Z"
     },
     {
       "title": "Inside Sales Support Representative",
@@ -909,7 +916,7 @@
       "firstSeenAt": "2026-11-13T05:23:33.911Z",
       "score": 70,
       "flags": [],
-      "linkCheckedAt": "2026-11-16T16:06:47.042Z"
+      "linkCheckedAt": "2026-11-16T16:15:12.071Z"
     },
     {
       "title": "Brand Ambassador - Summerville 1",
@@ -950,7 +957,7 @@
         "far-away",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-16T16:06:47.042Z"
+      "linkCheckedAt": "2026-11-16T16:15:12.071Z"
     },
     {
       "title": "Brand Ambassador - Hanahan 1",
@@ -1029,7 +1036,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-16T16:06:47.042Z"
+      "linkCheckedAt": "2026-11-16T16:15:12.071Z"
     },
     {
       "title": "Brand Ambassador NC – Consumer Electronics Retailer Continuity Program",
@@ -1049,7 +1056,7 @@
         "far-away",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-16T16:06:47.042Z"
+      "linkCheckedAt": "2026-11-16T16:15:12.071Z"
     },
     {
       "title": "Oiler",
@@ -1073,7 +1080,7 @@
         "far-away",
         "live-aboard"
       ],
-      "linkCheckedAt": "2026-11-16T16:06:47.042Z"
+      "linkCheckedAt": "2026-11-16T16:15:12.071Z"
     },
     {
       "title": "Fleet Deckhand",
@@ -1102,7 +1109,7 @@
         "East Carondelet, IL",
         "Granite City, IL"
       ],
-      "linkCheckedAt": "2026-11-16T16:06:47.042Z"
+      "linkCheckedAt": "2026-11-16T16:15:12.071Z"
     },
     {
       "title": "Brand Ambassador - Qui Tequila",
@@ -1122,7 +1129,7 @@
         "far-away",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-16T16:06:47.042Z"
+      "linkCheckedAt": "2026-11-16T16:15:12.071Z"
     },
     {
       "title": "Entry-Level Tech SDR: Hybrid, Remote + Growth",
@@ -1217,7 +1224,7 @@
         "starts-fast",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-16T16:06:47.042Z"
+      "linkCheckedAt": "2026-11-16T16:15:12.071Z"
     },
     {
       "title": "Service Valet | Shuttle Driver - North Shore CDJR",
@@ -1234,7 +1241,7 @@
       "firstSeenAt": "2026-11-16T16:06:47.042Z",
       "score": 65,
       "flags": [],
-      "linkCheckedAt": "2026-11-16T16:06:47.042Z"
+      "linkCheckedAt": "2026-11-16T16:15:12.071Z"
     },
     {
       "title": "SDR (Sales Development Representative)",
@@ -1251,7 +1258,7 @@
       "firstSeenAt": "2026-11-16T02:42:21.327Z",
       "score": 65,
       "flags": [],
-      "linkCheckedAt": "2026-11-16T16:06:47.042Z"
+      "linkCheckedAt": "2026-11-16T16:15:12.071Z"
     },
     {
       "title": "Sales Development Representative, Outbound",
@@ -1268,7 +1275,7 @@
       "firstSeenAt": "2026-11-16T02:42:21.327Z",
       "score": 65,
       "flags": [],
-      "linkCheckedAt": "2026-11-16T16:06:47.042Z"
+      "linkCheckedAt": "2026-11-16T16:15:12.071Z"
     },
     {
       "title": "Seasonal Courier — Fast, Friendly Delivery (12-Week)",
@@ -1322,7 +1329,7 @@
       "firstSeenAt": "2026-11-13T05:17:53.746Z",
       "score": 65,
       "flags": [],
-      "linkCheckedAt": "2026-11-16T16:06:47.042Z"
+      "linkCheckedAt": "2026-11-16T16:15:12.071Z"
     },
     {
       "title": "Full-time Deckhand",
@@ -1359,7 +1366,7 @@
       "firstSeenAt": "2026-11-13T03:23:31.931Z",
       "score": 65,
       "flags": [],
-      "linkCheckedAt": "2026-11-16T16:06:47.042Z"
+      "linkCheckedAt": "2026-11-16T16:15:12.071Z"
     },
     {
       "title": "Business Development Representative, SLED - West",
@@ -1376,7 +1383,7 @@
       "firstSeenAt": "2026-11-13T03:23:31.931Z",
       "score": 65,
       "flags": [],
-      "linkCheckedAt": "2026-11-16T16:06:47.042Z"
+      "linkCheckedAt": "2026-11-16T16:15:12.071Z"
     },
     {
       "title": "Business Development Representative, Financial Services",
@@ -1393,7 +1400,7 @@
       "firstSeenAt": "2026-11-13T03:23:31.931Z",
       "score": 65,
       "flags": [],
-      "linkCheckedAt": "2026-11-16T16:06:47.042Z"
+      "linkCheckedAt": "2026-11-16T16:15:12.071Z"
     },
     {
       "title": "Inbound Sales Development Representative (SDR) - CCaaS/UCaaS",
@@ -1410,7 +1417,7 @@
       "firstSeenAt": "2026-11-12T18:52:39.655Z",
       "score": 65,
       "flags": [],
-      "linkCheckedAt": "2026-11-16T16:06:47.042Z"
+      "linkCheckedAt": "2026-11-16T16:15:12.071Z"
     },
     {
       "title": "Blood Drive Event Planner",
@@ -1427,7 +1434,7 @@
       "firstSeenAt": "2026-11-12T18:52:39.655Z",
       "score": 65,
       "flags": [],
-      "linkCheckedAt": "2026-11-16T16:06:47.042Z"
+      "linkCheckedAt": "2026-11-16T16:15:12.071Z"
     },
     {
       "title": "Ordinary Seaman",
@@ -1473,7 +1480,7 @@
         "far-away",
         "live-aboard"
       ],
-      "linkCheckedAt": "2026-11-16T16:06:47.042Z"
+      "linkCheckedAt": "2026-11-16T16:15:12.071Z"
     },
     {
       "title": "Deckhand/AB",
@@ -1496,7 +1503,7 @@
         "far-away",
         "live-aboard"
       ],
-      "linkCheckedAt": "2026-11-16T16:06:47.042Z"
+      "linkCheckedAt": "2026-11-16T16:15:12.071Z"
     },
     {
       "title": "English Audio Transcription Specialist (AI Training)",
@@ -1515,7 +1522,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-16T16:06:47.042Z"
+      "linkCheckedAt": "2026-11-16T16:15:12.071Z"
     },
     {
       "title": "AI Trainer Specialist",
@@ -1534,7 +1541,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-16T16:06:47.042Z"
+      "linkCheckedAt": "2026-11-16T16:15:12.071Z"
     },
     {
       "title": "Backend Developer - Data Annotation Systems",
@@ -1553,7 +1560,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-16T16:06:47.042Z"
+      "linkCheckedAt": "2026-11-16T16:15:12.071Z"
     },
     {
       "title": "Deckhand: Dredge & Towboat Ops Pro",
@@ -1611,7 +1618,7 @@
       "firstSeenAt": "2026-11-11T02:45:12.832Z",
       "score": 65,
       "flags": [],
-      "linkCheckedAt": "2026-11-16T16:06:47.042Z"
+      "linkCheckedAt": "2026-11-16T16:15:12.071Z"
     },
     {
       "title": "Deckhand Offshore Vessel",
@@ -1651,7 +1658,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-16T16:06:47.042Z"
+      "linkCheckedAt": "2026-11-16T16:15:12.071Z"
     },
     {
       "title": "Brand Ambassador",
@@ -1671,7 +1678,7 @@
         "far-away",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-16T16:06:47.042Z"
+      "linkCheckedAt": "2026-11-16T16:15:12.071Z"
     },
     {
       "title": "Enterprise Sales Development Representative",
@@ -1712,7 +1719,7 @@
         "live-aboard",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-16T16:06:47.042Z"
+      "linkCheckedAt": "2026-11-16T16:15:12.071Z"
     },
     {
       "title": "Deckhand, Marine",
@@ -1974,7 +1981,7 @@
         "high-pay"
       ],
       "otherLocations": [],
-      "linkCheckedAt": "2026-11-16T16:06:47.042Z"
+      "linkCheckedAt": "2026-11-16T16:15:12.071Z"
     },
     {
       "title": "Business Development Representative - US, Remote",
@@ -2034,7 +2041,7 @@
       "flags": [
         "entry-level"
       ],
-      "linkCheckedAt": "2026-11-16T16:06:47.042Z"
+      "linkCheckedAt": "2026-11-16T16:15:12.071Z"
     },
     {
       "title": "Sales Rep - Weekly Pay - Entry Level",
@@ -2123,7 +2130,7 @@
       "flags": [
         "entry-level"
       ],
-      "linkCheckedAt": "2026-11-16T16:06:47.042Z"
+      "linkCheckedAt": "2026-11-16T16:15:12.071Z"
     },
     {
       "title": "Mate - 36m Private/Charter Motor Yacht",
@@ -2164,7 +2171,7 @@
         "far-away",
         "live-aboard"
       ],
-      "linkCheckedAt": "2026-11-16T16:06:47.042Z"
+      "linkCheckedAt": "2026-11-16T16:15:12.071Z"
     },
     {
       "title": "3rd Steward(ess) - 53m Private/Charter Motor Yacht",
@@ -2204,7 +2211,7 @@
       "flags": [
         "starts-fast"
       ],
-      "linkCheckedAt": "2026-11-16T16:06:47.042Z"
+      "linkCheckedAt": "2026-11-16T16:15:12.071Z"
     },
     {
       "title": "3D & LiDAR Data Annotation Analyst",
@@ -2896,7 +2903,7 @@
         "far-away",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-16T16:06:47.042Z"
+      "linkCheckedAt": "2026-11-16T16:15:12.071Z"
     },
     {
       "title": "PERFECT PART TIME JOB-WEEKEND SALES-Weekly PAY !",
@@ -2934,7 +2941,8 @@
       "firstSeenAt": "2026-11-16T16:06:47.042Z",
       "score": 50,
       "flags": [],
-      "linkCheckedAt": "2026-11-16T16:06:47.042Z"
+      "linkCheckedAt": "2026-11-16T16:06:47.042Z",
+      "otherLocations": []
     },
     {
       "title": "Part-Time Sales Development Rep",
@@ -3046,7 +3054,7 @@
       "flags": [
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-16T16:06:47.042Z"
+      "linkCheckedAt": "2026-11-16T16:15:12.071Z"
     },
     {
       "title": "Sales Development Representative - Strategics",
@@ -3176,7 +3184,7 @@
       "firstSeenAt": "2026-11-13T18:29:53.912Z",
       "score": 45,
       "flags": [],
-      "linkCheckedAt": "2026-11-16T16:06:47.042Z"
+      "linkCheckedAt": "2026-11-16T16:15:12.071Z"
     },
     {
       "title": "Account Manager Accelerated Sales Program",
@@ -3248,7 +3256,7 @@
         "far-away",
         "high-pay"
       ],
-      "linkCheckedAt": "2026-11-16T16:06:47.042Z"
+      "linkCheckedAt": "2026-11-16T16:15:12.071Z"
     },
     {
       "title": "Medicare Field Sales- Myrtle Beach",
