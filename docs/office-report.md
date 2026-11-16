@@ -1,6 +1,6 @@
 # Office & Gov Sales report
 
-Rebuilt automatically every feed run. Last run: 2026-11-15 17:41 UTC.
+Rebuilt automatically every feed run. Last run: 2026-11-16 02:42 UTC.
 
 ## Worth a look (14)
 
@@ -34,7 +34,7 @@ Jobs on the site, plus Carahsoft jobs (they list Reston, VA but also hire remote
 | Trace3 | greenhouse | 14 |
 | OpenGov | ashby | 0 |
 | Axon | greenhouse | 90 |
-| SHI International | workday | 76 |
+| SHI International | workday | 1 |
 | Connection (GovConnection) | vizi | 36 |
 | Iron Bow Technologies | greenhouse | 2 |
 
@@ -49,16 +49,14 @@ Jobs on the site, plus Carahsoft jobs (they list Reston, VA but also hire remote
 
 ## Filtered out this run
 
-- Needs more experience: 169
-- Needs closing experience: 66
-- Far away, not remote: 38
-- Not an office/sales role: 34
-- abroad: 34
+- Needs more experience: 140
+- Needs closing experience: 34
+- abroad: 32
+- Not an office/sales role: 30
+- Far away, not remote: 29
 - commission-only: 16
 - language: 8
 - generic-retail: 6
 - remote-abroad: 5
-- junk-listing: 4
 - far-quick-cash: 4
-- dead-link: 1
 - far-low-pay: 1
