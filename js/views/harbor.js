@@ -7,7 +7,7 @@ export function harbor(store, ui) {
   const employers = data?.employers || [];
   const records = store.state.tracker.directory;
   const filters = ui.harbor || (ui.harbor = { showAll: false, search: '', status: 'all' });
-  const view = h('div', { class: 'view harbor-view' }, pageHeading('EMPLOYERS & CREW RESOURCES', 'Harbor', 'A short call list. Make contact, leave a note, keep moving.'));
+  const view = h('div', { class: 'view harbor-view' }, pageHeading('LOCAL EMPLOYERS', 'Places to Call', 'Marinas and employers worth a call or a walk-in.'));
   view.append(h('p', { class: 'muted small' }, 'Employer research, not confirmed openings — call or check before you go.'));
   if (!data) {
     view.append(empty('⚓', store.state.directoryError ? 'The harbor directory is offline.' : 'Charting the harbor…',
@@ -46,7 +46,7 @@ export function harbor(store, ui) {
         ...DIRECTORY_STATUSES.map(item => button(item.label, () => store.updateDirectory(employer.id, { status: item.id }),
           'reason-chip ' + (status === item.id ? 'selected' : ''), { 'aria-pressed': status === item.id }))),
       field(`Note for ${employer.name} (optional)`, note),
-      button(employer.volunteer ? 'Volunteer training — unpaid' : aboard ? 'On board' : 'Add to Voyage', () => { store.addDirectoryJob(employer); toast('Safely docked. Find it in The Voyage.'); },
+      button(employer.volunteer ? 'Volunteer training — unpaid' : aboard ? 'On board' : 'Add to My Jobs', () => { store.addDirectoryJob(employer); toast('Saved. Find it in My Jobs.'); },
         'button ' + (aboard ? 'secondary' : 'primary'), { disabled: Boolean(aboard || employer.volunteer) }));
   }
   function draw() {

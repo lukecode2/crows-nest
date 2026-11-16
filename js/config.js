@@ -1,20 +1,20 @@
 export const REPO = { owner: 'lukecode2', repo: 'crows-nest', branch: 'master', workflow: 'feed.yml' };
 export const TRACKS = [
-  { id: 'marine-local', label: 'Home Waters', short: 'Home', color: '#0C655C' },
-  { id: 'marine-chs', label: 'Charleston Harbor', short: 'Charleston', color: '#1D4ED8' },
-  { id: 'marine-national', label: 'Blue Water', short: 'Blue Water', color: '#5940A5' },
+  { id: 'marine-local', label: 'Boats near home', short: 'Boats', color: '#0C655C' },
+  { id: 'marine-chs', label: 'Boats Charleston', short: 'Charleston', color: '#1D4ED8' },
+  { id: 'marine-national', label: 'Boats travel / live-aboard', short: 'Travel', color: '#5940A5' },
   { id: 'ai-web', label: 'AI & Web', short: 'AI & Web', color: '#962C7C' },
-  { id: 'tech-sales', label: 'Tech Sales', short: 'Sales', color: '#805A00' },
+  { id: 'tech-sales', label: 'Sales', short: 'Sales', color: '#805A00' },
   { id: 'office', label: 'Office & Gov Sales', short: 'Office', color: '#36597A' },
   { id: 'quick-cash', label: 'Quick Cash', short: 'Quick Cash', color: '#A33B16' }
 ];
 export const STAGES = [
-  { id: 'dockside', label: 'Dockside', hint: 'Lead' },
-  { id: 'castoff', label: 'Cast Off', hint: 'Applied' },
-  { id: 'hailed', label: 'Hailed', hint: 'Followed up' },
-  { id: 'boarding', label: 'Boarding', hint: 'Interview' },
-  { id: 'hired', label: 'Hired', hint: 'Accepted / hired' },
-  { id: 'lost', label: 'Lost at Sea', hint: 'Rejected' }
+  { id: 'dockside', label: 'Saved', hint: 'Not applied yet' },
+  { id: 'castoff', label: 'Applied', hint: 'Applied' },
+  { id: 'hailed', label: 'Followed up', hint: 'Followed up' },
+  { id: 'boarding', label: 'Interview', hint: 'Interview' },
+  { id: 'hired', label: 'Hired', hint: 'Got the job' },
+  { id: 'lost', label: 'No luck', hint: 'Rejected' }
 ];
 export const BOAT_SHOW = { name: 'Fort Lauderdale International Boat Show', start: '2026-10-28', end: '2026-11-01' };
 export const DISMISS_REASONS = [

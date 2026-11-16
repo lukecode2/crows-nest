@@ -107,7 +107,7 @@ export function createStore(options = {}) {
       if (disposed) return false;
       const newer = Date.parse(feed.generatedAt) > (Date.parse(state.feed.generatedAt) || 0);
       state.feed = feed; state.feedError = ''; if (newer && state.feedRefresh === 'waiting') state.feedRefresh = 'ready'; emit(); return newer;
-    } catch (_) { state.feedError = 'The lookout is offline. Your saved leads are still aboard.'; emit(); return false; }
+    } catch (_) { state.feedError = 'Can’t reach the job list right now. Your saved jobs are still here.'; emit(); return false; }
   }
   async function refreshFeed() {
     if (feedPoll) return feedPoll;
@@ -141,7 +141,7 @@ export function createStore(options = {}) {
             ['id', 'name', 'town', 'type', 'hiringMethod', 'phone', 'email', 'url', 'tip'].every(key => typeof e[key] === 'string') &&
             DIRECTORY_REGIONS.some(r => r.id === e.region) && ['top', 'more'].includes(e.tier))) throw new Error('Invalid directory');
           state.directory = directory; state.directoryError = ''; emit();
-        }).catch(() => { state.directory = null; state.directoryError = 'Your saved notes and Voyage are still aboard. Reload to try the directory again.'; emit(); }),
+        }).catch(() => { state.directory = null; state.directoryError = 'Your saved jobs and notes are safe. Reload to try again.'; emit(); }),
       jsonFile('data/sweep.json?t=' + Date.now())
         .then(sweep => {
           if (!Array.isArray(sweep?.items) || !(sweep.sweptAt === null || (typeof sweep.sweptAt === 'string' && Number.isFinite(Date.parse(sweep.sweptAt))))) throw new Error('Invalid sweep');

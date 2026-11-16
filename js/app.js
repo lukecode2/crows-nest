@@ -8,11 +8,11 @@ import { papers } from './views/papers.js';
 import { settings } from './views/settings.js';
 import { harbor } from './views/harbor.js';
 const routes = [
-  ['helm', '◉', 'The Helm', 'Helm'], ['nest', '⚑', 'Crow’s Nest', 'Nest'],
-  ['voyage', '⛵', 'The Voyage', 'Voyage'], ['harbor', '⚓', 'Harbor', 'Harbor'], ['papers', '▤', 'Ship’s Papers', 'Papers'], ['settings', '⚙', 'Settings', 'Settings']
+  ['helm', '◉', 'Home', 'Home'], ['nest', '⚑', 'Jobs', 'Jobs'],
+  ['voyage', '✓', 'My Jobs', 'My Jobs'], ['harbor', '☎', 'Places to Call', 'Call'], ['papers', '▤', 'Certificates', 'Certs'], ['settings', '⚙', 'Settings', 'Settings']
 ];
 const store = createStore({ sample: new URLSearchParams(location.search).get('sample') === '1' });
-const viewState = { track: 'all', search: '', sort: 'score', newOnly: false, fastOnly: false };
+const viewState = { track: 'all', search: '', sort: 'score', newOnly: false, fastOnly: false, top10: true };
 const main = document.getElementById('main');
 const renderers = { helm, nest, voyage, harbor, papers, settings };
 let previousRoute;
@@ -33,7 +33,7 @@ function render() {
   pill.className = 'sync-pill ' + store.state.sync;
   pill.replaceChildren(h('span', { class: 'status-dot' }), h('span', {}, labels[store.state.sync]));
   const banners = [];
-  if (store.state.sample) banners.push(h('p', { class: 'banner sample-banner' }, '⚑ Sample waters — fictional feed companies. Changes stay in a separate local demo.', h('a', { href: location.origin + location.pathname }, 'Return to live feed ↗')));
+  if (store.state.sample) banners.push(h('p', { class: 'banner sample-banner' }, 'Sample mode: made-up companies. Changes stay in a separate demo.', h('a', { href: location.origin + location.pathname }, 'Return to live feed ↗')));
   if (store.state.sync === 'local' && !store.state.storageError) banners.push(h('p', { class: 'banner' }, 'Saved on this device', h('span', {}, ' · ' + (store.state.sample ? 'Demo mode' : 'Add a GitHub token in Settings to sync across devices.'))));
   if (store.state.error) banners.push(h('p', { class: 'banner error-banner' }, store.state.error));
   if (store.state.storageError) banners.push(h('p', { class: 'banner error-banner' }, 'Changes are in memory only. Export before closing.'));

@@ -2,7 +2,7 @@ import { h, pageHeading, field } from '../ui.js';
 export function papers(store) {
   const { reqs, jobs } = store.state.tracker;
   const done = reqs.filter(r => r.done).length;
-  return h('div', { class: 'view papers-view' }, pageHeading('READY FOR WHAT’S AHEAD', 'Ship’s Papers', 'A little paperwork opens a lot of water. Get your credentials in order.'),
+  return h('div', { class: 'view papers-view' }, pageHeading('CERTIFICATES', 'Certificates', 'Cards and certificates some jobs ask for, and how to get them.'),
     h('section', { class: 'panel papers-progress' }, h('div', { class: 'section-top' }, h('h2', {}, `${done} of ${reqs.length} papers in order`), h('span', { class: 'foam-text' }, reqs.length ? Math.round(done / reqs.length * 100) + '%' : '0%')),
       h('progress', { max: Math.max(1, reqs.length), value: done, 'aria-label': 'Requirements completed' })),
     h('div', { class: 'papers-list' }, ...reqs.map(req => {

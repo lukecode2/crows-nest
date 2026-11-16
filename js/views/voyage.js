@@ -30,10 +30,10 @@ export function voyage(store) {
       card.append(h('strong', { class: 'pipeline-company' }, job.company), h('span', { class: 'pipeline-role' }, job.role), trackChip(job.track),
         h('span', { class: 'small muted' }, `${days}d at ${stage.label}`), job.nextAction && h('span', { class: 'pipeline-next' }, '↗ ' + job.nextAction, job.nextDue && h('small', { class: job.nextDue < localToday() ? 'flare-text' : 'muted' }, dateLabel(job.nextDue))));
     });
-    if (!stageJobs.length) column.append(h('p', { class: 'column-empty' }, stage.id === 'hired' ? 'A new horizon awaits.' : 'Room for your next move.'));
+    if (!stageJobs.length) column.append(h('p', { class: 'column-empty' }, stage.id === 'hired' ? 'Nothing here yet.' : 'Room for your next move.'));
     board.append(column);
   });
-  return h('div', { class: 'view voyage-view' }, pageHeading('FROM FIRST LOOK TO FIRST DAY', 'The Voyage', 'Every application has a course. Drag to move, or tap a card to chart the next step.', button('+ Add job', () => openJob(store), 'button primary')), h('p', { class: 'board-help small muted' }, '← Scroll the logbook to see all six stages →'), board);
+  return h('div', { class: 'view voyage-view' }, pageHeading('MY JOBS', 'My Jobs', 'Jobs you saved or applied to. Drag a card to move it, or tap it to add notes.', button('+ Add job', () => openJob(store), 'button primary')), h('p', { class: 'board-help small muted' }, '← Scroll sideways to see all six columns →'), board);
 }
 export function openJob(store, existing, initialStage) {
   let job = existing || feedJobToTracker({}, 'dockside', localToday());
@@ -58,25 +58,25 @@ export function openJob(store, existing, initialStage) {
   }));
   const stageButtons = h('div', { class: 'stage-buttons', role: 'group', 'aria-label': 'Job stage' });
   let close;
-  const form = h('form', { class: 'job-form', onSubmit: e => { e.preventDefault(); const wasSaved = saved; if (persist()) { close(); toast(wasSaved ? 'Voyage log saved.' : 'Job added to your voyage.'); } } },
-    h('p', { class: 'eyebrow' }, existing ? 'YOUR VOYAGE LOG' : 'A NEW POSSIBILITY'), h('h2', {}, existing ? 'Job details' : 'Add a job'),
+  const form = h('form', { class: 'job-form', onSubmit: e => { e.preventDefault(); const wasSaved = saved; if (persist()) { close(); toast(wasSaved ? 'Saved.' : 'Job added to My Jobs.'); } } },
+    h('p', { class: 'eyebrow' }, existing ? 'MY JOBS' : 'A NEW POSSIBILITY'), h('h2', {}, existing ? 'Job details' : 'Add a job'),
     h('div', { class: 'form-grid' }, field('Company', company), field('Role', role), field('Track', track), field('Location', input('location')), field('Job link', input('link', 'url')), field('Pay', input('pay'))),
-    h('fieldset', {}, h('legend', {}, 'Set your heading'), stageButtons),
+    h('fieldset', {}, h('legend', {}, 'Where it stands'), stageButtons),
     h('div', { class: 'form-grid' }, field('Date applied', input('dateApplied', 'date')), field('Last follow-up', input('lastFollowUp', 'date'))),
-    h('fieldset', {}, h('legend', {}, 'Your contact ashore'), contacts),
+    h('fieldset', {}, h('legend', {}, 'Contact person'), contacts),
     field('Notes', notes),
-    h('fieldset', {}, h('legend', {}, 'Required papers'), h('div', { class: 'requirement-checks' }, ...reqInputs.map(r => h('label', { class: 'check-label' }, r.el, r.label + (r.done ? ' ✓' : ''))))),
+    h('fieldset', {}, h('legend', {}, 'Certificates needed'), h('div', { class: 'requirement-checks' }, ...reqInputs.map(r => h('label', { class: 'check-label' }, r.el, r.label + (r.done ? ' ✓' : ''))))),
     h('div', { class: 'form-grid' }, field('Next action', input('nextAction')), field('Due date', input('nextDue', 'date'))),
     h('div', { class: 'sheet-actions' }, h('button', { type: 'submit', class: 'button primary' }, 'Save changes'), button('Mark followed up', () => {
       stage = 'hailed'; inputs.lastFollowUp.value = localToday();
-      if (persist()) { drawStages(); toast('Hail logged for today.'); }
+      if (persist()) { drawStages(); toast('Follow-up logged for today.'); }
     }, 'button secondary'), button('Copy pitch', async () => {
       const text = pitchFor({ title: role.value, company: company.value, track: track.value });
       try { await navigator.clipboard.writeText(text); toast('Pitch copied. Paste it into the application.'); }
       catch (_) { notes.value = (notes.value ? notes.value + '\n\n' : '') + text; notes.focus(); toast('Pitch added to Notes — copy it from there.'); }
     }, 'button secondary'), existing && button('Delete', async e => {
       const trigger = e.currentTarget; trigger.disabled = true;
-      const confirmed = await confirmInline(form, 'Delete this job from your voyage log?');
+      const confirmed = await confirmInline(form, 'Delete this job from My Jobs?');
       trigger.disabled = false;
       if (confirmed) { store.deleteJob(job.id); close(); toast('Job removed from the log.'); }
     }, 'button quiet danger-text')));

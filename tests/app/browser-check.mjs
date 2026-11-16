@@ -70,7 +70,7 @@ try {
         await page.locator('.harbor-filters').getByRole('button', { name: 'All statuses', exact: true }).click();
         await page.getByLabel('Search the harbor', { exact: true }).fill(employer.name);
         assert.equal(await page.locator('.harbor-card').count(), 1);
-        await page.locator('.harbor-card').getByRole('button', { name: 'Add to Voyage', exact: true }).click();
+        await page.locator('.harbor-card').getByRole('button', { name: 'Add to My Jobs', exact: true }).click();
         await page.locator('.harbor-card').getByRole('button', { name: 'On board', exact: true }).waitFor();
         const job = await page.evaluate(id => JSON.parse(localStorage.getItem('cn.sample.tracker')).jobs.find(j => j.directoryId === id), id);
         assert.equal(job.stage, 'dockside'); assert.equal(job.company, employer.name);
@@ -110,7 +110,7 @@ try {
     await page.getByLabel('Search the horizon').fill('Moonwake');
     assert.equal(await page.locator('.job-card').count(), 1);
     await page.getByLabel('Search the horizon').fill('');
-    await page.getByRole('button', { name: 'Home Waters' }).click();
+    await page.getByRole('button', { name: 'Boats near home' }).click();
     assert.equal(await page.locator('.job-card').count(), 2);
     await page.getByRole('button', { name: 'All waters' }).click();
     await page.getByLabel('New only').check();
@@ -166,7 +166,7 @@ try {
     await page.getByRole('button', { name: 'Test Buoy (fictional): Junior deckhand. Open details', exact: true }).click();
     assert.equal(await page.getByLabel('Notes', { exact: true }).inputValue(), 'Café ⚓ 🛥️ — naïve');
     await page.getByRole('button', { name: 'Mark followed up', exact: true }).click();
-    assert.equal(await page.getByRole('button', { name: 'Hailed', exact: true }).getAttribute('aria-pressed'), 'true');
+    assert.equal(await page.getByRole('button', { name: 'Followed up', exact: true }).getAttribute('aria-pressed'), 'true');
     await page.getByRole('button', { name: 'Delete', exact: true }).click();
     await page.getByRole('button', { name: 'Delete job', exact: true }).click();
     assert.equal(await page.getByRole('dialog').count(), 0);
