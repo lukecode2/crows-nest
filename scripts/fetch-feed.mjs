@@ -25,7 +25,8 @@ import * as pagewatch from './sources/pagewatch.mjs';
 import * as sweep from './sources/sweep.mjs';
 import * as govjobs from './sources/govjobs.mjs';
 import * as direct from './sources/direct.mjs';
-export const sources = [adzuna, usajobs, jsearch, remotive, remoteok, jobicy, himalayas, wwr, ats, pagewatch, sweep, govjobs, direct];
+import * as simplyhired from './sources/simplyhired.mjs';
+export const sources = [adzuna, usajobs, jsearch, remotive, remoteok, jobicy, himalayas, wwr, ats, pagewatch, sweep, govjobs, direct, simplyhired];
 
 export async function runSources(list, ctx) {
   const results = await Promise.all(list.map(async source => {

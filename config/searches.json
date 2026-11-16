@@ -216,5 +216,102 @@
       "q": "digital media",
       "track": "office"
     }
+  ],
+  "simplyhired": [
+    {
+      "q": "boat",
+      "l": "Myrtle Beach, SC",
+      "track": "marine-local"
+    },
+    {
+      "q": "marina",
+      "l": "Myrtle Beach, SC",
+      "track": "marine-local"
+    },
+    {
+      "q": "deckhand",
+      "l": "Myrtle Beach, SC",
+      "track": "marine-local"
+    },
+    {
+      "q": "boat",
+      "l": "Georgetown, SC",
+      "track": "marine-local"
+    },
+    {
+      "q": "boat",
+      "l": "Southport, NC",
+      "track": "marine-local"
+    },
+    {
+      "q": "boat",
+      "l": "Charleston, SC",
+      "track": "marine-chs"
+    },
+    {
+      "q": "deckhand",
+      "l": "Charleston, SC",
+      "track": "marine-chs"
+    },
+    {
+      "q": "deckhand",
+      "l": "Wilmington, NC",
+      "track": "marine-chs"
+    },
+    {
+      "q": "yacht",
+      "l": "Fort Lauderdale, FL",
+      "track": "marine-national"
+    },
+    {
+      "q": "brand ambassador",
+      "l": "Myrtle Beach, SC",
+      "track": "quick-cash"
+    },
+    {
+      "q": "valet",
+      "l": "Myrtle Beach, SC",
+      "track": "quick-cash"
+    },
+    {
+      "q": "event",
+      "l": "Myrtle Beach, SC",
+      "track": "quick-cash"
+    },
+    {
+      "q": "courier",
+      "l": "Myrtle Beach, SC",
+      "track": "quick-cash"
+    },
+    {
+      "q": "detailer",
+      "l": "Myrtle Beach, SC",
+      "track": "quick-cash"
+    },
+    {
+      "q": "inside sales",
+      "l": "Myrtle Beach, SC",
+      "track": "office"
+    },
+    {
+      "q": "marketing coordinator",
+      "l": "Myrtle Beach, SC",
+      "track": "office"
+    },
+    {
+      "q": "entry level sales development representative",
+      "l": "Remote",
+      "track": "tech-sales"
+    },
+    {
+      "q": "ai trainer",
+      "l": "Remote",
+      "track": "ai-web"
+    },
+    {
+      "q": "data annotation",
+      "l": "Remote",
+      "track": "ai-web"
+    }
   ]
 }
