@@ -34,6 +34,7 @@ push fails, the job never shows up at all.
 - [ ] ★ Myrtle Beach Area Chamber + SC Works job boards
 - [ ] ★ Craigslist RSS (Myrtle Beach + Charleston) with strict spam filter
 - [ ] ★ Yacht crew agencies and Dockwalk/crew boards for live-aboard roles
+- [x] ★ SimplyHired (Indeed listings) source added 2026-11-16
 - [ ] ★ Google Jobs results (via the existing RapidAPI JSearch key) with local-only queries
 - [ ] ★ Weekly browser sweep for Facebook groups / Reddit r/MyrtleBeach "hiring" posts (can't be automated reliably)
 - [ ] Use the outside-the-box skill for one brainstorm pass on extra sources
@@ -41,20 +42,20 @@ push fails, the job never shows up at all.
 ## 5. Brighter look, new colour palette
 - [x] Apply Luke's chosen Signal Flags palette: light background, white cards, navy text, royal blue actions and yellow alerts (2026-11-11)
 - [x] Make the site light throughout, preserving the existing layout, fonts and behaviour
-- [ ] Bigger, clearer job cards on phone; less nautical jargon in labels
+- [x] Bigger, clearer job cards on phone; less nautical jargon in labels (2026-11-16)
 
 Palette status (2026-11-11): all CSS colours use shared tokens; track chips, browser chrome, favicon and decorative waves match the light theme. All 163 tests pass. Text/track contrast is at least 4.5:1, with control edges above 3:1 and navy on yellow at 8.77:1. Next: visually review Nest, Helm, Voyage, Harbor and Settings at 390px and 1280px with `?sample=1`; screenshots could not be captured here because Chrome, Chromium and WebKit crash at launch, including the local HTTP server fallback. No open palette decisions. Changes left uncommitted as requested.
 
 ## 6. Simpler to use
-- [ ] Rename tabs to plain words (Jobs, Saved, Applied, Directory, Settings)
-- [ ] Fewer buttons per card: Save / Applied / Not for me (Pitch moves into a menu)
-- [ ] One-tap "Show me the best 10 today" view at the top
-- [ ] ★ Plain-English empty states and counts
+- [x] Rename tabs to plain words (Home, Jobs, My Jobs, Places to Call, Certificates, Settings) (2026-11-16)
+- [x] Fewer buttons per card: Save / Applied / Not for me; pitch is a link (2026-11-16)
+- [x] One-tap top-10 view at the top of Jobs, on by default (2026-11-16)
+- [x] ★ Plain-English empty states and counts (2026-11-16)
 
 ## 7. Housekeeping
 - [x] ★ Add CLAUDE.md + STATUS.md + AGENTS.md (2026-11-13)
 - [ ] ★ Fix open items from last audit: pagewatch yacht jobs without qualifications text; Adzuna hourly fix check
-- [ ] ★ Weekly sweep is overdue (last 2026-10-16)
+- [x] ★ Weekly sweep done 2026-11-16
 - [ ] `npm test` passes, then live check on phone after each push
 
 ## Office & Gov Sales track 2026-11-12 (after the missed Carahsoft jobs)
