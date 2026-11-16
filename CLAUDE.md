@@ -27,6 +27,8 @@ sites and government feeds, filters them to what fits Luke, and publishes them t
 - `npm run feed:dry` = trial run without saving. API keys (Adzuna, USAJobs, RapidAPI/JSearch, ntfy) live
   only in GitHub secrets, so those sources say "missing key" locally.
 - Site preview: open `index.html?sample=1` through a local web server.
+- SimplyHired blocks GitHub's servers: `npm run simplyhired:save` on the Mac writes `data/simplyhired.json`,
+  which the robot uses when blocked (ignored once it is over 3 days old).
 
 ## Don't
 - Don't hand-edit `data/feed.json`, `data/all-jobs.json`, `data/pagewatch.json`, `data/office-watch.json`

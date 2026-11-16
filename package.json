@@ -9,6 +9,7 @@
     "test": "node --test",
     "feed": "node scripts/fetch-feed.mjs",
     "feed:dry": "node scripts/fetch-feed.mjs --dry",
-    "directory": "node scripts/build-directory.mjs"
+    "directory": "node scripts/build-directory.mjs",
+    "simplyhired:save": "node scripts/simplyhired-save.mjs"
   }
 }

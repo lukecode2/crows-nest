@@ -16,5 +16,18 @@ test('simplyhired reads the embedded results, skips ads and marks remote jobs', 
 });
 test('simplyhired fails loudly when the page layout changes', async () => {
   const http = { getText: async () => '<html>blocked</html>' };
-  await assert.rejects(fetchJobs({ http, searches: { simplyhired: [{ q: 'boat', l: 'Myrtle Beach, SC' }] } }), /no results data/);
+  await assert.rejects(fetchJobs({ http, searches: { simplyhired: [{ q: 'boat', l: 'Myrtle Beach, SC' }] }, simplyhiredPath: '/nonexistent.json' }), /no results data/);
+});
+test('simplyhired stops after a 403 and falls back to the file saved on the Mac', async () => {
+  let calls = 0;
+  const http = { getText: async () => { calls++; const e = new Error('HTTP 403'); e.status = 403; throw e; } };
+  const { writeFile, mkdtemp } = await import('node:fs/promises');
+  const dir = await mkdtemp((await import('node:os')).tmpdir() + '/sh-');
+  const path = dir + '/simplyhired.json';
+  await writeFile(path, JSON.stringify({ savedAt: '2026-11-16T12:00:00Z', jobs: [{ title: 'Dockhand', company: 'Co', url: 'u' }] }));
+  const searches = { simplyhired: [{ q: 'a', l: 'b' }, { q: 'c', l: 'd' }, { q: 'e', l: 'f' }] };
+  const jobs = await fetchJobs({ http, searches, simplyhiredPath: path, now: new Date('2026-11-17T12:00:00Z') });
+  assert.equal(calls, 1);
+  assert.deepEqual(jobs.map(j => [j.title, j.source]), [['Dockhand', 'simplyhired']]);
+  await assert.rejects(fetchJobs({ http, searches, simplyhiredPath: path, now: new Date('2026-11-25T12:00:00Z') }), /no fresh saved file/);
 });
