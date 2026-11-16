@@ -11,7 +11,9 @@
 - Office & Gov Sales track + watchlist (2026-11-12). Luke applied to Carahsoft Gov Account Rep + Digital Media Coordinator.
 
 ## Next
-- Check the first scheduled runs with `simplyhired`: does GitHub's network get blocked (403)? If so, it fails alone.
+- SimplyHired blocks GitHub (403), so the robot uses `data/simplyhired.json` saved from the Mac (`npm run simplyhired:save`,
+  good for 3 days). Live 2026-11-16: 25 SimplyHired jobs on the site. Open: make it a daily launchd job on the Mac
+  (needs Luke's OK + watch.json entry), or keep running it at each weekly sweep.
 - Top-10 ranking puts Call of the Sea first although its deadline (Nov 15) passed; pagewatch deadlines aren't read.
 - CHECKLIST.md sections 3, 4 (other sources) still open; Office Assistant/admin jobs (e.g. City of Myrtle Beach) are
   "off-track". Ask Luke if he wants plain office admin jobs.
