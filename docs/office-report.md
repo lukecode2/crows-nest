@@ -1,8 +1,8 @@
 # Office & Gov Sales report
 
-Rebuilt automatically every feed run. Last run: 2026-11-16 20:58 UTC.
+Rebuilt automatically every feed run. Last run: 2026-11-17 05:03 UTC.
 
-## Worth a look (16)
+## Worth a look (15)
 
 Jobs on the site, plus Carahsoft jobs (they list Reston, VA but also hire remote: ask).
 
@@ -15,7 +15,6 @@ Jobs on the site, plus Carahsoft jobs (they list Reston, VA but also hire remote
 | [Contracts Coordinator](https://www.carahsoft.com/careers/contracts-coordinator) | Carahsoft | Reston, VA | $40,000–$50,000/year | Ask if remote (listed far away) |
 | [Inside Sales Support Representative](https://vizi.vizirecruiter.com/CONNECTION-3063/417788/index.html) | Connection (GovConnection) | Remote, MA | — | On the site |
 | [Technology Sales Representative (Entry Level) – SMB IT Solutions](https://vizi.vizirecruiter.com/CONNECTION-3063/389764/index.html) | Connection (GovConnection) | Remote, NC | — | On the site |
-| [Inbound Sales Representative (Entry Level - Remote)](https://www.talent.com/view?id=629808939635904368) | Stratford Davis | — | — | On the site |
 | [Account Representative](https://www.simplyhired.com/job/peQ7sTdRCLaKXxnQE4c6JcKikxFvr-Rh2wRIzaI4cpLnG90B2ZZKGg) | Coloplast | Remote — Coral Springs, FL | $49,360 - $60,904 a year | On the site |
 | [Inside Sales Representative - Waterworks](https://www.simplyhired.com/job/uJl_mQwsxPVphy-FfDdjw0Mw_tcKessrInKwD4Wup6AOBL7WYRcSag) | Ferguson Enterprises, LLC | Myrtle Beach, SC | $16.84 - $26.92 an hour | On the site |
 | [Inside Sales Representative](https://jobicy.com/jobs/152775-inside-sales-representative-2) | Beyond Finance | Remote — USA | — | On the site |
@@ -53,11 +52,11 @@ Jobs on the site, plus Carahsoft jobs (they list Reston, VA but also hire remote
 
 - Needs more experience: 104
 - Needs closing experience: 35
-- Not an office/sales role: 31
+- Not an office/sales role: 27
 - commission-only: 16
 - Far away, not remote: 9
-- junk-listing: 6
-- remote-abroad: 5
+- remote-abroad: 6
 - language: 2
 - abroad: 1
+- dead-link: 1
 - Duplicate: 1
