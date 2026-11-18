@@ -1,8 +1,8 @@
 # Office & Gov Sales report
 
-Rebuilt automatically every feed run. Last run: 2026-11-18 04:14 UTC.
+Rebuilt automatically every feed run. Last run: 2026-11-18 19:23 UTC.
 
-## Worth a look (17)
+## Worth a look (19)
 
 Jobs on the site, plus Carahsoft jobs (they list Reston, VA but also hire remote: ask).
 
@@ -13,6 +13,8 @@ Jobs on the site, plus Carahsoft jobs (they list Reston, VA but also hire remote
 | [Digital Media Coordinator](https://www.carahsoft.com/careers/Digital-Media) | Carahsoft | Reston, VA | $40,000–$50,000/year | Ask if remote (listed far away) |
 | [Proposal Coordinator](https://www.carahsoft.com/careers/proposal-coordinator-opportunities) | Carahsoft | Reston, VA | $40,000–$50,000/year | Ask if remote (listed far away) |
 | [Contracts Coordinator](https://www.carahsoft.com/careers/contracts-coordinator) | Carahsoft | Reston, VA | $40,000–$50,000/year | Ask if remote (listed far away) |
+| [Business Development Representative (Mid-Atlantic)](https://boards.greenhouse.io/guidepointsecurity/jobs/6265329004?gh_jid=6265329004) | GuidePoint Security | Remote | — | On the site |
+| [Paid Social Media Specialist](https://vizi.vizirecruiter.com/CONNECTION-3063/424316/index.html) | Connection (GovConnection) | Remote, NH | — | On the site |
 | [Part-Time Graphic Design & Social Media Specialist](https://himalayas.app/companies/vg-systems-llc-a-hubzone-company/jobs/part-time-graphic-design-social-media-specialist?utm_source=api) | VG Systems LLC, A HUBZone Company | Remote — United States | — | On the site |
 | [Inside Sales Support Representative](https://vizi.vizirecruiter.com/CONNECTION-3063/417788/index.html) | Connection (GovConnection) | Remote, MA | — | On the site |
 | [Technology Sales Representative (Entry Level) – SMB IT Solutions](https://vizi.vizirecruiter.com/CONNECTION-3063/389764/index.html) | Connection (GovConnection) | Remote, NC | — | On the site |
@@ -33,10 +35,10 @@ Jobs on the site, plus Carahsoft jobs (they list Reston, VA but also hire remote
 | Carahsoft | carahsoft | 15 |
 | TD SYNNEX (DLT public sector) | workday | 0 |
 | Arrow (immixGroup) | workday | 1 |
-| GuidePoint Security | greenhouse | 12 |
-| Trace3 | greenhouse | 14 |
+| GuidePoint Security | greenhouse | 13 |
+| Trace3 | greenhouse | 15 |
 | OpenGov | ashby | 0 |
-| Axon | greenhouse | 84 |
+| Axon | greenhouse | 77 |
 | SHI International | workday | 1 |
 | Connection (GovConnection) | vizi | 36 |
 | Iron Bow Technologies | greenhouse | 2 |
@@ -52,12 +54,12 @@ Jobs on the site, plus Carahsoft jobs (they list Reston, VA but also hire remote
 
 ## Filtered out this run
 
-- Needs more experience: 99
-- Needs closing experience: 33
-- Not an office/sales role: 26
+- Needs more experience: 94
+- Needs closing experience: 30
+- Not an office/sales role: 27
 - commission-only: 16
-- Far away, not remote: 9
-- remote-abroad: 6
+- Far away, not remote: 8
+- remote-abroad: 7
 - language: 2
 - abroad: 1
 - Duplicate: 1
