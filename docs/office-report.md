@@ -1,8 +1,8 @@
 # Office & Gov Sales report
 
-Rebuilt automatically every feed run. Last run: 2026-11-18 19:23 UTC.
+Rebuilt automatically every feed run. Last run: 2026-11-19 04:07 UTC.
 
-## Worth a look (19)
+## Worth a look (20)
 
 Jobs on the site, plus Carahsoft jobs (they list Reston, VA but also hire remote: ask).
 
@@ -18,6 +18,7 @@ Jobs on the site, plus Carahsoft jobs (they list Reston, VA but also hire remote
 | [Part-Time Graphic Design & Social Media Specialist](https://himalayas.app/companies/vg-systems-llc-a-hubzone-company/jobs/part-time-graphic-design-social-media-specialist?utm_source=api) | VG Systems LLC, A HUBZone Company | Remote — United States | — | On the site |
 | [Inside Sales Support Representative](https://vizi.vizirecruiter.com/CONNECTION-3063/417788/index.html) | Connection (GovConnection) | Remote, MA | — | On the site |
 | [Technology Sales Representative (Entry Level) – SMB IT Solutions](https://vizi.vizirecruiter.com/CONNECTION-3063/389764/index.html) | Connection (GovConnection) | Remote, NC | — | On the site |
+| [Remote Entry-Level Sales - Flexible Hours & Base Pay](https://www.jobleads.com/us/job/remote-entry-level-sales-flexible-hours-base-pay--bosler--ea529ded57c63ce6c47b07a670cf0976d) | Vector Marketing | — | — | On the site |
 | [Account Representative](https://www.simplyhired.com/job/peQ7sTdRCLaKXxnQE4c6JcKikxFvr-Rh2wRIzaI4cpLnG90B2ZZKGg) | Coloplast | Remote — Coral Springs, FL | $49,360 - $60,904 a year | On the site |
 | [Inside Sales Representative - Waterworks](https://www.simplyhired.com/job/uJl_mQwsxPVphy-FfDdjw0Mw_tcKessrInKwD4Wup6AOBL7WYRcSag) | Ferguson Enterprises, LLC | Myrtle Beach, SC | $16.84 - $26.92 an hour | On the site |
 | [Inside Sales Representative](https://jobicy.com/jobs/152775-inside-sales-representative-2) | Beyond Finance | Remote — USA | — | On the site |
@@ -35,10 +36,10 @@ Jobs on the site, plus Carahsoft jobs (they list Reston, VA but also hire remote
 | Carahsoft | carahsoft | 15 |
 | TD SYNNEX (DLT public sector) | workday | 0 |
 | Arrow (immixGroup) | workday | 1 |
-| GuidePoint Security | greenhouse | 13 |
+| GuidePoint Security | greenhouse | 14 |
 | Trace3 | greenhouse | 15 |
 | OpenGov | ashby | 0 |
-| Axon | greenhouse | 77 |
+| Axon | greenhouse | 76 |
 | SHI International | workday | 1 |
 | Connection (GovConnection) | vizi | 36 |
 | Iron Bow Technologies | greenhouse | 2 |
@@ -54,12 +55,14 @@ Jobs on the site, plus Carahsoft jobs (they list Reston, VA but also hire remote
 
 ## Filtered out this run
 
-- Needs more experience: 94
-- Needs closing experience: 30
-- Not an office/sales role: 27
+- Needs more experience: 93
+- Needs closing experience: 29
+- Not an office/sales role: 28
 - commission-only: 16
 - Far away, not remote: 8
-- remote-abroad: 7
+- remote-abroad: 3
 - language: 2
+- junk-listing: 2
+- commission-insurance: 2
 - abroad: 1
 - Duplicate: 1
