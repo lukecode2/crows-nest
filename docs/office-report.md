@@ -1,8 +1,8 @@
 # Office & Gov Sales report
 
-Rebuilt automatically every feed run. Last run: 2026-11-19 04:07 UTC.
+Rebuilt automatically every feed run. Last run: 2026-11-19 19:28 UTC.
 
-## Worth a look (20)
+## Worth a look (21)
 
 Jobs on the site, plus Carahsoft jobs (they list Reston, VA but also hire remote: ask).
 
@@ -17,10 +17,11 @@ Jobs on the site, plus Carahsoft jobs (they list Reston, VA but also hire remote
 | [Paid Social Media Specialist](https://vizi.vizirecruiter.com/CONNECTION-3063/424316/index.html) | Connection (GovConnection) | Remote, NH | — | On the site |
 | [Part-Time Graphic Design & Social Media Specialist](https://himalayas.app/companies/vg-systems-llc-a-hubzone-company/jobs/part-time-graphic-design-social-media-specialist?utm_source=api) | VG Systems LLC, A HUBZone Company | Remote — United States | — | On the site |
 | [Inside Sales Support Representative](https://vizi.vizirecruiter.com/CONNECTION-3063/417788/index.html) | Connection (GovConnection) | Remote, MA | — | On the site |
+| [Brand Marketing Specialist](https://www.adzuna.com/land/ad/5965850799?se=mKpxak_k8RGAvJnbPgF_oA&utm_medium=api&utm_source=ea9765bf&v=6678EFAC61C4E854887896A887B6D3CA9DD7B22E) | Peace Sotheby's International Realty | Pawleys Island, Georgetown County | — | On the site |
 | [Technology Sales Representative (Entry Level) – SMB IT Solutions](https://vizi.vizirecruiter.com/CONNECTION-3063/389764/index.html) | Connection (GovConnection) | Remote, NC | — | On the site |
 | [Remote Entry-Level Sales - Flexible Hours & Base Pay](https://www.jobleads.com/us/job/remote-entry-level-sales-flexible-hours-base-pay--bosler--ea529ded57c63ce6c47b07a670cf0976d) | Vector Marketing | — | — | On the site |
 | [Account Representative](https://www.simplyhired.com/job/peQ7sTdRCLaKXxnQE4c6JcKikxFvr-Rh2wRIzaI4cpLnG90B2ZZKGg) | Coloplast | Remote — Coral Springs, FL | $49,360 - $60,904 a year | On the site |
-| [Inside Sales Representative - Waterworks](https://www.simplyhired.com/job/uJl_mQwsxPVphy-FfDdjw0Mw_tcKessrInKwD4Wup6AOBL7WYRcSag) | Ferguson Enterprises, LLC | Myrtle Beach, SC | $16.84 - $26.92 an hour | On the site |
+| [Inside Sales Representative - Waterworks](https://www.simplyhired.com/job/uJl_mQwsxPVphy-FfDdjw0Mw_tcKessrInKwD4Wup6AOBL7WYRcSag) | Ferguson Enterprises | Myrtle Beach, SC | $16.84–$26.92/hr | On the site |
 | [Inside Sales Representative](https://jobicy.com/jobs/152775-inside-sales-representative-2) | Beyond Finance | Remote — USA | — | On the site |
 | [Client Sales Representative - (Entry Level and Fully Remote)](https://www.jobleads.com/us/job/client-sales-representative-entry-level-and-fully-remote--glendale--e491d1b736d2cdd176a0f48e38e01a4c9) | Summit Sky Consulting | — | $36,000–$54,000/year | On the site |
 | [Marketing Coordinator - Paid Media](https://weworkremotely.com/remote-jobs/zanda-health-marketing-coordinator-paid-media) | Zanda Health | Remote — United States of America, Victoria | — | On the site |
@@ -41,7 +42,7 @@ Jobs on the site, plus Carahsoft jobs (they list Reston, VA but also hire remote
 | OpenGov | ashby | 0 |
 | Axon | greenhouse | 76 |
 | SHI International | workday | 1 |
-| Connection (GovConnection) | vizi | 36 |
+| Connection (GovConnection) | vizi | 37 |
 | Iron Bow Technologies | greenhouse | 2 |
 
 ## Checked but not watchable
@@ -55,14 +56,12 @@ Jobs on the site, plus Carahsoft jobs (they list Reston, VA but also hire remote
 
 ## Filtered out this run
 
-- Needs more experience: 93
+- Needs more experience: 91
 - Needs closing experience: 29
-- Not an office/sales role: 28
+- Not an office/sales role: 27
 - commission-only: 16
+- junk-listing: 9
 - Far away, not remote: 8
-- remote-abroad: 3
+- remote-abroad: 4
 - language: 2
-- junk-listing: 2
-- commission-insurance: 2
 - abroad: 1
-- Duplicate: 1
