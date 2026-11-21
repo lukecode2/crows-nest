@@ -1,6 +1,6 @@
 # Office & Gov Sales report
 
-Rebuilt automatically every feed run. Last run: 2026-11-20 19:04 UTC.
+Rebuilt automatically every feed run. Last run: 2026-11-21 03:56 UTC.
 
 ## Worth a look (21)
 
@@ -13,8 +13,8 @@ Jobs on the site, plus Carahsoft jobs (they list Reston, VA but also hire remote
 | [Digital Media Coordinator](https://www.carahsoft.com/careers/Digital-Media) | Carahsoft | Reston, VA | $40,000–$50,000/year | Ask if remote (listed far away) |
 | [Proposal Coordinator](https://www.carahsoft.com/careers/proposal-coordinator-opportunities) | Carahsoft | Reston, VA | $40,000–$50,000/year | Ask if remote (listed far away) |
 | [Contracts Coordinator](https://www.carahsoft.com/careers/contracts-coordinator) | Carahsoft | Reston, VA | $40,000–$50,000/year | Ask if remote (listed far away) |
-| [Business Development Representative (Mid-Atlantic)](https://boards.greenhouse.io/guidepointsecurity/jobs/6265329004?gh_jid=6265329004) | GuidePoint Security | Remote | — | On the site |
 | [Paid Social Media Specialist](https://vizi.vizirecruiter.com/CONNECTION-3063/424316/index.html) | Connection (GovConnection) | Remote, NH | — | On the site |
+| [Business Development Representative (Mid-Atlantic)](https://boards.greenhouse.io/guidepointsecurity/jobs/6265329004?gh_jid=6265329004) | GuidePoint Security | Remote | — | On the site |
 | [Part-Time Graphic Design & Social Media Specialist](https://himalayas.app/companies/vg-systems-llc-a-hubzone-company/jobs/part-time-graphic-design-social-media-specialist?utm_source=api) | VG Systems LLC, A HUBZone Company | Remote — United States | — | On the site |
 | [Inside Sales Support Representative](https://vizi.vizirecruiter.com/CONNECTION-3063/417788/index.html) | Connection (GovConnection) | Remote, MA | — | On the site |
 | [Brand Marketing Specialist](https://www.adzuna.com/land/ad/5965850799?se=mKpxak_k8RGAvJnbPgF_oA&utm_medium=api&utm_source=ea9765bf&v=6678EFAC61C4E854887896A887B6D3CA9DD7B22E) | Peace Sotheby's International Realty | Pawleys Island, Georgetown County | — | On the site |
@@ -40,7 +40,7 @@ Jobs on the site, plus Carahsoft jobs (they list Reston, VA but also hire remote
 | GuidePoint Security | greenhouse | 13 |
 | Trace3 | greenhouse | 16 |
 | OpenGov | ashby | 0 |
-| Axon | greenhouse | 78 |
+| Axon | greenhouse | 74 |
 | SHI International | workday | 1 |
 | Connection (GovConnection) | vizi | 36 |
 | Iron Bow Technologies | greenhouse | 1 |
@@ -56,13 +56,13 @@ Jobs on the site, plus Carahsoft jobs (they list Reston, VA but also hire remote
 
 ## Filtered out this run
 
-- Needs more experience: 90
-- Needs closing experience: 30
-- Not an office/sales role: 26
+- Needs more experience: 83
+- Needs closing experience: 29
+- Not an office/sales role: 27
 - commission-only: 16
-- junk-listing: 10
 - Far away, not remote: 9
 - remote-abroad: 3
 - language: 2
 - abroad: 1
+- junk-listing: 1
 - Duplicate: 1
