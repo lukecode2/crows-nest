@@ -1,6 +1,6 @@
 # Office & Gov Sales report
 
-Rebuilt automatically every feed run. Last run: 2026-11-21 03:56 UTC.
+Rebuilt automatically every feed run. Last run: 2026-11-21 17:57 UTC.
 
 ## Worth a look (21)
 
@@ -61,8 +61,7 @@ Jobs on the site, plus Carahsoft jobs (they list Reston, VA but also hire remote
 - Not an office/sales role: 27
 - commission-only: 16
 - Far away, not remote: 9
-- remote-abroad: 3
+- remote-abroad: 4
 - language: 2
 - abroad: 1
-- junk-listing: 1
 - Duplicate: 1
