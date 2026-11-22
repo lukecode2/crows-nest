@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T03:03:59.394Z",
+  "generatedAt": "2026-11-22T18:28:27.501Z",
   "about": "Office & Gov Sales watch: every office-track job and every job at a watched company this run, kept or not.",
   "companies": [
     {
@@ -321,6 +321,38 @@
       "status": "Needs more experience"
     },
     {
+      "id": "f1dd3fd8bbef2416d63b8bc3d2fbd3c5ea098892",
+      "title": "Technical Account Manager",
+      "company": "Axon",
+      "location": "Canada; Canada, Ontario - Remote",
+      "pay": "",
+      "url": "https://job-boards.greenhouse.io/axon/jobs/8042296003",
+      "source": "ats",
+      "track": "office",
+      "kept": false,
+      "dropReason": "senior",
+      "snippet": "Join Axon and be a Force for Good. At Axon, we’re on a mission to Protect Life. We’re explorers, pursuing society’s most critical safety and justice issues wit…",
+      "watchedCompany": true,
+      "askRemote": false,
+      "status": "Needs more experience"
+    },
+    {
+      "id": "312a1545f2a071bc0e67c93ae0604d50d6731d25",
+      "title": "Sales Assistant / Model Home Attendant",
+      "company": "Taleo Social Sourcing",
+      "location": "Myrtle Beach, Horry County",
+      "pay": "",
+      "url": "https://www.adzuna.com/details/5974768285?utm_medium=api&utm_source=ea9765bf",
+      "source": "adzuna",
+      "track": "office",
+      "kept": true,
+      "dropReason": null,
+      "snippet": "D.R. Horton, Inc., the largest homebuilder in the U.S. , was founded in 1978 and is a publicly traded company on the New York Stock Exchange. It is engaged in …",
+      "watchedCompany": false,
+      "askRemote": false,
+      "status": "On the site"
+    },
+    {
       "id": "22eecc1bdd6b4e7a94a5b5cdc354861d15182fb3",
       "title": "Channel Account Executive - LATAM",
       "company": "Bitwarden",
@@ -351,22 +383,6 @@
       "watchedCompany": false,
       "askRemote": false,
       "status": "remote-abroad"
-    },
-    {
-      "id": "f1dd3fd8bbef2416d63b8bc3d2fbd3c5ea098892",
-      "title": "Technical Account Manager",
-      "company": "Axon",
-      "location": "Canada; Canada, Ontario - Remote",
-      "pay": "",
-      "url": "https://job-boards.greenhouse.io/axon/jobs/8042296003",
-      "source": "ats",
-      "track": "office",
-      "kept": false,
-      "dropReason": "senior",
-      "snippet": "Join Axon and be a Force for Good. At Axon, we’re on a mission to Protect Life. We’re explorers, pursuing society’s most critical safety and justice issues wit…",
-      "watchedCompany": true,
-      "askRemote": false,
-      "status": "Needs more experience"
     },
     {
       "id": "bd0dc544147e00b35d02e7c83f7d4a75014aaba9",
@@ -1681,6 +1697,38 @@
       "status": "Needs more experience"
     },
     {
+      "id": "c46ae082585e449c2e36b752608c547c9001b79c",
+      "title": "Remote Inbound Sales Representative - $16.00 Hourly + Commission",
+      "company": "Extra Space Management, Inc",
+      "location": "Remote — Myrtle Beach, SC",
+      "pay": "$16 an hour",
+      "url": "https://www.simplyhired.com/job/S4E0SADHksX8GYcmF-wopfnZFv5CfV9zZ4D8UkJQxnJsNA_5xlWkIw",
+      "source": "simplyhired",
+      "track": "office",
+      "kept": true,
+      "dropReason": null,
+      "snippet": "Handle approximately 12–20 inbound sales calls per day. Recent commission payouts have averaged approximately $500–$700 per month, with new hires typically… · …",
+      "watchedCompany": false,
+      "askRemote": false,
+      "status": "On the site"
+    },
+    {
+      "id": "e5363d36d548048cc39bcfa5f2ffdde36cd87785",
+      "title": "Remote Bilingual Inbound Sales Representative - $17.00 Hourly + Commission",
+      "company": "Extra Space Management, Inc",
+      "location": "Remote — Myrtle Beach, SC",
+      "pay": "$17 an hour",
+      "url": "https://www.simplyhired.com/job/lWKKbv_J316LODCiYZUlk35bP0eNR9N2o1_GnHsrUzpk7mx_dXH6VA",
+      "source": "simplyhired",
+      "track": "office",
+      "kept": false,
+      "dropReason": "language",
+      "snippet": "If you are a current Extra Space employee, please apply through Jobs Hub in Workday. We are an equal opportunity employer and value diversity at our company.… …",
+      "watchedCompany": false,
+      "askRemote": false,
+      "status": "language"
+    },
+    {
       "id": "4e9b1b4b202373f413392498ed349c5e9804d92b",
       "title": "Sales Development Representative Intern",
       "company": "Trace3",
@@ -1695,6 +1743,22 @@
       "watchedCompany": true,
       "askRemote": false,
       "status": "Far away, not remote"
+    },
+    {
+      "id": "d859e0036b5468c9d8e530ca5f96bbc5ec02f6e2",
+      "title": "Remote Account Representative (Full Training)",
+      "company": "Saivance",
+      "location": "Remote",
+      "pay": "$67,000 - $87,000 a year",
+      "url": "https://www.simplyhired.com/job/RJ-LkXpWEAHK4zfrNqeY9Wt_6da0odppdM-dQKLo0vY1sociU7-w3g",
+      "source": "simplyhired",
+      "track": "office",
+      "kept": true,
+      "dropReason": null,
+      "snippet": "Manage assigned leads and make timely outbound calls. You’ll make calls, uncover what each person is looking for, present insurance and financial protection… ·…",
+      "watchedCompany": false,
+      "askRemote": false,
+      "status": "On the site"
     },
     {
       "id": "f2fd4e018b55c839698bc35fc181d21ce0405b2f",
@@ -1841,6 +1905,22 @@
       "status": "Needs more experience"
     },
     {
+      "id": "140423ee40e57cda394f1b3c44b0ac1ca6e7c4b2",
+      "title": "Marketing Coordinator - Behavioral Health - Per Diem (As Needed)",
+      "company": "Lighthouse Behavioral Health Hospital",
+      "location": "Conway, SC",
+      "pay": "",
+      "url": "https://www.simplyhired.com/job/EBdMPjbqJnTV9xBPPZdB5dKIm0KK-T6_ornlZvaAJe80XYme1hEvXg",
+      "source": "simplyhired",
+      "track": "office",
+      "kept": true,
+      "dropReason": null,
+      "snippet": "Associates degree in related field Required. Valid Driver’s License with clean driving record. Participates in the marketing plan process through market… · Nur…",
+      "watchedCompany": false,
+      "askRemote": false,
+      "status": "On the site"
+    },
+    {
       "id": "393a1802158e04ce085b70e5fb6ee78caa8af595",
       "title": "Part-Time Graphic Design & Social Media Specialist",
       "company": "VG Systems LLC, A HUBZone Company",
@@ -1871,6 +1951,22 @@
       "watchedCompany": true,
       "askRemote": false,
       "status": "On the site"
+    },
+    {
+      "id": "c966ca98ea2787ad626a207129acd48fd4860835",
+      "title": "Events & DataBase Coordinator",
+      "company": "Conway Medical Center",
+      "location": "Conway, SC",
+      "pay": "",
+      "url": "https://www.simplyhired.com/job/g6CEbzgj9DVO7i9tRuL-HGPxpWaykFsEBQdRVu0YSDc3CgVzTUYTYQ",
+      "source": "simplyhired",
+      "track": "office",
+      "kept": false,
+      "dropReason": "duplicate",
+      "snippet": "Experience with online auction, registration, or social media platforms and basic graphic design tools (such as Canva) preferred. · Microsoft Outlook, Customer…",
+      "watchedCompany": false,
+      "askRemote": false,
+      "status": "Duplicate"
     },
     {
       "id": "cbb606ab76785a620f1ddb6b23cdb09db42e8925",
@@ -1977,28 +2073,12 @@
       "url": "https://www.adzuna.com/land/ad/5965850799?se=mKpxak_k8RGAvJnbPgF_oA&utm_medium=api&utm_source=ea9765bf&v=6678EFAC61C4E854887896A887B6D3CA9DD7B22E",
       "source": "adzuna",
       "track": "office",
-      "kept": true,
-      "dropReason": null,
-      "snippet": "About the Opportunity We are seeking a creative, organized, and motivated Marketing & Brand Specialist to join our marketing team. This is an opportunity for s…",
-      "watchedCompany": false,
-      "askRemote": false,
-      "status": "On the site"
-    },
-    {
-      "id": "529a0f61720e8bbcc2eb59e90d05983d94c01de5",
-      "title": "Brand Marketing Specialist",
-      "company": "Peace Sotheby's International Realty",
-      "location": "Pawleys Island, Georgetown County",
-      "pay": "",
-      "url": "https://www.adzuna.com/land/ad/5965850799?se=ilc9XiHm8RGuPayoyp3FzQ&utm_medium=api&utm_source=ea9765bf&v=6678EFAC61C4E854887896A887B6D3CA9DD7B22E",
-      "source": "adzuna",
-      "track": "office",
       "kept": false,
-      "dropReason": "duplicate",
+      "dropReason": "dead-link",
       "snippet": "About the Opportunity We are seeking a creative, organized, and motivated Marketing & Brand Specialist to join our marketing team. This is an opportunity for s…",
       "watchedCompany": false,
       "askRemote": false,
-      "status": "Duplicate"
+      "status": "dead-link"
     },
     {
       "id": "cafd70447758bba5a062e2100b5fb54181690571",
@@ -2281,12 +2361,12 @@
       "url": "https://www.simplyhired.com/job/uJl_mQwsxPVphy-FfDdjw0Mw_tcKessrInKwD4Wup6AOBL7WYRcSag",
       "source": "sweep",
       "track": "office",
-      "kept": true,
-      "dropReason": null,
+      "kept": false,
+      "dropReason": "dead-link",
       "snippet": "Inside sales at a Fortune 500 supplier in Myrtle Beach. 1–3 years of sales support or customer service; his brand-ambassador and marina customer work counts.",
       "watchedCompany": false,
       "askRemote": false,
-      "status": "On the site"
+      "status": "dead-link"
     },
     {
       "id": "9580ae30c0d8b5ab8b95d85dc140fbe0237a5dd5",
