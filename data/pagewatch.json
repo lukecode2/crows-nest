@@ -35,20 +35,7 @@
   "https://careers.crowley.com/jobs": [
     "https://careers.crowley.com/careers-home"
   ],
-  "https://www.dockwalk.com/jobs": [
-    "https://www.dockwalk.com/crewlife",
-    "https://www.dockwalk.com/crewlife/captains",
-    "https://www.dockwalk.com/crewlife/deckhands",
-    "https://www.dockwalk.com/jobs",
-    "https://www.dockwalk.com/jobs/career-advice",
-    "https://www.dockwalk.com/dockwalk-presents",
-    "https://www.dockwalk.com/digital-dockwalk",
-    "https://www.dockwalk.com/crewlife/interior-dual-roles",
-    "https://www.dockwalk.com/crewlife/power-of-letting-go-as-a-chef",
-    "https://www.dockwalk.com/crewlife/senior-yacht-crew-cv-essentials",
-    "https://www.dockwalk.com/jobs/training/yacht-engineer-skills-you-should-have",
-    "https://www.dockwalk.com/jobs/training/when-and-where-to-be-for-yacht-crew-jobs"
-  ],
+  "https://www.dockwalk.com/jobs": [],
   "https://www.cottoncrews.com/crew-jobs/": [
     "https://www.cottoncrews.com/luxury-yacht-crew-agency/",
     "https://www.cottoncrews.com/app-guide/",
@@ -106,7 +93,8 @@
     "https://sealiftcommand.com/career-fair/332dee1fb73824dddd8e45c715f7538426d5dd582a89ef24c13ca127c0c82f4b",
     "https://sealiftcommand.com/career-fair/8e154136322eef091f96cc7ec3eb0b0e211e344d2be266bd7f2e49addcd5270c",
     "https://sealiftcommand.com/career-fair/1ff23db8d343addde1afd0a5f4c11f05fe0c19904ddc0ca58c6a4692b1504a5a",
-    "https://sealiftcommand.com/career-fair/b0a7e64419c9e50ddbb819cc7a66ab219626a36023a45a1e58ed22ae71d2e1a1"
+    "https://sealiftcommand.com/career-fair/b0a7e64419c9e50ddbb819cc7a66ab219626a36023a45a1e58ed22ae71d2e1a1",
+    "https://sealiftcommand.com/career-fair/4839bf175bc7ebd6993036a8ef0ac576d2b4228acb5e87367012ec45098253bb"
   ],
   "https://careers.youradv.com/": [
     "https://youradv.com/solution/private-brand-solutions/",
@@ -217,9 +205,9 @@
     "https://www.luxyachts.com/find-crew",
     "https://www.luxyachts.com/tools/job-descriptions",
     "https://www.luxyachts.com/find-crew/luxyachts",
-    "https://www.luxyachts.com/about/team/madison-smith",
     "https://www.luxyachts.com/about/team/candice-keen",
-    "https://www.luxyachts.com/about/team/brittney-wainwright",
+    "https://www.luxyachts.com/about/team/karla-fleming",
+    "https://www.luxyachts.com/about/team/marcy-laturno",
     "https://www.luxyachts.com/tools/salaries"
   ],
   "https://www.magnoliamarine.com/careers": [
