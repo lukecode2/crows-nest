@@ -1,8 +1,8 @@
 # Office & Gov Sales report
 
-Rebuilt automatically every feed run. Last run: 2026-11-24 06:55 UTC.
+Rebuilt automatically every feed run. Last run: 2026-11-24 21:08 UTC.
 
-## Worth a look (23)
+## Worth a look (25)
 
 Jobs on the site, plus Carahsoft jobs (they list Reston, VA but also hire remote: ask).
 
@@ -14,7 +14,9 @@ Jobs on the site, plus Carahsoft jobs (they list Reston, VA but also hire remote
 | [Proposal Coordinator](https://www.carahsoft.com/careers/proposal-coordinator-opportunities) | Carahsoft | Reston, VA | $40,000–$50,000/year | Ask if remote (listed far away) |
 | [Contracts Coordinator](https://www.carahsoft.com/careers/contracts-coordinator) | Carahsoft | Reston, VA | $40,000–$50,000/year | Ask if remote (listed far away) |
 | [Technology Sales Representative (Entry Level) – SMB IT Solutions](https://vizi.vizirecruiter.com/CONNECTION-3063/389764/index.html) | Connection (GovConnection) | Remote, NC | — | On the site |
-| [Sales Assistant / Model Home Attendant](https://www.adzuna.com/details/5974768285?utm_medium=api&utm_source=ea9765bf) | Taleo Social Sourcing | Myrtle Beach, Horry County | — | On the site |
+| [Performance Marketing Specialist (100% Remote - Chicago Area Preferred)](https://jobicy.com/jobs/163762-performance-marketing-specialist-100-remote-chicago-area-preferred) | WIN Home Inspection | Remote — USA | — | On the site |
+| [Growth Marketing Specialist (100% Remote - Chicago Area Preferred)](https://jobicy.com/jobs/163743-growth-marketing-specialist-100-remote-chicago-area-preferred) | WIN Home Inspection | Remote — USA | — | On the site |
+| [Inside Sales Representative - Enterprise](https://jobicy.com/jobs/156258-inside-sales-representative-enterprise) | MaintainX | Remote — USA | — | On the site |
 | [Paid Social Media Specialist](https://vizi.vizirecruiter.com/CONNECTION-3063/424316/index.html) | Connection (GovConnection) | Remote, NH | — | On the site |
 | [Remote Inbound Sales Representative - $16.00 Hourly + Commission](https://www.simplyhired.com/job/Ez0_0GhLRsKD8rWvzPAazgcnRjN2vefdcaP1b5FD8n9Rs5YPX9ot7w) | Extra Space Management, Inc | Remote — Myrtle Beach, SC | $16 an hour | On the site |
 | [Remote Account Representative (Full Training)](https://www.simplyhired.com/job/RJ-LkXpWEAHK4zfrNqeY9Wt_6da0odppdM-dQKLo0vY1sociU7-w3g) | Saivance | Remote | $67,000 - $87,000 a year | On the site |
@@ -39,13 +41,13 @@ Jobs on the site, plus Carahsoft jobs (they list Reston, VA but also hire remote
 | Carahsoft | carahsoft | 15 |
 | TD SYNNEX (DLT public sector) | workday | 0 |
 | Arrow (immixGroup) | workday | 1 |
-| GuidePoint Security | greenhouse | 13 |
-| Trace3 | greenhouse | 15 |
+| GuidePoint Security | greenhouse | 14 |
+| Trace3 | greenhouse | 17 |
 | OpenGov | ashby | 0 |
 | Axon | greenhouse | 77 |
 | SHI International | workday | 1 |
-| Connection (GovConnection) | vizi | 35 |
-| Iron Bow Technologies | greenhouse | 2 |
+| Connection (GovConnection) | vizi | 36 |
+| Iron Bow Technologies | greenhouse | 1 |
 
 ## Checked but not watchable
 
@@ -58,14 +60,14 @@ Jobs on the site, plus Carahsoft jobs (they list Reston, VA but also hire remote
 
 ## Filtered out this run
 
-- Needs more experience: 87
-- Not an office/sales role: 29
-- Needs closing experience: 29
-- commission-only: 18
+- Needs more experience: 89
+- Not an office/sales role: 31
+- Needs closing experience: 30
+- commission-only: 16
 - Far away, not remote: 9
 - remote-abroad: 6
-- junk-listing: 3
+- junk-listing: 4
+- Duplicate: 3
 - language: 3
 - abroad: 2
-- commission-insurance: 2
-- Duplicate: 1
+- dead-link: 1
