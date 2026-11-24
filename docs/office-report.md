@@ -1,6 +1,6 @@
 # Office & Gov Sales report
 
-Rebuilt automatically every feed run. Last run: 2026-11-23 22:35 UTC.
+Rebuilt automatically every feed run. Last run: 2026-11-24 06:55 UTC.
 
 ## Worth a look (23)
 
@@ -39,12 +39,12 @@ Jobs on the site, plus Carahsoft jobs (they list Reston, VA but also hire remote
 | Carahsoft | carahsoft | 15 |
 | TD SYNNEX (DLT public sector) | workday | 0 |
 | Arrow (immixGroup) | workday | 1 |
-| GuidePoint Security | greenhouse | 14 |
+| GuidePoint Security | greenhouse | 13 |
 | Trace3 | greenhouse | 15 |
 | OpenGov | ashby | 0 |
 | Axon | greenhouse | 77 |
 | SHI International | workday | 1 |
-| Connection (GovConnection) | vizi | 36 |
+| Connection (GovConnection) | vizi | 35 |
 | Iron Bow Technologies | greenhouse | 2 |
 
 ## Checked but not watchable
@@ -59,12 +59,13 @@ Jobs on the site, plus Carahsoft jobs (they list Reston, VA but also hire remote
 ## Filtered out this run
 
 - Needs more experience: 87
+- Not an office/sales role: 29
 - Needs closing experience: 29
-- Not an office/sales role: 27
-- commission-only: 16
+- commission-only: 18
 - Far away, not remote: 9
 - remote-abroad: 6
+- junk-listing: 3
 - language: 3
 - abroad: 2
+- commission-insurance: 2
 - Duplicate: 1
-- dead-link: 1
