@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T20:27:19.013Z",
+  "generatedAt": "2026-11-26T04:58:36.562Z",
   "about": "Office & Gov Sales watch: every office-track job and every job at a watched company this run, kept or not.",
   "companies": [
     {
@@ -20,7 +20,7 @@
     {
       "name": "GuidePoint Security",
       "ats": "greenhouse",
-      "jobsSeen": 14
+      "jobsSeen": 15
     },
     {
       "name": "Trace3",
@@ -321,22 +321,6 @@
       "status": "Needs more experience"
     },
     {
-      "id": "ee65c1700f1941d43dd93634667be1f750b53f88",
-      "title": "Technical Account Manager",
-      "company": "Axon",
-      "location": "Canada, Ontario - Remote",
-      "pay": "",
-      "url": "https://job-boards.greenhouse.io/axon/jobs/8200521003",
-      "source": "ats",
-      "track": "office",
-      "kept": false,
-      "dropReason": "senior",
-      "snippet": "Join Axon and be a Force for Good. At Axon, we’re on a mission to Protect Life. We’re explorers, pursuing society’s most critical safety and justice issues wit…",
-      "watchedCompany": true,
-      "askRemote": false,
-      "status": "Needs more experience"
-    },
-    {
       "id": "34d736ef3e3c8865d0b451bc3672158cb39185d4",
       "title": "Technical Account Manager",
       "company": "Axon",
@@ -367,6 +351,54 @@
       "watchedCompany": true,
       "askRemote": false,
       "status": "Needs more experience"
+    },
+    {
+      "id": "27a8e4af97e4dd4bffe3d94b087b9a4011dc3de0",
+      "title": "Administrative & Communications Coordinator",
+      "company": "Waccamaw Community Foundation",
+      "location": "Murrells Inlet, SC",
+      "pay": "$42,000 - $52,000 a year",
+      "url": "https://www.simplyhired.com/job/S_ScbavL0yTnwhqmi_Vgp4PZo1QxvX8NuWEAjYPEl3rwuwOlvr-KHg",
+      "source": "simplyhired",
+      "track": "office",
+      "kept": true,
+      "dropReason": null,
+      "snippet": "Greet visitors and respond to telephone and general email inquiries in a welcoming, professional and helpful manner. Long-Term Disability: 100% employer-paid. …",
+      "watchedCompany": false,
+      "askRemote": false,
+      "status": "On the site"
+    },
+    {
+      "id": "ee65c1700f1941d43dd93634667be1f750b53f88",
+      "title": "Technical Account Manager",
+      "company": "Axon",
+      "location": "Canada, Ontario - Remote",
+      "pay": "",
+      "url": "https://job-boards.greenhouse.io/axon/jobs/8200521003",
+      "source": "ats",
+      "track": "office",
+      "kept": false,
+      "dropReason": "senior",
+      "snippet": "Join Axon and be a Force for Good. At Axon, we’re on a mission to Protect Life. We’re explorers, pursuing society’s most critical safety and justice issues wit…",
+      "watchedCompany": true,
+      "askRemote": false,
+      "status": "Needs more experience"
+    },
+    {
+      "id": "38772b03243bf9af0ed49585f77af4a90f4882ab",
+      "title": "Account Executive (Rhode Island)",
+      "company": "GuidePoint Security",
+      "location": "Remote",
+      "pay": "",
+      "url": "https://boards.greenhouse.io/guidepointsecurity/jobs/6271520004?gh_jid=6271520004",
+      "source": "ats",
+      "track": "office",
+      "kept": false,
+      "dropReason": "needs-experience",
+      "snippet": "GuidePoint Security provides trusted cybersecurity expertise, solutions and services that help organizations make better decisions and minimize risk. By taking…",
+      "watchedCompany": true,
+      "askRemote": false,
+      "status": "Needs closing experience"
     },
     {
       "id": "b216453051fb6c92365f12ff3a3211fe80bd65fb",
@@ -1985,6 +2017,22 @@
       "status": "On the site"
     },
     {
+      "id": "8539230cfef321b0471356c3fb097a7e211df2bc",
+      "title": "Remote Bilingual Inbound Sales Representative - $17.00 Hourly + Commission",
+      "company": "Extra Space Management, Inc",
+      "location": "Remote — Myrtle Beach, SC",
+      "pay": "$17 an hour",
+      "url": "https://www.simplyhired.com/job/po19oVZ24WaHRA88_HGsa4wraKvvNIVh9eM3bAvS17OPfVG7G4leTw",
+      "source": "simplyhired",
+      "track": "office",
+      "kept": false,
+      "dropReason": "language",
+      "snippet": "If you are a current Extra Space employee, please apply through Jobs Hub in Workday. We are an equal opportunity employer and value diversity at our company.… …",
+      "watchedCompany": false,
+      "askRemote": false,
+      "status": "language"
+    },
+    {
       "id": "4e9b1b4b202373f413392498ed349c5e9804d92b",
       "title": "Sales Development Representative Intern",
       "company": "Trace3",
@@ -2031,22 +2079,6 @@
       "watchedCompany": false,
       "askRemote": false,
       "status": "Needs more experience"
-    },
-    {
-      "id": "b3d7f847621627cf1994c0685663033002d13af9",
-      "title": "Marketing & Content Coordinator",
-      "company": "D2B",
-      "location": "Remote",
-      "pay": "",
-      "url": "https://weworkremotely.com/remote-jobs/d2b-marketing-content-coordinator",
-      "source": "wwr",
-      "track": "office",
-      "kept": false,
-      "dropReason": "remote-abroad",
-      "snippet": "Headquarters: Manila, Metro Manila, Philippines URL: https://jobs.workable.com/company/dcaVtKQqXr9FwBNppNCBH9/jobs-at-d2b Position : Marketing & Content Coordi…",
-      "watchedCompany": false,
-      "askRemote": false,
-      "status": "remote-abroad"
     },
     {
       "id": "2178524d3d7c6a344ae07e75685d72848bcf1786",
@@ -2369,22 +2401,6 @@
       "status": "Needs more experience"
     },
     {
-      "id": "0e058c1310fba9f3945ea1448c2ce64fb3c292d4",
-      "title": "Part-Time Digital Marketing Specialist",
-      "company": "D2B",
-      "location": "Remote",
-      "pay": "",
-      "url": "https://weworkremotely.com/remote-jobs/d2b-part-time-digital-marketing-specialist",
-      "source": "wwr",
-      "track": "office",
-      "kept": false,
-      "dropReason": "remote-abroad",
-      "snippet": "Headquarters: Manila, Metro Manila, Philippines URL: https://jobs.workable.com/company/dcaVtKQqXr9FwBNppNCBH9/jobs-at-d2b Position : Digital Marketing Speciali…",
-      "watchedCompany": false,
-      "askRemote": false,
-      "status": "remote-abroad"
-    },
-    {
       "id": "9bb5132512cc71db329d441a897a0a8bdbba5d39",
       "title": "Inside Sales Account Manager - SLED",
       "company": "Connection (GovConnection)",
@@ -2553,12 +2569,12 @@
       "url": "https://www.simplyhired.com/job/uJl_mQwsxPVphy-FfDdjw0Mw_tcKessrInKwD4Wup6AOBL7WYRcSag",
       "source": "sweep",
       "track": "office",
-      "kept": true,
-      "dropReason": null,
+      "kept": false,
+      "dropReason": "dead-link",
       "snippet": "Inside sales at a Fortune 500 supplier in Myrtle Beach. 1–3 years of sales support or customer service; his brand-ambassador and marina customer work counts.",
       "watchedCompany": false,
       "askRemote": false,
-      "status": "On the site"
+      "status": "dead-link"
     },
     {
       "id": "9580ae30c0d8b5ab8b95d85dc140fbe0237a5dd5",

@@ -1,6 +1,6 @@
 # Office & Gov Sales report
 
-Rebuilt automatically every feed run. Last run: 2026-11-25 20:27 UTC.
+Rebuilt automatically every feed run. Last run: 2026-11-26 04:58 UTC.
 
 ## Worth a look (29)
 
@@ -13,6 +13,7 @@ Jobs on the site, plus Carahsoft jobs (they list Reston, VA but also hire remote
 | [Digital Media Coordinator](https://www.carahsoft.com/careers/Digital-Media) | Carahsoft | Reston, VA | $40,000–$50,000/year | Ask if remote (listed far away) |
 | [Proposal Coordinator](https://www.carahsoft.com/careers/proposal-coordinator-opportunities) | Carahsoft | Reston, VA | $40,000–$50,000/year | Ask if remote (listed far away) |
 | [Contracts Coordinator](https://www.carahsoft.com/careers/contracts-coordinator) | Carahsoft | Reston, VA | $40,000–$50,000/year | Ask if remote (listed far away) |
+| [Administrative & Communications Coordinator](https://www.simplyhired.com/job/S_ScbavL0yTnwhqmi_Vgp4PZo1QxvX8NuWEAjYPEl3rwuwOlvr-KHg) | Waccamaw Community Foundation | Murrells Inlet, SC | $42,000 - $52,000 a year | On the site |
 | [Inside Sales Representative / Existing Customer Accounts](https://weworkremotely.com/remote-jobs/infinity-inside-sales-representative-existing-customer-accounts) | Infinity | Remote | — | On the site |
 | [Field Marketing Coordinator, Upmarket](https://weworkremotely.com/remote-jobs/brex-field-marketing-coordinator-upmarket) | Brex | Remote | — | On the site |
 | [Technology Sales Representative (Entry Level) – SMB IT Solutions](https://vizi.vizirecruiter.com/CONNECTION-3063/389764/index.html) | Connection (GovConnection) | Remote, NC | — | On the site |
@@ -30,7 +31,6 @@ Jobs on the site, plus Carahsoft jobs (they list Reston, VA but also hire remote
 | [Marketing and Sales Coordinator](https://www.simplyhired.com/job/TzYJoHKCqIo0IsMnix_Vh1BY_hEySIyCE0YUP2CBLwvRdbwqcOnCYA) | Healthcare Connect Personal Care Services | Myrtle Beach, SC | $100 - $500 a day | On the site |
 | [Remote Entry-Level Sales - Flexible Hours & Base Pay](https://www.jobleads.com/us/job/remote-entry-level-sales-flexible-hours-base-pay--bosler--ea529ded57c63ce6c47b07a670cf0976d) | Vector Marketing | — | — | On the site |
 | [Account Representative](https://www.simplyhired.com/job/peQ7sTdRCLaKXxnQE4c6JcKikxFvr-Rh2wRIzaI4cpLnG90B2ZZKGg) | Coloplast | Remote — Coral Springs, FL | $49,360 - $60,904 a year | On the site |
-| [Inside Sales Representative - Waterworks](https://www.simplyhired.com/job/uJl_mQwsxPVphy-FfDdjw0Mw_tcKessrInKwD4Wup6AOBL7WYRcSag) | Ferguson Enterprises | Myrtle Beach, SC | $16.84–$26.92/hr | On the site |
 | [Inside Sales Representative](https://jobicy.com/jobs/152775-inside-sales-representative-2) | Beyond Finance | Remote — USA | — | On the site |
 | [Client Sales Representative - (Entry Level and Fully Remote)](https://www.jobleads.com/us/job/client-sales-representative-entry-level-and-fully-remote--glendale--e491d1b736d2cdd176a0f48e38e01a4c9) | Summit Sky Consulting | — | $36,000–$54,000/year | On the site |
 | [Marketing Coordinator - Paid Media](https://weworkremotely.com/remote-jobs/zanda-health-marketing-coordinator-paid-media) | Zanda Health | Remote — United States of America, Victoria | — | On the site |
@@ -45,7 +45,7 @@ Jobs on the site, plus Carahsoft jobs (they list Reston, VA but also hire remote
 | Carahsoft | carahsoft | 15 |
 | TD SYNNEX (DLT public sector) | workday | 0 |
 | Arrow (immixGroup) | workday | 1 |
-| GuidePoint Security | greenhouse | 14 |
+| GuidePoint Security | greenhouse | 15 |
 | Trace3 | greenhouse | 17 |
 | OpenGov | ashby | 0 |
 | Axon | greenhouse | 75 |
@@ -66,9 +66,10 @@ Jobs on the site, plus Carahsoft jobs (they list Reston, VA but also hire remote
 
 - Needs more experience: 88
 - Not an office/sales role: 29
-- Needs closing experience: 26
+- Needs closing experience: 27
 - commission-only: 16
 - Far away, not remote: 9
-- remote-abroad: 6
+- remote-abroad: 4
+- language: 3
 - abroad: 2
-- language: 2
+- dead-link: 1
