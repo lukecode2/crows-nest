@@ -1,8 +1,8 @@
 # Office & Gov Sales report
 
-Rebuilt automatically every feed run. Last run: 2026-11-27 04:58 UTC.
+Rebuilt automatically every feed run. Last run: 2026-11-27 19:54 UTC.
 
-## Worth a look (30)
+## Worth a look (32)
 
 Jobs on the site, plus Carahsoft jobs (they list Reston, VA but also hire remote: ask).
 
@@ -13,6 +13,8 @@ Jobs on the site, plus Carahsoft jobs (they list Reston, VA but also hire remote
 | [Digital Media Coordinator](https://www.carahsoft.com/careers/Digital-Media) | Carahsoft | Reston, VA | $40,000–$50,000/year | Ask if remote (listed far away) |
 | [Proposal Coordinator](https://www.carahsoft.com/careers/proposal-coordinator-opportunities) | Carahsoft | Reston, VA | $40,000–$50,000/year | Ask if remote (listed far away) |
 | [Contracts Coordinator](https://www.carahsoft.com/careers/contracts-coordinator) | Carahsoft | Reston, VA | $40,000–$50,000/year | Ask if remote (listed far away) |
+| [Marketing Specialist](https://himalayas.app/companies/true-vet-solutions/jobs/marketing-specialist?utm_source=api) | True Vet Solutions | Remote — United States | $45,000–$55,000/annual | On the site |
+| [Social Media Specialist](https://jobicy.com/jobs/164329-social-media-specialist) | Pacific Legal Foundation | Remote — USA | — | On the site |
 | [Administrative & Communications Coordinator](https://www.simplyhired.com/job/S_ScbavL0yTnwhqmi_Vgp4PZo1QxvX8NuWEAjYPEl3rwuwOlvr-KHg) | Waccamaw Community Foundation | Murrells Inlet, SC | $42,000 - $52,000 a year | On the site |
 | [Inside Sales Representative / Existing Customer Accounts](https://weworkremotely.com/remote-jobs/infinity-inside-sales-representative-existing-customer-accounts) | Infinity | Remote | — | On the site |
 | [Field Marketing Coordinator, Upmarket](https://weworkremotely.com/remote-jobs/brex-field-marketing-coordinator-upmarket) | Brex | Remote | — | On the site |
@@ -65,7 +67,7 @@ Jobs on the site, plus Carahsoft jobs (they list Reston, VA but also hire remote
 
 ## Filtered out this run
 
-- Needs more experience: 88
+- Needs more experience: 89
 - Not an office/sales role: 29
 - Needs closing experience: 27
 - commission-only: 16
@@ -73,3 +75,4 @@ Jobs on the site, plus Carahsoft jobs (they list Reston, VA but also hire remote
 - remote-abroad: 4
 - language: 3
 - abroad: 2
+- Duplicate: 2
