@@ -1,8 +1,8 @@
 # Office & Gov Sales report
 
-Rebuilt automatically every feed run. Last run: 2026-11-27 19:54 UTC.
+Rebuilt automatically every feed run. Last run: 2026-11-28 04:42 UTC.
 
-## Worth a look (32)
+## Worth a look (34)
 
 Jobs on the site, plus Carahsoft jobs (they list Reston, VA but also hire remote: ask).
 
@@ -14,11 +14,13 @@ Jobs on the site, plus Carahsoft jobs (they list Reston, VA but also hire remote
 | [Proposal Coordinator](https://www.carahsoft.com/careers/proposal-coordinator-opportunities) | Carahsoft | Reston, VA | $40,000–$50,000/year | Ask if remote (listed far away) |
 | [Contracts Coordinator](https://www.carahsoft.com/careers/contracts-coordinator) | Carahsoft | Reston, VA | $40,000–$50,000/year | Ask if remote (listed far away) |
 | [Marketing Specialist](https://himalayas.app/companies/true-vet-solutions/jobs/marketing-specialist?utm_source=api) | True Vet Solutions | Remote — United States | $45,000–$55,000/annual | On the site |
+| [Digital Marketing Specialist - Remote Entry Level](https://www.writerremote.com/digital-marketing-specialist-remote-entry-level/) | Writer Remote | — | — | On the site |
 | [Social Media Specialist](https://jobicy.com/jobs/164329-social-media-specialist) | Pacific Legal Foundation | Remote — USA | — | On the site |
 | [Administrative & Communications Coordinator](https://www.simplyhired.com/job/S_ScbavL0yTnwhqmi_Vgp4PZo1QxvX8NuWEAjYPEl3rwuwOlvr-KHg) | Waccamaw Community Foundation | Murrells Inlet, SC | $42,000 - $52,000 a year | On the site |
 | [Inside Sales Representative / Existing Customer Accounts](https://weworkremotely.com/remote-jobs/infinity-inside-sales-representative-existing-customer-accounts) | Infinity | Remote | — | On the site |
 | [Field Marketing Coordinator, Upmarket](https://weworkremotely.com/remote-jobs/brex-field-marketing-coordinator-upmarket) | Brex | Remote | — | On the site |
 | [Technology Sales Representative (Entry Level) – SMB IT Solutions](https://vizi.vizirecruiter.com/CONNECTION-3063/389764/index.html) | Connection (GovConnection) | Remote, NC | — | On the site |
+| [Content Writer & Marketing Coordinator - Full Time, Entry Level](https://virtual.up.railway.app/content-writer-marketing-coordinator-full-time-entry-level/) | Virtual Railway | — | — | On the site |
 | [Performance Marketing Specialist (100% Remote - Chicago Area Preferred)](https://jobicy.com/jobs/163762-performance-marketing-specialist-100-remote-chicago-area-preferred) | WIN Home Inspection | Remote — USA | — | On the site |
 | [Growth Marketing Specialist (100% Remote - Chicago Area Preferred)](https://jobicy.com/jobs/163743-growth-marketing-specialist-100-remote-chicago-area-preferred) | WIN Home Inspection | Remote — USA | — | On the site |
 | [Sales Assistant / Model Home Attendant](https://www.adzuna.com/details/5974768285?utm_medium=api&utm_source=ea9765bf) | Taleo Social Sourcing | Myrtle Beach, Horry County | — | On the site |
@@ -51,7 +53,7 @@ Jobs on the site, plus Carahsoft jobs (they list Reston, VA but also hire remote
 | GuidePoint Security | greenhouse | 15 |
 | Trace3 | greenhouse | 17 |
 | OpenGov | ashby | 0 |
-| Axon | greenhouse | 74 |
+| Axon | greenhouse | 76 |
 | SHI International | workday | 1 |
 | Connection (GovConnection) | vizi | 36 |
 | Iron Bow Technologies | greenhouse | 1 |
@@ -67,12 +69,13 @@ Jobs on the site, plus Carahsoft jobs (they list Reston, VA but also hire remote
 
 ## Filtered out this run
 
-- Needs more experience: 89
-- Not an office/sales role: 29
+- Needs more experience: 91
+- Not an office/sales role: 31
 - Needs closing experience: 27
 - commission-only: 16
 - Far away, not remote: 9
-- remote-abroad: 4
+- junk-listing: 5
+- remote-abroad: 5
 - language: 3
 - abroad: 2
-- Duplicate: 2
+- Duplicate: 1

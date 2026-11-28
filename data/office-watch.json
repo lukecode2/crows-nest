@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-27T19:54:59.794Z",
+  "generatedAt": "2026-11-28T04:42:54.643Z",
   "about": "Office & Gov Sales watch: every office-track job and every job at a watched company this run, kept or not.",
   "companies": [
     {
@@ -35,7 +35,7 @@
     {
       "name": "Axon",
       "ats": "greenhouse",
-      "jobsSeen": 74
+      "jobsSeen": 76
     },
     {
       "name": "SHI International",
@@ -321,12 +321,12 @@
       "status": "Needs more experience"
     },
     {
-      "id": "ee65c1700f1941d43dd93634667be1f750b53f88",
+      "id": "f1dd3fd8bbef2416d63b8bc3d2fbd3c5ea098892",
       "title": "Technical Account Manager",
       "company": "Axon",
-      "location": "Canada, Ontario - Remote",
+      "location": "Canada; Canada, Ontario - Remote",
       "pay": "",
-      "url": "https://job-boards.greenhouse.io/axon/jobs/8200521003",
+      "url": "https://job-boards.greenhouse.io/axon/jobs/8042296003",
       "source": "ats",
       "track": "office",
       "kept": false,
@@ -353,6 +353,22 @@
       "status": "Needs more experience"
     },
     {
+      "id": "ee65c1700f1941d43dd93634667be1f750b53f88",
+      "title": "Technical Account Manager",
+      "company": "Axon",
+      "location": "Canada, Ontario - Remote",
+      "pay": "",
+      "url": "https://job-boards.greenhouse.io/axon/jobs/8200521003",
+      "source": "ats",
+      "track": "office",
+      "kept": false,
+      "dropReason": "senior",
+      "snippet": "Join Axon and be a Force for Good. At Axon, we’re on a mission to Protect Life. We’re explorers, pursuing society’s most critical safety and justice issues wit…",
+      "watchedCompany": true,
+      "askRemote": false,
+      "status": "Needs more experience"
+    },
+    {
       "id": "a472011fed50b4d85fe1de236796fd8f98480605",
       "title": "Marketing Specialist",
       "company": "True Vet Solutions",
@@ -369,20 +385,68 @@
       "status": "On the site"
     },
     {
-      "id": "f1dd3fd8bbef2416d63b8bc3d2fbd3c5ea098892",
-      "title": "Technical Account Manager",
+      "id": "2f1056091f1295dab1adf70b6b34d624534da414",
+      "title": "Air Account Executive",
       "company": "Axon",
-      "location": "Canada; Canada, Ontario - Remote",
+      "location": "Remote — USA",
       "pay": "",
-      "url": "https://job-boards.greenhouse.io/axon/jobs/8042296003",
-      "source": "ats",
-      "track": "office",
+      "url": "https://jobicy.com/jobs/164596-air-account-executive",
+      "source": "jobicy",
+      "track": "tech-sales",
       "kept": false,
       "dropReason": "senior",
       "snippet": "Join Axon and be a Force for Good. At Axon, we’re on a mission to Protect Life. We’re explorers, pursuing society’s most critical safety and justice issues wit…",
       "watchedCompany": true,
       "askRemote": false,
       "status": "Needs more experience"
+    },
+    {
+      "id": "2f1056091f1295dab1adf70b6b34d624534da414",
+      "title": "Air Account Executive",
+      "company": "Axon",
+      "location": "Remote — USA",
+      "pay": "",
+      "url": "https://jobicy.com/jobs/164596-air-account-executive",
+      "source": "jobicy",
+      "track": "tech-sales",
+      "kept": false,
+      "dropReason": "senior",
+      "snippet": "Join Axon and be a Force for Good. At Axon, we’re on a mission to Protect Life. We’re explorers, pursuing society’s most critical safety and justice issues wit…",
+      "watchedCompany": true,
+      "askRemote": false,
+      "status": "Needs more experience"
+    },
+    {
+      "id": "dffe8c5e29cb4e7a69186c19f59db005c5101e2d",
+      "title": "Entry Level Marketing Copywriter - Remote, No Experience Needed",
+      "company": "Remote Writer Global",
+      "location": "",
+      "pay": "",
+      "url": "https://www.remotewriterglobal.com/entry-level-marketing-copywriter-remote-no-experience-needed/",
+      "source": "jsearch",
+      "track": "office",
+      "kept": false,
+      "dropReason": "junk-listing",
+      "snippet": "via Remote Writer Global. We are looking for a beginner-friendly Marketing Copywriter to create clear, engaging copy for ads, blogs, and email campaigns. This …",
+      "watchedCompany": false,
+      "askRemote": false,
+      "status": "junk-listing"
+    },
+    {
+      "id": "62ef3b5d97049a0a34fdd712a00c2ac5459c9731",
+      "title": "Digital Marketing Specialist - Remote Entry Level",
+      "company": "Writer Remote",
+      "location": "",
+      "pay": "",
+      "url": "https://www.writerremote.com/digital-marketing-specialist-remote-entry-level/",
+      "source": "jsearch",
+      "track": "office",
+      "kept": true,
+      "dropReason": null,
+      "snippet": "via Writer Remote. Contract length:Full-Time Rate:Competitive entry-level pay, details shared upon application. Location:Fully remote – work from anywhere. Abo…",
+      "watchedCompany": false,
+      "askRemote": false,
+      "status": "On the site"
     },
     {
       "id": "18ceb4d5e075851d67ed5918655efcfa740f8a93",
@@ -447,6 +511,70 @@
       "watchedCompany": false,
       "askRemote": false,
       "status": "On the site"
+    },
+    {
+      "id": "340a73dc705511eac505c7dc2aa5e1f07a3cfc3a",
+      "title": "Digital Marketing Coordinator - Remote Entry Level",
+      "company": "Remote Writer Global",
+      "location": "",
+      "pay": "",
+      "url": "https://www.remotewriterglobal.com/digital-marketing-coordinator-remote-entry-level/",
+      "source": "jsearch",
+      "track": "office",
+      "kept": false,
+      "dropReason": "junk-listing",
+      "snippet": "via Remote Writer Global. Role:Digital Marketing Coordinator Contract length:Full Time Location:Fully Remote Rate:Competitive entry-level pay, details shared u…",
+      "watchedCompany": false,
+      "askRemote": false,
+      "status": "junk-listing"
+    },
+    {
+      "id": "2a9d820d8517bf7d9e9fe73de2f8b7805c2b8b00",
+      "title": "Remote Marketing Specialist job",
+      "company": "Apply for the Remote Marketing Specialist job",
+      "location": "",
+      "pay": "",
+      "url": "https://career.io/job/remote-remote-marketing-specialist-job-strykersville-apply-for-the-remote-2993bb93c0469223478619ef37d8fa28",
+      "source": "jsearch",
+      "track": "office",
+      "kept": false,
+      "dropReason": "remote-abroad",
+      "snippet": "via Career.io. Join Albit Kinetics as a Remote Marketing Specialist! Are you passionate about marketing and looking to make an impact in a dynamic and innovati…",
+      "watchedCompany": false,
+      "askRemote": false,
+      "status": "remote-abroad"
+    },
+    {
+      "id": "46b797284dd43b4e71d505737fc99261ca6678d3",
+      "title": "Graphic Design & Marketing Specialist - Remote Entry Level",
+      "company": "Remote Writer Global",
+      "location": "",
+      "pay": "",
+      "url": "https://www.remotewriterglobal.com/graphic-design-marketing-specialist-remote-entry-level/",
+      "source": "jsearch",
+      "track": "office",
+      "kept": false,
+      "dropReason": "junk-listing",
+      "snippet": "via Remote Writer Global. We're hiring a Graphic Design & Marketing Specialist to help bring brand and marketing strategy to life across print, digital, advert…",
+      "watchedCompany": false,
+      "askRemote": false,
+      "status": "junk-listing"
+    },
+    {
+      "id": "c4245e10bcea2cb1de015f53f4c605d70cfb8a0d",
+      "title": "Social Media Manager - Entry Level Remote",
+      "company": "Remote Writer Global",
+      "location": "",
+      "pay": "",
+      "url": "https://www.remotewriterglobal.com/social-media-manager-entry-level-remote/",
+      "source": "jsearch",
+      "track": "office",
+      "kept": false,
+      "dropReason": "junk-listing",
+      "snippet": "via Remote Writer Global. We are seeking a creative, digitally fluent, and highly motivated Social Media Manager to join our marketing team and help build and …",
+      "watchedCompany": false,
+      "askRemote": false,
+      "status": "junk-listing"
     },
     {
       "id": "27a8e4af97e4dd4bffe3d94b087b9a4011dc3de0",
@@ -673,6 +801,22 @@
       "status": "Needs closing experience"
     },
     {
+      "id": "3dea897b9617b7eb8aa1eda890faaef9e81940ce",
+      "title": "Marketing and Production Coordinator at MINA Group: 100% Remote (NV, FL, TX, IL, MD, VA, MN, OR, AZ, MA, ID, CO, CT)",
+      "company": "MINA Group",
+      "location": "",
+      "pay": "$65,000–$70,000/year",
+      "url": "https://www.flexjobs.com/gjw/mina_group/marketing-and-production-coordinator/publicjobs?id=0401d88a-c3a6-45dd-b198-bc7b664f8eae",
+      "source": "jsearch",
+      "track": "office",
+      "kept": false,
+      "dropReason": "off-track",
+      "snippet": "via FlexJobs. Marketing and Production Coordinator Join MINA Group as Marketing & Production Coordinator — create polished campaigns and memorable events, keep…",
+      "watchedCompany": false,
+      "askRemote": false,
+      "status": "Not an office/sales role"
+    },
+    {
       "id": "041ef97cf5b104f4f4ed61a41d0fb3cd2c027f43",
       "title": "Social Media Intern",
       "company": "Trace3",
@@ -849,6 +993,38 @@
       "status": "Not an office/sales role"
     },
     {
+      "id": "a4d2dbfa8a200e41edff12a72b55388c711d0a76",
+      "title": "Social Media & Paid Marketing Coordinator - Part Time Remote",
+      "company": "Remote Writer Global",
+      "location": "",
+      "pay": "",
+      "url": "https://www.remotewriterglobal.com/social-media-paid-marketing-coordinator-part-time-remote/",
+      "source": "jsearch",
+      "track": "office",
+      "kept": false,
+      "dropReason": "junk-listing",
+      "snippet": "via Remote Writer Global. About The Role We're looking for a part-time paid social media coordinator to manage the day-to-day execution, optimization, and repo…",
+      "watchedCompany": false,
+      "askRemote": false,
+      "status": "junk-listing"
+    },
+    {
+      "id": "64c70be1e71efd3c300dab47fcd53ffea5e91600",
+      "title": "Content Writer & Marketing Coordinator - Full Time, Entry Level",
+      "company": "Virtual Railway",
+      "location": "",
+      "pay": "",
+      "url": "https://virtual.up.railway.app/content-writer-marketing-coordinator-full-time-entry-level/",
+      "source": "jsearch",
+      "track": "office",
+      "kept": true,
+      "dropReason": null,
+      "snippet": "via Virtual Railway. Role Overview We're looking for an enthusiastic Content Writer & Marketing Coordinator to help develop and execute marketing campaigns acr…",
+      "watchedCompany": false,
+      "askRemote": false,
+      "status": "On the site"
+    },
+    {
       "id": "70ca26b1c7bb69ddebb07de3723a039343af679c",
       "title": "Performance Marketing Specialist (100% Remote - Chicago Area Preferred)",
       "company": "WIN Home Inspection",
@@ -913,6 +1089,22 @@
       "status": "On the site"
     },
     {
+      "id": "cd4d5e031103d3219f837ab5c97139e95fc8f231",
+      "title": "Project Coordinator (Entry-Level)",
+      "company": "Level",
+      "location": "",
+      "pay": "$51,613–$65,744/year",
+      "url": "https://ionwork.infinityfree.io/remote-jobs/project-coordinator-entry-level",
+      "source": "jsearch",
+      "track": "office",
+      "kept": false,
+      "dropReason": "off-track",
+      "snippet": "via Remote Jobs | Ionwork. Katapult Network is designed to help college graduates with zero to two years of professional experience find their next professiona…",
+      "watchedCompany": false,
+      "askRemote": false,
+      "status": "Not an office/sales role"
+    },
+    {
       "id": "22eecc1bdd6b4e7a94a5b5cdc354861d15182fb3",
       "title": "Channel Account Executive - LATAM",
       "company": "Bitwarden",
@@ -959,22 +1151,6 @@
       "watchedCompany": false,
       "askRemote": false,
       "status": "On the site"
-    },
-    {
-      "id": "7311374733223ce852717ba29315dc03837e8d3c",
-      "title": "Inside Sales Representative - Enterprise",
-      "company": "MaintainX",
-      "location": "Remote — USA",
-      "pay": "",
-      "url": "https://jobicy.com/jobs/156258-inside-sales-representative-enterprise",
-      "source": "jobicy",
-      "track": "office",
-      "kept": false,
-      "dropReason": "duplicate",
-      "snippet": "MaintainX is a leading mobile-first work execution platform for industrial and frontline teams. More than 13,000 customers , including Duracell, McDonald's, Sh…",
-      "watchedCompany": false,
-      "askRemote": false,
-      "status": "Duplicate"
     },
     {
       "id": "c311c6497475ee937c1d6dce41ffcb512db2c0cf",
